@@ -1,0 +1,8 @@
+/* Pretendard Variable 폰트 로컬 정의 — 외부 CDN 없이 동작하도록 프로젝트 폴더의 woff2를 참조 */
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 45 920;
+  font-style: normal;
+  font-display: swap;
+  src: local('Pretendard Variable'), url('PretendardVariable.woff2') format('woff2-variations');
+}

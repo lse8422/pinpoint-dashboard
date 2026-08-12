@@ -1,0 +1,457 @@
+﻿<!DOCTYPE html>
+<!-- 핀포인트 — 화성시 언론보도 대시보드: news_data.json(실데이터)을 불러와 통계 카드·차트 3종·키워드 TOP8·기간/분야 필터·검색·더보기 목록을 제공 -->
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>핀포인트 — 화성시 언론보도 대시보드</title>
+<link rel="stylesheet" href="pretendard.min.css">
+<link rel="stylesheet" href="flatpickr.min.css">
+<script src="chart.umd.min.js"></script>
+<script src="flatpickr.min.js"></script>
+<script src="flatpickr-ko.js"></script>
+<style>
+  :root {
+    --bg: #F5F7F5;
+    --text: #618A59;
+    --surface: #ffffff;
+    --border: #e3e8f0;
+    --title: #17335c;
+    --accent: #2d5aa8;
+    --accent-bg: #eef3fb;
+    --accent-hover: #dce7f7;
+    --muted: #7a8599;
+    --muted2: #9aa4b5;
+    --chip-text: #4a5568;
+    --chip-active-bg: #4d7045;
+    --summary-bg: #f8f9fc;
+    --summary-text: #4a5568;
+    --input-border: #d5dce8;
+    --neu-bg: #e3e5e8;
+    --neu-text: #363940;
+    --pos-bg: #dce4f2;
+    --pos-text: #3d4d72;
+    --neg: #C26060;
+    --article-title: #000000;
+    --stat-value: #4d7045;
+    --kw-color: #4d7045;
+    --badge-bg: #e8f0e6;
+    --badge-color: #4d7045;
+    --cat-bg: #e8f0e6;
+    --cat-color: #3a5631;
+    --ai-color: #4d7045;
+  }
+  body.dark .article .senti { font-weight: 500; }
+  body.dark {
+    --bg: #1a1a1a;
+    --text: #6e9c74;
+    --surface: #262626;
+    --border: #333333;
+    --title: #c8c8c8;
+    --accent: #6b9de8;
+    --accent-bg: #1a2540;
+    --accent-hover: #1e2d4d;
+    --muted: #888888;
+    --muted2: #888888;
+    --chip-text: #a0a0a0;
+    --chip-active-bg: #5b7a5a;
+    --summary-bg: #161616;
+    --summary-text: #a8a8a8;
+    --input-border: #333333;
+    --neu-bg: #636769;
+    --neu-text: #e2e2e2;
+    --pos-bg: #657F9F;
+    --pos-text: #e2e2e2;
+    --neg: #A85F5F;
+    --article-title: #b8b8b8;
+    --stat-value: #6e9c74;
+    --kw-color: #6e9c74;
+    --badge-bg: #3d5240;
+    --badge-color: #d4d4d4;
+    --cat-bg: #4a6248;
+    --cat-color: #d4d4d4;
+    --ai-color: #6e9c74;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Pretendard', 'Malgun Gothic', sans-serif; background: var(--bg); color: var(--text); }
+
+  header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 14px 24px; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  header h1 { font-size: 18px; color: var(--title); }
+  header h1 .pin { color: #e5484d; }
+  header .badge { font-size: 11px; background: var(--badge-bg); color: var(--badge-color); padding: 3px 10px; border-radius: 12px; font-weight: 600; }
+  header .period { font-size: 12px; color: var(--muted); }
+
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 20px 16px 40px; }
+
+  .period-bar { display: flex; gap: 8px; align-items: flex-start; margin-bottom: 14px; }
+  .period-bar .label { font-size: 14px; color: var(--muted); font-weight: 600; padding-top: 7px; }
+  .date-range-wrap { display: none; align-items: center; gap: 6px; }
+  .date-input { padding: 5px 10px; border: 1px solid var(--input-border); border-radius: 12px; font-size: 12px; background: var(--surface); color: var(--text); outline: none; cursor: pointer; }
+  .date-input:focus { border-color: var(--accent); }
+  .date-sep { font-size: 12px; color: var(--muted); }
+  .period-chips-col { display: flex; flex-direction: column; gap: 6px; }
+  .period-chips-row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  .data-range-note { font-size: 13px; color: var(--muted); margin-bottom: 8px; }
+  .data-range-note strong { color: var(--text); font-weight: 700; font-size: 14px; }
+
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 16px; }
+  .stat { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
+  .stat .label { font-size: 13px; color: var(--muted); margin-bottom: 4px; font-weight: 450; }
+  .stat .value { font-size: 25px; font-weight: 800; color: var(--stat-value); }
+  .stat .value.neg { color: var(--neg); }
+  .stat .sub { font-size: 12px; color: var(--muted2); margin-top: 2px; }
+
+  .charts { display: grid; grid-template-columns: 1.6fr 1fr 1fr; gap: 12px; margin-bottom: 16px; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
+  .card h3 { font-size: 15px; color: var(--article-title); margin-bottom: 10px; font-weight: 600; }
+  .chart-box { position: relative; height: 180px; }
+
+  .keywords { margin-bottom: 16px; }
+  .kw-list { display: flex; gap: 8px; flex-wrap: wrap; }
+  .kw { background: var(--cat-bg); color: var(--cat-color); font-size: 12px; padding: 4px 12px; border-radius: 14px; font-weight: 600; cursor: pointer; }
+  .kw:hover { background: var(--accent-hover); }
+  .kw b { color: var(--cat-color); }
+
+  .toolbar { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; align-items: center; }
+  .toolbar input { flex: 1; min-width: 160px; padding: 8px 14px; border: 1px solid var(--input-border); border-radius: 20px; font-size: 13px; outline: none; background: var(--surface); color: var(--text); }
+  .toolbar input:focus { border-color: var(--accent); }
+  .chip { padding: 6px 13px; border: 1px solid var(--input-border); border-radius: 16px; background: var(--surface); font-size: 12.5px; cursor: pointer; user-select: none; color: var(--chip-text); }
+  .chip.active { background: var(--chip-active-bg); color: #fff; border-color: var(--chip-active-bg); }
+  .chip.neg.active { background: var(--neg); border-color: var(--neg); }
+
+  .article { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; margin-bottom: 10px; }
+  .article.negative { border-left: 4px solid var(--neg); }
+  .article .top { display: flex; gap: 8px; align-items: center; margin-bottom: 6px; flex-wrap: wrap; }
+  .article .cat { font-size: 11.2px; background: var(--cat-bg); color: var(--cat-color); padding: 2px 8px; border-radius: 8px; font-weight: 600; }
+  .article .senti { font-size: 11.2px; padding: 2px 8px; border-radius: 8px; font-weight: 600; }
+  .senti.pos { background: var(--pos-bg); color: var(--pos-text); }
+  .senti.neu { background: var(--neu-bg); color: var(--neu-text); }
+  .senti.neg { background: var(--neg-senti-bg, #f0e6e6); color: var(--neg); }
+  .article .date { font-size: 11px; color: var(--muted2); margin-left: auto; }
+  .article .title { font-size: 14.5px; font-weight: 700; margin-bottom: 5px; color: var(--article-title); }
+  .article .summary { font-size: 12.5px; color: var(--summary-text); line-height: 1.6; background: var(--summary-bg); border-radius: 8px; padding: 8px 12px; }
+  .article .summary .ai { font-size: 10.5px; color: var(--ai-color); font-weight: 700; margin-right: 6px; }
+  .list-count { font-size: 12px; color: var(--muted); margin-bottom: 8px; }
+
+  .more-wrap { text-align: center; margin: 14px 0; }
+  .more-btn { padding: 9px 34px; border: 1px solid var(--input-border); border-radius: 20px; background: var(--surface); font-size: 13px; font-weight: 600; color: var(--accent); cursor: pointer; }
+  .more-btn:hover { border-color: var(--accent); }
+
+  .load-error { background: #fdebec; border: 1px solid #f5c2c5; color: #c62828; border-radius: 12px; padding: 16px; font-size: 13px; line-height: 1.7; margin-bottom: 16px; }
+
+  footer { text-align: center; font-size: 11px; color: var(--muted2); padding: 10px 0 30px; }
+  @media (max-width: 800px) { .stats { grid-template-columns: repeat(2, 1fr); } .charts { grid-template-columns: 1fr; } }
+  body.dark .senti.neg { background: #A85F5F; color: #e2e2e2; }
+
+  /* Flatpickr 커스텀 스타일 */
+  .flatpickr-calendar { font-family: 'Pretendard', sans-serif; font-size: 13px; border: 1px solid #e0e0e0; box-shadow: 0 2px 10px rgba(0,0,0,.08); background: #ffffff; border-radius: 8px; padding: 4px; }
+  .flatpickr-day { color: #333; border-radius: 4px; border: none; }
+  .flatpickr-day.selected, .flatpickr-day.selected:hover { background: var(--chip-active-bg); border-color: var(--chip-active-bg); color: #fff; }
+  .flatpickr-day:hover:not(.flatpickr-disabled) { background: #f0f0f0; }
+  .flatpickr-day.flatpickr-disabled, .flatpickr-day.flatpickr-disabled:hover { color: #d0d0d0; background: none; cursor: default; }
+  .flatpickr-day.today { border-color: #ccc; }
+  .flatpickr-months .flatpickr-month, .flatpickr-weekdays, span.flatpickr-weekday { background: #ffffff; color: #555; font-weight: 500; }
+  .flatpickr-current-month .flatpickr-monthDropdown-months, .flatpickr-current-month input.cur-year { color: #333; font-weight: 600; }
+  .flatpickr-prev-month svg, .flatpickr-next-month svg { fill: #888; }
+  .flatpickr-prev-month:hover svg, .flatpickr-next-month:hover svg { fill: #333; }
+  body.dark .flatpickr-calendar { background: #2e2e2e; border-color: #444; box-shadow: 0 2px 10px rgba(0,0,0,.3); }
+  body.dark .flatpickr-day { color: #ccc; }
+  body.dark .flatpickr-day:hover:not(.flatpickr-disabled) { background: #3a3a3a; }
+  body.dark .flatpickr-day.selected, body.dark .flatpickr-day.selected:hover { background: var(--chip-active-bg); border-color: var(--chip-active-bg); color: #fff; }
+  body.dark .flatpickr-day.flatpickr-disabled, body.dark .flatpickr-day.flatpickr-disabled:hover { color: #555; }
+  body.dark .flatpickr-months .flatpickr-month, body.dark .flatpickr-weekdays, body.dark span.flatpickr-weekday { background: #2e2e2e; color: #aaa; }
+  body.dark .flatpickr-current-month input.cur-year, body.dark .flatpickr-current-month .flatpickr-monthDropdown-months { color: #ddd; }
+  body.dark .flatpickr-prev-month svg, body.dark .flatpickr-next-month svg { fill: #888; }
+
+  #darkToggle { margin-left: auto; background: var(--bg); border: 1px solid var(--border); border-radius: 6px; padding: 5px 12px; font-size: 12px; color: #7a7a7a; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 5px; }
+  #darkToggle:hover { background: #c8d9c4; }
+  body.dark #darkToggle { color: #e8e8e8; font-weight: 550; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1><span class="pin">📍</span> 핀포인트 — 화성시 언론보도 대시보드</h1>
+  <span class="badge" id="badge">데이터 불러오는 중…</span>
+  <button id="darkToggle" onclick="toggleDark()">🌙 다크</button>
+</header>
+
+<div class="wrap">
+  <div class="period-bar">
+    <span class="label">기간</span>
+    <div class="period-chips-col">
+      <div class="period-chips-row">
+        <span class="chip period-chip active" data-p="all">전체</span>
+        <span class="chip period-chip" data-p="7">최근 7일</span>
+        <span class="chip period-chip" data-p="30">최근 30일</span>
+        <span class="chip period-chip" data-p="custom">날짜 선택</span>
+        <span class="date-range-wrap" id="dateRangeWrap">
+          <input type="date" id="dateFrom" class="date-input">
+          <span class="date-sep">~</span>
+          <input type="date" id="dateTo" class="date-input">
+        </span>
+      </div>
+      <div class="data-range-note" id="dataRangeNote"></div>
+    </div>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><div class="label">전체 기사</div><div class="value" id="stTotal">-</div><div class="sub">선택 기간 내</div></div>
+    <div class="stat"><div class="label">부정 보도</div><div class="value neg" id="stNeg">-</div><div class="sub" id="stNegRate"></div></div>
+    <div class="stat"><div class="label">최다 보도 분야</div><div class="value" id="stTopCat" style="font-size:23px;">-</div><div class="sub">기사 수 기준</div></div>
+    <div class="stat"><div class="label">핵심 키워드</div><div class="value" id="stTopKw" style="font-size:23px;">-</div><div class="sub">언급 빈도 1위</div></div>
+  </div>
+
+  <div class="charts">
+    <div class="card"><h3 id="dailyTitle">기사량 추이</h3><div class="chart-box"><canvas id="chDaily"></canvas></div></div>
+    <div class="card"><h3>분야별 비중</h3><div class="chart-box"><canvas id="chCat"></canvas></div></div>
+    <div class="card"><h3>긍정 · 중립 · 부정</h3><div class="chart-box"><canvas id="chSenti"></canvas></div></div>
+  </div>
+
+  <div class="card keywords"><h3>주요 키워드 TOP 8</h3><div class="kw-list" id="kwList"></div></div>
+
+  <div class="toolbar">
+    <input type="text" id="search" placeholder="기사 제목·키워드 검색">
+    <span class="chip cat-chip active" data-f="all">전체</span>
+    <span class="chip cat-chip" data-f="교통">교통</span>
+    <span class="chip cat-chip" data-f="환경">환경</span>
+    <span class="chip cat-chip" data-f="행정">행정</span>
+    <span class="chip cat-chip" data-f="문화관광">문화·관광</span>
+    <span class="chip cat-chip" data-f="산업경제">산업·경제</span>
+    <span class="chip cat-chip" data-f="안전">안전</span>
+    <span class="chip cat-chip" data-f="복지">복지</span>
+    <span class="chip cat-chip neg" data-f="부정">부정 이슈만</span>
+  </div>
+
+  <div class="list-count" id="listCount"></div>
+  <div id="list"></div>
+  <div class="more-wrap" id="moreWrap" style="display:none;"><button class="more-btn" id="moreBtn">더보기</button></div>
+</div>
+
+<footer>핀포인트(Pinpoint) — 빅카인즈 수집 기사를 AI로 분류·요약한 데이터 기반 대시보드.</footer>
+
+<script>
+const CAT_LABEL = { "교통": "교통", "환경": "환경", "행정": "행정", "문화관광": "문화·관광", "산업경제": "산업·경제", "안전": "안전", "복지": "복지" };
+const CAT_COLORS_LIGHT = { "안전": "#445951", "산업경제": "#446B58", "환경": "#8EA79D", "문화관광": "#BBC7C4", "행정": "#618C78", "교통": "#769789", "복지": "#DAE1DF" };
+const CAT_COLORS_DARK  = { "안전": "#47574a", "산업경제": "#506253", "환경": "#94a798", "문화관광": "#b9c6bb", "행정": "#6c846f", "교통": "#819885", "복지": "#dbe1db" };
+const SENTI_CLASS = { "긍정": "pos", "중립": "neu", "부정": "neg" };
+const PAGE_SIZE = 20;
+
+let NEWS = [];
+let period = "all";
+let customFrom = "", customTo = "";
+let filter = "all";
+let visibleCount = PAGE_SIZE;
+const charts = {};
+
+const fmtDate = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+const md = s => s.slice(5).replace("-", "/");
+
+function isDark() {
+  return document.body.classList.contains('dark');
+}
+function toggleDark() {
+  const on = document.body.classList.toggle('dark');
+  localStorage.setItem('darkMode', on ? '1' : '0');
+  document.getElementById('darkToggle').textContent = on ? '☀️ 라이트' : '🌙 다크';
+  applyChartDefaults();
+  if (NEWS.length) updateDashboard();
+}
+if (localStorage.getItem('darkMode') === '1') {
+  document.body.classList.add('dark');
+  document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('darkToggle').textContent = '☀️ 라이트';
+  });
+}
+
+function applyChartDefaults() {
+  if (isDark()) {
+    Chart.defaults.color = '#888888';
+    Chart.defaults.borderColor = '#2d2d2d';
+  } else {
+    Chart.defaults.color = '#666';
+    Chart.defaults.borderColor = 'rgba(0,0,0,0.1)';
+  }
+}
+
+function periodData() {
+  if (period === "all") return NEWS;
+  if (period === "custom") {
+    return NEWS.filter(n => (!customFrom || n.date >= customFrom) && (!customTo || n.date <= customTo));
+  }
+  const last = NEWS.reduce((m, n) => n.date > m ? n.date : m, NEWS[0].date);
+  const d = new Date(last + "T00:00:00");
+  d.setDate(d.getDate() - (Number(period) - 1));
+  const cut = fmtDate(d);
+  return NEWS.filter(n => n.date >= cut);
+}
+
+function weekStart(dateStr) {
+  const d = new Date(dateStr + "T00:00:00");
+  d.setDate(d.getDate() - (d.getDay() + 6) % 7);
+  return fmtDate(d);
+}
+
+function drawChart(id, config) {
+  if (charts[id]) charts[id].destroy();
+  charts[id] = new Chart(document.getElementById(id), config);
+}
+
+function updateDashboard() {
+  const data = periodData();
+
+  const total = data.length;
+  const negCount = data.filter(n => n.senti === "부정").length;
+  const catCount = {};
+  data.forEach(n => catCount[n.cat] = (catCount[n.cat] || 0) + 1);
+  const topCat = Object.entries(catCount).sort((a, b) => b[1] - a[1])[0];
+  const kwCount = {};
+  data.forEach(n => n.kw.forEach(k => kwCount[k] = (kwCount[k] || 0) + 1));
+  const kwSorted = Object.entries(kwCount).sort((a, b) => b[1] - a[1]);
+
+  document.getElementById("stTotal").textContent = total.toLocaleString() + "건";
+  document.getElementById("stNeg").textContent = negCount.toLocaleString() + "건";
+  document.getElementById("stNegRate").textContent = total ? "전체의 " + Math.round(negCount / total * 100) + "%" : "";
+  document.getElementById("stTopCat").textContent = topCat ? CAT_LABEL[topCat[0]] : "-";
+  document.getElementById("stTopKw").textContent = kwSorted.length ? kwSorted[0][0] : "-";
+
+  document.getElementById("kwList").innerHTML = kwSorted.slice(0, 8)
+    .map(([k, c]) => `<span class="kw">${k} <b>${c}</b></span>`).join("");
+
+  const byWeek = period === "all";
+  const bucket = {}, negBucket = {};
+  data.forEach(n => {
+    const key = byWeek ? weekStart(n.date) : n.date;
+    bucket[key] = (bucket[key] || 0) + 1;
+    negBucket[key] = (negBucket[key] || 0) + (n.senti === "부정" ? 1 : 0);
+  });
+  const keys = Object.keys(bucket).sort();
+  document.getElementById("dailyTitle").textContent = byWeek ? "주별 기사량 추이" : "일별 기사량 추이";
+
+  const lineBlue = isDark() ? "#6e9c74" : "#4d7045";
+  const lineBlueBg = isDark() ? "rgba(137,158,140,.15)" : "rgba(77,112,69,.12)";
+
+  drawChart("chDaily", {
+    type: "line",
+    data: { labels: keys.map(k => byWeek ? md(k) + "~" : md(k)),
+      datasets: [
+        { label: "전체", data: keys.map(k => bucket[k]), borderColor: lineBlue, backgroundColor: lineBlueBg, fill: true, tension: .35, pointRadius: 3 },
+        { label: "부정", data: keys.map(k => negBucket[k]), borderColor: isDark() ? "#A85F5F" : "#C26060", backgroundColor: isDark() ? "rgba(168,95,95,.22)" : "rgba(194,96,96,.17)", fill: true, tension: .35, pointRadius: 3 }
+      ] },
+    options: { maintainAspectRatio: false, plugins: { legend: { display: true, position: "top", labels: { boxWidth: 24, font: { size: 11 } } } }, scales: { y: { beginAtZero: true } } }
+  });
+
+  const CAT_ORDER = ["산업경제","문화관광","행정","안전","복지","교통","환경"];
+  const catKeys = CAT_ORDER.filter(c => catCount[c] !== undefined);
+  drawChart("chCat", {
+    type: "doughnut",
+    data: { labels: catKeys.map(c => CAT_LABEL[c]),
+      datasets: [{ data: catKeys.map(c => catCount[c]), backgroundColor: catKeys.map(c => isDark() ? (CAT_COLORS_DARK[c] || "#69926E") : (CAT_COLORS_LIGHT[c] || "#4d7045")), borderColor: isDark() ? "#262626" : "#ffffff", borderWidth: 3 }] },
+    options: { maintainAspectRatio: false, plugins: { legend: { position: "right", labels: { boxWidth: 11, font: { size: 11.5 } } } } }
+  });
+
+  const sentiCount = { "긍정": 0, "중립": 0, "부정": 0 };
+  data.forEach(n => sentiCount[n.senti]++);
+  drawChart("chSenti", {
+    type: "bar",
+    data: { labels: ["긍정", "중립", "부정"],
+      datasets: [{ data: [sentiCount["긍정"], sentiCount["중립"], sentiCount["부정"]], backgroundColor: [
+          isDark() ? "#4e637f" : "#6781A1",
+          isDark() ? "#5c5f64" : "#8d9096",
+          isDark() ? "#915454" : "#C26060"
+        ], borderRadius: 6 }] },
+    options: { maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true }, x: { ticks: { font: { weight: 600 } } } } }
+  });
+
+  visibleCount = PAGE_SIZE;
+  renderList();
+}
+
+function renderList() {
+  const q = document.getElementById("search").value.trim();
+  const data = periodData().filter(n => {
+    if (filter === "부정" && n.senti !== "부정") return false;
+    if (filter !== "all" && filter !== "부정" && n.cat !== filter) return false;
+    if (q && !(n.title.includes(q) || n.kw.some(k => k.includes(q)))) return false;
+    return true;
+  }).sort((a, b) => b.date.localeCompare(a.date));
+
+  const shown = data.slice(0, visibleCount);
+  document.getElementById("list").innerHTML = shown.map(n => `
+    <div class="article ${n.senti === "부정" ? "negative" : ""}">
+      <div class="top">
+        <span class="cat">${CAT_LABEL[n.cat]}</span>
+        <span class="senti ${SENTI_CLASS[n.senti]}">${n.senti}</span>
+        <span class="date">${n.date.replaceAll("-", ".")}</span>
+      </div>
+      <div class="title">${n.title}</div>
+      <div class="summary"><span class="ai">AI 요약</span>${n.summary}</div>
+    </div>`).join("");
+  document.getElementById("listCount").textContent =
+    "전체 " + data.length.toLocaleString() + "건 중 " + shown.length.toLocaleString() + "건 표시";
+  document.getElementById("moreWrap").style.display = data.length > visibleCount ? "" : "none";
+}
+
+document.querySelectorAll(".period-chip").forEach(c => c.addEventListener("click", () => {
+  document.querySelectorAll(".period-chip").forEach(x => x.classList.remove("active"));
+  c.classList.add("active");
+  period = c.dataset.p;
+  document.getElementById("dateRangeWrap").style.display = period === "custom" ? "flex" : "none";
+  updateDashboard();
+}));
+let fpFrom, fpTo;
+function initFlatpickr(minDate, maxDate) {
+  const opts = { locale: "ko", dateFormat: "Y-m-d", minDate, maxDate, disableMobile: false };
+  if (fpFrom) fpFrom.destroy();
+  if (fpTo) fpTo.destroy();
+  fpFrom = flatpickr("#dateFrom", { ...opts, onChange: ([d]) => { customFrom = d ? d.toISOString().slice(0,10) : ""; updateDashboard(); } });
+  fpTo   = flatpickr("#dateTo",   { ...opts, onChange: ([d]) => { customTo   = d ? d.toISOString().slice(0,10) : ""; updateDashboard(); } });
+}
+document.querySelectorAll(".cat-chip").forEach(c => c.addEventListener("click", () => {
+  document.querySelectorAll(".cat-chip").forEach(x => x.classList.remove("active"));
+  c.classList.add("active");
+  filter = c.dataset.f;
+  visibleCount = PAGE_SIZE;
+  renderList();
+}));
+document.getElementById("search").addEventListener("input", () => { visibleCount = PAGE_SIZE; renderList(); });
+document.getElementById("moreBtn").addEventListener("click", () => { visibleCount += PAGE_SIZE; renderList(); });
+
+document.getElementById("kwList").addEventListener("click", e => {
+  const chip = e.target.closest(".kw");
+  if (!chip) return;
+  document.getElementById("search").value = chip.firstChild.textContent.trim();
+  visibleCount = PAGE_SIZE;
+  renderList();
+});
+
+
+async function init() {
+  applyChartDefaults();
+  try {
+    const res = await fetch("news_data.json");
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    NEWS = await res.json();
+    if (!Array.isArray(NEWS) || NEWS.length === 0) throw new Error("빈 데이터");
+    document.getElementById("badge").textContent = "실데이터 " + NEWS.length.toLocaleString() + "건";
+    const allDates = NEWS.map(n => n.date).sort();
+    const minDate = allDates[0], maxDate = allDates[allDates.length - 1];
+    const fmt = d => d.replaceAll("-", ".");
+    document.getElementById("dataRangeNote").innerHTML =
+      `수집 기간&nbsp;<strong>${fmt(minDate)} ~ ${fmt(maxDate)}</strong>`;
+    initFlatpickr(minDate, maxDate);
+    updateDashboard();
+  } catch (e) {
+    document.getElementById("badge").textContent = "데이터 로드 실패";
+    document.querySelector(".wrap").insertAdjacentHTML("afterbegin",
+      `<div class="load-error"><b>데이터를 불러오지 못했습니다.</b><br>
+      news_data.json 파일이 index.html과 같은 폴더에 있는지 확인해 주세요.<br>
+      파일을 브라우저로 직접 열면(file://) 보안 정책 때문에 로드가 막힙니다.
+      터미널에서 <code>python3 -m http.server 8000</code> 실행 후 <code>http://localhost:8000</code> 으로 접속해 주세요. (오류: ${e.message})</div>`);
+  }
+}
+init();
+</script>
+</body>
+</html>
