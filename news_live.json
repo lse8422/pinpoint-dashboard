@@ -1,9 +1,1185 @@
 {
-  "updated": "2026-08-14 22:26",
+  "updated": "2026-08-14 22:32",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 95,
+  "count": 195,
   "items": [
+    {
+      "date": "2026-08-02",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "민원보다 먼저 움직이는 행정… AI가 바꾸는 화성시",
+      "summary": "화성시가 AI 기술을 활용해 민원 발생 전 선제적으로 행정 서비스를 제공한다.",
+      "kw": [
+        "AI기술",
+        "선제행정",
+        "민원개선"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5zaDhUYXQ4RDRycmlCaFFYUXdFUFA4YVR2aU1NcHVBV3pvRDRvb3Fmc1hXaHpaZ0trTm5qM3FQTWZoVlp1WkZwQlFlaURBbTc2cHc?oc=5",
+      "source": "kyeongin.com"
+    },
+    {
+      "date": "2026-08-02",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "‘준신축 신도시’ 동탄1도 늙는다… 리모델링 기본계획 착수 - 조선비즈",
+      "summary": "동탄1도시의 노후화에 따라 리모델링 기본계획 추진",
+      "kw": [
+        "동탄1도시",
+        "리모델링",
+        "재개발"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZGgtcFBOR1RBOEVXVDRReFVLMTZqVUE1UTlsZlh6OTBSZnVMa2pWc1VWZnNuVERBaGFkUE9yQWtFVXBoM21DOVVHZ3lQVVppZ3dlYVV1dXp3VjNtZU55ZHRxcURJQUR2VUdHSVJtQkVmVFdOMURXbWpabnFzNDJTWWw0eVk3a1RTWmVNSEN3M2hDYTZFa1l3etIBrAFBVV95cUxQcnRJNk9rcTNqZDlMMVhCV3BhSElhdzFvdWc4aG9EMnQyS3haclpiUUNhelM0MEJvcFhiaExoeUJrRDZVR1VNTkxMM25GMlN5WUlDcmhGNHlndXNKb0FjUXdERDJxQmg3ZXZvckdXMzVBNUt0LWtoSW1tMkVUc2VZX1NQeDJoOXJvanU4T0doZlUwbUpidEZ1aG8tVUJQcW9nc0VGclVnZS1ESi1W?oc=5",
+      "source": "Chosunbiz"
+    },
+    {
+      "date": "2026-08-03",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "성과급 풀려 ‘금탄’ 된 동탄... 평균 36세 가장 젊은 부촌",
+      "summary": "동탄 지역의 성과급 풀로 인한 부동산 가격 상승 추세 분석",
+      "kw": [
+        "동탄",
+        "부촌",
+        "가격상승"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ2tla1BORkhudmZJTnZJYWV2QXQwQTN5LW5BX3VnU0VEbFVlRTdaY2F0c0hfdnBMUXF0WU15cVZ6aFVvUGVPbE82WDd1QjI2eHNFS0JmZHo0WVV1aUIyVG40Y3VCRzBLcmFlRVFrZkhYTk9qQVJtLXI4VmNseDhycExFaVJhMzJpc0I4dWZNUEw?oc=5",
+      "source": "조선일보"
+    },
+    {
+      "date": "2026-08-03",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "동탄 뜨니… 옆동네 병점·오산도 살아났다",
+      "summary": "동탄 부동산 시장 활성화로 인접한 병점, 오산 지역도 함께 상승세를 보이고 있다.",
+      "kw": [
+        "동탄",
+        "부동산",
+        "시장활성화"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcVM5NkVCbGRPS1BvLU5rTWJLV0cxYkgyTU9Xd3NmZ1hUWFVEdG50SWl3a3lSaXpEakt4MGJobVphVmtiWjl6cGtIY2VseFhwUkhtT1FoMnI3bkNEMWk2Q01IcnM0N19lbHlLX0NWb2R5M2VkS2g1TWxSN1Y1bUxUVkxRbkZGT0dZZk1jSmo0dlA?oc=5",
+      "source": "조선일보"
+    },
+    {
+      "date": "2026-08-03",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "명품 소비 40% 늘었다, 금탄 된 동탄",
+      "summary": "동탄 지역의 명품 소비가 40% 증가하며 소비 시장이 활발해지고 있다.",
+      "kw": [
+        "동탄",
+        "명품소비",
+        "소비시장"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdURCQ2FOZkxRcWpBY0NYb0pjazBVSkM0VUpveHNpb1c4WTZEUlFDVzJpajc4WDYtSER1WlJ6SmRUcXRwbmpib2NqNThKOG5RRGhfUXNBSEFZcXctVjZaemZ0TUMxanVsQmdKbXlYd181anhCOHc5QkZYM3RwOE5vQWtoM3BYYW5NSFd3QnZ3QlM?oc=5",
+      "source": "조선일보"
+    },
+    {
+      "date": "2026-08-03",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "동탄 최중심 심장부, 20년만에 베일 벗는다",
+      "summary": "동탄 중심부의 주요 개발 프로젝트가 20년 만에 공개된다.",
+      "kw": [
+        "동탄",
+        "개발",
+        "심장부"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE95UjNKcjk5Nk5iVTd2Y09MbzZVMFdYWkdNcC1JZHlhc3lSVWtpUE9qRGNFQlE4T1BILUZBTUl4M2h4UEEzWmJubGxGNUZKQUYzMnVyeHVvNDVUTlVUaTNqc1lTLW8?oc=5",
+      "source": "ikld.kr"
+    },
+    {
+      "date": "2026-08-03",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "동탄 수영장 여탈의실 불법촬영 20대 안전요원 체포",
+      "summary": "동탄의 수영장 여탈의실에서 불법촬영을 한 20대 안전요원이 체포되었다.",
+      "kw": [
+        "동탄",
+        "불법촬영",
+        "안전요원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1yQjRleGpHcHdpam1CQ3B0azc5Y2NnTnA0QzgzTFltcXFKWG9DYjVsZ2NaeHRhdlltMFRRUHB5N2RQUWowN2dtZThab0Q5bUU5dF9US0NrWWxEcG8?oc=5",
+      "source": "경기일보"
+    },
+    {
+      "date": "2026-08-03",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "화성 동탄서 택시와 충돌사고...오토바이 운전자 숨져",
+      "summary": "화성 동탄에서 택시와 오토바이 충돌사고로 오토바이 운전자 사망",
+      "kw": [
+        "충돌사고",
+        "교통안전",
+        "사망"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1reFZhakNidENCNXB1UHNLa2hTSlcxQ3ZTR19PYXpNOEhIa1pnTG1Vd1FGalFYVGNfQXBpNXFuLUVHZ01vSXU1cU85OVExV1JTMjBPT0YtemEtY3ZaWDZxSk5n?oc=5",
+      "source": "경기신문"
+    },
+    {
+      "date": "2026-08-03",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "요아정, 동탄서 ‘빙수의 정석’ 팝업 연다",
+      "summary": "요아정이 동탄에서 빙수 팝업 이벤트 개최",
+      "kw": [
+        "팝업스토어",
+        "빙수",
+        "문화행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE13RkJ5VEY5cElUT0Q2YmtkdE45b281R241cDZlbk1leXBFQXlxZHVEdmVBLTBYMGhCOGVtUTJwRi1aMVdoN2JmV3NRYUQ2N3VwTS1lRENmRXZxWkFpODVHanZSLU8?oc=5",
+      "source": "sentv.co.kr"
+    },
+    {
+      "date": "2026-08-03",
+      "cat": "교통",
+      "senti": "긍정",
+      "title": "동탄역 KTX·SRT 정차 확대…주중 5회·주말 7회 늘어난다",
+      "summary": "동탄역 KTX·SRT 정차 회수 확대로 주중 5회, 주말 7회 증가",
+      "kw": [
+        "동탄역",
+        "KTX",
+        "교통편의"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1BSmhZOXFVLW5JYzlMT2dRTC1lZnVFcG5EamNiTThXbjhIbWc3dGNqTmZHWC03aFZXdkM5SElKSHNRbjNxWDBYdUFhejhRUzVQVElBVm5zVFM0V05Za1lKMVY0TEc?oc=5",
+      "source": "sentv.co.kr"
+    },
+    {
+      "date": "2026-08-03",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "동탄 사거리서 택시·오토바이 충돌사고…1명 사망·3명 부상 - 머니투데이",
+      "summary": "동탄 사거리 택시·오토바이 충돌사고로 1명 사망, 3명 부상",
+      "kw": [
+        "충돌사고",
+        "교통사고",
+        "인명피해"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAxWXRQa1FuZUxVUzF2WktqeEw5MlBMZHR3bjlSZ2U2YkwyYkdWNm1GVlBzVHlfdDl3aFFMY3YwYXFBZHFBc3RBQS05b2JCUXdCQXNhem1scldJOWpWRmFVRGxQV1Uyajd2VVBv0gFwQVVfeXFMTmZaRzdmWGhzRWlncUtzQ2xmbk0yVGI2UjF6SmIwRnd6MVI5amQyUE8wMVVhSnN5U25xUjVGTWhnTk93R3JvYzdaVVdnTy1pVnRNTW5jN2g2MmNTT3VmdHNYQzE0dVNhUHpEcFhmNEVaTQ?oc=5",
+      "source": "머니투데이"
+    },
+    {
+      "date": "2026-08-03",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "[한경 매물마당] 동탄신도시 중심상가 1층 약국 등 5건",
+      "summary": "동탄신도시 중심상가 1층 약국 등 5건의 부동산 매물을 소개한다.",
+      "kw": [
+        "상가",
+        "부동산",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9zY050cVRaXzQ3eXFTUmJYeVNlb3dsLXpxd05jVWpraHViRlQ4d2gzZDlhZlE4WXVwdXVRd1JLZlZ6blU1Z3B2QnRUTmg3U2oxX3dlYWljblRMUQ?oc=5",
+      "source": "한국경제"
+    },
+    {
+      "date": "2026-08-03",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "동탄 치동중 앞 사거리서 택시·오토바이 ‘쾅’…30대 남성 사망",
+      "summary": "동탄 치동중 앞 사거리에서 택시와 오토바이 충돌로 30대 남성 사망",
+      "kw": [
+        "교통사고",
+        "사망",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1OTS1ON1RyaER5bDNBVmU3UjV5YVRNcEVwTEZ1dmZ3QklJOHNMalRSU0ZKRFJzNVpDQ3dXVEVWb2ktcXZOMFdSZjdPdFdrRHlKek5wSTdwT3BwOHprOWo2RXd5cDdjWTNnWkxYejRzbEloRk13dHfSAWZBVV95cUxNb3Jhb0hCdHVCYzVnZG53TTMwazVQWDQzUUNTbDZzZFpieGx5SmpzbUx4cm9hT0tPcjBJQlN6cUt4Uk4xcnVqd3I3Z3ctZG5OU3FhOU5WR2c4ZU5TckRSTFdxSV96ZlE?oc=5",
+      "source": "동아일보"
+    },
+    {
+      "date": "2026-08-04",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "[안전상황실·4일] 화성 동탄서 택시·오토바이 충돌로 1명 '사망'",
+      "summary": "화성 동탄에서 택시와 오토바이 충돌로 1명 사망",
+      "kw": [
+        "충돌사고",
+        "교통사고",
+        "사망"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE13S2RIVEtWaFkwUmhuV05oaEJOcUdrY183U1JMdEFSSUFKNUJfOElfakJoeUVaV1NDbW9zMWdfRW84a1o1WHQ4QkdVN3pmc1cwam1GUjdkQ3pZTllHckt2Z1FGb0dkc0N6N1hTdVc0TdIBc0FVX3lxTE8yME1Gd1JSeGViZDc1WkRkdWpIQ0p6Qnd0X3Q3eURVX1BuWlFnVDVDVmI3UjNXNUluR1ZZS25HQ2pnZnFFMUFwb0g3QmRKOGo4a0R4TGJfRjQ5VEJ5eVp3WGNWM0NUSlRMYlVyUDd4Y01QX00?oc=5",
+      "source": "세이프타임즈"
+    },
+    {
+      "date": "2026-08-05",
+      "cat": "교통",
+      "senti": "긍정",
+      "title": "17년 기다린 동탄트램… 2031년 완공 목표 순항",
+      "summary": "17년 기다린 동탄트램이 2031년 완공 목표로 진행 중",
+      "kw": [
+        "트램",
+        "대중교통",
+        "2031년"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB6elZJaThIWGd1NzBBVkNGYnhPWUVuMjVlYlo0aUdNNHdFaWJzQjFkOEZVX3dkVjJ1dG1wT3Qxd21kTk83Y2p2N1lIVm9ZNjRvOFE?oc=5",
+      "source": "kyeongin.com"
+    },
+    {
+      "date": "2026-08-05",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "\"또 4억 올라\" 동탄 26억 신고가...20억 광명·16억 평촌, 경기 집값 뛴다 - 머니투데이",
+      "summary": "동탄 아파트 신고가가 26억까지 상승, 경기도 내 지역 간 격차 심화",
+      "kw": [
+        "동탄",
+        "아파트가격",
+        "신고가"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GYm0tVDNxdERWbUI0dnZMM0FyS016ZjJGV3Q2NGc1WXhUVWJaSUtjemI2RkNwNW05ODBlMXNTMzFGbG9TNmlOTXZ4TkVNSWZqMGh0QVkyX1JRcDNLRHlydWo4dnVTU0VtMEHSAW9BVV95cUxOaWhTTW41aUMyQ2tnX1kweHdrRUJ5dHRYVDE1YmdtR29IMDlVZS1tVU12NEJMNUhpSG9RRmVGOVpPa3MtaXFuTV8yRzhaY0JwNFBoejJFbTgyVFpyUnBtOTlkZk1sZDZGRlpsTEljNkU?oc=5",
+      "source": "머니투데이"
+    },
+    {
+      "date": "2026-08-05",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "GS건설, ‘오산헤리티지자이’ 분양…병점·동탄 생활권 인프라 공유",
+      "summary": "GS건설이 병점 오산헤리티지자이 분양, 동탄 생활권 인프라 활용",
+      "kw": [
+        "분양",
+        "병점",
+        "인프라"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB2SzRrX1hnWUJFbFpka0xWYjFsVDRGSWtqX3lwQlNDS3pZUXAzZEVJYnNGdHkwVTBHX2hmNlFRV1F3VVB2WHF1eTlUbXZ2RWFydWlwR1VFMk16b0tXWWNwRXdHd29ocEJYYkVjcGRHUFlsNDdKalHSAWZBVV95cUxQUXBLNWNoUEdsd2dJV1dlUG9kN0NWNmNyYWRPeHN5emF3TUo1NDNRN2tUMnBBSk5pdkhQMmo0ZlpneExfaHVUODU2b1J0bFBJajBLV2tFamJjQ1FPSUNoNlZqTFl2Unc?oc=5",
+      "source": "동아일보"
+    },
+    {
+      "date": "2026-08-05",
+      "cat": "산업경제",
+      "senti": "부정",
+      "title": "“거래 없는데 호가는 올라”…혼돈의 동탄·기흥·구리",
+      "summary": "동탄, 기흥, 구리 지역에서 실제 거래 없이 호가만 오르는 혼란스러운 시장 상황이 벌어지고 있다.",
+      "kw": [
+        "동탄",
+        "거래",
+        "호가"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1uMEVTQ2FEbWFxTGpRTEQ0d21BQzMyaG9qNzh4Nm13TU5wWVJOWUZxU3gyUWMzaUZKdk5rRFZOV3diX3FPUG16MlJla0J4M3BvT2c?oc=5",
+      "source": "서울경제"
+    },
+    {
+      "date": "2026-08-05",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "동탄2 유통3부지 개발 갈등 해결 국면 접어드나",
+      "summary": "동탄2 유통3부지 개발을 둘러싼 갈등이 해결 국면으로 접어들고 있다.",
+      "kw": [
+        "동탄2",
+        "유통부지",
+        "개발"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9tdDhJX0lyVnR0ZmJVSjhQOHVOMnBiUGw3TTdwU1Y2czhWd3hhNjNONFVmLUZpZjQ4clNmbEFlT2dQMjY0LW02YlVhem0zM2g0TFdobmRzLTVHTHdpSWt4R2hn?oc=5",
+      "source": "경기신문"
+    },
+    {
+      "date": "2026-08-05",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "동탄 묶이자 매물 말랐다… 병점역 생활권 '오산헤리티지자이' 공급 본격화",
+      "summary": "동탄 규제로 인한 수요 전환으로 병점역 생활권 오산헤리티지자이 공급 확대",
+      "kw": [
+        "동탄규제",
+        "병점역",
+        "주거공급"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9jWmduR21wMk85ajJXNkxUOVJ6N3dPVW9xMHRpWjJZaFl0VjN4cVJ6ME9wWkt2THZoREpBdnRlNUI4NXR0ZlhZdF9zdXp0QVZoZk90dEhsN2FrbEFkdEJWRk41VUY?oc=5",
+      "source": "ikld.kr"
+    },
+    {
+      "date": "2026-08-05",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "동탄 규제 이후 병점역 생활권 분양시장 관심...'오산헤리티지자이' 공급",
+      "summary": "동탄 규제 이후 병점역 생활권 오산헤리티지자이 분양 관심 증가",
+      "kw": [
+        "동탄규제",
+        "병점역",
+        "분양"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1PaG5fdjJQSGlRV19ta2ZTZGFCUGtXRmZ2dDd2WHZGZjNZVVpqcVhaZmFMT0ZsdGpOeG1tdTVMVTVvMmp2WWpvSG1XU204TmtpRFZXNGpEZ2E1d1JzQUtmNE9GRG1qOFBk?oc=5",
+      "source": "한경매거진&북"
+    },
+    {
+      "date": "2026-08-05",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "청약통장 없이 신도시 입성…'e편한세상 동탄 파크아너스' 무순위 줍줍, 분양가는?",
+      "summary": "청약통장 없이 분양받을 수 있는 e편한세상 동탄 파크아너스의 무순위 청약과 분양가를 소개한다.",
+      "kw": [
+        "신도시",
+        "분양",
+        "청약"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE10MjI4OUpBTDNSZTNuZWVjb05UWjQwV0JsQk9rSV9PTDBUTXZtT1dKNTJVVXFHRmt5RFVPcXhOZVlaM2w0bkhCckgyQjRqdF96Ny00SnlB?oc=5",
+      "source": "위키트리"
+    },
+    {
+      "date": "2026-08-05",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시 동탄구 '나홀로 만족'…각 구별 생활인프라 격차",
+      "summary": "화성시 동탄구가 생활인프라에서 높은 만족도를 보이나 각 구별 격차가 있다.",
+      "kw": [
+        "생활인프라",
+        "동탄구",
+        "주민만족"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE03WnBTeGY2d0lvUzJJcmlkTnR0WENTRi1jM285aEI0Sjd2cGRsMzNVLVppWGhtUVltSVozYWJHaVZpUXBiRXdpQ2xJT21lSlBGVnA4OEE4U2FjVlpDc2FicU1XY1lyaFhYdkQxb2ctMU1YRlNBWm00NdIBeEFVX3lxTE03WnBTeGY2d0lvUzJJcmlkTnR0WENTRi1jM285aEI0Sjd2cGRsMzNVLVppWGhtUVltSVozYWJHaVZpUXBiRXdpQ2xJT21lSlBGVnA4OEE4U2FjVlpDc2FicU1XY1lyaFhYdkQxb2ctMU1YRlNBWm00NQ?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-08-05",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "김상균 화성시의원, 동탄2 유통3부지 해법 마련 나서",
+      "summary": "화성시의원 김상균이 동탄2 유통3부지 문제의 해법 마련을 나선다.",
+      "kw": [
+        "동탄2",
+        "유통부지",
+        "시정"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5IUWZVazVhSWc4Mm5ZWmRkeFM0RlNjYXpLakJINXJCNnV4SkxlbWhNaGZOT20wX3VWX09wT0xHTXpXTk9fMVRNZU5yTGs4MEt3alBmQkZmODg0V3JqcHNxZ0d3YXMySXM0V3Y2MEQ2Uko?oc=5",
+      "source": "신아일보"
+    },
+    {
+      "date": "2026-08-05",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "동탄 핵심 입지 개발 본격화… ‘아크메르 동탄’ 하반기 분양 예정",
+      "summary": "동탄 핵심 입지의 아크메르 동탄이 하반기 분양을 예정하며 개발을 본격화한다.",
+      "kw": [
+        "분양",
+        "동탄",
+        "개발"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBzeTNwLVNxLXEtVXFrYUNQak54NG1mWERpWVN2M2czeG1XaUJwTWhzSnBGTHFUOHZxSFNGSzBCdHhvbjRTWUlIaEo0OWNhX1pwWlBIb3h3MUFsNXdlTzJpa09lUDM0RUMtQ2ZKbzg4Zw?oc=5",
+      "source": "서울신문"
+    },
+    {
+      "date": "2026-08-06",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "[속보] 화성 동탄2 유통3부지 개발 새 국면…화성특례시, 공동주택용지 용도변경 추진",
+      "summary": "화성시가 동탄2 유통3부지를 공동주택용지로 용도변경 추진",
+      "kw": [
+        "동탄2",
+        "용도변경",
+        "개발"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9qZUx2SFpaYWEyOUgxUEV1OUU2WFZvS2V0VUhJUVR1ZXVpTEk5NGUxd2tUUUtJVGZlMGhxemVuai15QXF1NV8xYzRkdWlVMHViRkJ2MW4wc0tReHpJeHZtcnJ3?oc=5",
+      "source": "경기신문"
+    },
+    {
+      "date": "2026-08-06",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "[채 기자의 미래지도] ‘20억 동탄’ 찍은 화성시, 내국인 ‘100만’ 새 역사 쓴다",
+      "summary": "화성시 인구가 100만을 돌파하며 20억 대 부동산 시장의 성장으로 새 역사를 기록한다.",
+      "kw": [
+        "화성시",
+        "인구",
+        "부동산"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8yQUFIcnJmN1lQVThxaHdwUl9QRjZZdkdQc04zdWJVSERhVEdMbWJXTEszcU51a0RaUTcwZXAzVEp5cDdpZ1lsUXBoeTJXMFIyaVc3bElXUVZWQQ?oc=5",
+      "source": "브릿지경제"
+    },
+    {
+      "date": "2026-08-06",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "반도체 산업 성장에 주거수요 확대…'동탄역 디에트르 퍼스티지' 관심",
+      "summary": "반도체산업 성장에 따른 주거수요 증가로 동탄역 디에트르 퍼스티지에 관심 집중",
+      "kw": [
+        "반도체산업",
+        "주거수요",
+        "동탄역"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBPbnNtLUpab0l5T0VEaFVvS2M0c1gzaGxOX2twQXhTYlMzOC1lb3lPUEVMbUVCNXJkVWdYV2hXaGNzb2R5QXNSSU1rUDZlLUY2THpGX2dJQUNrSk0zb3JfLWVkSU9PMXpKbHpCcg?oc=5",
+      "source": "한경매거진&북"
+    },
+    {
+      "date": "2026-08-06",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "동탄 묶자 병점 뛰었다… 규제지역 옆 비규제지 풍선효과 뚜렷",
+      "summary": "동탄 규제 후 비규제지역 병점으로 수요 이동 현상 가속화",
+      "kw": [
+        "규제회피",
+        "수요전환",
+        "병점"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAtTnI2eWVadGhuSGYzQk8yNW5JLUtZQi10bzlMeDZMVGxkV0ZzTkZjUGQ5M3pPWWY0RzB5QXRIaE0tWFh0NzFldy1OT2VVamJfazNYN3JyQk9SVTM1dXJ0Tk1PMWFra194eWtFNUZ2Yw?oc=5",
+      "source": "중부일보"
+    },
+    {
+      "date": "2026-08-06",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "김상균 화성시의회 도시건설위원장, 동탄2 유통3부지 해법 논의",
+      "summary": "화성시의회 도시건설위원장 김상균이 동탄2 유통3부지 해법을 논의한다.",
+      "kw": [
+        "동탄2",
+        "유통부지",
+        "시정"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE13SzVWcDVKdzRNajFwbE9aTnFWS0JuV1N1d3ZVQkZST1o4OUU0T0dFd3hOckhTTW1rM1NtUWQwSDc4VzBmZVl1eXJlbUxWWm90UW5MNmRnNUlXR1RhUDZ2Q1BJdWs?oc=5",
+      "source": "매일일보"
+    },
+    {
+      "date": "2026-08-06",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성특례시 동탄구, AI 디지털 도로관리시스템 활용해 포트홀 집중 정비 실시 > 뉴스",
+      "summary": "화성특례시 동탄구가 AI 디지털 도로관리시스템으로 포트홀 집중 정비 실시",
+      "kw": [
+        "AI",
+        "도로관리",
+        "포트홀"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBhQ1RsUjVveFBINlhWUG9EcnRhVWRyZUxtTXZBU0RTVFpySEdscnhadEpUU2tjYnNuTS1JZ3h5bi1TRkRjamc3ZkhERG5PVXUxeDZ4VWZVU3VZUk1ZUU9DaEFMVHNUd2NHbWlqeXRvYTU?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-08-07",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "역세권·공세권·학세권 다 갖춘 49층 랜드마크 ‘아크메르 동탄’ 9월 오픈",
+      "summary": "49층 아크메르 동탄이 9월 오픈, 역·공·학세권 갖춤",
+      "kw": [
+        "아크메르",
+        "동탄",
+        "랜드마크"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5paklpX2t5ajFtYkFXUEliNl9CdnFfWHF1MU5uWEl4bXFDOFJ3anNERTIxSlZEeHlsUk9DaU9RMjBpbTlqdkxPYXk0MzJRMnd1Mk1UbXpWOXo3YVhwR2xaYw?oc=5",
+      "source": "아시아경제"
+    },
+    {
+      "date": "2026-08-07",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "베드타운 위기 동탄 광비콤 개발계획에 주민들 반발…공급대책 기로",
+      "summary": "동탄 광비콤 개발 계획에 주민 반발이 일어나며 공급 정책의 기로에 서 있다.",
+      "kw": [
+        "동탄",
+        "개발계획",
+        "주민갈등"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE53ZWJPWWVpdFRUVVp6dnYzUUctck93OVlsMlcwS2N6RGpKeGpGQXhCSnBWZ2FEWlZGVm93bld6SzljZnJlcHpSZ1dSOUU5ZkdSSTRaTW90bDlVQWh6Q21DY2FQbmQ?oc=5",
+      "source": "MTN 머니투데이방송"
+    },
+    {
+      "date": "2026-08-07",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성 동탄5동, 취약가구 직접 찾는다…‘찾아가는 그냥드림’ 확대",
+      "summary": "화성 동탄5동에서 찾아가는 그냥드림 서비스를 확대하여 취약가구를 직접 방문한다.",
+      "kw": [
+        "취약가구",
+        "복지",
+        "동탄5동"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBTcnlkT2tmN0ZRcVJidkhOMFhLZ214SHNkeHl4MnZIdjdqdlNfRkVCUTNBdU9QQlV1QVVLSGZ2SURuS0hwX191RXhwamlxSF94dTQybHRLYXB0c0drUllaejRrM0k?oc=5",
+      "source": "매일일보"
+    },
+    {
+      "date": "2026-08-07",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성특례시 동탄5동, '찾아가는 그냥드림'으로 복지사각지대 해소 앞장",
+      "summary": "화성특례시 동탄5동이 찾아가는 그냥드림으로 복지사각지대를 해소한다.",
+      "kw": [
+        "복지",
+        "동탄5동",
+        "사각지대"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1yMDNKN1UtMmhPTVVqcFFRbHJvWF9jc0hLWTFXQU1vakJ4Nm8xRFVBOGJXdVMyWWVwYnpUNHNHbGx4dw?oc=5",
+      "source": "화성인터넷신문"
+    },
+    {
+      "date": "2026-08-07",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시문화관광재단, 동탄복합문화센터 체육시설 9월부터 문화비 소득공제 적용",
+      "summary": "동탄복합문화센터 체육시설이 9월부터 문화비 소득공제 적용 대상이 됨",
+      "kw": [
+        "동탄복합문화센터",
+        "소득공제",
+        "체육시설"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5NWHlSV1dZaG05aXRxeHFfdkRpLXhYaXhIWnFwMGpHN3NEUVo2ZHUtekwyUzhGcjlKaHd5a1NhTEhxUQ?oc=5",
+      "source": "화성인터넷신문"
+    },
+    {
+      "date": "2026-08-09",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "경부고속도로 동탄분기점서 화물차 등 5대 추돌",
+      "summary": "경부고속도로 동탄분기점에서 화물차 등 5대 추돌 사고 발생",
+      "kw": [
+        "교통사고",
+        "추돌",
+        "분기점"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5KV2pFUlNaMmRqMVU3Smk0cnJKLTNibG5BcXVRVUhQVkVQUE5aSHJMbmdxWnN5TWN2c01fc29MaU1uRkxiMzZNZlkwa0VNTmltU0tYZ2dQVjhTNzjSAWBBVV95cUxPUjJoYWRJWGQ3TndrR092WmR5OVZDMndTZDV0UlgyQ3VsYlAzVXNHZ2xldldZSDgwVkFpcmp1dUJiaXRLdGxhbWlfM1dsWU80dXBlU3dUZDIxTzZIOS01ZEY?oc=5",
+      "source": "연합뉴스"
+    },
+    {
+      "date": "2026-08-09",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "경부고속도로 동탄분기점서 화물차 등 5중 추돌… “졸음운전 추정”",
+      "summary": "경부고속도로 동탄분기점에서 화물차 등 5중 추돌 사고가 발생했다.",
+      "kw": [
+        "동탄",
+        "교통사고",
+        "경부고속도로"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBRbUt0RG1PNmtzak1YeU9RRVk3YUJheFpEQjE3OFVSYzByRDk1OXY5cnJranNxUHFHZ1c4RmowaWZKc1JMcFlJZmlOdkRjelZ0?oc=5",
+      "source": "문화일보"
+    },
+    {
+      "date": "2026-08-09",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "반도체 호황에도 집값 엇갈려…동탄·영통 웃고 평택은 미비",
+      "summary": "반도체 호황 속 동탄·영통은 집값 상승하나 평택은 부진",
+      "kw": [
+        "부동산시장",
+        "지역별격차",
+        "반도체호황"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBHWmJvMW5lSjE3YkFoT1JUQjE2MjBYTHFhX3ViWTMtRGhQUDlFcV9iVXp0akFyWFBIUGF2MWNmUjh0cjJsVk5rZkR2ZWRmbDBTcEl3aVdudExLeEl2SFVLQVQ3Q1VkRVh3eHk5TGZOOA?oc=5",
+      "source": "중부일보"
+    },
+    {
+      "date": "2026-08-09",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "동탄시티병원, 24시간 응급실 운영…화성 지역 응급의료 접근성 향상",
+      "summary": "동탄시티병원 24시간 응급실 운영으로 화성 응급의료 접근성 향상",
+      "kw": [
+        "응급의료",
+        "의료시설",
+        "보건복지"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBxeDczRzRLX3Q5MW5BaHJ0RmtQR0FUcmNXODZTVV80YmxlNTNoUkhDSTZtVUtDRm5hMWZONk9YbDYtekNDOXVUcnFDT091NkJYdVluTk1aZUNGQVM5NFM3RE9uVjB2WUVaSVdveQ?oc=5",
+      "source": "바이오타임즈"
+    },
+    {
+      "date": "2026-08-09",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "새벽 경부고속도 동탄분기점서 화물차 전도 등 5중 추돌…4개 차로 통제",
+      "summary": "경부고속도 동탄분기점에서 화물차 전도로 5중 추돌 사고가 발생하여 4개 차로가 통제된다.",
+      "kw": [
+        "교통사고",
+        "동탄분기점",
+        "고속도로"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBZQXlEOEVkYjVheTl6MW16eGVIcUpraGRQZGxqSmhEUzJDME5KcFdvS2I3VVB5NWVsdEJtb0h1SDZqdXBGYlpoUnVSUExLMFFOS0c1d0RpUnFpdUk?oc=5",
+      "source": "경기일보"
+    },
+    {
+      "date": "2026-08-09",
+      "cat": "교통",
+      "senti": "부정",
+      "title": "수도권 일반열차 승강장 106곳 중 PSD 설치는 동탄역뿐…정부 “확대 추진”",
+      "summary": "수도권 일반열차 승강장 106곳 중 동탄역만 PSD가 설치되어 정부의 확대 추진이 필요하다.",
+      "kw": [
+        "교통",
+        "동탄역",
+        "PSD"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1HQlV5ak4zR2VQU0xPenljdDJFN2FiTUR5STloTlZzU18yNlNPZE01UVJPTXpWQW9wdHJsOWRBeWx1akhmQS14YmZxcWJ0dHc5S2lrLUFDZVlzVmFRNjI4bkFpcE5CVEp4YnJsRU56aw?oc=5",
+      "source": "중부일보"
+    },
+    {
+      "date": "2026-08-09",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "경부고속도로 동탄분기점에서 차량 5대 추돌사고",
+      "summary": "경부고속도로 동탄분기점에서 차량 5대 추돌사고 발생",
+      "kw": [
+        "교통사고",
+        "동탄분기점",
+        "추돌"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1VOFRhTE9tRHFJYkw4bWk5enVRRzN6anJqV1cwSXFFQjA5eG5lNHBvZEtZZFlnbjFyMjVPbzF3Z0lrd2pFNVJ2SFdkMTZjNWlLTG5vNlVvcHFBY0xhVE9jTlhn?oc=5",
+      "source": "경기신문"
+    },
+    {
+      "date": "2026-08-09",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "경부고속도로 동탄분기점서 6.5t 화물차 등 5대 추돌",
+      "summary": "경부고속도로 동탄분기점에서 화물차 등 5대 추돌사고 발생",
+      "kw": [
+        "교통사고",
+        "동탄분기점",
+        "추돌"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9pRUMxNmZIVnpYN2VGRWNoYUpfcGI4QUNBTkJteXFSSjBnTXY0d1BLTGltRjNXVEtWZUxuMXdwemJFNzdyZi11WUxEZXM1TE5GTmtXQnhOSm01ZV9VWTFWWG9xVU7SAWhBVV95cUxQQnp6bzA5YThOazA4TUpwT3g4ZzNtOTdqUGFnX0lTMzdKSkJhQ3pZcWlrSWs2MThNeGR6NVpaX1ZBWDBoYW9PTFFCXzNaT1ZiU3hwc0c3ZGUtM0hIeHFaSGNXQlB2X3lQTQ?oc=5",
+      "source": "경인방송 뉴스"
+    },
+    {
+      "date": "2026-08-10",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시의회, '의정 슬로건' 시민 선호도 조사",
+      "summary": "화성시의회가 시민을 대상으로 의정 슬로건 선호도 조사를 실시한다.",
+      "kw": [
+        "의정슬로건",
+        "선호도조사",
+        "시민참여"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB6WURQN0ZjR1lpZklmbEJlQmJMTUVpalBhakVvaktoOFdSZkNleXVyU3lpbXFYSWNnc3czUDdkWm9KbU9JOUVOMlBab1I1cTFGTUlFU19GMERwdUHSAWBBVV95cUxOVEcwWWhEVlBZdXhRSUhWcmNnZWpPS1lqSUJUSWhDbV9Ib3VNdkYxY1RlTF9ORUkxemEtRXZlQkZYUTgzb1ZXZGg2UEo4dVlTNFh1WE5xd1o2YjdrTnNBSFg?oc=5",
+      "source": "연합뉴스"
+    },
+    {
+      "date": "2026-08-10",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "[기자의 시각] 동탄을 ‘퐁탄’이라 비하하기 전에",
+      "summary": "동탄 부동산 시장에 대한 부정적 평가에 앞서 지역 실상을 제대로 이해해야 한다는 주장을 제기한다.",
+      "kw": [
+        "동탄",
+        "부동산",
+        "평가"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV3JJMUZKZ2ljUnhEOTExb1ZfdDlWVE52WHpPdDNxRzNyWTBjOFNEVUgzdHFPU1BoR3JyXzNnQWFNVDEtNVhGcEhjTTFxdmZDSWo2OVA2RlpVWmxMZm45WW9HWWxjX1dsZm90dDUxWHVPQ1Y3WXZFZlhzLXRIekdHSVJGRGlmTjNLU1ZCQ2lR?oc=5",
+      "source": "조선일보"
+    },
+    {
+      "date": "2026-08-10",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "동탄시티병원, ‘마코’ 로봇 인공관절 수술 본격화…환자 맞춤형 관절치료 강화",
+      "summary": "동탄시티병원이 로봇 인공관절 수술을 본격화하여 환자 맞춤형 치료를 강화한다.",
+      "kw": [
+        "동탄",
+        "로봇수술",
+        "인공관절"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBhUWtOeGZ1a25zZjBKeFIwTmV1SXNpbHk1QXJuNVFJcHltNEQ3SWVIa0wtbmRCZENPcTBNNkdHWlJoZXRFWDdRc2ZRWkViTkgzTUktc2l4UjJWaWtxNHBuQkN6NU9xY05zaV9mNA?oc=5",
+      "source": "바이오타임즈"
+    },
+    {
+      "date": "2026-08-10",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "\"동탄은 둘째·셋째가 기본\"… 반도체 지도 따라 '출산율' 뛰었다",
+      "summary": "반도체 산업 지도를 따라 동탄 지역의 출산율이 상승하고 있다.",
+      "kw": [
+        "동탄",
+        "출산율",
+        "반도체"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9NMl9NR3VlV1NYOE9SQ0NpbHVIeXJoZGhvclgyZ1hkOUtqNWUtX3VacEhncUQwN25YU1pGVzd4Sl9URC1UN0lTVkV2YkFxM3dzMi1KblVMR3F6SUFXZ1VQZFZsMjdDSEZaZUlPaGJ30gFzQVVfeXFMTk9oWkNlUnVKOEVaMGw1MG92R3doUFFDZEpXRk44OGM5aGR4MVY3TEd5YVhjVkwzZG8zLWs3VnN6LW95c3pPTXNDcUw2UGt6RFBrSjl2eFZybmpXT040QmI4b1VXdlJlVE1mZ3RrS1pJOEdIQQ?oc=5",
+      "source": "한국일보"
+    },
+    {
+      "date": "2026-08-10",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "동탄 규제에 오산 ‘들썩’… 세교3·운암뜰 개발호재 겹쳐 기대 상승",
+      "summary": "동탄 규제 이후 오산 세교3·운암뜰 개발 호재로 기대감 상승",
+      "kw": [
+        "동탄규제",
+        "오산개발",
+        "수요전환"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1PSV9weHJyZDlWSnh4bHFiM25HVXpTekhDN3ZGYjlDcklwMHc2R0dHSzllQ1NIbzBnUW55aXVRQXBCZ2xSOGlrWnFXQVU4UUNGdXc?oc=5",
+      "source": "kyeongin.com"
+    },
+    {
+      "date": "2026-08-10",
+      "cat": "교통",
+      "senti": "긍정",
+      "title": "기다렸던 마지막 퍼즐 완성… 동탄의 새역사 쓴다",
+      "summary": "동탄역 교통 인프라 완성으로 새로운 역사 시작",
+      "kw": [
+        "동탄역",
+        "교통인프라",
+        "발전"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1zdWtqamFLdTBuTFc2YjJKdkJLSEw5aS1sRVlrUlJuUUxiVWNwajNBZEVPR0lzMGkxR05DNEZVbG9Ha0JQTnc?oc=5",
+      "source": "v.daum.net"
+    },
+    {
+      "date": "2026-08-11",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "‘침체 상권 살리기’ 화성시 골목형상점가 늘렸다",
+      "summary": "화성시가 골목형상점가를 확대해 침체된 지역 상권 활성화를 추진한다.",
+      "kw": [
+        "상권활성화",
+        "골목상점",
+        "경제지원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1aUUhvV3RQY3kwZl80TnhsQjFQbnhZMll1VDNwRVhWRVRLSGc2ZGY3NU4zLWRwc0E5V21IWGtIZG1LT01mclVLRmpjUmZjc1VyRVE?oc=5",
+      "source": "kyeongin.com"
+    },
+    {
+      "date": "2026-08-11",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "세제 개편 수혜 '덜 똘똘한 한 채'…경기 동탄·영통도 20억 클럽 입성",
+      "summary": "세제 개편의 수혜로 동탄과 영통 지역에서 20억 대의 부동산 거래가 증가하고 있다.",
+      "kw": [
+        "동탄",
+        "세제개편",
+        "부동산"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5PSVhybUFyb08tYkxIREJ4RzFtOXpvQ2YxRXhwUXAwdl9PbXB3SmR6dlpvWDVrLTl6QUNhWmJSQ1BUMlNFcjU5RUxxM0p3XzlZVUVwQmJ3cjFQdmx5My15T0U0UEVjanFoZFI0ZWprN1dJclJfdVg5UkVidVhwUTjSAXNBVV95cUxPUG9vanlyQzg1MlFpWnBHV0tCTEpnVm1pZER6TVBTX01yUkVpeU1LaUxxTHNRRjIwS0tqTEFGMFExZ0tVYVJLaEFfX0lZdUZwUDFNOTJjUTU4bm4xdDZfYTVYOThtMzFsR3ctdThxVHlBQm4w?oc=5",
+      "source": "땅집고"
+    },
+    {
+      "date": "2026-08-11",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "동탄 옆 비규제 수혜 단지, ‘오산헤리티지자이’ 1,783가구 눈길",
+      "summary": "오산 인접 비규제 지역의 오산헤리티지자이 단지가 1,783가구 규모로 관심을 모으고 있다.",
+      "kw": [
+        "오산",
+        "비규제",
+        "신규공급"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ZeE5nVTZnWkxrVVNkMEtLZ1VRTVdUb2hUaEhzRHNWOVVRU1BINTZqZWNsWmdkdmxVY3NERnptTl9QODJodk9OdEdVaFQ0QjRBNXVHZndJcHBmMlYxRXVzUXZmOEZUSHY0ZVV3dHdON2dZb3JyMWfSAWZBVV95cUxNU29QMlh2bHptX1dwMl9wZ0Q3M21mUHJQNHlvdl95eWZIamcxYkxKOG9hYm5nMkhueUx1Vi1ORzVwWVdTMk5WSjdmNTZCSDFRaHdaSE9tb3dqQmUyc3pFUlBMRUcwVlE?oc=5",
+      "source": "동아일보"
+    },
+    {
+      "date": "2026-08-11",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "'동탄·기흥·구리' 규제 한달…거래 급감에도 집값은 버텼다",
+      "summary": "동탄, 기흥, 구리의 규제 시행 한 달 후 거래는 급감했으나 집값은 유지되고 있다.",
+      "kw": [
+        "동탄",
+        "규제",
+        "거래"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9HbzI3QzlvMkM1emhldmJ2TUxaN1lTa2xrcDhhOTJETVNoc2g3LXN5TmZiM2pYS1RUeXlNME9yMDh3U0llSm9DbE9jc2U4Yi1QbkVGUnpuMlY0dV9H?oc=5",
+      "source": "뉴스핌"
+    },
+    {
+      "date": "2026-08-11",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "동탄·용인 신고가 거래 속 오산 분양시장 관심… ‘오산헤리티지자이’ 공급",
+      "summary": "오산 분양시장이 동탄·용인 신고가 거래 속에서 관심을 받으며 오산헤리티지자이가 공급된다.",
+      "kw": [
+        "분양시장",
+        "오산",
+        "신도시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBBYll4aHUySURkTjdJREI5N1pZbmd1TzZRRVc4UDNpV3hpVE80LXlULTdDcnNUN3dFN0xGZEI3Yl9PRzNhZzNWdnNHNG9Db2FGQzJGXy1jQll4M3R5VERYMFN5cXVVZFNWRGFlMlNxRQ?oc=5",
+      "source": "서울신문"
+    },
+    {
+      "date": "2026-08-11",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "동탄 인접 오산서 1718가구 규모 '오산 서희스타힐스 파크시티' 공급",
+      "summary": "동탄에 인접한 오산에서 1718가구 규모의 오산 서희스타힐스 파크시티가 공급된다.",
+      "kw": [
+        "분양",
+        "오산",
+        "신도시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE14ajdhN001cDBnYlhvNkVTOERBTzRrR1daRnY0eTNBOFg5SHE3cng0N2ZNWDI0WWdBblFOblNiWlVxam5WTWtkcFgzUnNnRnNwWUFuSE83Q3Rhalk5ZTk0Z3ZGdEc4QlY1?oc=5",
+      "source": "한경매거진&북"
+    },
+    {
+      "date": "2026-08-12",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시, ‘2026년 주민자치 페스티벌 무대경연’ 개최",
+      "summary": "화성시가 2026년 주민자치 페스티벌에서 무대경연을 개최한다.",
+      "kw": [
+        "주민자치",
+        "페스티벌",
+        "무대경연"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE14RnpLTEJpUmJ3Q1VNWkR2UGxXWTBXMkJHNjFtYXc0YTByRVFyelJfNFlPeE1NRzZRZUowSHpEbC03QnNvaU9naFJnWGxpVUxGLUFZbQ?oc=5",
+      "source": "v.daum.net"
+    },
+    {
+      "date": "2026-08-12",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시, 적극행정 5년 연속 수상…소상공인 금융 안전망 성과 인정",
+      "summary": "화성시가 적극행정에서 5년 연속 수상하며 소상공인 금융 안전망 구축을 인정받았다.",
+      "kw": [
+        "적극행정",
+        "소상공인",
+        "금융안전망"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA0alY1bl9aXzdIMkcyT3BOSUhmUVZ0M01FbDhFWTA2TEFQTVNITGMzcXdwTkNrakFScXdQOWZSdGhJeWVMc2U3VzhPUnphOHFyenNaZmhvdXNYVGpPQkdQc2l2SnJheW02YS1sOU9rT2JHMUZF0gF0QVVfeXFMUDRqVjVuX1pfN0gyRzJPcE5JSGZRVnQzTUVsOEVZMDZMQVBNU0hMYzNxd3BOQ2tqQVJxd1A5ZlJ0aEl5ZUxzZTdXOE9SemE4cXJ6c1pmaG91c1hUak9CR1BzaXZKcmF5bTZhLWw5T2tPYkcxRkU?oc=5",
+      "source": "주간한국"
+    },
+    {
+      "date": "2026-08-12",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시의회, 의회 체험교실 운영…청소년들, 생활 속 문제 해법 제시",
+      "summary": "화성시의회가 청소년 의회 체험교실을 운영해 생활 속 문제 해법을 제시한다.",
+      "kw": [
+        "청소년교육",
+        "의회체험",
+        "시민참여"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE96VzBRc3hMb0pmZzE3ZWxPc3E4SVVBWGxDWFA1enV5dk8wUDNTQklucnZSWGdEVmlpMXJmMkRhOWdDSllnZlNoUDBPQWlXS0xhX0JpcGo3OEpSMlhzWndEdU5VWXBYTjlTWVVGdnRjc9IBc0FVX3lxTE1nY1FGVEotQkxSZ2pNdmFha19QMDFZd2hkRTdjc2FFY245QnBzV2JpMV93RVh3MWRXRzFCT1NGVnJzWEtSNEVuVFFfS0VPNFpsbW1rTmVLSTliRFo1a3BGNVcxWjRRTHYtME9JN3lNalpwT3M?oc=5",
+      "source": "뉴스웍스"
+    },
+    {
+      "date": "2026-08-12",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시기업인협의회, 송산·서신 취약계층에 300만원 후원물품",
+      "summary": "화성시기업인협의회가 송산·서신 지역 취약계층을 위해 300만원 상당의 후원물품을 전달한다.",
+      "kw": [
+        "기업기부",
+        "취약계층",
+        "사회공헌"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8zTlFRZGw4UEwtbUw3anZ1TkRua1ppMTRJMVhBVTA5Y1FCR09DSGRwbHhVWHExcFFIb21zdG1ISnA0ZVNHbDJ3czF2b1Rxdw?oc=5",
+      "source": "전자신문"
+    },
+    {
+      "date": "2026-08-12",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성시, PBA 팀리그 2라운드 개막…10개 팀 9일간 ‘큐 전쟁’",
+      "summary": "화성시에서 PBA 팀리그 2라운드가 개최되어 10개 팀이 9일간 경기를 펼친다.",
+      "kw": [
+        "PBA",
+        "볼링리그",
+        "스포츠이벤트"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9FeEUtYWs1WVFGeWJWV0hMck8wd25WSHA4d1BtQ0lYbkdqblVmQ0p4WWJFNUdXTmNZVm9XVnAyNjRpTE9NSzZqdm0zNG5GVk51SjhlUUt4UHZNYThpNUxfLQ?oc=5",
+      "source": "아시아경제"
+    },
+    {
+      "date": "2026-08-12",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시, 경기도 적극행정 우수사례 경진대회 5년 연속 수상",
+      "summary": "화성시가 경기도 적극행정 우수사례 경진대회에서 5년 연속 수상한다.",
+      "kw": [
+        "적극행정",
+        "경기도",
+        "우수사례"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA2Uzc0R3AyNW1pQ3FwcjF4RVliVDFaa0Y1YnZOUWNFemhqMkMzSTZEZUVDd2h2WXo4SWNvSGhXc2Mzd3ZfeHQ3VnhTRHlRNVNTSnlReTBNRFlsellKaHRIdnVzWjQ?oc=5",
+      "source": "매일일보"
+    },
+    {
+      "date": "2026-08-12",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "이계철 화성시의장, 취임 첫 민생안전 행보…화성소방서 방문",
+      "summary": "이계철 화성시의장이 취임 후 첫 행보로 화성소방서를 방문해 민생안전을 점검한다.",
+      "kw": [
+        "시의장",
+        "소방서",
+        "민생안전"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Tem9CVDVoZHlYVWpZNWhqS0x5TE8tUUxxQ3dXQml2ZE94cVN4eHVOcUFDMjJoOGs2TnJlSndSeDdtV3d2LVoyYWZCUXNOR1ZDVnhsU1ZrdE9fUGVmX1BPMQ?oc=5",
+      "source": "아시아경제"
+    },
+    {
+      "date": "2026-08-12",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시의회 청소년 체험교실",
+      "summary": "화성시의회가 청소년을 대상으로 의회 체험교실을 운영한다.",
+      "kw": [
+        "청소년교육",
+        "의회체험",
+        "시민참여"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5FYndDbGdtRV9LdXE3a1MyWkREZFRoTW5VcHRTVG9KMHE1MUFzbloxTy1fNzA4bmM1NGR6Tl9qZW9CbWZybTBwZC1KSDVEbDM1eG9oc0lqUGNLUjQ4SF84SndaNENlM2JwcEpiSXhR?oc=5",
+      "source": "현대일보"
+    },
+    {
+      "date": "2026-08-12",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성시문화관광재단, 29일 봉담서 '화성재즈페스티벌' 개최",
+      "summary": "화성문화관광재단이 29일 봉담에서 화성재즈페스티벌을 개최한다.",
+      "kw": [
+        "재즈페스티벌",
+        "문화행사",
+        "봉담"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE43YVBBcDBtTUFWcmQ4T1EtNk5teW50MVZLYk1DWWFFNFloZEtUb1FQZmRqa2pOSVdwNFR0MzdiTU1RUHBSdmFDdFhyOVJZY3F3ZC1WOUFvRm9JanlUbTYteFk4aF80X1JFUzRva0Fpcng?oc=5",
+      "source": "신아일보"
+    },
+    {
+      "date": "2026-08-12",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시의회, 청소년이 직접 만든 정책 제안 ‘의회 체험교실’ 운영",
+      "summary": "화성시의회가 청소년들의 정책 제안을 받는 의회 체험교실을 운영한다.",
+      "kw": [
+        "의회체험",
+        "청소년정책",
+        "시의회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EeVJla2dGa2o0VjZfNHlLSm1aanJMdlZiOUh1c1Vibmg5V0w3Nko3bEVWNGxQXzE2dzNoR2gzX1g3UDVxYmFJRnF0TEZvTWhqZlZwVVFQUjNaeW5WNGM0NFFQSHhtUmk2cWY4TzVmUmhsNG5aN2J5eWR3VFNFUHfSAX9BVV95cUxPRHlSZWtnRmtqNFY2XzR5S0ptWmpyTHZWYjlIdXNVYm5oOVdMNzZKN2xFVjRsUF8xNnczaEdoM19YN1A1cWJhSUZxdExGb01oamZWcFVRUFIzWnluVjRjNDRRUEh4bVJpNnFmOE81ZlJobDRuWjdieXlkd1RTRVB3?oc=5",
+      "source": "뉴데일리 경기"
+    },
+    {
+      "date": "2026-08-12",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "\"모두를 춤추게 하다\"… 화성시 읍면동 아우른 주민자치 페스티벌 개최 - 머니투데이",
+      "summary": "화성시의 읍면동을 아우르는 주민자치 페스티벌이 개최된다.",
+      "kw": [
+        "주민자치",
+        "페스티벌",
+        "지역공동"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5kLUZmSnNsOWEzVG85UWVheDhzek5IdGVwX0UwelQ1TzFFRXptLTA3RGhjbHFGZ1FkN01Ga1g2NjNMaG9JMl9BQjZmMkhmZjU5MUdyOEVyM3MxNFN0RmI0MTBGd1pIbkl6TUhxV2tib9IBb0FVX3lxTE5kLUZmSnNsOWEzVG85UWVheDhzek5IdGVwX0UwelQ1TzFFRXptLTA3RGhjbHFGZ1FkN01Ga1g2NjNMaG9JMl9BQjZmMkhmZjU5MUdyOEVyM3MxNFN0RmI0MTBGd1pIbkl6TUhxV2tibw?oc=5",
+      "source": "머니투데이"
+    },
+    {
+      "date": "2026-08-12",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "[공직칼럼] 5년 연속 수상한 화성시 적극행정, 이제는 시민의 일상에서 더 빛나야 한다",
+      "summary": "화성시의 적극행정이 5년 연속 수상하며 시민 일상 속 성과가 필요하다는 의견이다.",
+      "kw": [
+        "적극행정",
+        "공직문화",
+        "시민만족"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0ta05iQUprSkdRal9CZnRVaG91UmpRNHllanE3NTZqdktNQThsa3c2enB1NzQyeGlJZXVLemkyV2huTmJIbFQwNjRNVU9zZTlPbnZVaXMwblBvYzVmNU1oZ1drZGJESWp3M0dzRTJR0gFyQVVfeXFMTXJYYmFnbG9VOTg4eXVCalN1c0ZheTcyeTBkWURmQWVteHhCbzF3aDhsZHZ2NDJ0TTRfTzJ3NFNHNkxqZHZRSXlGeUtpdXBDM3MwUWh0TjFJYldoczRfM1NKTEZ4djFCTkU3T0l5M0xIWHVn?oc=5",
+      "source": "엔디엔뉴스"
+    },
+    {
+      "date": "2026-08-12",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시기업인협의회, 에어컨·세탁기·선풍기 후원",
+      "summary": "화성시기업인협의회가 취약계층을 위해 가전제품을 후원한다.",
+      "kw": [
+        "기업협력",
+        "취약계층",
+        "후원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBWWEhZX1hWRGFMVG5kUmlKa0hXOGdrZFZwWEljZDNZaXZDbWU2NXFlUWRBZHBsMHJWVERkRFVRVzJEM1VuM2t5WGV2bHRHRHJyaVJLcG1Db3BSRTREU3N3Tkh6UzNxTEZDRnppLS1xVdIBb0FVX3lxTFBWWEhZX1hWRGFMVG5kUmlKa0hXOGdrZFZwWEljZDNZaXZDbWU2NXFlUWRBZHBsMHJWVERkRFVRVzJEM1VuM2t5WGV2bHRHRHJyaVJLcG1Db3BSRTREU3N3Tkh6UzNxTEZDRnppLS1xVQ?oc=5",
+      "source": "서울일보"
+    },
+    {
+      "date": "2026-08-12",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "“폭염 속 시원한 나눔” 화성시기업인협의회, 취약계층에 사랑의 온정 전달 > 뉴스",
+      "summary": "화성시기업인협의회가 폭염 속 취약계층에 사랑의 온정을 전달한다.",
+      "kw": [
+        "폭염지원",
+        "취약계층",
+        "나눔"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1RYkFuSnNmYm9PZWg5N3ByZnlDU1c4bkVlZTJoR3RZclBVRmgyVTFmNUEzZ3VhV242ZjZ1NzZfbHBtYkZPd25KWEIzUklQbUE5dzFwYXV6cDdLUDgxQlZqV1ptbDIzSkIyTGNob1g3d0M?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-08-12",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "프로당구 PBA ‘지역 팬’ 찾아가기…팀리그 2R 화성시 투어 개막",
+      "summary": "프로당구 PBA 팀리그가 화성시에서 투어 경기를 개최한다.",
+      "kw": [
+        "당구",
+        "스포츠",
+        "투어"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE02SF93YXI5cW1rNEh2T21nS3ZGVG1KS3ZjTlAwYXZveHRZOHJMQWQtWktZZmtaWVRibDh2VEprQ3k2aThMcURwMWRTTmNtY2dMaHRkU3RGcGVaY182emtPaG5YLUFBUUtpd2RuWHh5WQ?oc=5",
+      "source": "한겨레"
+    },
+    {
+      "date": "2026-08-12",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "이계철 화성시의장, 소방 이어 경찰 현장 점검...도시 성장 맞춘 안전기반 필요",
+      "summary": "화성시의장이 소방과 경찰 현장을 점검하며 도시 성장에 맞는 안전기반 필요성을 강조한다.",
+      "kw": [
+        "안전점검",
+        "소방경찰",
+        "도시성장"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBpaWpsMldRbWRBSXRrQmNHakRCZGlZX1JxUDVNNFZfZWQxdHVMMDNHZ2x4SHhYNExKcER1QmJLYzZ5R3g0NFJSZDM1bEgyVmk5VzVsc3phNHRRZ9IBWEFVX3lxTFBwamg3QWpXeGtJeTY0OTA5WWFpVUxYa1ZxYlRka3lhaHB6WUNJSkVnWG93M0lKY2xBckYtQnF5NmktejdNaUpQZ0kxQXh2SE8zTTRRUTdmdm4?oc=5",
+      "source": "아주경제"
+    },
+    {
+      "date": "2026-08-12",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "화성시연구원, 설립 3년 만에 감사 지적 24건…‘내부통제’ 곳곳 허점",
+      "summary": "화성시연구원이 설립 3년 만에 감사에서 24건의 내부통제 허점을 지적받는다.",
+      "kw": [
+        "감사지적",
+        "내부통제",
+        "연구원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE14a3ZGemxDLW5iWENOLXY2ZDI1b2thWktiUlhwOWhQUmFPM3lsSmxvcmR6VlBEZHktWGZLNlR6cExuU2VI?oc=5",
+      "source": "화성 투데이"
+    },
+    {
+      "date": "2026-08-12",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시기업인협의회, 송산·서신면 취약계층에 후원물품 전달…“폭염 속 시원한 나눔”",
+      "summary": "화성시기업인협의회가 송산·서신면 취약계층에 폭염 대비 후원물품을 전달한다.",
+      "kw": [
+        "지역지원",
+        "취약계층",
+        "후원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9LOTk4WXdnVWUwbHdVelg0S25KWS1MYkd1T2lSS3ZtWU0wUVpkeWQzNnAxUmVDQU9fRGYycWFEbWtNMmRtbXpmamRFNmZta3Z5dlZHLTlqQWVLeWRKNGFnM3plQTA?oc=5",
+      "source": "매일일보"
+    },
+    {
+      "date": "2026-08-12",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시문화관광재단 '2026 제2회 화성재즈페스티벌' 개최",
+      "summary": "화성시문화관광재단이 2026년 제2회 화성재즈페스티벌 개최를 추진한다.",
+      "kw": [
+        "재즈페스티벌",
+        "문화행사",
+        "문화재단"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE42b19HU2JxRWdPS0Q2V2xFNENJVnhLcGVQYlp3eTB1cWdzVjdQMlRYN19qTW9wWWhXOE1lUEZNQ0lFYlI2UXZYSnp4djJyYV80YjQ4eTVBWUk4QVIxTEZF?oc=5",
+      "source": "뉴스라이트"
+    },
+    {
+      "date": "2026-08-12",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시의회 이계철 의장, 이틀째 민생안전 현장 행보 화성동탄경찰서 방문",
+      "summary": "화성시의회 이계철 의장이 민생안전 현장 확인을 위해 화성동탄경찰서를 방문했다.",
+      "kw": [
+        "의장",
+        "민생안전",
+        "경찰서"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9uazZMd2lXcXBmeUhodlgzUDFXRTljTnB3TU43RVlKYmV1dGQ3YmF5T01pR0NpSE50WmVSVlgyeC12dw?oc=5",
+      "source": "화성인터넷신문"
+    },
+    {
+      "date": "2026-08-12",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "프로당구협회 팀리그 화성시 투어 2라운드 개막",
+      "summary": "프로당구협회 팀리그 화성시 투어 2라운드가 개막했다.",
+      "kw": [
+        "당구",
+        "팀리그",
+        "투어"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9QQkNqUlhvd2k2TWxHOTFzWWdIaUZTR3AzOC1wMndmM3lFenJydkN3ZFZXNnhINGNtMHhOemVYNG9md3F3Z2c4aXEzUldxQkZ3cTRLWGNqR1E4ZGZEM1hNMtIBeEFVX3lxTE1IWm5sdy1ZclhWeTRKaDdmQ2pqbnZ0cVMtV2JKMlhzd3AwV0ZDd2sySVZtcGgtNTdPT1pIWkNnR3M0dnJMTUNKcEpCOThQZDJpc24zam8wVnI3U3FNcnV4b0x1d3RnaUZYTTdNZ1pDUGZ2Y2RsZXJjUw?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-08-12",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시 소상공인 금융안전망, 경기도 적극행정 '장려'",
+      "summary": "화성시 소상공인 금융안전망이 경기도 적극행정 장려상을 수상했다.",
+      "kw": [
+        "소상공인",
+        "금융안전망",
+        "장려"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1jbmJjc2ZKcVUydzYzY0VPSjZ2Zy1mSldDU0ZVSDNWVGk5eVZKQ3pPeGlZMDNicUVPUFZSUlBBTGREUlF4Mk5wLTdJRlhnMnpydzhrUXZsSjk0M2IzZ0ZtS9IBeEFVX3lxTE9QNWpVY2R6UUpZVWtIYkdOOXFZTFlrbW9JcEFpYmFQZzRsLTVXSWt4Q0RDbTJ5d0h0SUhXanNqMkhvLUdTaVhRamUyOHNENktmbk5HcG5IYUtMZU56Y2steDFkVTBMUTU0U1JrT1dWR2pxSGZfeGk4aA?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-08-12",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "최은희 화성시의회 보건복지위원장, 아동권리모니터링단 정책제언 청취",
+      "summary": "최은희 보건복지위원장이 아동권리모니터링단의 정책제언을 청취했다.",
+      "kw": [
+        "아동권리",
+        "모니터링",
+        "정책제언"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1yZ3VGZWktSkZSSkZicC11ZWVSbURsZHRMUWZUb2FyTHJyWEEzeklHdjJldmRod0xyS01ZSGZvMGZLdFNvdTV0ZEc0UFpzcm1DaFJTeWpfbnhRUWY3R0dxQWcyanFrRmtDem9R?oc=5",
+      "source": "서울뉴스통신"
+    },
+    {
+      "date": "2026-08-12",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "“폭염 속 시원한 나눔” 화성시기업인협의회, 취약계층에 사랑의 온정 전달",
+      "summary": "화성시기업인협의회가 폭염 속 취약계층에 사랑의 온정을 전달했다.",
+      "kw": [
+        "기업인협의회",
+        "나눔",
+        "취약계층"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBtR3dzSHdNZXpTdE52YjUtR29TZ2Rsa0dUd1lyY2Y0UmwzM09hV0ZuSzNrUm5CTFVqXzU5VjBucktwb2NjcDVvdTItYVNMLTR3S2dfSkVkY3I2RWVZNzVOaHdKZGdIRzVmcU5nNQ?oc=5",
+      "source": "저널25방송"
+    },
+    {
+      "date": "2026-08-12",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시, 8월29일 봉담2생태체육공원서 재즈페스티벌 개최",
+      "summary": "화성시가 8월 29일 봉담2생태체육공원에서 재즈페스티벌을 개최한다.",
+      "kw": [
+        "재즈페스티벌",
+        "봉담",
+        "체육공원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBqaFpPNFd6MlVQcGlpdGlBUWVmeHF4aVdqZE1sRkpfVENEQWhFTGNfbXhqNG83UU5tekhEeFA2dFVoUXZhQWZsUUFJVVNvMnJRbkpNMVJ1cFlwUVZVS1JpazRkNlVmQjZuc2dn?oc=5",
+      "source": "한국사회복지저널"
+    },
+    {
+      "date": "2026-08-12",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "화성시 반정동 창고 화재…검은 연기에 119 신고 빗발(종합)",
+      "summary": "화성시 반정동 창고에서 화재 발생, 119에 신고됨",
+      "kw": [
+        "화재",
+        "창고",
+        "반정동"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9obFdORkFOOERXRzRwTTRKTlM5NUxQU0J1ZklKRUthUnNBY0N1N1pZT0Nyc3lWckJCLWxMMVRXU0hKVlJJX2JDUWNMdVlXV3NYSDRURm1R0gFbQVVfeXFMT01wa29ZbUktdWJsWFV3TXFkOFZTaXJiQjUwS2JaYmMwNnpTOGduUndVd3RoS09HRjlrMnR3cEdmSzdHYjQybHM4ZnUxUGtWSGJMTFcxX01MMkQtcw?oc=5",
+      "source": "뉴스1"
+    },
+    {
+      "date": "2026-08-12",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "‘아크메르 동탄’ 9월 공개…센트럴파크·동탄인덕원선 품은 핵심 입지",
+      "summary": "아크메르 동탄이 9월 공개, 센트럴파크와 역세권 인프라 포함",
+      "kw": [
+        "아크메르",
+        "랜드마크",
+        "센트럴파크"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9vRzlXemYzVzZiQ2owUzZyWEdZLUtzWklmM09EeUJVbFZYR2tENy1jRGQzcmtvVDZ0ckRvemh5SGtjQ04xZktTOFFyVS1XWTdwQ0xOYWVrSjlUUldvSUtfOXNn?oc=5",
+      "source": "이코노미스트"
+    },
+    {
+      "date": "2026-08-12",
+      "cat": "환경",
+      "senti": "긍정",
+      "title": "한국지역난방공사 동탄지사와 함께, 1·2·3세대가 만드는 친환경 실천‘에코 따소미’",
+      "summary": "한국지역난방공사 동탄지사와 함께 3세대가 참여하는 친환경 실천 에코프로그램 운영",
+      "kw": [
+        "친환경",
+        "에코",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA0QkFCdEhFcmJ4ZjdsUXVsNWpfOVRzMTFic21xYlhJR1lqdTJXT2F4WnFUNnA3WTFSSlBJQ3JKUTFwTlZzRFJxSHNjLTlWY3RrU1RhZF93dWhtcUVPZFpMbk00UlQ4Z0E?oc=5",
+      "source": "경인신문"
+    },
     {
       "date": "2026-08-13",
       "cat": "안전",
@@ -283,6 +1459,188 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8yUkFDQUZkR3F4REpNQ3JCeEIwRnZha1Vxa2dCdzg1dENvRXYzSWhlNS1GaUNmT1ZibVRjdHVvcVN2dk5kbkVVaGZEeHNFM0M3RVVWVWlXNW9oVjY0QWZMRHY0eFlMdw?oc=5",
       "source": "열린뉴스통신"
+    },
+    {
+      "date": "2026-08-13",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "화성시, 군소음 피해 주민 2만8707명에 66억원 순차 지급",
+      "summary": "화성시가 군소음 피해 주민 2만8707명에게 66억원을 순차 지급한다.",
+      "kw": [
+        "군소음",
+        "피해보상",
+        "주민지원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1OT2FPakxMOTk0NENrdzdSQTdBVjd1a0h6Zlg1OVM1SklCcFFodGhhSWYyLV92VWItY0tLZHFsQ3RqaXVuVndhSzZEZk9KUQ?oc=5",
+      "source": "전자신문"
+    },
+    {
+      "date": "2026-08-13",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "화성시, 향후 4년 복지 밑그림 마련…시민 의견 듣는다",
+      "summary": "화성시가 향후 4년간의 복지 정책 방향을 마련하기 위해 시민 의견을 수렴한다.",
+      "kw": [
+        "복지정책",
+        "시민의견",
+        "향후계획"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1TV2E5THdjYlJFZENXV3hEZlloNlJwRUxVa1pUejhrR2JZMUFyN29zU25TMGtJUGlLNkptRXZtWk9qQjFFbWlQNnlZUDYySUhHYnc1VllUM0pfb2pnRTlsTEVScU4?oc=5",
+      "source": "매일일보"
+    },
+    {
+      "date": "2026-08-13",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시외국인복지센터-원광종합병원, 업무협약",
+      "summary": "화성시외국인복지센터와 원광종합병원이 외국인 주민 지원을 위해 업무협약을 체결한다.",
+      "kw": [
+        "외국인복지",
+        "의료협력",
+        "협약"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE10NEYtR2dOeFpsSDM3Q0RBeXlha2w0cmhxejAtbVR3ZV9kN1lIYW82QTY1VDAwZDNWcmJTdEd0R3FBekU?oc=5",
+      "source": "화성신문"
+    },
+    {
+      "date": "2026-08-13",
+      "cat": "환경",
+      "senti": "긍정",
+      "title": "화성시 사곶리 2.4㏊ 수도권 영농형 태양광 시범사업 착공",
+      "summary": "화성시 사곶리에서 수도권 영농형 태양광 시범사업이 착공되었다.",
+      "kw": [
+        "태양광",
+        "영농형",
+        "사곶리"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5RUXp1Z1lJVmlzZldCTlNhdkJJMGh0ZlFXUWluS25ubWx4b2VmMkU1cTZLbU8zc2ItTDBHNzFnNDVIV0ticEdFZ0luSkN2QWRXaGNLemxEb01NNkU2TFR3Nm50Nndjdw?oc=5",
+      "source": "열린뉴스통신"
+    },
+    {
+      "date": "2026-08-13",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시서부종합사회복지관, 마도면 이장 26명 ‘마을 복지위원’ 위촉",
+      "summary": "화성시서부종합사회복지관이 마도면 이장 26명을 마을 복지위원으로 위촉했다.",
+      "kw": [
+        "복지위원",
+        "마도면",
+        "사회복지"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1LaWZXbERONjIzQml5Y0pzRFJSQ1Rwdk9SZmNIblRNWk9aSFBiekx1QVBKeG5ySmVpejJjWWtXZVRZSHpNWGJrU0czMEU4aXA3Z3FxZlhrYkt1UElFOFBoWFNRcDNKQQ?oc=5",
+      "source": "화성저널"
+    },
+    {
+      "date": "2026-08-13",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시의회, 주민자치 페스티벌 참석…24개 팀 경연 격려",
+      "summary": "화성시의회가 주민자치 페스티벌에 참석하여 24개 팀의 경연을 격려했다.",
+      "kw": [
+        "주민자치",
+        "페스티벌",
+        "경연"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1BT3NnUUxjY1JRZ2lsVDRFWHBnb1JBTDNUc2dYUkVzejFDTGpvTFhUUVVxcmFGTldrYmdYcVRjOTl3clpuSGlsWjdoLVBUV2hGcjltcFBMNVN3Y1FTYTZhN3JyaS0?oc=5",
+      "source": "매일일보"
+    },
+    {
+      "date": "2026-08-13",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시청소년수련시설, 2026 청소년참여자치기구 연합워크숍 성료",
+      "summary": "화성시청소년수련시설이 2026 청소년참여자치기구 연합워크숍을 개최했다.",
+      "kw": [
+        "청소년",
+        "자치기구",
+        "워크숍"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAyWjhQZEhYWUx0d0J4eW5KazVqRGZCUGh4ZG41QldfcGRzaS05UjI5RDBiTWVsYjBPdHV3a1dGSVE5bjBqYWRVT1BRYnJ4aFlZb2ZIVDg0LXhFRm1rMDhpN0pWOHVySG8?oc=5",
+      "source": "경인신문"
+    },
+    {
+      "date": "2026-08-13",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "[화성소식]화성시의회-화성서부경찰서, '시민안전 강화' 논의 등",
+      "summary": "화성시의회와 화성서부경찰서가 시민안전 강화를 위해 논의했다.",
+      "kw": [
+        "시민안전",
+        "의회",
+        "경찰"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBoR1ZfRnN0YXlHVmFwZmIzVHc1THpaZm05c25Sd2g0QV8xaDBBNHJHWkpSSEpaZERySGFsb2R4ZjhzNDEwM1JGTng5aGp2bVFmT3pxcGZKRl9oR0RuR1pnTNIBeEFVX3lxTE16NUdFU1JVWjJkNW1OZXh0V2JrSUhvMW9wdzdqNXEwc0xWaWM0WENSY1ZxVFl6T2RfY1J4aTFCeG5aazJqQWpoWl91TUtRTF9Ed3JMZHJrSmNaU3JHelVvYTJQcW9oWWZjR1lGdlBJZzhOWFp2TjYxUw?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-08-13",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "화성시 \"군소음피해보상금 2만8700명에 총 66억 지급\"",
+      "summary": "화성시가 군소음피해 2만8700명에게 총 66억 원의 보상금을 지급했다.",
+      "kw": [
+        "군소음",
+        "피해보상",
+        "지급"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9PelNGZUQ5N3hiWjAxQkN6R2d2LVlQWVFXRE1aT1gwODVEYk12ZElXanNqUGgyMkZVYTN5WDFaZUVuWEtGYmhkZmdYakRiY0pNMFdUMWZ5NWprUkxHb2NrM9IBeEFVX3lxTE9mMEVROFRXTUhmN3VSbFNzLVBncjdwRGYxN0VGa3RERVoyYUVoTjZqOEd4cEdWN18ya0Vwd0IxSHhHLU5FdDdfTHRQcVgxZnQ4VUNIUm1odEpZazhxY0J2dFFpcEdSVV9IbnYtNlR1UVNOY1E3dW5kRA?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-08-13",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시, 주민자치센터 대표팀 한자리에…무대경연 페스티벌 개최",
+      "summary": "화성시가 주민자치센터 대표팀이 참여하는 무대경연 페스티벌을 개최했다.",
+      "kw": [
+        "주민자치",
+        "페스티벌",
+        "경연"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE11QXdHaXFzX1pTNW5oNDFLaWJfRUtpY1dMWFlJYUVsWXJKOGlmd1FMSUlzOWVGdUJKYmh4NHFPSzhXcEItUmFWRkM4XzJZY1RiOWdmdzhYSmFlVmM0Q3lOUlpDd2U?oc=5",
+      "source": "매일일보"
+    },
+    {
+      "date": "2026-08-13",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시 꿈마루, '2026 핸드아티코리아' 단체관 운영 …여성창업인 판로 확대 지원",
+      "summary": "화성시 꿈마루가 2026 핸드아티코리아에서 여성창업인 판로 확대를 지원한다.",
+      "kw": [
+        "창업",
+        "판로확대",
+        "여성창업"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOVlEYmtiZi1IbnpVc1hURi1XbVdndkVMOE80OGtMVjRscDM0bHZBd0diM09jNk9nVFJrUUVHbWxNMnRXVlpTSGVsTEVONHhGbm50TllOV2ZMYjE3VzhsRmJnVnNxNmc?oc=5",
+      "source": "경인신문"
+    },
+    {
+      "date": "2026-08-13",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "농사지으면서 전기 생산…화성시, ‘수도권 영농형 태양광’ 첫발",
+      "summary": "화성시가 수도권 최초 영농형 태양광 사업 추진",
+      "kw": [
+        "태양광",
+        "영농",
+        "신재생에너지"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQa0lCcDNCZkxkNjhDSnN1cXAyRktHU3ZIUXhsSGVkOGFrTGFDU0FETFpjazkxdFp3SzBHVW55Ql9oOVhWN0hGeGR4UDdkYVprcTBRNzVJeVN0eTlsSmlWeUlUN0F1ZzZERjY1NmpEWVhxZVVhMWFnZXB1LVVGQU9hM3poU0c?oc=5",
+      "source": "서울신문"
+    },
+    {
+      "date": "2026-08-13",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시, 군 소음피해보상금 66억 원 지급... 2만 8707명 대상",
+      "summary": "화성시가 군 소음피해 보상금 66억 원을 2만 8707명에게 지급",
+      "kw": [
+        "소음피해",
+        "보상금",
+        "군"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1pR09yV2w0NmVTVUVlV1pySmdFQmhxajQwRmE3N0s5Q2NZMzBMbmZLZ19xaXlhMm1GV1VTQmxRQ0d4UFM2SWJsR1hlcXZXWF82YlJyamVRQS1mZnFoRmdJM053?oc=5",
+      "source": "경인미래신문"
     },
     {
       "date": "2026-08-14",
@@ -1333,6 +2691,48 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5OTm5mT3FHampFcFZaNkFpdDhSVDRkb2IwMFZiM25GR0UyTjJ6allQVlFfaUFmd2xjQmpSeG9GaW10aFBuSUdtZ3RIc2JkekdNM0tHWTBsYVVROGd4aVRNUGtxTEpaNDFpZHhxRDJuc3U?oc=5",
       "source": "더코리아"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "화성시, ‘축산업 육성 및 발전 자문위원회’ 개최",
+      "summary": "화성시가 축산업 육성 및 발전을 위한 자문위원회를 개최했다.",
+      "kw": [
+        "축산업",
+        "육성",
+        "자문위"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAxanM2YmtxZENNV2czb1dxeVRhdHEzWERmOVowZU10UzBleFN3VTRWNWpLYzBaYWF4cUs4a1V2eW1PUG93ZGx4QWxOVmtxOHhnMzFKaEt0UzhHQW1fRmVfWmpn?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "황미영 작가 개인전 《Our Little Voyage》, 동탄 갤러리 로(路)서 개막",
+      "summary": "황미영 작가의 개인전 Our Little Voyage가 동탄 갤러리 로에서 개막한다.",
+      "kw": [
+        "전시",
+        "문화",
+        "갤러리"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5TdVFhakpyVlZUdS1rSHpqT1k1azVhc1lGMVM3dVJEUXFpWnZpR2V2bnRPM0pPX1B6VzdWdDhxUlNLb1U?oc=5",
+      "source": "화성신문"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "정명근 화성시장, 폭염 대응도 스마트하게…동탄·병점·어천역에 ‘AI 냉장고’",
+      "summary": "화성시가 동탄·병점·어천역에 AI 냉장고 설치해 폭염에 대응",
+      "kw": [
+        "폭염대응",
+        "AI냉장고",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0zUXB2RksxM0Z4c2o4MFlfei0xWVlaVEtDbDl6VHc5RjA3Y0dDam5HYWhZekJKMnRaWXhUaFFBeXZHeUlNQlplRVdjekhZbmZlako3UExXNm9XMnJzLWw0bVg1ZlZla19N0gFsQVVfeXFMUGN0QzZ1QTA0c2NPZHNNNG1vQVJVUEZ3ZmtZQy1fRWhHeGJTRGU4WEpUd0xCWXczcDhPb05HVUdyZWs3Tk04MzUtdmFQSDdxM2F4RzFSQklSS3pYTWFyWHVISnBtTFFvTjRldE9o?oc=5",
+      "source": "필드뉴스"
     }
   ]
 }
