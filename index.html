@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!-- 핀포인트 — 화성시 언론보도 대시보드: news_data.json(실데이터)을 불러와 통계 카드·차트 3종·키워드 TOP8·기간/분야 필터·검색·더보기 목록을 제공 -->
 <html lang="ko">
 <head>
@@ -208,7 +208,7 @@
 
 <div class="src-bar">
   <span class="src-item"><b>화성특례시</b> AI·DATA 공모전 · 지정과제 16번 정책 모니터링형</span>
-  <span class="src-item">데이터 출처 <b>빅카인즈</b> · AI 분류·요약 <b>1,026건</b> · 수집 2026.06.06~08.06</span>
+  <span class="src-item" id="srcData">데이터 출처 <b>빅카인즈</b> · AI 분류·요약 <b>1,026건</b> · 수집 2026.06.06~08.06</span>
 </div>
 
 <header>
@@ -538,6 +538,19 @@ document.getElementById("kwList").addEventListener("click", e => {
 });
 
 
+// 매일 자동 수집된 기사를 읽는다. 파일이 없거나 깨져도 검증본만으로 정상 동작해야 하므로 null을 돌려준다.
+async function loadLive() {
+  try {
+    const res = await fetch("news_live.json", { cache: "no-store" });
+    if (!res.ok) return null;
+    const data = await res.json();
+    if (!data || !Array.isArray(data.items) || data.items.length === 0) return null;
+    return data;
+  } catch (e) {
+    return null;
+  }
+}
+
 async function init() {
   applyChartDefaults();
   try {
@@ -545,6 +558,16 @@ async function init() {
     if (!res.ok) throw new Error("HTTP " + res.status);
     NEWS = await res.json();
     if (!Array.isArray(NEWS) || NEWS.length === 0) throw new Error("빈 데이터");
+
+    const verified = NEWS.length;
+    const live = await loadLive();
+    if (live) {
+      NEWS = NEWS.concat(live.items);
+      document.getElementById("srcData").innerHTML =
+        `데이터 출처 <b>빅카인즈 검증본 ${verified.toLocaleString()}건</b>`
+        + ` + 자동 수집 <b>${live.items.length.toLocaleString()}건</b>`
+        + ` · 마지막 갱신 <b>${live.updated}</b>`;
+    }
     document.getElementById("badge").textContent = "실데이터 " + NEWS.length.toLocaleString() + "건";
     const allDates = NEWS.map(n => n.date).sort();
     const minDate = allDates[0], maxDate = allDates[allDates.length - 1];
