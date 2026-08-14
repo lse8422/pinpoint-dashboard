@@ -5,6 +5,13 @@ on:
   schedule:
     - cron: "0 21 * * *"    # UTC 21시 = 한국시간 오전 6시
   workflow_dispatch:         # Actions 탭에서 수동 실행도 가능
+    inputs:
+      days:
+        description: "며칠치를 수집할지 (평소 2, 빈 기간 메울 때만 늘린다)"
+        default: "2"
+      max_new:
+        description: "한 번에 처리할 최대 건수 (평소 100)"
+        default: "100"
 
 permissions:
   contents: write            # 갱신한 JSON을 저장소에 커밋하기 위해 필요
@@ -25,6 +32,8 @@ jobs:
         env:
           # 키가 없으면 스크립트가 키워드 규칙으로 자동 전환한다
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          COLLECT_DAYS: ${{ inputs.days }}
+          COLLECT_MAX: ${{ inputs.max_new }}
         run: python collect.py
 
       - name: 변경사항 커밋

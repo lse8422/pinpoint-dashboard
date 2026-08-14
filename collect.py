@@ -16,8 +16,9 @@ VERIFIED_FILE = os.path.join(BASE, "news_data.json")   # 빅카인즈 검증본 
 LIVE_FILE = os.path.join(BASE, "news_live.json")       # 자동 수집분 — 여기에만 누적한다
 
 QUERIES = ["화성시", "동탄"]     # 두 검색어로 나눠 받아 누락을 줄인다
-DAYS = 2                         # 하루 걸러도 복구되도록 이틀치를 받는다
-MAX_NEW = 100                    # 하루 최대 처리 건수 (비용·오염 안전장치)
+# 평소에는 이틀치만 받는다. 빈 기간을 메울 때만 워크플로에서 값을 넘겨 늘린다.
+DAYS = int(os.environ.get("COLLECT_DAYS") or 2)
+MAX_NEW = int(os.environ.get("COLLECT_MAX") or 100)   # 한 번에 처리할 최대 건수 (비용·오염 안전장치)
 BATCH = 15                       # AI 분류 시 한 번에 보낼 기사 수
 MODEL = "claude-haiku-4-5-20251001"
 
