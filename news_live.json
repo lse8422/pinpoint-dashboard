@@ -1,8 +1,8 @@
 {
-  "updated": "2026-08-14 22:32",
+  "updated": "2026-08-15 00:15",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 195,
+  "count": 222,
   "items": [
     {
       "date": "2026-08-02",
@@ -1643,6 +1643,76 @@
       "source": "경인미래신문"
     },
     {
+      "date": "2026-08-13",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "동탄·구리 묶이자…병점·다산 실거래가 폭주",
+      "summary": "동탄·구리가 연결되면서 병점·다산의 실거래가가 급등하고 있다.",
+      "kw": [
+        "부동산",
+        "실거래가",
+        "교통"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE80ejlWTF93MU1zeFFBY0xJUnFSOGkyX05ydTRqTU9iT1cxdmxSMklqZ2ZpMEROdGg1eVc1SGltOWF0RkdzYlE?oc=5",
+      "source": "v.daum.net"
+    },
+    {
+      "date": "2026-08-13",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "오산동탄 더 모스트 U11, 주축 부상과 파울 트러블 악재 속 준우승으로 전국 대회 마무리",
+      "summary": "오산동탄 더 모스트 U11이 부상과 파울 트러블 속에서 전국대회 준우승을 기록했다.",
+      "kw": [
+        "스포츠",
+        "전국대회",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1pV1pyRG1PN1pTMks3ZVByaDZEMVk3MXdJbkpILXk4VTBtNThtN3d2Wm52Uk9UTnhnbEE4UXVBWTVDdy1tUEVlMUlQRWtQUEl1M3k5SGtnR0JoWmx4QTNNVHk4MUtsdUExMkZTUU9mWWo?oc=5",
+      "source": "점프볼"
+    },
+    {
+      "date": "2026-08-13",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "'천적 극복+강팀 격파' 아쉬운 준우승에도 결실 빛난 오산동탄 더 모스트 U10의 전국 대회 나들이",
+      "summary": "오산동탄 더 모스트 U10이 강팀을 격파하며 전국대회 준우승의 결실을 얻었다.",
+      "kw": [
+        "스포츠",
+        "전국대회",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5rM3JQYjlWQThpaXdYTlp5bEFrNTlmU29BLUtZZW9uWXh4UkgyZERudlh4NXkzNGV6NGg2N2lOajBSXzVudmhYOXFxUnJjcEpPYVhOaENQRnNjUW9VVnFBOGlPWjBXRGl5YnZMblFHOUk?oc=5",
+      "source": "점프볼"
+    },
+    {
+      "date": "2026-08-13",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "동탄·구리 묶이자 '병점·다산' 불장…한 달새 1억5천만원 뛰어",
+      "summary": "동탄·구리가 연결되면서 병점·다산의 부동산 가격이 한 달새 1억5천만원 상승했다.",
+      "kw": [
+        "부동산",
+        "실거래가",
+        "교통"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFByUDUyNk5rb2daS2RNOGhXTE9wdG5pdmU0eFo4X3gxOURNMFBwWng5T2VfQ1pvVzhZZ19QNzR4RVFGM2c0OHN3Z2VRWjhaV1VRekhGN1NtME1YcW9tUVd0ZW5SV19KZWpkb05oSXh5a2g3Wk1TN3U2ctIBeEFVX3lxTFByUDUyNk5rb2daS2RNOGhXTE9wdG5pdmU0eFo4X3gxOURNMFBwWng5T2VfQ1pvVzhZZ19QNzR4RVFGM2c0OHN3Z2VRWjhaV1VRekhGN1NtME1YcW9tUVd0ZW5SV19KZWpkb05oSXh5a2g3Wk1TN3U2cg?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-08-13",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "[포토뉴스] 화성동탄둘레길봉사단 명랑운동회",
+      "summary": "화성동탄둘레길봉사단이 명랑운동회를 개최했다.",
+      "kw": [
+        "봉사단",
+        "명랑운동회",
+        "동탄둘레길"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE03OEZ2d0sweWNSNXc1a01URlRvODA1dG9pX0RPYUtfYWlYMVNieFROTzdvTGJXd19tOTQwdklsS0NuQ0otUGN4bFZTekxZTVN2dEZyZ2J4SU1nSEFTOS1rTlJn?oc=5",
+      "source": "미담플러스"
+    },
+    {
       "date": "2026-08-14",
       "cat": "행정",
       "senti": "중립",
@@ -2733,6 +2803,319 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0zUXB2RksxM0Z4c2o4MFlfei0xWVlaVEtDbDl6VHc5RjA3Y0dDam5HYWhZekJKMnRaWXhUaFFBeXZHeUlNQlplRVdjekhZbmZlako3UExXNm9XMnJzLWw0bVg1ZlZla19N0gFsQVVfeXFMUGN0QzZ1QTA0c2NPZHNNNG1vQVJVUEZ3ZmtZQy1fRWhHeGJTRGU4WEpUd0xCWXczcDhPb05HVUdyZWs3Tk04MzUtdmFQSDdxM2F4RzFSQklSS3pYTWFyWHVISnBtTFFvTjRldE9o?oc=5",
       "source": "필드뉴스"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "[화성 톺아보기] 제부도에서 궁평항까지 17㎞…화성 ‘황금해안길’서 만나는 서해 낙조",
+      "summary": "제부도에서 궁평항까지 17km의 황금해안길에서 서해 낙조를 감상할 수 있는 관광명소 소개.",
+      "kw": [
+        "황금해안길",
+        "서해낙조",
+        "관광"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5nSHRjaGRuOHdLMTVHV0F5ZTFfWElQNHJ5aEdfYVI0RHB3eFJCdjk2WXl3VXhKRlphNENaeWNjcUQ0RUhhX2tVWndCbllRRlBmdkFJN0xEYWdkZnRKQWpHS0VR?oc=5",
+      "source": "에너지경제신문"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "가을을 다채로운 감각으로 물들이는 네 가지 무대, 화성시문화관광재단 10월 기획공연 18일 티켓오픈",
+      "summary": "화성시문화관광재단이 10월 기획공연 4개 무대를 준비하며 18일 티켓오픈.",
+      "kw": [
+        "기획공연",
+        "문화재단",
+        "10월"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ZZWxYaG9VdDdOTDh3MTQtckR6OGlNZ3VvRGd2dC1QUzk1VUhwanJ6NWRVanRyanExQl94VUphbGxBXy1iTC0tQUNPOGdheFVGRDRRVm1ua1YyeklHa01QMkZZVlM?oc=5",
+      "source": "중앙뉴스타임스"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "[위클리오늘] 김학순 할머니 증언 35년…화성시의회 “끝까지 풀어야 할 현재의 책임”",
+      "summary": "화성시의회가 김학순 할머니 증언 35년을 맞아 위안부 피해 진실규명의 책임을 강조.",
+      "kw": [
+        "위안부",
+        "피해진실",
+        "책임"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBNZXMxM01TdkVtVVJUbEp5Q2lnbDlKcmo4eHpGMlhTRnFZZFVvWlBFM2dsVVhraWZfZTc0LUFCWXNPeHdiR3VheEpKV1hkOWZrbU1ZSm5pZUxfVUxNWFlrN19JRnhhN09rZ01EUGs3OA?oc=5",
+      "source": "위클리오늘"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시장 \"100만 넘는 시민이 위안부 피해 진실 기억\"",
+      "summary": "화성시장이 100만 시민이 위안부 피해 진실을 기억한다고 성명.",
+      "kw": [
+        "위안부",
+        "시장성명",
+        "진실"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9vY0g2cnBWeF94WmNaaS00ZEdzNy1PaGtYRjgtdXNfQ0x2clJKTDlra2NJRVBJdG9aS2R0Vzk3TFZiNzFsNFBhMnRtT0xSaklrbDVNSk52ZGoyVVpUUGIzRlVraU1RZGoxalNITFE0ZjQ3OU10M0tEeNIBeEFVX3lxTE9vY0g2cnBWeF94WmNaaS00ZEdzNy1PaGtYRjgtdXNfQ0x2clJKTDlra2NJRVBJdG9aS2R0Vzk3TFZiNzFsNFBhMnRtT0xSaklrbDVNSk52ZGoyVVpUUGIzRlVraU1RZGoxalNITFE0ZjQ3OU10M0tEeA?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "[현장 1분 브리핑] 화성시, 일본 위안부 피해 100만명이 기억한다",
+      "summary": "화성시가 일본 위안부 피해 100만명 기억 캠페인 추진.",
+      "kw": [
+        "위안부피해",
+        "기억",
+        "캠페인"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1lZU50N3JhX29EdUc3OGRrWWFxM3pzOUF0cTRCSWpfS1laQUp5VjJFanhVbDVfZUZDQ1pzblE0OE96M1Fid0Fvc2J6YklsVlpjY3FYeXoxdFVRaHhzZUVmeg?oc=5",
+      "source": "NSP통신"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "낙조·염전·어촌 따라 17㎞...화성 ′황금해안길′ 서해 관광명소 ′우뚝′",
+      "summary": "제부도부터 궁평항까지 17km 황금해안길이 낙조·염전·어촌을 거느린 서해 관광명소로 부상.",
+      "kw": [
+        "황금해안길",
+        "낙조",
+        "관광명소"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1lWWpEZmFQZndqcGU5RDdNWVA2WmpTaC0xaU5wbEVQYVVlYXM3bm9OM2J0VUI5MXBTNmpUUXp3alZGZjFna0xBMFlONDExOUVOdl9fcWlITFV2bzFI0gFTQVVfeXFMUEhhZjR4cHhpNkZfYTVUTlZEV2NmWFhOeHFvblFLNEZWTThrVV9udnl3Zkl4SktFTlFxb0tvZkxTeGlCSDFhSDFUd1A1T0QyaW9fYTQ?oc=5",
+      "source": "KPI뉴스"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시문화관광재단, \"동탄구 권역별 콘서트 리:와인드 댄스 나잇!\"",
+      "summary": "화성시문화관광재단이 동탄구 권역별 콘서트 '리:와인드 댄스 나잇' 개최.",
+      "kw": [
+        "동탄콘서트",
+        "문화재단",
+        "댄스나잇"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1OdExGOVpSU3VkODc3Q3NkYjl4OGlOSnZINDlLaWtfd3NUN0piT1BGS3loUjkwYWdtMWdIYUxKRHhjdw?oc=5",
+      "source": "화성인터넷신문"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시, 일본군 ‘위안부’ 피해자 기림의 날 평화·인권 가치 되새겨",
+      "summary": "화성특례시가 일본군 위안부 피해자 기림의 날을 맞아 평화·인권 가치 재확인.",
+      "kw": [
+        "위안부기림",
+        "평화",
+        "인권"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5UY2VuSFZCUml1cTN1dnRvSFFZcXh1OGZkMV92UzNMWXpzYWVDSms0OWExZkxRbnJ6YzRzUXp5TFpiVjZnMFU1enVlN1lEY2FPMkNDemRRcjEyU2JWYWk3V2pHSVpNeFR1Wnc?oc=5",
+      "source": "수원일보"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "교통",
+      "senti": "중립",
+      "title": "경기도의회 김영훈 의원, 동탄 중고교 과밀학급 해소를 위한 학급당 학생 수 조정 강조 학생 수 감소",
+      "summary": "경기도의회 김영훈 의원이 동탄 중고교 과밀학급 해소를 위한 학급당 학생 수 조정 강조.",
+      "kw": [
+        "동탄학교",
+        "과밀학급",
+        "교육"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ZMXd5QTV1b0RGN0pGM0E4aHQ5S0dGeGpfUV9DUHRMcWZTTFhRaDRjR2g4UkRSMXdpTzdlTnk1WWVBR21PYVdtXzFmbEFUZ1ZlR0x2ZzlMSTRReVl5dWZNcEZWbUI5R09walVLaFpMd0Y?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성특례시, 어천·병점·동탄역에 '무인·무료 생수냉장고' 운영",
+      "summary": "화성특례시가 어천·병점·동탄역에 무인·무료 생수냉장고 운영 시작.",
+      "kw": [
+        "생수냉장고",
+        "무료서비스",
+        "복지"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE55UWEwaURBVW44RHpvZ0ZNR0dXUEhYMVh1YWlBYmNZamlVX0lObjVpUzRqN2Y5Yjl1bV9CUmg0VWVIUmd5a1pBcElodFRVSXpORHc2N0d6RC1PYklDeUlocXZQMXpnMTM1TTZn?oc=5",
+      "source": "프레시안"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "지커 공식 딜러 에이치모빌리티지케이, 동탄 롯데백화점서 ‘지커 7X’ 팝업 스토어 운영",
+      "summary": "지커 공식 딜러 에이치모빌리티지케이가 동탄 롯데백화점에서 지커 7X 팝업 스토어를 운영한다.",
+      "kw": [
+        "팝업스토어",
+        "동탄",
+        "자동차"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9rNjJmdmNINnRaSGhnTF9TWmNVZGRCQVEwR29EdU1YTVFYdkR5Tm9BRUhuRXZqc3J6U1dNOHZFWFNUakpRRnVtVHprZGFraUpESGFRZ1hOdExuVWZqb1Uwdlc4YlY4WHRVaHJSZg?oc=5",
+      "source": "파이낸스투데이"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "수업 시간 덮친 화재...동탄 학원가 긴급 대피 소동 - 시사포커스",
+      "summary": "동탄 학원가에서 수업 시간 중 화재가 발생해 긴급 대피 소동이 일어났다.",
+      "kw": [
+        "화재",
+        "학원",
+        "대피"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lUTVGOFhCSjNpZXU4OWFQV21RaDJFM3V4MHdSZHgxSzhNREZkRWdPckJjZGZuQlozUXgxdzZ0RTd0d2dDZHdESU1NOWhlTHg4Y3pONS1kbGhjZHlKbWNwbDNMM0FWUDZ1cjF5V3lMRFROZWcyTDM1SklxWTFiN1E?oc=5",
+      "source": "대한민국청소년기자단"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "김영훈 경기도의원, 동탄 중·고교 과밀 해소 위한 부서 간 협업 촉구",
+      "summary": "경기도의원 김영훈이 동탄 중·고교 과밀 해소를 위한 부서 간 협업을 촉구했다.",
+      "kw": [
+        "학교과밀",
+        "협업",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1mY0o3YThMZjZTZTVrN1c5OVpkUVlhVUdRNDQ5R1MtUnR4bEFWeW5GTXNqUEJpazFHMXF6QmpLeDg5OUZlRTJhd0pOUHJaWTJKdDZwSGRVWkJXY19jc2FUZw?oc=5",
+      "source": "네이트"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성 어천·병점·동탄역에 ‘AI 생수 냉장고’…하루 1병 무료",
+      "summary": "화성시 어천·병점·동탄역에 AI 생수 냉장고가 설치되어 하루 1병을 무료로 제공한다.",
+      "kw": [
+        "AI냉장고",
+        "무료서비스",
+        "편의시설"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8tWE1vam9VVVVVNl9KeTdSRXAyN284S25TUWJRemlPYlAwRTZQbXlnQ1JydUEwQ2FQa1lBckhQOHRzLWdFZkdLaDd6YnVhaWExbXFhcjZPeXRidk4wOXVya05lQkNkZ0Q3?oc=5",
+      "source": "일간경기"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성특례시 동탄2동 주민자치회, 시니어 힐링을 위한 인지 건강 프로그램 추진",
+      "summary": "화성특례시 동탄2동 주민자치회가 시니어 힐링을 위한 인지 건강 프로그램을 추진한다.",
+      "kw": [
+        "시니어",
+        "인지건강",
+        "프로그램"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBkbHVkdGQ0SWZRTjhZcHNMSnctaHlmMHp2OE9STXpJT0x3aUh3UEpUb2hsYVlac0ZlbDlkcVFhdXlNVEFOWWl1R3VjN2Z5VVI4V2ozekhtUG42VGh2Q2lHaA?oc=5",
+      "source": "비전21뉴스"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "“대치동에서 이사 가요” 서울 학군지 맞먹는 ‘학원 신도시’ 동탄",
+      "summary": "동탄이 서울 학군지 수준의 학원 신도시로 성장하며 대치동에서의 이사 수요가 증가하고 있다.",
+      "kw": [
+        "학원신도시",
+        "학군",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE94dk5tUjhtYjlMb0psS1VSRG5sbkNZd2dsaE9ZbElQSGtTNVl4em40TkZYWWtYMGg3WmZPOHoxbTJWZDJLekhoSXpaY2FHeFFycW1QSUdKV1FrVkJvZTJpamNvdVh0UGc?oc=5",
+      "source": "E동아"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "경기도의회 김영훈 의원, 동탄 중·고교 과밀 해소 위한 부서 간 협업 촉구",
+      "summary": "경기도의회 김영훈 의원이 동탄 중·고교 과밀 해소를 위한 부서 간 협업을 촉구했다.",
+      "kw": [
+        "학교과밀",
+        "협업",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9fVmNETS05UUdvc2RjZHBEVk5jbFZmSUllVGcwbFlpMXM2WC1PckgwNFBwQW5LdUd1TVB2WG5HSzJmS2RNYlIxUl9iYl9pd3UtemlRYVlEUkNjeHE1?oc=5",
+      "source": "아시아뉴스통신"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "[유노유농] 전력 공백 속 전국대회 8강에 오른 동탄 베네핏 U15 대표팀...보완점은 성실한 훈련으로 보강한다",
+      "summary": "동탄 베네핏 U15 대표팀이 전력 공백 속에서도 전국대회 8강에 진출했다.",
+      "kw": [
+        "스포츠",
+        "전국대회",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5UNVNJQUtuNVFJV0luVnNObjJxbFROVmJwa2FPSW5mN2swdUNneV9BU2xqRU81QWtGb2lrWXVfNUYtSGp1TkVnY01HMi1CTjVibzlJN01SZk0yVHVqNE93WWxkZ0lPUGxaVVE?oc=5",
+      "source": "rookie.co.kr"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성특례시 동탄2동 주민자치회, 시니어 인지 건강 위한 맞춤형 프로그램 운영",
+      "summary": "화성특례시 동탄2동 주민자치회가 시니어를 위한 맞춤형 인지 건강 프로그램을 운영한다.",
+      "kw": [
+        "시니어",
+        "인지건강",
+        "프로그램"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ncmlUdmVlMFYzWG9xOE9XUndkdWsyNGJPZ2FEcFVlNDFsZHA0Y2ZMMkhnQmI5bUNLdUJxU2dsbkdkenEyWkFWZjkwYlkzTFRkaDhkU2ttQV8wYmZNTzJzTnFHNENaRjdRMzh5NDFWX1dIdw?oc=5",
+      "source": "웹이코노미"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "동탄2 A93 공공임대 장기전세주택 우선 공급 - 남동탄 자연앤자이 아파트 Ncis Sydney (8oqu8eKoKu)",
+      "summary": "동탄2 A93 공공임대 장기전세주택이 우선 공급된다.",
+      "kw": [
+        "공공임대",
+        "주택",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9PdHpsbzFUaHVNSTNPTXF4OEI3ak5ONkk3eW1RZzRqLURjb1dQdnRPMndwTU5rQXE2XzRXODVOSzczOEJkTHVWdHRuSlUzU3p5MUNHUUZfcGNiTlk?oc=5",
+      "source": "Mshale"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시, 어천·병점·동탄역 3곳 ‘AI 무인 생수 냉장고’설치 운영",
+      "summary": "화성시가 어천, 병점, 동탄역 3곳에 AI 무인 생수 냉장고를 설치해 운영한다.",
+      "kw": [
+        "AI무인냉장고",
+        "생수",
+        "공공편의"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE04NEx5dGtadUpJaGZUdFMtdVMzaWRGVnpKMEF3TE0tcWE0SG9oNkJXS1pHbWV5aFZya3ZSenF1MzlYMDJoczhCQzlqRExwX2NxaEpMLTdGT1M?oc=5",
+      "source": "sportsseoul.com"
+    },
+    {
+      "date": "2026-08-15",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "동탄 생활권, 반도체 수혜 ‘북오산자이 드포레’ 아파트, 미분양 잔여세대 선착순 분양",
+      "summary": "동탄 생활권의 반도체 수혜로 북오산자이 드포레 아파트 미분양 선착순 분양.",
+      "kw": [
+        "동탄",
+        "반도체수혜",
+        "아파트분양"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9VTTNRNGVsNjVaRm9CRTNHVWJXVG15Mmw0cjc5Y2dZLW1fZGVYV2pGQ3c5MHdIQllwNlVSLVVEM1BybTlLbDNwN1h0NnA0UXprQW9Wd3owWW5CSlkxeGRRQmQyZkdFaG5IWWN6LQ?oc=5",
+      "source": "경상일보"
     }
-  ]
+  ],
+  "briefs": {
+    "all": "수집 기간 동안 총 1,248건의 기사 중 [[w]]104건(8%)[[/w]]이 부정 보도로 집계되었습니다. [[b]]동탄[[/b]]이 가장 많이 다루어진 핵심 키워드이며, 부정 기사는 [[w]]안전 분야에서 43건[[/w]]으로 가장 집중되어 있습니다.",
+    "7": "최근 7일간 186건의 기사가 보도되었으며 [[w]]부정비율은 5%로 평균보다 낮은 수준[[/w]]입니다. 다만 [[w]]8월 9일에 6건의 부정 기사[[/w]]가 집중되었으므로 해당 일자의 안전 관련 사안을 우선 점검하시기 바랍니다.",
+    "30": "최근 30일간 [[b]]부정비율이 10%에 도달[[/b]]하여 전체 기간 평균(8%)을 상회합니다. [[w]]안전 분야에서 28건의 부정 기사[[/w]]가 발생했으며, 특히 8월 3일에 8건이 집중되었으므로 해당 시기 관련 이슈의 재점검이 필요합니다."
+  }
 }
