@@ -7,6 +7,7 @@ import time
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+from collections import Counter
 from datetime import datetime, timedelta, timezone
 
 KST = timezone(timedelta(hours=9))
@@ -208,6 +209,71 @@ def call_claude(api_key, articles):
     return json.loads(m.group())
 
 
+def brief_facts(rows, label):
+    """브리핑에 쓸 수치를 코드가 직접 계산한다. AI에게 숫자를 맡기지 않기 위해서다."""
+    total = len(rows)
+    if not total:
+        return None
+    neg = [r for r in rows if r.get("senti") == "부정"]
+    cats = Counter(r["cat"] for r in rows)
+    kws = Counter(k for r in rows for k in (r.get("kw") or []))
+    negcats = Counter(r["cat"] for r in neg)
+    negdates = Counter(r["date"] for r in neg)
+    top_cat = cats.most_common(1)[0] if cats else None
+    top_kw = kws.most_common(1)[0] if kws else None
+    top_negcat = negcats.most_common(1)[0] if negcats else None
+    peak = negdates.most_common(1)[0] if negdates else None
+    return {
+        "기간": label,
+        "전체기사": total,
+        "부정기사": len(neg),
+        "부정비율": "%d%%" % round(len(neg) / total * 100),
+        "최다분야": "%s %d건" % top_cat if top_cat else None,
+        "핵심키워드": top_kw[0] if top_kw else None,
+        "부정최다분야": "%s %d건" % top_negcat if top_negcat else None,
+        "부정집중일": "%s %d건" % peak if peak and peak[1] >= 2 else None,
+    }
+
+
+def write_briefs(api_key, facts):
+    """계산된 수치를 넘겨 기간별 브리핑 문장을 받는다. 실패하면 None을 돌려 화면이 기존 방식으로 돌아가게 한다."""
+    prompt = """아래는 화성시 언론보도 대시보드의 기간별 집계 결과다.
+각 기간마다 화성시 홍보 담당 공무원이 아침에 읽을 브리핑을 2~3문장으로 작성하라.
+
+%s
+
+규칙:
+- 주어진 수치만 사용한다. 새로운 숫자를 만들거나 추정하지 않는다.
+- 담당자가 무엇을 먼저 확인해야 하는지가 드러나게 쓴다.
+- 기간마다 문장 구조를 다르게 쓴다. 같은 틀에 숫자만 바꿔 넣지 마라.
+- 강조할 표현은 [[b]]와 [[/b]]로, 부정 보도 관련 수치는 [[w]]와 [[/w]]로 감싼다.
+- HTML 태그를 쓰지 마라. 위 표시자만 쓴다.
+- 과장하거나 추측하지 않는다. 사실만 담담하게 쓴다.
+
+{"all": "전체 기간 브리핑", "7": "최근 7일 브리핑", "30": "최근 30일 브리핑"}
+위 형식의 JSON 객체로만 답하라.""" % json.dumps(facts, ensure_ascii=False, indent=2)
+
+    body = json.dumps({
+        "model": MODEL,
+        "max_tokens": 1500,
+        "messages": [{"role": "user", "content": prompt}],
+    }).encode()
+    req = urllib.request.Request(
+        "https://api.anthropic.com/v1/messages",
+        data=body,
+        headers={"content-type": "application/json", "x-api-key": api_key,
+                 "anthropic-version": "2023-06-01"},
+    )
+    with urllib.request.urlopen(req, timeout=120) as res:
+        payload = json.load(res)
+    text = payload["content"][0]["text"]
+    m = re.search(r"\{.*\}", text, re.S)
+    if not m:
+        raise ValueError("브리핑 응답에서 JSON을 찾지 못했습니다: " + text[:200])
+    out = json.loads(m.group())
+    return {k: v for k, v in out.items() if k in ("all", "7", "30") and isinstance(v, str) and v.strip()}
+
+
 def load_live():
     """기존 수집분을 읽는다. 파일이 없거나 깨졌으면 빈 상태로 시작한다."""
     if not os.path.exists(LIVE_FILE):
@@ -314,6 +380,29 @@ def main():
 
     live.extend(added)
     live.sort(key=lambda a: a["date"])
+
+    # 브리핑 문장 — 검증본까지 합친 전체를 기준으로 계산한다(화면이 보는 모수와 같아야 한다)
+    briefs = None
+    if api_key:
+        allrows = verified + live
+        last = max(r["date"] for r in allrows)
+        facts = []
+        for key, days, label in (("all", None, "수집 기간 전체"), ("7", 7, "최근 7일"), ("30", 30, "최근 30일")):
+            if days is None:
+                rows = allrows
+            else:
+                cut = (datetime.strptime(last, "%Y-%m-%d") - timedelta(days=days - 1)).strftime("%Y-%m-%d")
+                rows = [r for r in allrows if r["date"] >= cut]
+            f = brief_facts(rows, label)
+            if f:
+                facts.append(dict({"키": key}, **f))
+        try:
+            briefs = write_briefs(api_key, facts)
+            print("브리핑 생성 완료: %s" % ", ".join(sorted(briefs)))
+        except Exception as e:
+            print("브리핑 생성 실패(%s) — 화면은 기존 계산식으로 표시됩니다." % e)
+            briefs = None
+
     out = {
         "updated": datetime.now(KST).strftime("%Y-%m-%d %H:%M"),
         "source": "구글 뉴스 RSS",
@@ -321,6 +410,8 @@ def main():
         "count": len(live),
         "items": live,
     }
+    if briefs:
+        out["briefs"] = briefs
     with open(LIVE_FILE, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
 

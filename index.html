@@ -240,7 +240,7 @@
   <div class="ai-brief" id="aiBrief">
     <div class="ai-brief-head">
       <span class="ai-badge">AI 브리핑</span>
-      <span class="ai-brief-title">선택 기간의 언론 동향을 AI 분석 결과로 요약했습니다</span>
+      <span class="ai-brief-title" id="aiBriefNote">선택 기간의 언론 동향을 AI 분석 결과로 요약했습니다</span>
       <span class="ai-brief-time" id="aiBriefTime"></span>
     </div>
     <div class="ai-brief-body" id="aiBriefBody">분석 중…</div>
@@ -290,6 +290,7 @@ const SENTI_CLASS = { "긍정": "pos", "중립": "neu", "부정": "neg" };
 const PAGE_SIZE = 20;
 
 let NEWS = [];
+let BRIEFS = {};   // AI가 미리 써 둔 기간별 브리핑 문장. 없으면 아래 계산식으로 만든다.
 let period = "all";
 let customFrom = "", customTo = "";
 let filter = "all";
@@ -355,6 +356,14 @@ function articleLink(n) {
   return "https://search.naver.com/search.naver?where=news&query=" + encodeURIComponent(n.title);
 }
 
+// AI가 써 준 문장을 화면에 넣는다. 태그를 그대로 받지 않고 강조 표시자만 변환해 안전하게 처리한다.
+function markupBrief(s) {
+  const esc = s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  return esc
+    .replace(/\[\[b\]\]/g, "<b>").replace(/\[\[\/b\]\]/g, "</b>")
+    .replace(/\[\[w\]\]/g, '<span class="warn">').replace(/\[\[\/w\]\]/g, "</span>");
+}
+
 // AI 분류 결과를 집계해 선택 기간의 동향을 문장으로 요약한다
 function renderBrief(data, total, negCount, topCat, kwSorted) {
   const body = document.getElementById("aiBriefBody");
@@ -382,17 +391,25 @@ function renderBrief(data, total, negCount, topCat, kwSorted) {
   data.filter(n => n.senti === "부정").forEach(n => negByDate[n.date] = (negByDate[n.date] || 0) + 1);
   const peak = Object.entries(negByDate).sort((a, b) => b[1] - a[1])[0];
 
-  let text = `${label} 화성시 관련 보도는 <b>${total.toLocaleString()}건</b>이며, `
-    + `이 중 부정 보도는 <span class="warn">${negCount}건(${negRate}%)</span>입니다. `;
-  if (topCat) text += `보도가 가장 많은 분야는 <b>${CAT_LABEL[topCat[0]]}</b>(${topCat[1]}건)이고, `;
-  if (kwSorted.length) text += `핵심 키워드는 <b>${kwSorted[0][0]}</b>입니다. `;
-  if (topNegCat) {
-    text += `부정 보도는 <span class="warn">${CAT_LABEL[topNegCat[0]]}</span> 분야에 ${topNegCat[1]}건으로 가장 많이 집중돼 있어 우선 확인이 필요합니다.`;
+  // 미리 써 둔 문장이 있으면 그것을 쓰고, 없으면(달력으로 임의 기간을 고른 경우 등) 계산식으로 만든다
+  const note = document.getElementById("aiBriefNote");
+  if (BRIEFS[period]) {
+    body.innerHTML = markupBrief(BRIEFS[period]);
+    note.textContent = "AI가 이 기간의 보도를 분석해 직접 작성한 브리핑입니다";
+  } else {
+    note.textContent = "선택 기간의 집계 결과를 요약했습니다";
+    let text = `${label} 화성시 관련 보도는 <b>${total.toLocaleString()}건</b>이며, `
+      + `이 중 부정 보도는 <span class="warn">${negCount}건(${negRate}%)</span>입니다. `;
+    if (topCat) text += `보도가 가장 많은 분야는 <b>${CAT_LABEL[topCat[0]]}</b>(${topCat[1]}건)이고, `;
+    if (kwSorted.length) text += `핵심 키워드는 <b>${kwSorted[0][0]}</b>입니다. `;
+    if (topNegCat) {
+      text += `부정 보도는 <span class="warn">${CAT_LABEL[topNegCat[0]]}</span> 분야에 ${topNegCat[1]}건으로 가장 많이 집중돼 있어 우선 확인이 필요합니다.`;
+    }
+    if (peak && peak[1] >= 2) {
+      text += ` ${peak[0].replaceAll("-", ".")}에 부정 보도 ${peak[1]}건이 몰려 해당 시점 대응 여부를 점검할 필요가 있습니다.`;
+    }
+    body.innerHTML = text;
   }
-  if (peak && peak[1] >= 2) {
-    text += ` ${peak[0].replaceAll("-", ".")}에 부정 보도 ${peak[1]}건이 몰려 해당 시점 대응 여부를 점검할 필요가 있습니다.`;
-  }
-  body.innerHTML = text;
 
   // 주목할 부정 이슈 3건을 최신순으로 제시
   const picks = data.filter(n => n.senti === "부정")
@@ -563,6 +580,7 @@ async function init() {
     const live = await loadLive();
     if (live) {
       NEWS = NEWS.concat(live.items);
+      if (live.briefs) BRIEFS = live.briefs;
       document.getElementById("srcData").innerHTML =
         `데이터 출처 <b>빅카인즈 검증본 ${verified.toLocaleString()}건</b>`
         + ` + 자동 수집 <b>${live.items.length.toLocaleString()}건</b>`
