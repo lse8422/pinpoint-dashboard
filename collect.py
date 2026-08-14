@@ -275,16 +275,18 @@ def write_briefs(api_key, facts):
 
 
 def load_live():
-    """기존 수집분을 읽는다. 파일이 없거나 깨졌으면 빈 상태로 시작한다."""
+    """기존 수집분과 브리핑을 읽는다. 파일이 없거나 깨졌으면 빈 상태로 시작한다."""
     if not os.path.exists(LIVE_FILE):
-        return []
+        return [], None
     try:
         with open(LIVE_FILE, encoding="utf-8") as f:
             data = json.load(f)
-        return data.get("items", []) if isinstance(data, dict) else []
+        if isinstance(data, dict):
+            return data.get("items", []), data.get("briefs")
+        return [], None
     except (ValueError, OSError) as e:
         print("기존 news_live.json을 읽지 못해 새로 시작합니다: %s" % e)
-        return []
+        return [], None
 
 
 def main():
@@ -295,7 +297,7 @@ def main():
     # 검증본은 중복 판단에만 쓰고 절대 수정하지 않는다
     with open(VERIFIED_FILE, encoding="utf-8") as f:
         verified = json.load(f)
-    live = load_live()
+    live, prev_briefs = load_live()
     seen = {norm(a["title"]) for a in verified} | {norm(a["title"]) for a in live}
     print("검증본 %d건 / 기존 수집분 %d건" % (len(verified), len(live)))
 
@@ -326,8 +328,8 @@ def main():
         print("    제외: %s" % t)
 
     if not fresh:
-        print("추가할 기사가 없습니다.")
-        return 0
+        # 새 기사가 없어도 브리핑은 다시 만든다. "최근 7일" 구간이 날마다 옮겨가기 때문이다.
+        print("추가할 기사가 없습니다. 브리핑만 갱신합니다.")
 
     if len(fresh) > MAX_NEW:
         print("안전장치: %d건까지만 처리합니다." % MAX_NEW)
@@ -335,7 +337,7 @@ def main():
 
     # 분류
     added = []
-    if api_key:
+    if api_key and fresh:
         for i in range(0, len(fresh), BATCH):
             chunk = fresh[i:i + BATCH]
             print("  AI 분류 중… %d~%d" % (i + 1, i + len(chunk)))
@@ -382,7 +384,7 @@ def main():
     live.sort(key=lambda a: a["date"])
 
     # 브리핑 문장 — 검증본까지 합친 전체를 기준으로 계산한다(화면이 보는 모수와 같아야 한다)
-    briefs = None
+    briefs = prev_briefs   # 새로 못 만들면 지난번 문장을 그대로 남긴다
     if api_key:
         allrows = verified + live
         last = max(r["date"] for r in allrows)
@@ -400,8 +402,7 @@ def main():
             briefs = write_briefs(api_key, facts)
             print("브리핑 생성 완료: %s" % ", ".join(sorted(briefs)))
         except Exception as e:
-            print("브리핑 생성 실패(%s) — 화면은 기존 계산식으로 표시됩니다." % e)
-            briefs = None
+            print("브리핑 생성 실패(%s) — 지난번 문장을 유지합니다." % e)
 
     out = {
         "updated": datetime.now(KST).strftime("%Y-%m-%d %H:%M"),
