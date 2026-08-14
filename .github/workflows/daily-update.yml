@@ -1,0 +1,40 @@
+# 매일 아침 화성시 뉴스를 자동 수집해 news_live.json을 갱신하고 커밋하는 워크플로
+name: 뉴스 자동 수집
+
+on:
+  schedule:
+    - cron: "0 21 * * *"    # UTC 21시 = 한국시간 오전 6시
+  workflow_dispatch:         # Actions 탭에서 수동 실행도 가능
+
+permissions:
+  contents: write            # 갱신한 JSON을 저장소에 커밋하기 위해 필요
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: 파이썬 설치
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 뉴스 수집 및 분류
+        env:
+          # 키가 없으면 스크립트가 키워드 규칙으로 자동 전환한다
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python collect.py
+
+      - name: 변경사항 커밋
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          if [ -n "$(git status --porcelain news_live.json)" ]; then
+            git add news_live.json
+            git commit -m "뉴스 자동 수집 $(date -u -d '+9 hours' +'%Y-%m-%d')"
+            git push
+          else
+            echo "변경사항이 없어 커밋하지 않습니다."
+          fi
