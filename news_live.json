@@ -1,8 +1,8 @@
 {
-  "updated": "2026-08-15 00:15",
+  "updated": "2026-08-15 06:53",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 222,
+  "count": 231,
   "items": [
     {
       "date": "2026-08-02",
@@ -1713,6 +1713,20 @@
       "source": "미담플러스"
     },
     {
+      "date": "2026-08-13",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시, 주민참여형 영농형 태양광 시범사업 첫발",
+      "summary": "화성시가 주민참여형 영농형 태양광 시범사업을 시작했다.",
+      "kw": [
+        "태양광",
+        "에너지",
+        "시범사업"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBna1pDRWV0dk5yZUZKN2haTHZ5LUt0VzdQZTdMWFRjbHZxMl9HQmR3LTk0NktnQnZDVkUyNTJTZHVCQ3VUZXNoY0NiSWZ2aHFsajc3REJyeHZHVnlHSEVRcHpJUXJvWXhIaXpxTXNhR1A1T0w2RThEM1ZR0gF_QVVfeXFMTjF6aW1ZdmZ1NDFBaEJ4V1J4RG1leUswOFluNU1LQ21UVzg3WHo4clJJTXdENVRHVXhiNktTeTZvTDEyTzhzcnNkR2N0MjVKTmFCMlJQUUdqUjBubjAxd0UwVjlvbVBxUkJwZUkySmdJaTF0eDFFajZfb3VnTWszWQ?oc=5",
+      "source": "뉴데일리 경기"
+    },
+    {
       "date": "2026-08-14",
       "cat": "행정",
       "senti": "중립",
@@ -3099,6 +3113,90 @@
       "source": "sportsseoul.com"
     },
     {
+      "date": "2026-08-14",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성시, 일본군 '위안부' 피해자 기림의 날 기념식 개최…정명근 “아픈 역사와 진실 기억하며 이어갈 것”",
+      "summary": "화성시가 일본군 위안부 피해자 기림의 날 기념식을 개최했다.",
+      "kw": [
+        "위안부",
+        "기념식",
+        "역사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5IVGVUbGhRS0NqbkNuMEF5SXhyZXdMalhiNUhVVFdQQ2RpODJ1UGFCdld4OF9OYW4wYXFxZXRfYTBaZnoyZDhyUnBEMm1GSENiWU5FUE1MN2ZWYmJ6SlNrNkQwVktXZVJZcThtZzVOZmc2aFdB?oc=5",
+      "source": "대한경제"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시, “선선한 바람 따라 황금해안길 걸어볼까?”… 붉은 노을 품은 17km ‘화성 황금해안길’ 걷기 명소로 주목",
+      "summary": "화성 황금해안길이 17km 해안 산책로로 관광 명소로 주목받고 있다.",
+      "kw": [
+        "황금해안길",
+        "관광",
+        "해안"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE55aVRsRGV3OEtMdlROLXpTS0RpLTFLcmExVlI4Qkt3NXNlLTZJNm1TanltTkxZRHRVU055Vmk0LTdMVEVydHAzcjBLeTI5T29HeGU2NDZENzRMalM4M0ZRR05PdU9OQdIBakFVX3lxTE52dll5QUZjSG1PdEJUR2NycDd1cldVcnlDZmJXdlE5cWluQzhJYko4ZWhvbk5ldHUwaEVXZFVzR1F6Sng5eU1fbDE2N2RVY3dRWFNLbHpoYWRhQVlBUTdybVptRHlFR0xEX2c?oc=5",
+      "source": "새한일보"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성시의회, 35년 전 용기 계승 ‘위안부’ 기억한다",
+      "summary": "화성시의회가 위안부 역사의 진실을 기억하고 계승하는 활동을 진행했다.",
+      "kw": [
+        "위안부",
+        "역사",
+        "기억"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1JNTUtTHFfNnFiOVgtdTg2YTdGZ3VHV3BUQW1vQ1NVanAtQjJneGszaGk2VGtMWmhPNThDVms1X3FuZFF0d2hfejhKZjZnU0RvTHNYV2l4RVl6YWhnS21sd3Y4aV8?oc=5",
+      "source": "NSP통신"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "“폭염 속 근로자 안전 지킨다!” 화성산업진흥원, 제조업 온열질환 예방 지원",
+      "summary": "화성산업진흥원이 제조업 근로자의 온열질환 예방을 지원한다.",
+      "kw": [
+        "안전",
+        "온열질환",
+        "근로자"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1fLWFJYWQyNF93cFdIbFNQeTJCdUZTZ3lub3lBNDFSVWZwZVhyaUhKTm42TWw4T2cyN212aDFCak0xekhVZXlTV1JSWm1mUWJuWEc3S3E3eFVmV181SWtLU2duaw?oc=5",
+      "source": "시사미래신문"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "LG전자 베스트샵, 용인·수원·동탄·화성·천안·아산 등 중부지역 ‘LAST CHANCE WEEK’ 진행",
+      "summary": "LG전자 베스트샵이 중부지역 점포에서 마지막 기회 주간 행사를 진행한다.",
+      "kw": [
+        "LG전자",
+        "판매",
+        "행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBZaDg4NXVNdHYyTUFQMjR2RDJYQVl4cHVtLW9uaU9vQUV6WnRUa0t1N1BGMmo2U1dSRVg3STAtNFJEblRqenhxbnQ3Z0ZWNWFoV1Etd3JleHF4QUtJc1g0eFdkaTQ5eXoxTC1vYQ?oc=5",
+      "source": "파이낸스투데이"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "교통",
+      "senti": "긍정",
+      "title": "[화성]수도권내륙선, 제4차 국가철도망 반영 '총력' Gordie Howe International Bridge (k2xfVictdg)",
+      "summary": "수도권내륙선이 제4차 국가철도망에 반영되어 화성시 교통 인프라 확충이 추진된다.",
+      "kw": [
+        "수도권내륙선",
+        "국가철도망",
+        "화성시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kSEFtZGdqSUhQdV83N0kzX19VMXRFdWhkR3Y2SjN3S1l3N0NMck9QTmFubEhueGtYZVY1NkNwVVE3amU5LUtuTXhkUTVTQThuY1NQU3FFX0xOMlE?oc=5",
+      "source": "Mshale"
+    },
+    {
       "date": "2026-08-15",
       "cat": "산업경제",
       "senti": "중립",
@@ -3111,11 +3209,39 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9VTTNRNGVsNjVaRm9CRTNHVWJXVG15Mmw0cjc5Y2dZLW1fZGVYV2pGQ3c5MHdIQllwNlVSLVVEM1BybTlLbDNwN1h0NnA0UXprQW9Wd3owWW5CSlkxeGRRQmQyZkdFaG5IWWN6LQ?oc=5",
       "source": "경상일보"
+    },
+    {
+      "date": "2026-08-15",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "정명근\"황금해안길 화성시 체류 관광 핵심 축 될 것\"",
+      "summary": "정명근 시장이 황금해안길을 화성시 체류 관광의 핵심 축으로 제시했다.",
+      "kw": [
+        "황금해안길",
+        "관광",
+        "체류"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB4dmZWVlBEY0NWTzBlclNsTHRVM3NjNFZ5VGR6YUg1c3lwaXV6RWY4NWRjUmllbkRvZ2NkeXRWdGJQeW9FS2Y2UEk3bHJYOGF1eGZWemluZ1BIWmFJdWtGeA?oc=5",
+      "source": "네이트"
+    },
+    {
+      "date": "2026-08-15",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시의회 “역사의 진실 끝까지 풀어야 할 현재의 책임”",
+      "summary": "화성시의회가 역사의 진실 규명을 현재의 책임이라고 강조했다.",
+      "kw": [
+        "역사",
+        "진실",
+        "책임"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1MTjBlOG91R0QwZHdSUW1obFMtRTg2YzFyU2FSOEpsemFEa2NRSGw2THRXT3Z5V0Y0U0NMeU1Eb0VzMTBnckdQbVJIdjBoVXZxZEx0d3l6dl8?oc=5",
+      "source": "스포츠서울"
     }
   ],
   "briefs": {
-    "all": "수집 기간 동안 총 1,248건의 기사 중 [[w]]104건(8%)[[/w]]이 부정 보도로 집계되었습니다. [[b]]동탄[[/b]]이 가장 많이 다루어진 핵심 키워드이며, 부정 기사는 [[w]]안전 분야에서 43건[[/w]]으로 가장 집중되어 있습니다.",
-    "7": "최근 7일간 186건의 기사가 보도되었으며 [[w]]부정비율은 5%로 평균보다 낮은 수준[[/w]]입니다. 다만 [[w]]8월 9일에 6건의 부정 기사[[/w]]가 집중되었으므로 해당 일자의 안전 관련 사안을 우선 점검하시기 바랍니다.",
-    "30": "최근 30일간 [[b]]부정비율이 10%에 도달[[/b]]하여 전체 기간 평균(8%)을 상회합니다. [[w]]안전 분야에서 28건의 부정 기사[[/w]]가 발생했으며, 특히 8월 3일에 8건이 집중되었으므로 해당 시기 관련 이슈의 재점검이 필요합니다."
+    "all": "수집 기간 전체 1,257건의 기사 중 [[w]]104건(8%)[[/w]]이 부정 보도였으며, [[b]]동탄[[/b]]이 핵심 키워드입니다. [[w]]안전 분야의 부정 기사 43건[[/w]]에 주목이 필요하며, 특히 2026-08-03에 [[w]]8건[[/w]]이 집중되었습니다.",
+    "7": "최근 7일간 195건 중 [[w]]9건(5%)[[/w]]의 부정 기사가 발생했으며, 부정 보도는 전체 기간 대비 낮은 수준입니다. 다만 2026-08-09에 [[w]]안전 분야에서 6건[[/w]]이 한 날에 몰렸으므로 해당 이슈를 확인하시기 바랍니다.",
+    "30": "최근 30일 동안 484건 중 [[w]]49건(10%)[[/w]]의 부정 기사가 발생해 전체 기간 평균보다 높은 수준입니다. [[w]]안전 분야 부정 보도 28건[[/w]]이 대부분을 차지하고 있으며, 2026-08-03의 [[w]]8건 집중 사건[[/w]]이 주요 원인으로 보입니다."
   }
 }
