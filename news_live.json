@@ -1,8 +1,8 @@
 {
-  "updated": "2026-08-15 06:53",
+  "updated": "2026-08-16 06:42",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 231,
+  "count": 254,
   "items": [
     {
       "date": "2026-08-02",
@@ -3197,6 +3197,132 @@
       "source": "Mshale"
     },
     {
+      "date": "2026-08-14",
+      "cat": "환경",
+      "senti": "긍정",
+      "title": "화성시, 주요 역사에 ‘스마트 무인 생수 냉장고’ 설치",
+      "summary": "화성시가 주요 역사에 스마트 무인 생수 냉장고를 설치했다.",
+      "kw": [
+        "스마트기술",
+        "생수냉장고",
+        "편의시설"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB5OGpORGluU3FrSU5aejMzWmlMOUZ0REFOUjJvZ01WQkNFaDJzLTkxNHNFWW5NSDdXRmlsbWlPZHhScTJIalltRDlweDJiRFBxUHg1WGpad3FJVGQ1elp5WWZodUZPbE5TOVRzZTJWTEp4QWtHZHJLWE1B0gF_QVVfeXFMT0RXMHo4d3c4ejcxUk1TcHVFTzVqVUxuTVJvcHg3QXEwbFBHYkZUSW1zc0trdFZqNUhtbmdKN3BSMF9QaUtkd1ZLOUNzakFiTG1CT1BRM3oyVGdnX3VzWjRIejJvM3h3TWdoVk93SFNpdk1EalRVVjBjX1RScFplUQ?oc=5",
+      "source": "뉴데일리 경기"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시, 일본군 '위안부' 피해자 기림의 날 기념식",
+      "summary": "화성시가 일본군 위안부 피해자 기림의 날 기념식을 개최했다.",
+      "kw": [
+        "위안부",
+        "기림의날",
+        "기념식"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBJWmdXcHJIeXF0SUZIMnZaVmZaQW9xRnhZVklYX09pNDN3TVRjVDF1SzYwZGF5emlTTWdHUGJqNkRIM0lqWWxwRDFKaS1zZGlsWTVfOGlzZkViY3RpVFVOeWZXTVBwQlNkWkHSAW5BVV95cUxNRVVnWkhCTDJmOWlteXFTeHJyN2dsMGdWeGRUc1g0UEI5d1JCNUh6V0w4cEE5NFdNdk9iUS00QnZDdTE0amVyai1HRnVXTktwbUlhczI5Uml0R3VrZGVjcEFSaGhPYVdnU1A5dDI3dw?oc=5",
+      "source": "미디어와이"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "환경",
+      "senti": "긍정",
+      "title": "화성시 ‘스마트 생수 냉장고’ 운영",
+      "summary": "화성시가 스마트 생수 냉장고를 운영 중이다.",
+      "kw": [
+        "스마트기술",
+        "생수냉장고",
+        "운영"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9MWm50cDVER0tIQlZWZXAtaWZIQUQtVnZqWHNBOUM2bWVxeXBNdVB5cHU2REZ3SmswUmg5eTlLd0dValdQMU5wUGNGMHluX0E1VzlaYWtfSl9kZEVLMExHTExuWTcwcEREQVNEelZfbG4?oc=5",
+      "source": "B world"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시인재육성재단, 2026년 장학증서 수여식 개최",
+      "summary": "화성시인재육성재단이 2026년 장학증서 수여식을 개최했다.",
+      "kw": [
+        "장학금",
+        "인재육성",
+        "교육지원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBBTVpCQVpwZXJOMHRDakhlak41cFJZV190Q29sNDRyNGdHei1zR0REOGNtR1EwLXB0b2lIcG9jMFZaLVhGbm5sNmdQbFdUaUlNOVducjVEZGNVV0tYNU5ybFZ3Mld2RGdG0gFrQVVfeXFMTmlHV2c5aXVtY0xQQkl2eGNIZ0ZlanBlallSVmp2OGRqTlN1eWlVQmZlWGp6aFBMTjJRSzFvUTVwOVRCbHpCeFZjbUFzZjk0Q19lQWYtdVJsZnFlMGhKalZZWmtNOUUtajdZVTQ?oc=5",
+      "source": "뉴스잡"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "화성특례시, ‘축산업 육성 및 발전 자문위원회’ 개최",
+      "summary": "화성특례시가 축산업 육성 및 발전을 위한 자문위원회를 개최했다.",
+      "kw": [
+        "축산업",
+        "산업육성",
+        "자문위원회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1pVEVjbjZJSzlxNE5xM0d3RjBSUXJsUnl6TnNRWTkyRjlzd09UbHBtVTNyWWtObTVnekhXNmEyakMxeGkyNWdnemluSzJsOUNRT0c2SEw0UUItWWI5VEtUYmFkZ2VPTXBv0gFrQVVfeXFMTmxzSFhEZFFBV3hVeUYtMWZCcmh4aTBYTGlTQk85M1JveFlxN3huTm9fNHBZaV9KaU13Q251TnczQ3U3a3E5NmRjY1RWbjAyTmVMbGFvbjlkdmhGZGd4V1BYOWk4S0JSbGxLWG8?oc=5",
+      "source": "뉴스잡"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성특례시의회, 797명 장학생의 빛나는 미래 응원",
+      "summary": "화성특례시의회가 797명의 장학생을 대상으로 장학증서를 수여했다.",
+      "kw": [
+        "장학금",
+        "교육지원",
+        "학생지원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ZdVRrWXdacFB2LVhCekYyUGVIa09Kd0NqSVQ1YnFzNVdxLWcxbXFYUFE4d0trUWtMMTc1ZmhtTlhwTWtQNTR3aUJBeWhQWkdzWXZIemRtV2ZUNUFkX253ZzlKZHNPQ2lh?oc=5",
+      "source": "경기시사투데이"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "동탄 반사이익 ‘오산 서희스타힐스 파크시티’",
+      "summary": "동탄의 호황이 오산 서희스타힐스 파크시티에 반사이익을 주고 있다.",
+      "kw": [
+        "동탄",
+        "오산",
+        "아파트"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Za3A5YXpzc1NOVnhQVTJuQkVJZnM4ZlBqUm9URFFiWDI2d2dFd25GTVh4ckItY0lwNDlfdkZzanRGNm9XRV9wa2dUVDFlcW5DbUZMTEl2WVc3X2wxc183R3Bnb2hkNEVE0gFrQVVfeXFMUE9NM0NGQVROSE9DZUVJSmdjUnhLR1QzWS1qSzRweEZ1THFoVE45XzdKWUlwMUFPdjlYUmdkMHJQZzBLSjhobDFXQ3pXODVRWEU1OE5rS05UNTExTmhRblFDTFRCdng2TVVJMGM?oc=5",
+      "source": "SR타임스"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "동탄2 A93블록 장기전세주택 동탄호수공원 자연앤자이 최신 공급정보 공개 임대금액, 일정, 신청자격, 평면도 / 아파트 청약 Lion (eSnOW0OqX1)",
+      "summary": "동탄2 A93블록 장기전세주택 자연앤자이의 공급정보가 공개되었다.",
+      "kw": [
+        "동탄2",
+        "전세주택",
+        "아파트청약"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB6bnhBUk9yMUJSWEFBWHVuUXNtVXNMNklJVnZFODI2MTBROTYtOURTYXk5d1ZvS2N3X1J5WTVXWjRJcmhZaVN3Z3RxMUR3YVF6TEg1Nmt6OUVXR28?oc=5",
+      "source": "Mshale"
+    },
+    {
+      "date": "2026-08-14",
+      "cat": "교통",
+      "senti": "긍정",
+      "title": "[화성]수도권내륙선, 제4차 국가철도망 반영 '총력' Gordie Howe International Bridge (6k2xfVictd)",
+      "summary": "화성의 수도권내륙선이 제4차 국가철도망에 반영되도록 총력을 기울이고 있다.",
+      "kw": [
+        "수도권내륙선",
+        "국가철도망",
+        "교통"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kSEFtZGdqSUhQdV83N0kzX19VMXRFdWhkR3Y2SjN3S1l3N0NMck9QTmFubEhueGtYZVY1NkNwVVE3amU5LUtuTXhkUTVTQThuY1NQU3FFX0xOMlE?oc=5",
+      "source": "Mshale"
+    },
+    {
       "date": "2026-08-15",
       "cat": "산업경제",
       "senti": "중립",
@@ -3237,11 +3363,207 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1MTjBlOG91R0QwZHdSUW1obFMtRTg2YzFyU2FSOEpsemFEa2NRSGw2THRXT3Z5V0Y0U0NMeU1Eb0VzMTBnckdQbVJIdjBoVXZxZEx0d3l6dl8?oc=5",
       "source": "스포츠서울"
+    },
+    {
+      "date": "2026-08-15",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "이계철 화성시의회 의장, 재개장한 홈플러스 향남점 찾아 민생 점검",
+      "summary": "화성시의회 의장이 재개장한 홈플러스 향남점을 방문해 민생 현황을 점검했다.",
+      "kw": [
+        "의회의장",
+        "상업시설",
+        "민생점검"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5GbUREamxaQjdWZFBKdUV0RXZtNjVfVXEtRW1zaVlUa0xCOHllQ21na0U3aXdlNEtJUUY0OGoyTWtESHJkTW1SSjdwbXlSV3g5THlwbDYtT0J1QUx2OS0zNw?oc=5",
+      "source": "아시아경제"
+    },
+    {
+      "date": "2026-08-15",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시의회, 제81주년 광복절 경축식 참석... 역사적 의미 되새겨",
+      "summary": "화성시의회가 제81주년 광복절 경축식에 참석해 역사적 의미를 되새겼다.",
+      "kw": [
+        "광복절",
+        "경축식",
+        "역사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1xWXlMRGljbVNPdURVVHpJbmtGWFBsUVh6X0prVF84bU5KbkhSNkVTLTY3RGtVdGxZVlh3WHZOSDdmQ2J2TmMxSjM5Nmd3UGxIOGV4YXBOR3ZTNFJISWhlejVB?oc=5",
+      "source": "경인미래신문"
+    },
+    {
+      "date": "2026-08-15",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시장 \"자유·독립 향한 저항·투쟁 '만세구'에 담겨\"",
+      "summary": "화성시장이 광복절을 맞아 독립운동의 역사적 의미를 강조했다.",
+      "kw": [
+        "광복절",
+        "독립운동",
+        "시장"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9QZlVKdmVBRGxyOHRQQTJlR01mb1NhR2V0NHBxbm56X0FTQUhka25FUl9lOGdvT0FrRlFVMkhZNURDZU9ScW5HVkhJT3NJa1RwakdQQl9pNmIwREN3dHFqaHl5LWRfQWFTR0owdHNPRVIyX0ZhRG16ONIBeEFVX3lxTE9QZlVKdmVBRGxyOHRQQTJlR01mb1NhR2V0NHBxbm56X0FTQUhka25FUl9lOGdvT0FrRlFVMkhZNURDZU9ScW5HVkhJT3NJa1RwakdQQl9pNmIwREN3dHFqaHl5LWRfQWFTR0owdHNPRVIyX0ZhRG16OA?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-08-15",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시, 일본군 ‘위안부’ 피해자 기림의 날 기념식",
+      "summary": "화성특례시가 일본군 위안부 피해자 기림의 날 기념식을 개최했다.",
+      "kw": [
+        "위안부",
+        "기림의날",
+        "기념식"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE56RHRxYVhmT1B0aWxEZ0x0Rk82SUVLYUwxMDYzbFdFVVlXbV94ZzBwVzltXzRsOFRraWRrWWFjTmdBSTNvZXJ5QlI3NHcycE9GMVY5eVcxYXJPU2FsbjZsV2ZLdmM?oc=5",
+      "source": "매일일보"
+    },
+    {
+      "date": "2026-08-15",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "붉은 낙조 품은 17㎞ ‘화성 황금해안길’…서해안 걷기 명소로 뜬다",
+      "summary": "화성 황금해안길 17km가 서해안의 주요 걷기 명소로 주목받고 있다.",
+      "kw": [
+        "황금해안길",
+        "관광명소",
+        "서해안"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5odWd2TmZ6R3ZmamNQcElQcnFCT2dkNUFoblpHSzQ3aFFqOUFjMmpBb242WTFqQnhjVnZycklRYW1Bc0ItblJpeFU1UUFHbERPQnpJaWNsTjZVVTVhc3owWGlHUC1QbU1GSEpIUGp1c3gzV3F2?oc=5",
+      "source": "아시아경제"
+    },
+    {
+      "date": "2026-08-15",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "모차르트 음악으로 하나 되는 무대…‘2026 국제 장애인 공연예술제’ 화성서 개최",
+      "summary": "2026 국제 장애인 공연예술제가 화성시에서 개최될 예정이다.",
+      "kw": [
+        "장애인",
+        "공연예술제",
+        "문화행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Ia1RfY0IyUGQ2OHpwSVpiYk9YVFl5NEM3ekRMTDUyN0FUdW01SXZnTF9NWlBObHR6VG5YSFozMF9mQnNqU1pvQ0Q3SDFxUUVSS1dUWW9xOG96V3hWdmdQNWlKTDhwZ0pVQ1JraUc0TQ?oc=5",
+      "source": "기호일보"
+    },
+    {
+      "date": "2026-08-15",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "이계철 화성특례시의회 의장 “위안부 피해자 명예 회복은 현재 세대의 책임”",
+      "summary": "화성특례시의회 의장이 위안부 피해자 명예 회복의 책임을 강조했다.",
+      "kw": [
+        "위안부",
+        "명예회복",
+        "의회의장"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1DR0tUcHZ3LWpFcXRQYUt2SEhVS2RmNENWbkRHUXN2UDRSS25oRm9xRUNPdHJLTjNReV9kQXV1QjlrVTdFU2NsRW1PZkxFejgxTzlkdm1hVHdZR2pIMkdkN3NsRjdKRy1xaWtEbUJ3?oc=5",
+      "source": "뉴스타운"
+    },
+    {
+      "date": "2026-08-15",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "반도체 투자 따라 주거지 변화⋯화성·평택 이어 충청권 ‘들썩’",
+      "summary": "반도체 산업 투자에 따라 화성·평택 지역의 주거지가 변화하고 있다.",
+      "kw": [
+        "반도체투자",
+        "주거지변화",
+        "산업경제"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0wcUphVFgxcWpaMzR1Q1J4MmFjRi1OTThMWm8xTnRJeUY2SFpqUHgtWkhrX3M4dTFQUEZjd1hzeWowelh2MTNILXJWOE85MHJMb25Sbw?oc=5",
+      "source": "etoday.co.kr"
+    },
+    {
+      "date": "2026-08-15",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성 '황금해안길' 17km 임시개방… 제부도~궁평항 서해 절경 잇는다",
+      "summary": "화성 황금해안길 17km가 제부도에서 궁평항까지 임시개방된다.",
+      "kw": [
+        "황금해안길",
+        "제부도",
+        "서해절경"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IZ3BMX3NsUTNsaThNN1dLVlVyYnRIVjVzckMyN29IYVl0VlFfWmlwcndQVFZaQmRlS1NvUVJvLU5WcFIwRUdGM3BkQnJscjVmMWE2OE1kWUdpQjdCVTJXcWhkNl9VQTZLenfSAW5BVV95cUxNeEhsRjQtWkJRN3pZeXJjRFRVcmttaDdkM0FHU2l6NjQ0LWtfQmg5cDItblZudzY1RElfUnpjY0N0eWhzcXZITlhFMnBzQTE3dWhzejdFUTFqNUJuTmRsVVNwM2NWTFUweEc0MTlQQQ?oc=5",
+      "source": "미디어와이"
+    },
+    {
+      "date": "2026-08-15",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "전공의노조 새 위원장에 남기원 한림대 동탄성심병원 전공의",
+      "summary": "한림대 동탄성심병원 전공의 남기원이 전공의노조 새 위원장으로 선임되었다.",
+      "kw": [
+        "전공의노조",
+        "동탄성심병원",
+        "위원장"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE91V3FBb3RodzBjcmYzcjV3U2NBTXA2Nk4yeU9IWW1SY0lsbkYzcUl5QllCVjVSMWo4TXRTVkZUaWFGcnlkUzdmVnNkcFRGcS1TWFFSNlZiQU9fUUlSYmY3ctIBYEFVX3lxTE91V3FBb3RodzBjcmYzcjV3U2NBTXA2Nk4yeU9IWW1SY0lsbkYzcUl5QllCVjVSMWo4TXRTVkZUaWFGcnlkUzdmVnNkcFRGcS1TWFFSNlZiQU9fUUlSYmY3cg?oc=5",
+      "source": "연합뉴스"
+    },
+    {
+      "date": "2026-08-15",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "동탄 학령인구 20% 넘었다…교육도시로 커지는 동탄, ‘아크메르 동탄’ 눈길",
+      "summary": "동탄의 학령인구가 20% 이상으로 증가하며 교육도시로 성장하고 있다.",
+      "kw": [
+        "동탄",
+        "학령인구",
+        "교육도시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1TdEUxUnNtVzJqbTNPTm5WMm1UM2wwQmlPN0R5am85YW9PVzBGY2tONEZ5V21lVkR1dmplVTlDUWtZbmNJdzcyNk03dkd4ZU1CZW1yRnNHZkNqRU1qUnREZHJR?oc=5",
+      "source": "cwn.kr"
+    },
+    {
+      "date": "2026-08-15",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "전국전공의노동조합 2기 위원장 한림대 동탄성심병원 남기원 전공의",
+      "summary": "한림대 동탄성심병원 남기원 전공의가 전국전공의노동조합 2기 위원장으로 선임되었다.",
+      "kw": [
+        "전공의",
+        "동탄성심병원",
+        "노동조합"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE05VjhIb2p4OFYteHlMUFRpN3EwWXh1UVlSb3hrZFRUR2hTZDNmUGotRmVRS0ZDRTJtaXZBbmM2ejJQUEFEN2g1WGp4Y3h5WVJyQkNjcUNRV3JGSFRybzdGeFEyYkJxa29FNXA0?oc=5",
+      "source": "한국의약통신"
+    },
+    {
+      "date": "2026-08-15",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "‘성공의 정석 꾼’ 화성 동탄 ‘가성비 치킨버거’ 맛집 위치는? “바삭하게 즐긴다 ”",
+      "summary": "화성 동탄의 가성비 좋은 치킨버거 맛집이 소개되었다.",
+      "kw": [
+        "동탄",
+        "맛집",
+        "치킨버거"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9OS2NoSGM1QTlPbnhzaGxwSF9abDgtcGhSU3hIVFJTMnRfRXpFbEJwWmFHNV9rR284VDVTbHUzaVdCRXJIcWh4YzZJdk4tNU1vSGNGZzl4bTJsMThMMndjc2ZzRlJxbmhfOXV4NkxsRzhDUQ?oc=5",
+      "source": "톱스타뉴스"
+    },
+    {
+      "date": "2026-08-15",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "병점역·동탄 더블생활권 갖춘 '오산헤리티지자이' 아파트, 17일까지 견본주택 이벤트 진행",
+      "summary": "병점역과 동탄의 이중생활권을 갖춘 오산헤리티지자이 견본주택 이벤트가 진행 중이다.",
+      "kw": [
+        "아파트",
+        "병점역",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1xMTFWekFJUnJmNGtHWVBJTF9NcGM1WUpBOUpaM001dUV0ZkhlNjIwczdOc094a3BtUDdUQUYtd2VjekhwTHhIeDZUOGpMVEt5YnJtTWJJdXE0eE85LV9nOHNfcVlQeERLZ05hbQ?oc=5",
+      "source": "경상일보"
     }
   ],
   "briefs": {
-    "all": "수집 기간 전체 1,257건의 기사 중 [[w]]104건(8%)[[/w]]이 부정 보도였으며, [[b]]동탄[[/b]]이 핵심 키워드입니다. [[w]]안전 분야의 부정 기사 43건[[/w]]에 주목이 필요하며, 특히 2026-08-03에 [[w]]8건[[/w]]이 집중되었습니다.",
-    "7": "최근 7일간 195건 중 [[w]]9건(5%)[[/w]]의 부정 기사가 발생했으며, 부정 보도는 전체 기간 대비 낮은 수준입니다. 다만 2026-08-09에 [[w]]안전 분야에서 6건[[/w]]이 한 날에 몰렸으므로 해당 이슈를 확인하시기 바랍니다.",
-    "30": "최근 30일 동안 484건 중 [[w]]49건(10%)[[/w]]의 부정 기사가 발생해 전체 기간 평균보다 높은 수준입니다. [[w]]안전 분야 부정 보도 28건[[/w]]이 대부분을 차지하고 있으며, 2026-08-03의 [[w]]8건 집중 사건[[/w]]이 주요 원인으로 보입니다."
+    "all": "수집 기간 전체 1,280건의 기사 중 [[w]]104건(8%)[[/w]]이 부정 보도였으며, [[b]]행정 분야(441건)[[/b]]에 대한 보도가 가장 많았습니다. [[w]]안전 분야의 부정 기사(43건)[[/w]]에 주목이 필요하며, 특히 8월 3일에 [[w]]8건[[/w]]이 집중 보도된 점을 확인하세요.",
+    "7": "최근 7일간 218건 기사 중 [[w]]9건(4%)[[/w]]만 부정 보도로 전체 대비 낮은 수준입니다. 행정 관련 보도(51건)가 주를 이루고 있으나, [[w]]8월 9일 안전 분야 부정 기사 6건[[/w]]의 원인을 파악할 필요가 있습니다.",
+    "30": "지난 30일간 507건 중 [[w]]49건(10%)[[/w]]이 부정 보도로 전체 평균보다 높은 수치입니다. [[b]]행정(184건)[[/b]]이 주 보도 분야이지만, [[w]]안전 분야 부정 기사가 28건으로 집중되어 있으니 우선적 대응이 필요합니다."
   }
 }
