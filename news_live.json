@@ -1,8 +1,8 @@
 {
-  "updated": "2026-08-16 06:42",
+  "updated": "2026-08-17 06:40",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 254,
+  "count": 291,
   "items": [
     {
       "date": "2026-08-02",
@@ -3559,11 +3559,529 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1xMTFWekFJUnJmNGtHWVBJTF9NcGM1WUpBOUpaM001dUV0ZkhlNjIwczdOc094a3BtUDdUQUYtd2VjekhwTHhIeDZUOGpMVEt5YnJtTWJJdXE0eE85LV9nOHNfcVlQeERLZ05hbQ?oc=5",
       "source": "경상일보"
+    },
+    {
+      "date": "2026-08-15",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시의회, 일본군 ‘위안부’ 피해자 기림의 날 참석",
+      "summary": "화성특례시의회가 일본군 위안부 피해자 기림의 날 행사에 참석했다.",
+      "kw": [
+        "화성특례시의회",
+        "위안부",
+        "기림의 날"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBpeTlROFlEQWVSYU9CbmtWb2k3WjF4bUN2eXhrNjNnakxPUjJlZUUzWV9ZU3h4akpwem13QXUtblBHWmFaS0pteWZWdjFPRkloVENZMmctcE1DRmpzaHlyc1JwaUk?oc=5",
+      "source": "매일일보"
+    },
+    {
+      "date": "2026-08-15",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "신미숙 경기도의원, 화성 동부권 61만 인구의 소방안전 책임질 화성동부소방서 신축현장 점검",
+      "summary": "신미숙 의원이 화성 동부권 소방안전 강화를 위한 동부소방서 신축 현장을 점검했다.",
+      "kw": [
+        "화성동부소방서",
+        "소방안전",
+        "신축"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBSXy1oSlFGaXZuUGhfWEFmNHBZZTZYX2p5WXJ5TnlVQm5vNFZKY3Z4RU1WQzZSbDlHdzJYS2ZqeTVTWVRZRVNUMHo0YzM3TjhDOU9valk1bUgwWXE0WTNHZ1NKcnAyZ05X?oc=5",
+      "source": "경기시사투데이"
+    },
+    {
+      "date": "2026-08-15",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "사조씨푸드, 900억 투자 화성 물류센터 품는다 : 네이버 블로그",
+      "summary": "사조씨푸드가 화성에 900억 규모 물류센터 건립을 추진한다.",
+      "kw": [
+        "사조씨푸드",
+        "물류센터",
+        "투자"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTkJ5aHZkNmtKWDJjR1VEdEhJUmdsa01ybG5xeENENWRjWXBFeGEzNUtQbHYyVlFMTll0LTd1N1NodHM2MURObEQ5ZktPWmJkU2VKTEQ0VzVGLUZ2NFp5WTFWZ2UwekdqcV9LbzdQTTlEbldzMWtLT29Uam5HLVpiR2tfLVh0LVQ4ejUyT3p4UQ?oc=5",
+      "source": "Naver Blog"
+    },
+    {
+      "date": "2026-08-15",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "[기자수첩] 81주년 광복절, 화성에 울려 퍼진 '그날이 오면'",
+      "summary": "화성에서 광복절 81주년을 기념하는 행사가 개최되었다.",
+      "kw": [
+        "광복절",
+        "기념행사",
+        "화성"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1jdVZHQTAzRW40a0V2LVZnQUFIeDBlZjlxOVp0MEt1WmFHSHZaX0Mxc2I1dGxmc2ZvNVdqQkEydTdCN2lxTy1nZ25BV1VSNGFjQk1Lb0s0OW5oNm4yRnRKcUtGR2ZCSVV0THdHSFBoT3Vkd9IBckFVX3lxTE1jdVZHQTAzRW40a0V2LVZnQUFIeDBlZjlxOVp0MEt1WmFHSHZaX0Mxc2I1dGxmc2ZvNVdqQkEydTdCN2lxTy1nZ25BV1VSNGFjQk1Lb0s0OW5oNm4yRnRKcUtGR2ZCSVV0THdHSFBoT3Vkdw?oc=5",
+      "source": "뉴스 따옴"
+    },
+    {
+      "date": "2026-08-15",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "[지방의회 24時] 화성특례시의회, 홈플러스 향남점 재개장 현장 방문…\"민생 경제 활성화 행보\"",
+      "summary": "화성특례시의회가 홈플러스 향남점 재개장을 현장 방문하여 확인했다.",
+      "kw": [
+        "홈플러스",
+        "향남점",
+        "경제활성화"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1pTDBPeVZIN1JzdWlnYUhyb2RCQzRCNW1yN3ZVdDltR1Q5dm5jQ2htUEQwQWo2NnJVM3E3SHR3UzE1TFVaQjVSQVVKVGZVcVdUMmZQVmxEcXVFT25tWl9tTzMzcjRObm44cVZKUVc3U29Sdw?oc=5",
+      "source": "중앙이코노미뉴스"
+    },
+    {
+      "date": "2026-08-15",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "전국전공의노조 차기 위원장에 남기원 동탄성심병원 전공의",
+      "summary": "동탄성심병원 전공의 남기원이 전국전공의노조 차기 위원장으로 선임되었다.",
+      "kw": [
+        "전공의노조",
+        "동탄성심병원",
+        "위원장"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5jaUZlMjF6dzFESU01N1NnbUx5UHp0RlV0ck1UR2hpb3dFTFYxUmZHeFhMNlZ2QWxRaFNtSzluUHNJeEtIWDRKaGVDc0xTVXF6elpDMi00ZTg1eEhjZWxqNTI0emMzTGRiN2VjOEprN2ViZ9IBdkFVX3lxTFBRUFVyTlk3ZDkzZXg1VktjOHNNOWJiZHZZMENVZjhfRHpkUE9EUTA2ZXk0NFkydWtXTmtoZVhDUFctdEV4NTRKXzI2bG9nUWtnYVh2ay01czBMem1ZV0JyZFYzb2QwTkxrOTRIdDFSQnRFV1FTdmc?oc=5",
+      "source": "메디소비자뉴스"
+    },
+    {
+      "date": "2026-08-15",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성 써밋 바스켓볼 U15, 전국 유소년 대회 준우승으로 강호 입지 구축",
+      "summary": "화성 써밋 바스켓볼 U15팀이 전국 유소년 대회에서 준우승을 차지했다.",
+      "kw": [
+        "화성써밋",
+        "바스켓볼",
+        "유소년대회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBQUE9tNGpTRmJuS25mUFFMcUpQcnFTbnBlYlRMUURrQkdlalUyNTJmcG1laDVGN0dZTy1uNU8tMUthWkJndmRGaXJiWGNSaUh1Y3JpYVE4dzllTXIzWjlTNXpFZmVIVTBlRFlEcHQwRnVxeGttVjJj?oc=5",
+      "source": "점프볼"
+    },
+    {
+      "date": "2026-08-15",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "“재난 대응도 스마트하게!” 화성특례시, 폭염 대비 ‘AI 무인 생수 냉장고’ 운영",
+      "summary": "화성특례시가 폭염 대비를 위해 AI 무인 생수 냉장고를 운영한다.",
+      "kw": [
+        "AI냉장고",
+        "폭염대비",
+        "스마트재난대응"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE50WEgxbGxKVmlNc2M0WkJLbVBtVXlTMGNWajVUM1h5al9CT0hoaDNQQU1TT2JYbFgtMGdSbEZiYzZKMi1JbjlJd1NDT05NOWV6UDBqdUxTSUZZMlByb2pJYzdsMnNwZHdnTFNzdNIBbEFVX3lxTE50WEgxbGxKVmlNc2M0WkJLbVBtVXlTMGNWajVUM1h5al9CT0hoaDNQQU1TT2JYbFgtMGdSbEZiYzZKMi1JbjlJd1NDT05NOWV6UDBqdUxTSUZZMlByb2pJYzdsMnNwZHdnTFNzdA?oc=5",
+      "source": "엔지오프레스"
+    },
+    {
+      "date": "2026-08-16",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "정명근 화성시장 “주민이 만든 ‘만세구’, 화성 독립운동 정신의 현재형”",
+      "summary": "정명근 화성시장이 주민이 만든 만세구를 화성 독립운동 정신의 현재형으로 평가했다.",
+      "kw": [
+        "독립운동",
+        "만세구",
+        "정명근"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE80eVg5dWtWQnF0TlJNSU15WGc2TEhaZjZqRzZNVHJMaF9xeThuOEYtRjdaa1MxSWVwNDY0aHYzZmpjclVBMkZ3SHktc29OWWhxXzYyZ1JjS3lEUkt0am5ZYm9DVG9FV0h0TTdaa9IBbEFVX3lxTE80eVg5dWtWQnF0TlJNSU15WGc2TEhaZjZqRzZNVHJMaF9xeThuOEYtRjdaa1MxSWVwNDY0aHYzZmpjclVBMkZ3SHktc29OWWhxXzYyZ1JjS3lEUkt0am5ZYm9DVG9FV0h0TTdaaw?oc=5",
+      "source": "필드뉴스"
+    },
+    {
+      "date": "2026-08-16",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시, 제81주년 광복절 기념식 개최",
+      "summary": "화성시가 제81주년 광복절 기념식을 개최했다.",
+      "kw": [
+        "광복절",
+        "기념식",
+        "화성시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE12WXpxRXVjU21Oc2RMV0ZWYnoyS1pXaENuSFhGR1JrZ2Z6dlRJVnV1N1ZIX3ZmODFjQ3YtRFVybUhJZGdVN3RHaVo0dGZBV1BoUlpVOU5SM1pQWXpNaW5xNFF3?oc=5",
+      "source": "경인미래신문"
+    },
+    {
+      "date": "2026-08-16",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "정명근 화성시장 독립운동 정신 다음 세대 자긍심으로...제81주년 광복절 기념식 개최",
+      "summary": "정명근 화성시장이 제81주년 광복절 기념식에서 독립운동 정신을 다음 세대 자긍심으로 이을 방침을 밝혔다.",
+      "kw": [
+        "독립운동",
+        "광복절",
+        "정명근"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1rOXdmdThUZGhrYl9GeGtBY0djOVlDNlFfRnl0bWlBN3JPOFc0cHRob2tDY1h4MDhQczFfNFRFZ0NRcG1qd25xOE91UHNlekZoRVN4dUc4UVrSAVhBVV95cUxNazl3ZnU4VGRoa2JfRnhrQWNHYzlZQzZRX0Z5dG1pQTdyTzhXNHB0aG9rQ2NYeDA4UHMxXzRURWdDUXBtanducThPdVBzZXpGaEVTeHVHOFFa?oc=5",
+      "source": "아주경제"
+    },
+    {
+      "date": "2026-08-16",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시, 제81주년 광복절 기념식…순국선열 희생 기려",
+      "summary": "화성특례시가 제81주년 광복절 기념식을 개최하여 순국선열의 희생을 기렸다.",
+      "kw": [
+        "광복절",
+        "기념식",
+        "순국선열"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9SNFU4MDBvczJ0WWkxM0wxMmtmM05kdWU3dUZwdWdLemZ2T3d5eElPMVhQUllHMjJXVjJjZ2ZCTHlsYjJaNzEyRmNIQldOclFjamszcGpHaElmWFV0SGNpSEVfRDk?oc=5",
+      "source": "매일일보"
+    },
+    {
+      "date": "2026-08-16",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시, 제81주년 광복절 기념식 개최",
+      "summary": "화성특례시가 제81주년 광복절 기념식을 개최했다.",
+      "kw": [
+        "광복절",
+        "기념식",
+        "화성시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8waDFic3M2b2M1azgxX3FrTEh1eHhUN25fb2dZX1MteldmNksxWnRaTHBZTVE0Uks0WkVBbHRmekdRcElxRXNFOTBfWE5Hc2N5aG1PWjI5WkZTZ1piVG1qOTFKeTVHN1nSAWtBVV95cUxQbVpQNmRXSmE4SC1IZWx3VDEtSVQzb3Y1Q0FHQ2VjUE9RWC11My1mM0E1dlV3cDNnX2RrUFJnUENsRGE5aGFiZ0l5ZnZuNU5tV3ZCR1I5Z0NhcWw3N0RNVlIxeXdaWjBhd0txMA?oc=5",
+      "source": "뉴스잡"
+    },
+    {
+      "date": "2026-08-16",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성시문화관광재단, 동탄서 ‘묵광-머물고 흩어지다’ 전시",
+      "summary": "화성시문화관광재단이 동탄에서 '묵광-머물고 흩어지다' 전시를 개최한다.",
+      "kw": [
+        "전시",
+        "문화",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5uNUN6dDBGMjVGM0hhUnd3M1FSOVM3bS1hS0oyYnNBeVVLOFhlV0xQZmU2anNHOUlIYVYwb3UtaW92SXdBNWVyekZzS0hEUzJxZlNEN2t1Q055T0VzRi1HbU1wU0FXMlBoOXlfWTVn?oc=5",
+      "source": "jeonmae.co.kr"
+    },
+    {
+      "date": "2026-08-16",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시의회, 제81주년 광복절 경축식 참석",
+      "summary": "화성특례시의회가 제81주년 광복절 경축식에 참석했다.",
+      "kw": [
+        "광복절",
+        "시의회",
+        "경축식"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBfRzNzZWJPTVUyeEw4V1dFd1kyUmlzbE1fSnVEN3N5R1N6WjNQT2xiRk8zTU9oeTRkVF9aREExa1NmQVBYSkVDRzM0c0lTcXNFcVJIV0lJaEI5RFR2QUxpRjJLNHp4U1locnhpMjl1NA?oc=5",
+      "source": "surprisenews.kr"
+    },
+    {
+      "date": "2026-08-16",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "【단독】 ‘수도권 제1호’ 치적 앞세운 정명근 시장..화성 영농형 태양광, 무엇을 검증했나",
+      "summary": "정명근 화성시장이 추진하는 영농형 태양광 사업이 수도권 제1호 치적으로 평가받고 있다.",
+      "kw": [
+        "태양광",
+        "영농형",
+        "산업"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcHBrdFZjSjQyUENza2RONmpsUlBCYmVlUXhnWFZ3VllRODBiNGJQU1g4ZjNrMEoxLWhjazN2eHNVbWhWV0k4YzR5VWhLYUgyV3daX2IzY1JJQTBELUFVdWxybF9FWmY1ZTVUV1dRcDRIbW9zbUFsWVFEbHNRMER1aUpOZ1VDSEJhMER5MXlDMHVGZw?oc=5",
+      "source": "hstodays.com"
+    },
+    {
+      "date": "2026-08-16",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "화성시가족센터, 다문화 자녀 진로탐색 프로그램 운영…“내 강점과 가능성 찾아요”",
+      "summary": "화성시가족센터가 다문화 자녀를 위한 진로탐색 프로그램을 운영한다.",
+      "kw": [
+        "다문화",
+        "진로탐색",
+        "가족센터"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5DSmdVZG5LM0U5OW9qMi1lYVVFd3hmN3NBZDVqTnhuUDF4R0NsR3k1bzdnODVHNFY0WTltODdKQVZCQUdfSk1qRUFRdE9aNElBbHAyZEkxZVEzOEJha0FBSG02cllQd280Q0dVbk5VMV8?oc=5",
+      "source": "한국강사신문"
+    },
+    {
+      "date": "2026-08-16",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "정명근 화성시장 “독립운동 역사, 다음 세대 자긍심으로 잇겠다”",
+      "summary": "정명근 화성시장이 독립운동 역사를 다음 세대 자긍심으로 이어가겠다고 밝혔다.",
+      "kw": [
+        "독립운동",
+        "정명근",
+        "역사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0xYTF4NXZzRDhMR0QxNFlDaldVaEpuVUxDcmxySjMxX1NWU0Z1b29nX0hOM0otdmw1WG5JT2hDMmxhOWFUVW42cU05Sl9kckpPWlpYVXRtUUlUVFJPME1rag?oc=5",
+      "source": "asiae.co.kr"
+    },
+    {
+      "date": "2026-08-16",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시, ‘위안부’ 피해자 기림의 날 행사…평화·인권 가치 조명",
+      "summary": "화성특례시가 위안부 피해자 기림의 날 행사를 개최하여 평화와 인권 가치를 조명했다.",
+      "kw": [
+        "위안부",
+        "인권",
+        "기림"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBrcncxUWhUcFdLSjhyVktCeTloakxMMEJrWFladzRHTzlmQS1ZcUI4R3MyQkNjMGFfNDF6enpnbXJWQW5vTHNWcTFKTWw5MGxHVnlPWU81UXVaclE0OFJDVXBRbWs?oc=5",
+      "source": "베타뉴스"
+    },
+    {
+      "date": "2026-08-16",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성특례시, 제81주년 광복절 기념식…“광복의 정신, 미래로 잇는다”",
+      "summary": "화성특례시가 제81주년 광복절 기념식에서 광복의 정신을 미래로 이을 것을 다짐했다.",
+      "kw": [
+        "광복절",
+        "기념식",
+        "정신"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5HVmR3VExsb0x4SDdndVpMYTBrSFNVYlRXUTZySXotV2Q5SUJxRTVwOXVzamJhR1R2Tl9NV2RRakxPZw?oc=5",
+      "source": "화성인터넷신문"
+    },
+    {
+      "date": "2026-08-16",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시의회 이계철 의장 \"명예와 존엄 회복, 우리 세대가 끝까지 풀어야 할 현재의 책임\"",
+      "summary": "화성특례시의회 이계철 의장이 명예와 존엄 회복이 현 세대의 책임임을 강조했다.",
+      "kw": [
+        "명예",
+        "존엄",
+        "의장"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBtTE90S0Q2eml0NzA2THpuUTdsVGdxaEN2eTBvX2NRWl9UV1BEZmFRT01hRmlSZzNkYWlWYnR6WjdzTURJSDdWeVhMYV9aUWhPMGd1UjJtbHRuN29IUG84THFXNmNfYmwtOVd3?oc=5",
+      "source": "뉴스로드"
+    },
+    {
+      "date": "2026-08-16",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성특례시, 광복절 81주년 기념식…500명과 순국선열 뜻 기려",
+      "summary": "화성특례시가 광복절 81주년 기념식을 개최하고 순국선열의 뜻을 기렸다.",
+      "kw": [
+        "광복절",
+        "기념식",
+        "독립운동"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tR3NoMGRPdnl0UFBCalpCU1IzSWtLRTZLT1FPdDJ1NFdaUGJSLU1yUDV1VmxQSGZfTFFzVkxkcFZteU9QZVFXNUFGX2ViVFFkRWdaaDJlTWJhQQ?oc=5",
+      "source": "데일리엔뉴스"
+    },
+    {
+      "date": "2026-08-16",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "정명근 화성시장 “독립운동의 가치 다음 세대의 자긍심으로 이어갈 것”",
+      "summary": "정명근 화성시장이 독립운동 정신을 미래세대로 이어갈 것을 다짐했다.",
+      "kw": [
+        "시장",
+        "독립운동",
+        "자긍심"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9IUjhibzN1R1RIMmtMNERraWtJY2lucVdjTUdYSEM4ZDBHenRzUEdla2J3aGZ2VlAwd1RPRnU2UFQ1R3hEcUlYRENqR3BtbDMzeHVCYVJLZkpfODI5WHlaZ1NhejBJd1pxNEE?oc=5",
+      "source": "수원일보"
+    },
+    {
+      "date": "2026-08-16",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성특례시, 광복절 기념식 열고 독립운동 정신 계승",
+      "summary": "화성특례시가 광복절 기념식을 열어 독립운동 정신을 계승했다.",
+      "kw": [
+        "광복절",
+        "기념식",
+        "정신계승"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9BbThNY2MyZTNNSDduZ2FPXzRWak9iZ0xoTF85aHd1cmZBUHhRUy1jY285QWVLTy1NVWZyUUQ2RTd3RENVbW01WEJRQW5qQ0w0bHo2NmhTeVpLT1F6cXlFMXU3ckowaHFLWkU4MjhHUdIBb0FVX3lxTE9BbThNY2MyZTNNSDduZ2FPXzRWak9iZ0xoTF85aHd1cmZBUHhRUy1jY285QWVLTy1NVWZyUUQ2RTd3RENVbW01WEJRQW5qQ0w0bHo2NmhTeVpLT1F6cXlFMXU3ckowaHFLWkU4MjhHUQ?oc=5",
+      "source": "한스경제"
+    },
+    {
+      "date": "2026-08-16",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "화성특례시의회, 재개장한 홈플러스 향남점 현장 방문",
+      "summary": "화성특례시의회가 재개장한 홈플러스 향남점을 현장 방문했다.",
+      "kw": [
+        "의회",
+        "홈플러스",
+        "향남"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBWWi1YdWM5OXBsRW1LcUxncHNieGJrU2Z5dmZGVm9JVTFpT2k5MmNhSEQ1SU9mOHJCVUJvT3ZrdUpLTGI4aDlwNmZZZm9xY0g1M2ZPUFg0aENQdUlPcnNfNVY2dTVlclnSAWtBVV95cUxPd1JwcThYUDNoMEtMZFRSMVJDR3VhWGFLb25zeWpqRzlJazY3bFE0c1MzckZMUmlyYXRTeDA3WU1Lak0xaUViNi1TUnBVaDZIU2p1OWdnQ3J6VUswdVo0WkVzRjQxVFMxeERmVQ?oc=5",
+      "source": "뉴스잡"
+    },
+    {
+      "date": "2026-08-16",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "새벽 화성 팔탄면 창호 공장 화재, 공장 1층 전소",
+      "summary": "화성 팔탄면의 창호공장에서 새벽 화재가 발생해 1층이 전소했다.",
+      "kw": [
+        "화재",
+        "창호공장",
+        "전소"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBtQXdoVjQtYkJ5TzQ5WVg2ZzdYVU5lRWxMaDZWQWkycVhRN3c0UnZkN2QtXzRsWm9kandjVkZHb1JvNDAxRlE5NFFIWFR6TmtoYzYtcW44OFBzRkVfTFBCdG5R?oc=5",
+      "source": "경기신문"
+    },
+    {
+      "date": "2026-08-16",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "새벽 화성 창호공장서 화재…인명피해 없어",
+      "summary": "화성의 창호공장에서 화재가 발생했으나 인명피해는 없었다.",
+      "kw": [
+        "화재",
+        "창호공장",
+        "인명피해"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBHekJLWFZweU1XUDNjakV3bWpLUlpScTlKcW9wVEJDVEh6RW85YV95bmdoUDVXWXgwZVE3OHFYWlplX183RC1ZMFQxdDRaME5fa1BEWTA4MkFoVEXSAWBBVV95cUxOa1V3SXJZMkJtQjNRUGlYbmhPODZJUTdGYlZaN0M3VFo4Ql93YlRKUjk2YkVtTmlSLXhZLUJFVTJzZnl1Yk5tLUc5TW9ndF80OE45Sng0Y2E0LXloQzlkaXQ?oc=5",
+      "source": "연합뉴스"
+    },
+    {
+      "date": "2026-08-16",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "농지 위 태양광 1MW 뜬다... “전기 팔아 마을소득” 화성서 첫 실험",
+      "summary": "화성에서 농지 위 태양광 발전을 첫 시도해 마을소득 창출을 도모했다.",
+      "kw": [
+        "태양광",
+        "재생에너지",
+        "마을소득"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBsSEdManFvakRpUFlYbTdYeUQ0cU02VkhobmJ1TVlackZfVTBDRWVZVW0ybDJqOERmN2ozZ3pOWnY2bnhVanBtOG1PckZyMEY2UlJMcmgwX1RuMWJwUUVNMG5xUkRneEZZd3fSAWpBVV95cUxQbEhHTGpxb2pEaVBZWG03WHlENHFNNlZIaG5idU1ZWnJGX1UwQ0VlWVVtMmwyajhEZjdqM2d6Tlp2Nm54VWpwbThtT3JGcjBGNlJSTHJoMF9UbjFicFFFTTBucVJEZ3hGWXd3?oc=5",
+      "source": "한국농어촌방송"
+    },
+    {
+      "date": "2026-08-16",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "화성 창호공장 새벽 화재로 건물 전소…기숙사 근로자 10여명 대피",
+      "summary": "화성의 창호공장 새벽 화재로 건물 전소, 근로자 10여명이 대피했다.",
+      "kw": [
+        "화재",
+        "공장",
+        "대피"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1POXBpYUx4TTNRdHVxTW5VYjlxUGpnWXdsQm9OQmRBYzJKbGRoNDFhZnQ0MFMxZTR5Y2p0MWtMWnoxemhCWlVXVHlOUFhwZzZzOHpYVThfSk90dkI2SXEtaV95bkZmS21f0gFoQVVfeXFMTU85cGlhTHhNM1F0dXFNblViOXFQamdZd2xCb05CZEFjMkpsZGg0MWFmdDQwUzFlNHljanQxa0xaejF6aEJaVVdUeU5QWHBnNnM4elhVOF9KT3R2QjZJcS1pX3luRmZLbV8?oc=5",
+      "source": "매일안전신문"
+    },
+    {
+      "date": "2026-08-16",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "경기 화성 창호공장서 화재…인명피해 없어",
+      "summary": "경기 화성의 창호공장에서 화재 발생, 인명피해는 없었다.",
+      "kw": [
+        "화재",
+        "창호공장",
+        "인명피해"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE40TUJKb19GdjE0UDNZeDFIb2IxbmhLcTVvV3FKbHVZdklpYUl1MWxBWDM0a29LUlJ2X2NPNGZ3SS05THg1Qnc?oc=5",
+      "source": "v.daum.net"
+    },
+    {
+      "date": "2026-08-16",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "경기 화성 창호공장 화재…공장 1개동 모두 불 타",
+      "summary": "경기 화성의 창호공장 화재로 공장 1개동이 모두 불탔다.",
+      "kw": [
+        "화재",
+        "공장",
+        "전소"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9RYmF3NXlORW50NWlseWxSd1RLSmNVeFZKMW5PQ09IUGJtVWFPS3JvOEI2QkZueE1BN0NkbmpEdEYtRTItNGY5Ulk3ZkFqc3JhLTJwanhYbXAzLVI2VDU0LWhHM3NGaTdFOTRv0gFmQVVfeXFMT0tlTkxWSnNHLVhUeFNkem5sSXZkUVg2aGlUUHpISnJGOHVCeU5ZaHozc3RvLXVzZU1RVmlndnVyUzAzS0FNRW5CRzNPSVZxV0VoZHVENnlhb0g3NFdZU2Z1ZW81MTNB?oc=5",
+      "source": "news.sbs.co.kr"
+    },
+    {
+      "date": "2026-08-16",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "경기 화성 창호공장서 화재…공장 1개동 모두 불 타",
+      "summary": "경기 화성의 창호공장 화재로 공장 1개동이 모두 불탔다.",
+      "kw": [
+        "화재",
+        "공장",
+        "전소"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOXJvZHVYbFlVOV9HclBGNGY3ekhxejNjUWY5TzZLLUxINjhtRGFxTGlncVBtQnhWU0IyM2N2OWx4MjZxbGppX1M1SUFNTUx1UHh2VHhMQ3cxS2F3Z0lJWEJKcEpBZVA1dkdUVk1lY1VGR3ZNZHd3dWRvdDRUWDRuTWg2d081RGNScDJpM3dKTQ?oc=5",
+      "source": "news.sbs.co.kr"
+    },
+    {
+      "date": "2026-08-16",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "새벽 화성 창호제조공장 불, 11명 대피…공장 1개동 전소",
+      "summary": "화성의 새벽 창호제조공장 화재로 11명이 대피, 공장 1개동 전소했다.",
+      "kw": [
+        "화재",
+        "공장",
+        "대피"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5YblFKVFgyNjlGQnk3TjRtTlFRdzhIUGk4WXpYdmZTNHNseEI3Y3lKX1dRRHJybmh2U2V0aUtFdDB1QjJPUTBxSHhldHdyMExId3Z0X2FmQncyUXZLaGtsVNIBeEFVX3lxTE9GNURhczk0d0dra2hEeGRFNXFPY2tpdUlGQUNjT19hMF93NVlvZFE0dmpUamhiazktVjEtTzQ4bURwMWJTSkdlME9FS3VXelFSZGFPUkR6YjVONlFUWkF3SHdST3FydzlHN1hYYmliNXJMeVVHbHo0OQ?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-08-16",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성특례시, 제81주년 광복절 기념식…“독립운동 정신 미래세대로”",
+      "summary": "화성특례시가 제81주년 광복절 기념식을 개최해 독립운동 정신을 미래세대에 전승했다.",
+      "kw": [
+        "광복절",
+        "기념식",
+        "독립운동"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9MOWhJdFdwY1JlVlpwcnhQYjFFaE5rcUNMQ3FwVWRwQzkycURFcVdJLXRNWi1lQ2RoWFJUWHVuckRRUE5iWXFqSW5R?oc=5",
+      "source": "팝업뉴스"
+    },
+    {
+      "date": "2026-08-16",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "화성 창호 제조공장서 화재…10여명 대피·인명피해 없어",
+      "summary": "화성의 창호제조공장 화재로 10여명이 대피했으나 인명피해는 없었다.",
+      "kw": [
+        "화재",
+        "공장",
+        "대피"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOTm5MZ1NmRHFQV0ptRDJoaDJVMlV5MkphMTV2VTEwQmhBV2VhWGZhYzYySlpKNWRYNjF5VmJNa0FfWW5NQXJia2x6Ml90Ukd3ZnhxQlRxTUF5VV9OQUwtOF9pdm5LX3FrS19VZXBpYVIwUnVWMGlVTWxBZXJZM0k5NzJDN3pVSkRyRDZmYUVLWjAtLUxsR1BpZ3IxQkdhWlVLUlFtbTRKM1cwT1FaRDZnNnVpWVBXbGhKamhCcXJsMHNvZW1QaDJ6Z1hmbi1HUlRZWWhVbHZhMXdFZWRhVmF1WmZSZ2JiMVVKMXlaUmpGVU5STXRJTHA5dXhPMEVTZjZGYk42VUhzQXdwNmtWX2c?oc=5",
+      "source": "데일리안"
+    },
+    {
+      "date": "2026-08-16",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성 황금해안길, 서해 낙조 품은 걷기 명소로 부상[화성톡톡]",
+      "summary": "화성의 황금해안길이 서해 낙조를 품은 걷기 명소로 부상하고 있다.",
+      "kw": [
+        "황금해안길",
+        "낙조",
+        "관광명소"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBLVUxrYU85U2R1NmdzdkhxbTVWbHN1S1ZScXg0ZE1vaEY5OHpId3BtaTFtWUc2dkJodGVKX1Z5dWhBV3NZRFoxWXA1XzJnNjVSRmJj?oc=5",
+      "source": "네이트"
+    },
+    {
+      "date": "2026-08-16",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "전공의노조 새 위원장에 남기원 동탄성심병원 전공의",
+      "summary": "동탄성심병원 전공의 남기원이 전국전공의노조 새 위원장으로 선출되었다.",
+      "kw": [
+        "전공의노조",
+        "동탄성심병원",
+        "위원장"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5YUXA0OUNBZUQ3TkVxVkRuYUtKQTBadXJ5cVJweHpIcTRpQzRwUlpjbmFSU3pSWHZ4bVdUeGM1c25CUmg4VHRSNWVEQlY1cWpETlI1UVR5OVHSAVRBVV95cUxPM05xemdrUmNuNExHbHZGa0M2a1lqcWNvYk5uV3JxM3ZOQW5KdWczei1KbEVENmFqLXF2c0xUMVBjSnhsQVB2UWkyRnk2MTVHT1hkZEg?oc=5",
+      "source": "세계일보"
     }
   ],
   "briefs": {
-    "all": "수집 기간 전체 1,280건의 기사 중 [[w]]104건(8%)[[/w]]이 부정 보도였으며, [[b]]행정 분야(441건)[[/b]]에 대한 보도가 가장 많았습니다. [[w]]안전 분야의 부정 기사(43건)[[/w]]에 주목이 필요하며, 특히 8월 3일에 [[w]]8건[[/w]]이 집중 보도된 점을 확인하세요.",
-    "7": "최근 7일간 218건 기사 중 [[w]]9건(4%)[[/w]]만 부정 보도로 전체 대비 낮은 수준입니다. 행정 관련 보도(51건)가 주를 이루고 있으나, [[w]]8월 9일 안전 분야 부정 기사 6건[[/w]]의 원인을 파악할 필요가 있습니다.",
-    "30": "지난 30일간 507건 중 [[w]]49건(10%)[[/w]]이 부정 보도로 전체 평균보다 높은 수치입니다. [[b]]행정(184건)[[/b]]이 주 보도 분야이지만, [[w]]안전 분야 부정 기사가 28건으로 집중되어 있으니 우선적 대응이 필요합니다."
+    "all": "수집 기간 전체 1,317건 기사 중 [[w]]부정기사 107건(8%)[[/w]]이 집계되었으며, 안전 분야에서 [[w]]46건[[/w]]의 부정 보도가 집중되어 있습니다. [[b]]동탄[[/b]]이 핵심 보도 주제이며 2026-08-03에 [[w]]8건[[/w]]의 부정기사가 몰렸으므로 해당 시점의 이슈를 우선 검토해야 합니다.",
+    "7": "최근 7일간 247건 기사 중 [[w]]부정기사는 6건(2%)[[/w]]으로 낮은 수준이지만, 안전 분야 [[w]]4건[[/w]]에 집중되어 있습니다. 행정 분야 67건이 주요 보도이며, 2026-08-16 [[w]]3건[[/w]]의 부정기사 발생 현황을 확인하시기 바랍니다.",
+    "30": "지난 30일 541건 기사 대비 [[w]]부정기사 52건(10%)[[/w]]으로 최근 7일보다 부정비율이 높아진 상태입니다. 특히 안전 분야에서 [[w]]31건[[/w]]의 부정 보도가 발생했으므로, 2026-08-03의 [[w]]8건 집중 사건[[/w]]을 포함해 안전 관련 대응 현황 점검이 필요합니다."
   }
 }
