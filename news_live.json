@@ -1,8 +1,8 @@
 {
-  "updated": "2026-08-17 06:40",
+  "updated": "2026-08-18 06:53",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 291,
+  "count": 320,
   "items": [
     {
       "date": "2026-08-02",
@@ -4077,11 +4077,417 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5YUXA0OUNBZUQ3TkVxVkRuYUtKQTBadXJ5cVJweHpIcTRpQzRwUlpjbmFSU3pSWHZ4bVdUeGM1c25CUmg4VHRSNWVEQlY1cWpETlI1UVR5OVHSAVRBVV95cUxPM05xemdrUmNuNExHbHZGa0M2a1lqcWNvYk5uV3JxM3ZOQW5KdWczei1KbEVENmFqLXF2c0xUMVBjSnhsQVB2UWkyRnk2MTVHT1hkZEg?oc=5",
       "source": "세계일보"
+    },
+    {
+      "date": "2026-08-16",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "“광복의 정신, 미래로 이어간다”... 화성특례시, 제81주년 광복절 기념식 개최",
+      "summary": "화성특례시가 제81주년 광복절 기념식을 개최하고 광복 정신을 강조했다.",
+      "kw": [
+        "광복절",
+        "기념식",
+        "역사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9KX183bHdlXzlTb1BQYkQ1aGFSOVhyUzQxb2tvR2xSUlBHc1JScTdMdTF5c2V6MXZ6R0l5SUh2VEhJMHhmbmZJVXVyWmdBMW9QeVBSU2V5T3ZqMEY1eFd2dUN4azZtUQ?oc=5",
+      "source": "화성저널"
+    },
+    {
+      "date": "2026-08-16",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성특례시, 제81주년 광복절 기념식 개최 “광복의 정신, 미래로 이어간다”",
+      "summary": "화성특례시가 제81주년 광복절 기념식을 개최하고 광복 정신 계승을 다졌다.",
+      "kw": [
+        "광복절",
+        "기념식",
+        "미래"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBVQ2pHU0JUUDBPQlBBRGl3U25OQnFRUGVORnQ1RHFaaVVzZlJNMy04cE54UjZxWVE4VXRFNnl4aFE2YUkzWFdBeEhUcHoxSjI0ODNDSjhaRFJwc21PSXhXMXJGVzZveEZr?oc=5",
+      "source": "newspeak.kr"
+    },
+    {
+      "date": "2026-08-17",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "유앤아이샤크-팀 펭귄, 화성시 전국 마스터즈 수영대회 성인부·학생부서 ‘종합우승’",
+      "summary": "유앤아이샤크와 팀 펭귄이 화성시 전국 마스터즈 수영대회에서 성인부와 학생부 종합우승을 차지했다.",
+      "kw": [
+        "마스터즈 수영대회",
+        "우승",
+        "팀 펭귄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5IdjB6dDdtQURoa0F0VWxYblZqa2NPQUtDMVV6NFZLTkJEZUx4aHVQTlNTYlhLRWdDdkI1dXJzeUVhNmYyQmx5WkJRZXBKcEU?oc=5",
+      "source": "v.daum.net"
+    },
+    {
+      "date": "2026-08-17",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "[화성시 전국 마스터즈 수영대회] 정명근 화성특례시장 인터뷰",
+      "summary": "정명근 화성특례시장이 화성시 전국 마스터즈 수영대회에 대해 인터뷰했다.",
+      "kw": [
+        "정명근",
+        "시장",
+        "수영대회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBBUDZZd0pXcGMzS0xMR1JrZkJYRm9OaEhWU0Zza1ZpVEhfdkRYR1lFeFBBSkxkQ2M0a1Z5SzhsUmhzc0ZPRnFraFAySVYxeXBKWjVRWFFGLWUybHZ5dTJJOFhTQnEza2dFQzhHRGt1MA?oc=5",
+      "source": "기호일보"
+    },
+    {
+      "date": "2026-08-17",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "법정극부터 김광석까지…화성시 10월 공연 풍성!",
+      "summary": "화성시가 10월에 법정극부터 김광석까지 다양한 공연을 개최한다.",
+      "kw": [
+        "10월 공연",
+        "문화",
+        "공연"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1KRWxWb0EyQWh0MW5wZExiZlBjYjYxd25xenVUTW8yZXY1ZHFMdjA4Q0dFV1QtWDB3YWxkUTlwS0tJMjJuTnp5RGcxb2Y0dDYwZXJSckt5WENvRmpZRXdKeVczWdIBZ0FVX3lxTFBwcTFZV2doNmxLVkYwSjJtWGMtSXJiZXB0d0JUWG5PMlFOdk1qdW9Hdm9IZ2I1azFRYlhrT01kbUZxQXhfajZweHRBajZUbjZLVkFad3huMmp4Wmd3ZHEwcmxhNHRxOGc?oc=5",
+      "source": "ABC뉴스"
+    },
+    {
+      "date": "2026-08-17",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시의회, 위안부 피해자 기림의 날 참석…평화·인권 가치 되새겨",
+      "summary": "화성시의회가 위안부 피해자 기림의 날에 참석하여 평화와 인권 가치를 되새겼다.",
+      "kw": [
+        "위안부",
+        "기림의 날",
+        "인권"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9rX2J1Q284U1dDd0Vya3I2YXhYVU1mbXNZcGJWLTZkS1p2TTVLSjYyWmNMcnQ3SzJVOW1rLW54VU45LU1KbG9jOVpucXE3VlNLUVlsWTlaUzlLazhNaEdQYkp2eWNjM3dyTFRCbHRXVXM?oc=5",
+      "source": "shinailbo.co.kr"
+    },
+    {
+      "date": "2026-08-17",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시, 지역주도형 AI교육 생태계 운영",
+      "summary": "화성시가 지역주도형 AI교육 생태계를 운영한다.",
+      "kw": [
+        "AI교육",
+        "생태계",
+        "지역주도"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBvU2hqdVB1ZmVLSktOeEI4MEJUUkgtcjBOcUhBUFdKN2MzOHNYSExicEhvTFJXcE5xd1dNZFFNd0ZsM0htb1dTYUtyQVRmU0xKLTB3djF3dTgtYkliQVI4YlpIV2dUSThkNTQzRDF3?oc=5",
+      "source": "hyundaiilbo.com"
+    },
+    {
+      "date": "2026-08-17",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시, 위안부 피해자 기림의 날 기념식 개최",
+      "summary": "화성시가 위안부 피해자 기림의 날 기념식을 개최했다.",
+      "kw": [
+        "위안부",
+        "기림의 날",
+        "기념식"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBDUU1xNzl4Y1pGdkpQZFdIZnlnNEM5ZHVKaklYRUV6ckZTZmJac1ZDbzdaXzNQSVhLU3FUb3A2a213bE5na0dMY3dnYUlxNEtITk56WXVKc1dac2tjbEc1REhzTnpjVG5UaVE?oc=5",
+      "source": "경기도민일보 미디어"
+    },
+    {
+      "date": "2026-08-17",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시, AI시민리더 20명 인증…지역 AI교육 본격화",
+      "summary": "화성시가 AI시민리더 20명을 인증하며 지역 AI교육을 본격화했다.",
+      "kw": [
+        "AI시민리더",
+        "AI교육",
+        "인증"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBoV0M1Z0Z4Y3YtYVl6ZVJFem5Ycmc2Si1iVGRoTUxkQXBIU2VWcjQwMmV5bGdGOUc0VlVvaEFWOE44eEZmXzREbTdEa3pYUQ?oc=5",
+      "source": "전자신문"
+    },
+    {
+      "date": "2026-08-17",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "봉담도서관, 시민 소통 역량 강화를 위한 ‘성인 초급 중국어’강좌 운영",
+      "summary": "봉담도서관이 시민 소통 역량 강화를 위해 성인 초급 중국어 강좌를 운영한다.",
+      "kw": [
+        "봉담도서관",
+        "중국어강좌",
+        "시민교육"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1BQW1vVTFGVWNlT2FoTXdOMm9KdTJYOEdLb01SblRFVS1ZekFzV3R3dU1LNmUwZGVVZ0pRRUNNVk1EYmRLN0x6amlKdkpVclB2RzFuTzdqU19ycDFlNzAtQnFSaTc4cXItcHpTSVZPQ2JuZ9IBckFVX3lxTE1BQW1vVTFGVWNlT2FoTXdOMm9KdTJYOEdLb01SblRFVS1ZekFzV3R3dU1LNmUwZGVVZ0pRRUNNVk1EYmRLN0x6amlKdkpVclB2RzFuTzdqU19ycDFlNzAtQnFSaTc4cXItcHpTSVZPQ2JuZw?oc=5",
+      "source": "뉴스 따옴"
+    },
+    {
+      "date": "2026-08-17",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시문화관광재단 봉담도서관, 시민 소통 역량 강화를 위한 ‘성인 초급 중국어’강좌 운영",
+      "summary": "화성시문화관광재단 봉담도서관이 성인 초급 중국어 강좌를 운영한다.",
+      "kw": [
+        "봉담도서관",
+        "중국어강좌",
+        "시민교육"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5TaU5OckJBckozWVNEbFdnY1dxc0lTOUN6Y21vREFJdGpfY3J0RWJCdzQxVlNXa2JQYTN2ZGc5MXZiVnk5TURTdmpoUlJ4UkZ5TjBkUTl4Y2Ztdw?oc=5",
+      "source": "메트로타임즈"
+    },
+    {
+      "date": "2026-08-17",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시문화관광재단, 10월 기획공연 4편 선 봬...오는 18일 티켓 오픈",
+      "summary": "화성시문화관광재단이 10월에 4편의 기획공연을 개최하며 18일 티켓 오픈을 예고했다.",
+      "kw": [
+        "기획공연",
+        "10월",
+        "공연"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5vMmhEZ0dvb01MSmxSQlZReUt6WEowblR4RmkwNXZIX3JsRUJjSnBIcExjUFFRdl9SeFd6NEZ3d1NXRG14dlV1bmwtd0dFdmlrVDNzeEM3T1JYZUo5alNuRGx3bVp5QVFiUmN5djV30gFyQVVfeXFMTW4xN3VLUjc4Vm9Mc2VocHNiRWppTjBZTm5VbHN1TnZtamlKRl9jUTVHSWlvR0lhTHlVcEJuMXRxMDlYSGlOWUtrNVlxZ0tzZUhhNXhkbW5ISDBaT19aRFBFY29oZFppSXBQMmRDUDJqVWpR?oc=5",
+      "source": "팝콘뉴스"
+    },
+    {
+      "date": "2026-08-17",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "화성특례시의회, 재개장한 홈플러스 향남점 현장 점검",
+      "summary": "화성특례시의회가 재개장한 홈플러스 향남점을 현장 점검했다.",
+      "kw": [
+        "홈플러스",
+        "향남점",
+        "현장점검"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5xbTRhU0Y5N3IzX1RrU2dMeXREcHdQeGFLME13LUNpVXhGZHI5Z3ZDLWx1TkxLakd1cnBKUVk4dzdNSGZJZUZhOGpacEpUOC1INUU3X21QUi05MmNLOHZ2ZVo1aERWTGR4Y2dFQ0oxTdIBc0FVX3lxTE5mcENuRE1xUnVjOW5HS1FfbmRDM191dTdwSmFsVVJmNEcyeWM2ek5tTmhudk9GS0otZkFOeWhPTG4yclRSUHpieG91MS1FZHlDTGtIbEVXV3dHcTZhTjF3NTZJQzZPYXVtUmpFWW5wT056S00?oc=5",
+      "source": "뉴스웍스"
+    },
+    {
+      "date": "2026-08-17",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "엘라뮤즈, 화성시 취약계층에 에스타월 500개 기부",
+      "summary": "엘라뮤즈가 화성시 취약계층에 에스타월 500개를 기부했다.",
+      "kw": [
+        "기부",
+        "취약계층",
+        "에스타월"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ob0JMWmE5c2lEclhub1Rrc0k4V0w5SW9FVG44MTFtZDhuLUd1X1JBNUlDS3BoLWdsbTcwZnUzcExfbnkwSlFBODVZSHREVkJtdkExSDFGa25OUnVRSHRuZXI4Q0ZxUURUZnY5Q1dlbTU?oc=5",
+      "source": "shinailbo.co.kr"
+    },
+    {
+      "date": "2026-08-17",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "팀 펭귄, 화성특례시 마스터즈 수영 대회 ‘우승’",
+      "summary": "팀 펭귄이 화성특례시 마스터즈 수영대회에서 우승했다.",
+      "kw": [
+        "팀 펭귄",
+        "마스터즈 수영대회",
+        "우승"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1vNnRTQXBvLUNqYlREX3E4ZlVZOUNwX29KNXQ5bzZJWTRSLW81anVYaUluOWoyZmlIX2g3VkJxbmNCc3BwSzRXM3RodExGbXpzOVo1dHU2aFVJS0ktMXktcFFfLXZMS1FBN2YtTmtjRQ?oc=5",
+      "source": "기호일보"
+    },
+    {
+      "date": "2026-08-17",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "폭염 속 역사에 등장한 생수 냉장고…화성시, 3곳 운영",
+      "summary": "화성시가 폭염 대책으로 생수 냉장고 3곳을 운영 중이다.",
+      "kw": [
+        "폭염",
+        "생수냉장고",
+        "시민복지"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1McFZnUGVvOWdPR19Rc2dEeFA1WTYzSDBvSUxEOHhFWjB2VnpnYjhIdXI3MmNEZENsOWhrQnQ4Zmp4bEpKQ2JzOXZIX0U?oc=5",
+      "source": "전자신문"
+    },
+    {
+      "date": "2026-08-17",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성특례시 전국 마스터즈 수영대회 화보",
+      "summary": "화성특례시에서 전국 마스터즈 수영대회가 개최되었다.",
+      "kw": [
+        "수영대회",
+        "스포츠",
+        "마스터즈"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB4bFJqWjAwbkFWd08xeVhyY2dFc2N2b3lOd1M4UEQ3NGtQa3VnTmR4dGFPdXFqNF9pM1ZucXlWeUJ5Y3N2VEl1OFk0LTh1UkNFZ05FZmhxelZvUm9EcWNNMVgxUnNlVlJyNEV5QlVGQQ?oc=5",
+      "source": "기호일보"
+    },
+    {
+      "date": "2026-08-17",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시문화관광재단 봉담도서관, ‘성인 초급 중국어’ 강좌 9월부터 운영",
+      "summary": "화성시문화관광재단 봉담도서관이 9월부터 성인 초급 중국어 강좌를 운영한다.",
+      "kw": [
+        "중국어강좌",
+        "생활교육",
+        "도서관"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5NcGxSM0R6eVlic01fVGZtMVIxeUpHVmd1eXE5OVBmRGZJQTNXZXBjdzlBYzRTMjRBZVZrVjA0NTFfcjRvN3RLTzVfYUQ4MDBkY1gyamRHZEtVSWVFdkVvc2Izd1laOXlISkFKTmR5S2U1Zw?oc=5",
+      "source": "webeconomy.co.kr"
+    },
+    {
+      "date": "2026-08-17",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시, 순국선열 숭고한 희생 기려",
+      "summary": "화성특례시가 순국선열의 숭고한 희생을 기렸다.",
+      "kw": [
+        "순국선열",
+        "추모",
+        "행정"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5kaWlqMUhxemhyU0wxRV93T2ZoWm9pUjF6T3pwRGlYaUtuaW1ZR0dTaDB6RlVsYmgxRjJERjJUV1lfcHhyUmtic3QyZXpFb1dqMzhscUR5M21XTHNzclhWQzNjMkg0LVZueGI0bTU2UFrSAXRBVV95cUxQLXJhbXNTN0RYZUhmay12SEFNekJOZThrekhwZ1FnZlZnUXEzZ1hFZU5vYlQ3Q2NtbHM4YTBlQ09CUi1GX3IxNzNNY2s0RkxxcXd6TS1yV0x1UDJiTVpWd1EwUnZCWGNyVmpJZzVRX0oyRE1jVg?oc=5",
+      "source": "이뉴스투데이"
+    },
+    {
+      "date": "2026-08-17",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시, 광복절 맞아 순국선열 희생 기려",
+      "summary": "화성특례시가 광복절을 맞아 순국선열의 희생을 기렸다.",
+      "kw": [
+        "광복절",
+        "순국선열",
+        "추모"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA0by0tQkZnY05zQU5PUThmWnpaNnNVNjRLMlRWYzEtNEltOUpQNWt3OE1QNC1pSXlwWk5FRUhQSnhZcXNuaVhZaGVpYXhieXhNaGdHTWJlaTFzR2NVd25KYQ?oc=5",
+      "source": "메트로신문"
+    },
+    {
+      "date": "2026-08-17",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시의회 ‘위안부’ 피해자 기림… “역사의 진실, 현재의 책임”",
+      "summary": "화성특례시의회가 위안부 피해자를 기리며 역사적 책임을 강조했다.",
+      "kw": [
+        "위안부",
+        "피해자기림",
+        "역사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5UQ0xraFRVc1VBd2I1LUstYnk4cDhrSHd1MWxoek8zVWs2XzFzV3hfX3RPWDdiczlCUFVTeUI4T095cFFBaHBTUVRmLWNXclJITDZRQ1JFUlk4SmVhRExvRTJIZWh6V0tOb3c?oc=5",
+      "source": "천지일보"
+    },
+    {
+      "date": "2026-08-17",
+      "cat": "교통",
+      "senti": "긍정",
+      "title": "‘철도 4축’ 띄우는 화성… 이제는 ‘연결’을 고민할 때",
+      "summary": "화성시의 철도 4축 사업 이후 지역 연결성 강화 논의가 진행 중이다.",
+      "kw": [
+        "철도",
+        "교통인프라",
+        "연결성"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBBalJublFCZGk5QzNUcHFNNlI5d0xJOXZtNGZwWTMycXNyUG1nWDkyR19hUFNoZllLQ1VtRjlXOGZaZXUyNXhLM3p4X3NNSzJWZnc?oc=5",
+      "source": "경인일보"
+    },
+    {
+      "date": "2026-08-17",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "경기 화성시 ‘이유필라테스’ 김현진 대표 \"운동을 넘어 웰니스를 실천하는 이유 있는 움직임\"",
+      "summary": "화성시의 필라테스 업체 대표가 웰니스 운동의 가치를 소개했다.",
+      "kw": [
+        "필라테스",
+        "웰니스",
+        "지역기업"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE40Z3F3T1RtcU0tM3pFY282UFEySHlzNzM1ZFBvMzhZMTBGNFNHQ1pEN3FwN2ZpalFSRUZRVmVTakdZdmdsYUxCSQ?oc=5",
+      "source": "얼리어답터뉴스"
+    },
+    {
+      "date": "2026-08-17",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "화성 창호 제조공장서 불…외국인 근로자 11명 대피",
+      "summary": "화성의 창호 제조공장에서 화재가 발생해 외국인 근로자 11명이 대피했다.",
+      "kw": [
+        "화재",
+        "공장",
+        "안전사고"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE82cW85QWFaTzYtWlNmcHhnR0NEN1N2TFZrTFg5aDZXVVgtREdkWF9ZOGVxTDB2TjRZTElIdEEzQjlVR0I5Vm1QbV9mNjM1dzJjX2VHbVYzM0RXc085d1RGZTZlOTBTVEl3UElWN1doSlk?oc=5",
+      "source": "B world"
+    },
+    {
+      "date": "2026-08-17",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "[기획탐방] 정명근 화성시장, 국화도 현장 행정 인기 -도심속 꽃 향기 솔솔",
+      "summary": "화성시장이 현장 행정으로 도시 조성에 주력하고 있다는 내용이다.",
+      "kw": [
+        "시장",
+        "현장행정",
+        "도시개발"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SLWFzUDBwTVBwUDE3VGtqVmJvcDA1cmIyRmVJSnJuaFRhb2M1QjlYbjJmU2ZFSDh1a2pqWG9yYkFtWFlWX2g2ZFZXQ2RnQ3g4bVgyc2l3NF9rd0lZTVEyc0wxUklvcjjSAWtBVV95cUxOX21jWXVESzcybzI4WUo4MVpoSGFVWm5CdnpWeHMxZkdCcUdqQS1FM0NWR1N5ZGtJaUhYcWNSRGNGYzM5bUd2NVlJZlJqckZhWGJnU0J4MjZtX016cTd5WUNTX1AtMzg0YnFqQQ?oc=5",
+      "source": "시사통신"
+    },
+    {
+      "date": "2026-08-17",
+      "cat": "환경",
+      "senti": "중립",
+      "title": "날씨｜화성 오늘 31도…오전 비·낮 소나기",
+      "summary": "화성시의 오늘 날씨는 최고 31도로 오전 비, 낮 소나기가 예상된다.",
+      "kw": [
+        "날씨",
+        "기온",
+        "강수"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5yUVZ0MVhDSnZKUEhxSW9veU5xRDBwdThtbTNaT0phYmx5U3pjY19XNkc4S3IzWk9idHAyNmpXN190WmhnYjRlNG9EOTdwcnpyVTRpUXBZcThzbUEyY3FqLUthcHRySW54?oc=5",
+      "source": "OBC 뉴스"
+    },
+    {
+      "date": "2026-08-17",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "동탄2 A93 공공임대 장기전세주택 우선 공급 - 남동탄 자연앤자이 아파트 Ncis Sydney (A8oqu8eKoK)",
+      "summary": "동탄2 A93 공공임대 장기전세주택이 우선 공급된다.",
+      "kw": [
+        "공공임대",
+        "전세주택",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9PdHpsbzFUaHVNSTNPTXF4OEI3ak5ONkk3eW1RZzRqLURjb1dQdnRPMndwTU5rQXE2XzRXODVOSzczOEJkTHVWdHRuSlUzU3p5MUNHUUZfcGNiTlk?oc=5",
+      "source": "Mshale"
+    },
+    {
+      "date": "2026-08-17",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "신미숙 경기도의원, 화성동부소방서 신축현장 점검",
+      "summary": "신미숙 경기도의원이 화성동부소방서 신축 현장을 점검한다.",
+      "kw": [
+        "소방서",
+        "신축",
+        "점검"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zS2JKQmlPX0c5YW5UajJhZ2hNLVRRamhGWkxHbTUwZjdHc0MwbFY5M1I5eWxSeTBqN0F4ZVhkbWZza08xQ1hEN3puOEQ4YU51bEl3RHdtOTk1OVVFcElVd050NFZfazUyd1Zmcmd3?oc=5",
+      "source": "전국매일신문"
+    },
+    {
+      "date": "2026-08-18",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성동탄중앙도서관, ‘찾아가는 클래식’으로 시민 일상에 감동 선사",
+      "summary": "화성동탄중앙도서관이 클래식 공연으로 시민들에게 문화 경험을 제공한다.",
+      "kw": [
+        "도서관",
+        "클래식",
+        "문화"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1RSWRlbUQ3ZkFqRkV6V1BpYmk0dzc5eERUdmhsODFKa2JzOW5tV0ltMUFXRmJ1SW5zLUNzdVU0dEhTLS1rZVloUXkxa0otaXM?oc=5",
+      "source": "뉴스N연합"
     }
   ],
   "briefs": {
-    "all": "수집 기간 전체 1,317건 기사 중 [[w]]부정기사 107건(8%)[[/w]]이 집계되었으며, 안전 분야에서 [[w]]46건[[/w]]의 부정 보도가 집중되어 있습니다. [[b]]동탄[[/b]]이 핵심 보도 주제이며 2026-08-03에 [[w]]8건[[/w]]의 부정기사가 몰렸으므로 해당 시점의 이슈를 우선 검토해야 합니다.",
-    "7": "최근 7일간 247건 기사 중 [[w]]부정기사는 6건(2%)[[/w]]으로 낮은 수준이지만, 안전 분야 [[w]]4건[[/w]]에 집중되어 있습니다. 행정 분야 67건이 주요 보도이며, 2026-08-16 [[w]]3건[[/w]]의 부정기사 발생 현황을 확인하시기 바랍니다.",
-    "30": "지난 30일 541건 기사 대비 [[w]]부정기사 52건(10%)[[/w]]으로 최근 7일보다 부정비율이 높아진 상태입니다. 특히 안전 분야에서 [[w]]31건[[/w]]의 부정 보도가 발생했으므로, 2026-08-03의 [[w]]8건 집중 사건[[/w]]을 포함해 안전 관련 대응 현황 점검이 필요합니다."
+    "all": "수집 기간 전체 1,346건의 기사 중 [[w]]부정기사 108건(8%)[[/w]]이 집계되었으며, 특히 안전 분야에서 [[w]]47건[[/w]]의 부정 보도가 집중되었습니다. [[b]]동탄[[/b]]이 핵심 보도 키워드이며 행정 분야(466건)가 압도적으로 많은 상황입니다.",
+    "7": "최근 7일간 264건 중 [[w]]부정기사는 7건(3%)[[/w]]으로 전체 평균 대비 낮은 수준이나, 안전 분야에서 여전히 [[w]]5건[[/w]]의 부정 보도가 발생했습니다. 핵심 보도 키워드는 [[b]]위안부[[/b]]이며 행정 분야(74건)가 주요 보도 대상입니다.",
+    "30": "최근 30일간 566건 중 [[w]]부정기사 52건(9%)[[/w]]으로 전체 평균을 상회하고 있으며, 안전 분야의 [[w]]부정 보도 31건[[/w]]이 전체 부정기사의 60% 이상을 차지하고 있습니다. 8월 3일 [[w]]8건[[/w]]이 집중되어 당일 이슈에 대한 확인이 필요합니다."
   }
 }
