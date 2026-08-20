@@ -1,4 +1,4 @@
-# 구글 뉴스 RSS에서 화성시 기사를 매일 수집해 news_live.json에 누적하는 스크립트 (검증본 news_data.json은 읽기만 한다)
+﻿# 구글 뉴스 RSS에서 화성시 기사를 매일 수집해 news_live.json에 누적하는 스크립트 (검증본 news_data.json은 읽기만 한다)
 import json
 import os
 import re
@@ -276,6 +276,138 @@ def write_briefs(api_key, facts):
     return {k: v for k, v in out.items() if k in ("all", "7", "30") and isinstance(v, str) and v.strip()}
 
 
+def top_keywords(rows, n=10):
+    """기간 안에서 가장 많이 나온 키워드를 센다. 집계는 코드가 하고 AI는 문장만 쓴다."""
+    c = Counter(k for r in rows for k in (r.get("kw") or []) if k)
+    return [k for k, _ in c.most_common(n)]
+
+
+def keyword_facts(rows, kw):
+    """키워드 하나에 대한 수치를 계산한다. 요약문에 쓸 사실은 전부 여기서 나온다."""
+    hit = [r for r in rows if kw in (r.get("kw") or [])]
+    if len(hit) < 3:
+        return None
+    senti = Counter(r["senti"] for r in hit)
+    cats = Counter(r["cat"] for r in hit)
+    dates = sorted(r["date"] for r in hit)
+    neg_titles = [r["title"] for r in hit if r["senti"] == "부정"][:3]
+    return {
+        "키워드": kw,
+        "기사수": len(hit),
+        "부정": senti.get("부정", 0),
+        "긍정": senti.get("긍정", 0),
+        "최다분야": "%s %d건" % cats.most_common(1)[0] if cats else None,
+        "기간": "%s~%s" % (dates[0], dates[-1]),
+        "부정기사예": neg_titles or None,
+    }
+
+
+def write_keyword_notes(api_key, facts):
+    """키워드별 한두 문장 해설을 받는다. 숫자는 이미 계산해 넘기므로 AI는 문장만 쓴다."""
+    prompt = """아래는 화성시 언론보도 대시보드에서 키워드별로 집계한 결과다.
+각 키워드마다 화성시 홍보 담당자가 읽을 해설을 **한두 문장**으로 작성하라.
+
+%s
+
+규칙:
+- 주어진 수치만 사용한다. 새로운 숫자를 만들거나 추정하지 않는다.
+- 이 키워드가 어떤 맥락에서 나오는지, 담당자가 눈여겨볼 점이 무엇인지 쓴다.
+- 부정 기사 예시가 있으면 그 내용을 반영한다. 없으면 언급하지 않는다.
+- 키워드마다 문장 구조를 다르게 쓴다.
+- 강조는 [[b]]와 [[/b]]로, 부정 관련 수치는 [[w]]와 [[/w]]로 감싼다.
+- HTML 태그를 쓰지 마라. 위 표시자만 쓴다.
+- 과장하거나 추측하지 않는다.
+
+{"키워드1": "해설", "키워드2": "해설"}
+위 형식의 JSON 객체로만 답하라.""" % json.dumps(facts, ensure_ascii=False, indent=2)
+
+    body = json.dumps({
+        "model": MODEL,
+        "max_tokens": 2500,
+        "messages": [{"role": "user", "content": prompt}],
+    }).encode()
+    req = urllib.request.Request(
+        "https://api.anthropic.com/v1/messages",
+        data=body,
+        headers={"content-type": "application/json", "x-api-key": api_key,
+                 "anthropic-version": "2023-06-01"},
+    )
+    with urllib.request.urlopen(req, timeout=120) as res:
+        payload = json.load(res)
+    text = payload["content"][0]["text"]
+    m = re.search(r"\{.*\}", text, re.S)
+    if not m:
+        raise ValueError("키워드 해설 응답에서 JSON을 찾지 못했습니다: " + text[:200])
+    out = json.loads(m.group())
+    return {k: v.strip() for k, v in out.items() if isinstance(v, str) and v.strip()}
+
+
+# 제목을 토큰으로 쪼갤 때 버릴 낱말. 어느 기사에나 나와서 묶는 데 방해가 된다.
+CLUSTER_STOP = set("화성 화성시 화성특례시 시 및 등 통해 위해 대한 관련 오늘 내일 "
+                   "속보 단독 종합 포토 영상 사진".split())
+
+
+def title_tokens(title):
+    return set(w for w in re.findall(r"[가-힣A-Za-z0-9]{2,}", title) if w not in CLUSTER_STOP)
+
+
+def cluster_negative(rows, threshold=0.35, min_size=2, top=5):
+    """부정 기사를 사건 단위로 묶는다.
+
+    같은 사건을 여러 매체가 제목만 바꿔 쓰면 지금은 별개 기사로 세어진다.
+    제목 토큰이 얼마나 겹치는지(자카드 유사도)로 같은 사건을 찾아 묶는다.
+    """
+    neg = [r for r in rows if r.get("senti") == "부정"]
+    if len(neg) < 2:
+        return []
+
+    toks = [title_tokens(r["title"]) for r in neg]
+    parent = list(range(len(neg)))
+
+    def find(i):
+        while parent[i] != i:
+            parent[i] = parent[parent[i]]
+            i = parent[i]
+        return i
+
+    for i in range(len(neg)):
+        if not toks[i]:
+            continue
+        for j in range(i + 1, len(neg)):
+            if not toks[j]:
+                continue
+            inter = len(toks[i] & toks[j])
+            if not inter:
+                continue
+            if inter / len(toks[i] | toks[j]) >= threshold:
+                a, b = find(i), find(j)
+                if a != b:
+                    parent[a] = b
+
+    groups = {}
+    for i in range(len(neg)):
+        groups.setdefault(find(i), []).append(neg[i])
+
+    out = []
+    for g in groups.values():
+        if len(g) < min_size:
+            continue
+        g.sort(key=lambda r: r["date"])
+        srcs = sorted(set(r.get("source", "") for r in g if r.get("source")))
+        out.append({
+            "label": g[-1]["title"],          # 가장 최근 제목을 대표로 삼는다
+            "count": len(g),
+            "sources": len(srcs),
+            "first": g[0]["date"],
+            "last": g[-1]["date"],
+            "cat": Counter(r["cat"] for r in g).most_common(1)[0][0],
+            "titles": [r["title"] for r in g],
+        })
+    # 최근에 끝난 이슈를 앞에, 같으면 규모가 큰 것을 앞에 둔다
+    out.sort(key=lambda x: (x["last"], x["count"]), reverse=True)
+    return out[:top]
+
+
 class CorruptedLive(Exception):
     """기존 수집분을 읽지 못했다는 뜻. 이때는 절대 새 파일로 덮어쓰지 않는다."""
 
@@ -289,7 +421,7 @@ def load_live():
     """
     if not os.path.exists(LIVE_FILE):
         print("news_live.json이 없습니다. 첫 실행으로 보고 시작합니다.")
-        return [], None, None
+        return [], None, None, None, None
     try:
         with open(LIVE_FILE, encoding="utf-8") as f:
             data = json.load(f)
@@ -297,7 +429,9 @@ def load_live():
         raise CorruptedLive("news_live.json을 읽지 못했습니다: %s" % e)
     if not isinstance(data, dict) or not isinstance(data.get("items"), list):
         raise CorruptedLive("news_live.json 구조가 예상과 다릅니다.")
-    return data["items"], data.get("briefs"), data.get("briefs_updated")
+    notes = data.get("keyword_notes") or {}
+    return (data["items"], data.get("briefs"), data.get("briefs_updated"),
+            notes.get("items"), notes.get("updated"))
 
 
 def main():
@@ -308,7 +442,7 @@ def main():
     # 검증본은 중복 판단에만 쓰고 절대 수정하지 않는다
     with open(VERIFIED_FILE, encoding="utf-8") as f:
         verified = json.load(f)
-    live, prev_briefs, prev_briefs_at = load_live()
+    live, prev_briefs, prev_briefs_at, prev_kw_notes, prev_kw_notes_at = load_live()
     seen = {norm(a["title"]) for a in verified} | {norm(a["title"]) for a in live}
     print("검증본 %d건 / 기존 수집분 %d건" % (len(verified), len(live)))
 
@@ -450,6 +584,39 @@ def main():
         except Exception as e:
             print("브리핑 생성 실패(%s) — 지난번 문장과 작성 시각을 유지합니다." % e)
 
+    # 부정 기사를 사건 단위로 묶는다. 실패해도 화면이 죽지 않도록 통째로 감싼다.
+    issues = None
+    try:
+        allrows = verified + live
+        found = cluster_negative(allrows)
+        if found:
+            issues = {"updated": datetime.now(KST).strftime("%Y-%m-%d %H:%M"),
+                      "items": found}
+            print("부정 이슈 묶음 %d개 (기사 %d건)"
+                  % (len(found), sum(i["count"] for i in found)))
+        else:
+            print("2건 이상 묶인 부정 이슈가 없습니다.")
+    except Exception as e:
+        print("이슈 묶기 실패(%s) — 이 기능만 건너뜁니다." % e)
+
+    # 키워드별 해설 — 최근 30일 기준. 전체 기간 해설은 이미 브리핑이 담당한다.
+    kw_notes = prev_kw_notes
+    kw_notes_at = prev_kw_notes_at
+    if api_key:
+        try:
+            allrows = verified + live
+            last = max(r["date"] for r in allrows)
+            cut = (datetime.strptime(last, "%Y-%m-%d") - timedelta(days=29)).strftime("%Y-%m-%d")
+            recent = [r for r in allrows if r["date"] >= cut]
+            wanted = top_keywords(recent, 10)
+            facts = [f for f in (keyword_facts(recent, k) for k in wanted) if f]
+            if facts:
+                kw_notes = write_keyword_notes(api_key, facts)
+                kw_notes_at = datetime.now(KST).strftime("%Y-%m-%d %H:%M")
+                print("키워드 해설 생성 완료: %d개" % len(kw_notes))
+        except Exception as e:
+            print("키워드 해설 실패(%s) — 지난번 해설을 유지합니다." % e)
+
     # 데이터 갱신 시각과 브리핑 작성 시각을 분리한다.
     # 브리핑을 새로 못 만든 날에 오늘 쓴 것처럼 보이면 화면이 사실과 다른 말을 하게 된다.
     out = {
@@ -463,6 +630,14 @@ def main():
         out["briefs"] = briefs
         if briefs_at:
             out["briefs_updated"] = briefs_at
+    if issues:
+        out["issues"] = issues
+    if kw_notes:
+        out["keyword_notes"] = {
+            "updated": kw_notes_at,
+            "window": "최근 30일",
+            "items": kw_notes,
+        }
     with open(LIVE_FILE, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
 

@@ -4,10 +4,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="화성시 관련 언론보도 1,026건을 AI로 분류·요약해 주요 이슈와 부정 보도 흐름을 시각화한 정책 모니터링 대시보드입니다.">
+<meta name="description" content="화성시 관련 언론보도를 기사 제목 기준으로 AI가 분류·정리해 주요 이슈와 부정 보도 흐름을 보여주는 정책 모니터링 대시보드입니다.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="핀포인트 — 화성시 언론보도 대시보드">
-<meta property="og:description" content="언론보도 1,026건을 AI로 분류·요약해 주요 이슈와 부정 보도 흐름을 한눈에.">
+<meta property="og:description" content="화성시 언론보도를 제목 기준 AI 분류로 정리해 주요 이슈와 부정 보도 흐름을 한눈에.">
 <meta property="og:locale" content="ko_KR">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%93%8D%3C/text%3E%3C/svg%3E">
 <title>핀포인트 — 화성시 언론보도 대시보드</title>
@@ -118,6 +118,49 @@
   .kw { background: var(--cat-bg); color: var(--cat-color); font-size: 12px; padding: 4px 12px; border-radius: 14px; font-weight: 600; cursor: pointer; }
   .kw:hover { background: var(--accent-hover); }
   .kw b { color: var(--cat-color); }
+  .kw.on { background: var(--chip-active-bg); color: #fff; }
+  .kw.on b { color: #fff; }
+
+  /* 키워드 상세 — 클릭한 키워드의 추이·해설·분포를 펼쳐 보여준다 */
+  .kwpanel { margin-top: 14px; border-top: 1px solid var(--border); padding-top: 14px; }
+  .kwpanel-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-bottom: 10px; }
+  .kwpanel-title { font-size: 16px; font-weight: 800; color: var(--stat-value); }
+  .kwpanel-meta { font-size: 12px; color: var(--muted); }
+  .kwpanel-close { margin-left: auto; font-size: 12px; color: var(--muted); cursor: pointer;
+    border: 1px solid var(--border); border-radius: 8px; padding: 3px 10px; background: none; }
+  .kwpanel-close:hover { background: var(--summary-bg); }
+  .kwpanel-note { background: var(--summary-bg); border-left: 3px solid var(--chip-active-bg);
+    border-radius: 8px; padding: 10px 13px; font-size: 13.5px; line-height: 1.6;
+    color: var(--article-title); margin-bottom: 12px; }
+  .kwpanel-note b { color: var(--stat-value); font-weight: 800; }
+  .kwpanel-note .warn { color: var(--neg); font-weight: 800; }
+  .kwpanel-note .src { display: block; margin-top: 5px; font-size: 11px; color: var(--muted2); font-weight: 400; }
+  .kwpanel-note .tagline { display: inline-block; background: var(--chip-active-bg); color: #fff;
+    font-size: 10.5px; font-weight: 700; padding: 2px 8px; border-radius: 9px; margin-bottom: 6px; }
+  .kwpanel-grid { display: grid; grid-template-columns: 1fr 210px; gap: 14px; align-items: start; }
+  @media (max-width: 720px) { .kwpanel-grid { grid-template-columns: 1fr; } }
+  .kwpanel-chart { height: 150px; }
+  .kwbar { display: flex; flex-direction: column; gap: 7px; }
+  .kwbar-row { font-size: 12px; color: var(--muted); }
+  .kwbar-track { height: 8px; border-radius: 5px; background: var(--summary-bg); margin-top: 4px; overflow: hidden; }
+  .kwbar-fill { height: 100%; border-radius: 5px; }
+
+  /* 주목 이슈 — 같은 사건을 여러 매체가 보도한 것을 하나로 묶어 보여준다 */
+  .issues-head { display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap; margin-bottom: 10px; }
+  .issues-note { font-size: 12.5px; color: var(--muted); }
+  .issue-list { display: flex; flex-direction: column; gap: 9px; }
+  .issue { border: 1px solid var(--border); border-left: 4px solid var(--neg); border-radius: 10px;
+    padding: 11px 14px; cursor: pointer; background: var(--surface); }
+  .issue:hover { background: var(--summary-bg); }
+  .issue.on { background: var(--summary-bg); border-left-width: 6px; }
+  .issue-title { font-size: 14px; font-weight: 700; color: var(--article-title); line-height: 1.45; }
+  .issue-meta { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 6px; font-size: 12px; color: var(--muted); }
+  .issue-count { color: var(--neg); font-weight: 800; }
+  .issue-detail { margin-top: 11px; padding-top: 11px; border-top: 1px dashed var(--border); }
+  .issue-chart { height: 120px; margin-bottom: 10px; }
+  .issue-arts { display: flex; flex-direction: column; gap: 5px; }
+  .issue-art { font-size: 12.5px; color: var(--summary-text); line-height: 1.5; }
+  .issue-art .d { color: var(--muted2); margin-right: 7px; }
 
   .toolbar { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; align-items: center; }
   .toolbar input { flex: 1; min-width: 160px; padding: 8px 14px; border: 1px solid var(--input-border); border-radius: 20px; font-size: 13px; outline: none; background: var(--surface); color: var(--text); }
@@ -208,7 +251,7 @@
 
 <div class="src-bar">
   <span class="src-item"><b>화성특례시</b> AI·DATA 공모전 · 지정과제 16번 정책 모니터링형</span>
-  <span class="src-item" id="srcData">데이터 출처 <b>빅카인즈</b> · AI 분류·요약 <b>1,026건</b> · 수집 2026.06.06~08.06</span>
+  <span class="src-item" id="srcData">데이터 출처 <b>빅카인즈</b> 검증본 <b>1,026건</b> · 수집 2026.06.06~08.06</span>
 </div>
 
 <header>
@@ -260,7 +303,19 @@
     <div class="card"><h3>긍정 · 중립 · 부정</h3><div class="chart-box"><canvas id="chSenti"></canvas></div></div>
   </div>
 
-  <div class="card keywords"><h3>주요 키워드 TOP 8</h3><div class="kw-list" id="kwList"></div></div>
+  <div class="card issues-card" id="issuesCard" style="display:none;">
+    <div class="issues-head">
+      <h3 style="margin:0;">주목 이슈</h3>
+      <span class="issues-note">같은 사건을 여러 매체가 보도한 것을 하나로 묶었습니다. 눌러서 자세히 보세요.</span>
+    </div>
+    <div class="issue-list" id="issueList"></div>
+  </div>
+
+  <div class="card keywords">
+    <h3>주요 키워드 TOP 8</h3>
+    <div class="kw-list" id="kwList"></div>
+    <div class="kwpanel" id="kwPanel" style="display:none;"></div>
+  </div>
 
   <div class="toolbar">
     <input type="text" id="search" placeholder="기사 제목·키워드 검색">
@@ -280,7 +335,7 @@
   <div class="more-wrap" id="moreWrap" style="display:none;"><button class="more-btn" id="moreBtn">더보기</button></div>
 </div>
 
-<footer>핀포인트(Pinpoint) — 빅카인즈 수집 기사를 AI로 분류·요약한 데이터 기반 대시보드.</footer>
+<footer>핀포인트(Pinpoint) — 기사 제목을 기준으로 AI가 분야·긍부정을 판정하고 한 줄로 정리한 데이터 기반 대시보드.</footer>
 
 <script>
 const CAT_LABEL = { "교통": "교통", "환경": "환경", "행정": "행정", "문화관광": "문화·관광", "산업경제": "산업·경제", "안전": "안전", "복지": "복지" };
@@ -291,6 +346,9 @@ const PAGE_SIZE = 20;
 
 let NEWS = [];
 let BRIEFS = {};   // AI가 미리 써 둔 기간별 브리핑 문장. 없으면 아래 계산식으로 만든다.
+let KWNOTES = {};  // 키워드별 해설. 없으면 상세 패널에서 해설만 빠진다.
+let ISSUES = {};   // 사건 단위로 묶은 부정 이슈. 없으면 이슈 카드가 통째로 숨는다.
+let LIVE_META = null;  // 자동 수집분의 갱신 시각 등. 화면에 사실 그대로 표시하려고 들고 있는다.
 let period = "all";
 let customFrom = "", customTo = "";
 let filter = "all";
@@ -364,6 +422,156 @@ function markupBrief(s) {
     .replace(/\[\[w\]\]/g, '<span class="warn">').replace(/\[\[\/w\]\]/g, "</span>");
 }
 
+// ── 키워드 상세 ─────────────────────────────────────────────
+// 집계는 여기서 직접 계산하고, 해설 문장만 미리 만들어 둔 것을 쓴다.
+let kwChart = null;
+let openKw = null;
+
+function closeKwPanel() {
+  openKw = null;
+  if (kwChart) { kwChart.destroy(); kwChart = null; }
+  document.getElementById("kwPanel").style.display = "none";
+  document.querySelectorAll("#kwList .kw.on").forEach(el => el.classList.remove("on"));
+}
+
+function openKeyword(kw) {
+  if (openKw === kw) { closeKwPanel(); return; }
+  closeKwPanel();
+  openKw = kw;
+
+  const data = periodData().filter(n => (n.kw || []).includes(kw));
+  if (!data.length) return;
+
+  const senti = { 긍정: 0, 중립: 0, 부정: 0 };
+  const byDate = {};
+  const byCat = {};
+  data.forEach(n => {
+    senti[n.senti] = (senti[n.senti] || 0) + 1;
+    byDate[n.date] = (byDate[n.date] || 0) + 1;
+    byCat[n.cat] = (byCat[n.cat] || 0) + 1;
+  });
+  const days = Object.keys(byDate).sort();
+  const topCat = Object.entries(byCat).sort((a, b) => b[1] - a[1])[0];
+  const note = KWNOTES.items && KWNOTES.items[kw];
+
+  const bar = (label, val, color) => {
+    const pct = Math.round(val / data.length * 100);
+    return `<div class="kwbar-row">${label} <b style="color:${color}">${val}건</b> (${pct}%)
+      <div class="kwbar-track"><div class="kwbar-fill" style="width:${pct}%;background:${color}"></div></div></div>`;
+  };
+
+  const panel = document.getElementById("kwPanel");
+  panel.innerHTML = `
+    <div class="kwpanel-head">
+      <span class="kwpanel-title">${kw}</span>
+      <span class="kwpanel-meta">${data.length.toLocaleString()}건 · ${days[0].replaceAll("-", ".")} ~ ${days[days.length - 1].replaceAll("-", ".")}
+        ${topCat ? " · 최다 분야 " + CAT_LABEL[topCat[0]] + "(" + topCat[1] + "건)" : ""}</span>
+      <button class="kwpanel-close" id="kwPanelSearch">이 키워드 기사 보기</button>
+      <button class="kwpanel-close" id="kwPanelClose">닫기</button>
+    </div>
+    ${note ? `<div class="kwpanel-note">
+      <span class="tagline">${KWNOTES.window || "최근 30일"} 기준 해설</span>
+      ${markupBrief(note)}
+      <span class="src">매일 수집 직후 AI가 작성${KWNOTES.updated ? " · " + KWNOTES.updated : ""}
+        · 위 그래프와 분포는 선택한 기간 기준이라 숫자가 다를 수 있습니다</span></div>` : ""}
+    <div class="kwpanel-grid">
+      <div class="kwpanel-chart"><canvas id="kwChartCanvas"></canvas></div>
+      <div class="kwbar">
+        ${bar("긍정", senti.긍정 || 0, "#4C8C4A")}
+        ${bar("중립", senti.중립 || 0, "#8A94A6")}
+        ${bar("부정", senti.부정 || 0, "#C26060")}
+      </div>
+    </div>`;
+  panel.style.display = "block";
+  document.getElementById("kwPanelClose").addEventListener("click", closeKwPanel);
+  document.getElementById("kwPanelSearch").addEventListener("click", () => searchKeyword(kw));
+
+  kwChart = new Chart(document.getElementById("kwChartCanvas"), {
+    type: "bar",
+    data: {
+      labels: days.map(d => d.slice(5).replace("-", ".")),
+      datasets: [{ label: kw + " 보도량", data: days.map(d => byDate[d]),
+        backgroundColor: "#4D7045", borderRadius: 3 }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: { y: { beginAtZero: true, ticks: { precision: 0 } } }
+    }
+  });
+}
+
+// ── 주목 이슈 ───────────────────────────────────────────────
+// 같은 사건을 여러 매체가 쓴 것을 수집 단계에서 묶어 두었다. 여기서는 그리기만 한다.
+let issueChart = null;
+let openIssue = null;
+
+function renderIssues() {
+  const card = document.getElementById("issuesCard");
+  const list = document.getElementById("issueList");
+  const items = (ISSUES.items || []).filter(it => it.count >= 2);
+  if (!items.length) { card.style.display = "none"; return; }
+
+  card.style.display = "";
+  list.innerHTML = items.map((it, i) => `
+    <div class="issue" data-i="${i}">
+      <div class="issue-title">${it.label}</div>
+      <div class="issue-meta">
+        <span><span class="issue-count">${it.count}건</span> 보도</span>
+        ${it.sources ? `<span>${it.sources}개 매체</span>` : ""}
+        <span>${it.first.replaceAll("-", ".")} ~ ${it.last.replaceAll("-", ".")}</span>
+        <span>${CAT_LABEL[it.cat] || it.cat}</span>
+      </div>
+    </div>`).join("");
+}
+
+function toggleIssue(idx) {
+  const items = (ISSUES.items || []).filter(it => it.count >= 2);
+  const it = items[idx];
+  if (!it) return;
+
+  if (issueChart) { issueChart.destroy(); issueChart = null; }
+  document.querySelectorAll("#issueList .issue").forEach(el => {
+    el.classList.remove("on");
+    const d = el.querySelector(".issue-detail");
+    if (d) d.remove();
+  });
+  if (openIssue === idx) { openIssue = null; return; }
+  openIssue = idx;
+
+  const arts = NEWS.filter(n => it.titles.includes(n.title))
+    .sort((a, b) => a.date.localeCompare(b.date));
+  const byDate = {};
+  arts.forEach(n => byDate[n.date] = (byDate[n.date] || 0) + 1);
+  const days = Object.keys(byDate).sort();
+
+  const el = document.querySelector(`#issueList .issue[data-i="${idx}"]`);
+  el.classList.add("on");
+  el.insertAdjacentHTML("beforeend", `
+    <div class="issue-detail">
+      <div class="issue-chart"><canvas id="issueChartCanvas"></canvas></div>
+      <div class="issue-arts">${arts.map(n =>
+        `<div class="issue-art"><span class="d">${n.date.replaceAll("-", ".")}</span>` +
+        `<a href="${articleLink(n)}" target="_blank" rel="noopener">${n.title}</a>` +
+        `${n.source ? ` <span class="d">${n.source}</span>` : ""}</div>`
+      ).join("")}</div>
+    </div>`);
+
+  issueChart = new Chart(document.getElementById("issueChartCanvas"), {
+    type: "bar",
+    data: {
+      labels: days.map(d => d.slice(5).replace("-", ".")),
+      datasets: [{ label: "보도량", data: days.map(d => byDate[d]),
+        backgroundColor: "#C26060", borderRadius: 3 }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: { y: { beginAtZero: true, ticks: { precision: 0 } } }
+    }
+  });
+}
+
 // AI 분류 결과를 집계해 선택 기간의 동향을 문장으로 요약한다
 function renderBrief(data, total, negCount, topCat, kwSorted) {
   const body = document.getElementById("aiBriefBody");
@@ -395,9 +603,9 @@ function renderBrief(data, total, negCount, topCat, kwSorted) {
   const note = document.getElementById("aiBriefNote");
   if (BRIEFS[period]) {
     body.innerHTML = markupBrief(BRIEFS[period]);
-    note.textContent = "AI가 이 기간의 보도를 분석해 직접 작성한 브리핑입니다";
+    note.textContent = "매일 수집 직후 AI가 작성한 브리핑입니다 (전체·7일·30일)";
   } else {
-    note.textContent = "선택 기간의 집계 결과를 요약했습니다";
+    note.textContent = "선택 기간의 집계 결과입니다 (코드 계산)";
     let text = `${label} 화성시 관련 보도는 <b>${total.toLocaleString()}건</b>이며, `
       + `이 중 부정 보도는 <span class="warn">${negCount}건(${negRate}%)</span>입니다. `;
     if (topCat) text += `보도가 가장 많은 분야는 <b>${CAT_LABEL[topCat[0]]}</b>(${topCat[1]}건)이고, `;
@@ -418,10 +626,15 @@ function renderBrief(data, total, negCount, topCat, kwSorted) {
     `<span class="ai-issue"><span class="tag">주목</span>${n.title.length > 42 ? n.title.slice(0, 42) + "…" : n.title}</span>`
   ).join("");
 
-  const now = new Date();
-  timeEl.textContent = `${now.getFullYear()}.${String(now.getMonth() + 1).padStart(2, "0")}.`
-    + `${String(now.getDate()).padStart(2, "0")} ${String(now.getHours()).padStart(2, "0")}:`
-    + `${String(now.getMinutes()).padStart(2, "0")} 기준`;
+  // 보는 사람의 시계가 아니라 실제로 저장된 시각을 쓴다.
+  // 브리핑을 새로 못 만든 날에 오늘 쓴 것처럼 보이면 화면이 사실과 다른 말을 하게 된다.
+  if (BRIEFS[period] && LIVE_META && LIVE_META.briefs_updated) {
+    timeEl.textContent = `${LIVE_META.briefs_updated} 작성`;
+  } else if (LIVE_META && LIVE_META.updated) {
+    timeEl.textContent = `데이터 ${LIVE_META.updated} 기준`;
+  } else {
+    timeEl.textContent = "";
+  }
 }
 
 function updateDashboard() {
@@ -492,6 +705,7 @@ function updateDashboard() {
     options: { maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true }, x: { ticks: { font: { weight: 600 } } } } }
   });
 
+  renderIssues();
   visibleCount = PAGE_SIZE;
   renderList();
 }
@@ -514,7 +728,7 @@ function renderList() {
         <span class="date">${n.date.replaceAll("-", ".")}</span>
       </div>
       <div class="title"><a href="${articleLink(n)}" target="_blank" rel="noopener">${n.title}<span class="ext">원문 보기 ↗</span></a></div>
-      <div class="summary"><span class="ai">AI 요약</span>${n.summary}</div>
+      <div class="summary"><span class="ai">AI 한 줄 정리</span>${n.summary}</div>
     </div>`).join("");
   document.getElementById("listCount").textContent =
     "전체 " + data.length.toLocaleString() + "건 중 " + shown.length.toLocaleString() + "건 표시";
@@ -546,13 +760,28 @@ document.querySelectorAll(".cat-chip").forEach(c => c.addEventListener("click", 
 document.getElementById("search").addEventListener("input", () => { visibleCount = PAGE_SIZE; renderList(); });
 document.getElementById("moreBtn").addEventListener("click", () => { visibleCount += PAGE_SIZE; renderList(); });
 
+document.getElementById("issueList").addEventListener("click", e => {
+  const card = e.target.closest(".issue");
+  if (!card || e.target.closest("a")) return;
+  toggleIssue(Number(card.dataset.i));
+});
+
 document.getElementById("kwList").addEventListener("click", e => {
   const chip = e.target.closest(".kw");
   if (!chip) return;
-  document.getElementById("search").value = chip.firstChild.textContent.trim();
+  const word = chip.firstChild.textContent.trim();
+  document.querySelectorAll("#kwList .kw").forEach(el => el.classList.remove("on"));
+  if (openKw !== word) chip.classList.add("on");
+  openKeyword(word);
+});
+
+// 상세 패널 안의 "이 키워드로 검색" 버튼 — 기존 검색 동작을 그대로 쓴다
+function searchKeyword(word) {
+  document.getElementById("search").value = word;
   visibleCount = PAGE_SIZE;
   renderList();
-});
+  document.querySelector(".toolbar").scrollIntoView({ behavior: "smooth", block: "start" });
+}
 
 
 // 매일 자동 수집된 기사를 읽는다. 파일이 없거나 깨져도 검증본만으로 정상 동작해야 하므로 null을 돌려준다.
@@ -581,6 +810,9 @@ async function init() {
     if (live) {
       NEWS = NEWS.concat(live.items);
       if (live.briefs) BRIEFS = live.briefs;
+      if (live.keyword_notes) KWNOTES = live.keyword_notes;
+      if (live.issues) ISSUES = live.issues;
+      LIVE_META = live;
       document.getElementById("srcData").innerHTML =
         `데이터 출처 <b>빅카인즈 검증본 ${verified.toLocaleString()}건</b>`
         + ` + 자동 수집 <b>${live.items.length.toLocaleString()}건</b>`
