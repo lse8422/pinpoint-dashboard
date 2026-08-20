@@ -374,8 +374,13 @@
       </div>
       <div class="chart-box"><canvas id="chCat"></canvas></div>
       <div class="chart-note" id="catNote" style="display:none;"></div>
+      <div class="chart-note" id="catHint">분야를 누르면 긍정·부정 비율과 추이를 볼 수 있습니다.</div>
     </div>
     <div class="card"><h3>긍정 · 중립 · 부정</h3><div class="chart-box"><canvas id="chSenti"></canvas></div></div>
+  </div>
+
+  <div class="card" id="catPanelCard" style="display:none;">
+    <div class="kwpanel" id="catPanel" style="border-top:none; padding-top:0; margin-top:0;"></div>
   </div>
 
   <div class="card issues-card" id="issuesCard" style="display:none;">
@@ -568,6 +573,99 @@ function toggleTodo(idx) {
       `<div class="todo-art"><span class="d">${n.date.replaceAll("-", ".")}</span>` +
       `<a href="${articleLink(n)}" target="_blank" rel="noopener">${n.title}</a>` +
       `${n.source ? ` <span class="d">${n.source}</span>` : ""}</div>`).join("")}</div></div>`);
+}
+
+// ── 분야 상세 ───────────────────────────────────────────────
+// 분야를 누르면 그 분야 안에서 긍정·부정이 어떤 비율인지 보여준다.
+// 전체 비중만으로는 "보도가 많은 분야"와 "부정이 많은 분야"를 구분할 수 없다.
+let catChart = null;
+let openCat = null;
+
+function closeCatPanel() {
+  openCat = null;
+  if (catChart) { catChart.destroy(); catChart = null; }
+  document.getElementById("catPanelCard").style.display = "none";
+}
+
+function openCategory(cat) {
+  if (openCat === cat) { closeCatPanel(); return; }
+  closeCatPanel();
+  openCat = cat;
+
+  const data = periodData().filter(n => n.cat === cat);
+  if (!data.length) return;
+
+  const senti = { 긍정: 0, 중립: 0, 부정: 0 };
+  const byDate = {}, negByDate = {};
+  data.forEach(n => {
+    senti[n.senti] = (senti[n.senti] || 0) + 1;
+    byDate[n.date] = (byDate[n.date] || 0) + 1;
+    if (n.senti === "부정") negByDate[n.date] = (negByDate[n.date] || 0) + 1;
+  });
+  const days = Object.keys(byDate).sort();
+  const pct = v => Math.round(v / data.length * 100);
+
+  // 같은 기간 전체와 비교해야 이 분야가 유난한지 알 수 있다
+  const all = periodData();
+  const allNegPct = all.length ? Math.round(all.filter(n => n.senti === "부정").length / all.length * 100) : 0;
+  const negPct = pct(senti.부정 || 0);
+  const diff = negPct - allNegPct;
+
+  const negTop = data.filter(n => n.senti === "부정")
+    .sort((a, b) => b.date.localeCompare(a.date)).slice(0, 3);
+
+  const bar = (label, val, color) => `
+    <div class="kwbar-row">${label} <b style="color:${color}">${val}건</b> (${pct(val)}%)
+      <div class="kwbar-track"><div class="kwbar-fill" style="width:${pct(val)}%;background:${color}"></div></div></div>`;
+
+  document.getElementById("catPanel").innerHTML = `
+    <div class="kwpanel-head">
+      <span class="kwpanel-title">${CAT_LABEL[cat] || cat}</span>
+      <span class="kwpanel-meta">${data.length.toLocaleString()}건 ·
+        ${days[0].replaceAll("-", ".")} ~ ${days[days.length - 1].replaceAll("-", ".")}</span>
+      <button class="kwpanel-close" id="catPanelClose">닫기</button>
+    </div>
+    <div class="kwpanel-note">
+      이 분야의 부정 보도 비율은 <b>${negPct}%</b>입니다.
+      같은 기간 전체 평균은 ${allNegPct}%로,
+      ${diff > 0 ? `<span class="warn">${diff}%포인트 높습니다. 우선 확인이 필요합니다.</span>`
+        : diff < 0 ? `${Math.abs(diff)}%포인트 낮습니다.` : `평균과 같습니다.`}
+      <span class="src">비율은 선택한 기간 기준으로 화면에서 계산합니다</span>
+    </div>
+    <div class="kwpanel-grid">
+      <div class="kwpanel-chart"><canvas id="catChartCanvas"></canvas></div>
+      <div class="kwbar">
+        ${bar("긍정", senti.긍정 || 0, "#4C8C4A")}
+        ${bar("중립", senti.중립 || 0, "#8A94A6")}
+        ${bar("부정", senti.부정 || 0, "#C26060")}
+      </div>
+    </div>
+    ${negTop.length ? `<div style="margin-top:12px;">
+      <div style="font-size:12px;color:var(--muted);margin-bottom:6px;">이 분야의 최근 부정 보도</div>
+      <div class="issue-arts">${negTop.map(n =>
+        `<div class="issue-art"><span class="d">${n.date.replaceAll("-", ".")}</span>` +
+        `<a href="${articleLink(n)}" target="_blank" rel="noopener">${n.title}</a></div>`).join("")}</div>
+    </div>` : ""}`;
+
+  document.getElementById("catPanelCard").style.display = "";
+  document.getElementById("catPanelClose").addEventListener("click", closeCatPanel);
+
+  catChart = new Chart(document.getElementById("catChartCanvas"), {
+    type: "bar",
+    data: {
+      labels: days.map(d => d.slice(5).replace("-", ".")),
+      datasets: [
+        { label: "전체", data: days.map(d => byDate[d]), backgroundColor: "#8FA98A", borderRadius: 3 },
+        { label: "부정", data: days.map(d => negByDate[d] || 0), backgroundColor: "#C26060", borderRadius: 3 }
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: true, position: "top", labels: { boxWidth: 14, font: { size: 10.5 } } } },
+      scales: { x: { stacked: false }, y: { beginAtZero: true, ticks: { precision: 0 } } }
+    }
+  });
+  document.getElementById("catPanelCard").scrollIntoView({ behavior: "smooth", block: "nearest" });
 }
 
 // ── 키워드 상세 ─────────────────────────────────────────────
@@ -868,8 +966,15 @@ function updateDashboard() {
     type: "doughnut",
     data: { labels: catKeys.map(c => CAT_LABEL[c]),
       datasets: [{ data: catKeys.map(c => catCount2[c]), backgroundColor: catKeys.map(c => isDark() ? (CAT_COLORS_DARK[c] || "#69926E") : (CAT_COLORS_LIGHT[c] || "#4d7045")), borderColor: isDark() ? "#262626" : "#ffffff", borderWidth: 3 }] },
-    options: { maintainAspectRatio: false, plugins: { legend: { position: "right", labels: { boxWidth: 11, font: { size: 11.5 } } } } }
+    options: {
+      maintainAspectRatio: false,
+      plugins: { legend: { position: "right", labels: { boxWidth: 11, font: { size: 11.5 } } } },
+      onClick: (e, els) => { if (els.length) openCategory(catKeys[els[0].index]); },
+      onHover: (e, els) => { e.native.target.style.cursor = els.length ? "pointer" : "default"; }
+    }
   });
+  // 패널이 열려 있으면 기간이 바뀌어도 같은 분야로 다시 계산한다
+  if (openCat) { const c = openCat; openCat = null; openCategory(c); }
 
   const sentiCount = { "긍정": 0, "중립": 0, "부정": 0 };
   data.forEach(n => sentiCount[n.senti]++);
@@ -936,6 +1041,10 @@ document.querySelectorAll(".cat-chip").forEach(c => c.addEventListener("click", 
   filter = c.dataset.f;
   visibleCount = PAGE_SIZE;
   renderList();
+  // 분야를 고르면 그 분야의 긍정·부정 비율도 함께 열어 준다
+  const f = c.dataset.f;
+  if (f === "all" || f === "부정") closeCatPanel();
+  else if (openCat !== f) openCategory(f);
 }));
 document.getElementById("search").addEventListener("input", () => { visibleCount = PAGE_SIZE; renderList(); });
 document.getElementById("moreBtn").addEventListener("click", () => { visibleCount += PAGE_SIZE; renderList(); });
