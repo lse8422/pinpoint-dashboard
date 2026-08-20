@@ -40,10 +40,12 @@ EXCLUDES = [
     # 수원 화성 (문화유산)
     "수원화성", "수원 화성", "화성행궁", "화성행렬", "화성열차", "화성어차",
     "화성성역", "정조대왕", "화성유수부",
-    # 행성 화성
+    # 행성 화성 — 짧은 낱말("나사", "로버")은 "나사못", "로버트"까지 걸러내므로
+    # 반드시 앞뒤를 붙여 한정한다.
     "화성 탐사", "화성탐사", "화성 이주", "화성인", "화성 착륙", "적색행성",
-    "NASA", "나사", "스페이스X", "스페이스엑스", "머스크", "로버", "큐리오시티",
-    "퍼서비어런스", "화성 진출", "테라포밍", "화성 생명체",
+    "NASA", "미 항공우주국", "스페이스X", "스페이스엑스", "일론 머스크",
+    "탐사 로버", "탐사로버", "큐리오시티", "퍼서비어런스",
+    "화성 진출", "테라포밍", "화성 생명체",
     # 그 밖의 동음이의어
     "화성암", "화성학",
 ]
@@ -70,7 +72,7 @@ CAT_KEYWORDS = {
              "폭염", "지진", "누출", "대피", "응급", "119"],
     "복지": ["복지", "어르신", "노인", "아동", "청소년", "보육", "어린이집", "장애인",
              "건강", "의료", "보건", "지원금", "돌봄", "여성", "다문화", "급식",
-             "교육", "학교", "학생", "병원", "接종", "상담", "취약계층"],
+             "교육", "학교", "학생", "병원", "접종", "상담", "취약계층"],
 }
 
 NEG_WORDS = ["사고", "화재", "사망", "부상", "논란", "갈등", "반발", "항의", "시위",
@@ -274,19 +276,28 @@ def write_briefs(api_key, facts):
     return {k: v for k, v in out.items() if k in ("all", "7", "30") and isinstance(v, str) and v.strip()}
 
 
+class CorruptedLive(Exception):
+    """기존 수집분을 읽지 못했다는 뜻. 이때는 절대 새 파일로 덮어쓰지 않는다."""
+
+
 def load_live():
-    """기존 수집분과 브리핑을 읽는다. 파일이 없거나 깨졌으면 빈 상태로 시작한다."""
+    """기존 수집분과 브리핑을 읽는다.
+
+    파일이 아예 없으면 처음 실행이므로 빈 상태로 시작해도 된다.
+    그러나 파일이 있는데 읽지 못하면 손상된 것이므로 예외를 던진다.
+    빈 배열로 시작해 저장해버리면 그동안 쌓인 수집분이 통째로 사라진다.
+    """
     if not os.path.exists(LIVE_FILE):
-        return [], None
+        print("news_live.json이 없습니다. 첫 실행으로 보고 시작합니다.")
+        return [], None, None
     try:
         with open(LIVE_FILE, encoding="utf-8") as f:
             data = json.load(f)
-        if isinstance(data, dict):
-            return data.get("items", []), data.get("briefs")
-        return [], None
     except (ValueError, OSError) as e:
-        print("기존 news_live.json을 읽지 못해 새로 시작합니다: %s" % e)
-        return [], None
+        raise CorruptedLive("news_live.json을 읽지 못했습니다: %s" % e)
+    if not isinstance(data, dict) or not isinstance(data.get("items"), list):
+        raise CorruptedLive("news_live.json 구조가 예상과 다릅니다.")
+    return data["items"], data.get("briefs"), data.get("briefs_updated")
 
 
 def main():
@@ -297,19 +308,27 @@ def main():
     # 검증본은 중복 판단에만 쓰고 절대 수정하지 않는다
     with open(VERIFIED_FILE, encoding="utf-8") as f:
         verified = json.load(f)
-    live, prev_briefs = load_live()
+    live, prev_briefs, prev_briefs_at = load_live()
     seen = {norm(a["title"]) for a in verified} | {norm(a["title"]) for a in live}
     print("검증본 %d건 / 기존 수집분 %d건" % (len(verified), len(live)))
 
-    # 수집
-    fetched = []
+    # 수집 — 검색어별로 따로 담는다. 뒤에서 자를 때 한 검색어만 살아남지 않게 하기 위해서다.
+    by_query = []
     for q in QUERIES:
         try:
             got = fetch_rss(q, DAYS)
             print("  '%s' 검색 %d건" % (q, len(got)))
-            fetched.extend(got)
+            by_query.append(got)
         except Exception as e:
             print("  '%s' 검색 실패: %s" % (q, e))
+            by_query.append([])
+
+    # 검색어를 번갈아 꺼내 섞는다. MAX_NEW로 잘라도 두 검색어가 고르게 남는다.
+    fetched = []
+    for i in range(max((len(g) for g in by_query), default=0)):
+        for g in by_query:
+            if i < len(g):
+                fetched.append(g[i])
 
     # 중복 제거 + 화성시 무관 기사 제외
     fresh, dropped = [], []
@@ -354,10 +373,19 @@ def main():
                                       url=src["url"], source=src["source"]))
                 continue
 
+            # AI가 번호를 빠뜨리거나 두 번 답할 수 있다.
+            # 처리한 번호를 기록해 누락은 규칙으로 채우고, 중복은 첫 번째만 쓴다.
+            handled = set()
             for r in results:
-                idx = int(r.get("n", 0)) - 1
-                if not (0 <= idx < len(chunk)):
+                if not isinstance(r, dict):
                     continue
+                try:
+                    idx = int(r.get("n", 0)) - 1
+                except (TypeError, ValueError):
+                    continue
+                if not (0 <= idx < len(chunk)) or idx in handled:
+                    continue
+                handled.add(idx)
                 src = chunk[idx]
                 if not r.get("keep"):
                     print("    AI 제외: %s" % src["title"])
@@ -373,6 +401,15 @@ def main():
                     "kw": [k for k in (r.get("kw") or []) if k][:3],
                     "url": src["url"], "source": src["source"],
                 })
+
+            missing = [i for i in range(len(chunk)) if i not in handled]
+            if missing:
+                print("    AI가 %d건을 빠뜨려 규칙으로 채웁니다." % len(missing))
+                for i in missing:
+                    src = chunk[i]
+                    r2 = classify_by_rule(src["title"])
+                    added.append(dict(r2, date=src["date"], title=src["title"],
+                                      url=src["url"], source=src["source"]))
             time.sleep(1)
     else:
         for src in fresh:
@@ -380,11 +417,19 @@ def main():
             added.append(dict(r, date=src["date"], title=src["title"],
                               url=src["url"], source=src["source"]))
 
+    before = len(live)
     live.extend(added)
     live.sort(key=lambda a: a["date"])
 
+    # 저장 직전 안전장치 — 누적분이 줄어드는 일은 정상 동작에서 일어나지 않는다.
+    # 줄었다면 어딘가 잘못된 것이므로 덮어쓰지 않고 멈춘다.
+    if len(live) < before:
+        print("누적분이 %d건에서 %d건으로 줄었습니다. 저장하지 않고 중단합니다." % (before, len(live)))
+        return 1
+
     # 브리핑 문장 — 검증본까지 합친 전체를 기준으로 계산한다(화면이 보는 모수와 같아야 한다)
-    briefs = prev_briefs   # 새로 못 만들면 지난번 문장을 그대로 남긴다
+    briefs = prev_briefs        # 새로 못 만들면 지난번 문장을 그대로 남긴다
+    briefs_at = prev_briefs_at  # 그때는 작성 시각도 지난번 것을 유지한다
     if api_key:
         allrows = verified + live
         last = max(r["date"] for r in allrows)
@@ -400,10 +445,13 @@ def main():
                 facts.append(dict({"키": key}, **f))
         try:
             briefs = write_briefs(api_key, facts)
+            briefs_at = datetime.now(KST).strftime("%Y-%m-%d %H:%M")
             print("브리핑 생성 완료: %s" % ", ".join(sorted(briefs)))
         except Exception as e:
-            print("브리핑 생성 실패(%s) — 지난번 문장을 유지합니다." % e)
+            print("브리핑 생성 실패(%s) — 지난번 문장과 작성 시각을 유지합니다." % e)
 
+    # 데이터 갱신 시각과 브리핑 작성 시각을 분리한다.
+    # 브리핑을 새로 못 만든 날에 오늘 쓴 것처럼 보이면 화면이 사실과 다른 말을 하게 된다.
     out = {
         "updated": datetime.now(KST).strftime("%Y-%m-%d %H:%M"),
         "source": "구글 뉴스 RSS",
@@ -413,6 +461,8 @@ def main():
     }
     if briefs:
         out["briefs"] = briefs
+        if briefs_at:
+            out["briefs_updated"] = briefs_at
     with open(LIVE_FILE, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
 
@@ -421,4 +471,11 @@ def main():
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    try:
+        sys.exit(main())
+    except CorruptedLive as e:
+        # 기존 수집분을 읽지 못한 날은 아무것도 저장하지 않고 끝낸다.
+        # 빈 파일로 덮어쓰면 그동안 쌓인 기사가 전부 사라진다.
+        print("중단: %s" % e)
+        print("기존 파일을 보존했습니다. 저장소의 news_live.json을 확인해 주세요.")
+        sys.exit(1)
