@@ -435,6 +435,105 @@ def cluster_negative(rows, threshold=0.35, min_size=2, top=5):
     return out[:top]
 
 
+def issue_score(it, today):
+    """담당자가 오늘 먼저 볼 순서를 정한다. 최신성을 가장 크게 본다."""
+    last = datetime.strptime(it["last"], "%Y-%m-%d").date()
+    first = datetime.strptime(it["first"], "%Y-%m-%d").date()
+    age = (today - last).days
+    span = (last - first).days + 1
+    recency = max(0, 45 - age * 7)           # 오늘일수록 크다 (최대 45)
+    spread = min(30, it["sources"] * 10)     # 몇 개 매체가 다뤘나 (최대 30)
+    volume = min(15, it["count"] * 5)        # 기사 수 (최대 15)
+    lasting = 10 if span >= 7 else 0         # 오래 이어지면 가산
+    return min(100, recency + spread + volume + lasting)
+
+
+def issue_state(it, today):
+    """이슈가 지금 어떤 국면인지 한 낱말로 말한다."""
+    last = datetime.strptime(it["last"], "%Y-%m-%d").date()
+    first = datetime.strptime(it["first"], "%Y-%m-%d").date()
+    age = (today - last).days
+    span = (last - first).days + 1
+    if age <= 1 and it["count"] >= 2:
+        return "확산 중"
+    if age <= 1:
+        return "신규"
+    if age <= 3:
+        return "진행 중"
+    if span >= 7:
+        return "장기"
+    return "종결"
+
+
+def build_today(allrows, today, top=3, window=14):
+    """오늘 확인할 것을 뽑는다.
+
+    묶인 이슈만 보면 오늘 새로 뜬 단일 보도를 놓친다.
+    그래서 1건짜리도 그룹으로 유지하고 점수로 정렬한다.
+    """
+    cut = (today - timedelta(days=window - 1)).strftime("%Y-%m-%d")
+    recent = [r for r in allrows if r["date"] >= cut]
+    groups = cluster_negative(recent, min_size=1, top=300)
+    if not groups:
+        return []
+    for g in groups:
+        g["score"] = issue_score(g, today)
+        g["state"] = issue_state(g, today)
+    groups.sort(key=lambda g: g["score"], reverse=True)
+    return groups[:top]
+
+
+def detect_surge(live_items, today, recent_days=3, base_days=12, min_count=3, min_ratio=2.0):
+    """분야별 부정 보도가 갑자기 늘었는지 본다.
+
+    검증본(빅카인즈)과 자동수집분은 수집 범위가 달라 섞으면 비교가 왜곡된다.
+    그래서 자동수집분끼리만 비교한다.
+    적은 수에서 배수가 튀는 것을 막으려고 최소 건수 조건을 둔다.
+    """
+    def win(back, days):
+        end = today - timedelta(days=back)
+        start = end - timedelta(days=days - 1)
+        return [r for r in live_items
+                if start.strftime("%Y-%m-%d") <= r["date"] <= end.strftime("%Y-%m-%d")]
+
+    cur = Counter(r["cat"] for r in win(0, recent_days) if r.get("senti") == "부정")
+    base = Counter(r["cat"] for r in win(recent_days, base_days) if r.get("senti") == "부정")
+
+    out = []
+    for cat in CATS:
+        a = cur.get(cat, 0)
+        if a < min_count:
+            continue
+        b_day = base.get(cat, 0) / base_days
+        if b_day <= 0:
+            continue                      # 비교 기준이 없으면 배수를 말하지 않는다
+        ratio = (a / recent_days) / b_day
+        if ratio >= min_ratio:
+            out.append({"cat": cat, "recent": a, "days": recent_days,
+                        "base_daily": round(b_day, 2), "ratio": round(ratio, 1)})
+    out.sort(key=lambda x: -x["ratio"])
+    return out
+
+
+def ops_record(repo, token):
+    """자동 수집이 며칠째 무중단으로 돌았는지 센다. 실패하면 이 항목만 빠진다."""
+    if not repo:
+        return None
+    req = urllib.request.Request(
+        "https://api.github.com/repos/%s/actions/runs?per_page=100" % repo,
+        headers={"User-Agent": "pinpoint", "Accept": "application/vnd.github+json",
+                 **({"Authorization": "Bearer " + token} if token else {})})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        data = json.load(r)
+    runs = [x for x in data.get("workflow_runs", []) if x.get("event") == "schedule"]
+    if not runs:
+        return None
+    days = sorted(set(x["created_at"][:10] for x in runs))
+    fails = sum(1 for x in runs if x.get("conclusion") not in ("success", None))
+    return {"runs": len(runs), "days": len(days), "since": days[0],
+            "last": days[-1], "failures": fails}
+
+
 class CorruptedLive(Exception):
     """기존 수집분을 읽지 못했다는 뜻. 이때는 절대 새 파일로 덮어쓰지 않는다."""
 
@@ -653,6 +752,46 @@ def main():
         "count": len(live),
         "items": live,
     }
+    # 오늘 확인할 것 — 담당자가 화면을 열자마자 볼 세 가지
+    today_block = None
+    try:
+        allrows = verified + live
+        T = datetime.strptime(max(r["date"] for r in allrows), "%Y-%m-%d").date()
+        picks = build_today(allrows, T)
+        surge = detect_surge(live, T)
+        if picks:
+            today_block = {"updated": datetime.now(KST).strftime("%Y-%m-%d %H:%M"),
+                           "items": picks, "surge": surge}
+            print("오늘 확인할 것 %d건 (최고 %d점) · 급증 분야 %d개"
+                  % (len(picks), picks[0]["score"], len(surge)))
+            for s in surge:
+                print("    급증: %s 최근 %d일 %d건 (평소 대비 %.1f배)"
+                      % (s["cat"], s["days"], s["recent"], s["ratio"]))
+    except Exception as e:
+        print("오늘 확인할 것 생성 실패(%s) — 이 기능만 건너뜁니다." % e)
+
+    # 운영 기록 — 며칠째 무중단으로 돌고 있는지. 우리 화면의 신뢰 근거다.
+    ops = None
+    try:
+        ops = ops_record(os.environ.get("GITHUB_REPOSITORY"),
+                         os.environ.get("GITHUB_TOKEN"))
+        if ops:
+            print("운영 기록: %d일 연속 · 정기실행 %d회 · 실패 %d회"
+                  % (ops["days"], ops["runs"], ops["failures"]))
+    except Exception as e:
+        print("운영 기록 조회 실패(%s) — 이 항목만 건너뜁니다." % e)
+
+    # 사람이 검수한 정확도 — quality.json이 있으면 그대로 싣는다
+    quality = None
+    qpath = os.path.join(BASE, "quality.json")
+    if os.path.exists(qpath):
+        try:
+            with open(qpath, encoding="utf-8") as f:
+                quality = json.load(f)
+            print("검수 결과 반영: %s" % quality.get("checked"))
+        except Exception as e:
+            print("quality.json을 읽지 못했습니다(%s)." % e)
+
     # 무엇을 걸러냈는지 남긴다. 로그만 있으면 나중에 무엇을 놓쳤는지 확인할 수 없다.
     if dropped:
         out["dropped"] = {
@@ -671,6 +810,12 @@ def main():
             out["briefs_updated"] = briefs_at
     if issues:
         out["issues"] = issues
+    if today_block:
+        out["today"] = today_block
+    if ops:
+        out["ops"] = ops
+    if quality:
+        out["quality"] = quality
     if kw_notes:
         out["keyword_notes"] = {
             "updated": kw_notes_at,

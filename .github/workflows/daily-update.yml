@@ -34,6 +34,9 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           COLLECT_DAYS: ${{ inputs.days }}
           COLLECT_MAX: ${{ inputs.max_new }}
+          # 며칠째 무중단으로 돌았는지 세기 위해 실행 이력을 조회한다
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
         run: python collect.py
 
       - name: 변경사항 커밋

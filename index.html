@@ -153,6 +153,48 @@
   .kwbar-track { height: 8px; border-radius: 5px; background: var(--summary-bg); margin-top: 4px; overflow: hidden; }
   .kwbar-fill { height: 100%; border-radius: 5px; }
 
+  /* 오늘 확인할 것 — 담당자가 화면을 열자마자 보는 자리 */
+  .today { background: var(--surface); border: 1px solid var(--border);
+    border-left: 5px solid var(--neg); border-radius: 12px; padding: 15px 18px 16px; margin-bottom: 16px; }
+  .today-head { display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap; margin-bottom: 11px; }
+  .today-title { font-size: 16px; font-weight: 800; color: var(--article-title); }
+  .today-sub { font-size: 12px; color: var(--muted); }
+  .today-time { margin-left: auto; font-size: 11px; color: var(--muted2); }
+
+  .surge { background: #FDF3F3; border: 1px solid #EBC9C9; border-radius: 9px;
+    padding: 9px 13px; margin-bottom: 11px; font-size: 13px; line-height: 1.6; color: #6E2B2B; }
+  body.dark .surge { background: #3A2222; border-color: #5A3636; color: #E8C4C4; }
+  .surge b { color: var(--neg); font-weight: 800; }
+
+  .todo { display: flex; gap: 11px; align-items: flex-start; padding: 10px 0;
+    border-bottom: 1px solid var(--border); cursor: pointer; }
+  .todo:last-child { border-bottom: none; }
+  .todo:hover { background: var(--summary-bg); }
+  .todo-rank { width: 22px; height: 22px; border-radius: 50%; background: var(--neg); color: #fff;
+    font-size: 11.5px; font-weight: 800; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 2px; }
+  .todo-body { flex: 1; min-width: 0; }
+  .todo-label { font-size: 14px; font-weight: 700; color: var(--article-title); line-height: 1.45; }
+  .todo-meta { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 5px; font-size: 11.5px; color: var(--muted); }
+  .todo-state { font-weight: 800; padding: 1px 8px; border-radius: 8px; font-size: 11px; }
+  .st-확산중, .st-신규 { background: #FBE4E4; color: #A03D3D; }
+  .st-진행중 { background: #FDF0DC; color: #8A6220; }
+  .st-장기 { background: #E7EEF7; color: #3D5578; }
+  .st-종결 { background: var(--summary-bg); color: var(--muted); }
+  body.dark .st-확산중, body.dark .st-신규 { background: #4A2A2A; color: #E8B4B4; }
+  body.dark .st-진행중 { background: #453619; color: #E5CE9A; }
+  body.dark .st-장기 { background: #26344A; color: #B8CBE6; }
+  .todo-score { margin-left: auto; font-size: 12px; font-weight: 800; color: var(--neg); white-space: nowrap; }
+  .todo-detail { margin-top: 9px; padding-top: 9px; border-top: 1px dashed var(--border); }
+  .todo-arts { display: flex; flex-direction: column; gap: 4px; }
+  .todo-art { font-size: 12.5px; line-height: 1.5; color: var(--summary-text); }
+  .todo-art .d { color: var(--muted2); margin-right: 7px; }
+
+  /* 운영 기록·검수 정확도 — 화면에 근거를 밝힌다 */
+  .trust { display: flex; gap: 9px; flex-wrap: wrap; margin-top: 12px; }
+  .trust-item { background: var(--summary-bg); border: 1px solid var(--border); border-radius: 9px;
+    padding: 6px 12px; font-size: 11.5px; color: var(--summary-text); }
+  .trust-item b { color: var(--stat-value); font-weight: 800; }
+
   /* 주목 이슈 — 같은 사건을 여러 매체가 보도한 것을 하나로 묶어 보여준다 */
   .issues-head { display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap; margin-bottom: 10px; }
   .issues-note { font-size: 12.5px; color: var(--muted); }
@@ -288,6 +330,17 @@
     </div>
   </div>
 
+  <div class="today" id="todayCard" style="display:none;">
+    <div class="today-head">
+      <span class="today-title">오늘 확인할 것</span>
+      <span class="today-sub">부정 보도를 사건 단위로 묶어 우선순위를 매겼습니다</span>
+      <span class="today-time" id="todayTime"></span>
+    </div>
+    <div id="surgeBox"></div>
+    <div id="todoList"></div>
+    <div class="trust" id="trustBox"></div>
+  </div>
+
   <div class="ai-brief" id="aiBrief">
     <div class="ai-brief-head">
       <span class="ai-badge">AI 브리핑</span>
@@ -372,6 +425,9 @@ let KWNOTES = {};  // 키워드별 해설. 없으면 상세 패널에서 해설�
 let ISSUES = {};   // 사건 단위로 묶은 부정 이슈. 없으면 이슈 카드가 통째로 숨는다.
 let LIVE_META = null;  // 자동 수집분의 갱신 시각 등. 화면에 사실 그대로 표시하려고 들고 있는다.
 let catScope = "all";  // 분야 도넛을 전체로 볼지 검증본만 볼지
+let TODAY = {};    // 오늘 확인할 것. 없으면 카드가 통째로 숨는다.
+let OPS = {};      // 자동 수집 운영 기록
+let QUALITY = {};  // 사람이 검수한 정확도
 let period = "all";
 let customFrom = "", customTo = "";
 let filter = "all";
@@ -443,6 +499,75 @@ function markupBrief(s) {
   return esc
     .replace(/\[\[b\]\]/g, "<b>").replace(/\[\[\/b\]\]/g, "</b>")
     .replace(/\[\[w\]\]/g, '<span class="warn">').replace(/\[\[\/w\]\]/g, "</span>");
+}
+
+// ── 오늘 확인할 것 ───────────────────────────────────────────
+// 점수와 상태는 수집 단계에서 계산해 둔 것을 그대로 쓴다. 화면은 그리기만 한다.
+let openTodo = null;
+
+function renderToday() {
+  const card = document.getElementById("todayCard");
+  const items = (TODAY.items || []);
+  if (!items.length) { card.style.display = "none"; return; }
+  card.style.display = "";
+
+  document.getElementById("todayTime").textContent =
+    TODAY.updated ? TODAY.updated + " 기준" : "";
+
+  // 분야별 급증 — 개별 기사로는 안 보이는 흐름을 짚어 준다
+  const surge = TODAY.surge || [];
+  document.getElementById("surgeBox").innerHTML = surge.length
+    ? surge.map(s => `<div class="surge"><b>${CAT_LABEL[s.cat] || s.cat}</b> 분야 부정 보도가
+        최근 ${s.days}일 <b>${s.recent}건</b>으로, 그 이전 평소치의 <b>${s.ratio}배</b>입니다.
+        이 분야를 먼저 살펴보시기 바랍니다.</div>`).join("")
+    : "";
+
+  document.getElementById("todoList").innerHTML = items.map((it, i) => `
+    <div class="todo" data-i="${i}">
+      <div class="todo-rank">${i + 1}</div>
+      <div class="todo-body">
+        <div class="todo-label">${it.label}</div>
+        <div class="todo-meta">
+          <span class="todo-state st-${(it.state || "").replace(/\s/g, "")}">${it.state}</span>
+          ${it.sources ? `<span>${it.sources}개 매체</span>` : ""}
+          <span>${it.count}건</span>
+          <span>${it.first === it.last ? it.last.replaceAll("-", ".")
+            : it.first.replaceAll("-", ".") + "~" + it.last.replaceAll("-", ".")}</span>
+          <span>${CAT_LABEL[it.cat] || it.cat}</span>
+        </div>
+      </div>
+      <div class="todo-score">${it.score}점</div>
+    </div>`).join("");
+
+  // 근거를 화면에 밝힌다. 말로만 "매일 돈다"고 하지 않는다.
+  const t = [];
+  if (OPS.days) {
+    t.push(`<span class="trust-item">자동 수집 <b>${OPS.days}일 연속</b> · 정기 실행 ${OPS.runs}회 · 실패 <b>${OPS.failures}회</b></span>`);
+  }
+  if (QUALITY.checked) {
+    t.push(`<span class="trust-item">사람이 검수한 표본 <b>${QUALITY.checked}건</b>`
+      + (QUALITY.cat_acc ? ` · 분야 정확도 <b>${QUALITY.cat_acc}%</b>` : "")
+      + (QUALITY.senti_acc ? ` · 긍부정 정확도 <b>${QUALITY.senti_acc}%</b>` : "") + `</span>`);
+  }
+  document.getElementById("trustBox").innerHTML = t.join("");
+}
+
+function toggleTodo(idx) {
+  const items = TODAY.items || [];
+  const it = items[idx];
+  if (!it) return;
+  document.querySelectorAll("#todoList .todo-detail").forEach(d => d.remove());
+  if (openTodo === idx) { openTodo = null; return; }
+  openTodo = idx;
+
+  const arts = NEWS.filter(n => it.titles.includes(n.title))
+    .sort((a, b) => b.date.localeCompare(a.date));
+  const el = document.querySelector(`#todoList .todo[data-i="${idx}"] .todo-body`);
+  el.insertAdjacentHTML("beforeend", `
+    <div class="todo-detail"><div class="todo-arts">${arts.map(n =>
+      `<div class="todo-art"><span class="d">${n.date.replaceAll("-", ".")}</span>` +
+      `<a href="${articleLink(n)}" target="_blank" rel="noopener">${n.title}</a>` +
+      `${n.source ? ` <span class="d">${n.source}</span>` : ""}</div>`).join("")}</div></div>`);
 }
 
 // ── 키워드 상세 ─────────────────────────────────────────────
@@ -759,6 +884,7 @@ function updateDashboard() {
     options: { maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true }, x: { ticks: { font: { weight: 600 } } } } }
   });
 
+  renderToday();
   renderIssues();
   visibleCount = PAGE_SIZE;
   renderList();
@@ -822,6 +948,12 @@ document.getElementById("catScope").addEventListener("click", e => {
   updateDashboard();
 });
 
+document.getElementById("todoList").addEventListener("click", e => {
+  const row = e.target.closest(".todo");
+  if (!row || e.target.closest("a")) return;
+  toggleTodo(Number(row.dataset.i));
+});
+
 document.getElementById("issueList").addEventListener("click", e => {
   const card = e.target.closest(".issue");
   if (!card || e.target.closest("a")) return;
@@ -878,6 +1010,9 @@ async function init() {
       if (live.briefs) BRIEFS = live.briefs;
       if (live.keyword_notes) KWNOTES = live.keyword_notes;
       if (live.issues) ISSUES = live.issues;
+      if (live.today) TODAY = live.today;
+      if (live.ops) OPS = live.ops;
+      if (live.quality) QUALITY = live.quality;
       LIVE_META = live;
       document.getElementById("srcData").innerHTML =
         `데이터 출처 <b>빅카인즈 검증본 ${verified.toLocaleString()}건</b>`
