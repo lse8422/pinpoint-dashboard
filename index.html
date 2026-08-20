@@ -112,6 +112,14 @@
   .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
   .card h3 { font-size: 15px; color: var(--article-title); margin-bottom: 10px; font-weight: 600; }
   .chart-box { position: relative; height: 180px; }
+  /* 두 출처를 섞어 보여주지 않기 위한 안내와 전환 버튼 */
+  .chart-note { margin-top: 9px; font-size: 11.5px; line-height: 1.5; color: var(--muted); }
+  .chart-head { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+  .scope { margin-left: auto; display: flex; gap: 4px; }
+  .scope-btn { font-size: 11px; padding: 3px 9px; border-radius: 10px; cursor: pointer;
+    border: 1px solid var(--border); background: none; color: var(--muted); font-weight: 600; }
+  .scope-btn:hover { background: var(--summary-bg); }
+  .scope-btn.on { background: var(--chip-active-bg); color: #fff; border-color: var(--chip-active-bg); }
 
   .keywords { margin-bottom: 16px; }
   .kw-list { display: flex; gap: 8px; flex-wrap: wrap; }
@@ -298,8 +306,22 @@
   </div>
 
   <div class="charts">
-    <div class="card"><h3 id="dailyTitle">기사량 추이</h3><div class="chart-box"><canvas id="chDaily"></canvas></div></div>
-    <div class="card"><h3>분야별 비중</h3><div class="chart-box"><canvas id="chCat"></canvas></div></div>
+    <div class="card">
+      <h3 id="dailyTitle">기사량 추이</h3>
+      <div class="chart-box"><canvas id="chDaily"></canvas></div>
+      <div class="chart-note" id="dailyNote" style="display:none;"></div>
+    </div>
+    <div class="card">
+      <div class="chart-head">
+        <h3 style="margin:0;">분야별 비중</h3>
+        <div class="scope" id="catScope">
+          <button class="scope-btn on" data-s="all">전체</button>
+          <button class="scope-btn" data-s="검증본">검증본만</button>
+        </div>
+      </div>
+      <div class="chart-box"><canvas id="chCat"></canvas></div>
+      <div class="chart-note" id="catNote" style="display:none;"></div>
+    </div>
     <div class="card"><h3>긍정 · 중립 · 부정</h3><div class="chart-box"><canvas id="chSenti"></canvas></div></div>
   </div>
 
@@ -349,6 +371,7 @@ let BRIEFS = {};   // AI가 미리 써 둔 기간별 브리핑 문장. 없으면
 let KWNOTES = {};  // 키워드별 해설. 없으면 상세 패널에서 해설만 빠진다.
 let ISSUES = {};   // 사건 단위로 묶은 부정 이슈. 없으면 이슈 카드가 통째로 숨는다.
 let LIVE_META = null;  // 자동 수집분의 갱신 시각 등. 화면에 사실 그대로 표시하려고 들고 있는다.
+let catScope = "all";  // 분야 도넛을 전체로 볼지 검증본만 볼지
 let period = "all";
 let customFrom = "", customTo = "";
 let filter = "all";
@@ -661,34 +684,65 @@ function updateDashboard() {
   renderBrief(data, total, negCount, topCat, kwSorted);
 
   const byWeek = period === "all";
-  const bucket = {}, negBucket = {};
+  const bucket = {}, negBucket = {}, verBucket = {}, liveBucket = {};
   data.forEach(n => {
     const key = byWeek ? weekStart(n.date) : n.date;
     bucket[key] = (bucket[key] || 0) + 1;
     negBucket[key] = (negBucket[key] || 0) + (n.senti === "부정" ? 1 : 0);
+    if (n.src === "자동수집") liveBucket[key] = (liveBucket[key] || 0) + 1;
+    else verBucket[key] = (verBucket[key] || 0) + 1;
   });
   const keys = Object.keys(bucket).sort();
+  const hasLive = Object.keys(liveBucket).length > 0;
+  const hasVer = Object.keys(verBucket).length > 0;
   document.getElementById("dailyTitle").textContent = byWeek ? "주별 기사량 추이" : "일별 기사량 추이";
+
+  // 두 출처가 섞인 구간이 있으면 그 사실을 차트 밑에 밝힌다.
+  const noteEl = document.getElementById("dailyNote");
+  if (hasLive && hasVer) {
+    noteEl.style.display = "";
+    noteEl.textContent = "검증본(빅카인즈)과 자동수집(구글 뉴스 RSS)은 수집 범위가 다릅니다. "
+      + "경계 이후 기사량이 늘어난 것은 실제 보도 증가가 아니라 수집 범위 차이입니다.";
+  } else {
+    noteEl.style.display = "none";
+  }
 
   const lineBlue = isDark() ? "#6e9c74" : "#4d7045";
   const lineBlueBg = isDark() ? "rgba(137,158,140,.15)" : "rgba(77,112,69,.12)";
+  const liveLine = isDark() ? "#C9A227" : "#B08A1E";
 
   drawChart("chDaily", {
     type: "line",
     data: { labels: keys.map(k => byWeek ? md(k) + "~" : md(k)),
       datasets: [
-        { label: "전체", data: keys.map(k => bucket[k]), borderColor: lineBlue, backgroundColor: lineBlueBg, fill: true, tension: .35, pointRadius: 3 },
+        { label: hasLive && hasVer ? "검증본" : "전체", data: keys.map(k => verBucket[k] ?? null), borderColor: lineBlue, backgroundColor: lineBlueBg, fill: true, tension: .35, pointRadius: 3, spanGaps: false },
+        ...(hasLive && hasVer ? [{ label: "자동수집", data: keys.map(k => liveBucket[k] ?? null), borderColor: liveLine, backgroundColor: isDark() ? "rgba(201,162,39,.15)" : "rgba(176,138,30,.12)", fill: true, tension: .35, pointRadius: 3, spanGaps: false, borderDash: [5, 3] }] : []),
         { label: "부정", data: keys.map(k => negBucket[k]), borderColor: isDark() ? "#A85F5F" : "#C26060", backgroundColor: isDark() ? "rgba(168,95,95,.22)" : "rgba(194,96,96,.17)", fill: true, tension: .35, pointRadius: 3 }
       ] },
     options: { maintainAspectRatio: false, plugins: { legend: { display: true, position: "top", labels: { boxWidth: 24, font: { size: 11 } } } }, scales: { y: { beginAtZero: true } } }
   });
 
+  // 분야 비중은 두 출처의 구성이 크게 달라 섞으면 해석이 어렵다.
+  // 기본은 전체를 보여주되, 검증본만 따로 볼 수 있게 한다.
+  const catSrc = catScope === "all" ? data : data.filter(n => n.src !== "자동수집");
+  const catCount2 = {};
+  catSrc.forEach(n => catCount2[n.cat] = (catCount2[n.cat] || 0) + 1);
+  const catNoteEl = document.getElementById("catNote");
+  if (hasLive && hasVer) {
+    catNoteEl.style.display = "";
+    catNoteEl.textContent = catScope === "all"
+      ? `검증본 ${data.filter(n => n.src !== "자동수집").length.toLocaleString()}건 + 자동수집 ${data.filter(n => n.src === "자동수집").length.toLocaleString()}건을 합친 비중입니다. 두 출처는 수집 범위가 달라 분야 구성이 다릅니다.`
+      : `빅카인즈 검증본 ${catSrc.length.toLocaleString()}건만 집계한 비중입니다.`;
+  } else {
+    catNoteEl.style.display = "none";
+  }
+
   const CAT_ORDER = ["산업경제","문화관광","행정","안전","복지","교통","환경"];
-  const catKeys = CAT_ORDER.filter(c => catCount[c] !== undefined);
+  const catKeys = CAT_ORDER.filter(c => catCount2[c] !== undefined);
   drawChart("chCat", {
     type: "doughnut",
     data: { labels: catKeys.map(c => CAT_LABEL[c]),
-      datasets: [{ data: catKeys.map(c => catCount[c]), backgroundColor: catKeys.map(c => isDark() ? (CAT_COLORS_DARK[c] || "#69926E") : (CAT_COLORS_LIGHT[c] || "#4d7045")), borderColor: isDark() ? "#262626" : "#ffffff", borderWidth: 3 }] },
+      datasets: [{ data: catKeys.map(c => catCount2[c]), backgroundColor: catKeys.map(c => isDark() ? (CAT_COLORS_DARK[c] || "#69926E") : (CAT_COLORS_LIGHT[c] || "#4d7045")), borderColor: isDark() ? "#262626" : "#ffffff", borderWidth: 3 }] },
     options: { maintainAspectRatio: false, plugins: { legend: { position: "right", labels: { boxWidth: 11, font: { size: 11.5 } } } } }
   });
 
@@ -760,6 +814,14 @@ document.querySelectorAll(".cat-chip").forEach(c => c.addEventListener("click", 
 document.getElementById("search").addEventListener("input", () => { visibleCount = PAGE_SIZE; renderList(); });
 document.getElementById("moreBtn").addEventListener("click", () => { visibleCount += PAGE_SIZE; renderList(); });
 
+document.getElementById("catScope").addEventListener("click", e => {
+  const btn = e.target.closest(".scope-btn");
+  if (!btn) return;
+  catScope = btn.dataset.s;
+  document.querySelectorAll("#catScope .scope-btn").forEach(b => b.classList.toggle("on", b === btn));
+  updateDashboard();
+});
+
 document.getElementById("issueList").addEventListener("click", e => {
   const card = e.target.closest(".issue");
   if (!card || e.target.closest("a")) return;
@@ -805,9 +867,13 @@ async function init() {
     NEWS = await res.json();
     if (!Array.isArray(NEWS) || NEWS.length === 0) throw new Error("빈 데이터");
 
+    // 검증본과 자동수집분은 수집 방식이 다른 별개의 집단이다.
+    // 섞어서 한 덩어리로 보여주면 8월 이후 기사량이 뛴 것이 실제 이슈처럼 보인다.
+    NEWS.forEach(n => n.src = "검증본");
     const verified = NEWS.length;
     const live = await loadLive();
     if (live) {
+      live.items.forEach(n => n.src = "자동수집");
       NEWS = NEWS.concat(live.items);
       if (live.briefs) BRIEFS = live.briefs;
       if (live.keyword_notes) KWNOTES = live.keyword_notes;

@@ -87,6 +87,23 @@ POS_WORDS = ["개통", "준공", "완공", "유치", "선정", "수상", "우수
              "표창", "인증", "달성", "혁신", "활성화", "무료", "장학", "기부", "감사패"]
 
 
+def parse_pubdate(pub):
+    """RSS 날짜를 읽는다. 어느 형식으로도 못 읽으면 None을 돌려 그 기사를 버리게 한다."""
+    pub = (pub or "").strip()
+    if not pub:
+        return None
+    for fmt in ("%a, %d %b %Y %H:%M:%S %Z", "%a, %d %b %Y %H:%M:%S %z",
+                "%d %b %Y %H:%M:%S %Z", "%Y-%m-%dT%H:%M:%S%z"):
+        try:
+            dt = datetime.strptime(pub, fmt)
+        except ValueError:
+            continue
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.astimezone(KST).strftime("%Y-%m-%d")
+    return None
+
+
 def fetch_rss(query, days):
     """구글 뉴스 RSS에서 최근 기사 목록을 가져온다. API 키가 필요 없다."""
     q = urllib.parse.quote("%s when:%dd" % (query, days))
@@ -96,6 +113,7 @@ def fetch_rss(query, days):
         root = ET.fromstring(res.read())
 
     items = []
+    skipped = 0
     for it in root.findall(".//item"):
         title = (it.findtext("title") or "").strip()
         source = (it.findtext("source") or "").strip()
@@ -103,12 +121,12 @@ def fetch_rss(query, days):
         if source and title.endswith(" - " + source):
             title = title[: -len(" - " + source)].strip()
 
-        pub = it.findtext("pubDate") or ""
-        try:
-            dt = datetime.strptime(pub, "%a, %d %b %Y %H:%M:%S %Z").replace(tzinfo=timezone.utc)
-            date = dt.astimezone(KST).strftime("%Y-%m-%d")
-        except ValueError:
-            date = datetime.now(KST).strftime("%Y-%m-%d")
+        # 날짜를 못 읽으면 오늘 날짜로 채우지 않는다.
+        # 틀린 날짜가 들어가면 추이 차트가 조용히 왜곡된다. 그럴 바엔 그 기사를 버린다.
+        date = parse_pubdate(it.findtext("pubDate") or "")
+        if not date:
+            skipped += 1
+            continue
 
         if title:
             items.append({
@@ -117,6 +135,8 @@ def fetch_rss(query, days):
                 "url": (it.findtext("link") or "").strip(),
                 "source": source,
             })
+    if skipped:
+        print("    날짜를 읽지 못해 %d건 제외" % skipped)
     return items
 
 
@@ -164,7 +184,12 @@ def classify_by_rule(title):
         if len(kw) == 3:
             break
 
-    return {"cat": best, "senti": senti, "summary": "", "kw": kw}
+    out = {"cat": best, "senti": senti, "summary": "", "kw": kw}
+    # 키워드가 하나도 안 맞았는데 "행정"이라고 단정하면 근거 없는 라벨이 된다.
+    # 분야 7종은 고정이라 값은 그대로 두되, 근거가 없다는 사실을 함께 남긴다.
+    if best_hit == 0:
+        out["conf"] = "low"
+    return out
 
 
 def call_claude(api_key, articles):
@@ -233,7 +258,9 @@ def brief_facts(rows, label):
         "최다분야": "%s %d건" % top_cat if top_cat else None,
         "핵심키워드": top_kw[0] if top_kw else None,
         "부정최다분야": "%s %d건" % top_negcat if top_negcat else None,
-        "부정집중일": "%s %d건" % peak if peak and peak[1] >= 2 else None,
+        # 2건은 같은 사건을 두 매체가 쓴 것일 수 있어 "집중"이라 부르기 어렵다.
+        # 3건 이상일 때만 넘기고, 표현도 사실 그대로 "가장 많았던 날"로 둔다.
+        "부정최다일": "%s %d건" % peak if peak and peak[1] >= 3 else None,
     }
 
 
@@ -626,6 +653,18 @@ def main():
         "count": len(live),
         "items": live,
     }
+    # 무엇을 걸러냈는지 남긴다. 로그만 있으면 나중에 무엇을 놓쳤는지 확인할 수 없다.
+    if dropped:
+        out["dropped"] = {
+            "count": len(dropped),
+            "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
+            "samples": dropped[:20],
+        }
+    low = sum(1 for a in added if a.get("conf") == "low")
+    if low:
+        out["low_confidence"] = low
+        print("근거 키워드 없이 기본 분야로 처리된 기사 %d건" % low)
+
     if briefs:
         out["briefs"] = briefs
         if briefs_at:
