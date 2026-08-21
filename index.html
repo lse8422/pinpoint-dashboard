@@ -114,6 +114,14 @@
   .chart-box { position: relative; height: 180px; }
   /* 두 출처를 섞어 보여주지 않기 위한 안내와 전환 버튼 */
   .chart-note { margin-top: 9px; font-size: 11.5px; line-height: 1.5; color: var(--muted); }
+  /* 그래프를 보면서 바로 분야를 고를 수 있어야 한다.
+     맨 아래 필터까지 내려갔다 올라오는 왕복을 없앤다. */
+  .cat-pick { display: flex; gap: 5px; flex-wrap: wrap; margin-top: 11px; }
+  .cat-pick span { font-size: 11.5px; font-weight: 600; padding: 4px 10px; border-radius: 13px;
+    cursor: pointer; background: var(--cat-bg); color: var(--cat-color); }
+  .cat-pick span:hover { filter: brightness(.96); }
+  .cat-pick span.on { background: var(--chip-active-bg); color: #fff; }
+  @media (max-width: 640px) { .cat-pick span { padding: 8px 13px; font-size: 12.5px; } }
   .src-user { opacity: .92; }
   /* 출근길에 휴대폰으로 3건만 보는 화면으로 넘어가는 링크 */
   .simple-link { font-size: 12.5px; font-weight: 600; color: var(--chip-text);
@@ -447,7 +455,8 @@
       </div>
       <div class="chart-box"><canvas id="chCat"></canvas></div>
       <div class="chart-note" id="catNote" style="display:none;"></div>
-      <div class="chart-note" id="catHint">분야를 누르면 긍정·부정 비율과 추이를 볼 수 있습니다.</div>
+      <div class="cat-pick" id="catPick"></div>
+    <div class="chart-note" id="catHint">분야를 누르면 그 분야의 긍정·부정 비율과 추이가 아래에 열리고, 기사 목록도 함께 걸립니다.</div>
     </div>
     <div class="card"><h3>긍정 · 중립 · 부정</h3><div class="chart-box"><canvas id="chSenti"></canvas></div></div>
   </div>
@@ -842,7 +851,7 @@ function openCategory(cat) {
                  y: { stacked: true, beginAtZero: true, ticks: { precision: 0 } } }
     }
   });
-  document.getElementById("catPanelCard").scrollIntoView({ behavior: "smooth", block: "nearest" });
+  document.getElementById("catPanelCard").scrollIntoView({ behavior: "smooth", block: "center" });
 }
 
 // ── 관심 부서·기관·사업 ─────────────────────────────────────
@@ -1350,7 +1359,7 @@ function updateDashboard() {
     options: {
       maintainAspectRatio: false,
       plugins: { legend: { position: "right", labels: { boxWidth: 11, font: { size: 11.5 } } } },
-      onClick: (e, els) => { if (els.length) openCategory(catKeys[els[0].index]); },
+      onClick: (e, els) => { if (els.length) setCategory(catKeys[els[0].index]); },
       onHover: (e, els) => { e.native.target.style.cursor = els.length ? "pointer" : "default"; }
     }
   });
@@ -1370,6 +1379,7 @@ function updateDashboard() {
 
   renderToday();
   renderIssues();
+  renderCatPick();
   // 기간이 바뀌면 관심 목록 건수와 열려 있는 패널도 다시 센다
   if (WATCH.length || openWatch) {
     if (openWatch) { const w = openWatch; openWatch = null; openWatchTerm(w); }
@@ -1420,16 +1430,32 @@ function initFlatpickr(minDate, maxDate) {
   fpFrom = flatpickr("#dateFrom", { ...opts, onChange: ([d]) => { customFrom = d ? d.toISOString().slice(0,10) : ""; updateDashboard(); } });
   fpTo   = flatpickr("#dateTo",   { ...opts, onChange: ([d]) => { customTo   = d ? d.toISOString().slice(0,10) : ""; updateDashboard(); } });
 }
-document.querySelectorAll(".cat-chip").forEach(c => c.addEventListener("click", () => {
-  document.querySelectorAll(".cat-chip").forEach(x => x.classList.remove("active"));
-  c.classList.add("active");
-  filter = c.dataset.f;
+// 그래프 쪽과 목록 쪽 두 군데서 분야를 고를 수 있다.
+// 어느 쪽을 눌러도 같은 결과가 되도록 한 함수로 모은다.
+function setCategory(f, opts) {
+  filter = f;
+  document.querySelectorAll(".cat-chip").forEach(x => x.classList.toggle("active", x.dataset.f === f));
+  document.querySelectorAll("#catPick span").forEach(x => x.classList.toggle("on", x.dataset.f === f));
   visibleCount = PAGE_SIZE;
   renderList();
-  // 분야를 고르면 그 분야의 긍정·부정 비율도 함께 열어 준다
-  const f = c.dataset.f;
   if (f === "all" || f === "부정") closeCatPanel();
-  else if (openCat !== f) openCategory(f);
+  else if (openCat !== f) openCategory(f, opts);
+}
+
+// 그래프 카드 안의 분야 줄을 그린다
+function renderCatPick() {
+  const box = document.getElementById("catPick");
+  if (!box) return;
+  const list = [["all", "전체"]].concat(
+    ["교통", "환경", "행정", "문화관광", "산업경제", "안전", "복지"].map(c => [c, CAT_LABEL[c] || c]));
+  box.innerHTML = list.map(([f, t]) =>
+    `<span data-f="${f}"${filter === f ? ' class="on"' : ""}>${t}</span>`).join("");
+  box.querySelectorAll("span").forEach(el =>
+    el.addEventListener("click", () => setCategory(el.dataset.f)));
+}
+
+document.querySelectorAll(".cat-chip").forEach(c => c.addEventListener("click", () => {
+  setCategory(c.dataset.f);
 }));
 document.getElementById("search").addEventListener("input", () => { visibleCount = PAGE_SIZE; renderList(); });
 document.getElementById("moreBtn").addEventListener("click", () => { visibleCount += PAGE_SIZE; renderList(); });

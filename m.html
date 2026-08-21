@@ -65,6 +65,32 @@
     text-decoration: none; font-size: 14.5px; font-weight: 700; padding: 15px;
     border-radius: 12px; margin-top: 6px; }
   .empty { text-align: center; color: var(--muted); font-size: 14px; padding: 26px 0; }
+
+  /* 차트 라이브러리를 쓰지 않는다. 간편 화면은 파일 하나만 받고 빨리 떠야 한다. */
+  .mini { background: var(--surface); border: 1px solid var(--border);
+    border-radius: 13px; padding: 14px 15px 12px; margin-bottom: 11px; }
+  .mini h3 { font-size: 13.5px; color: var(--title); margin-bottom: 2px; }
+  .mini .cap { font-size: 11.5px; color: var(--muted2); margin-bottom: 11px; }
+
+  .spark { display: flex; align-items: flex-end; gap: 3px; height: 62px; }
+  .spark .col { flex: 1; display: flex; flex-direction: column; justify-content: flex-end;
+    height: 100%; position: relative; }
+  .spark .bar { width: 100%; border-radius: 3px 3px 0 0; background: var(--neg); min-height: 2px; }
+  .spark .bar.zero { background: var(--border); height: 2px; }
+  .spark .n { font-size: 9.5px; color: var(--neg); font-weight: 700; text-align: center;
+    margin-bottom: 2px; height: 12px; }
+  .sparkx { display: flex; gap: 3px; margin-top: 5px; }
+  .sparkx span { flex: 1; font-size: 9px; color: var(--muted2); text-align: center; }
+
+  .hbar { margin-bottom: 9px; }
+  .hbar:last-child { margin-bottom: 0; }
+  .hbar .t { display: flex; align-items: baseline; gap: 6px; font-size: 12.5px; margin-bottom: 4px; }
+  .hbar .t b { color: var(--neg); font-size: 13.5px; }
+  .hbar .t .c { color: var(--muted2); font-size: 11px; margin-left: auto; }
+  .hbar .track { height: 8px; background: var(--bg); border-radius: 5px; overflow: hidden; }
+  .hbar .fill { height: 100%; background: var(--neg); border-radius: 5px; }
+  .hbar.low .t b, .hbar.low .fill { color: var(--green); background: var(--green); }
+  .hbar.low .t b { background: none; }
 </style>
 </head>
 <body>
@@ -78,6 +104,19 @@
   <div id="surge"></div>
   <h2><span class="n">우선 확인</span> 부정 보도를 사건 단위로 묶어 순서를 매겼습니다</h2>
   <div id="list"><div class="empty">불러오는 중…</div></div>
+
+  <div class="mini" id="sparkBox" style="display:none;">
+    <h3>최근 2주 부정 보도</h3>
+    <div class="cap">막대가 높은 날에 무슨 일이 있었는지 보시면 됩니다</div>
+    <div class="spark" id="spark"></div>
+    <div class="sparkx" id="sparkx"></div>
+  </div>
+
+  <div class="mini" id="catBox" style="display:none;">
+    <h3>분야별 부정 비율</h3>
+    <div class="cap" id="catCap"></div>
+    <div id="catBars"></div>
+  </div>
 
   <div id="recentBox" style="display:none;">
     <h2><span class="n">최근 부정 보도</span> 위 3건 외</h2>
@@ -165,6 +204,58 @@ function render(d) {
       box.style.display = open ? "none" : "";
       this.textContent = open ? `펼쳐 보기 (${rest.length}건)` : "접기";
     });
+  }
+
+  // 최근 2주 부정 보도 — 날짜가 빈 날도 자리를 지켜야 흐름이 왜곡되지 않는다
+  const days = [];
+  const base = (d.updated || "").slice(0, 10) || new Date().toISOString().slice(0, 10);
+  const cur = new Date(base + "T00:00:00");
+  cur.setDate(cur.getDate() - 13);
+  for (let i = 0; i < 14; i++) {
+    const k = cur.getFullYear() + "-" + String(cur.getMonth() + 1).padStart(2, "0")
+      + "-" + String(cur.getDate()).padStart(2, "0");
+    days.push(k);
+    cur.setDate(cur.getDate() + 1);
+  }
+  const negBy = {};
+  (d.items || []).forEach(a => {
+    if (a.senti === "부정") negBy[a.date] = (negBy[a.date] || 0) + 1;
+  });
+  const vals = days.map(k => negBy[k] || 0);
+  const max = Math.max(1, ...vals);
+  if (vals.some(v => v > 0)) {
+    document.getElementById("sparkBox").style.display = "";
+    document.getElementById("spark").innerHTML = days.map((k, i) => {
+      const v = vals[i];
+      const h = v ? Math.max(6, Math.round(v / max * 100)) : 0;
+      return `<div class="col"><div class="n">${v || ""}</div>` +
+        `<div class="bar${v ? "" : " zero"}" style="height:${h}%"></div></div>`;
+    }).join("");
+    document.getElementById("sparkx").innerHTML = days.map((k, i) =>
+      `<span>${i % 3 === 0 ? k.slice(5).replace("-", ".") : ""}</span>`).join("");
+  }
+
+  // 분야별 부정 비율 — 어느 분야를 먼저 봐야 하는지
+  const CATS = ["교통", "환경", "행정", "문화관광", "산업경제", "안전", "복지"];
+  const tot = {}, neg = {};
+  (d.items || []).forEach(a => {
+    tot[a.cat] = (tot[a.cat] || 0) + 1;
+    if (a.senti === "부정") neg[a.cat] = (neg[a.cat] || 0) + 1;
+  });
+  const all = (d.items || []).length;
+  const avg = all ? Math.round((d.items || []).filter(a => a.senti === "부정").length / all * 100) : 0;
+  const rows = CATS.filter(c => (tot[c] || 0) >= 5)
+    .map(c => ({ c, pct: Math.round((neg[c] || 0) / tot[c] * 100), n: neg[c] || 0, t: tot[c] }))
+    .sort((a, b) => b.pct - a.pct).slice(0, 4);
+  if (rows.length) {
+    document.getElementById("catBox").style.display = "";
+    document.getElementById("catCap").textContent = "자동 수집분 기준 · 전체 평균 " + avg + "%";
+    document.getElementById("catBars").innerHTML = rows.map(r =>
+      `<div class="hbar${r.pct <= avg ? " low" : ""}">
+        <div class="t">${esc(CAT[r.c] || r.c)} <b>${r.pct}%</b>
+          <span class="c">${r.n}건 / ${r.t}건</span></div>
+        <div class="track"><div class="fill" style="width:${Math.max(3, r.pct)}%"></div></div>
+      </div>`).join("");
   }
 
   // 근거 — 말로만 "매일 돈다"고 하지 않는다
