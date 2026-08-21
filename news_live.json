@@ -1,8 +1,8 @@
 {
-  "updated": "2026-08-21 06:57",
+  "updated": "2026-08-22 06:55",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 570,
+  "count": 665,
   "items": [
     {
       "date": "2026-08-02",
@@ -7983,26 +7983,1374 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE52OGE1ZnU1OTFYTWhVaUN0M3owbFZ6d2hpb2xWbEZoUW5faTVVN0dMcm9nX2lsXzkwMElqVDdDMW8ydmxRSmNPbW1LZGM3SVlpeFU4TUJSdUE5NzduZEVOOTA1cTRFZVFrZ2JScEZPRdIBb0FVX3lxTE52OGE1ZnU1OTFYTWhVaUN0M3owbFZ6d2hpb2xWbEZoUW5faTVVN0dMcm9nX2lsXzkwMElqVDdDMW8ydmxRSmNPbW1LZGM3SVlpeFU4TUJSdUE5NzduZEVOOTA1cTRFZVFrZ2JScEZPRQ?oc=5",
       "source": "한스경제"
+    },
+    {
+      "date": "2026-08-20",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "\"기다리던 복지 끝\" 화성시, '찾아가는 밀착 복지' 본격 가동",
+      "summary": "화성시가 찾아가는 밀착 복지 서비스를 본격적으로 시작한다.",
+      "kw": [
+        "찾아가는복지",
+        "밀착서비스",
+        "생활복지"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9rNVRFQVZja1Y5bmRGQjJISDRra3JrVUt0MEpVTEpKdGh0Q2tFZHRHa3VQWTg3OTU3T2lnbk9PRWJaQkdHNEVQVzc3Rjl3LUY2MWtBcnEtOEw3VFoxVXRRV2RsMUNuaDVqMXJ0b181ZS0?oc=5",
+      "source": "인천일보"
+    },
+    {
+      "date": "2026-08-20",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시 ‘2026 리틀리그 인터미디어트 월드시리즈’ 우승 화성지역 소속 지도자와 선수 격려",
+      "summary": "화성지역 소속 리틀리그 지도자와 선수들이 2026 월드시리즈 우승을 달성해 격려를 받았다.",
+      "kw": [
+        "리틀리그",
+        "우승",
+        "청소년스포츠"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBxQ2J3T2w3RXYzaU42WFpuRF8tYzR2OEpwRzc4UDlkX0p0RTNkODdaVWdTbTlEX2pkVEZvRTB2RmRpdVgtdkg0QWhkeFRfNU1Mdkdid0lGUkVUNG51TzdDZTJ6emNPLWZNZVl4MkdzaXltbmZ4aVVkaFpn0gF_QVVfeXFMUEI3WjliU3NtWlpITGZ2QTRxMzlyRUFOQ3ZKNUJKU0ZHTGpMbXJfY2VJcExTaXd2X21lOHN2My0zVnBkSnNkU0hIQTBnelFWNld0eFNXaVlCeTdneXFWYlpSWXRNSXhpUUJsbWVabC1VRGRhekhQQUd4QWJxQk44RQ?oc=5",
+      "source": "뉴데일리 경기"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시 가볼만한곳 추천: 인구 100만 특례시 화성 여행 코스부터 지명 유래 및 세테크 혜택 총정리",
+      "summary": "화성시 여행 코스, 지명 유래, 세제 혜택 등 종합 정보 제공",
+      "kw": [
+        "여행코스",
+        "화성시",
+        "관광"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGVFdndUcwSml0LW1rVklmbGFzZWloVGwzbG1oMV9kZ3dYNWJDSVRHam53cElBdjQ3b2NlLXp1NnYwT3NCR1U3bEI0Q29Gbi1Lb3gyamhR?oc=5",
+      "source": "고향사랑기부제 위기브"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시, 시민 복지의 새 기준 세웠다…돌봄·소득·주거 등 6개 분야 공개",
+      "summary": "화성시, 돌봄·소득·주거 등 6개 분야 시민 복지 기준 수립",
+      "kw": [
+        "복지정책",
+        "돌봄",
+        "화성시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1OR1FsSm1CbFVJV0dHSnpJY2dodklCcUhYWFp1TU1hMjF3N0VCM2JLNTZyVUZGdVZmTDJKbXVHWDVFM1R3X0dQemFHX0dOX0NEZGExdVgtSjFxc2haakpWX3Z6SmVMMjh5WVc2SU5kX0FEZm5D0gF0QVVfeXFMTU5HUWxKbUJsVUlXR0dKekljZ2h2SUJxSFhYWnVNTWEyMXc3RUIzYks1NnJVRkZ1VmZMMkptdUdYNUUzVHdfR1B6YUdfR05fQ0RkYTF1WC1KMXFzaFpqSlZfdnpKZUwyOHlZVzZJTmRfQURmbkM?oc=5",
+      "source": "주간한국"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "환경",
+      "senti": "긍정",
+      "title": "화성시, 동탄호수공원에 폐장난감 재활용 놀이터 조성",
+      "summary": "동탄호수공원에 폐장난감 재활용 놀이터 조성",
+      "kw": [
+        "폐기물재활용",
+        "동탄호수공원",
+        "환경"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9nc25zWGw2dTRIcnVhNEZaTEQzRGZEOEdGbmFZYzZPUzV0TkVYNTdxOXo4bUFwNFB0THo4cFlWUUtXdVJacVdxQjBwb1dzMVFOY1BnOHZPMVAyb015Tk5zatIBYEFVX3lxTE9nc25zWGw2dTRIcnVhNEZaTEQzRGZEOEdGbmFZYzZPUzV0TkVYNTdxOXo4bUFwNFB0THo4cFlWUUtXdVJacVdxQjBwb1dzMVFOY1BnOHZPMVAyb015Tk5zag?oc=5",
+      "source": "연합뉴스"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "DL이앤씨, 동탄역 초역세권 어반원 오피스텔로 실수요 정조준",
+      "summary": "DL이앤씨, 동탄역 초역세권 어반원 오피스텔 분양",
+      "kw": [
+        "오피스텔",
+        "동탄역",
+        "부동산"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBjOERWdHpIeWg3RWIxRl84NnFKM1g0b3NOWE9yQTJIRWVkdEZPZkFfSFRmSXB5N2lWdTF2a1Z3Z3dZTnBHNDRtMS1hODE0T2E2Y3pGX3FZYzgwamtkaGRORkZ4aDlkNGYxOW5SYg?oc=5",
+      "source": "뉴스락"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "포티투마루, 화성시 '민원 행정 AI 플랫폼' 구축한다",
+      "summary": "포티투마루, 화성시 민원 행정 AI 플랫폼 구축",
+      "kw": [
+        "AI플랫폼",
+        "민원행정",
+        "화성시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE42b0NDU3U2VTdudkxoU0treDd3b0FRWEdtNXl6N1pRbWlTbV9FclllX3RFeWhrYXZ5NEVrMW1rZ0ljdnhLVHgyYWx5QVFLajRTc2s0TmV1VG1rQXNSX3MwbXkzRkg5Vy1BWlE?oc=5",
+      "source": "AI타임스"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "GTX·SRT 동탄역 도보권”…DL이앤씨, ‘e편한세상 동탄역 어반원’ 분양",
+      "summary": "GTX·SRT 동탄역 도보권 어반원 오피스텔 분양 공고",
+      "kw": [
+        "동탄역",
+        "오피스텔",
+        "교통"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBKY3BtVUQxbjJOc3UzWUM3dkp4UFFzOEljUEZEclJlckdUWkh5cS1FN25lTndJTlpES2JvZ1piTXdGdS1IY1R1MFE4UnZ2R1h6MmRKeFFmNXdISlUwVldhazdfMy0?oc=5",
+      "source": "디지털데일리"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "화성시 동탄역서 음주운전 사고낸 30대 남성 입건",
+      "summary": "동탄역 지역에서 30대 남성 음주운전 사고 적발",
+      "kw": [
+        "음주운전",
+        "교통사고",
+        "안전"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAzZnN3dHFJRk9mcUZZS1FvNnZoaGc4WGhKSUk0NTItZFQzbzRnOHVGSWdCUjQxMUNKVS1xaTBPc2pZLTRwRG5nMkdqWG5VYS1VZzhQOVhBaUdNTXllREkwRzN6MFpfVkd5b0NHa0RLdw?oc=5",
+      "source": "기호일보"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "환경",
+      "senti": "긍정",
+      "title": "화성시, 폐장난감 새활용 '아이마음놀이터' 조성…민관 협력 맞손",
+      "summary": "폐장난감 새활용으로 아이마음놀이터 조성, 민관협력 추진",
+      "kw": [
+        "폐기물재활용",
+        "환경",
+        "협력"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBhNXN1UUc3UkFTZVFncGJ2SGR4V0hzYnBmcmNqZTAzd3hOT2Z5WERaRGRzSGFIUW4yU0Z1Vk1lQ3lxanZLeThDb2hOYzNSQW5CSnE0UmZlNFNFNDdtS1hfQ1A4QWZDYjVh?oc=5",
+      "source": "팍스경제TV"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "GTX-A 연결 확대에 동탄역 생활권 변화…DL이앤씨 역세권 주거 공급",
+      "summary": "GTX-A 연결로 동탄역 생활권 변화, 역세권 주거 공급",
+      "kw": [
+        "GTX",
+        "동탄역",
+        "주거"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iYUhNUkJ6NlVXU2VVZThhZzFLaGpPbzJxSkF5cFZoS1kzbEktdGtHNGpPQmc3SHVPaHUwd3NUdWxnVXIwSmxoZUQ3bXoyejVUMm43elM0eUVKckJnWmNQLTBtbVUwaVRlWGR4Wmt6SzI?oc=5",
+      "source": "Korea IT Times"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "환경",
+      "senti": "긍정",
+      "title": "\"폐장난감에 새 생명\" 화성시, 아이마음놀이터 조성한다",
+      "summary": "화성시, 폐장난감 재활용으로 아이마음놀이터 조성",
+      "kw": [
+        "재활용",
+        "놀이터",
+        "환경"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9YS3BjQ25tOEQ2M2MwaUJYZjA1LUpLNVh2XzVCYUZ1MXdjczU4YTlHeTdMeGRvMzc5WDNhZVpXSFJZUTBXc0dLWnVLcVJYLVhIREw1bTJvT1VvQmUtUlhaWUF1NGRUbFVvT3FsUmNQN2ZjeWt0VkxqZdIBeEFVX3lxTE9YS3BjQ25tOEQ2M2MwaUJYZjA1LUpLNVh2XzVCYUZ1MXdjczU4YTlHeTdMeGRvMzc5WDNhZVpXSFJZUTBXc0dLWnVLcVJYLVhIREw1bTJvT1VvQmUtUlhaWUF1NGRUbFVvT3FsUmNQN2ZjeWt0VkxqZQ?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "포티투마루, 화성시 도시데이터플랫폼 구축 참여",
+      "summary": "포티투마루, 화성시 도시데이터플랫폼 구축 참여",
+      "kw": [
+        "데이터플랫폼",
+        "스마트시티",
+        "화성시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1sU1ZVb01nTHFtM2czYUxKdDdycER2X2U5dzlYTmhCcWxSUUxQdGxBeUU0Vi0tTjVQSXE2ak9zd2J5SVY0STNGRmFsUkdLUnBLMXhPTHJ4dEllY19jS2NucmVB?oc=5",
+      "source": "디지털데일리"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "DL이앤씨, 주거형 오피스텔 ‘e편한세상 동탄역 어반원’ 공급",
+      "summary": "DL이앤씨, 주거형 오피스텔 e편한세상 동탄역 어반원 공급",
+      "kw": [
+        "오피스텔",
+        "동탄역",
+        "주거"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1VOXJiaTVPcVl2bWhZa2FPZkZFaDZJWkZaREd2SmlINVE4clpIY2ltV2tScDViNE0tdDhUWG9ZRnp5N1NSVWJoc2wwQ0pGSXZRMm0wVlVsYjEyQ05JVGR4dw?oc=5",
+      "source": "메트로신문"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "포티투마루, 화성시 ‘AI 도시’ 구축 참여 “사전에 민원 예측”",
+      "summary": "포티투마루, AI 도시 구축으로 민원 사전 예측 기술 구현",
+      "kw": [
+        "AI도시",
+        "민원예측",
+        "화성시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE03QU1ZYVEwY3RHN0pjWVMtbVRpR0NCcTBURzlFQ21DRkdCOXlBV3VpRmR1R3Q3RThHal9KSXJ4RGtuUkJpUW96YURiNnROSnJPaEtYSmdIbnloSXhsMVh3VTEwTkVRY3YtMjNr?oc=5",
+      "source": "더에이아이"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "화성시, 첫 계약재배 벼 베기",
+      "summary": "화성시가 첫 계약재배 벼 수확을 시작했다.",
+      "kw": [
+        "계약재배",
+        "벼",
+        "수확"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1zYTBFb09BUmxhYlQ5RlMydFdPVXYzUVpHM1JPNTdOaWwzelA3VGFoUDk3T1U3Mk94OVQwQWc1YlJ1ZGp1dTctdXNvRmE3SGJTZ3RwbWdBamlIZGJxbXBXa3JTTDRXdFR5MGctbU9n?oc=5",
+      "source": "현대일보"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "GTX 개통 호재…DL이앤씨 ‘e편한세상 동탄역 어반원’ 역세권",
+      "summary": "GTX 개통 호재로 동탄역 오피스텔 분양이 활기를 띤다.",
+      "kw": [
+        "GTX",
+        "동탄역",
+        "오피스텔"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9KVm9oMFdlS1pJTlNNeGowaFlvS2h5UUk1QnZ5emVHcnlOSTNPSlIyNXNnVmdfVEpUejN3QzJTZU9uNVNmVXp4LXJyS2t5UjR2OE1aWFpoSEhjcTM1dHNFZmJEcXRsN2ZLalpKcnl5UERISjd4?oc=5",
+      "source": "파이낸셜포스트"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시, 진안신도시 교통청원 1천명 돌파",
+      "summary": "화성시 진안신도시 교통 개선을 위한 청원이 1천명을 돌파했다.",
+      "kw": [
+        "진안신도시",
+        "교통",
+        "청원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBSMTJ1YWMyclpmRUZDbWJ5SkpmTzFvb0JHSW0ycXJIcVdLckhjOUluVmc0aThUOVhpZWxkSE5kOWtZTGQtMEZLU2ZScGJpblNEdXMxNFE5b1M3SHZ6UDJMWUVtX01sN3BC?oc=5",
+      "source": "OBC 뉴스"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "DL이앤씨,'e편한세상 동탄역 어반원' 분양",
+      "summary": "DL이앤씨가 동탄역 인근에 오피스텔 분양을 시작한다.",
+      "kw": [
+        "동탄역",
+        "오피스텔",
+        "분양"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB4UWZtbldfS2JDM3J0djdXMVFMeXdSR2FTSEFaSUgya0JHRC1hTFNheDFxS2RaMzV6S0Q0NEhLYURGNWpXVDRsVkVWNW9TdUNGenBRWdIBVEFVX3lxTFB4UWZtbldfS2JDM3J0djdXMVFMeXdSR2FTSEFaSUgya0JHRC1hTFNheDFxS2RaMzV6S0Q0NEhLYURGNWpXVDRsVkVWNW9TdUNGenBRWQ?oc=5",
+      "source": "더팩트"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시, 시민 '복지기준선' 마련…돌봄·소득·주거 6개 분야 제시",
+      "summary": "화성시가 돌봄·소득·주거 등 6개 분야 복지기준선을 마련했다.",
+      "kw": [
+        "복지기준선",
+        "돌봄",
+        "주거"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1NUGcxWUZQbWhmSGl6UU5JTFhCbXRyeUVFeHhENzZYMldnRjU3S0JuRGM3cTBZVDdoOEVHN09iRnZiU3pLeEVWQnNxZzhZVTY3NWU2NEFCRWEzZThkUGlRVGNCdDNfRjZab1p5RlZ2dkM4ODjSAXNBVV95cUxNTVBnMVlGUG1oZkhpelFOSUxYQm10cnlFRXh4RDc2WDJXZ0Y1N0tCbkRjN3EwWVQ3aDhFRzdPYkZ2YlN6S3hFVkJzcWc4WVU2NzVlNjRBQkVhM2U4ZFBpUVRjQnQzX0Y2Wm9aeUZWdnZDODg4?oc=5",
+      "source": "뉴스웍스"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "환경",
+      "senti": "긍정",
+      "title": "화성특례시, 폐장난감에 새 쓰임…동탄호수공원에 체험공간 만든다",
+      "summary": "화성시가 폐장난감을 활용해 동탄호수공원에 체험공간을 조성한다.",
+      "kw": [
+        "폐장난감",
+        "자원순환",
+        "체험공간"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5DWUlxWF9JTmZoYnllQ3NVREp6RG9IaE5kbllEeklJZTQ4VVpfZmREdUl3YjhoM1lPY3hUM0pjbjlIXzVnM2g0SENjczlVOXlWekJqc0Nra0RNSGdzRFl0VUtVa2I?oc=5",
+      "source": "매일일보"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "포티투마루, 화성시 민원 예측 AI 구축…지자체 AX 공략",
+      "summary": "포티투마루가 화성시 민원 예측 AI 시스템을 구축했다.",
+      "kw": [
+        "AI",
+        "민원",
+        "디지털"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1nSkN4ZGRqd001SHJVM0pybGhhNEpyWGhoZnB4b0djU1RjV2lFN19GcS11T29pcHZvajFxMFZ6WkdKZjZHYzdlS3F0UFFEUlhwQ1I2STlXWmdLVDVCZUFTWUliMkRkSjhr?oc=5",
+      "source": "테크월드"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "내년 1월 문 여는 동탄 다올이음터…수영장·강의실 점검",
+      "summary": "동탄 다올이음터가 내년 1월 개장 앞두고 수영장 등을 점검 중이다.",
+      "kw": [
+        "다올이음터",
+        "수영장",
+        "개장"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA0OGxVVTZmZ0ltR0ZiXzcwT0E3eXdvdjJXLUZPYVpGSWxHdlJmYUxMVVVBdGo4SzZhc0tSd3pQbWtrd2VyS3FFd2kwYkU3dFZhaXhCVlplV1pHVzZUcnhuX3FGbE95a0dX?oc=5",
+      "source": "일간경기"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시, 시민 복지기준선 마련…돌봄·소득 등 6개 분야 기준 제시",
+      "summary": "화성시가 돌봄·소득 등 6개 분야 복지기준선을 마련했다.",
+      "kw": [
+        "복지기준선",
+        "기준",
+        "분야"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5FanJhS1M4cU1uS1c3TTJhVEhzYkZwcjg5RjZYRXdPTGx3YW9ES0JGZVpQM1lKYTBNSWdpbXM2Vjd5aWhjNk9lZjVYV3dwcnBNZWdLelFLV210UQ?oc=5",
+      "source": "데일리엔뉴스"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "GTX 사업 재개·개통 속도…DL이앤씨 ‘e편한세상 동탄역 어반원’ 공급",
+      "summary": "GTX 사업 재개로 동탄역 오피스텔 공급이 가속화된다.",
+      "kw": [
+        "GTX",
+        "동탄역",
+        "오피스텔"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5LWGhZbnp0VUg4Smh1dGNOZk1PYjRLUVc3RnRTQ1NjN1JFY0RiV1ROUG9KNUlGaVd6bWFLdktQX2d3UE55azBLSTBaelZNQ1k1VmRhS2tsc3RtV3Z2WUVOUWxrTDVOakx2ZDRJLWxRSEdIQ2ZmaTl4c21iQVc?oc=5",
+      "source": "한국금융신문"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "[중부포토] 화성시 첫 벼 수확 시작…117일 만에 ‘한눈에 반한 쌀’ 출하",
+      "summary": "화성시 첫 계약재배 벼가 117일 만에 수확되어 출하된다.",
+      "kw": [
+        "벼",
+        "수확",
+        "계약재배"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBNTkU4LW5RN3R1ZktBNlpiRGp4MXZ6ME5fUHpTMkdad0VkYjNfeHdtaTFDNUJlV3kzTTlsN1gtZmMxZldWWEJVdjJ0WTJmc19RVFpDVmlPcWV6b1dUaGdFeDdCVmVhTE4zTFYxQ1d1WQ?oc=5",
+      "source": "중부일보"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "DL이앤씨, 동탄역 인근 오피스텔 240실 공급",
+      "summary": "DL이앤씨가 동탄역 인근에 오피스텔 240실을 공급한다.",
+      "kw": [
+        "동탄역",
+        "오피스텔",
+        "공급"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBkWlZUdWllLTdxaUgzRm5VQnZaczYzXzZMREt1R3NKWWp3UEJwSlFzMktmQklqbkVpeWNucDZPT0FUR2V4aV85WjUyTWRrQ0dCYnVqdnd1c1BjNU1nN2VFb2RRd1M3MmdZWXJOby1B?oc=5",
+      "source": "중소기업신문"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "환경",
+      "senti": "긍정",
+      "title": "화성시, 폐장난감 자원순환·아이마음놀이터 조성 협력",
+      "summary": "화성시가 폐장난감 자원순환 사업과 아이마음놀이터 조성에 협력한다.",
+      "kw": [
+        "폐장난감",
+        "자원순환",
+        "놀이터"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5LZWRzeXk4YmxhOGZwd0lCVVVObldNV3hDMjVsMHRpLXZzalJyWDZuWHRvcXpuLXhYZXBBUGxuQ1NzSktvRWJDcXlhLTlBemVYMjdEZEZaMzUwWlFSUnlfLXVEei1lejRmbmhV?oc=5",
+      "source": "프레시안"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "경기 동탄역서 만취 운전…구조물 들이받은 30대 입건",
+      "summary": "동탄역 인근에서 만취 운전자가 구조물을 들이받아 입건되었다.",
+      "kw": [
+        "음주운전",
+        "안전",
+        "사고"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBSc0ZZblh5Sm9hdU9lS2pmdXBnbC1OQ0J0WEFpNUJGQTRCOHozMWs1eS1JMWpxanRPYWU2X2lUME5pVnpaMGZhXzVzTU9NUGxNekx4cVRVUFlxbE9GU1c3OUJB?oc=5",
+      "source": "경기신문"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시의회, ‘화성시민 복지기준선’ 최종보고회 참석",
+      "summary": "화성시의회가 시민 복지기준선 최종보고회를 개최했다.",
+      "kw": [
+        "복지기준선",
+        "화성시의회",
+        "시민복지"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBZVC1OUUlsTFA5d24tdHFiQWlERFBUQ25VaWY1dFBic3NDSHdwMzFmcU9aOW9rNFdGdjVFa0otX2huUHQ0U1lpLUpIRVlxZWZyRklkOGJXVUdJdVFRZFo5QkU1cmVKT2lsVXlmbVln?oc=5",
+      "source": "현대일보"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "DL이앤씨, 'e편한세상 동탄역 어반원' 공급",
+      "summary": "DL이앤씨가 동탄역 인근에 주거형 오피스텔을 공급한다.",
+      "kw": [
+        "e편한세상",
+        "동탄역",
+        "주거형오피스텔"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9nYVRaXzM1dDF0eS1fTWhqZTRKUU1HdnJJaXBVd0pLVXhNd0ptb2F2dWdkLWIxUmYyaDBNaU42RWJPNzJRVFBFSzVVcFdzVGp1ck5DRktHTnF2T1VrMHgzQmFCWEtsenhP?oc=5",
+      "source": "뉴스포스트"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시의회, 주민자치협의회 정기회의 개최…주민자치 활성화 논의",
+      "summary": "화성시의회가 주민자치협의회 정기회의를 개최해 주민자치 활성화를 논의했다.",
+      "kw": [
+        "주민자치협의회",
+        "화성시의회",
+        "주민참여"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1lQmx2djNVQzNqelJzMTJPc1JZNVJJbzdFVks2a2daWVBwb1NLRG1fT19lLWZDM3dQNjN5X2I2ajhXVGMwVGVUZ1ZGVW1jckV5V1NhZzdzbjhxMV9wN2FOMmt1ZkkzaS0xelBrdWt3?oc=5",
+      "source": "현대일보"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "교통",
+      "senti": "긍정",
+      "title": "GTX 사업 진행에 따른 수도권 광역교통망 개선과 동탄역 인근 주거형 오피스텔 공급",
+      "summary": "GTX 사업 진행으로 수도권 광역교통망이 개선되고 동탄역 역세권이 주목받는다.",
+      "kw": [
+        "GTX",
+        "광역교통망",
+        "동탄역"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE45RjhXNkVzUW82UHdGek1vZG03RVRpaF83bHFxV2FWejZGOWxNbkpxZ191d3FZMmFKdnZFendjZkMyd2szME9MZlI4RjI1R20xU3BtOEpLVzF0R2F2TnltWE9VMnU2UQ?oc=5",
+      "source": "이슈투데이"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "DL이앤씨, 동탄역 역세권에 주거형 오피스텔 ‘e편한세상 동탄역 어반원’ 240실 공급",
+      "summary": "DL이앤씨가 동탄역 역세권에 240실 규모의 주거형 오피스텔을 공급한다.",
+      "kw": [
+        "e편한세상",
+        "동탄역",
+        "오피스텔"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1LWng0NWF5OE5mcEw5MHc0YUxsX21WU0wxc2lQLVlpRS1XbFNnaklOVXdhamxWWVRld1dSc045ZVlQbkZNbG9ELWFjVkItVU4zX1g0LWxzeklWSndYM2xweWliMVJ3UW55N3lR?oc=5",
+      "source": "BBS불교방송"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "교통",
+      "senti": "긍정",
+      "title": "GTX 개통·사업 재개로 광역교통망 변화 기대…동탄역 역세권 주목",
+      "summary": "GTX 개통과 사업 재개로 광역교통망이 변화하며 동탄역 역세권이 주목받는다.",
+      "kw": [
+        "GTX",
+        "동탄역",
+        "광역교통"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBFM2ZpQk9DTWwwcHZwdzIzR01yNFVtLTBSTFpqR0R6MUVRSmJESXRXS25MOTd5N21lOUVURENkYjcxSmN5ZWJnaGlIT0JIMXBTQXdUaERKUmpyRS1uajBxaGJCWkV0WUZvWXFUME1TZGthY2JYTm9HaQ?oc=5",
+      "source": "로이슈"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "화성시 정남면서 올해 첫 계약재배 벼 수확",
+      "summary": "화성시 정남면에서 올해 첫 계약재배 벼를 수확했다.",
+      "kw": [
+        "벼수확",
+        "정남면",
+        "계약재배"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBqQWt4VEcyQlN2UXU0QVctN2xEb2NLVWpkOVpyX0t1MDh3aEVHcm9aZk5kSXYxcFJFaXZRb1gwZzdySEd5cHBhWlNjMEhBUFRCV0tCU1piS19IVjFFSzVZalUxSDVaSmM0NjduRjZIVldTUXo3THItbdIBeEFVX3lxTFBqQWt4VEcyQlN2UXU0QVctN2xEb2NLVWpkOVpyX0t1MDh3aEVHcm9aZk5kSXYxcFJFaXZRb1gwZzdySEd5cHBhWlNjMEhBUFRCV0tCU1piS19IVjFFSzVZalUxSDVaSmM0NjduRjZIVldTUXo3THItbQ?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "[금주의 화성시] 화성시 리틀야구단, 태극마크 달고 세계 정상 이끌었다…통산 4번째 우승 外",
+      "summary": "화성시 리틀야구단이 세계대회에서 통산 4번째 우승을 차지했다.",
+      "kw": [
+        "리틀야구단",
+        "세계대회",
+        "우승"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9uUnBwbFhRU3lUTk9MOTNENjdoTjgxODFfNGhicUQ1Uk9nTmRXOXlfTFM0Vmt1bEpTbW43aDRMY0NPcWN1THNId1FFTQ?oc=5",
+      "source": "v.daum.net"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "동탄역서 만취운전…안전지대 돌진한 30대 입건",
+      "summary": "동탄역에서 만취운전자가 안전지대에 돌진해 경찰에 입건되었다.",
+      "kw": [
+        "만취운전",
+        "동탄역",
+        "안전사고"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5fc0RtSm1kemJPV3pNM1NJa204OWstT3paQTVrbW43SVVEcEF0WGdUZmNPbHU1RFBwNlBwSENNRE5TLWRSYnhYbjMtX2V6MUhnSnFMNUFXY2lhMlBYT0VkT1pfQnlTYm83?oc=5",
+      "source": "OBC 뉴스"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "환경",
+      "senti": "중립",
+      "title": "노후 가로수 보호판 교체나선 화성시",
+      "summary": "화성시가 노후 가로수 보호판 교체 사업을 추진한다.",
+      "kw": [
+        "가로수",
+        "보호판",
+        "환경개선"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBON0xSTGdjZkVhZkI1c0lNVHdSUmlDNWVock5LWHFKVXFlRG90WEl2UUd0cERTRXhQaElOcDd3aEdEYUdraTV2ajEtNU1hVmtBdkVCQWdTODMwUU4tS0cwWWZXZlROWFZlWXRQVDFR?oc=5",
+      "source": "현대일보"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "반도체 훈풍에 ‘불장’ 된 경기 남부⋯동탄 집값 반년 새 6억 뛰었다",
+      "summary": "반도체 산업 호황으로 동탄 집값이 반년 새 6억 원 상승했다.",
+      "kw": [
+        "동탄",
+        "집값",
+        "반도체산업"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE92S285OFZieWRaaDRaSUEycVdabVhROFVqUGZ4RkFiWEhvSEtoMTFzTjJvb29VZXZJeHc2WDZZUTNHcEF3MkE?oc=5",
+      "source": "v.daum.net"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시의회 문화체육위, 다올이음터 개관 준비 현장 점검",
+      "summary": "화성시의회 문화체육위가 다올이음터 개관 준비 현장을 점검했다.",
+      "kw": [
+        "다올이음터",
+        "화성시의회",
+        "문화시설"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9MSUE4YUtpUjJXVjlTYk5GQXU1SjljWWM3RElOUDg5XzYwZy1URHFRVE5vWGRDR0tSZjZSTHJSWm9NbHVLbWo2bVhuVlFoTnB6ZTV2R1RIOTBHVEthN1ZaN1EwaFc5RnlROG9KQmp3?oc=5",
+      "source": "현대일보"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "횡단보도 옆 안전지대 '쾅'…동탄역 만취 운전자 입건",
+      "summary": "동탄역에서 만취운전자가 횡단보도 옆 안전지대에 돌진해 입건되었다.",
+      "kw": [
+        "만취운전",
+        "동탄역",
+        "교통사고"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFAzRFR6by1rLUJ0bmhkYXFDTGVYYkg0ZmFSN09vTlVLeTlxSnZGYTVxdUY4ekpoZjZraGlwTnpMekIyOHRENlE?oc=5",
+      "source": "v.daum.net"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "DL이앤씨, 동탄역세권 ‘e편한세상 동탄역 어반원’ 공급",
+      "summary": "DL이앤씨가 동탄역세권에 주거형 오피스텔을 공급한다.",
+      "kw": [
+        "e편한세상",
+        "동탄역",
+        "오피스텔"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA1NnppVy1RamxEM2dubXRBZEFHTUJVS3NBeUtqNHhVQ0xJVHY5cjNQSWhiOFl5QXY5V29DeXRpaEY5TVYzLU1na1JBb1M2T1hLMzRxeW5lZm1lcTl3UUVzM3Atd2hoRldwUDNladIBbEFVX3lxTFA1NnppVy1RamxEM2dubXRBZEFHTUJVS3NBeUtqNHhVQ0xJVHY5cjNQSWhiOFl5QXY5V29DeXRpaEY5TVYzLU1na1JBb1M2T1hLMzRxeW5lZm1lcTl3UUVzM3Atd2hoRldwUDNlaQ?oc=5",
+      "source": "직썰"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시 정남면서 ‘화성시 2026년 첫 벼베기 행사’ 열려",
+      "summary": "화성시 정남면에서 2026년 첫 벼베기 행사를 개최했다.",
+      "kw": [
+        "벼베기행사",
+        "정남면",
+        "농업"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE12THNSWUNYOHZuOUp3bHQwWHVvcFpOdER5VElqVHNIZ1R5ZnVOUWJ3VHJURXAwdF9rbFZzREdpMFhrWXRNVEhGei16VV8?oc=5",
+      "source": "모닝투데이"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "[부동산 나들이] GS-현대엘 'MOU'·'동탄역 어반원' GTX 호재·'검암역 푸르지오 프라베뉴' 공급",
+      "summary": "동탄역 어반원 등 화성시 부동산 프로젝트들이 GTX 호재로 주목받고 있다.",
+      "kw": [
+        "동탄역어반원",
+        "부동산개발",
+        "GTX"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5kazBER0E0alU3X3F3dlY3eFZjRzlxRjc2bDdycDRYV3g4QlpuMTFvQ3ZSYVNmVXk3U0U1NjktNkJtNHZEZWRsSXJveGFXR2otcG9zdFY2aFJuMU1keERGcHRlZkFyY2Ftdm9HVDhERUdvcnPSAXNBVV95cUxOZGswREdBNGpVN19xd3ZWN3hWY0c5cUY3Nmw3cnA0WFd4OEJabjExb0N2UmFTZlV5N1NFNTY5LTZCbTR2RGVkbElyb3hhV0dqLXBvc3RWNmhSbjFNZHhERnB0ZWZBcmNhbXZvR1Q4REVHb3Jz?oc=5",
+      "source": "뉴스웍스"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "환경",
+      "senti": "긍정",
+      "title": "화성시, 영농형 태양광으로 햇빛소득마을 도전",
+      "summary": "화성시가 영농형 태양광 사업으로 햇빛소득마을 조성을 추진한다.",
+      "kw": [
+        "영농형태양광",
+        "소득사업",
+        "환경에너지"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5FZUtuM1RaandCSE5NLVBkMW43eDFOVVMtY1hTRzJFQWxjamJfeDh1a3dYdk5Kc3V3QUNpU1RKOGt6VTRxc3VnbW9NcUYxSlViTU90SEpOUTBWR0VCQ2dKa0VwU1FIQU5HSjlQUQ?oc=5",
+      "source": "농업인신문"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "“집값 6억 뛴 동탄·사람 빠진 군산”…기업 하나가 동네 운명 바꿨다? [잇슈 머니]",
+      "summary": "동탄의 부동산 가격 상승이 기업 입주 등 지역 변화의 영향을 받았다.",
+      "kw": [
+        "동탄",
+        "부동산가격",
+        "지역경제"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9IS1J2czNBVGROdTJMcjFqOGxicWFkOGF3MHFVUjh0UVNsdndHUUM4Qlc0V1NhZUlWbGx2VkpGNEdCcjlCdVV0NWlBR3M2VVl4dUtVcFpSN0JCdXM?oc=5",
+      "source": "KBS 뉴스"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "\"교통도 복지다\" 정명근호 화성시, 포용 복지 새 기준 - 머니투데이",
+      "summary": "화성시가 교통 복지를 강조하며 포용 복지의 새로운 기준을 제시했다.",
+      "kw": [
+        "포용복지",
+        "교통복지",
+        "시정"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE92ckJNRlR3YjVXVGZXWk1mQlZnMTJDOGhaYnJvbWJRaDBBVWo3MU5BZXJSRExXUlNhemlIdGdUYWQxUF9hUkRtbzJIdVExQUhvVXN5MHNObWp3eUlGMno2bHRKYXd0cDF1VUNjbGFZc9IBb0FVX3lxTE92ckJNRlR3YjVXVGZXWk1mQlZnMTJDOGhaYnJvbWJRaDBBVWo3MU5BZXJSRExXUlNhemlIdGdUYWQxUF9hUkRtbzJIdVExQUhvVXN5MHNObWp3eUlGMno2bHRKYXd0cDF1VUNjbGFZcw?oc=5",
+      "source": "머니투데이"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "DL이앤씨, 동탄2신도시 ‘e편한세상 동탄역 어반원’ 주거형 오피스텔 공급",
+      "summary": "DL이앤씨가 동탄2신도시에 역세권 주거형 오피스텔을 공급한다.",
+      "kw": [
+        "동탄2신도시",
+        "오피스텔",
+        "역세권"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1RMDYyT0xtZVRPRnkwNjJUQzJVNmpuNDAxZmhJaXh4dm5Cd3RMRDZJQzhfTFFrZjA3T0ZXR2piTEp3MTZTTm52YnJPbnZ3alk0c3huYURtbFZ2Zw?oc=5",
+      "source": "브릿지경제"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "포티투마루, 화성시 도시데이터 플랫폼 구축 참여…지자체 AX 확대",
+      "summary": "포티투마루가 화성시 도시데이터 플랫폼 구축 프로젝트에 참여한다.",
+      "kw": [
+        "도시데이터플랫폼",
+        "디지털행정",
+        "지자체"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA2eTFrUmlYWkRQSEUxcFFfNzU5WTEtODlDUmxyU2Q2R0lKdTlJUE9xdk5nbVRvYnN3dW9xOGVKc185TlJXMXVIT1AwYTdPbTQ?oc=5",
+      "source": "v.daum.net"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "DL이앤씨, 동탄2신도시에 역세권 오피스텔 공급…교통 편의성 강조",
+      "summary": "DL이앤씨가 동탄2신도시에서 역세권 오피스텔 공급으로 교통 편의성을 강조한다.",
+      "kw": [
+        "동탄2신도시",
+        "오피스텔",
+        "역세권"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tR09ZUjE0LWZBcHBfZlNCVEVRaGdlUm5veHNIa3pXb1JyX0hBX05JQ2MtbEhMVzB3eVBHcG91d3J6Yl9oMkFOZ2d6c1RmUTBoeVNsZW5uZ2JoZTB2aHFLd0FuaW40ckVUSWNCOUNHZGxWYVXSAXNBVV95cUxPLUdPWVIxNC1mQXBwX2ZTQlRFUWhnZVJub3hzSGt6V29Scl9IQV9OSUNjLWxITFcwd3lQR3BvdXdyemJfaDJBTmdnenNUZlEwaHlTbGVubmdiaGUwdmhxS3dBbmluNHJFVEljQjlDR2RsVmFV?oc=5",
+      "source": "뉴스퀘스트"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "포티투마루, 화성시 '문제해결형 도시데이터플랫폼' 구축 참여",
+      "summary": "포티투마루가 화성시 문제해결형 도시데이터플랫폼 구축에 참여한다.",
+      "kw": [
+        "도시데이터플랫폼",
+        "스마트시정",
+        "지자체"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1zODNJTmNDYWN4Qk5McXJRMlgybDlBS2lFUS1hRjI2bDZfQlVDdThGTlg4dzJKT1VDNTJVajRyM2VtcjR5V3d3dkJ1UlVhMW1aSUJjOTZseERTeUV1cjcya1JfeW1ueFRpeXQ0elVYVFZkWG8?oc=5",
+      "source": "디지털투데이"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "서울 전세난 경기로 번졌다…광명·동탄 아파트 전셋값 8%대 '껑충'",
+      "summary": "서울 전세난이 경기지역으로 확산되며 동탄 아파트 전셋값이 상승했다.",
+      "kw": [
+        "전세난",
+        "동탄",
+        "부동산시장"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBCTlBUUXhsQ0htSzBZa2ltQVV4Q2YxWU41ZExQUHZweWpMQWtFY1FSLVlZMzZHTUZaRkJLNktrR3lYZlNBTXB5MXlBb19iTXdWM2R4c2NqVk1aRlFLQVF5ekNVdWU3TExNYzNRU25FRVFfM2_SAXdBVV95cUxOaWw0VWhWNnpBQldJZEZMX2ZYTUN5ZnhERjV2dTZDVmJMNWtUNDhtaW5YYmdjU1JVSmtmcFBWYlVuNGdZRUo2RjFNRDNwT1l0UVdxMGRwamlkbVpEb3oxRGxxSkZsZk5hVFBfMHpYUi0zZXBxUlB4SQ?oc=5",
+      "source": "핀포인트뉴스"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성특례시, 성인 장애인 평생학습 기회 넓힌다… 뭐든지학교 3기 학습자 모집 > 뉴스",
+      "summary": "화성시가 성인 장애인을 위한 평생학습 프로그램 3기 학습자를 모집한다.",
+      "kw": [
+        "장애인복지",
+        "평생학습",
+        "교육"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB3bk9LOUJTZVBITTBkX3p2TmRvaFBheXJ2RHoxX29icHZiRHZ4MEZ6RGltUDQxY095eXlBTXFTTFl3UTAtSldJTk9naW4xOUNOSmxOZmRWLWk1RllERXRaemhGY3JISGVaZGlkejdxU3k?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "DL이앤씨, 'e편한세상 동탄역 어반원' 주거형 오피스텔 240실 공급",
+      "summary": "DL이앤씨가 동탄역 어반원에서 240실 규모의 주거형 오피스텔을 공급한다.",
+      "kw": [
+        "동탄역어반원",
+        "오피스텔",
+        "주거"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5PY1puNXdqRktTYXhoa1VzS2JqQnM1dDk3bEw5Q3hJd1FXWUxtNG5nVlA0eEdyV3RyX01qdW5WZUNWSGpTMkNsaWJlaG5Pa29zOTNjN3gtX3pvWTFqRnMwTUNMQnk?oc=5",
+      "source": "베타뉴스"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "김창겸 화성특례시의원, 2026년 화성시 첫 벼베기 현장 찾아 농심 청취",
+      "summary": "화성시의원이 2026년 첫 벼베기 현장을 방문하여 농업 현황을 청취했다.",
+      "kw": [
+        "벼베기",
+        "농업현장",
+        "의정활동"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9lVWJ2cVY0QXVIUjcyelVnVEdpcjdUNmpZS09VVFQwVzVQU3Bmdzk4N0Q1bWFYenpDVUpjeGMwb3hzMzRGamJWMm9CdGI?oc=5",
+      "source": "모닝투데이"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "[위클리오늘] 화성시, 시민 체감형 '복지기준선' 마련... 포용적 복지도시 실현",
+      "summary": "화성시가 시민 체감형 복지기준선을 마련하여 포용적 복지도시를 추진한다.",
+      "kw": [
+        "포용복지",
+        "복지정책",
+        "시민복지"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB4RHMzczNRbmZ1Q19lQW5MSVpxUkozUmZqeGhkM1JCTXB5dTFPNnZtLVBsd2EtRVRNM2NKcVhpQzY4bDY4bmIxOWN3Sy1XeFl4U0FHSVJRSlN5LW93eUNnV0Z5OU1VWXVZcVMzZnBn?oc=5",
+      "source": "위클리오늘"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "GTX 개통·사업 재개로 광역교통망 변화 기대… 동탄역 역세권 ‘e편한세상 동탄역 어반원’ 주목",
+      "summary": "GTX 개통과 사업 재개로 광역교통망이 변화하면서 동탄역 역세권 오피스텔이 주목받고 있다.",
+      "kw": [
+        "GTX",
+        "동탄역",
+        "역세권"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5yOXh6dHVPQnhSRFRFWkFSTW5ENDQ3WDZDQWhGa1AyTnFHcGU1R3AxRUhKcVZGMk9JaWlTUkZfWHBRR3JSRzZTTUhERWx5bVA4QVhOblZxaDRNZFFSdmFQYzBsYmpCWjU0TDU2NmFvUQ?oc=5",
+      "source": "월드투데이"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "제2서해안고속도로(주), 화성시서부노인복지관에 후원금 500만원 전달",
+      "summary": "제2서해안고속도로가 화성시서부노인복지관에 500만원의 후원금을 전달했다.",
+      "kw": [
+        "후원금",
+        "노인복지",
+        "기업사회공헌"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0xRFhMUk80cWhUbnlucG40N2tTMjdzUUtqbVh4OHZYc0xsdzRkMkNPc0ZaSVJaRzFYVHlRdWRqNno1Mno5VF9OZmJQSmFPQ0VZN2VSTEc2XzJqV3dqeVJ2NTh1Nlpfdw?oc=5",
+      "source": "화성저널"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "DL이앤씨 ‘e편한세상 동탄역 어반원’ 눈길",
+      "summary": "DL이앤씨가 동탄역 어반원 오피스텔 프로젝트를 선보이고 있다.",
+      "kw": [
+        "DL이앤씨",
+        "동탄역",
+        "오피스텔"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBFVEVsM3BrOEsyeXM3SzYyV2dRdW9ySXlERE9HNjBLX2R5Q19BNFBxMWI0RjRSWXpJaV9EaHhOVHROZjcyN2RGandTTWJTdldySVFPeFRheE1aUng4SWtGdHRkTG5keWFJRVo3UA?oc=5",
+      "source": "뉴스웰"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "DL이앤씨, ‘e편한세상 동탄역 어반원’ 오피스텔 240실 공급",
+      "summary": "DL이앤씨가 동탄역 어반원 오피스텔 240실을 공급한다.",
+      "kw": [
+        "오피스텔",
+        "동탄역",
+        "공급"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNNm43eHZTZl9ZWTExLU10YUJzZmFzbEJPWU5LYnlKYzYyT2JadHlDdUMxR2VLd3J6bWY1MnVXSTg1czZ4NDdTMEwtcEs2bDFZMVQwMHJsZmZLTV9iUkthUnMxVzZoZ1U1XzktTA?oc=5",
+      "source": "ER 이코노믹리뷰"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "[21일 화성시] '아이마음놀이터' 조성 업무협약 체결 등",
+      "summary": "화성시가 아이마음놀이터 조성 관련 업무협약을 체결했다.",
+      "kw": [
+        "아이마음놀이터",
+        "업무협약",
+        "복지시설"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB2dXZlX3VNSTdIcmdxVzZwLTJQNVEtUkdpbG1OaThFTUJrUlUyZFNudGhxa01rcl96MDhOY01sS2xqODBHbTU0cmplSXdsbF9lSWhpRGRHVVlBcW8zcVE?oc=5",
+      "source": "아시아타임즈"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "동탄역 버스환승센터서 만취 운전… 30대 운전자 불구속 입건",
+      "summary": "동탄역 버스환승센터에서 만취 운전자가 적발되어 불구속 입건되었다.",
+      "kw": [
+        "음주운전",
+        "동탄역",
+        "안전"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1YNkYwb1c2a3RBaUJFbzV1WGx1Tkh1NjFpU2s4RkhMeFBXbWlaRDlRakhjZmpuZDJMSFBpbUEtZnpxcXhMbTMzanNaS1h6ZG1fQXc?oc=5",
+      "source": "AI경기방송"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "화성시, 정남면 양지뜰서 올해 첫 계약재배 벼 수확",
+      "summary": "화성시가 정남면에서 올해 첫 계약재배 벼를 수확했다.",
+      "kw": [
+        "벼수확",
+        "계약재배",
+        "농업"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5rZ0hFRXdLOXhzR0lTUVFKd2Fvd1dudkw4RThXUDBlNXBFa2RyZUptOXZzMXo3ZUJqaFY4SmpPVGM3UUxPMGN4SGMyOHF6akNlMFpLTHVVX2szd0plUWloVWh3?oc=5",
+      "source": "경인미래신문"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "DL이앤씨, e편한세상 동탄역 어반원 240실 공급…GTX 기대",
+      "summary": "DL이앤씨가 동탄역 어반원으로 240실의 오피스텔을 공급하며 GTX 개통을 기대하고 있다.",
+      "kw": [
+        "GTX",
+        "오피스텔",
+        "동탄역"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFByRFdxZXhHVS0tT1lkcVhiRVZnc3BKNXBvcDlaUjhobl81Q0ZtVkVrQU5UYWpQWk9PbFRIUHVqckl2Tk5uNUM2WUhIZ3l0SUREY1hobEJ5aUhGbnVsR3g4?oc=5",
+      "source": "인더뉴스"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "화성시, 시민 체감형 ‘복지기준선’ 마련",
+      "summary": "화성시가 시민 체감형 복지기준선을 마련했다.",
+      "kw": [
+        "복지기준선",
+        "복지정책",
+        "시민"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE90dlNtUEI4c1NFSmNmMUlGb1V1S3J4Nkl2RWFFLUw0QzEtU1JhdVl3OENoaDB1TGp5MnBQY0d0UXRxQXQzZVJjZmNfUXFZVFp0M3R6LVFzUVM4aXE5V1o5cDFB?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "그 소녀는 동탄 면 경찰서에 감사 편지를 썼습니다.",
+      "summary": "동탄면 경찰서가 한 소녀로부터 감사 편지를 받았다.",
+      "kw": [
+        "경찰",
+        "감사",
+        "안전"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8xaEgzckhoVnF0ejNqRXNiZzVGZ091eFEwYWVOV0lJVmc4eFVQT2IxdW1aUDd2bnBCSVhtdXd2eW9QREJERVQwLS1CTHpqV1NocXE0NzJHZ24zS3AzMVYxNDY1TkduY3JUQ2haYzdNdXowQUVfSTlHd2lR?oc=5",
+      "source": "Vietnam.vn"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "환경",
+      "senti": "중립",
+      "title": "어항공단, 화성시 연안 넙치·조피볼락 등 309만 마리 방류",
+      "summary": "어항공단이 화성시 연안에 넙치와 조피볙 등 309만 마리를 방류했다.",
+      "kw": [
+        "방류",
+        "수산자원",
+        "연안"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNRzA1cjBkYzhrcHBjNW1yc2tybWtiS2RKSFlaY3d6aFFhLTBmdzdQNktoeWpDZ2tjQTVLaDI1eGxHYXpOcWFNdi04b1pIVXZiNUtjaUc5R2Y4dDZRamNxNXQxenIySzRKTmpfcEtrTnJMSFBlRjNkVnljVTFBNmVGcW9YbGg0aHk5SEc4X3Q4dTd5ZXp2QXgtemtkQ0tka29oNzNNZ2NfU2ViVnAwY3NzWl9SQzBpQXBaYUhEOGszTEg3aDQ1aGxmNmVZZ2xNeUlLMEFWT2lEcVN3WnBXS0w4ekJKemhtMklJNkhWd1Ixek1tRUY5NmtESFVGdTFvU01VQzI4ekNIbFEzZXp2Z0xLcWZQbDlYUkZub00yYUt1TzVOVjA?oc=5",
+      "source": "데일리안"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시 동탄구, ‘스마트폰 AI 활용교육’ 실시",
+      "summary": "화성특례시 동탄구가 시민을 대상으로 스마트폰 AI 활용교육을 실시했다.",
+      "kw": [
+        "AI교육",
+        "스마트폰",
+        "디지털역량"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE04QnkzN0pjUnZPS2RWR3M4S1RaZXVkUzR6eENveTRfYmw4Y1JydGNFUjNlSTJ5N3k0dnl6MkJKd2pzX2VrdjNvZ3J1ZzdfVEgxV2xJbVpZTjg2dVJuYXd4NzExWXFBTy1IN2c?oc=5",
+      "source": "수원일보"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시, 청년친화헌정대상 기초단체 종합대상…2년 연속 수상",
+      "summary": "화성시가 청년친화헌정대상 기초단체 종합대상을 2년 연속으로 수상했다.",
+      "kw": [
+        "청년친화",
+        "수상",
+        "행정"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBUQ3c4MzlRTkljYmNEOEpDQ2l1TGNhcWFNMkRVTjFaSDFITFp0SXhWaDhidVlRTEV2X0hIUVQzZHAxTl9FTjEtdVF3dVRoajhxTVVraFJqcGlvVlMyN3huQW84RjlmVlJqc0RN?oc=5",
+      "source": "프레시안"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "[건설업계 ON] 동탄역 역세권 DL이앤씨 ‘e편한세상 동탄역 어반원’ 눈길",
+      "summary": "DL이앤씨의 동탄역 역세권 e편한세상 동탄역 어반원이 건설업계의 주목을 받고 있다.",
+      "kw": [
+        "동탄역",
+        "건설",
+        "오피스텔"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAtY2ZYdzdERGRoeTV1ZXQ4aEVuTk1DMDlLNFoxQWFfc2Z1aTI2bTRmTjQ4UXJYaVR5OC1ZdkJndkZEbnNGVnp3U0VvUTV2OEE0NGh2X1R3RGlTMDVSdGNITDdoOEdfXzM4YWln?oc=5",
+      "source": "우먼컨슈머"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시, 경찰 출동 현장에서 젠더폭력 피해 지원정보 바로 안내",
+      "summary": "화성시가 경찰 출동 현장에서 젠더폭력 피해자에게 즉각적인 지원정보를 제공하는 체계를 마련했다.",
+      "kw": [
+        "젠더폭력",
+        "피해지원",
+        "경찰협력"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1kUkVKN1RKNDYzQ3BWWVpLV3hXUUI1ZWxHTUxJR18xa0J3U1JwOTh6VHpNUWJzcjRwZ2F4UU1NcWxSTzQ0S09aTlRXOWdPMWhOcWtfSi1ORWl6LTR3YVNncG13VThKVkE?oc=5",
+      "source": "경인신문"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "DL이앤씨, 동탄역 인근 주거형 오피스텔 공급",
+      "summary": "DL이앤씨가 동탄역 인근에 주거형 오피스텔을 공급한다.",
+      "kw": [
+        "동탄역",
+        "오피스텔",
+        "주거"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1lUjJSa2RPVERGa0tRUFZHa09KOFZMS25QZE1UMWhlN0dNamtRanp3SzdERzBpWjlOTWtfcUprUkdrUGxUU0NmQXIwZUV1RmNMZks2ckxxZUJmd2loR0RCT0REY1ZEbU5BcnJxdVM3Vjc2dw?oc=5",
+      "source": "웹이코노미"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성특례시, 시민 체감형 복지기준선 마련… 포용적 복지도시 실현 > 뉴스",
+      "summary": "화성특례시가 시민 체감형 복지기준선을 마련하여 포용적 복지도시 실현을 추진한다.",
+      "kw": [
+        "복지기준선",
+        "포용적복지",
+        "시민정책"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9nek5tVF9PdnlDUmpaa3JnQUJQa2xTQktlQkFQcXFQcUpCcnV3QWEzU3U0eUZrcmJ5QnlhTHlXVEtxTnM?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "DL이앤씨, GTX·SRT 역세권 오피스텔…동탄서 240실 공급",
+      "summary": "DL이앤씨가 GTX·SRT 역세권의 동탄 오피스텔 240실을 공급한다.",
+      "kw": [
+        "동탄",
+        "오피스텔",
+        "역세권"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4wa0xKSlQwb3Azc0tBNWo3cFVLaTEtSVNDUjYzWmRjSEFndDkwMmU2QkViQktFSFFDZ01UbU5mdG9MeXpwVkJOQlUyc1JCN1IxYW04TDF5c3oxMEV6blg1OHpLSUk0T25PWnc?oc=5",
+      "source": "컨슈머타임스"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "동탄역 횡단보도 옆 안전지대로 돌진…만취 운전 30대 덜미",
+      "summary": "동탄역 횡단보도 옆 안전지대에 30대 만취 운전자가 돌진하여 보도하는 사람들을 위협했다.",
+      "kw": [
+        "음주운전",
+        "교통사고",
+        "보행자안전"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8xSE5XQ2RubWphVTlmWS01dkh5TGZDZF9sWWxTQnZkNHVENFpxd3dmREc5Q3ZCbHNhMUlYLTMzTEt4WExSeEw5YjNIdTdVTHAwRGFfaTQxckMyaDjSAVtBVV95cUxPMUhOV0Nkbm1qYVU5ZlktNXZIeUxmQ2RfbFlsU0J2ZDR1RDRacXd3ZkRHOUN2QmxzYTFJWC0zM0xLeFhMUnhMOWIzSHU3VUxwMERhX2k0MXJDMmg4?oc=5",
+      "source": "뉴스1"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성 진안중 이전부지, 병점권 첫 ‘이음터’로",
+      "summary": "화성 진안중 이전부지가 병점권 첫 공공 커뮤니티 공간인 '이음터'로 조성된다.",
+      "kw": [
+        "이음터",
+        "병점",
+        "공공시설"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9VZ1pSZmR4ZmMtM0JhODRTdExOcTZhcEg4MmVsaDAtSWYxVl9CZmk5enlhSWY1V3BnMEFZcFNzODVuSnhORkFBd0tadTlWa1JUUzZmVFAwM2J6RmpYcFE3WUhBWlZGaER2?oc=5",
+      "source": "OBC 뉴스"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "GTX 노선망 확충 및 사업 재개 본격화…DL이앤씨, 'e편한세상 동탄역 어반원' 오피스텔 공급",
+      "summary": "DL이앤씨가 GTX 노선망 확충에 따라 동탄역 오피스텔 공급을 본격화한다.",
+      "kw": [
+        "동탄역",
+        "GTX",
+        "오피스텔"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1QQlVFZDh1Vy03X2dPWGlsWHpfMnpzWms1OWFjLXpPeUxzSm0xRG5id0Y0azE4VDVFTExCVUFQZG1vN1JXRXhkZ3d4bUlBVjlzYkpSZXo5ODdUSk50UXNHUS1QRlNlWWlXQ2dxNWVQOA?oc=5",
+      "source": "비즈니스플러스"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "[위클리오늘] 화성시, 2026년 ‘제9회 청년친화헌정대상’ 종합대상 수상... 2년 연속 쾌거",
+      "summary": "화성시가 2026년 제9회 청년친화헌정대상 종합대상을 2년 연속으로 수상했다.",
+      "kw": [
+        "청년친화",
+        "수상",
+        "화성시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA0cnhCaXdKYkU1T3JBNEo1c21SOEdtMlR4V2lZQ0xwQkY3a3k4UzRZWExkZHhQYloyVEVEbUpyWEl1YUJ0UzgwcTRZVHNzQ1pSTlJhMkNmVDJnQXRFMjNyOGladmVOa3dlWG5sVktn?oc=5",
+      "source": "위클리오늘"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "DL이앤씨, 경기 화성 'e편한세상 동탄역 어반원' 주거형 오피스텔 공급 중",
+      "summary": "DL이앤씨가 경기 화성 동탄역 오피스텔을 공급 중이다.",
+      "kw": [
+        "동탄역",
+        "오피스텔",
+        "주택공급"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YYmNVRHJjZlBLYlJ0OFAyTFZwaVY0TjdhMUswSTBxbWlCMFZxZ1JHT0xCZDE0NE90TnhNM0ZscGJlaXcybzBZRkllZG9IYVppeElZ?oc=5",
+      "source": "네이트"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "화성시 정남면에서 올해 첫 벼 베기 행사 열려",
+      "summary": "화성시 정남면에서 올해 첫 벼 베기 행사를 개최했다.",
+      "kw": [
+        "정남면",
+        "벼수확",
+        "농업"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9Dbk15WndJSjZzcFpDQzhjQnhyVTJDWFhSVnJOTmRwMWJzQmFpVDBjbk0wNkxnMHdRZ1k3WDQ5TG1MR28?oc=5",
+      "source": "경인통신"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "동탄 아파트값 올해 16% 가까이 상승…동탄역 '디에트르 퍼스티지' 오피스텔 관심",
+      "summary": "동탄 아파트값이 올해 16% 가까이 상승하고 동탄역 오피스텔에 관심이 높아지고 있다.",
+      "kw": [
+        "동탄",
+        "부동산",
+        "가격상승"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9UbVRXWDZUNFhjUVMyMFB5Vjh5cVVlVFJBV1g0NVlheFFGUUc3cDh3dUtZMFp5RWNPSXhJaXBreEwweWVwWWdfSkk0Uko4WmEyVmNN?oc=5",
+      "source": "네이트"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성특례시, 시민 체감형 ‘복지기준선’ 마련",
+      "summary": "화성특례시가 시민 체감형 복지기준선을 마련했다.",
+      "kw": [
+        "복지기준선",
+        "복지정책",
+        "시민"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5yNU1iZnJvLUdqSGpFRnQ1c1UzZ245ZVJMWTltTHFaOWJxZ0xpdFZtMWdic0pRT3VCM0duVGU0WEZVSjZtVHdLZEF6YnJLMmpEX2VtQ294aWM0UklCbzJDSlJmWFRCQ0xQMTJkaDl5dXhid9IBckFVX3lxTE5yNU1iZnJvLUdqSGpFRnQ1c1UzZ245ZVJMWTltTHFaOWJxZ0xpdFZtMWdic0pRT3VCM0duVGU0WEZVSjZtVHdLZEF6YnJLMmpEX2VtQ294aWM0UklCbzJDSlJmWFRCQ0xQMTJkaDl5dXhidw?oc=5",
+      "source": "경인종합일보"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "[화성소식]장애인평생학습센터 '뭐든지학교' 학습자 모집 등",
+      "summary": "화성시 장애인평생학습센터 '뭐든지학교'에서 학습자를 모집한다.",
+      "kw": [
+        "장애인교육",
+        "평생학습",
+        "뭐든지학교"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE14ZFlFSXdDbGhKaDBjNHBUME9yZU1melNUTmxDRk5nOWtBSW1YUEl3eHlNRzVqWU1fS1B1MVpHZTF4X25lVmRlZ1ZzSXduemdVSUhSS3lXQnAxRURsNFhpY3VWTkcxSVhWZk1TLXlaczdheVdQS0xOYtIBeEFVX3lxTE14ZFlFSXdDbGhKaDBjNHBUME9yZU1melNUTmxDRk5nOWtBSW1YUEl3eHlNRzVqWU1fS1B1MVpHZTF4X25lVmRlZ1ZzSXduemdVSUhSS3lXQnAxRURsNFhpY3VWTkcxSVhWZk1TLXlaczdheVdQS0xOYg?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성특례시 동탄구, 동탄7동 통장단 대상 '스마트폰 AI 활용교육' 실시",
+      "summary": "화성특례시 동탄구가 동탄7동 통장단을 대상으로 스마트폰 AI 활용교육을 실시했다.",
+      "kw": [
+        "동탄7동",
+        "스마트폰교육",
+        "AI활용"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE8wdzlPQnFPWTlwMU5OVmxITlpkVHNwUng2QW4xemgwQUY1XzRvakZMOElVeF9iZnF0X19veWs2QlRQdzRZ?oc=5",
+      "source": "경인통신"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성특례시, 시민 체감형 '복지기준선' 마련... 포용적 복지도시 실현",
+      "summary": "화성특례시가 시민 체감형 복지기준선을 마련하여 포용적 복지도시 실현을 추진하고 있다.",
+      "kw": [
+        "복지기준선",
+        "포용적복지",
+        "도시정책"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBzYWVGeFVRNm5YTzJuZVZrOGhoNVJvanE3TFhZSWlKZW5uX3lVc0c4Z1NIaHBKRjJQQzhYdHpmMklZWVVZb0RkMHREVnZmZVE1OVNNQ3lGNW51THlDYy1fS1BB?oc=5",
+      "source": "경기탑뉴스"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "DL이앤씨, GTX 노선 공사 재개 광역교통망 입지..e편한세상 동탄역 어반원 공급",
+      "summary": "DL이앤씨가 GTX 노선 공사를 재개하며 동탄역 어반원을 공급한다.",
+      "kw": [
+        "GTX노선",
+        "동탄역",
+        "부동산개발"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9aYmdxQVY3NFRYQmRjRm1QYTVkcmpudV9sYU4wVlJ0MXJ2Sy0waDZnNlVwUm1ITFhfN0NLWklRU21vaE5iN1EyakdwYnpkUmRkNVE?oc=5",
+      "source": "한국정경신문"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "화성시청소년성문화센터, 자녀와 양육자가 함께하는 월경특강‘흑백월경’개최",
+      "summary": "화성시청소년성문화센터가 자녀와 양육자를 위한 월경특강을 개최했다.",
+      "kw": [
+        "월경교육",
+        "성문화",
+        "부모교육"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9LaUlfejFPem05SU1MMDFTb2FfWDREXzR0Ymw5d0ZFcmR1QnhLUFRWNnYyNHZpVlN0RktuSDFLQ2V4b3J5WnBOb2RHSnhzeXF2d0thN0NTUG9XWWs2aGYyU2Y3dzdNLTg?oc=5",
+      "source": "경인신문"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성특례시 동탄구, 동탄7동 통장단 대상 스마트폰 AI 활용 교육 진행",
+      "summary": "화성특례시 동탄구가 동탄7동 통장단 대상 스마트폰 AI 활용교육을 진행했다.",
+      "kw": [
+        "동탄7동",
+        "스마트폰",
+        "AI교육"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE82d0ZEaHEyS3VuMmVNRDk2VzJWOFRCZkhGbmFhTWUzYnlZREswQTFVcHZQUXhaekNEbDBTN01jSVdsai0wNUlZdUlQR3ZiaTNpRkpqTGFVUGZaUWVxUV9TanJiay1mNl96YkR2bWNSWENIdw?oc=5",
+      "source": "웹이코노미"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "굿네이버스 경기남부사업본부 - 화성시 유아교육전문위원, 몽골 타힐트 지역 스마트 우물 개소식 개최",
+      "summary": "굿네이버스와 화성시 유아교육전문위원이 몽골 타힐트 지역에 스마트 우물을 개소했다.",
+      "kw": [
+        "국제개발협력",
+        "스마트우물",
+        "유아교육"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5PNHgyeUZ4aFA1TVV5WVlSdzJOZXdtRDJBTU8xR3ZUUU12VU82T2Zjcy1ZNHV6Y1ptXzJtZDNpWGg2ejhLRm91M0V6bkQ2ZWVJc0oxUzdtbG8wVE5STlZoYzdydkVzQQ?oc=5",
+      "source": "화성저널"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시, 성인 장애인 평생학습 ‘뭐든지학교’ 3기 학습자 모집",
+      "summary": "화성시가 성인 장애인 평생학습 뭐든지학교 3기 학습자를 모집하고 있다.",
+      "kw": [
+        "장애인복지",
+        "평생학습",
+        "교육기회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0zMnczb1k0dHR6UVp3em81WjAxYmowSFo2bkh3eTliR2JQdWwxTlZLUXF5b2p4aDhFWFNWWG80WF9PR1JXVXlfTGllOTZLRDBLS3BkQjM4UXMwWnJOSmY3Nlpn?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "버려진 장난감이 아이들의 놀이터로…동탄호수공원에 '아이마음놀이터' 조성",
+      "summary": "동탄호수공원에 버려진 장난감을 활용한 아이마음놀이터가 조성되었다.",
+      "kw": [
+        "동탄호수공원",
+        "놀이터",
+        "환경재활용"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5sTUdEZEo2QmprQmVTdVYyNXo1RF9lWDBSTGVzdGtLbUladk9ucDBWbkNDRzQwX19pWUx1aUl2Ml9GVU1QNEdhczFjOV9YaUsyX21SU0tSbXNlakFZcUwxbmhB?oc=5",
+      "source": "아시아뉴스통신"
+    },
+    {
+      "date": "2026-08-22",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성특례시 동탄구, 동탄7동 통장단 대상 스마트폰 AI 활용교육 실시 > 뉴스",
+      "summary": "동탄7동 통장단 대상 스마트폰 AI 활용교육 실시",
+      "kw": [
+        "AI교육",
+        "스마트폰",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBvUXFzbjNMazkyTHByNFliOTNGZ2pZZWJrWnBpdW9wU1B0b3gwUUZSTU9JaDVnejloMjMwN1RkejlWYW1iN25ibkJuYndpMHc5YmdqNk5OcnphQUNjR010VkN0VmdVaW9wYzl1VkRyZHk?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-08-22",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "﻿굿네이버스 경기남부사업본부 - 화성시 유아교육전문위원, 몽골 타힐트 지역 스마트 우물 개소",
+      "summary": "굿네이버스가 화성시와 협력하여 몽골에 스마트 우물을 설치했다.",
+      "kw": [
+        "국제협력",
+        "개발도상국지원",
+        "사회복지"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA2T3l5eTdmUHJ1R3ZjQU1zaGlTMXlJamZFaUl2c3ZnZWx4MElxd1FJZ3gzejgxdmdSa3cwUTNrYW9LSUFsNjFhbU8wMWV3YjVEdUZ4TGtOQ2k0Y0dtVDFyWDdEWGFoQWJzemg00gFrQVVfeXFMUDZPeXl5N2ZQcnVHdmNBTXNoaVMxeUlqZkVpSXZzdmdlbHgwSXF3UUlneDN6ODF2Z1JrdzBRM2thb0tJQWw2MWFtTzAxZXdiNUR1RnhMa05DaTRjR21UMXJYN0RYYWhBYnN6aDQ?oc=5",
+      "source": "K뉴스통신"
+    },
+    {
+      "date": "2026-08-22",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시의회 이계철 의장, ‘화성시민 복지기준선 수립 최종보고회’ 참석",
+      "summary": "화성특례시의회 이계철 의장이 화성시민 복지기준선 수립 최종보고회에 참석했다.",
+      "kw": [
+        "복지기준선",
+        "시의회",
+        "보고회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2TUw2RDE2SmpXMUU5cTNFSWxUNXdjeW9qSG01aUR6Q1M4UUJ6Y21tWTZfU0xrYWhLdHozb2VNN0RMbmRIV1pLS2NNcy1kM1JLZ1FaUXVBd0NOajV0X3Y4dmRUUzVxUjjSAWdBVV95cUxQNk1MNkQxNkpqVzFFOXEzRUlsVDV3Y3lvakhtNWlEekNTOFFCemNtbVk2X1NMa2FoS3R6M29lTTdETG5kSFdaS0tjTXMtZDNSS2dRWlF1QXdDTmo1dF92OHZkVFM1cVI4?oc=5",
+      "source": "HKBC환경방송"
     }
   ],
   "dropped": {
-    "count": 3,
+    "count": 9,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
+      "GTX-C·A 개통 가시화...수도권 이동시간 축소 기대감↑",
+      "안성시, 중장년의 새로운 도전 지원",
+      "산정동 자생조직 연합, 폭염 속 구슬땀 흘리며 쾌적한 보행환경 조성을 위한 환경정비 총력 > 뉴스",
+      "담양군, 토마토뿔나방 집중 방제 나서 … 농가 피해 최소화 총력 > 뉴스",
+      "안성시, 농촌체험 프로그램 개발 교육생 모집",
       "포토뉴스",
-      "신미숙 경기도의원, 높은 설비투자 부담에 청년 소공인 창업 문턱 높아 > 뉴스",
-      "[화보] '2026년 을지연습 실제훈련'"
+      "장애인 평생학습센터 ‘뭐든지학교’ 3기 학습자 모집",
+      "안성 금광호수서 국내 유일 우먼스 아우라 트레일 대회 개최",
+      "안성시, AI 디지털 크리에이터 양성과정 수강생 모집"
     ]
   },
   "briefs": {
-    "all": "수집 기간 전체 1,596건의 기사 중 [[w]]부정기사는 124건(8%)[[/w]]으로 집계되었습니다. [[b]]안전 분야에서 부정 보도가 50건으로 가장 많으며[[/b]], 동탄이 핵심 보도 대상입니다.",
-    "7": "최근 7일간 447건 중 [[w]]부정기사 21건(5%)[[/w]]로 전체 기간 대비 낮은 수준이나, 8월 18일에 8건의 부정 보도가 집중되었습니다. 행정 분야(119건)와 안전 분야(8건) 동향을 주시할 필요가 있습니다.",
-    "30": "최근 30일간 771건 중 [[w]]부정기사 66건(9%)[[/w]]으로 전체 기간 평균보다 높습니다. [[b]]8월 3일 안전 관련 부정 보도 8건이 최고조[[/b]]를 기록했으며, 같은 기간 안전 분야 부정 보도가 33건 누적되어 집중 관리가 필요합니다."
+    "all": "수집 기간 전체 1,691건의 기사 중 [[w]]부정기사 130건(8%)[[/w]]이 집계되었으며, [[b]]안전 분야에서 56건[[/b]]의 부정 보도가 가장 많았습니다. 동탄 관련 보도가 핵심 키워드로 나타났으며, 2026-08-03에 부정기사 8건이 집중되어 해당 일자의 이슈를 확인이 필요합니다.",
+    "7": "최근 7일간 403건의 기사가 수집되었으며 [[w]]부정비율은 6%[[/w]]로 전체 기간 대비 개선되었습니다. 다만 [[b]]안전 분야 부정기사 13건[[/b]]과 2026-08-18의 집중 보도 8건에 대한 모니터링이 필요합니다.",
+    "30": "최근 30일 동안 839건의 기사 중 [[w]]70건의 부정 보도([[/w]]8%)가 발생했으며, [[b]]안전 분야가 37건으로 부정 보도의 절반 이상을 차지[[/b]]하고 있습니다. 2026-08-03의 부정기사 8건 집중도에 대해 사전 검토를 권고합니다."
   },
-  "briefs_updated": "2026-08-21 06:57",
+  "briefs_updated": "2026-08-22 06:55",
   "issues": {
-    "updated": "2026-08-21 06:57",
+    "updated": "2026-08-22 06:55",
     "items": [
+      {
+        "label": "동탄역 버스환승센터서 만취 운전… 30대 운전자 불구속 입건",
+        "count": 2,
+        "sources": 2,
+        "first": "2026-08-21",
+        "last": "2026-08-21",
+        "cat": "안전",
+        "titles": [
+          "횡단보도 옆 안전지대 '쾅'…동탄역 만취 운전자 입건",
+          "동탄역 버스환승센터서 만취 운전… 30대 운전자 불구속 입건"
+        ]
+      },
       {
         "label": "경기 화성 창호공장서 화재…공장 1개동 모두 불 타",
         "count": 2,
@@ -8061,95 +9409,91 @@
           "화성특례시의회, 수원 군공항 화성시 이전 반대 특별위원회 본격 가동",
           "화성시의회 ‘수원 군공항 이전 반대 특위’ 출범 2030년까지 장기 대응"
         ]
-      },
-      {
-        "label": "[긴급진단 중] \"공무원이 할 일을 웬 기업이?\"... 화성시 자동차 임시운행 지원 행정 논란",
-        "count": 2,
-        "sources": 0,
-        "first": "2026-07-26",
-        "last": "2026-07-27",
-        "cat": "행정",
-        "titles": [
-          "[긴급진단 상] \"공무원이 할 일을 웬 기업이?\"... 화성시 자동차 임시운행 지원 행정 논란",
-          "[긴급진단 중] \"공무원이 할 일을 웬 기업이?\"... 화성시 자동차 임시운행 지원 행정 논란"
-        ]
       }
     ]
   },
   "today": {
-    "updated": "2026-08-21 06:57",
+    "updated": "2026-08-22 06:55",
     "items": [
       {
-        "label": "화성시환경재단, 20개월간 ‘1인 견적 수의계약’ 188건.. 계약관리 전방위 ‘구멍’",
+        "label": "동탄역 버스환승센터서 만취 운전… 30대 운전자 불구속 입건",
+        "count": 2,
+        "sources": 2,
+        "first": "2026-08-21",
+        "last": "2026-08-21",
+        "cat": "안전",
+        "titles": [
+          "횡단보도 옆 안전지대 '쾅'…동탄역 만취 운전자 입건",
+          "동탄역 버스환승센터서 만취 운전… 30대 운전자 불구속 입건"
+        ],
+        "score": 68,
+        "state": "확산 중"
+      },
+      {
+        "label": "화성시 동탄역서 음주운전 사고낸 30대 남성 입건",
         "count": 1,
         "sources": 1,
-        "first": "2026-08-20",
-        "last": "2026-08-20",
-        "cat": "행정",
+        "first": "2026-08-21",
+        "last": "2026-08-21",
+        "cat": "안전",
         "titles": [
-          "화성시환경재단, 20개월간 ‘1인 견적 수의계약’ 188건.. 계약관리 전방위 ‘구멍’"
+          "화성시 동탄역서 음주운전 사고낸 30대 남성 입건"
         ],
-        "score": 60,
+        "score": 53,
         "state": "신규"
       },
       {
-        "label": "【속보】 제출 끝난 대표이사 심사점수표 다시 썼다.. 화성시인재육성재단 선임절차 논란",
+        "label": "경기 동탄역서 만취 운전…구조물 들이받은 30대 입건",
         "count": 1,
         "sources": 1,
-        "first": "2026-08-20",
-        "last": "2026-08-20",
-        "cat": "행정",
+        "first": "2026-08-21",
+        "last": "2026-08-21",
+        "cat": "안전",
         "titles": [
-          "【속보】 제출 끝난 대표이사 심사점수표 다시 썼다.. 화성시인재육성재단 선임절차 논란"
+          "경기 동탄역서 만취 운전…구조물 들이받은 30대 입건"
         ],
-        "score": 60,
-        "state": "신규"
-      },
-      {
-        "label": "동탄 중학교 ‘콩나물 교실’ 원인은 교원 산정 엇박자",
-        "count": 1,
-        "sources": 1,
-        "first": "2026-08-20",
-        "last": "2026-08-20",
-        "cat": "행정",
-        "titles": [
-          "동탄 중학교 ‘콩나물 교실’ 원인은 교원 산정 엇박자"
-        ],
-        "score": 60,
+        "score": 53,
         "state": "신규"
       }
     ],
     "surge": [
       {
-        "cat": "행정",
-        "recent": 8,
+        "cat": "안전",
+        "recent": 7,
         "days": 3,
-        "base_daily": 0.17,
-        "ratio": 16.0
+        "base_daily": 1.0,
+        "ratio": 2.3
+      },
+      {
+        "cat": "행정",
+        "recent": 3,
+        "days": 3,
+        "base_daily": 0.5,
+        "ratio": 2.0
       }
     ]
   },
   "ops": {
-    "runs": 7,
-    "days": 7,
+    "runs": 8,
+    "days": 8,
     "since": "2026-08-14",
-    "last": "2026-08-20",
+    "last": "2026-08-21",
     "failures": 0
   },
   "keyword_notes": {
-    "updated": "2026-08-21 06:57",
+    "updated": "2026-08-22 06:55",
     "window": "최근 30일",
     "items": {
-      "동탄": "동탄이 산업경제 분야에서 가장 활발하게 보도되고 있으며, 81건의 기사 중 [[w]]12건의 부정 기사[[/w]]가 물류센터 안전점검과 교통사고 관련으로 보도되었습니다.",
-      "을지연습": "안전 분야 16건을 중심으로 을지연습 관련 보도가 25건 집계되었으며, [[b]]부정 기사가 전무[[/b]]해 긍정적인 여론 환경을 보이고 있습니다.",
-      "정명근": "화성특례시장 관련 22건의 보도 중 [[b]]긍정 기사가 12건으로 우세[[/b]]하나, 부정 사례들이 AI 공무원 도입과 폭염 대응 현황과 연결되어 있어 주목할 필요가 있습니다.",
-      "위안부": "행정 분야 13건을 포함한 21건의 관련 보도가 집중되었으며, [[b]]긍정·부정 평가 기사가 없어 순수 정보 전달성 보도가 주를 이루고 있습니다[[/b]].",
-      "기념식": "행정 분야 중심으로 18건이 보도되었고 [[b]]6건의 긍정 기사[[/b]]로 기념식 개최에 긍정적 반응이 나타나고 있습니다.",
-      "의회": "의회 관련 17건 보도에서 [[b]]긍정 기사 6건이 부정 1건을 크게 상회[[/b]]하며, 임시회 의결 사항이 중점적으로 다루어지고 있습니다.",
-      "광복절": "광복절 관련 15건의 행정 보도 중 [[b]]8건이 긍정 기사로 높은 비율[[/b]]을 차지하고 있으며 부정 보도는 없습니다.",
-      "우승": "문화관광 분야 14건을 포함한 15건 보도에서 [[b]]14건이 긍정 기사로 압도적 호응[[/b]]을 얻고 있습니다.",
-      "그냥드림": "복지 분야 15건 모두가 관련 보도이며 [[b]]13건의 긍정 기사로 높은 만족도[[/b]]를 나타내고 있습니다.",
-      "시장": "행정 분야 13건을 중심으로 14건 보도에서 [[b]]11건이 긍정 기사로 시장 관련 사업에 대한 긍정적 평가가 지배적[[/b]]입니다."
+      "동탄": "동탄은 82건의 기사 중 산업경제 분야(42건)에서 압도적으로 많이 다루어졌으나, [[w]]12건의 부정 기사[[/w]]는 주로 교통사고와 화재 같은 안전 사건들이어서 지역 이미지 관리가 필요합니다.",
+      "동탄역": "32건 기사 중 [[b]]긍정 기사가 16건(50%)[[/b]]으로 비율이 높으나, [[w]]PSD 미설치, 만취운전 사건 등 4건의 부정 기사[[/w]]가 안전 인프라 개선 필요성을 드러내고 있습니다.",
+      "을지연습": "안전 분야 16건을 중심으로 25건이 보도되었으며, [[b]]부정 기사 0건으로 순수한 방재훈련 소식[[/b]]으로 일관되게 전개되었습니다.",
+      "위안부": "행정 분야 중심(13건)으로 21건의 기사가 중립적으로 다루어졌으며, 긍정·부정 평가 기사가 없어 사실 위주의 보도 양상을 보입니다.",
+      "오피스텔": "20건 전량이 산업경제 분야에서 [[b]]9건의 긍정 기사[[/b]]로 집중되어 부정 기사 없이 긍정적으로 보도된 점이 주목할 만합니다.",
+      "정명근": "19건 기사 중 [[b]]10건이 긍정적[[/b]]이나, [[w]]2건의 부정 기사[[/w]]에서 AI 공무원과 폭염 대응 등 시정 추진 내용이 비판적으로 다루어진 점을 고려할 필요가 있습니다.",
+      "기념식": "행정 분야(14건)에서 광복절 관련 기념식들이 18건 보도되었으며, [[b]]부정 기사 없이 6건의 긍정 기사[[/b]]로 순조롭게 진행된 것으로 나타났습니다.",
+      "의회": "행정 분야 중심(15건)의 17건 보도에서 [[b]]긍정 6건(35%)[[/b]] 비율을 보이고 있으나, [[w]]의회 운영 관련 1건의 부정 기사[[/w]]도 포착되었습니다.",
+      "우승": "문화관광 분야 16건 전체에서 [[b]]16건이 긍정 기사로, 17건 중 94%가 긍정적[[/b]]으로 보도되어 화성시의 문화 성과가 매우 호의적으로 다루어졌습니다.",
+      "광복절": "행정 분야(14건) 중심으로 15건이 보도되었으며, [[b]]부정 기사 없이 8건의 긍정 기사[[/b]]로 기념행사가 긍정적으로 평가되었습니다."
     }
   }
 }
