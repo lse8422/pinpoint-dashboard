@@ -154,6 +154,15 @@
   .kwpanel-grid { display: grid; grid-template-columns: 1fr 210px; gap: 14px; align-items: start; }
   @media (max-width: 720px) { .kwpanel-grid { grid-template-columns: 1fr; } }
   .kwpanel-chart { height: 150px; }
+  /* 데이터가 쌓일수록 일별 막대가 길어져 추이를 읽기 어렵다. 달 단위로 끊어 본다. */
+  .mnav { display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 4px; }
+  .mnav button { border: 1px solid var(--input-border); background: var(--surface);
+    color: var(--chip-text); font-family: inherit; font-size: 13px; line-height: 1;
+    width: 26px; height: 24px; border-radius: 7px; cursor: pointer; padding: 0; }
+  .mnav button:hover:not(:disabled) { background: var(--accent-bg); }
+  .mnav button:disabled { opacity: .3; cursor: default; }
+  .mnav .lb { font-size: 12.5px; font-weight: 700; color: var(--cat-color); min-width: 84px; text-align: center; }
+  .mnav .all { font-size: 11.5px; color: var(--muted2); font-weight: 500; }
   .kwbar { display: flex; flex-direction: column; gap: 7px; }
   .kwbar-row { font-size: 12px; color: var(--muted); }
   .kwbar-track { height: 8px; border-radius: 5px; background: var(--summary-bg); margin-top: 4px; overflow: hidden; }
@@ -572,6 +581,39 @@ function fullDays(rows) {
   return out;
 }
 
+// 기간이 길면 달 단위로 끊는다. 짧으면 그냥 전부 보여준다.
+const MONTH_MIN = 46;                       // 이보다 길어지면 끊기 시작한다
+function monthsOf(days) {
+  const out = [];
+  days.forEach(d => { const m = d.slice(0, 7); if (out[out.length - 1] !== m) out.push(m); });
+  return out;
+}
+function monthLabel(ym) {
+  const [y, m] = ym.split("-");
+  return y + "년 " + Number(m) + "월";
+}
+// 보여줄 날짜 목록과 화살표 막대를 함께 돌려준다
+function monthView(allDays, cur, navId) {
+  const months = monthsOf(allDays);
+  if (allDays.length <= MONTH_MIN || months.length < 2) {
+    return { days: allDays, nav: "", month: null, months };
+  }
+  const ym = months.includes(cur) ? cur : months[months.length - 1];
+  const i = months.indexOf(ym);
+  const nav = `<div class="mnav" id="${navId}">
+    <button data-go="prev"${i === 0 ? " disabled" : ""} title="이전 달">◀</button>
+    <span class="lb">${monthLabel(ym)}</span>
+    <button data-go="next"${i === months.length - 1 ? " disabled" : ""} title="다음 달">▶</button>
+    <span class="all">달마다 나눠 봅니다</span>
+  </div>`;
+  return { days: allDays.filter(d => d.slice(0, 7) === ym), nav, month: ym, months };
+}
+// 화살표를 눌렀을 때 이웃 달을 돌려준다
+function stepMonth(months, cur, dir) {
+  const i = months.indexOf(cur);
+  return months[Math.min(months.length - 1, Math.max(0, i + dir))];
+}
+
 function articleLink(n) {
   if (n.url) return n.url;
   return "https://search.naver.com/search.naver?where=news&query=" + encodeURIComponent(n.title);
@@ -670,6 +712,8 @@ function toggleTodo(idx) {
 // 전체 비중만으로는 "보도가 많은 분야"와 "부정이 많은 분야"를 구분할 수 없다.
 let catChart = null;
 let openCat = null;
+let catMonth = null;
+let catKeep = null;
 
 function closeCatPanel() {
   openCat = null;
@@ -679,7 +723,10 @@ function closeCatPanel() {
 
 function openCategory(cat) {
   if (openCat === cat) { closeCatPanel(); return; }
+  const same = openCat === null && catKeep === cat;   // 화살표로 다시 그리는 경우
   closeCatPanel();
+  if (!same) catMonth = null;                          // 새로 여는 분야는 마지막 달부터
+  catKeep = cat;
   openCat = cat;
 
   const data = periodData().filter(n => n.cat === cat);
@@ -694,7 +741,9 @@ function openCategory(cat) {
     if (n.senti === "긍정") posByDate[n.date] = (posByDate[n.date] || 0) + 1;
     if (n.senti === "중립") neuByDate[n.date] = (neuByDate[n.date] || 0) + 1;
   });
-  const days = fullDays(periodData());
+  const spanAll = fullDays(periodData());
+  const view = monthView(spanAll, catMonth, "catMonthNav");
+  const days = view.days;
   const pct = v => Math.round(v / data.length * 100);
 
   // 같은 기간 전체와 비교해야 이 분야가 유난한지 알 수 있다
@@ -714,7 +763,7 @@ function openCategory(cat) {
     <div class="kwpanel-head">
       <span class="kwpanel-title">${CAT_LABEL[cat] || cat}</span>
       <span class="kwpanel-meta">${data.length.toLocaleString()}건 ·
-        ${days[0].replaceAll("-", ".")} ~ ${days[days.length - 1].replaceAll("-", ".")}</span>
+        ${spanAll[0].replaceAll("-", ".")} ~ ${spanAll[spanAll.length - 1].replaceAll("-", ".")}</span>
       <button class="kwpanel-close" id="catPanelClose">닫기</button>
     </div>
     <div class="kwpanel-note">
@@ -725,7 +774,7 @@ function openCategory(cat) {
       <span class="src">비율은 선택한 기간 기준으로 화면에서 계산합니다</span>
     </div>
     <div class="kwpanel-grid">
-      <div class="kwpanel-chart"><canvas id="catChartCanvas"></canvas></div>
+      <div>${view.nav}<div class="kwpanel-chart"><canvas id="catChartCanvas"></canvas></div></div>
       <div class="kwbar">
         ${bar("긍정", senti.긍정 || 0, POS_COLOR)}
         ${bar("중립", senti.중립 || 0, "#8A94A6")}
@@ -741,6 +790,13 @@ function openCategory(cat) {
 
   document.getElementById("catPanelCard").style.display = "";
   document.getElementById("catPanelClose").addEventListener("click", closeCatPanel);
+  const catNav = document.getElementById("catMonthNav");
+  if (catNav) catNav.addEventListener("click", e => {
+    const go = e.target.getAttribute("data-go");
+    if (!go) return;
+    catMonth = stepMonth(view.months, view.month, go === "prev" ? -1 : 1);
+    const c = openCat; openCat = null; openCategory(c);
+  });
 
   catChart = new Chart(document.getElementById("catChartCanvas"), {
     type: "bar",
@@ -765,9 +821,15 @@ function openCategory(cat) {
 // ── 관심 부서·기관·사업 ─────────────────────────────────────
 // 제목만으로 소관 부서를 자동 판정하면 틀린다. 그래서 추측하지 않고
 // 담당자가 직접 등록한 이름이 제목이나 키워드에 들어간 기사만 모은다.
+// 관심 목록은 담당자가 직접 입력한 글자다. 태그로 해석되지 않게 막는다.
+function escText(v) {
+  return String(v).replace(/&/g, "&amp;").replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+}
 const WATCH_KEY = "pinpoint_watch";
 let WATCH = [];
 let watchChart = null, openWatch = null;
+let watchMonth = null, watchKeep = null;
 
 function loadWatch() {
   try {
@@ -795,7 +857,7 @@ function renderWatch() {
   box.innerHTML = WATCH.map((w, i) => {
     const n = watchRows(w).length;
     return `<span class="watch${openWatch === w ? " on" : ""}" data-i="${i}">` +
-      `${w}<span class="n">${n}건</span><span class="x" data-del="${i}">×</span></span>`;
+      `${escText(w)}<span class="n">${n}건</span><span class="x" data-del="${i}">×</span></span>`;
   }).join("");
 }
 
@@ -808,14 +870,17 @@ function closeWatchPanel() {
 
 function openWatchTerm(term) {
   if (openWatch === term) { closeWatchPanel(); return; }
+  const sameW = openWatch === null && watchKeep === term;
   closeWatchPanel();
+  if (!sameW) watchMonth = null;
+  watchKeep = term;
 
   const data = watchRows(term);
   const panel = document.getElementById("watchPanel");
   if (!data.length) {
     openWatch = term;
     panel.style.display = "";
-    panel.innerHTML = `<div class="kwpanel-head"><span class="kwpanel-title">${term}</span>
+    panel.innerHTML = `<div class="kwpanel-head"><span class="kwpanel-title">${escText(term)}</span>
       <button class="kwpanel-close" id="watchClose">닫기</button></div>
       <div class="kwpanel-note">선택한 기간에 이 이름이 들어간 보도가 없습니다.</div>`;
     document.getElementById("watchClose").addEventListener("click", closeWatchPanel);
@@ -835,7 +900,9 @@ function openWatchTerm(term) {
     if (n.senti === "중립") neuByDate[n.date] = (neuByDate[n.date] || 0) + 1;
     if (n.senti === "부정") negByDate[n.date] = (negByDate[n.date] || 0) + 1;
   });
-  const days = fullDays(periodData());
+  const spanAll = fullDays(periodData());
+  const viewW = monthView(spanAll, watchMonth, "watchMonthNav");
+  const days = viewW.days;
   const pct = v => Math.round(v / data.length * 100);
   const all = periodData();
   const allNegPct = all.length ? Math.round(all.filter(n => n.senti === "부정").length / all.length * 100) : 0;
@@ -852,9 +919,9 @@ function openWatchTerm(term) {
   panel.style.display = "";
   panel.innerHTML = `
     <div class="kwpanel-head">
-      <span class="kwpanel-title">${term}</span>
+      <span class="kwpanel-title">${escText(term)}</span>
       <span class="kwpanel-meta">${data.length.toLocaleString()}건 ·
-        ${days[0].replaceAll("-", ".")} ~ ${days[days.length - 1].replaceAll("-", ".")}</span>
+        ${spanAll[0].replaceAll("-", ".")} ~ ${spanAll[spanAll.length - 1].replaceAll("-", ".")}</span>
       <button class="kwpanel-close" id="watchClose">닫기</button>
     </div>
     <div class="kwpanel-note">
@@ -866,7 +933,7 @@ function openWatchTerm(term) {
       <span class="src">제목이나 키워드에 이 이름이 들어간 기사를 모은 것입니다</span>
     </div>
     <div class="kwpanel-grid">
-      <div class="kwpanel-chart"><canvas id="watchChartCanvas"></canvas></div>
+      <div>${viewW.nav}<div class="kwpanel-chart"><canvas id="watchChartCanvas"></canvas></div></div>
       <div class="kwbar">
         ${bar("긍정", senti.긍정 || 0, POS_COLOR)}
         ${bar("중립", senti.중립 || 0, NEU_COLOR)}
@@ -881,6 +948,13 @@ function openWatchTerm(term) {
     </div>` : ""}`;
 
   document.getElementById("watchClose").addEventListener("click", closeWatchPanel);
+  const wNav = document.getElementById("watchMonthNav");
+  if (wNav) wNav.addEventListener("click", e => {
+    const go = e.target.getAttribute("data-go");
+    if (!go) return;
+    watchMonth = stepMonth(viewW.months, viewW.month, go === "prev" ? -1 : 1);
+    const t = openWatch; openWatch = null; openWatchTerm(t);
+  });
   watchChart = new Chart(document.getElementById("watchChartCanvas"), {
     type: "bar",
     data: {
@@ -932,6 +1006,7 @@ function initWatch() {
 // 집계는 여기서 직접 계산하고, 해설 문장만 미리 만들어 둔 것을 쓴다.
 let kwChart = null;
 let openKw = null;
+let kwMonth = null, kwKeep = null;
 
 function closeKwPanel() {
   openKw = null;
@@ -942,7 +1017,10 @@ function closeKwPanel() {
 
 function openKeyword(kw) {
   if (openKw === kw) { closeKwPanel(); return; }
+  const sameK = openKw === null && kwKeep === kw;
   closeKwPanel();
+  if (!sameK) kwMonth = null;
+  kwKeep = kw;
   openKw = kw;
 
   const data = periodData().filter(n => (n.kw || []).includes(kw));
@@ -956,7 +1034,9 @@ function openKeyword(kw) {
     byDate[n.date] = (byDate[n.date] || 0) + 1;
     byCat[n.cat] = (byCat[n.cat] || 0) + 1;
   });
-  const days = fullDays(periodData());
+  const spanAll = fullDays(periodData());
+  const viewK = monthView(spanAll, kwMonth, "kwMonthNav");
+  const days = viewK.days;
   const topCat = Object.entries(byCat).sort((a, b) => b[1] - a[1])[0];
   const note = KWNOTES.items && KWNOTES.items[kw];
 
@@ -970,7 +1050,7 @@ function openKeyword(kw) {
   panel.innerHTML = `
     <div class="kwpanel-head">
       <span class="kwpanel-title">${kw}</span>
-      <span class="kwpanel-meta">${data.length.toLocaleString()}건 · ${days[0].replaceAll("-", ".")} ~ ${days[days.length - 1].replaceAll("-", ".")}
+      <span class="kwpanel-meta">${data.length.toLocaleString()}건 · ${spanAll[0].replaceAll("-", ".")} ~ ${spanAll[spanAll.length - 1].replaceAll("-", ".")}
         ${topCat ? " · 최다 분야 " + CAT_LABEL[topCat[0]] + "(" + topCat[1] + "건)" : ""}</span>
       <button class="kwpanel-close" id="kwPanelSearch">이 키워드 기사 보기</button>
       <button class="kwpanel-close" id="kwPanelClose">닫기</button>
@@ -981,7 +1061,7 @@ function openKeyword(kw) {
       <span class="src">매일 수집 직후 AI가 작성${KWNOTES.updated ? " · " + KWNOTES.updated : ""}
         · 위 그래프와 분포는 선택한 기간 기준이라 숫자가 다를 수 있습니다</span></div>` : ""}
     <div class="kwpanel-grid">
-      <div class="kwpanel-chart"><canvas id="kwChartCanvas"></canvas></div>
+      <div>${viewK.nav}<div class="kwpanel-chart"><canvas id="kwChartCanvas"></canvas></div></div>
       <div class="kwbar">
         ${bar("긍정", senti.긍정 || 0, POS_COLOR)}
         ${bar("중립", senti.중립 || 0, "#8A94A6")}
@@ -990,6 +1070,13 @@ function openKeyword(kw) {
     </div>`;
   panel.style.display = "block";
   document.getElementById("kwPanelClose").addEventListener("click", closeKwPanel);
+  const kNav = document.getElementById("kwMonthNav");
+  if (kNav) kNav.addEventListener("click", e => {
+    const go = e.target.getAttribute("data-go");
+    if (!go) return;
+    kwMonth = stepMonth(viewK.months, viewK.month, go === "prev" ? -1 : 1);
+    const k = openKw; openKw = null; openKeyword(k);
+  });
   document.getElementById("kwPanelSearch").addEventListener("click", () => searchKeyword(kw));
 
   kwChart = new Chart(document.getElementById("kwChartCanvas"), {
