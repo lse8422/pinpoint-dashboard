@@ -704,9 +704,9 @@ function openCategory(cat) {
     data: {
       labels: days.map(d => d.slice(5).replace("-", ".")),
       datasets: [
-        { label: "긍정", data: days.map(d => posByDate[d] || 0), backgroundColor: POS_COLOR, borderRadius: 2 },
-        { label: "중립", data: days.map(d => neuByDate[d] || 0), backgroundColor: "#C3C9D2", borderRadius: 2 },
-        { label: "부정", data: days.map(d => negByDate[d] || 0), backgroundColor: "#C26060", borderRadius: 2, minBarLength: 4 }
+        { label: "긍정", data: days.map(d => posByDate[d] || null), backgroundColor: POS_COLOR, borderRadius: 2 },
+        { label: "중립", data: days.map(d => neuByDate[d] || null), backgroundColor: "#C3C9D2", borderRadius: 2 },
+        { label: "부정", data: days.map(d => negByDate[d] || null), backgroundColor: NEG_COLOR, borderRadius: 2, minBarLength: 4 }
       ]
     },
     options: {
@@ -842,9 +842,9 @@ function openWatchTerm(term) {
     data: {
       labels: days.map(d => d.slice(5).replace("-", ".")),
       datasets: [
-        { label: "긍정", data: days.map(d => posByDate[d] || 0), backgroundColor: POS_COLOR, borderRadius: 2 },
-        { label: "중립", data: days.map(d => neuByDate[d] || 0), backgroundColor: "#C3C9D2", borderRadius: 2 },
-        { label: "부정", data: days.map(d => negByDate[d] || 0), backgroundColor: NEG_COLOR, borderRadius: 2, minBarLength: 4 }
+        { label: "긍정", data: days.map(d => posByDate[d] || null), backgroundColor: POS_COLOR, borderRadius: 2 },
+        { label: "중립", data: days.map(d => neuByDate[d] || null), backgroundColor: "#C3C9D2", borderRadius: 2 },
+        { label: "부정", data: days.map(d => negByDate[d] || null), backgroundColor: NEG_COLOR, borderRadius: 2, minBarLength: 4 }
       ]
     },
     options: {
