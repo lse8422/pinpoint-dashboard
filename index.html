@@ -553,6 +553,25 @@ function drawChart(id, config) {
 }
 
 // 기사 원문 링크 — 데이터에 url이 있으면 사용하고, 없으면 제목으로 뉴스 검색을 연결한다
+// 기사가 0건인 날을 빼면 가로축이 시간축이 아니게 된다.
+// 열흘 공백과 하루 간격이 같은 폭으로 그려져 추이가 왜곡되므로,
+// 선택한 기간의 모든 날짜를 빠짐없이 만들어 축으로 쓴다.
+function fullDays(rows) {
+  if (!rows.length) return [];
+  const ds = rows.map(n => n.date).sort();
+  const out = [];
+  const cur = new Date(ds[0] + "T00:00:00");
+  const end = new Date(ds[ds.length - 1] + "T00:00:00");
+  while (cur <= end) {
+    out.push(cur.getFullYear() + "-" +
+      String(cur.getMonth() + 1).padStart(2, "0") + "-" +
+      String(cur.getDate()).padStart(2, "0"));
+    cur.setDate(cur.getDate() + 1);
+    if (out.length > 400) break;          // 안전장치
+  }
+  return out;
+}
+
 function articleLink(n) {
   if (n.url) return n.url;
   return "https://search.naver.com/search.naver?where=news&query=" + encodeURIComponent(n.title);
@@ -675,7 +694,7 @@ function openCategory(cat) {
     if (n.senti === "긍정") posByDate[n.date] = (posByDate[n.date] || 0) + 1;
     if (n.senti === "중립") neuByDate[n.date] = (neuByDate[n.date] || 0) + 1;
   });
-  const days = Object.keys(byDate).sort();
+  const days = fullDays(periodData());
   const pct = v => Math.round(v / data.length * 100);
 
   // 같은 기간 전체와 비교해야 이 분야가 유난한지 알 수 있다
@@ -736,7 +755,8 @@ function openCategory(cat) {
     options: {
       responsive: true, maintainAspectRatio: false,
       plugins: { legend: { display: true, position: "top", labels: { boxWidth: 14, font: { size: 10.5 } } } },
-      scales: { x: { stacked: true }, y: { stacked: true, beginAtZero: true, ticks: { precision: 0 } } }
+      scales: { x: { stacked: true, ticks: { autoSkip: true, maxTicksLimit: 14 } },
+                 y: { stacked: true, beginAtZero: true, ticks: { precision: 0 } } }
     }
   });
   document.getElementById("catPanelCard").scrollIntoView({ behavior: "smooth", block: "nearest" });
@@ -815,7 +835,7 @@ function openWatchTerm(term) {
     if (n.senti === "중립") neuByDate[n.date] = (neuByDate[n.date] || 0) + 1;
     if (n.senti === "부정") negByDate[n.date] = (negByDate[n.date] || 0) + 1;
   });
-  const days = Object.keys(byDate).sort();
+  const days = fullDays(periodData());
   const pct = v => Math.round(v / data.length * 100);
   const all = periodData();
   const allNegPct = all.length ? Math.round(all.filter(n => n.senti === "부정").length / all.length * 100) : 0;
@@ -874,7 +894,8 @@ function openWatchTerm(term) {
     options: {
       responsive: true, maintainAspectRatio: false,
       plugins: { legend: { display: true, position: "top", labels: { boxWidth: 14, font: { size: 10.5 } } } },
-      scales: { x: { stacked: true }, y: { stacked: true, beginAtZero: true, ticks: { precision: 0 } } }
+      scales: { x: { stacked: true, ticks: { autoSkip: true, maxTicksLimit: 14 } },
+                 y: { stacked: true, beginAtZero: true, ticks: { precision: 0 } } }
     }
   });
   renderWatch();
@@ -935,7 +956,7 @@ function openKeyword(kw) {
     byDate[n.date] = (byDate[n.date] || 0) + 1;
     byCat[n.cat] = (byCat[n.cat] || 0) + 1;
   });
-  const days = Object.keys(byDate).sort();
+  const days = fullDays(periodData());
   const topCat = Object.entries(byCat).sort((a, b) => b[1] - a[1])[0];
   const note = KWNOTES.items && KWNOTES.items[kw];
 
@@ -1028,7 +1049,7 @@ function toggleIssue(idx) {
     .sort((a, b) => a.date.localeCompare(b.date));
   const byDate = {};
   arts.forEach(n => byDate[n.date] = (byDate[n.date] || 0) + 1);
-  const days = Object.keys(byDate).sort();
+  const days = fullDays(arts);
 
   const el = document.querySelector(`#issueList .issue[data-i="${idx}"]`);
   el.classList.add("on");
