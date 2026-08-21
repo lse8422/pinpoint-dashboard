@@ -114,6 +114,7 @@
   .chart-box { position: relative; height: 180px; }
   /* 두 출처를 섞어 보여주지 않기 위한 안내와 전환 버튼 */
   .chart-note { margin-top: 9px; font-size: 11.5px; line-height: 1.5; color: var(--muted); }
+  .src-user { opacity: .92; }
   .chart-head { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
   .scope { margin-left: auto; display: flex; gap: 4px; }
   .scope-btn { font-size: 11px; padding: 3px 9px; border-radius: 10px; cursor: pointer;
@@ -259,6 +260,21 @@
 
   footer { text-align: center; font-size: 11px; color: var(--muted2); padding: 10px 0 30px; }
   @media (max-width: 800px) { .stats { grid-template-columns: repeat(2, 1fr); } .charts { grid-template-columns: 1fr; } }
+  /* 휴대폰에서는 손가락으로 누르므로 누르는 영역을 키운다. 데스크탑 배치는 건드리지 않는다. */
+  @media (max-width: 640px) {
+    .chip, .kw, .watch { min-height: 40px; display: inline-flex; align-items: center; padding-top: 0; padding-bottom: 0; }
+    .chip { padding-left: 15px; padding-right: 15px; }
+    .kw { padding-left: 15px; padding-right: 15px; }
+    .watch { padding-left: 15px; padding-right: 6px; }
+    .watch .x { padding: 0 9px; font-size: 17px; }
+    .scope-btn { min-height: 34px; padding-left: 13px; padding-right: 13px; }
+    .watch-form input { min-height: 42px; }
+    .watch-form button { min-height: 42px; padding-left: 20px; padding-right: 20px; }
+    .kwpanel-close { min-height: 36px; padding-left: 14px; padding-right: 14px; }
+    .date-input { min-height: 40px; }
+    #darkToggle { min-height: 38px; }
+    .src-user { display: block; }
+  }
   body.dark .senti.neg { background: #A85F5F; color: #e2e2e2; }
 
   /* Flatpickr 커스텀 스타일 */
@@ -320,6 +336,7 @@
 <div class="src-bar">
   <span class="src-item"><b>화성특례시</b> AI·DATA 공모전 · 지정과제 16번 정책 모니터링형</span>
   <span class="src-item" id="srcData">데이터 출처 <b>빅카인즈</b> 검증본 <b>1,026건</b> · 수집 2026.06.06~08.06</span>
+  <span class="src-item src-user">화성시 <b>홍보 담당 부서</b>의 아침 업무용 화면입니다</span>
 </div>
 
 <header>
