@@ -115,6 +115,11 @@
   /* 두 출처를 섞어 보여주지 않기 위한 안내와 전환 버튼 */
   .chart-note { margin-top: 9px; font-size: 11.5px; line-height: 1.5; color: var(--muted); }
   .src-user { opacity: .92; }
+  /* 출근길에 휴대폰으로 3건만 보는 화면으로 넘어가는 링크 */
+  .simple-link { font-size: 12.5px; font-weight: 600; color: var(--chip-text);
+    background: var(--surface); border: 1px solid var(--input-border); border-radius: 8px;
+    padding: 6px 11px; text-decoration: none; margin-right: 7px; white-space: nowrap; }
+  .simple-link:hover { background: var(--accent-bg); }
   .chart-head { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
   .scope { margin-left: auto; display: flex; gap: 4px; }
   .scope-btn { font-size: 11px; padding: 3px 9px; border-radius: 10px; cursor: pointer;
@@ -273,6 +278,7 @@
     .kwpanel-close { min-height: 36px; padding-left: 14px; padding-right: 14px; }
     .date-input { min-height: 40px; }
     #darkToggle { min-height: 38px; }
+    .simple-link { min-height: 38px; display: inline-flex; align-items: center; }
     .src-user { display: block; }
   }
   body.dark .senti.neg { background: #A85F5F; color: #e2e2e2; }
@@ -343,6 +349,7 @@
   <h1><span class="pin">📍</span> 핀포인트 — 화성시 언론보도 대시보드</h1>
   <span class="badge" id="badge">데이터 불러오는 중…</span>
   <span class="clock" id="clock"></span>
+  <a class="simple-link" href="m.html">📱 간편 보기</a>
   <button id="darkToggle" onclick="toggleDark()">🌙 다크</button>
 </header>
 
