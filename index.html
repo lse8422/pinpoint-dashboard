@@ -194,6 +194,10 @@
   .trust-item { background: var(--summary-bg); border: 1px solid var(--border); border-radius: 9px;
     padding: 6px 12px; font-size: 11.5px; color: var(--summary-text); }
   .trust-item b { color: var(--stat-value); font-weight: 800; }
+  .todo-label .todo-open { color: inherit; text-decoration: none; }
+  .todo-label .todo-open:hover { text-decoration: underline; }
+  .todo-label .ext { font-size: 11px; color: var(--muted2); font-weight: 500; margin-left: 6px; }
+  .todo-more { font-size: 11px; color: var(--muted2); font-weight: 500; margin-left: 6px; }
 
   /* 주목 이슈 — 같은 사건을 여러 매체가 보도한 것을 하나로 묶어 보여준다 */
   .issues-head { display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap; margin-bottom: 10px; }
@@ -510,6 +514,17 @@ function markupBrief(s) {
 // 점수와 상태는 수집 단계에서 계산해 둔 것을 그대로 쓴다. 화면은 그리기만 한다.
 let openTodo = null;
 
+// 묶인 기사가 하나뿐이면 제목을 곧바로 원문으로 잇는다.
+// 여러 건이면 펼쳐서 묶인 기사를 보여주므로 그 사실을 제목 옆에 밝힌다.
+function todoLabel(it) {
+  if (it.count === 1) {
+    const n = NEWS.find(x => x.title === it.titles[0]);
+    if (n) return `<a class="todo-open" href="${articleLink(n)}" target="_blank" rel="noopener"`
+      + ` onclick="event.stopPropagation()">${it.label}<span class="ext">원문 ↗</span></a>`;
+  }
+  return `${it.label}<span class="todo-more">묶인 기사 ${it.count}건 ▾</span>`;
+}
+
 function renderToday() {
   const card = document.getElementById("todayCard");
   const items = (TODAY.items || []);
@@ -531,7 +546,7 @@ function renderToday() {
     <div class="todo" data-i="${i}">
       <div class="todo-rank">${i + 1}</div>
       <div class="todo-body">
-        <div class="todo-label">${it.label}</div>
+        <div class="todo-label">${todoLabel(it)}</div>
         <div class="todo-meta">
           <span class="todo-state st-${(it.state || "").replace(/\s/g, "")}">${it.state}</span>
           ${it.sources ? `<span>${it.sources}개 매체</span>` : ""}
@@ -596,11 +611,13 @@ function openCategory(cat) {
   if (!data.length) return;
 
   const senti = { 긍정: 0, 중립: 0, 부정: 0 };
-  const byDate = {}, negByDate = {};
+  const byDate = {}, negByDate = {}, posByDate = {}, neuByDate = {};
   data.forEach(n => {
     senti[n.senti] = (senti[n.senti] || 0) + 1;
     byDate[n.date] = (byDate[n.date] || 0) + 1;
     if (n.senti === "부정") negByDate[n.date] = (negByDate[n.date] || 0) + 1;
+    if (n.senti === "긍정") posByDate[n.date] = (posByDate[n.date] || 0) + 1;
+    if (n.senti === "중립") neuByDate[n.date] = (neuByDate[n.date] || 0) + 1;
   });
   const days = Object.keys(byDate).sort();
   const pct = v => Math.round(v / data.length * 100);
@@ -655,14 +672,15 @@ function openCategory(cat) {
     data: {
       labels: days.map(d => d.slice(5).replace("-", ".")),
       datasets: [
-        { label: "전체", data: days.map(d => byDate[d]), backgroundColor: "#8FA98A", borderRadius: 3 },
-        { label: "부정", data: days.map(d => negByDate[d] || 0), backgroundColor: "#C26060", borderRadius: 3 }
+        { label: "긍정", data: days.map(d => posByDate[d] || 0), backgroundColor: "#8FA98A", borderRadius: 2 },
+        { label: "중립", data: days.map(d => neuByDate[d] || 0), backgroundColor: "#C3C9D2", borderRadius: 2 },
+        { label: "부정", data: days.map(d => negByDate[d] || 0), backgroundColor: "#C26060", borderRadius: 2, minBarLength: 4 }
       ]
     },
     options: {
       responsive: true, maintainAspectRatio: false,
       plugins: { legend: { display: true, position: "top", labels: { boxWidth: 14, font: { size: 10.5 } } } },
-      scales: { x: { stacked: false }, y: { beginAtZero: true, ticks: { precision: 0 } } }
+      scales: { x: { stacked: true }, y: { stacked: true, beginAtZero: true, ticks: { precision: 0 } } }
     }
   });
   document.getElementById("catPanelCard").scrollIntoView({ behavior: "smooth", block: "nearest" });
@@ -1000,7 +1018,8 @@ function renderList() {
   const data = periodData().filter(n => {
     if (filter === "부정" && n.senti !== "부정") return false;
     if (filter !== "all" && filter !== "부정" && n.cat !== filter) return false;
-    if (q && !(n.title.includes(q) || n.kw.some(k => k.includes(q)))) return false;
+    if (q && !q.split(/\s+/).filter(Boolean)
+      .every(w => n.title.includes(w) || n.kw.some(k => k.includes(w)))) return false;
     return true;
   }).sort((a, b) => b.date.localeCompare(a.date));
 
