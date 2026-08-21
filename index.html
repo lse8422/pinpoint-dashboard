@@ -245,7 +245,15 @@
   .issue-art { font-size: 12.5px; color: var(--summary-text); line-height: 1.5; }
   .issue-art .d { color: var(--muted2); margin-right: 7px; }
 
-  .toolbar { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; align-items: center; }
+  /* 기사 목록이 화면 세 개 분량이라, 내려가면 필터가 사라져 매번 위로 올라와야 했다.
+     목록을 훑는 동안에도 필터와 검색을 쓸 수 있게 화면 위에 붙여 둔다. */
+  .toolbar { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; align-items: center;
+    position: sticky; top: 0; z-index: 40; background: var(--bg);
+    padding: 10px 12px; margin-left: -12px; margin-right: -12px;
+    border-bottom: 1px solid transparent; transition: border-color .15s, box-shadow .15s; }
+  .toolbar.stuck { border-bottom-color: var(--border); box-shadow: 0 4px 14px rgba(0,0,0,.06); }
+  body.dark .toolbar.stuck { box-shadow: 0 4px 14px rgba(0,0,0,.4); }
+  .toolbar .count { margin-left: auto; font-size: 12.5px; color: var(--muted); font-weight: 600; }
   .toolbar input { flex: 1; min-width: 160px; padding: 8px 14px; border: 1px solid var(--input-border); border-radius: 20px; font-size: 13px; outline: none; background: var(--surface); color: var(--text); }
   .toolbar input:focus { border-color: var(--accent); }
   .chip { padding: 6px 13px; border: 1px solid var(--input-border); border-radius: 16px; background: var(--surface); font-size: 12.5px; cursor: pointer; user-select: none; color: var(--chip-text); }
@@ -272,6 +280,15 @@
 
   .load-error { background: #fdebec; border: 1px solid #f5c2c5; color: #c62828; border-radius: 12px; padding: 16px; font-size: 13px; line-height: 1.7; margin-bottom: 16px; }
 
+  /* 목록 아래쪽에서 위쪽 카드로 한 번에 돌아가기 */
+  .to-top { position: fixed; right: 22px; bottom: 22px; z-index: 60;
+    width: 46px; height: 46px; border-radius: 50%; border: 1px solid var(--border);
+    background: var(--surface); color: var(--cat-color); font-size: 17px; font-weight: 700;
+    cursor: pointer; box-shadow: 0 4px 14px rgba(0,0,0,.12); font-family: inherit;
+    display: none; align-items: center; justify-content: center; padding: 0; }
+  .to-top.on { display: flex; }
+  .to-top:hover { background: var(--accent-bg); }
+  @media (max-width: 640px) { .to-top { right: 14px; bottom: 14px; width: 50px; height: 50px; } }
   footer { text-align: center; font-size: 11px; color: var(--muted2); padding: 10px 0 30px; }
   @media (max-width: 800px) { .stats { grid-template-columns: repeat(2, 1fr); } .charts { grid-template-columns: 1fr; } }
   /* 휴대폰에서는 손가락으로 누르므로 누르는 영역을 키운다. 데스크탑 배치는 건드리지 않는다. */
@@ -289,6 +306,11 @@
     #darkToggle { min-height: 38px; }
     .simple-link { min-height: 38px; display: inline-flex; align-items: center; }
     .src-user { display: block; }
+    /* 휴대폰에서는 칩이 여러 줄로 접혀 화면의 5분의 1을 가린다.
+       고정하지 않고, 대신 맨 위로 버튼으로 돌아가게 한다. */
+    .toolbar { position: static; padding-left: 0; padding-right: 0;
+      margin-left: 0; margin-right: 0; box-shadow: none; border-bottom: none; }
+    .toolbar .count { margin-left: 0; width: 100%; }
   }
   body.dark .senti.neg { background: #A85F5F; color: #e2e2e2; }
 
@@ -462,7 +484,7 @@
     <div class="chart-note">분류를 추측하지 않고 담당자가 직접 지정합니다. 등록한 목록은 이 브라우저에만 저장됩니다.</div>
   </div>
 
-  <div class="toolbar">
+  <div class="toolbar" id="toolbar">
     <input type="text" id="search" placeholder="기사 제목·키워드 검색">
     <span class="chip cat-chip active" data-f="all">전체</span>
     <span class="chip cat-chip" data-f="교통">교통</span>
@@ -473,9 +495,9 @@
     <span class="chip cat-chip" data-f="안전">안전</span>
     <span class="chip cat-chip" data-f="복지">복지</span>
     <span class="chip cat-chip neg" data-f="부정">부정 이슈만</span>
+    <span class="count" id="listCount"></span>
   </div>
 
-  <div class="list-count" id="listCount"></div>
   <div id="list"></div>
   <div class="more-wrap" id="moreWrap" style="display:none;"><button class="more-btn" id="moreBtn">더보기</button></div>
 </div>
@@ -1510,6 +1532,23 @@ async function init() {
   }
 }
 // 헤더 시계 — 현재 조회 시각을 표시한다
+// 필터 바가 화면 위에 붙었을 때만 그림자를 준다. 붙기 전에는 평범한 줄로 보인다.
+(function () {
+  const btn = document.createElement("button");
+  btn.className = "to-top"; btn.id = "toTop"; btn.title = "맨 위로";
+  btn.textContent = "\u2191";
+  btn.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+  document.body.appendChild(btn);
+
+  function onScroll() {
+    const tb = document.getElementById("toolbar");
+    if (tb) tb.classList.toggle("stuck", tb.getBoundingClientRect().top <= 1);
+    btn.classList.toggle("on", window.scrollY > 700);
+  }
+  window.addEventListener("scroll", onScroll, { passive: true });
+  onScroll();
+})();
+
 function tick() {
   const d = new Date();
   const days = ["일", "월", "화", "수", "목", "금", "토"];
