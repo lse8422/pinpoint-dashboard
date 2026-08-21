@@ -202,6 +202,20 @@
   /* 주목 이슈 — 같은 사건을 여러 매체가 보도한 것을 하나로 묶어 보여준다 */
   .issues-head { display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap; margin-bottom: 10px; }
   .issues-note { font-size: 12.5px; color: var(--muted); }
+  .watch-form { display: flex; gap: 8px; margin: 10px 0 12px; flex-wrap: wrap; }
+  .watch-form input { flex: 1; min-width: 180px; padding: 7px 12px; font-size: 13px;
+    border: 1px solid var(--input-border); border-radius: 8px; background: var(--surface); color: var(--text); }
+  .watch-form button { padding: 7px 16px; font-size: 13px; font-weight: 600; cursor: pointer;
+    border: none; border-radius: 8px; background: var(--chip-active-bg); color: #fff; }
+  .watch-list { display: flex; gap: 8px; flex-wrap: wrap; }
+  .watch { display: inline-flex; align-items: center; gap: 6px; background: var(--cat-bg);
+    color: var(--cat-color); font-size: 12.5px; padding: 5px 8px 5px 13px; border-radius: 15px;
+    font-weight: 600; cursor: pointer; }
+  .watch.on { background: var(--chip-active-bg); color: #fff; }
+  .watch .n { font-weight: 500; opacity: .75; }
+  .watch .x { font-size: 14px; line-height: 1; opacity: .5; padding: 0 3px; }
+  .watch .x:hover { opacity: 1; }
+  .watch-empty { font-size: 12.5px; color: var(--muted2); }
   .issue-list { display: flex; flex-direction: column; gap: 9px; }
   .issue { border: 1px solid var(--border); border-left: 4px solid var(--neg); border-radius: 10px;
     padding: 11px 14px; cursor: pointer; background: var(--surface); }
@@ -401,6 +415,20 @@
     <div class="kwpanel" id="kwPanel" style="display:none;"></div>
   </div>
 
+  <div class="card" id="watchCard">
+    <div class="issues-head">
+      <h3 style="margin:0;">관심 부서 · 기관 · 사업</h3>
+      <span class="issues-note">담당 부서나 기관, 사업 이름을 등록하면 그 이름이 들어간 보도만 모아 봅니다.</span>
+    </div>
+    <div class="watch-form">
+      <input id="watchInput" type="text" maxlength="20" placeholder="예) 환경재단, 동물보호과, 동탄2신도시">
+      <button id="watchAdd">등록</button>
+    </div>
+    <div class="watch-list" id="watchList"></div>
+    <div class="kwpanel" id="watchPanel" style="display:none;"></div>
+    <div class="chart-note">분류를 추측하지 않고 담당자가 직접 지정합니다. 등록한 목록은 이 브라우저에만 저장됩니다.</div>
+  </div>
+
   <div class="toolbar">
     <input type="text" id="search" placeholder="기사 제목·키워드 검색">
     <span class="chip cat-chip active" data-f="all">전체</span>
@@ -423,8 +451,12 @@
 
 <script>
 const CAT_LABEL = { "교통": "교통", "환경": "환경", "행정": "행정", "문화관광": "문화·관광", "산업경제": "산업·경제", "안전": "안전", "복지": "복지" };
-const CAT_COLORS_LIGHT = { "안전": "#445951", "산업경제": "#446B58", "환경": "#8EA79D", "문화관광": "#BBC7C4", "행정": "#618C78", "교통": "#769789", "복지": "#DAE1DF" };
-const CAT_COLORS_DARK  = { "안전": "#47574a", "산업경제": "#506253", "환경": "#94a798", "문화관광": "#b9c6bb", "행정": "#6c846f", "교통": "#819885", "복지": "#dbe1db" };
+// 분야는 순서가 없는 항목이라 밝기가 아니라 색상으로 나눈다.
+// 빨강은 부정, 파랑은 긍정에 이미 쓰고 있으므로 분야 색에서는 뺀다.
+const CAT_COLORS_LIGHT = { "산업경제": "#4D7045", "문화관광": "#C0A05E", "행정": "#86A87C", "안전": "#7E6396", "복지": "#9AA85E", "교통": "#7D6A58", "환경": "#3E8C87" };
+const CAT_COLORS_DARK  = { "산업경제": "#6E9166", "문화관광": "#CDB176", "행정": "#9DBB94", "안전": "#9A80AE", "복지": "#B0BC75", "교통": "#9A8672", "환경": "#55A39E" };
+// 긍정·중립·부정은 화면 어디서나 같은 색을 쓴다
+const POS_COLOR = "#5B7FA8", NEU_COLOR = "#8A94A6", NEG_COLOR = "#C26060";
 const SENTI_CLASS = { "긍정": "pos", "중립": "neu", "부정": "neg" };
 const PAGE_SIZE = 20;
 
@@ -652,7 +684,7 @@ function openCategory(cat) {
     <div class="kwpanel-grid">
       <div class="kwpanel-chart"><canvas id="catChartCanvas"></canvas></div>
       <div class="kwbar">
-        ${bar("긍정", senti.긍정 || 0, "#4C8C4A")}
+        ${bar("긍정", senti.긍정 || 0, POS_COLOR)}
         ${bar("중립", senti.중립 || 0, "#8A94A6")}
         ${bar("부정", senti.부정 || 0, "#C26060")}
       </div>
@@ -672,7 +704,7 @@ function openCategory(cat) {
     data: {
       labels: days.map(d => d.slice(5).replace("-", ".")),
       datasets: [
-        { label: "긍정", data: days.map(d => posByDate[d] || 0), backgroundColor: "#8FA98A", borderRadius: 2 },
+        { label: "긍정", data: days.map(d => posByDate[d] || 0), backgroundColor: POS_COLOR, borderRadius: 2 },
         { label: "중립", data: days.map(d => neuByDate[d] || 0), backgroundColor: "#C3C9D2", borderRadius: 2 },
         { label: "부정", data: days.map(d => negByDate[d] || 0), backgroundColor: "#C26060", borderRadius: 2, minBarLength: 4 }
       ]
@@ -684,6 +716,171 @@ function openCategory(cat) {
     }
   });
   document.getElementById("catPanelCard").scrollIntoView({ behavior: "smooth", block: "nearest" });
+}
+
+// ── 관심 부서·기관·사업 ─────────────────────────────────────
+// 제목만으로 소관 부서를 자동 판정하면 틀린다. 그래서 추측하지 않고
+// 담당자가 직접 등록한 이름이 제목이나 키워드에 들어간 기사만 모은다.
+const WATCH_KEY = "pinpoint_watch";
+let WATCH = [];
+let watchChart = null, openWatch = null;
+
+function loadWatch() {
+  try {
+    const v = JSON.parse(localStorage.getItem(WATCH_KEY));
+    if (Array.isArray(v)) return v.filter(x => typeof x === "string").slice(0, 12);
+  } catch (e) {}
+  return ["화성시환경재단", "화성시문화관광재단", "동탄"];
+}
+
+function saveWatch() {
+  try { localStorage.setItem(WATCH_KEY, JSON.stringify(WATCH)); } catch (e) {}
+}
+
+function watchRows(term) {
+  return periodData().filter(n =>
+    n.title.includes(term) || (n.kw || []).some(k => k.includes(term)));
+}
+
+function renderWatch() {
+  const box = document.getElementById("watchList");
+  if (!WATCH.length) {
+    box.innerHTML = `<span class="watch-empty">등록된 이름이 없습니다. 위에 입력해 보세요.</span>`;
+    return;
+  }
+  box.innerHTML = WATCH.map((w, i) => {
+    const n = watchRows(w).length;
+    return `<span class="watch${openWatch === w ? " on" : ""}" data-i="${i}">` +
+      `${w}<span class="n">${n}건</span><span class="x" data-del="${i}">×</span></span>`;
+  }).join("");
+}
+
+function closeWatchPanel() {
+  openWatch = null;
+  if (watchChart) { watchChart.destroy(); watchChart = null; }
+  document.getElementById("watchPanel").style.display = "none";
+  renderWatch();
+}
+
+function openWatchTerm(term) {
+  if (openWatch === term) { closeWatchPanel(); return; }
+  closeWatchPanel();
+
+  const data = watchRows(term);
+  const panel = document.getElementById("watchPanel");
+  if (!data.length) {
+    openWatch = term;
+    panel.style.display = "";
+    panel.innerHTML = `<div class="kwpanel-head"><span class="kwpanel-title">${term}</span>
+      <button class="kwpanel-close" id="watchClose">닫기</button></div>
+      <div class="kwpanel-note">선택한 기간에 이 이름이 들어간 보도가 없습니다.</div>`;
+    document.getElementById("watchClose").addEventListener("click", closeWatchPanel);
+    renderWatch();
+    return;
+  }
+  openWatch = term;
+
+  const senti = { 긍정: 0, 중립: 0, 부정: 0 };
+  const byDate = {}, posByDate = {}, neuByDate = {}, negByDate = {};
+  const byCat = {};
+  data.forEach(n => {
+    senti[n.senti] = (senti[n.senti] || 0) + 1;
+    byDate[n.date] = (byDate[n.date] || 0) + 1;
+    byCat[n.cat] = (byCat[n.cat] || 0) + 1;
+    if (n.senti === "긍정") posByDate[n.date] = (posByDate[n.date] || 0) + 1;
+    if (n.senti === "중립") neuByDate[n.date] = (neuByDate[n.date] || 0) + 1;
+    if (n.senti === "부정") negByDate[n.date] = (negByDate[n.date] || 0) + 1;
+  });
+  const days = Object.keys(byDate).sort();
+  const pct = v => Math.round(v / data.length * 100);
+  const all = periodData();
+  const allNegPct = all.length ? Math.round(all.filter(n => n.senti === "부정").length / all.length * 100) : 0;
+  const negPct = pct(senti.부정 || 0);
+  const diff = negPct - allNegPct;
+  const topCat = Object.entries(byCat).sort((a, b) => b[1] - a[1])[0];
+  const negTop = data.filter(n => n.senti === "부정")
+    .sort((a, b) => b.date.localeCompare(a.date)).slice(0, 3);
+
+  const bar = (label, val, color) => `
+    <div class="kwbar-row">${label} <b style="color:${color}">${val}건</b> (${pct(val)}%)
+      <div class="kwbar-track"><div class="kwbar-fill" style="width:${pct(val)}%;background:${color}"></div></div></div>`;
+
+  panel.style.display = "";
+  panel.innerHTML = `
+    <div class="kwpanel-head">
+      <span class="kwpanel-title">${term}</span>
+      <span class="kwpanel-meta">${data.length.toLocaleString()}건 ·
+        ${days[0].replaceAll("-", ".")} ~ ${days[days.length - 1].replaceAll("-", ".")}</span>
+      <button class="kwpanel-close" id="watchClose">닫기</button>
+    </div>
+    <div class="kwpanel-note">
+      이 이름이 들어간 보도는 <b>${data.length}건</b>이고 그중 부정은 <b>${negPct}%</b>입니다.
+      같은 기간 전체 평균은 ${allNegPct}%로,
+      ${diff > 0 ? `<span class="warn">${diff}%포인트 높습니다. 우선 확인이 필요합니다.</span>`
+        : diff < 0 ? `${Math.abs(diff)}%포인트 낮습니다.` : `평균과 같습니다.`}
+      ${topCat ? ` 주로 <b>${CAT_LABEL[topCat[0]] || topCat[0]}</b> 분야에서 다뤄졌습니다.` : ""}
+      <span class="src">제목이나 키워드에 이 이름이 들어간 기사를 모은 것입니다</span>
+    </div>
+    <div class="kwpanel-grid">
+      <div class="kwpanel-chart"><canvas id="watchChartCanvas"></canvas></div>
+      <div class="kwbar">
+        ${bar("긍정", senti.긍정 || 0, POS_COLOR)}
+        ${bar("중립", senti.중립 || 0, NEU_COLOR)}
+        ${bar("부정", senti.부정 || 0, NEG_COLOR)}
+      </div>
+    </div>
+    ${negTop.length ? `<div style="margin-top:12px;">
+      <div style="font-size:12px;color:var(--muted);margin-bottom:6px;">최근 부정 보도</div>
+      <div class="issue-arts">${negTop.map(n =>
+        `<div class="issue-art"><span class="d">${n.date.replaceAll("-", ".")}</span>` +
+        `<a href="${articleLink(n)}" target="_blank" rel="noopener">${n.title}</a></div>`).join("")}</div>
+    </div>` : ""}`;
+
+  document.getElementById("watchClose").addEventListener("click", closeWatchPanel);
+  watchChart = new Chart(document.getElementById("watchChartCanvas"), {
+    type: "bar",
+    data: {
+      labels: days.map(d => d.slice(5).replace("-", ".")),
+      datasets: [
+        { label: "긍정", data: days.map(d => posByDate[d] || 0), backgroundColor: POS_COLOR, borderRadius: 2 },
+        { label: "중립", data: days.map(d => neuByDate[d] || 0), backgroundColor: "#C3C9D2", borderRadius: 2 },
+        { label: "부정", data: days.map(d => negByDate[d] || 0), backgroundColor: NEG_COLOR, borderRadius: 2, minBarLength: 4 }
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: true, position: "top", labels: { boxWidth: 14, font: { size: 10.5 } } } },
+      scales: { x: { stacked: true }, y: { stacked: true, beginAtZero: true, ticks: { precision: 0 } } }
+    }
+  });
+  renderWatch();
+}
+
+function initWatch() {
+  WATCH = loadWatch();
+  const add = () => {
+    const el = document.getElementById("watchInput");
+    const v = el.value.trim();
+    if (!v) return;
+    if (WATCH.includes(v)) { el.value = ""; openWatchTerm(v); return; }
+    if (WATCH.length >= 12) { WATCH.shift(); }
+    WATCH.push(v); saveWatch(); el.value = "";
+    renderWatch(); openWatchTerm(v);
+  };
+  document.getElementById("watchAdd").addEventListener("click", add);
+  document.getElementById("watchInput").addEventListener("keydown", e => { if (e.key === "Enter") add(); });
+  document.getElementById("watchList").addEventListener("click", e => {
+    const del = e.target.getAttribute("data-del");
+    if (del !== null) {
+      const term = WATCH[+del];
+      WATCH.splice(+del, 1); saveWatch();
+      if (openWatch === term) closeWatchPanel(); else renderWatch();
+      return;
+    }
+    const chip = e.target.closest(".watch");
+    if (chip) openWatchTerm(WATCH[+chip.getAttribute("data-i")]);
+  });
+  renderWatch();
 }
 
 // ── 키워드 상세 ─────────────────────────────────────────────
@@ -741,7 +938,7 @@ function openKeyword(kw) {
     <div class="kwpanel-grid">
       <div class="kwpanel-chart"><canvas id="kwChartCanvas"></canvas></div>
       <div class="kwbar">
-        ${bar("긍정", senti.긍정 || 0, "#4C8C4A")}
+        ${bar("긍정", senti.긍정 || 0, POS_COLOR)}
         ${bar("중립", senti.중립 || 0, "#8A94A6")}
         ${bar("부정", senti.부정 || 0, "#C26060")}
       </div>
@@ -1000,15 +1197,20 @@ function updateDashboard() {
     type: "bar",
     data: { labels: ["긍정", "중립", "부정"],
       datasets: [{ data: [sentiCount["긍정"], sentiCount["중립"], sentiCount["부정"]], backgroundColor: [
-          isDark() ? "#4e637f" : "#6781A1",
-          isDark() ? "#5c5f64" : "#8d9096",
-          isDark() ? "#915454" : "#C26060"
+          isDark() ? "#4e637f" : POS_COLOR,
+          isDark() ? "#5c5f64" : NEU_COLOR,
+          isDark() ? "#915454" : NEG_COLOR
         ], borderRadius: 6 }] },
     options: { maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true }, x: { ticks: { font: { weight: 600 } } } } }
   });
 
   renderToday();
   renderIssues();
+  // 기간이 바뀌면 관심 목록 건수와 열려 있는 패널도 다시 센다
+  if (WATCH.length || openWatch) {
+    if (openWatch) { const w = openWatch; openWatch = null; openWatchTerm(w); }
+    else renderWatch();
+  }
   visibleCount = PAGE_SIZE;
   renderList();
 }
@@ -1154,6 +1356,7 @@ async function init() {
     document.getElementById("dataRangeNote").innerHTML =
       `수집 기간&nbsp;<strong>${fmt(minDate)} ~ ${fmt(maxDate)}</strong>`;
     initFlatpickr(minDate, maxDate);
+    initWatch();
     updateDashboard();
   } catch (e) {
     document.getElementById("badge").textContent = "데이터 로드 실패";
