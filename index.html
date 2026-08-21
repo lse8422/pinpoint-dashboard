@@ -456,13 +456,9 @@
       <div class="chart-box"><canvas id="chCat"></canvas></div>
       <div class="chart-note" id="catNote" style="display:none;"></div>
       <div class="cat-pick" id="catPick"></div>
-    <div class="chart-note" id="catHint">분야를 누르면 그 분야의 긍정·부정 비율과 추이가 아래에 열리고, 기사 목록도 함께 걸립니다.</div>
+    <div class="chart-note" id="catHint">분야를 누르면 기사 목록 위에 그 분야의 긍정·부정 비율과 추이가 열리고, 목록도 함께 걸립니다.</div>
     </div>
     <div class="card"><h3>긍정 · 중립 · 부정</h3><div class="chart-box"><canvas id="chSenti"></canvas></div></div>
-  </div>
-
-  <div class="card" id="catPanelCard" style="display:none;">
-    <div class="kwpanel" id="catPanel" style="border-top:none; padding-top:0; margin-top:0;"></div>
   </div>
 
   <div class="card issues-card" id="issuesCard" style="display:none;">
@@ -505,6 +501,10 @@
     <span class="chip cat-chip" data-f="복지">복지</span>
     <span class="chip cat-chip neg" data-f="부정">부정 이슈만</span>
     <span class="count" id="listCount"></span>
+  </div>
+
+  <div class="card" id="catPanelCard" style="display:none;">
+    <div class="kwpanel" id="catPanel" style="border-top:none; padding-top:0; margin-top:0;"></div>
   </div>
 
   <div id="list"></div>
@@ -757,7 +757,7 @@ function closeCatPanel() {
   document.getElementById("catPanelCard").style.display = "none";
 }
 
-function openCategory(cat) {
+function openCategory(cat, opts) {
   if (openCat === cat) { closeCatPanel(); return; }
   const same = openCat === null && catKeep === cat;   // 화살표로 다시 그리는 경우
   closeCatPanel();
@@ -851,7 +851,8 @@ function openCategory(cat) {
                  y: { stacked: true, beginAtZero: true, ticks: { precision: 0 } } }
     }
   });
-  document.getElementById("catPanelCard").scrollIntoView({ behavior: "smooth", block: "center" });
+  if (!opts || opts.scroll !== false)
+    document.getElementById("catPanelCard").scrollIntoView({ behavior: "smooth", block: "center" });
 }
 
 // ── 관심 부서·기관·사업 ─────────────────────────────────────
@@ -1359,7 +1360,7 @@ function updateDashboard() {
     options: {
       maintainAspectRatio: false,
       plugins: { legend: { position: "right", labels: { boxWidth: 11, font: { size: 11.5 } } } },
-      onClick: (e, els) => { if (els.length) setCategory(catKeys[els[0].index]); },
+      onClick: (e, els) => { if (els.length) setCategory(catKeys[els[0].index], { scroll: true }); },
       onHover: (e, els) => { e.native.target.style.cursor = els.length ? "pointer" : "default"; }
     }
   });
@@ -1432,6 +1433,8 @@ function initFlatpickr(minDate, maxDate) {
 }
 // 그래프 쪽과 목록 쪽 두 군데서 분야를 고를 수 있다.
 // 어느 쪽을 눌러도 같은 결과가 되도록 한 함수로 모은다.
+// 툴바에서 고르면 결과가 바로 아래에 펼쳐지므로 화면을 움직이지 않는다.
+// 그래프나 도넛에서 고르면 결과가 아래에 있으므로 그쪽으로 옮겨 준다.
 function setCategory(f, opts) {
   filter = f;
   document.querySelectorAll(".cat-chip").forEach(x => x.classList.toggle("active", x.dataset.f === f));
@@ -1440,6 +1443,8 @@ function setCategory(f, opts) {
   renderList();
   if (f === "all" || f === "부정") closeCatPanel();
   else if (openCat !== f) openCategory(f, opts);
+  else if (opts && opts.scroll)
+    document.getElementById("catPanelCard").scrollIntoView({ behavior: "smooth", block: "center" });
 }
 
 // 그래프 카드 안의 분야 줄을 그린다
@@ -1451,11 +1456,11 @@ function renderCatPick() {
   box.innerHTML = list.map(([f, t]) =>
     `<span data-f="${f}"${filter === f ? ' class="on"' : ""}>${t}</span>`).join("");
   box.querySelectorAll("span").forEach(el =>
-    el.addEventListener("click", () => setCategory(el.dataset.f)));
+    el.addEventListener("click", () => setCategory(el.dataset.f, { scroll: true })));
 }
 
 document.querySelectorAll(".cat-chip").forEach(c => c.addEventListener("click", () => {
-  setCategory(c.dataset.f);
+  setCategory(c.dataset.f, { scroll: false });
 }));
 document.getElementById("search").addEventListener("input", () => { visibleCount = PAGE_SIZE; renderList(); });
 document.getElementById("moreBtn").addEventListener("click", () => { visibleCount += PAGE_SIZE; renderList(); });
