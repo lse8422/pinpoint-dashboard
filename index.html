@@ -489,7 +489,12 @@ const CAT_LABEL = { "교통": "교통", "환경": "환경", "행정": "행정", 
 const CAT_COLORS_LIGHT = { "산업경제": "#4D7045", "문화관광": "#C0A05E", "행정": "#86A87C", "안전": "#7E6396", "복지": "#9AA85E", "교통": "#7D6A58", "환경": "#3E8C87" };
 const CAT_COLORS_DARK  = { "산업경제": "#6E9166", "문화관광": "#CDB176", "행정": "#9DBB94", "안전": "#9A80AE", "복지": "#B0BC75", "교통": "#9A8672", "환경": "#55A39E" };
 // 긍정·중립·부정은 화면 어디서나 같은 색을 쓴다
-const POS_COLOR = "#5B7FA8", NEU_COLOR = "#8A94A6", NEG_COLOR = "#C26060";
+// 긍정·중립·부정 색은 여기에서만 정한다. 자리마다 달라지면 같은 뜻이 다르게 보인다.
+const SENTI_COLOR = {
+  light: { "긍정": "#5B7FA8", "중립": "#8A94A6", "부정": "#C26060" },
+  dark:  { "긍정": "#4E637F", "중립": "#5C6470", "부정": "#915454" }
+};
+function sentiColor(k) { return (isDark() ? SENTI_COLOR.dark : SENTI_COLOR.light)[k]; }
 const SENTI_CLASS = { "긍정": "pos", "중립": "neu", "부정": "neg" };
 const PAGE_SIZE = 20;
 
@@ -776,9 +781,9 @@ function openCategory(cat) {
     <div class="kwpanel-grid">
       <div>${view.nav}<div class="kwpanel-chart"><canvas id="catChartCanvas"></canvas></div></div>
       <div class="kwbar">
-        ${bar("긍정", senti.긍정 || 0, POS_COLOR)}
-        ${bar("중립", senti.중립 || 0, "#8A94A6")}
-        ${bar("부정", senti.부정 || 0, "#C26060")}
+        ${bar("긍정", senti.긍정 || 0, sentiColor("긍정"))}
+        ${bar("중립", senti.중립 || 0, sentiColor("중립"))}
+        ${bar("부정", senti.부정 || 0, sentiColor("부정"))}
       </div>
     </div>
     ${negTop.length ? `<div style="margin-top:12px;">
@@ -803,9 +808,9 @@ function openCategory(cat) {
     data: {
       labels: days.map(d => d.slice(5).replace("-", ".")),
       datasets: [
-        { label: "긍정", data: days.map(d => posByDate[d] || null), backgroundColor: POS_COLOR, borderRadius: 2 },
-        { label: "중립", data: days.map(d => neuByDate[d] || null), backgroundColor: "#C3C9D2", borderRadius: 2 },
-        { label: "부정", data: days.map(d => negByDate[d] || null), backgroundColor: NEG_COLOR, borderRadius: 2, minBarLength: 4 }
+        { label: "긍정", data: days.map(d => posByDate[d] || null), backgroundColor: sentiColor("긍정"), borderRadius: 2 },
+        { label: "중립", data: days.map(d => neuByDate[d] || null), backgroundColor: sentiColor("중립"), borderRadius: 2 },
+        { label: "부정", data: days.map(d => negByDate[d] || null), backgroundColor: sentiColor("부정"), borderRadius: 2, minBarLength: 4 }
       ]
     },
     options: {
@@ -935,9 +940,9 @@ function openWatchTerm(term) {
     <div class="kwpanel-grid">
       <div>${viewW.nav}<div class="kwpanel-chart"><canvas id="watchChartCanvas"></canvas></div></div>
       <div class="kwbar">
-        ${bar("긍정", senti.긍정 || 0, POS_COLOR)}
-        ${bar("중립", senti.중립 || 0, NEU_COLOR)}
-        ${bar("부정", senti.부정 || 0, NEG_COLOR)}
+        ${bar("긍정", senti.긍정 || 0, sentiColor("긍정"))}
+        ${bar("중립", senti.중립 || 0, sentiColor("중립"))}
+        ${bar("부정", senti.부정 || 0, sentiColor("부정"))}
       </div>
     </div>
     ${negTop.length ? `<div style="margin-top:12px;">
@@ -960,9 +965,9 @@ function openWatchTerm(term) {
     data: {
       labels: days.map(d => d.slice(5).replace("-", ".")),
       datasets: [
-        { label: "긍정", data: days.map(d => posByDate[d] || null), backgroundColor: POS_COLOR, borderRadius: 2 },
-        { label: "중립", data: days.map(d => neuByDate[d] || null), backgroundColor: "#C3C9D2", borderRadius: 2 },
-        { label: "부정", data: days.map(d => negByDate[d] || null), backgroundColor: NEG_COLOR, borderRadius: 2, minBarLength: 4 }
+        { label: "긍정", data: days.map(d => posByDate[d] || null), backgroundColor: sentiColor("긍정"), borderRadius: 2 },
+        { label: "중립", data: days.map(d => neuByDate[d] || null), backgroundColor: sentiColor("중립"), borderRadius: 2 },
+        { label: "부정", data: days.map(d => negByDate[d] || null), backgroundColor: sentiColor("부정"), borderRadius: 2, minBarLength: 4 }
       ]
     },
     options: {
@@ -1066,9 +1071,9 @@ function openKeyword(kw) {
     <div class="kwpanel-grid">
       <div>${viewK.nav}<div class="kwpanel-chart"><canvas id="kwChartCanvas"></canvas></div></div>
       <div class="kwbar">
-        ${bar("긍정", senti.긍정 || 0, POS_COLOR)}
-        ${bar("중립", senti.중립 || 0, "#8A94A6")}
-        ${bar("부정", senti.부정 || 0, "#C26060")}
+        ${bar("긍정", senti.긍정 || 0, sentiColor("긍정"))}
+        ${bar("중립", senti.중립 || 0, sentiColor("중립"))}
+        ${bar("부정", senti.부정 || 0, sentiColor("부정"))}
       </div>
     </div>`;
   panel.style.display = "block";
@@ -1087,9 +1092,9 @@ function openKeyword(kw) {
     data: {
       labels: days.map(d => d.slice(5).replace("-", ".")),
       datasets: [
-        { label: "긍정", data: days.map(d => posByDate[d] || null), backgroundColor: POS_COLOR, borderRadius: 2 },
-        { label: "중립", data: days.map(d => neuByDate[d] || null), backgroundColor: "#C3C9D2", borderRadius: 2 },
-        { label: "부정", data: days.map(d => negByDate[d] || null), backgroundColor: NEG_COLOR, borderRadius: 2, minBarLength: 4 }
+        { label: "긍정", data: days.map(d => posByDate[d] || null), backgroundColor: sentiColor("긍정"), borderRadius: 2 },
+        { label: "중립", data: days.map(d => neuByDate[d] || null), backgroundColor: sentiColor("중립"), borderRadius: 2 },
+        { label: "부정", data: days.map(d => negByDate[d] || null), backgroundColor: sentiColor("부정"), borderRadius: 2, minBarLength: 4 }
       ]
     },
     options: {
@@ -1336,9 +1341,7 @@ function updateDashboard() {
     type: "bar",
     data: { labels: ["긍정", "중립", "부정"],
       datasets: [{ data: [sentiCount["긍정"], sentiCount["중립"], sentiCount["부정"]], backgroundColor: [
-          isDark() ? "#4e637f" : POS_COLOR,
-          isDark() ? "#5c5f64" : NEU_COLOR,
-          isDark() ? "#915454" : NEG_COLOR
+          sentiColor("긍정"), sentiColor("중립"), sentiColor("부정")
         ], borderRadius: 6 }] },
     options: { maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true }, x: { ticks: { font: { weight: 600 } } } } }
   });
