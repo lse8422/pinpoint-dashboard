@@ -1,8 +1,8 @@
 {
-  "updated": "2026-08-22 06:55",
+  "updated": "2026-08-23 06:45",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 665,
+  "count": 673,
   "items": [
     {
       "date": "2026-08-02",
@@ -9273,6 +9273,62 @@
       "source": "아시아뉴스통신"
     },
     {
+      "date": "2026-08-21",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "‘굿모닝 대한민국’ 동탄 영천동 이색 콩국수 맛집 위치는? “붉은콩국수와 콩비빔국수”",
+      "summary": "동탄 영천동의 이색 콩국수 맛집이 소개되고 있다.",
+      "kw": [
+        "동탄",
+        "콩국수",
+        "맛집"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE95WG9NRTgwZkZQLTdoVDVMcHAxM3ZvNFlSWk9Pa1hfN3R2VFI0YlRyX0JaYm9QT3o3b1F6QVlBRk5CLU93RGs5UFRNTTA2a3FwM2pIWGxKRV9qRnZ5QnMtMUd4eHNvS1JLcGF2Q0YwUjJiUQ?oc=5",
+      "source": "톱스타뉴스"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성특례시, 동탄 ‘아이마음놀이터’에 장난감 재활용센터 조성",
+      "summary": "화성특례시가 동탄 아이마음놀이터에 장난감 재활용센터를 조성했다.",
+      "kw": [
+        "재활용센터",
+        "장난감",
+        "복지시설"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAzckl3X2hOTUNLZGpJdzhqbWJOcUQ5R1UzY0lvMXltZFR2aDAyUkNPNGVZeE51YkFiaFpYbGZqS3gtb3lSZXRpbk1McE1kTm5aeVI4azN3LUdUTEpSV1ZwVzE5eHJaeDRocnZN?oc=5",
+      "source": "수원일보"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "진석범 화성을 지역위원장, 동탄파크릭스 경로당 개소식",
+      "summary": "진석범 화성을 지역위원장이 동탄파크릭스 경로당 개소식에 참석했다.",
+      "kw": [
+        "경로당",
+        "개소식",
+        "지역행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5udXdxRmoydk5TNC1PWEtwdW5JN3lTaXFQXzctWENCMFY4OHV6MVAzV2dUajdlQk5XcTJYelMzVWRSNlBERTlyWmF6RjlwNG5zNEZMN1hhcmlBSXhmMzVUM093?oc=5",
+      "source": "미담플러스"
+    },
+    {
+      "date": "2026-08-21",
+      "cat": "산업경제",
+      "senti": "부정",
+      "title": "서울 전세난 경기로 번졌다…광명·동탄 8%대 급등에 ‘노룩 계약’까지",
+      "summary": "서울의 전세난이 경기지역으로 확산되어 광명·동탄에서 전세가 8%대로 급등했다.",
+      "kw": [
+        "전세난",
+        "급등",
+        "주택시장"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5EclI4V3pnMld6SEp0NHpDREhsQWNESC1iLXAwenJjbmprUU5XTWVQeXkyV2xSYVo1TmswVGFaVGhTc3JrT3lGMDU4LWxnYUJ5X1RFUjFYQ1o0RHBfVkZ6bHNXNFBOeXpDVDZUdnB2ZXg?oc=5",
+      "source": "팩트인뉴스"
+    },
+    {
       "date": "2026-08-22",
       "cat": "행정",
       "senti": "긍정",
@@ -9313,31 +9369,82 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2TUw2RDE2SmpXMUU5cTNFSWxUNXdjeW9qSG01aUR6Q1M4UUJ6Y21tWTZfU0xrYWhLdHozb2VNN0RMbmRIV1pLS2NNcy1kM1JLZ1FaUXVBd0NOajV0X3Y4dmRUUzVxUjjSAWdBVV95cUxQNk1MNkQxNkpqVzFFOXEzRUlsVDV3Y3lvakhtNWlEekNTOFFCemNtbVk2X1NMa2FoS3R6M29lTTdETG5kSFdaS0tjTXMtZDNSS2dRWlF1QXdDTmo1dF92OHZkVFM1cVI4?oc=5",
       "source": "HKBC환경방송"
+    },
+    {
+      "date": "2026-08-22",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "집값 이어 월세까지 뛰는 동탄… 월세 수익 노릴 수 있는 '동탄역 디에트르 퍼스티지' 주목",
+      "summary": "동탄역 디에트르 퍼스티지 아파트의 월세 수익성이 높아 투자 대상으로 주목받고 있다.",
+      "kw": [
+        "동탄역",
+        "월세",
+        "아파트투자"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1uaFVrNk5xZmVJcmRXaFZTY1NZM29NcFlILUUya1p4VFNpcnd0YlJnSmprdnExRUJLQzhENWU2REdIQnROTkFHd3BfMXVFVXN3VGFGSW5kZndHRUx4V1NVSg?oc=5",
+      "source": "아시아경제"
+    },
+    {
+      "date": "2026-08-22",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "동탄 아파트값 연초 대비 16%대 상승…전국 시군구 중 최고",
+      "summary": "동탄 아파트값이 연초 대비 16%대 상승하여 전국 시군구 중 최고 상승률을 기록했다.",
+      "kw": [
+        "동탄",
+        "아파트값",
+        "상승률"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5OMXBJQUxUTnBDb3VfM1laS0dieEtyMy1IVVlYaHNqeXBrMTJlY3lYMVhpdE9ZLXB6SmZjU3VHVHRvTlBDYUo5czA4Nlg3QVJDb3hzRmJ4ZFRyQ29odzRhRnpZcUVLb0NzRm9KZ2dsdw?oc=5",
+      "source": "피플투데이"
+    },
+    {
+      "date": "2026-08-22",
+      "cat": "교통",
+      "senti": "긍정",
+      "title": "GTX-A 타고 수서 21분…동탄역 도보권 'e편한세상 어반원' 공급",
+      "summary": "GTX-A 개통으로 수서까지 21분 거리의 동탄역 도보권에 e편한세상 어반원이 공급된다.",
+      "kw": [
+        "GTX-A",
+        "동탄역",
+        "아파트공급"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BMjZURFZET1BDblVuWklUT21Jd1ZfellER09HRXQ0MENza1drb1RJRnAydDJ1TDZPSTYtdDJsZnN1OWRJWmk3X0FHMVJycmhPdU1RUG5wTUVnRDZOdXYtUDZnb1pySU5r?oc=5",
+      "source": "ebn.co.kr"
+    },
+    {
+      "date": "2026-08-22",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "동탄 가볼만한곳 최신 추천 6곳 – 2026 여행 가이드",
+      "summary": "2026년 여행 가이드로 동탄의 가볼만한 곳 6곳이 추천되고 있다.",
+      "kw": [
+        "동탄",
+        "관광지",
+        "여행가이드"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HMExrUThVSU5mbDFQbHl2Y0ViT3VPYVlBWjRkamZCUnllOGFMdE1TcFJzWnNPRHBvZnJrdGNVcUQ2dVVmUlJwNXJSMVZSeUZRRXNN?oc=5",
+      "source": "네이트뷰"
     }
   ],
   "dropped": {
-    "count": 9,
+    "count": 4,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
+      "비 소강상태에 뜬 무지개 [포토뉴스]",
+      "“폭탄 떨어진 줄”… 새벽 천둥·번개에 잠 깬 경기 남부",
       "GTX-C·A 개통 가시화...수도권 이동시간 축소 기대감↑",
-      "안성시, 중장년의 새로운 도전 지원",
-      "산정동 자생조직 연합, 폭염 속 구슬땀 흘리며 쾌적한 보행환경 조성을 위한 환경정비 총력 > 뉴스",
-      "담양군, 토마토뿔나방 집중 방제 나서 … 농가 피해 최소화 총력 > 뉴스",
-      "안성시, 농촌체험 프로그램 개발 교육생 모집",
-      "포토뉴스",
-      "장애인 평생학습센터 ‘뭐든지학교’ 3기 학습자 모집",
-      "안성 금광호수서 국내 유일 우먼스 아우라 트레일 대회 개최",
-      "안성시, AI 디지털 크리에이터 양성과정 수강생 모집"
+      "담양군, 토마토뿔나방 집중 방제 나서 … 농가 피해 최소화 총력 > 뉴스"
     ]
   },
   "briefs": {
-    "all": "수집 기간 전체 1,691건의 기사 중 [[w]]부정기사 130건(8%)[[/w]]이 집계되었으며, [[b]]안전 분야에서 56건[[/b]]의 부정 보도가 가장 많았습니다. 동탄 관련 보도가 핵심 키워드로 나타났으며, 2026-08-03에 부정기사 8건이 집중되어 해당 일자의 이슈를 확인이 필요합니다.",
-    "7": "최근 7일간 403건의 기사가 수집되었으며 [[w]]부정비율은 6%[[/w]]로 전체 기간 대비 개선되었습니다. 다만 [[b]]안전 분야 부정기사 13건[[/b]]과 2026-08-18의 집중 보도 8건에 대한 모니터링이 필요합니다.",
-    "30": "최근 30일 동안 839건의 기사 중 [[w]]70건의 부정 보도([[/w]]8%)가 발생했으며, [[b]]안전 분야가 37건으로 부정 보도의 절반 이상을 차지[[/b]]하고 있습니다. 2026-08-03의 부정기사 8건 집중도에 대해 사전 검토를 권고합니다."
+    "all": "수집 기간 전체 1,699건의 기사 중 [[w]]부정기사 131건(8%)[[/w]]이 집계되었으며, [[b]]안전 분야에서 56건[[/b]]으로 부정 보도가 가장 많습니다. [[b]]동탄[[/b]]이 핵심 보도 키워드이며 행정 분야 보도가 543건으로 주요 관심사입니다.",
+    "7": "최근 7일간 411건 중 [[w]]27건(7%)의 부정기사[[/w]]가 발생했으며, 특히 [[b]]8월 18일에 8건[[/b]]이 집중되었습니다. 안전 분야 부정 보도 13건에 대한 선제적 대응이 필요합니다.",
+    "30": "지난 달 847건 기사 중 [[w]]부정기사는 71건(8%)[[/w]]으로, [[b]]안전 분야에서 37건[[/b]]이 차지했습니다. 8월 3일의 8건 집중 보도 사안에 대한 언론 대응 현황을 재점검하시기 바랍니다."
   },
-  "briefs_updated": "2026-08-22 06:55",
+  "briefs_updated": "2026-08-23 06:45",
   "issues": {
-    "updated": "2026-08-22 06:55",
+    "updated": "2026-08-23 06:45",
     "items": [
       {
         "label": "동탄역 버스환승센터서 만취 운전… 30대 운전자 불구속 입건",
@@ -9413,7 +9520,7 @@
     ]
   },
   "today": {
-    "updated": "2026-08-22 06:55",
+    "updated": "2026-08-23 06:45",
     "items": [
       {
         "label": "동탄역 버스환승센터서 만취 운전… 30대 운전자 불구속 입건",
@@ -9461,6 +9568,8 @@
         "cat": "안전",
         "recent": 7,
         "days": 3,
+        "base": 12,
+        "base_days": 12,
         "base_daily": 1.0,
         "ratio": 2.3
       },
@@ -9468,32 +9577,34 @@
         "cat": "행정",
         "recent": 3,
         "days": 3,
+        "base": 6,
+        "base_days": 12,
         "base_daily": 0.5,
         "ratio": 2.0
       }
     ]
   },
   "ops": {
-    "runs": 8,
-    "days": 8,
+    "runs": 9,
+    "days": 9,
     "since": "2026-08-14",
-    "last": "2026-08-21",
+    "last": "2026-08-22",
     "failures": 0
   },
   "keyword_notes": {
-    "updated": "2026-08-22 06:55",
+    "updated": "2026-08-23 06:45",
     "window": "최근 30일",
     "items": {
-      "동탄": "동탄은 82건의 기사 중 산업경제 분야(42건)에서 압도적으로 많이 다루어졌으나, [[w]]12건의 부정 기사[[/w]]는 주로 교통사고와 화재 같은 안전 사건들이어서 지역 이미지 관리가 필요합니다.",
-      "동탄역": "32건 기사 중 [[b]]긍정 기사가 16건(50%)[[/b]]으로 비율이 높으나, [[w]]PSD 미설치, 만취운전 사건 등 4건의 부정 기사[[/w]]가 안전 인프라 개선 필요성을 드러내고 있습니다.",
-      "을지연습": "안전 분야 16건을 중심으로 25건이 보도되었으며, [[b]]부정 기사 0건으로 순수한 방재훈련 소식[[/b]]으로 일관되게 전개되었습니다.",
-      "위안부": "행정 분야 중심(13건)으로 21건의 기사가 중립적으로 다루어졌으며, 긍정·부정 평가 기사가 없어 사실 위주의 보도 양상을 보입니다.",
-      "오피스텔": "20건 전량이 산업경제 분야에서 [[b]]9건의 긍정 기사[[/b]]로 집중되어 부정 기사 없이 긍정적으로 보도된 점이 주목할 만합니다.",
-      "정명근": "19건 기사 중 [[b]]10건이 긍정적[[/b]]이나, [[w]]2건의 부정 기사[[/w]]에서 AI 공무원과 폭염 대응 등 시정 추진 내용이 비판적으로 다루어진 점을 고려할 필요가 있습니다.",
-      "기념식": "행정 분야(14건)에서 광복절 관련 기념식들이 18건 보도되었으며, [[b]]부정 기사 없이 6건의 긍정 기사[[/b]]로 순조롭게 진행된 것으로 나타났습니다.",
-      "의회": "행정 분야 중심(15건)의 17건 보도에서 [[b]]긍정 6건(35%)[[/b]] 비율을 보이고 있으나, [[w]]의회 운영 관련 1건의 부정 기사[[/w]]도 포착되었습니다.",
-      "우승": "문화관광 분야 16건 전체에서 [[b]]16건이 긍정 기사로, 17건 중 94%가 긍정적[[/b]]으로 보도되어 화성시의 문화 성과가 매우 호의적으로 다루어졌습니다.",
-      "광복절": "행정 분야(14건) 중심으로 15건이 보도되었으며, [[b]]부정 기사 없이 8건의 긍정 기사[[/b]]로 기념행사가 긍정적으로 평가되었습니다."
+      "동탄": "동탄 지역이 [[b]]85건의 높은 언론 관심[[/b]]을 받고 있으며, 산업경제 분야가 주도적이나 [[w]]교통사고 및 화재 관련 부정 기사 12건[[/w]]에 주목할 필요가 있습니다.",
+      "동탄역": "동탄역은 [[b]]긍정 기사 18건으로 호평[[/b]]을 받고 있지만, [[w]]안전 관련 부정 기사 4건[[/w]]이 지속적으로 보도되고 있어 안전관리 강화가 시급합니다.",
+      "을지연습": "[[b]]25건 모두 중립적 보도[[/b]]로, 안전 분야에 집중된 을지연습 관련 언론 활동이 부정적 평가 없이 순조롭게 진행되었음을 보여줍니다.",
+      "위안부": "위안부 키워드는 [[b]]21건 모두 중립적 보도[[/b]]이며 행정 분야 중심으로, 역사 관련 행정업무가 객관적으로 다루어지고 있습니다.",
+      "오피스텔": "오피스텔 관련 보도 20건이 [[b]]산업경제 분야에 집중[[/b]]되어 있으며, [[b]]긍정 기사 9건으로 긍정적 평가[[/b]]가 우세합니다.",
+      "정명근": "시장 관련 보도가 [[b]]긍정 10건으로 대체로 호평[[/b]]을 받고 있으나, [[w]]정책 홍보 기사 2건이 부정으로 분류[[/w]]되어 메시지 전달 방식 검토가 필요합니다.",
+      "기념식": "기념식 관련 보도는 [[b]]18건 모두 중립 이상의 평가[[/b]]로, 특히 [[b]]긍정 6건[[/b]]으로 행사 운영이 긍정적으로 평가되었습니다.",
+      "의회": "의회 관련 보도 17건 중 [[b]]긍정 6건으로 주요 활동이 호평[[/b]]을 받고 있으며, [[w]]부정 기사는 1건으로 미미[[/w]]합니다.",
+      "우승": "우승 관련 보도 17건이 [[b]]문화관광 분야에서 16건의 압도적 긍정 평가[[/b]]를 받아, 화성시 스포츠 이미지 제고에 효과적입니다.",
+      "광복절": "광복절 기념 행사가 [[b]]15건 보도 중 긍정 8건[[/b]]으로 긍정적 평가를 받았으며, 부정 평가 없이 의미 있게 진행되었습니다."
     }
   }
 }
