@@ -510,6 +510,7 @@ def detect_surge(live_items, today, recent_days=3, base_days=12, min_count=3, mi
         ratio = (a / recent_days) / b_day
         if ratio >= min_ratio:
             out.append({"cat": cat, "recent": a, "days": recent_days,
+                        "base": base.get(cat, 0), "base_days": base_days,
                         "base_daily": round(b_day, 2), "ratio": round(ratio, 1)})
     out.sort(key=lambda x: -x["ratio"])
     return out

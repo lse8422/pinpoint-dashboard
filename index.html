@@ -207,6 +207,9 @@
   body.dark .st-진행중 { background: #453619; color: #E5CE9A; }
   body.dark .st-장기 { background: #26344A; color: #B8CBE6; }
   .todo-score { margin-left: auto; font-size: 12px; font-weight: 800; color: var(--neg); white-space: nowrap; }
+  .todo-rank.tie { background: var(--muted2); }
+  .todo-tie { margin-top: 8px; font-size: 11.5px; color: var(--muted); }
+  .todo-tie b { color: var(--text); font-weight: 700; }
   .todo-detail { margin-top: 9px; padding-top: 9px; border-top: 1px dashed var(--border); }
   .todo-arts { display: flex; flex-direction: column; gap: 4px; }
   .todo-art { font-size: 12.5px; line-height: 1.5; color: var(--summary-text); }
@@ -419,6 +422,7 @@
     </div>
     <div id="surgeBox"></div>
     <div id="todoList"></div>
+    <div class="todo-tie" id="todoTie"></div>
     <div class="trust" id="trustBox"></div>
   </div>
 
@@ -678,6 +682,16 @@ function todoLabel(it) {
   return `${it.label}<span class="todo-more">묶인 기사 ${it.count}건 ▾</span>`;
 }
 
+// 점수가 같으면 순위도 같다.
+// 1·2·3으로 번호만 붙이면 우열이 없는데 있는 것처럼 보인다.
+function todoRanks(items) {
+  const out = [];
+  items.forEach((it, i) => {
+    out.push(i > 0 && items[i - 1].score === it.score ? out[i - 1] : i + 1);
+  });
+  return out;
+}
+
 function renderToday() {
   const card = document.getElementById("todayCard");
   const items = (TODAY.items || []);
@@ -690,14 +704,21 @@ function renderToday() {
   // 분야별 급증 — 개별 기사로는 안 보이는 흐름을 짚어 준다
   const surge = TODAY.surge || [];
   document.getElementById("surgeBox").innerHTML = surge.length
-    ? surge.map(s => `<div class="surge"><b>${CAT_LABEL[s.cat] || s.cat}</b> 분야 부정 보도가
-        최근 ${s.days}일 <b>${s.recent}건</b>으로, 그 이전 평소치의 <b>${s.ratio}배</b>입니다.
-        이 분야를 먼저 살펴보시기 바랍니다.</div>`).join("")
+    ? surge.map(s => {
+        // 배수만 말하면 기준값이 작을 때 부풀려 들린다. 비교한 건수를 함께 밝힌다.
+        const bd = s.base_days || 12;
+        const bc = s.base != null ? s.base : Math.round((s.base_daily || 0) * bd);
+        return `<div class="surge"><b>${CAT_LABEL[s.cat] || s.cat}</b> 분야 부정 보도가
+        최근 ${s.days}일 <b>${s.recent}건</b>입니다. 그 이전 ${bd}일은 ${bc}건이었으므로
+        하루 평균으로는 <b>${s.ratio}배</b>입니다.
+        이 분야를 먼저 살펴보시기 바랍니다.</div>`;
+      }).join("")
     : "";
 
+  const rank = todoRanks(items);
   document.getElementById("todoList").innerHTML = items.map((it, i) => `
     <div class="todo" data-i="${i}">
-      <div class="todo-rank">${i + 1}</div>
+      <div class="todo-rank${rank[i] === rank[i - 1] || rank[i] === rank[i + 1] ? " tie" : ""}">${rank[i]}</div>
       <div class="todo-body">
         <div class="todo-label">${todoLabel(it)}</div>
         <div class="todo-meta">
@@ -711,6 +732,12 @@ function renderToday() {
       </div>
       <div class="todo-score">${it.score}점</div>
     </div>`).join("");
+
+  // 동점이면 그 사실을 밝힌다. 순서가 우열로 읽히면 안 된다.
+  const tied = rank.some((r, i) => i > 0 && r === rank[i - 1]);
+  document.getElementById("todoTie").innerHTML = tied
+    ? '점수가 같은 항목은 <b>같은 번호</b>로 표시합니다. 위아래 순서는 우열이 아닙니다.'
+    : "";
 
   // 근거를 화면에 밝힌다. 말로만 "매일 돈다"고 하지 않는다.
   const t = [];
