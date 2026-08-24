@@ -1,8 +1,8 @@
 {
-  "updated": "2026-08-24 06:45",
+  "updated": "2026-08-25 06:58",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 762,
+  "count": 852,
   "items": [
     {
       "date": "2026-08-02",
@@ -10589,6 +10589,62 @@
       "source": "뉴스 따옴"
     },
     {
+      "date": "2026-08-23",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "[인터뷰] 몸과 마음, 지갑과 이웃까지 챙기는 ‘진짜 주치의’… 동탄 ‘작은마을한의원’ 박승훈 원장의 특별한 처방전",
+      "summary": "동탄 작은마을한의원 박승훈 원장이 지역사회와 환자를 함께 챙기는 의료 실천을 펼친다.",
+      "kw": [
+        "한의원",
+        "동탄",
+        "의료"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE12THh3ZHVzUEwxMjM3OG5DQjVYblhkRVQ0MnJGNlRXdTBzblY5MjNFQkNxT0xJR1hGeFlQRHhyZWlJYWtCWmphZV9Da1cybTBnM3ZmTnU2UnJld09qZFlrTEJRcEFENlg5Ry1JOFdn0gFyQVVfeXFMT2hQYUp0MGNlSjVMRFdTMFVwcm9GSzBMVVIxRzB6cjZfQ0EyZjh0SEhwbGFDbm1sa1VHWXpKTVIzcHBTUmJaR052Y3lBdzlXSFVESlRvZ3FDN1pwSGkwNjE0YnhNelNTYmtYNlhJdF9vQ21B?oc=5",
+      "source": "뉴스 따옴"
+    },
+    {
+      "date": "2026-08-23",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시 4개 구청 체제 첫 권역별 콘서트… 동탄 여울공원 1만 석 채웠다",
+      "summary": "화성시 4개 구청 체제 첫 권역별 콘서트가 동탄 여울공원에서 1만 석을 채웠다.",
+      "kw": [
+        "콘서트",
+        "동탄",
+        "여울공원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBIM08zc1gwenctTHQyR0w1U0dodXQxNEd3QXp5NmpHZzhLWTRBSjlqVUFGWGxxUEJNZjRsMTRUcUdzdW9abWFPZ3pBUjZJWmNxWVhrb3Zad2h0WTI0NXlZV0VwQ05xNHFEc1cydEVR?oc=5",
+      "source": "더리포트"
+    },
+    {
+      "date": "2026-08-23",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성 동탄 여울공원 '들썩'…음악으로 하나 된 여름밤",
+      "summary": "화성 동탄 여울공원에서 음악 행사가 개최되어 시민들이 함께 즐기는 여름밤을 보냈다.",
+      "kw": [
+        "여울공원",
+        "음악행사",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9MRkI2V0kzZmwwUkJSdFQ2YVBmZm5reGV3d3A0a3g1dmlEV3BGMHJNamJmdEFidVJtZVN6eGN2dndIeVRfVWQ3eXJ6dWFhbE0tMEI5YWZPWTVqOVQzb1pjVEowaWdLNDFkR3VfeA?oc=5",
+      "source": "중도일보"
+    },
+    {
+      "date": "2026-08-23",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성특례시 동탄구, 첫 권역별 콘서트에 시민 3천 명 몰렸다",
+      "summary": "화성특례시 동탄구의 첫 권역별 콘서트에 시민 3천 명이 참석했다.",
+      "kw": [
+        "콘서트",
+        "동탄구",
+        "시민참여"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBkUWdNaVBWNEtpeEw5RXI3dHlzUVJkN1Zkd0ZJVGF0VzY1U2pwLTI5X2NDRmNyaWowRHJGeEtXMURsSFZvb2t6MmdKUkFXVmVGWndJUlpSbVR1SndXZkFheEVCNjFjNGNVZnRnLQ?oc=5",
+      "source": "경기타임스 e"
+    },
+    {
       "date": "2026-08-24",
       "cat": "복지",
       "senti": "긍정",
@@ -10671,32 +10727,1231 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9jdUZ3c0dOeVRWenRPOURNc1ZUS2N1cjdFQmxqSVBhS2pZZ1RqWS1OeThkbFRRSE5SbU1tZk0zNVZWeWtqZkJNUHFzdThrNGE4QzZ4M1NFRWh3WEpvaTgtbVBMZGZJOXl3OFBMaNIBbEFVX3lxTE9jdUZ3c0dOeVRWenRPOURNc1ZUS2N1cjdFQmxqSVBhS2pZZ1RqWS1OeThkbFRRSE5SbU1tZk0zNVZWeWtqZkJNUHFzdThrNGE4QzZ4M1NFRWh3WEpvaTgtbVBMZGZJOXl3OFBMaA?oc=5",
       "source": "경찰연합신문"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "동탄 또 들썩?...삼성전자 다음 달부터 직원 '주택 대출'",
+      "summary": "삼성전자가 동탄 직원을 위해 다음 달부터 주택 대출 프로그램을 시행한다.",
+      "kw": [
+        "삼성전자",
+        "주택대출",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1mT2Rkb1RUeEstT1BPMzVZOEM3aGYtUVpBWmZkai1fenp0eEJoUlRZenJzdUJ1Wm4wanBzSjZxV3Z1cE84VTBrZVg0ZUZmVzY5NHRDT0FwZG1nWFFrbkE?oc=5",
+      "source": "YTN"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시, 시민 복지 기준선 마련 연구…정책설계 기초자료 활용",
+      "summary": "화성시가 시민 복지의 기준선을 마련하기 위한 연구를 추진한다.",
+      "kw": [
+        "화성시",
+        "시민복지",
+        "정책설계"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBrMktFRG5OWWlRWjBodFNsR3ZXd04zTmkwRHJWZ0p6OWlSemtXeUxvc0kwRXg3ZWprN1ZneE5STGREU29DUjZtTDJSbnVtMmt2djFKa0VNYWtma2VERzNzQ9IBYEFVX3lxTFBrMktFRG5OWWlRWjBodFNsR3ZXd04zTmkwRHJWZ0p6OWlSemtXeUxvc0kwRXg3ZWprN1ZneE5STGREU29DUjZtTDJSbnVtMmt2djFKa0VNYWtma2VERzNzQw?oc=5",
+      "source": "연합뉴스"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "산업경제",
+      "senti": "부정",
+      "title": "이준석 “동탄도 전세 씨 말라…분양 받은 집도 못 들어가”",
+      "summary": "동탄의 전세 부족 심화로 분양받은 집도 입주 못하는 상황이 발생하고 있다.",
+      "kw": [
+        "동탄",
+        "전세부족",
+        "주택공급"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBLcUtKWGdWWm1CWlJZLU1KU0pXMHVGZGx0RGw0SFJQQkE4dEh2ajMxTzRhbDQtSWVHSnkzVXdyR1FBdzVoMmVBMHNNajl2ZnQ1?oc=5",
+      "source": "문화일보"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "현대해상, 화성시와 ‘아이마음 놀이터’ 조성 MOU",
+      "summary": "현대해상과 화성시가 아이마음 놀이터 조성을 위한 MOU를 체결했다.",
+      "kw": [
+        "현대해상",
+        "화성시",
+        "아이마음놀이터"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9sQmprT052QnZOblotdUhnNWZFX0xKSzBTTWp5UlBrQURwTUpjdTRhNUFNdUp0RU16aEVwWGQ4LUVTZndfSUp1emF0bUNrUmRZSEI3S0NZT2R4SDExSXJVeC1oaFVCNXNrbUHSAW5BVV95cUxQbU5qNUM0NnZwWHEyVnRIMXFpSEt2ejJNd0hkMEtZNWxKYUpDZVdtOTFKRlhEYUFKNnJVeTR3V05ndW12QzJKV0xjVVlqazc1RlE0RDJFUXlLck9BcE1ialIxd0owWlpNLUtxdl9tUQ?oc=5",
+      "source": "뉴시안"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "현대해상, 화성시와 '아이마음 놀이터' 조성 업무협약",
+      "summary": "현대해상이 화성시와 함께 아이마음 놀이터 조성 업무협약을 추진한다.",
+      "kw": [
+        "현대해상",
+        "화성시",
+        "아이마음놀이터"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBkaHBzZy1rVGNJRFVKTnNsZFhMai1URldXU3ZjbUtxczNkZHZ4cUt2TjR3UzJpY25JVFJON0l5akg4am5kZGRfQ0I5M2V6blhTNTc1RVFFRDNCV1FLVm12MGNacEhPNHNoTm5J?oc=5",
+      "source": "비즈월드"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "교통",
+      "senti": "부정",
+      "title": "수원·의왕은 바꿔주고 동탄은 260억 부담…철도공단 ‘설계변경’ 형평성 논란",
+      "summary": "철도공단의 설계변경으로 동탄의 260억 원 부담 문제가 형평성 논란을 야기한다.",
+      "kw": [
+        "철도공단",
+        "설계변경",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE14TXNYdXpRLVA2MmMxLWpXTTBoT00wLV9WM05feU43TjNSLWMtQlR5N2VvSlBCeVNZNTBKdkd0WW1OY1l0V3dkbUVQa3VTNUhSbHp3NUVla3NqSzBJZ3VCand3?oc=5",
+      "source": "경기신문"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "현대해상, 화성시와 ‘아이마음 놀이터’ 조성 나서",
+      "summary": "현대해상이 화성시와 아이마음 놀이터 조성 사업을 추진한다.",
+      "kw": [
+        "현대해상",
+        "화성시",
+        "아이마음놀이터"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9od1d6TFE1NUc1SWx2OWhEZ0F4MUtoaEI0MVZGQTJLYmUxdktrY01kR0NFUE5DaWYxTGpSTm1hMlQwQ20wUXRscklBcDFMbTdrU21nTWpGbXNCUVhITk5OMXRuRy0yNThOWkZn0gFvQVVfeXFMTWlJV0JzdkpvbmwtdE5Vajc4SmpGODBlS1Z5UjJONDRxem1fTVdWeTRra2JRSFcxbHl5OTFmLVB0UU1HZC1xZENGNE05aGJoV1czRkdUX3Z6MDRmb3F6TzdPNlI3WktXVjVMZTFWdHdr?oc=5",
+      "source": "한국보험신문"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "“부부면 10억, 금리 1.5%”···삼성전자 파격 대출에 동탄·고덕 ‘들썩’",
+      "summary": "삼성전자의 파격적인 주택 대출 프로그램으로 동탄과 고덕 지역이 주목을 받고 있다.",
+      "kw": [
+        "삼성전자",
+        "주택대출",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4tdm9RRHdDangwNWRDR2tSWGVSQnJ4aUxMN3JHaHVEOEJmckt6V3pHaEhuVjF4ZEZKUXM2ZkRuSms2UUY0R1J4cENwTWQ4b3hWc2dkUmlDbTh6d0g5TnNEUERMNEV4MnotdUt6Q0RhRUpxUdIBdkFVX3lxTE5GQUZfVS1wRHRMNEtGNzktNlVuTWhzdjd6cTQyZEl3RmNmVk1KZGhRbmR2eGJhNG01WlpoQnJVMEtfeW96NGxKSEQ1Rlc3eEhObjNDMTJXcGdVVDhFaDdGY2txdGZuanc1OUNNYi1aLW9DWlNKQ0E?oc=5",
+      "source": "시사저널e"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시문화관광재단, 어린이들이 직접 설계한 '어린이 미래건축학교' 전시",
+      "summary": "화성시문화관광재단이 어린이들이 직접 설계한 미래건축학교 전시를 개최한다.",
+      "kw": [
+        "문화관광재단",
+        "어린이",
+        "미래건축"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSWpXSUliQktySHYteWU0OS1zOTlhdWxjdmVza19qdUZmSWZ3Q19hSlJzdVVCeDBkOWlzMmZ2QkRRYWs5NHhyNVUzNmY5Z2otdXBwcG9KWEh3U1pNbFJ6V29aMDdNS3d4NVMxTFN3ZFZkNzA2bzgxYlNPN2Z5aGlfSGR1ZzU0SXliSUtV?oc=5",
+      "source": "글로벌이코노믹"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성 동탄에 울린 ‘그때 그 음악’",
+      "summary": "화성 동탄에서 향수의 음악이 울려 퍼진다.",
+      "kw": [
+        "동탄",
+        "음악",
+        "문화행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5yWEZkS3FMdmhxLTdXOFdwV1RnUWJWeDk5WDZMVzdSS21OVmt1RHZGd19GTVlIOThxNVUwbzdWQmNadFVZbWlweHhzazFSMWlJZ3BES2stUk1NSkU0bDFtaFB6V3REMWRNVnNRMDBR?oc=5",
+      "source": "현대일보"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시의회, ‘움직이는 미술관’ 참여 작가들과 작품 감상",
+      "summary": "화성시의회가 움직이는 미술관 참여 작가들과 작품 감상 행사를 진행한다.",
+      "kw": [
+        "화성시의회",
+        "미술관",
+        "미술문화"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBnNUZXbzZHRlVKcGJvYUVRTURVUjFqUFlKV2dDc3dlYTNUbGk0MlZDaEVJVWJxOC15a3ZfdUhpNGU2TWZ3TWZqRnZqX3AzX05ETXlEeVlWV21fM1h3YnRELUxR?oc=5",
+      "source": "경인미래신문"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "“화성시아름장애인보호작업장 동탄점 - 화성서남부장애인자립생활지원센터, '장애인 완전한 자립과 지역사회 통합' 이끄는 업무협약(MOU) 체결”",
+      "summary": "화성시 장애인보호작업장과 자립생활지원센터가 장애인 자립과 사회통합을 위한 협약을 체결했다.",
+      "kw": [
+        "장애인자립",
+        "업무협약",
+        "지역사회통합"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5GSEszUUh5LU12bUJLWE8zWWtnZkJ6M0k5WGJfNnZWTHFEREh5a1k3WUFSa05NU091VktYRU5sNldCaU5tb3V6STdkVE1Gb29aV2FJSlZ6LVdYQlJoaE92a3JvWWJfZw?oc=5",
+      "source": "화성저널"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시, 샤인머스켓 품평회 참가 농가 모집…“1등 브랜드로 육성”",
+      "summary": "화성시가 샤인머스켓 품평회 참가 농가를 모집해 브랜드 육성을 추진한다.",
+      "kw": [
+        "샤인머스켓",
+        "품평회",
+        "브랜드"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE45Y0dtallSMDNQZUswQUd6S2ExdTZCLXNvdkVWTGhiSDY5QWxvSnotYWFQXzhrajFVNGVQZkpuTDkxbFkxZlRoTVNOb2l5ZmY4?oc=5",
+      "source": "문화일보"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "아이·양육자 위한 지역 공간…현대해상·루트임팩트, 동탄에 ‘아이마음 놀이터’",
+      "summary": "현대해상과 루트임팩트가 동탄에 영유아와 양육자를 위한 놀이터를 조성한다.",
+      "kw": [
+        "아이마음놀이터",
+        "양육자",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE83MVFpTmpXS295VEFiVzRYcGxiOHEzOHVCS21rY2Z4RzZEWHYybE5pU1phZ20xSm5heEN2ampxQUlUNFUyNWZMcHlEQkdJMzZZUWc?oc=5",
+      "source": "더나은미래"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시 ‘샤인머스캣’ 품평회 참여 농가 모집",
+      "summary": "화성시가 2026년 샤인머스캣 품평회 참가 농가를 모집한다.",
+      "kw": [
+        "샤인머스캣",
+        "품평회",
+        "농가"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE13OGxkXzFTTTU3Y3Vna25ONU14SnduYnBmT3BiYzdZWldxMFZTcFpORFdZc0NIR0ZWOUpPNERCSEJIRElTNHF1RXhJcEtZZnNuU2hZNHllazJXc3c?oc=5",
+      "source": "KBS 뉴스"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "DL이앤씨, 'e편한세상 동탄역 어반원' 오피스텔 공급中",
+      "summary": "DL이앤씨가 동탄역 인근에 오피스텔을 공급 중이다.",
+      "kw": [
+        "오피스텔",
+        "동탄역",
+        "부동산"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAxYV9iWWpfRllpZkxuQlBRR1plSXlZUWpUNTdmS1ZXYk14cWZRdTQ1d2NnOFBJN2VEMWtTcTc2bmxlMlFmV3diVWZUNDNPVnAxcVZCR0N5SnN0aVJvcWJvZ0UwcUF3T0lpMkM2b1BR0gFuQVVfeXFMUDFhX2JZal9GWWlmTG5CUFFHWmVJeVlRalQ1N2ZLVldiTXhxZlF1NDV3Y2c4UEk3ZUQxa1NxNzZubGUyUWZXd2JVZlQ0M09WcDFxVkJHQ3lKc3RpUm9xYm9nRTBxQXdPSWkyQzZvUFE?oc=5",
+      "source": "뉴스드림"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시, 28일까지 2026년 샤인머스캣 품평회 참가 농가 모집",
+      "summary": "화성시가 2026년 샤인머스캣 품평회 참여 농가 모집을 28일까지 진행한다.",
+      "kw": [
+        "샤인머스캣",
+        "품평회",
+        "모집"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1RaDhWN01haUQ2WWlsRlZsMmJJVXNjc2xUTGF2Y1lyVkw5YkNRS0VKdkVKYmM4c25Pc202Vk95U0l0MkxPQXdzOHY4YmN3Yk9oSlhTSHRjVG9fOEct?oc=5",
+      "source": "뉴스핌"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "루트임팩트, 현대해상 ‘아이마음 놀이터’ 화성 동탄에 조성…지역 양육 커뮤니티 확대",
+      "summary": "루트임팩트와 현대해상이 화성 동탄에 양육 커뮤니티를 위한 아이마음 놀이터를 조성한다.",
+      "kw": [
+        "아이마음놀이터",
+        "양육커뮤니티",
+        "현대해상"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA0Umlmblk2QUFyeGp4aGNFcnFJaUlKQS1XR2NVT0RCQXZ1a3R2X1FucjFyUFVrNlpNTnRpTThzVU90YkJUVTR1V2JKVWtRTTVGMS1XM04zbERnd205ZVcyMDVrTXd3NXpXU0RtN2liMThPRzDSAXdBVV95cUxONm1tYmdyMXQ5WVNoOWhHQnpWSUhRX3JGZmQ4ampkcTZKLVV6OHJtcTdDMEp0VlNjMnRwcFZMWmotU2NCZkJ5bWdPVjMtUDJUUW8wUDd5X0pVLU9qcnBHMmxNUG5XRkJ6M05oYVlUeHgtQmZsaVVPOA?oc=5",
+      "source": "소셜임팩트뉴스"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시 ‘시민 복지기준선’ 수립",
+      "summary": "화성시가 시민 복지기준선 수립을 추진한다.",
+      "kw": [
+        "복지기준선",
+        "시정",
+        "시민"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5MbjFzNXBrS2hYcllqUXc5UnZiSDR2dG9TcTVmc1M1Tkl3LTV6dGFzUWpsWUNwVGpjYUR3R0R4X0JqTmtRTlptcGxSNF94UGVNTkFScW16dF96a2pfZkp3SWg0TzNrQnBaZnJUOE9jWjlSRy04OVdMVGVETEkyS0HSAX9BVV95cUxOTG4xczVwa0toWHJZalF3OVJ2Ykg0dnRvU3E1ZnNTNU5Jdy01enRhc1FqbFlDcFRqY2FEd0dEeF9Cak5rUU5abXBsUjRfeFBlTU5BUnFtenRfemtqX2ZKd0loNE8za0JwWmZyVDhPY1o5UkctODlXTFRlRExJMktB?oc=5",
+      "source": "뉴데일리 경기"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시, 청년 친화도시 조성에 한발 더 다가간다",
+      "summary": "화성시가 청년 친화도시 조성에 더욱 집중한다.",
+      "kw": [
+        "청년친화도시",
+        "도시정책",
+        "청년"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5rYlVTbDNiSzU1RTFyaXQyTTJ2aVFKekt5dDctcHFueWNrT3RFcmcyT1JOUDMwVzh3YmRpT3poVi1uUXVDNmFyVW53WWl0ZTNEM2RsUFp1S01aVHNVeHRSR01tWnlockpfdzI4ejd3?oc=5",
+      "source": "현대일보"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "수도권제2순환고속도로 동탄JC 인근서 8톤 화물차 화재…1개 차로 통제",
+      "summary": "수도권제2순환고속도로 동탄JC 근처에서 화물차 화재가 발생해 차로가 통제됐다.",
+      "kw": [
+        "화재",
+        "동탄",
+        "교통통제"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5mUWE3WGdxdkJWcnl4cTFyYUh6M3ZGTERvS3F5UVprUTd3WmV2LWg4NE5iR2FweTF2azJ1dEdTUVQyMjRtUjJqVHFYcWRXaG8?oc=5",
+      "source": "v.daum.net"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "'최고의 샤인머스캣은?'…화성시, 품평회 참여 농가 모집",
+      "summary": "화성시가 최고 품질의 샤인머스캣을 선정하기 위해 품평회 참여 농가를 모집한다.",
+      "kw": [
+        "샤인머스캣",
+        "품평회",
+        "농산물"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9fRDlldC1ndmxiYklNbXQ3UDk3WV8xQzZyNmYyUC1Hd1VmTVJablU2aFpUS1RwMzU4REQwbTgxWm9KSFdmczNUWkFnOGhuOWNnM25jTms2dnVMbkE1R3JqV9IBYEFVX3lxTE9fRDlldC1ndmxiYklNbXQ3UDk3WV8xQzZyNmYyUC1Hd1VmTVJablU2aFpUS1RwMzU4REQwbTgxWm9KSFdmczNUWkFnOGhuOWNnM25jTms2dnVMbkE1R3JqVw?oc=5",
+      "source": "연합뉴스"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "교통",
+      "senti": "부정",
+      "title": "동탄JC 달리던 8톤 화물차서 불…양평 방향 1차로 통제",
+      "summary": "동탄JC에서 화물차 화재로 양평 방향 1차로 통제",
+      "kw": [
+        "화물차화재",
+        "동탄JC",
+        "교통통제"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBYLUp6T0VMMVVLLVJNWURzd0htSGtzbHhNZmxfUnVzanNtZ0lqaVlsczFDeXdqd2t1VHlqbjlRNTNQSVJ4UEtKai0zT1dEeTFNQ2J6cWctSjM0MHZScUhDNk1nblBfaXJT?oc=5",
+      "source": "OBC 뉴스"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시아름장앤인보호작업장 동탄점, '장애인 완전한 자립과 지역사회 통합' 이끄는 업무협약(MOU) 체결”",
+      "summary": "화성시아름장앤인보호작업장 동탄점이 장애인 자립을 위한 업무협약 체결",
+      "kw": [
+        "장애인자립",
+        "업무협약",
+        "보호작업장"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE56Q2N1enlIRlpTa2xqbEQyT2JyOHFRNEhTX1VpTE9Xa1dlUnp1WVVPX0c3NXFNTFRMX1dyRFBDd05NRFRhaXFhaHF2UXNERlFjZi1KeHFrcDE2RmpQRXkyZkxpelI3NVQtTVdUeUJ3YVpvd9IBckFVX3lxTE56Q2N1enlIRlpTa2xqbEQyT2JyOHFRNEhTX1VpTE9Xa1dlUnp1WVVPX0c3NXFNTFRMX1dyRFBDd05NRFRhaXFhaHF2UXNERlFjZi1KeHFrcDE2RmpQRXkyZkxpelI3NVQtTVdUeUJ3YVpvdw?oc=5",
+      "source": "뉴스 따옴"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "동탄제일병원, 부인과 다빈치SP 로봇수술 1000례 달성",
+      "summary": "동탄제일병원이 부인과 다빈치SP 로봇수술 1000례 달성",
+      "kw": [
+        "로봇수술",
+        "다빈치SP",
+        "부인과"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE01Q2pqbDBKTmdwVjNjaHM5MGljMDdyS2F5RFdwdm9SblY5c0tXMGx5bkdRY0tDTXAxQmhjaUZsYnJzaFY0RzVuajNwMTYtXzZkdEp2U0dUWGs2WXJwcnFOS2VORS14bUhQWUVLLQ?oc=5",
+      "source": "메디컬투데이"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "﻿현대해상, 경기 화성시에 '아이마음 놀이터' 조성",
+      "summary": "현대해상이 화성시에 어린이 놀이터 '아이마음 놀이터' 조성",
+      "kw": [
+        "아이마음놀이터",
+        "어린이시설",
+        "문화공간"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE10S0F5R1BjbmUydnZocGExV1VpdU1FTzU1LWtqTlpGN09MSzdBb0ZWcWg5dU9ONlNWZHRWQXROSVBvcFFVaTlCQTB3WmlBaDU5dk1rdkFRdkVFU1BSckpjbVZuMjFDNk1oU2Zn0gFuQVVfeXFMTXhtU3pEendoYjR5SFc5UG80czhaeFZZS1FiSW5tMVgwcWI2RGQxcXVrX3pKR3RjNTNwa29tQ09uWVhXYWxQZ0phQkxldks0NXRkMmtrblhwc1lqUWwxRy1EbWY0M3Z4THdPUzdxUnc?oc=5",
+      "source": "뉴스드림"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "동탄제일병원, 부인과 다빈치SP 로봇수술 누적 1000례 달성",
+      "summary": "동탄제일병원이 부인과 다빈치SP 로봇수술 누적 1000례 달성",
+      "kw": [
+        "로봇수술",
+        "다빈치SP",
+        "의료"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9OXzdvdlNyNE5Fa1ZmRE9ObE90YnNWQ0Y3X1E1aG9Td0ZobVp1SUQxLWtMVFlleExjRzB5SnhCcTcxWV96cTBVd0VqR0E4UE0tNUJvT2VXTGZiQ3hXOVJHcU9UMA?oc=5",
+      "source": "보건신문"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시의회, ‘움직이는 미술관’ 참여 작가들과 문화예술 소통",
+      "summary": "화성시의회가 '움직이는 미술관' 참여 작가들과 문화예술 소통 진행",
+      "kw": [
+        "미술관",
+        "문화예술",
+        "작가교류"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE10aWtyMXY2aGNsYWdJZ2xQMFpYQUFGd1FlQ05wY19DY2xTQ2VwUmUzcWUyTW1KMi12eUJaakt4VXhoT2R1bzVFZ1R3SGlzQUoyOXh3TVNlM1Z4ZVFpTm94NWw0bFFHZmoxN25hbFNJdEFhVnI4SDFveEx0SHc?oc=5",
+      "source": "비욘드포스트"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시문화관광재단, 어린이 미래건축학교 개막식 개최",
+      "summary": "화성시문화관광재단이 어린이 미래건축학교 개막식 개최",
+      "kw": [
+        "건축학교",
+        "어린이교육",
+        "재단"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE0wemZyVDVsMHVBb2tUT1FJTU5GZ21UejFabUh2MFVaZ0FuSkN3SzJtZHRtUmY2MzloVzNacV9DemdxNkJZSmJ4b3FDSk4?oc=5",
+      "source": "모닝투데이"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "화성시, 샤인머스캣 품평회 참가 농가 모집",
+      "summary": "화성시가 2026 샤인머스캣 품평회 참가 농가 모집",
+      "kw": [
+        "샤인머스캣",
+        "포도",
+        "농가"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1OaHMtMHBVbFMwd3djOUVKTjlRRmdIVkt3Nm5NTFFkVnpzOVRXNVc0X2dDalBNUHhobVJYa0lQY0dPWmU2c3FTcnFfQXhNZjBaNFlXdmJ5R0VTZHdibnZCYy1oOE5Od0xVRm1NaFdJYw?oc=5",
+      "source": "기호일보"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "화성시 ‘2026 샤인머스캣 품평회’ 참가 농가 모집",
+      "summary": "화성시가 2026 샤인머스캣 품평회 참가 농가 모집",
+      "kw": [
+        "샤인머스캣",
+        "품평회",
+        "농업"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45YlJpakpTQ0E1UTYyenFKWm5sWGU3ZzRfdGF3QTNyLWd0cWplOEdNV2g4SjlIRVg0OU9lRnpTOFdybHRYWkxRcFJ4ck16YVhwWVk2Zk9sOU5Od09QVDc4SmRILVcxaklNUWVQU1NtQ2VsVEtmZGZEaVl1Z1NCYlnSAX9BVV95cUxOOWJSaWpKU0NBNVE2MnpxSlpubFhlN2c0X3Rhd0Ezci1ndHFqZThHTVdoOEo5SEVYNDlPZUZ6UzhXcmx0WFpMUXBSeHJNemFYcFlZNmZPbDlOTndPUFQ3OEpkSC1XMWpJTVFlUFNTbUNlbFRLZmRmRGlZdWdTQmJZ?oc=5",
+      "source": "뉴데일리 경기"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "교통",
+      "senti": "부정",
+      "title": "수도권제2순환선 동탄JC서 8톤 화물차 화재…일대 정체",
+      "summary": "수도권제2순환선 동탄JC에서 화물차 화재로 일대 정체 발생",
+      "kw": [
+        "화물차화재",
+        "동탄JC",
+        "교통정체"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1LOW9yT3ZyOHlFMEtBMktBN18wMnV3VFNxeUZjZjJ1anRFMGM5aDdFREFYS1dMMEx2Qk5HcFB0aVpFejJ5QlVPZWRIVnBzQW0xY2pqMnFR0gFbQVVfeXFMUFFWY0pGQWd0VzFjTzRVTWVqVThuNWhHcWlYczltcjNGdFpTSk5Zellrbi1mdldCeW56YjJNeFZ1M05hcjdhSE1WLWRDRVJhSzdRWEhUZUVKZVY2OA?oc=5",
+      "source": "뉴스1"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "현대해상, 화성시와 '아이마음 놀이터' 조성",
+      "summary": "현대해상이 화성시와 아이마음 놀이터 조성 추진",
+      "kw": [
+        "놀이터",
+        "어린이시설",
+        "사회공헌"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFByLURVWGxxaFFpQVlvQkJ6ZjRFX3pyMHpyd19DT29kTHpXeGlaRTc3VzVTSHRldm9jQ0J0YmxpTTZsWUdJWDIwdmQ0OWpTNWhnemdZVkZVSVNVaUNicDlB?oc=5",
+      "source": "스마트투데이"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시 동탄구, 첫 권역별 콘서트 '리:와인드 댄스 나잇' 성황",
+      "summary": "화성시 동탄구 첫 권역별 콘서트 '리:와인드 댄스 나잇' 성황 개최",
+      "kw": [
+        "댄스콘서트",
+        "권역별행사",
+        "문화활동"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9Nd09VcldMdEF4QWNBay1icDBQa0JHemYxUGpRVDhtaXJIQU15dW82dmt4UFhOZ1BoUHBVOE1mQ0hGYkdCTnV3NjQyTzZ6bXZKMC1jMEF5RzVzamRMTTF0QkJBRzRTbWpLUGtNMkNmTDVnZw?oc=5",
+      "source": "디스커버리뉴스(DISCOVERYNEWS)"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "현대해상, 화성시와 '아이마음 놀이터' 조성 협약…지속가능한 양육문화 만든다",
+      "summary": "현대해상이 화성시와 협약해 아이마음 놀이터를 조성하며 양육문화 조성에 나선다.",
+      "kw": [
+        "아이마음놀이터",
+        "양육문화",
+        "현대해상"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1tYXczMnJJcDZBa2pOV1FrR2ZUVXFqLTlNd3FtTWZIamI0Mk1EdTF0NkpLU0Y4WmJhTjkxc3c0bE1RNEIxTGM3WUpOYXpuOXIydWpuVjhLVU44UHE1LVY5TEhXTnJrLXJKajhJcmw4WQ?oc=5",
+      "source": "비즈트리뷴"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "‘현대해상 아이마음 놀이터’ 화성특례시 손잡고 동탄호수공원에 조성",
+      "summary": "현대해상이 화성시와 손잡고 동탄호수공원에 아이마음 놀이터를 조성한다.",
+      "kw": [
+        "아이마음놀이터",
+        "동탄호수공원",
+        "복합문화공간"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSWd4WTBkRmd3ZWRKVGdERFB1MzAxNFBoVXNlQldvUXZENUZtMGxwYVNGTjU2Mm5oTjNxaGZWa3pQSS1HbXNjeTZmSl8yTk40TzgyaDEzMzYyMnhPZmFOTmFaTDczTFBxTVhpcGcyejRXYXRMcU51TEhqZnhCTmVqYllUSEE?oc=5",
+      "source": "글로벌이코노믹"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시 효행구보건소, 유치원생 650명 AI로 성장관리…건강데이터 기반 맞춤 지원",
+      "summary": "화성시 효행구보건소가 유치원생 650명을 대상으로 AI 성장관리 사업을 실시한다.",
+      "kw": [
+        "AI성장관리",
+        "건강데이터",
+        "맞춤지원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE54em1ZNGtHQXZkNkxOaUh1a2YxOVdDS2VKOURTLTd2X2E4Q2RETUJ6bUhsVWttNjl1a1dCMExDZ1NMUlctQ0JnWnU4N1hfalVXM3RPQTgybFZOSDhNdVZPeXdsOVh1dWc20gFsQVVfeXFMTk1wUE5UU0xaVVJSZklwTXREN2JFMXJnd3YxcEgwNVM3UGVyX3BIQzdIMWJZZHpSbWRsRG5uNDJ3UGdweV9xZW15MG5hd1p3eDN1X0cyMkp4NUNzQ2pKUlA3cWNEV3gtQ0ZZOFZf?oc=5",
+      "source": "필드뉴스"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시의회, 청사서 ‘움직이는 미술관’…지역 작가와 문화 소통",
+      "summary": "화성시의회 청사에서 지역 작가 작품을 전시하는 움직이는 미술관을 운영한다.",
+      "kw": [
+        "지역작가",
+        "미술관",
+        "문화소통"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5XU19mSXBOdHZsaTYwRzJZZ0hLc05PMnBTMzFoa2hVamxlRVpfMnFkalZFOHBqZlJDMU5NZS0zb0c1SkU5dmYtN2tnUnZKRUVvMXNfYjVHbUNnbWxUOC1oQ0ZDVWpnbV9mNmI4dy1n?oc=5",
+      "source": "현대일보"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "현대해상 지역사회 행복육아 ‘아이마음놀이터’ 동탄호수공원에 만든다",
+      "summary": "현대해상이 화성시와 협력해 동탄호수공원에 아이마음놀이터를 조성한다.",
+      "kw": [
+        "아이마음놀이터",
+        "동탄호수공원",
+        "육아복지"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1yMVphbnktV05sbFM0UVRrMXl5RmR5LUVUSzAtNDJZODNBT1FFS1NNR0pxYjZzNzVUUFFKcVAza0N0TVFkTVFEMnJreXFKcXFTR3R3Tm44M3FsT0R6bVdGdTdDQ04?oc=5",
+      "source": "인더뉴스"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "정명근 “동탄구 권역별 콘서트 개최… 일상 속에서 음악과 문화를 가까이 즐기도록 하겠다”",
+      "summary": "정명근 의원이 동탄구 권역별 콘서트 개최로 일상 속 음악문화 향유를 확대하겠다고 발표했다.",
+      "kw": [
+        "권역별콘서트",
+        "문화향유",
+        "동탄구"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9qYkdKaGZRZFpoN3RaZU9UOTYyUktRaFptUV9EXzE5dGxWY1pXbTRFQmtCUEF4OWx6VTJWTGNaRG9KSVFPMzRDal9DM1VEYXFYSF9ERUNIbDZlUmlodVVCRVZfaWludDJfRk1Z?oc=5",
+      "source": "서울뉴스통신"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "현대해상, 화성시와 어린이·가족 위한 복합문화공간 만든다",
+      "summary": "현대해상이 화성시와 함께 어린이와 가족을 위한 복합문화공간을 조성한다.",
+      "kw": [
+        "복합문화공간",
+        "어린이",
+        "가족"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE52Y3h4bkFOSUNjUGtUU1ctMnRHTXhmVEpWZ1dSSmNoMDJaZy1kaHktNHRlY2t4T3hSVFZJbnJhTWFQeFV6dWRMV283OHRQUjNsZ0tRazFMeWkyellVQlV4aXZwN0p6c09kM1VsZUU3STlzUQ?oc=5",
+      "source": "인더스트리뉴스"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "현대해상, 동탄호수공원에 ‘아이마음 놀이터’ 조성",
+      "summary": "현대해상이 동탄호수공원에 아이마음 놀이터를 조성한다.",
+      "kw": [
+        "아이마음놀이터",
+        "동탄호수공원",
+        "현대해상"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9sdzVZQVZkNnZmRjNTaU1seU03VTZRSmxmVVNZMWtJVWNIY2wtSFJfMGN6Q2pnRVJPZHAyMzBYc0tVZmhTREEwMHMxdU1LdU5oQ203czZuUDQ4V1laS3ZjeXV3Um4wSnEtZGlkRNIBcEFVX3lxTE5WTW5xQnpYcHlTUGRBSXV6cE9lNjc3V0xFbHMyMDRIc2ZaYUI0a01UaGpuQUw0cUM2STQyYWNpOHdreVJQQmtINC1HdnNSSkgwVk52VTBxbHhMM1k3UWhYUmZCN0FZVWlOd2t3RXpwSk8?oc=5",
+      "source": "뉴스케이프"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "현대해상-화성시, 아동·양육자 대상 ‘아이마음 놀이터’ 조성",
+      "summary": "현대해상과 화성시가 아동과 양육자를 위한 아이마음 놀이터를 조성한다.",
+      "kw": [
+        "아이마음놀이터",
+        "아동",
+        "양육자"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFByZHk4R0s2Tm1INlZqZFF6b1FuN2w4ZjFSNnlPRWdtNThwNk1IMjVlUnBUbldDX0dLSzZlS1lCSVZyQzQwWGhBVWpxaWItOUV3eDdzQjBZVEJ5YVpHRDFTVVIyTmNZMUxjVlhn?oc=5",
+      "source": "백세시대"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "현대해상, 동탄호수공원에 두 번째 ‘아이마음 놀이터’ 조성",
+      "summary": "현대해상이 동탄호수공원에 두 번째 아이마음 놀이터를 조성한다.",
+      "kw": [
+        "아이마음놀이터",
+        "동탄호수공원",
+        "현대해상"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE40MGR4NDliaTVrU092bVBRdWZfX3k5ZUFJTzZpNTU1YV9sdHQ2bTNYVG5pcF9SU1UyTDg3MDA1RFA4QXp0ZktHMmlIbmpsUW9YdkRDUXJQQmlSdjIxNGwtWktOTDR3R1FXRTUw0gFuQVVfeXFMUHlxUExkeGVqdThQSXduc0V1T3VvNVNvX0xXUS1mTXBuNWtOQVVyS2dNS2J5alFHWVpIekdoT3BBU0VQejJtU09LOEU3d2hiM0hOTkpJWFdzZWxxdHhLdjIzd1JGVFJXZ2Rhc3hiQlE?oc=5",
+      "source": "파이낸셜투데이"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시 효행구보건소, AI 기반 ‘아동 스마트건강관리사업’ 추진",
+      "summary": "화성시 효행구보건소가 AI 기반 아동 스마트건강관리사업을 추진한다.",
+      "kw": [
+        "AI",
+        "스마트건강관리",
+        "아동"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ROEpSTzdMX0VUZGF1eTZrd2U0ZGxuMnRuVmh0TW5UOGhPZmtZRFJTZ0JnN2FsWEViX1o1ZHk0REZaeGxsRno3OTIzb2hkdTZ2WXJ0RXVwQ19zT0xhSjQyNEdn?oc=5",
+      "source": "경인미래신문"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "에스알 동탄역 동여울봉사단, 새강지역아동센터에 책걸상·생필품 따뜻한 나눔",
+      "summary": "에스알 동탄역 동여울봉사단이 새강지역아동센터에 책걸상과 생필품을 기부했다.",
+      "kw": [
+        "기부",
+        "지역아동센터",
+        "나눔"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1pT3l3VnZYekNkM044N0taZGNfeE0wRlpPZ3VoY1ZQVzlVR0JVWHBGMlpIVVp2MEg5YTBnUzhxcXZMWjhmbzVXRTNiRjZldkU?oc=5",
+      "source": "CCBS뉴스"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시문화관광재단, ‘화성시 어린이 미래건축학교’ 개막",
+      "summary": "화성시문화관광재단이 어린이 미래건축학교를 개막한다.",
+      "kw": [
+        "건축학교",
+        "어린이",
+        "미래교육"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBuVFVyUElzVElwS0JKdmowTEYwYUp5YUZ5M3VoRWszZ1NJLTZuZWZBX0hEdE12TkpHOHhRdjdDbHpWSVVPYklZQkhVNlhjTU9YV2F4QTVVLUh2b1BMc2JLN2I3akRmMG9aYmEw?oc=5",
+      "source": "수원일보"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시, 11월 'MARS 2026' 개최…\"AI기업 코엑스로 모여라\"",
+      "summary": "화성시가 11월 MARS 2026을 개최해 AI기업들을 유치한다.",
+      "kw": [
+        "MARS2026",
+        "AI기업",
+        "유치"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5rNXVvRW1QRlFJQ243eVZNVldialY2bW52bWo1eHdYOEZXMkFuQk1LS25kOVh1YWRBWWxTd1R5aGtjWkZuTldscU9FdVRBTWdzWXVZTEl2ZzhyMkVUQXZQVS1oNlFCVUhkMGFLeVZCZnU4VWhYdWM1bdIBeEFVX3lxTE5rNXVvRW1QRlFJQ243eVZNVldialY2bW52bWo1eHdYOEZXMkFuQk1LS25kOVh1YWRBWWxTd1R5aGtjWkZuTldscU9FdVRBTWdzWXVZTEl2ZzhyMkVUQXZQVS1oNlFCVUhkMGFLeVZCZnU4VWhYdWM1bQ?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "교통",
+      "senti": "중립",
+      "title": "경기도의회 신미숙 의원, 화성특례시 철도사업 추진현황 보고받아",
+      "summary": "경기도의회 신미숙 의원이 화성특례시 철도사업 추진현황을 보고받음",
+      "kw": [
+        "철도사업",
+        "추진현황",
+        "특례시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE92eFQ4bERpdXRERnZuNk1YTXd2YkNiWTk5WGNWSE9kWTBySzdGbU5tcmtoQ0pjNVVtQmluRHNVN043QW4welM0SXpn?oc=5",
+      "source": "mediatoday.asia"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시의회, ‘움직이는 미술관’ 참여 작가들과 소통",
+      "summary": "화성시의회가 움직이는 미술관 참여 작가들과 소통행사 개최",
+      "kw": [
+        "미술관",
+        "작가",
+        "문화"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcVh3QTNRRUkzVENNSkJxbWVyTE93U1lMZXdjTWR2U2M4eDlCZHJHbS0yNDFkQ2VwOE11bkVaWkx2ZjhBLVI2RmxacVp6djJZSFl3V1NtcGo2Mm92OTY1TzBrS3dXTlkxOWU2aUlIcHFtdWdWdkxYajZDZ2RYVVpHSGFB?oc=5",
+      "source": "아시아경제"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "화성시, ‘알콩달콩 가족체험’ 2차 참여가족 모집... 7~13세 자녀 가족",
+      "summary": "화성시가 알콩달콩 가족체험 2차 참여가족 모집 중",
+      "kw": [
+        "가족체험",
+        "모집",
+        "복지"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5sNVBlWHplZHYzMnp4Mlg0YXZfMnpQaVFLWUltdXNrcVVxRjBCMjNxTlZYMDNpNUpuVEpVZTc3dk4tejJtLXZmVjZ6TTNHejZFczF1SE1JX3kteWFfcXIwT1F3?oc=5",
+      "source": "경인미래신문"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "환경",
+      "senti": "부정",
+      "title": "화성 폭염경보…동탄·서부권 모두 ‘숨 막히는 더위’",
+      "summary": "화성시 전역에 폭염경보 발생으로 심한 더위 지속",
+      "kw": [
+        "폭염경보",
+        "동탄",
+        "서부권"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1tbzI5QjZ4UHRrNkUyaUJLWVZjOExHT09BZy0yeHBabmhXVDVKSFA5cVBqUXRxdnpyTDJyTzJWeHNYaEZlcm0ybnlzSFVXbmRfOFl0T3JzckVNbExfWUFnZ0xKWlZxVGVt?oc=5",
+      "source": "OBC 뉴스"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "화성시, '샤인머스캣 TOP 5' 뽑는다… 우수 농가 모집",
+      "summary": "화성시가 최우수 샤인머스캣 농가를 선정하기 위해 모집 진행",
+      "kw": [
+        "샤인머스캣",
+        "우수농가",
+        "모집"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBvM2FoSE5XQjRpUFRnSDlvUXo1VnBxYTNZd1FkYmUzbWxOZEhuTTU5ek92SDdzbUw0dXZCRHhKZ2s0NW9VUC1CT0lWUlhuWGhCRU1yb21oSWtaT2tmWEF3dWdIMXZoVDhzZHfSAW5BVV95cUxNQzBrWjlMbjlZbmZ4YklQTE9paEp1NzllZ3BWU1B0ZVBlWmxjTHQzRXQ1THJHdy1ISDNXeEMxTXVQT1NuWHVZUzJ3R2tuRzJzN0ZMSU1rb2t1WGtWcUtrMU0wa0VFRkZwYWtMNlVzUQ?oc=5",
+      "source": "미디어와이"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "[딱! 당신을 위한 모집] 화성시 최고의 샤인머스캣 가린다",
+      "summary": "화성시 최고의 샤인머스캣을 선발하는 모집 진행",
+      "kw": [
+        "샤인머스캣",
+        "우수농가",
+        "선발"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE94aGdFOVNBS0xxV1diUEJkT1hwQ0lreFRJY0l4RWZ6bEFkMC1iVjRBbk9INnFTM20yemItS2VOSDhGRUM4aFlxS0lXVElaWFdBamN0dmlhQklZZFBnTEV1dA?oc=5",
+      "source": "NSP통신"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "“교통도 복지”… 화성시, 100만 특례시 ‘포용 복지 기준선’ 제시",
+      "summary": "화성시가 교통복지를 강조하며 100만 특례시 포용복지 기준선 제시",
+      "kw": [
+        "교통복지",
+        "포용복지",
+        "특례시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBJdUpGaDBnclU5YWpQeXRwenFXZE1KYjc5QjhiaWhqUUVRUmgtU1JMUjloUE5lWHZoU2libkVhc01kMmg4UXl0dVhKcld2WFl3QlB1bmRYSHfSAVRBVV95cUxNcTctY21Oa3lTbjFpSHdrdlI2YTB1NDc3SXBERVViQTdnbWtzNE1MQ0N1S1ozdlJ0Qmtjbk0tT2h3ME1HNGlxM3hJSF9TejJ0YUdtdmQ?oc=5",
+      "source": "세계일보"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "현대해상·화성시, '아이마음 놀이터' MOU 체결…동탄호수공원에 복합문화공간 조성",
+      "summary": "현대해상과 화성시가 동탄호수공원에 아이마음 놀이터 조성 MOU 체결",
+      "kw": [
+        "아이마음놀이터",
+        "현대해상",
+        "동탄호수공원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ZMl9HaHVRYnc5enVFNkpMY2JOd1E0QUkyZE93S1BnYUltZTJOckEzbkFzaGNvWjlYREFvOHN1RzNhNE1iSlhpb0VwNHdNTTFVX1lzQ1FXNnNHV3VBU05ldVlJRFQwVUczdHc?oc=5",
+      "source": "퍼블릭뉴스통신"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "현대해상, 화성시와 '아이마음 놀이터' 조성 맞손",
+      "summary": "현대해상이 화성시와 협력해 아이마음 놀이터 조성",
+      "kw": [
+        "아이마음놀이터",
+        "현대해상",
+        "복합문화공간"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9XaW8xdGtBdmk5YjlRNHU2YVV5X2VYRXhzSnBTa2psUExkSTZzcFZ2UWRkNUt0c2c4dGUtbWprak56ajltMldHNW1sTnVhM2pvR3ExbmVBN01wSkpKbGNYb1dpZzd6OUtnUXZpVlNmdENhblnSAXNBVV95cUxPV2lvMXRrQXZpOWI5UTR1NmFVeV9lWEV4c0pwU2tqbFBMZEk2c3BWdlFkZDVLdHNnOHRlLW1qa2pOemo5bTJXRzVtbE51YTNqb0dxMW5lQTdNcEpKSmxjWG9XaWc3ejlLZ1F2aVZTZnRDYW5Z?oc=5",
+      "source": "초이스경제"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "화성시아름장애인보호작업장·서남부장애인자립생활지원센터 업무협약",
+      "summary": "화성시 장애인보호작업장과 자립생활지원센터가 업무협약 체결",
+      "kw": [
+        "장애인보호",
+        "자립생활",
+        "협약"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9VVlB6Sl80ck5mTFhkY0Y0aTUzQ2M5QWI5SGpMYzA2QUFidng4VjktV2tFRFlfcktwNU1BWUFfSFdGdTQ3UGNJeVJTQjVGS2E3TXROUUpYcGsxWG5ud0ZOLVYxc3A4cXJmTXRUSUpJYlM1LUZMX2fSAXhBVV95cUxOSTFqNUVFZ3hxYXRva1pZbzlZUUdQU2Y2SFhEZkhnb2Z1NUhLMXY5TzV1alZiWnVHYXZMY1VuZzkxbzNhb0NDejdlRG9zUmhQelA5LW9XVHROcFZZMW5qYVplQ0hhaEhERG1ISEV6Q1RVWXNMTmNCbkI?oc=5",
+      "source": "한국장애인신문"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "[인터뷰] 이계철 화성특례시의회 의장 \"의장 권한 낮추고, AI로 전문성 높이겠다\"",
+      "summary": "이계철 화성특례시의회 의장이 의장 권한 축소 및 AI 활용 계획 인터뷰",
+      "kw": [
+        "화성의회",
+        "의장",
+        "AI"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBEU3dPSmoxYmp3ME5EaFNJbTRVTFNrSVF3U3g2THdPUm53Y2hIdXZrMDJWbU5aWG82c2pxejQ5Um9hX2otV2Z0MXNncw?oc=5",
+      "source": "뉴스체인지"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "현대해상, 화성시와 ‘아이마음 놀이터’ 2호점 짓는다",
+      "summary": "현대해상이 화성시와 함께 아이마음 놀이터 2호점 조성",
+      "kw": [
+        "아이마음놀이터",
+        "현대해상",
+        "복합문화"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBsX21CSHR0TFQySlBCMzA5Ynh5aUF4dUxHQlVic3RYT1FwVHg2LWhYY1FxQ3VSWUo1S05BTUg5RkozNXN2em1PdVBqYl9vc25kZ25R?oc=5",
+      "source": "경제타임스"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성시인재육성재단 영재교육원, 예술·역사·첨단과학 아우르는 야외 학습 운영",
+      "summary": "화성시인재육성재단 영재교육원이 야외학습 통해 다양한 분야 교육 운영",
+      "kw": [
+        "영재교육",
+        "야외학습",
+        "교육"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5FRTAxZno3V0hkWXhmdkYzems2elItQzJERXRBdm8tVlpkbHFDakdLTExrOG5ESGFoZ2U5Sjh1Z3VHenNZbHoyaHBqRThxTHhScmlaNm1CNWdtcXAzbjc2WENRNjZNSzhrWkFHYi12US1hTTRD?oc=5",
+      "source": "경기종합뉴스"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "현대해상, 화성시 동탄호수공원에 '아이마음 놀이터' 조성",
+      "summary": "현대해상이 화성시 동탄호수공원에 아이마음 놀이터 조성",
+      "kw": [
+        "아이마음놀이터",
+        "동탄호수공원",
+        "문화공간"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1hTUY0VUVLemZCM3JOUXBuaEVrRXczc1IzLTlfT25XMmUydko1Sy0tQmRyUWZLLUJpSkJQam9WUGt2ZTNSYmtxeXU3Q0pHZk9lSnpCZmZFT3kxLXdCc05ZcmxRaThOS1AxZTFXcWNQbGFNTW5N?oc=5",
+      "source": "파이낸셜포스트"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "화성시여성가족청소년재단, 가족과 함께 떠나는 화성 농촌체험 참여가족 모집",
+      "summary": "화성시여성가족청소년재단이 가족농촌체험 프로그램 참여가족 모집",
+      "kw": [
+        "농촌체험",
+        "가족프로그램",
+        "모집"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yQlQ0ZFh1dWlONnMxY2ZWd21zZ3dKWkJQa2dOb0FLMWxTLVZjTE5IVHduY3oxb2F4VlJ5eVlnTTBQUG04OVhYcXlOMF9LSDM4THhTS3RFMGVvUGg5NUdvTFhtc0k4d1Zv?oc=5",
+      "source": "newspeak.kr"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시 최고 샤인머스켓 가린다…품평회 참여 농가 모집 - 머니투데이",
+      "summary": "화성시 최고 샤인머스켓을 선정하는 품평회에 참여할 농가를 모집한다.",
+      "kw": [
+        "샤인머스켓",
+        "품평회",
+        "농가"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5vVHhZdTNWZS1tQkJ3UVJfRVh4TEpxNW5Hd01jWXVtbkd1VlpGT3J1d3R0QUJwR0xZNE04WW00UkxNTm1HWkVoZXRJN2ZVWU9GVEhVYU9BYWg4WHAtUzhGdXNPeWM5Mjlfd1MwTFA4dVNNZ1hBQk9reTdhVTTSAXxBVV95cUxOb1R4WXUzVmUtbUJCd1FSX0VYeExKcTVuR3dNY1l1bW5HdVZaRk9ydXd0dEFCcEdMWTRNOFltNFJMTU5tR1pFaGV0STdmVVlPRlRIVWFPQWFoOFhwLVM4RnVzT3ljOTI5X3dTMExQOHVTTWdYQUJPa3k3YVU0?oc=5",
+      "source": "머니투데이"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "경기도지체장애인협회 화성시지회, 장애인전용주차구역 인식개선 캠페인",
+      "summary": "경기도지체장애인협회 화성시지회가 장애인전용주차구역 인식개선 캠페인을 진행한다.",
+      "kw": [
+        "장애인",
+        "주차구역",
+        "캠페인"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1EQ1ZoRjBYN1ZBa3o2d3JBdzlVQWZOdklvZXVsWVgtMDEzcmYxOEh4Tk5ka2gtVTk4YUJGVThMV1BqcDItbll0MTNvS1Z2ZzF5NUw2WTNBTzFaRG9Dbkl6QU11eWluV0RlVmt6Tmh3?oc=5",
+      "source": "중부일보"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "화성시 국유지 5년 무단 점용 방치, 수원·용인 첨단 감시망과 대조",
+      "summary": "화성시 국유지가 5년간 무단 점용되었으나 방치되고 있는 문제가 지적된다.",
+      "kw": [
+        "국유지",
+        "무단점용",
+        "행정관리"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9WS0NueFRkR2RaeG5kR2l3Nk5kaUdER2dhZExSVER3bmpOWDNJb09qLXJvSElfMEczZUh3cXFNalE0ZWc?oc=5",
+      "source": "화성신문"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "현대해상, 화성시와 동탄호수공원에 '아이마음 놀이터' 조성",
+      "summary": "현대해상이 화성시 동탄호수공원에 어린이 놀이터 '아이마음 놀이터'를 조성한다.",
+      "kw": [
+        "아이마음놀이터",
+        "동탄호수공원",
+        "어린이"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YeWpqc1ZxWHZMVWFBcUhWdzFDNG9wVk9zMWpGMl9ZaTk0ZDNNS1pDbG4zUUJhWGRoN0FMSG1zSUp0dk9CNGZBbXhaRGlweWFpeUpvaWZJRS1aU0JuZXcwYjRSYWQyUzlHSEE?oc=5",
+      "source": "컨슈머타임스"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시의회서 '움직이는 미술관'… 지역 작가 작품 전시",
+      "summary": "화성시의회에서 지역 작가 작품을 전시하는 '움직이는 미술관' 행사를 개최한다.",
+      "kw": [
+        "미술관",
+        "작가",
+        "전시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVLVloNWNqU3NPMEpscHJuXzRjeFpKdnpIRVpVXzRJLWRidUs2a1o4bWR4bDNxeU05UXRodm43d1d0R2dBdjFEbjRWYlhBQzliWmw1RTJSSmtNLXNZeVhOZ3hDSTk3dUdEaFHSAW5BVV95cUxNUElESkU0NnliRVdtVk1OVWx0Wm8zUjI3MXZCZloweGhSOF9sRGRXcnFlUFUxekU0RHlHSnpXQjRQZXlQblZ0ZFAxMktMNnRnMDM1RkxrN0dHMmc3dlNmSWFWOWdzSWt1cjUteTJlQQ?oc=5",
+      "source": "미디어와이"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "신미숙 경기도의원, 화성특례시 철도사업 추진현황 보고받아",
+      "summary": "신미숙 경기도의원이 화성특례시 철도사업 추진현황을 보고받는다.",
+      "kw": [
+        "철도사업",
+        "특례시",
+        "추진현황"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vc0RZR0hfb3ZPLUtSVkptLVZxaG9XMC1qMXlSNmZ5RldDWk1IRHBKaVd6cVpTZkZnSUFhMkMyVmJnZkpka1ZLTmhTenRqRkVabEF3?oc=5",
+      "source": "네이트"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시 효행구보건소, AI로 아동 성장예측 시작…“내 아이는 몇 센티?”",
+      "summary": "화성시 효행구보건소가 AI 기술을 활용해 아동 성장을 예측하는 서비스를 시작한다.",
+      "kw": [
+        "AI",
+        "아동성장",
+        "보건소"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE50Unh4N0M5U0hNdUl5aUhNcFUta0FvZ0IxTnpfQThtZTRmVGNCcXR0WVNkRXRKM05SWkdxZ09ueXJGMWp3MW5KWGl3UWQxR24wQ09MUzRuTzAwMy1tNFlkaDlnaDBKc05CR0Jn?oc=5",
+      "source": "수원일보"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "[포토뉴스] 현대해상, 화성시와 ‘아이마음 놀이터’ 조성",
+      "summary": "현대해상이 화성시와 동탄호수공원에 '아이마음 놀이터'를 조성한다.",
+      "kw": [
+        "아이마음놀이터",
+        "동탄호수공원",
+        "어린이"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9aOEZ2VW5RVnlVY1hWLVFMOUNNa0lpRGVWdVR6MHZieUZKRUEwZmpObVNwQVlLcEU4SUVtNTBIYWJpTXlkdkhMcWVIcWhaLWUxOVBIVFlzb2p0VDFrcElFQkVtLXpHS0xCN3c4?oc=5",
+      "source": "CNB뉴스"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "현대해상, 화성시와 아동·양육자 커뮤니티 공간 조성",
+      "summary": "현대해상이 화성시와 함께 아동과 양육자를 위한 커뮤니티 공간을 조성한다.",
+      "kw": [
+        "커뮤니티",
+        "아동",
+        "양육자"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1XNTE3R3lMaUM5Y3ZQZFdCWVZWLVFsNjFwUnVhRVhiRHFtckdnY1NlRWh3TnItTEhZR2RYODBuaHZjbXV6NnFkcVY3akV1VEJrbmxXVjlTejVVcFZ4aDBDLXpHWnBjbjdQX1RXVk05c9IBb0FVX3lxTE1XNTE3R3lMaUM5Y3ZQZFdCWVZWLVFsNjFwUnVhRVhiRHFtckdnY1NlRWh3TnItTEhZR2RYODBuaHZjbXV6NnFkcVY3akV1VEJrbmxXVjlTejVVcFZ4aDBDLXpHWnBjbjdQX1RXVk05cw?oc=5",
+      "source": "더퍼블릭"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시문화관광재단, ‘화성시 어린이 미래건축학교’ 개막…어린이들이 상상하는 미래 우주도시 선보인다:경찰연합신문",
+      "summary": "화성시문화관광재단이 어린이 대상 '미래건축학교'를 개최해 미래 우주도시를 주제로 전시한다.",
+      "kw": [
+        "미래건축학교",
+        "어린이",
+        "우주도시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBfVm9xSGlESEo1SFVRRDlPUy10aHdOcUplRkVnQUZ4LS1IRl9halp1OElKSUFvY3JYd1hPZ0FxRVJxTWZrbzQtS3RsQjI0OUs5emZkRXp0RkxjRld2eFNkRTZQTlVvMHhtN1g5StIBbEFVX3lxTFBfVm9xSGlESEo1SFVRRDlPUy10aHdOcUplRkVnQUZ4LS1IRl9halp1OElKSUFvY3JYd1hPZ0FxRVJxTWZrbzQtS3RsQjI0OUs5emZkRXp0RkxjRld2eFNkRTZQTlVvMHhtN1g5Sg?oc=5",
+      "source": "경찰연합신문"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시 병점1동 '이웃 사랑에 사랑 하나 더 얹은 현판 전달했다'",
+      "summary": "화성시 병점1동에서 이웃 사랑을 실천하는 현판 전달식을 개최한다.",
+      "kw": [
+        "병점",
+        "이웃사랑",
+        "현판"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5CZ0N5THdsdTlDd0RrbXcySzFkWklTeTJNVGhtQlFnaUxwMGFBV0ZGQ0U2RDF6MUxKdktweXBrMjQ0b2otRWh1OGZwSXYwMERzaXpiOEhVS2lDYi1rUGJ1UHpqLThNZw?oc=5",
+      "source": "열린뉴스통신"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성특례시, '최고 샤인머스캣' 톱5 뽑는다…품평회 참가자 접수",
+      "summary": "화성특례시가 최고 샤인머스캣 톱5를 선정하는 품평회 참가자를 모집한다.",
+      "kw": [
+        "샤인머스캣",
+        "품평회",
+        "특례시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1makFITHRfZjhkYk1Iajd6b0RhaWhGTkI5OW56Zkt1clJ5T2RjMTdGRmhWZ0oyZUo3YXN1LWp0N1BJai13akRKLV8yUU5hNlFWM1Y5TFUyMm1xQzVtbkxRMzBFSnlkU1hfV1dKVlZCRmRlRmvSAXNBVV95cUxNZmpBSEx0X2Y4ZGJNSGo3em9EYWloRk5COTluemZLdXJSeU9kYzE3RkZoVmdKMmVKN2FzdS1qdDdQSWotd2pESi1fMlFOYTZRVjNWOUxVMjJtcUM1bW5MUTMwRUp5ZFNYX1dXSlZWQkZkZUZr?oc=5",
+      "source": "뉴스웍스"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "[포토] 현대해상, 경기 화성시에 ‘아이마음 놀이터’ 조성",
+      "summary": "현대해상이 경기 화성시에 '아이마음 놀이터'를 조성하는 프로젝트를 진행한다.",
+      "kw": [
+        "아이마음놀이터",
+        "현대해상",
+        "화성시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11WWtSMVgtT1BuYVVnUXhwX19NWWFXOEdIbTY2ZWZKaVhvdW9HZmlzdDlFM1I2TkNkRm12anVHTldQczNXcVl0d0wyQk56TlROLWNvdlplYUE5cUJfV05xRVgzdEM4a08w?oc=5",
+      "source": "fetv.co.kr"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "현대해상, 화성시와 '아이마음 놀이터' 조성 MOU 체결",
+      "summary": "현대해상과 화성시가 '아이마음 놀이터' 조성을 위한 업무협약을 체결했다.",
+      "kw": [
+        "MOU체결",
+        "아이마음놀이터",
+        "협력"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAzNGd4SVlNeWRodnBlV2FKdlBJRHpFcllqYS1XcUctaVVjallUekgyNktyWnZjczJpUC1GNlhUTU5MNU9OTm9oYUZEZ2w4REJMaFVCTXJrSHpnMHFfMHpSSU9qR2VjNFp1UGtUbWZhNm1jd9IBdkFVX3lxTE5ZMjVjNXlaUmRqcXBWdFYxc3hmU1NCZXJnSEtDRV9MNDBldDFRWjhBcnhPaTlhT3lCeXV5X0pWbXd3d2FXZzFBeTRqSWVDSHMtZGdFWjU2NXk1cXZlX1k5aXpEZW9hT1hKRnI2QnNxdWN5eURvY3c?oc=5",
+      "source": "증권경제신문"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "현대해상, 화성시와 ‘아이마음 놀이터’ 조성…양육 커뮤니티 확대",
+      "summary": "현대해상이 화성시와 '아이마음 놀이터'를 조성하며 양육 커뮤니티를 확대한다.",
+      "kw": [
+        "아이마음놀이터",
+        "양육커뮤니티",
+        "현대해상"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBLYWN1VmJrTkJMNF96R0JxbzdfX1hsME1uWkNuQ25lanlUWkNPQ2QzUnFPLW0xbWg2S1dIakxSQm1NcjJyam1aQ281TlBqdGNaTkNMaERicjk?oc=5",
+      "source": "더트래커"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "정경선 현대해상 부사장, 화성시와 ‘아이마음 놀이터’ 조성 MOU 체결",
+      "summary": "정경선 현대해상 부사장이 화성시와 '아이마음 놀이터' 조성 MOU를 체결했다.",
+      "kw": [
+        "MOU체결",
+        "아이마음놀이터",
+        "부사장"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9iNzBRTTk0d19YU2swbmNZTlhaU0pvSUxxdWZXcW9MNFpSZnN4SG1hb2d6TlhPQU5PZ25vel9PN0w0MWJvejQxNTBPZWtkOGxmNE84Q29jZ1pkbmJCWmQxMW1wZlJRQW5ETkxKX193?oc=5",
+      "source": "아시아투데이"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시 병점1동, 나눔가게 6개소에 감사 현판 전달",
+      "summary": "화성시 병점1동이 나눔가게 6개소에 감사 현판을 전달했다.",
+      "kw": [
+        "나눔가게",
+        "감사현판",
+        "병점1동"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB3OXpWTmU3d09KcDVJOHRXbWZrM0xrTU5WZ2UtdnV6WjRaV292d2hEVGpSaHhkNUpXSGtxRGZGUVVPQWtVN1ZKY20wazIwbkktYWg3SERxOERXZ1g5RlZtbldR?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "이계철 화성시의장 “주민이 함께 만들어가는 축제가 화성시의 가장 큰 자랑”",
+      "summary": "이계철 화성시의장이 주민이 함께 만드는 축제가 화성시의 가장 큰 자랑이라고 말했다.",
+      "kw": [
+        "시의장",
+        "주민참여",
+        "축제"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBUZ3NzSWd6ajBod0kxX2RaQ2k2T0pYMzZGSDgtbk5tbERBWFFKd0RUd21jZGRPZEhibFliZ1ZqVUstTU5oSGpSZXlwVkxmWDMzUzdtOTd4Uk9abDg2SjIwajlZUE1PdXJBVjg0?oc=5",
+      "source": "서울뉴스통신"
+    },
+    {
+      "date": "2026-08-24",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "현대해상, 두 번째 '아이마음 놀이터'는 화성시에…출생아 수 전국 1위",
+      "summary": "현대해상이 두 번째 '아이마음 놀이터'를 출생아 수 전국 1위인 화성시에 조성한다.",
+      "kw": [
+        "아이마음놀이터",
+        "출생률1위",
+        "현대해상"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA3ZlExd1QyRXdISm5NN25zMk0wXzh5amNoQzU0Q3NxNWw3aFlmU0ozMVJQR2xDTUwyV3BzYmpQMlhZMmswdm56R2MxWDlOZE02VE9OOHhQanNZUVlhMG5LR0tvOTRBZ9IBZkFVX3lxTFA3ZlExd1QyRXdISm5NN25zMk0wXzh5amNoQzU0Q3NxNWw3aFlmU0ozMVJQR2xDTUwyV3BzYmpQMlhZMmswdm56R2MxWDlOZE02VE9OOHhQanNZUVlhMG5LR0tvOTRBZw?oc=5",
+      "source": "뉴스1"
+    },
+    {
+      "date": "2026-08-25",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시문화관광재단, ‘화성시 어린이 미래건축학교’ 개막…어린이들이 상상하는 미래 우주도시 선보인다",
+      "summary": "화성시문화관광재단이 어린이 미래건축학교를 개최하여 미래도시 설계 전시를 선보인다.",
+      "kw": [
+        "문화관광재단",
+        "어린이교육",
+        "미래건축"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1Pc1d2Zjl3V0E0d3dtQ0lfclNXb1VyaXRiVE9MOE9UZkFIQ0dtNUFBUXpTX3gxREU0b2J5dEllOXFWbmFKRGRDQWlqXzRzSTZYOFFRakFYWVRjMjFWdlBCMVp2b1FSZG1WTmhfektpRElRZ9IBckFVX3lxTE1Pc1d2Zjl3V0E0d3dtQ0lfclNXb1VyaXRiVE9MOE9UZkFIQ0dtNUFBUXpTX3gxREU0b2J5dEllOXFWbmFKRGRDQWlqXzRzSTZYOFFRakFYWVRjMjFWdlBCMVp2b1FSZG1WTmhfektpRElRZw?oc=5",
+      "source": "뉴스 따옴"
+    },
+    {
+      "date": "2026-08-25",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "루트임팩트-현대해상, 화성 동탄 아이마음 놀이터 조성...하반기 개소 목표",
+      "summary": "루트임팩트와 현대해상이 동탄에 아이마음 놀이터를 조성하며 하반기 개소를 목표로 한다.",
+      "kw": [
+        "아이마음놀이터",
+        "동탄",
+        "어린이복지"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5MNGhQRDVYVHhLOWsxWE9NdzRPaWc1UFNqaDRzYmpVUlVUbURjcy1ZbjRacGt5d2hVejJMd2NpUWxhY3FxdWRORG9sNnZwY0h6S3RvSURmdHZYcjlGZktKSnhMUWZtUQ?oc=5",
+      "source": "이로운넷"
+    },
+    {
+      "date": "2026-08-25",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성특례시, ‘생활 집수리 나눔 실천과정’ 참가자 모집",
+      "summary": "화성특례시가 생활 집수리 나눔 실천과정 참가자 모집",
+      "kw": [
+        "집수리",
+        "주거복지",
+        "시민참여"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1vQmVLa1NkcFY3V3BFSEhxTVNKQVBwMTd5UldNLVA0Snh4SDM1bGIwbkFhMzlTYk5WSjJfOUtTSEoyQ21S?oc=5",
+      "source": "광역행정신문"
+    },
+    {
+      "date": "2026-08-25",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "\"출생률 1위 화성시와 손잡았다\"…현대해상, '아이마음 놀이터' 조성 추진 |",
+      "summary": "현대해상이 출생률 1위인 화성시와 함께 '아이마음 놀이터' 조성을 추진한다.",
+      "kw": [
+        "아이마음놀이터",
+        "현대해상",
+        "양육지원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5PZXRaQWozTmFsdU9wR1pGWGJ3T1poRDNvWHhHTG5JMVBvLWxGeFdWdWJzcHlncjJVS0FuRzFoZTl6WVJLa1RuVElRcnlpYjQwWURDWVBGbFVpRUZJQllBOWFnWnoyNXUyREZXM1JrTWNzTnVO?oc=5",
+      "source": "thefairnews.co.kr"
     }
   ],
   "dropped": {
-    "count": 10,
+    "count": 5,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
       "[날씨] 막바지 피서 즐겨요…도심 속 물놀이장 북적",
-      "성인 장애인 학습 지원' 뭐든지 학교' 학습자 모집",
-      "비 소강상태에 뜬 무지개 [포토뉴스]",
-      "백현빈의 ‘빈 칸 채우기 ②",
-      "보치아대회, 장애인과 비장애인의 통합 한마당",
-      "그냥드림이 집 근처로 찾아 갑니다",
-      "\"웃음엔 통역 없고 사랑엔 비자 없다\"",
-      "가로수 보호판, 철제 대신 온기 입다",
-      "포토뉴스",
-      "기아 헤리티지 전시장에서 아빠와 자녀가 ‘푹’ 빠진 사연"
+      "[날씨] 도심에서 즐기는 막바지 여름…물놀이장 인기",
+      "지역사회와 함께하는 기후위기 대응 업무협약 체결",
+      "GTX-A 연결하고 트램 달린다…교통망 타고 집값 들썩",
+      "포토뉴스"
     ]
   },
   "briefs": {
-    "all": "수집 기간 전체 1,788건 중 [[w]]부정기사 135건(8%)[[/w]]이 집계되었으며, 특히 안전 분야에서 [[w]]57건[[/w]]의 부정 보도가 집중되어 있습니다. [[b]]동탄[[/b]]이 핵심 보도 키워드로 나타났고, 행정 분야(569건)가 가장 많은 언론 관심을 받고 있습니다.",
-    "7": "최근 7일간 438건 기사 중 [[w]]부정기사는 25건(6%)[[/w]]으로 전체 평균보다 낮은 수준이며, [[b]]8월 18일[[/b]]에 부정 보도가 집중(8건)된 점을 확인이 필요합니다. 행정(103건)과 안전(10건) 분야에서의 보도 동향을 모니터링하시기 바랍니다.",
-    "30": "지난 30일간 921건 중 [[w]]부정기사 74건(8%)[[/w]]이 발생했으며, 안전 분야의 [[w]]37건[[/w]] 부정 보도가 주요 관심사입니다. 8월 3일 부정 보도 8건 집중 일자의 후속 대응 상황을 점검하고, 행정 분야(265건)의 지속적인 매체 관심을 관리하시기 바랍니다."
+    "all": "수집 기간 전체 1,878건 기사 중 [[w]]부정기사 142건(8%)[[/w]]이 보도되었으며, [[b]]동탄[[/b]]이 핵심 키워드로 나타났습니다. 안전 분야 부정보도가 58건으로 가장 많으니 관련 대응 상황을 점검하시기 바랍니다.",
+    "7": "최근 7일간 453건 기사 중 문화관광 분야가 110건으로 가장 활발하며, [[w]]부정기사는 24건(5%)[[/w]]으로 전체 기간 대비 낮은 수준입니다. 다만 안전 분야 부정보도 10건에 주목이 필요합니다.",
+    "30": "지난 30일 1,007건 기사 중 행정 분야가 271건으로 주요 보도 영역이며, [[w]]부정기사 80건(8%)[[/w]]의 대부분이 안전 분야(38건)에 집중되어 있습니다. [[b]]2026-08-03에 부정기사 8건[[/b]]이 집중 보도된 점도 확인 필요합니다."
   },
-  "briefs_updated": "2026-08-24 06:45",
+  "briefs_updated": "2026-08-25 06:58",
   "issues": {
-    "updated": "2026-08-24 06:45",
+    "updated": "2026-08-25 06:58",
     "items": [
       {
         "label": "동탄역 버스환승센터서 만취 운전… 30대 운전자 불구속 입건",
@@ -10772,72 +12027,81 @@
     ]
   },
   "today": {
-    "updated": "2026-08-24 06:45",
+    "updated": "2026-08-25 06:58",
     "items": [
       {
-        "label": "동탄역 버스환승센터서 만취 운전… 30대 운전자 불구속 입건",
-        "count": 2,
-        "sources": 2,
-        "first": "2026-08-21",
-        "last": "2026-08-21",
-        "cat": "안전",
-        "titles": [
-          "횡단보도 옆 안전지대 '쾅'…동탄역 만취 운전자 입건",
-          "동탄역 버스환승센터서 만취 운전… 30대 운전자 불구속 입건"
-        ],
-        "score": 54,
-        "state": "진행 중"
-      },
-      {
-        "label": "기자수첩 / 농지 파고드는 기름때… 화성시의 ‘눈 감은’ 단속",
+        "label": "이준석 “동탄도 전세 씨 말라…분양 받은 집도 못 들어가”",
         "count": 1,
         "sources": 1,
-        "first": "2026-08-23",
-        "last": "2026-08-23",
-        "cat": "환경",
+        "first": "2026-08-24",
+        "last": "2026-08-24",
+        "cat": "산업경제",
         "titles": [
-          "기자수첩 / 농지 파고드는 기름때… 화성시의 ‘눈 감은’ 단속"
+          "이준석 “동탄도 전세 씨 말라…분양 받은 집도 못 들어가”"
         ],
         "score": 53,
         "state": "신규"
       },
       {
-        "label": "화성시복지재단..기관평가 ‘라’등급, 계약대금 71일 지연·선금관리 허술, 잇단 ‘경고등’",
+        "label": "수원·의왕은 바꿔주고 동탄은 260억 부담…철도공단 ‘설계변경’ 형평성 논란",
         "count": 1,
         "sources": 1,
-        "first": "2026-08-23",
-        "last": "2026-08-23",
-        "cat": "복지",
+        "first": "2026-08-24",
+        "last": "2026-08-24",
+        "cat": "교통",
         "titles": [
-          "화성시복지재단..기관평가 ‘라’등급, 계약대금 71일 지연·선금관리 허술, 잇단 ‘경고등’"
+          "수원·의왕은 바꿔주고 동탄은 260억 부담…철도공단 ‘설계변경’ 형평성 논란"
+        ],
+        "score": 53,
+        "state": "신규"
+      },
+      {
+        "label": "수도권제2순환고속도로 동탄JC 인근서 8톤 화물차 화재…1개 차로 통제",
+        "count": 1,
+        "sources": 1,
+        "first": "2026-08-24",
+        "last": "2026-08-24",
+        "cat": "안전",
+        "titles": [
+          "수도권제2순환고속도로 동탄JC 인근서 8톤 화물차 화재…1개 차로 통제"
         ],
         "score": 53,
         "state": "신규"
       }
     ],
-    "surge": []
+    "surge": [
+      {
+        "cat": "교통",
+        "recent": 3,
+        "days": 3,
+        "base": 4,
+        "base_days": 12,
+        "base_daily": 0.33,
+        "ratio": 3.0
+      }
+    ]
   },
   "ops": {
-    "runs": 10,
-    "days": 10,
+    "runs": 11,
+    "days": 11,
     "since": "2026-08-14",
-    "last": "2026-08-23",
+    "last": "2026-08-24",
     "failures": 0
   },
   "keyword_notes": {
-    "updated": "2026-08-24 06:45",
+    "updated": "2026-08-25 06:58",
     "window": "최근 30일",
     "items": {
-      "동탄": "동탄은 92건의 높은 언론 관심도를 보이고 있으며, 특히 산업경제 분야(45건)에서 주목받고 있습니다. 다만 [[w]]12건의 부정 기사[[/w]] 중 교통사고 및 안전 사건이 포함되어 있어, 지역 안전 이슈에 대한 선제적 대응이 필요합니다.",
-      "동탄역": "동탄역은 36건 보도 중 [[b]]긍정 기사가 19건(52.8%)으로 비교적 우호적[[/b]]이나, [[w]]PSD 미설치 및 만취운전 사고 등 4건의 부정 기사[[/w]]가 안전 개선 필요성을 시사합니다.",
-      "을지연습": "안전 분야 16건 집중 보도로 화성시의 을지연습 추진 실적이 언론에 충분히 노출되었으며, [[b]]부정 기사가 없어 순수한 안전 관련 정보 전달이 이루어졌습니다.[[/b]]",
-      "문화행사": "[[b]]21건 보도 중 긍정 기사가 16건(76.2%)으로 매우 높은 호응도[[/b]]를 기록했으며, 문화관광 분야에서 화성시의 브랜드 이미지 제고에 긍정적으로 기여했습니다.",
-      "위안부": "위안부 관련 21건의 행정 보도는 역사 기념 의제로 다루어졌으나, [[b]]긍정·부정 평가가 모두 0으로 중립적 보도 성향[[/b]]을 보입니다.",
-      "의회": "화성특례시의회의 20건 보도 중 [[b]]긍정 기사가 7건(35%)으로 주로 의사결정 현황을 행정 기사로 보도[[/b]]했으며, 부정 기사는 최소화된 상태입니다.",
-      "정명근": "정명근 시장은 20건 보도 중 [[b]]11건이 긍정(55%)으로 비교적 우호적 평가[[/b]]를 받았으나, [[w]]2건의 부정 기사[[/w]]는 공약 추진 관련 실적 전달 내용 중심이었습니다.",
-      "오피스텔": "오피스텔 산업경제 분야 20건 보도가 8월 21일 집중 보도되었으며, [[b]]부정 기사 없이 9건의 긍정 평가로 화성시 부동산 개발 이슈에 긍정적 기여[[/b]]했습니다.",
-      "기념식": "18건의 기념식 관련 보도는 행정 분야 중심(14건)으로 진행되었으며, [[b]]부정 기사 없이 긍정 기사 6건으로 지역 역사·문화 행사의 성공적 개최를 전달[[/b]]했습니다.",
-      "시장": "[[b]]17건 보도 중 긍정 기사가 14건(82.4%)으로 가장 높은 호응도[[/b]]를 기록했으며, 시장 관련 행정 소식이 우호적으로 보도되는 추세입니다."
+      "동탄": "동탄 지역이 산업경제 분야에서 가장 활발한 보도(48건)를 기록했으나, [[w]]16건의 부정 기사[[/w]]에서 교통사고와 안전 점검 관련 사건이 집중되어 있어 지역 이미지 관리에 주의가 필요합니다.",
+      "동탄역": "긍정 기사(19건)가 부정 기사([[w]]4건[[/w]])를 크게 상회하나, PSD 미설치와 만취운전 사건 등이 보도되고 있어 역세권 안전 강화 홍보가 권장됩니다.",
+      "아이마음놀이터": "[[b]]부정 기사 없이 긍정 기사(26건)로만 집계되어[[/b]] 복지 분야의 대표적인 성공 사례로 활용할 수 있는 키워드입니다.",
+      "을지연습": "안전 분야 주요 행사(16건)로 보도되었으나 긍정 평가(2건)가 저조하므로, 재난 대응 효과성에 대한 추가 홍보가 필요합니다.",
+      "문화행사": "문화관광 분야에서 [[b]]부정 기사 없이 긍정 기사 16건[[/b]]으로만 보도되어 화성시의 문화적 활동이 긍정적으로 인식되고 있습니다.",
+      "위안부": "행정 분야 21건 보도에서 긍정·부정 평가 없이 중립적으로 다루어지고 있어, 역사 문제에 대한 시의 공식 입장 재정리가 필요할 수 있습니다.",
+      "오피스텔": "산업경제 분야 21건이 모두 부정 기사 없이 보도되었으며, 9건이 긍정적으로 평가되어 부동산 개발 분야의 긍정적 뉘앙스를 유지하고 있습니다.",
+      "정명근": "시장 개인에 대한 보도 20건 중 [[w]]2건의 부정 기사[[/w]]가 발생했으나 긍정 기사(11건)가 우세하므로, AI 공무원 등 혁신 정책의 추가 홍보로 리더십 이미지 강화가 가능합니다.",
+      "화성시": "[[b]]부정 기사 없이 긍정 기사(17건)로 주로 보도되어[[/b]] 화성시 전체 브랜드 이미지가 긍정적으로 형성되고 있습니다.",
+      "의회": "행정 분야 주요 의사 활동이 19건 보도되었으나 [[w]]1건의 부정 기사[[/w]]와 낮은 긍정 평가(7건)로 인해 의회 활동의 성과 홍보 강화가 필요합니다."
     }
   }
 }
