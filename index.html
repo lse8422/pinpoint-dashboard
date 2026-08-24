@@ -525,7 +525,7 @@
       <span class="ai-brief-time" id="aiBriefTime"></span>
     </div>
     <div class="ai-brief-body" id="aiBriefBody">분석 중…</div>
-    <div class="ai-brief-issues" id="aiBriefIssues"></div>
+
   </div>
 
   <div class="stats">
@@ -573,12 +573,6 @@
     <div class="heat-legend" id="heatLegend"></div>
   </div>
 
-  <div class="card issues-card" id="issuesCard" style="display:none;">
-    <div class="issues-head">
-      <h3 style="margin:0;">주목 이슈</h3>
-      <span class="issues-note">같은 사건을 여러 매체가 보도한 것을 하나로 묶었습니다. 눌러서 자세히 보세요.</span>
-    </div>
-    <div class="issue-list" id="issueList"></div>
   </div>
 
   <div class="card keywords">
@@ -641,7 +635,7 @@ const SENTI_COLOR = {
 };
 function sentiColor(k) { return (isDark() ? SENTI_COLOR.dark : SENTI_COLOR.light)[k]; }
 const SENTI_CLASS = { "긍정": "pos", "중립": "neu", "부정": "neg" };
-const PAGE_SIZE = 20;
+const PAGE_SIZE = 10;   // 처음부터 20건이면 화면의 절반이 목록이 된다
 
 let NEWS = [];
 let BRIEFS = {};   // AI가 미리 써 둔 기간별 브리핑 문장. 없으면 아래 계산식으로 만든다.
@@ -1321,6 +1315,8 @@ let issueChart = null;
 let openIssue = null;
 
 function renderIssues() {
+  // '오늘 확인할 것'과 같은 방식으로 묶은 것이라 화면에서 뺐다. 자리가 없으면 그리지 않는다.
+  if (!document.getElementById("issuesCard")) return;
   const card = document.getElementById("issuesCard");
   const list = document.getElementById("issueList");
   const items = (ISSUES.items || []).filter(it => it.count >= 2);
@@ -1388,13 +1384,15 @@ function toggleIssue(idx) {
 
 // AI 분류 결과를 집계해 선택 기간의 동향을 문장으로 요약한다
 function renderBrief(data, total, negCount, topCat, kwSorted) {
+  // 주목 기사 세 줄은 '오늘 확인할 것'과 겹쳐서 뺐다.
+  const briefIssuesGone = !document.getElementById("aiBriefIssues");
   const body = document.getElementById("aiBriefBody");
   const issues = document.getElementById("aiBriefIssues");
   const timeEl = document.getElementById("aiBriefTime");
 
   if (!total) {
     body.textContent = "선택하신 기간에 해당하는 기사가 없습니다.";
-    issues.innerHTML = "";
+    if (issues) issues.innerHTML = "";
     return;
   }
 
@@ -1436,7 +1434,7 @@ function renderBrief(data, total, negCount, topCat, kwSorted) {
   // 주목할 부정 이슈 3건을 최신순으로 제시
   const picks = data.filter(n => n.senti === "부정")
     .sort((a, b) => b.date.localeCompare(a.date)).slice(0, 3);
-  issues.innerHTML = picks.map(n =>
+  if (issues) issues.innerHTML = picks.map(n =>
     `<span class="ai-issue"><span class="tag">주목</span>${n.title.length > 42 ? n.title.slice(0, 42) + "…" : n.title}</span>`
   ).join("");
 
@@ -1793,11 +1791,8 @@ document.getElementById("todoList").addEventListener("click", e => {
   toggleTodo(Number(row.dataset.i));
 });
 
-document.getElementById("issueList").addEventListener("click", e => {
-  const card = e.target.closest(".issue");
-  if (!card || e.target.closest("a")) return;
-  toggleIssue(Number(card.dataset.i));
-});
+// 주목 이슈 카드를 화면에서 뺐으므로 이 자리도 없다.
+
 
 document.getElementById("kwList").addEventListener("click", e => {
   const chip = e.target.closest(".kw");
