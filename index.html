@@ -135,7 +135,8 @@
   .stat .value.neg { color: var(--neg); }
   .stat .sub { font-size: 12px; color: var(--muted2); margin-top: 2px; }
 
-  .charts { display: grid; grid-template-columns: 1.6fr 1fr 1fr; gap: 12px; margin-bottom: 16px; }
+  /* 두 칸으로 두면 차트가 넓어지고, 카드가 억지로 늘어나 생기던 빈 공간도 줄어든다. */
+  .charts { display: grid; grid-template-columns: 1.35fr 1fr; gap: 12px; margin-bottom: 16px; }
   /* 분야별 부정 보도 흐름 — 한 화면에서 분야끼리 견주려고 격자로 그린다.
      선으로 그리면 부정이 0인 주가 많은 분야는 바닥에 붙은 직선이 되어 읽히지 않는다. */
   .heat-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-bottom: 11px; }
@@ -185,6 +186,9 @@
   .card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px; }
   .card h3 { font-size: 15px; color: var(--article-title); margin-bottom: 10px; font-weight: 600; }
   .chart-box { position: relative; height: 180px; }
+  /* 카드 높이가 서로 맞춰지면서 남는 공간이 생긴다. 차트가 그 공간을 채우게 한다. */
+  .charts > .card { display: flex; flex-direction: column; }
+  .charts > .card .chart-box { flex: 1; height: auto; min-height: 180px; }
   /* 두 출처를 섞어 보여주지 않기 위한 안내와 전환 버튼 */
   .chart-note { margin-top: 9px; font-size: 11.5px; line-height: 1.5; color: var(--muted); }
   /* 그래프를 보면서 바로 분야를 고를 수 있어야 한다.
@@ -554,7 +558,6 @@
       <div class="cat-pick" id="catPick"></div>
     <div class="chart-note" id="catHint">분야를 누르면 기사 목록 위에 그 분야의 긍정·부정 비율과 추이가 열리고, 목록도 함께 걸립니다.</div>
     </div>
-    <div class="card"><h3>긍정 · 중립 · 부정</h3><div class="chart-box"><canvas id="chSenti"></canvas></div></div>
   </div>
 
   <div class="card heat-card" id="heatCard" style="display:none;">
@@ -699,8 +702,10 @@ function weekStart(dateStr) {
 }
 
 function drawChart(id, config) {
+  const el = document.getElementById(id);
+  if (!el) return;                    // 화면에서 뺀 차트는 그리지 않는다
   if (charts[id]) charts[id].destroy();
-  charts[id] = new Chart(document.getElementById(id), config);
+  charts[id] = new Chart(el, config);
 }
 
 // 기사 원문 링크 — 데이터에 url이 있으면 사용하고, 없으면 제목으로 뉴스 검색을 연결한다
