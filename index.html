@@ -279,6 +279,21 @@
   .todo-score { margin-left: auto; font-size: 12px; font-weight: 800; color: var(--neg); white-space: nowrap; }
   /* 동점은 같은 번호로 이미 드러난다. 색까지 다르게 할 필요가 없고 간편 화면과도 맞춘다. */
   .todo-rank.tie { background: var(--neg); }
+  .score-help { margin-top: 10px; font-size: 11.5px; line-height: 1.6; color: var(--muted); }
+  .score-help b { color: var(--article-title); font-weight: 700; }
+  .todo-score { cursor: pointer; }
+  .sw-q { display: inline-block; width: 13px; height: 13px; line-height: 13px; text-align: center;
+    border-radius: 50%; background: var(--summary-bg); border: 1px solid var(--border);
+    color: var(--muted); font-size: 9px; font-weight: 700; vertical-align: 1px; }
+  .todo-score:hover .sw-q { background: var(--neg); border-color: var(--neg); color: #fff; }
+  .score-why { margin-top: 9px; padding: 9px 12px; background: var(--summary-bg);
+    border: 1px solid var(--border); border-radius: 8px; }
+  .sw-row { display: flex; align-items: baseline; gap: 9px; padding: 3px 0; font-size: 11.5px; }
+  .sw-n { width: 52px; flex-shrink: 0; font-weight: 700; color: var(--article-title); }
+  .sw-w { flex: 1; color: var(--muted); }
+  .sw-v { font-weight: 800; color: var(--stat-value); font-variant-numeric: tabular-nums; }
+  .sw-tot { border-top: 1px solid var(--border); margin-top: 4px; padding-top: 6px; }
+  .sw-tot .sw-v { color: var(--neg); font-size: 13px; }
   .todo-tie { margin-top: 8px; font-size: 11.5px; color: var(--muted); }
   .todo-tie b { color: var(--text); font-weight: 700; }
   .todo-detail { margin-top: 9px; padding-top: 9px; border-top: 1px dashed var(--border); }
@@ -497,6 +512,8 @@
     </div>
     <div id="surgeBox"></div>
     <div id="todoList"></div>
+    <div class="score-help">점수는 <b>얼마나 최근인지 · 몇 개 매체가 다뤘는지 · 몇 건인지 · 오래 가는지</b>를
+      더한 값입니다. 100점 만점이고, <b>점수를 누르면 그 항목의 계산 내역</b>이 나옵니다.</div>
     <div class="todo-tie" id="todoTie"></div>
     <div class="trust" id="trustBox"></div>
   </div>
@@ -777,6 +794,37 @@ function todoLabel(it) {
 
 // 점수가 같으면 순위도 같다.
 // 1·2·3으로 번호만 붙이면 우열이 없는데 있는 것처럼 보인다.
+// 점수가 무엇인지 화면에 없으면 처음 보는 담당자는 알 수 없다.
+// 수집 때 쓴 식과 같은 식으로 다시 계산해 내역을 보여준다.
+function scoreParts(it) {
+  const base = NEWS.map(n => n.date).sort().pop();          // 기준일 = 가장 최근 기사 날짜
+  const d = x => new Date(x + "T00:00:00");
+  const age = Math.round((d(base) - d(it.last)) / 86400000);
+  const span = Math.round((d(it.last) - d(it.first)) / 86400000) + 1;
+  const recency = Math.max(0, 45 - age * 7);
+  const spread = Math.min(30, (it.sources || 1) * 10);
+  const volume = Math.min(15, (it.count || 1) * 5);
+  const lasting = span >= 7 ? 10 : 0;
+  return { recency, spread, volume, lasting, age, span,
+           total: Math.min(100, recency + spread + volume + lasting) };
+}
+
+function scoreWhy(it) {
+  const p = scoreParts(it);
+  const row = (name, val, why) =>
+    `<div class="sw-row"><span class="sw-n">${name}</span>`
+    + `<span class="sw-w">${why}</span><span class="sw-v">${val}점</span></div>`;
+  return `<div class="score-why">
+    ${row("최신성", p.recency, p.age === 0 ? "오늘 기사" : `${p.age}일 전 기사 · 하루에 7점씩 깎임`)}
+    ${row("퍼진 정도", p.spread, `${it.sources || 1}개 매체가 다룸 · 한 곳당 10점`)}
+    ${row("기사 수", p.volume, `${it.count || 1}건 · 한 건당 5점`)}
+    ${row("오래감", p.lasting, p.span >= 7 ? `${p.span}일째 이어짐` : "일주일 미만이라 없음")}
+    <div class="sw-row sw-tot"><span class="sw-n">합계</span>
+      <span class="sw-w">최신성 + 퍼진 정도 + 기사 수 + 오래감</span>
+      <span class="sw-v">${p.total}점</span></div>
+  </div>`;
+}
+
 function todoRanks(items) {
   const out = [];
   items.forEach((it, i) => {
@@ -823,8 +871,17 @@ function renderToday() {
           <span>${CAT_LABEL[it.cat] || it.cat}</span>
         </div>
       </div>
-      <div class="todo-score">${it.score}점</div>
+      <div class="todo-score" data-why="${i}" title="눌러서 점수 계산 내역 보기">${it.score}점 <span class="sw-q">?</span></div>
     </div>`).join("");
+
+  document.querySelectorAll("#todoList .todo-score").forEach(el => el.addEventListener("click", e => {
+    e.stopPropagation();
+    const box = el.closest(".todo");
+    const open = box.querySelector(".score-why");
+    document.querySelectorAll("#todoList .score-why").forEach(x => x.remove());
+    if (!open) box.querySelector(".todo-body").insertAdjacentHTML("beforeend",
+      scoreWhy(items[Number(el.dataset.why)]));
+  }));
 
   // 동점이면 그 사실을 밝힌다. 순서가 우열로 읽히면 안 된다.
   const tied = rank.some((r, i) => i > 0 && r === rank[i - 1]);
