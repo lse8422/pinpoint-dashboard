@@ -1630,7 +1630,8 @@ function updateDashboard() {
     noteEl.style.display = "";
     noteEl.innerHTML = "초록·노랑 선은 <b>그 주에 모은 기사 수</b>(왼쪽 축)입니다. "
       + "두 출처는 수집 범위가 달라 <b>건수는 견줄 수 없습니다.</b> 8월에 늘어난 것은 보도가 는 게 아니라 수집 방식이 바뀐 것입니다. "
-      + "그래서 붉은 선으로 <b>그 주 기사 중 부정 비율</b>을 따로 그렸습니다(오른쪽 축). <b>비율은 두 구간을 같은 잣대로 볼 수 있습니다.</b>";
+      + "그래서 붉은 선으로 <b>그 주 기사 중 부정 비율</b>을 따로 그렸습니다(오른쪽 축). <b>비율은 두 구간을 같은 잣대로 볼 수 있습니다.</b>"
+      + (partialLast ? " 맨 끝 주는 <b>아직 집계 중</b>이라 낮게 보입니다." : "");
   } else {
     noteEl.style.display = "none";
   }
@@ -1639,9 +1640,18 @@ function updateDashboard() {
   const lineBlueBg = isDark() ? "rgba(137,158,140,.15)" : "rgba(77,112,69,.12)";
   const liveLine = isDark() ? "#C9A227" : "#B08A1E";
 
+  // 마지막 주에 담긴 날짜가 7일이 안 되면 아직 진행 중인 주다.
+  const lastKey = keys[keys.length - 1];
+  const dayCount = new Set(data.filter(n => n.date >= lastKey).map(n => n.date)).size;
+  const partialLast = byWeek && keys.length > 1 && dayCount < 7;
+
   drawChart("chDaily", {
     type: "line",
-    data: { labels: keys.map(k => byWeek ? md(k) + "~" : md(k)),
+    // 마지막 주는 아직 다 채워지지 않았을 수 있다. 그대로 두면 뚝 떨어진 것처럼 보인다.
+    data: { labels: keys.map((k, i) => {
+        const t = byWeek ? md(k) + "~" : md(k);
+        return (i === keys.length - 1 && partialLast) ? [t, "(집계 중)"] : t;
+      }),
       datasets: [
         { label: hasLive && hasVer ? "검증본" : "전체", data: keys.map(k => verBucket[k] ?? null), borderColor: lineBlue, backgroundColor: lineBlueBg, fill: true, tension: .35, pointRadius: 3, spanGaps: false },
         ...(hasLive && hasVer ? [{ label: "자동수집", data: keys.map(k => liveBucket[k] ?? null), borderColor: liveLine, backgroundColor: isDark() ? "rgba(201,162,39,.15)" : "rgba(176,138,30,.12)", fill: true, tension: .35, pointRadius: 3, spanGaps: false, borderDash: [5, 3] }] : []),
