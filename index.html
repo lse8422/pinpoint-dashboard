@@ -41,6 +41,11 @@
     --article-title: #000000;
     --stat-value: #4d7045;
     --kw-color: #4d7045;
+    --heat0: #EFF1EE;
+    --heat1: #E7C9C9;
+    --heat2: #D79E9E;
+    --heat3: #C26060;
+    --heat4: #9E4141;
     --badge-bg: #e8f0e6;
     --badge-color: #4d7045;
     --cat-bg: #e8f0e6;
@@ -70,6 +75,11 @@
     --pos-text: #e2e2e2;
     --neg: #A85F5F;
     --article-title: #b8b8b8;
+    --heat0: #2F3236;
+    --heat1: #5A3A3A;
+    --heat2: #7A4A4A;
+    --heat3: #915454;
+    --heat4: #B06666;
     --stat-value: #6e9c74;
     --kw-color: #6e9c74;
     --badge-bg: #3d5240;
@@ -113,6 +123,30 @@
   .stat .sub { font-size: 12px; color: var(--muted2); margin-top: 2px; }
 
   .charts { display: grid; grid-template-columns: 1.6fr 1fr 1fr; gap: 12px; margin-bottom: 16px; }
+  /* 분야별 부정 보도 흐름 — 한 화면에서 분야끼리 견주려고 격자로 그린다.
+     선으로 그리면 부정이 0인 주가 많은 분야는 바닥에 붙은 직선이 되어 읽히지 않는다. */
+  .heat-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-bottom: 11px; }
+  .heat-sub { font-size: 11.5px; color: var(--muted); }
+  .heat-wrap { overflow-x: auto; }
+  .heat { display: table; border-spacing: 2px; min-width: 100%; }
+  .heat .hr { display: table-row; }
+  .heat .hc { display: table-cell; vertical-align: middle; }
+  .heat .hname { width: 62px; font-size: 12px; font-weight: 700; color: var(--article-title);
+    white-space: nowrap; padding-right: 4px; }
+  .heat .hcell { width: 22px; height: 21px; border-radius: 3px; background: var(--heat0);
+    text-align: center; font-size: 10px; font-weight: 700; color: #fff; line-height: 21px; }
+  .heat .hwk { font-size: 9.5px; color: var(--muted2); text-align: center; height: 15px; line-height: 15px;
+    white-space: nowrap; }
+  .heat .htrend { padding-left: 9px; white-space: nowrap; font-size: 11.5px; color: var(--muted); }
+  .heat .htrend b { font-weight: 800; }
+  .heat .htrend .up { color: var(--neg); }
+  .heat .htrend .down { color: var(--chip-active-bg); }
+  .heat-legend { display: flex; align-items: center; gap: 6px; margin-top: 10px; font-size: 11px; color: var(--muted); }
+  .heat-legend .lg { width: 18px; height: 13px; border-radius: 3px; }
+  @media (max-width: 640px) {
+    .heat .hname { width: 54px; font-size: 11.5px; }
+    .heat .hcell { width: 18px; height: 19px; line-height: 19px; }
+  }
   .card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px; }
   .card h3 { font-size: 15px; color: var(--article-title); margin-bottom: 10px; font-weight: 600; }
   .chart-box { position: relative; height: 180px; }
@@ -467,6 +501,18 @@
     <div class="chart-note" id="catHint">분야를 누르면 기사 목록 위에 그 분야의 긍정·부정 비율과 추이가 열리고, 목록도 함께 걸립니다.</div>
     </div>
     <div class="card"><h3>긍정 · 중립 · 부정</h3><div class="chart-box"><canvas id="chSenti"></canvas></div></div>
+  </div>
+
+  <div class="card heat-card" id="heatCard" style="display:none;">
+    <div class="heat-head">
+      <h3 style="margin:0;">분야별 부정 보도 흐름</h3>
+      <span class="heat-sub" id="heatSub"></span>
+    </div>
+    <div class="heat-wrap"><div class="heat" id="heatGrid"></div></div>
+    <div class="heat-legend" id="heatLegend"></div>
+    <div class="chart-note">색이 진할수록 그 주에 부정 보도가 많았습니다.
+      빈칸은 그 주에 부정 보도가 없었다는 뜻입니다.
+      오른쪽 화살표는 <b>최근 4주와 그 이전 4주를 견준 방향</b>입니다.</div>
   </div>
 
   <div class="card issues-card" id="issuesCard" style="display:none;">
@@ -1305,6 +1351,58 @@ function renderBrief(data, total, negCount, topCat, kwSorted) {
   }
 }
 
+// 분야별 부정 보도를 주 단위로 세어 격자로 그린다.
+// 기간 필터와 무관하게 수집한 전체 기간을 보여준다. 흐름은 길게 봐야 뜻이 생긴다.
+function renderHeat() {
+  const card = document.getElementById("heatCard");
+  const weeks = [...new Set(NEWS.map(n => weekStart(n.date)))].sort();
+  if (weeks.length < 4) { card.style.display = "none"; return; }
+  card.style.display = "";
+
+  const cats = ["교통", "환경", "행정", "문화관광", "산업경제", "안전", "복지"];
+  const cnt = {};
+  NEWS.forEach(n => {
+    if (n.senti !== "부정") return;
+    const k = n.cat + "|" + weekStart(n.date);
+    cnt[k] = (cnt[k] || 0) + 1;
+  });
+
+  const recent = weeks.slice(-4), before = weeks.slice(-8, -4);
+  const sum = (c, ws) => ws.reduce((t, w) => t + (cnt[c + "|" + w] || 0), 0);
+
+  // 최근 4주에 부정이 많은 분야를 위로 올린다. 먼저 봐야 할 것이 먼저 보이게.
+  const rows = cats.map(c => ({ c, r: sum(c, recent), b: sum(c, before),
+                                all: weeks.map(w => cnt[c + "|" + w] || 0) }))
+                   .sort((a, b) => b.r - a.r || b.all.reduce((x, y) => x + y, 0) - a.all.reduce((x, y) => x + y, 0));
+
+  const max = Math.max(1, ...rows.flatMap(r => r.all));
+  const lv = v => v === 0 ? 0 : Math.min(4, Math.ceil(v / max * 4));
+
+  const wkLabel = w => { const d = w.split("-"); return d[1] + "." + d[2]; };
+  let html = '<div class="hr"><div class="hc hname"></div>'
+    + weeks.map((w, i) => `<div class="hc hwk">${i % 2 === 0 ? wkLabel(w) : ""}</div>`).join("")
+    + '<div class="hc hwk"></div></div>';
+
+  rows.forEach(r => {
+    const diff = r.r - r.b;
+    const dir = before.length < 4 ? '<span>비교 기간 부족</span>'
+      : diff > 0 ? `<span class="up">▲ 늘어남</span>`
+      : diff < 0 ? `<span class="down">▼ 줄어듦</span>`
+      : `<span>변화 없음</span>`;
+    html += `<div class="hr"><div class="hc hname">${CAT_LABEL[r.c] || r.c}</div>`
+      + r.all.map(v => `<div class="hc hcell" style="background:var(--heat${lv(v)})"
+          title="${v}건">${v || ""}</div>`).join("")
+      + `<div class="hc htrend">최근 4주 <b>${r.r}건</b> ${dir}</div></div>`;
+  });
+  document.getElementById("heatGrid").innerHTML = html;
+
+  document.getElementById("heatSub").textContent =
+    `수집 전체 ${weeks.length}주 (${wkLabel(weeks[0])} ~ ${wkLabel(weeks[weeks.length - 1])}) · 기간 필터와 무관합니다`;
+  document.getElementById("heatLegend").innerHTML = "적음"
+    + [0, 1, 2, 3, 4].map(i => `<span class="lg" style="background:var(--heat${i})"></span>`).join("")
+    + `많음 <span style="margin-left:8px;">가장 많았던 주 ${max}건</span>`;
+}
+
 function updateDashboard() {
   const data = periodData();
 
@@ -1319,7 +1417,18 @@ function updateDashboard() {
 
   document.getElementById("stTotal").textContent = total.toLocaleString() + "건";
   document.getElementById("stNeg").textContent = negCount.toLocaleString() + "건";
-  document.getElementById("stNegRate").textContent = total ? "전체의 " + Math.round(negCount / total * 100) + "%" : "";
+  // "8%"만 있으면 높은지 낮은지 알 수 없다. 최근 4주와 견줘 방향을 함께 보여준다.
+  const rateEl = document.getElementById("stNegRate");
+  if (!total) { rateEl.textContent = ""; }
+  else {
+    const rate = Math.round(negCount / total * 100);
+    const wks = [...new Set(data.map(n => weekStart(n.date)))].sort().slice(-4);
+    const late = data.filter(n => wks.includes(weekStart(n.date)));
+    const lateRate = late.length ? Math.round(late.filter(n => n.senti === "부정").length / late.length * 100) : null;
+    rateEl.innerHTML = "전체의 " + rate + "%"
+      + (lateRate === null || wks.length < 2 ? ""
+         : ` · 최근 4주 <b style="color:${lateRate > rate ? "var(--neg)" : lateRate < rate ? "var(--chip-active-bg)" : "inherit"}">${lateRate}%</b>`);
+  }
   document.getElementById("stTopCat").textContent = topCat ? CAT_LABEL[topCat[0]] : "-";
   document.getElementById("stTopKw").textContent = kwSorted.length ? kwSorted[0][0] : "-";
 
@@ -1411,6 +1520,7 @@ function updateDashboard() {
 
   renderToday();
   renderIssues();
+  renderHeat();
   renderCatPick();
   // 기간이 바뀌면 관심 목록 건수와 열려 있는 패널도 다시 센다
   if (WATCH.length || openWatch) {
