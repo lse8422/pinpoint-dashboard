@@ -89,8 +89,9 @@
   .hbar .t .c { color: var(--muted2); font-size: 11px; margin-left: auto; }
   .hbar .track { height: 8px; background: var(--bg); border-radius: 5px; overflow: hidden; }
   .hbar .fill { height: 100%; background: var(--neg); border-radius: 5px; }
-  .hbar.low .t b, .hbar.low .fill { color: var(--green); background: var(--green); }
-  .hbar.low .t b { background: none; }
+  /* 전부 부정 비율이다. 낮다고 초록으로 칠하면 좋은 소식처럼 읽힌다.
+     색은 하나로 두고 길이로만 크기를 말한다. 낮은 것은 옅게. */
+  .hbar.low .fill { opacity: .45; }
 </style>
 </head>
 <body>
@@ -165,13 +166,18 @@ function render(d) {
     document.getElementById("list").innerHTML =
       '<div class="empty">오늘 확인할 부정 보도가 없습니다.</div>';
   } else {
+    // 점수가 같으면 순위도 같아야 한다. 본 화면과 같은 규칙을 쓴다.
+    const rank = [];
+    items.forEach((it, i) => rank.push(
+      i > 0 && items[i - 1].score === it.score ? rank[i - 1] : i + 1));
+
     document.getElementById("list").innerHTML = items.map((it, i) => {
       const art = byTitle[it.titles && it.titles[0]];
       const href = art && art.url ? art.url : null;
       const tag = href ? "a" : "div";
       const attr = href ? ` href="${esc(href)}" target="_blank" rel="noopener"` : "";
       return `<${tag} class="item"${attr}>
-        <div class="ti"><span class="rank">${i + 1}</span>${esc(it.label)}</div>
+        <div class="ti"><span class="rank">${rank[i]}</span>${esc(it.label)}</div>
         <div class="meta">
           <span class="st">${esc(it.state)}</span>
           <span>${esc(CAT[it.cat] || it.cat)}</span>
@@ -251,7 +257,7 @@ function render(d) {
     document.getElementById("catBox").style.display = "";
     document.getElementById("catCap").textContent = "자동 수집분 기준 · 전체 평균 " + avg + "%";
     document.getElementById("catBars").innerHTML = rows.map(r =>
-      `<div class="hbar${r.pct <= avg ? " low" : ""}">
+      `<div class="hbar${r.pct <= avg ? " low" : ""}" title="전체 평균 ${avg}% 대비">
         <div class="t">${esc(CAT[r.c] || r.c)} <b>${r.pct}%</b>
           <span class="c">${r.n}건 / ${r.t}건</span></div>
         <div class="track"><div class="fill" style="width:${Math.max(3, r.pct)}%"></div></div>

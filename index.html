@@ -33,10 +33,10 @@
     --summary-bg: #f8f9fc;
     --summary-text: #4a5568;
     --input-border: #d5dce8;
-    --neu-bg: #e3e5e8;
-    --neu-text: #363940;
-    --pos-bg: #dce4f2;
-    --pos-text: #3d4d72;
+    --neu-bg: #EDEEF0;
+    --neu-text: #6C7075;
+    --pos-bg: #D3E1F2;
+    --pos-text: #21507F;
     --neg: #C26060;
     --article-title: #000000;
     --stat-value: #4d7045;
@@ -46,6 +46,8 @@
     --heat2: #D79E9E;
     --heat3: #C26060;
     --heat4: #9E4141;
+    --band-pos: #7FA5D0;
+    --band-neu: #C9CDD2;
     --heat-late: #B9846F;
     --badge-bg: #e8f0e6;
     --badge-color: #4d7045;
@@ -70,9 +72,9 @@
     --summary-bg: #161616;
     --summary-text: #a8a8a8;
     --input-border: #333333;
-    --neu-bg: #636769;
-    --neu-text: #e2e2e2;
-    --pos-bg: #657F9F;
+    --neu-bg: #4A4E52;
+    --neu-text: #D6D9DC;
+    --pos-bg: #3E6089;
     --pos-text: #e2e2e2;
     --neg: #A85F5F;
     --article-title: #b8b8b8;
@@ -81,6 +83,8 @@
     --heat2: #7A4A4A;
     --heat3: #915454;
     --heat4: #B06666;
+    --band-pos: #4E6C90;
+    --band-neu: #3F444A;
     --heat-late: #8A6355;
     --stat-value: #6e9c74;
     --kw-color: #6e9c74;
@@ -144,7 +148,7 @@
     white-space: nowrap; }
   .heat .hwk.late { color: var(--neg); font-weight: 700; }
   .heat .hbar { padding-left: 12px; width: 74px; }
-  .heat .hbar .bt { height: 9px; border-radius: 5px; background: var(--summary-bg);
+  .heat .hbar .bt { height: 9px; border-radius: 999px; background: var(--summary-bg);
     border: 1px solid var(--border); overflow: hidden; }
   .heat .hbar .bf { height: 100%; background: var(--neg); }
   .heat .hnum { padding-left: 7px; white-space: nowrap; font-size: 12px; font-weight: 800;
@@ -153,7 +157,8 @@
   .heat .htrend .up { color: var(--neg); font-weight: 700; }
   .heat .htrend .down { color: var(--chip-active-bg); font-weight: 700; }
   .heat .hr.top .hname { color: var(--neg); }
-  .heat-lead { background: var(--summary-bg); border-left: 3px solid var(--neg); border-radius: 0 6px 6px 0;
+  /* 이미 카드 안이라 띠가 없어도 구분된다. 강조는 아껴 써야 강조로 읽힌다. */
+  .heat-lead { background: var(--summary-bg); border-radius: 8px;
     padding: 9px 13px; margin-bottom: 12px; font-size: 13px; line-height: 1.6; color: var(--summary-text); }
   .heat-lead b { color: var(--neg); font-weight: 800; }
   .heat-scope { display: flex; gap: 5px; margin-left: auto; }
@@ -265,7 +270,8 @@
   body.dark .st-확산중, body.dark .st-신규, body.dark .st-진행중,
   body.dark .st-장기, body.dark .st-종결 { background: #33422F; color: #BBD3B4; }
   .todo-score { margin-left: auto; font-size: 12px; font-weight: 800; color: var(--neg); white-space: nowrap; }
-  .todo-rank.tie { background: var(--muted2); }
+  /* 동점은 같은 번호로 이미 드러난다. 색까지 다르게 할 필요가 없고 간편 화면과도 맞춘다. */
+  .todo-rank.tie { background: var(--neg); }
   .todo-tie { margin-top: 8px; font-size: 11.5px; color: var(--muted); }
   .todo-tie b { color: var(--text); font-weight: 700; }
   .todo-detail { margin-top: 9px; padding-top: 9px; border-top: 1px dashed var(--border); }
@@ -323,14 +329,19 @@
   .toolbar.stuck { border-bottom-color: var(--border); box-shadow: 0 4px 14px rgba(0,0,0,.06); }
   body.dark .toolbar.stuck { box-shadow: 0 4px 14px rgba(0,0,0,.4); }
   .toolbar .count { margin-left: auto; font-size: 12.5px; color: var(--muted); font-weight: 600; }
-  .toolbar input { flex: 1; min-width: 160px; padding: 8px 14px; border: 1px solid var(--input-border); border-radius: 20px; font-size: 13px; outline: none; background: var(--surface); color: var(--text); }
+  .toolbar input { flex: 1; min-width: 160px; padding: 8px 14px; border: 1px solid var(--input-border); border-radius: 999px; font-size: 13px; outline: none; background: var(--surface); color: var(--text); }
   .toolbar input:focus { border-color: var(--accent); }
   .chip { padding: 6px 13px; border: 1px solid var(--input-border); border-radius: 999px; background: var(--surface); font-size: 12.5px; cursor: pointer; user-select: none; color: var(--chip-text); }
   .chip.active { background: var(--chip-active-bg); color: #fff; border-color: var(--chip-active-bg); }
   .chip.neg.active { background: var(--neg); border-color: var(--neg); }
 
-  .article { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px; margin-bottom: 10px; }
+  /* 띠를 부정에만 두면 규칙이 아니라 예외로 보인다.
+     모두에게 두되 굵기와 진하기로 "먼저 볼 것"을 말한다. */
+  .article { border-left: 3px solid var(--band-neu);
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px; margin-bottom: 10px; }
   .article.negative { border-left: 4px solid var(--neg); }
+  .article.pos { border-left-color: var(--band-pos); }
+  .article.negative { border-left-width: 5px; border-left-color: var(--neg); }
   .article .top { display: flex; gap: 8px; align-items: center; margin-bottom: 6px; flex-wrap: wrap; }
   .article .cat { font-size: 11.2px; background: var(--cat-bg); color: var(--cat-color); padding: 2px 8px; border-radius: 8px; font-weight: 600; }
   .article .senti { font-size: 11.2px; padding: 2px 8px; border-radius: 8px; font-weight: 600; }
@@ -403,7 +414,7 @@
   body.dark .flatpickr-current-month input.cur-year, body.dark .flatpickr-current-month .flatpickr-monthDropdown-months { color: #ddd; }
   body.dark .flatpickr-prev-month svg, body.dark .flatpickr-next-month svg { fill: #888; }
 
-  #darkToggle { margin-left: auto; background: var(--bg); border: 1px solid var(--border); border-radius: 6px; padding: 5px 12px; font-size: 12px; color: #7a7a7a; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 5px; }
+  #darkToggle { margin-left: auto; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; padding: 5px 12px; font-size: 12px; color: #7a7a7a; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 5px; }
   #darkToggle:hover { background: #c8d9c4; }
   body.dark #darkToggle { color: #e8e8e8; font-weight: 550; }
 
@@ -600,8 +611,10 @@ const CAT_COLORS_DARK  = { "산업경제": "#6E9166", "문화관광": "#CDB176",
 // 긍정·중립·부정은 화면 어디서나 같은 색을 쓴다
 // 긍정·중립·부정 색은 여기에서만 정한다. 자리마다 달라지면 같은 뜻이 다르게 보인다.
 const SENTI_COLOR = {
-  light: { "긍정": "#5B7FA8", "중립": "#8A94A6", "부정": "#C26060" },
-  dark:  { "긍정": "#4E637F", "중립": "#5C6470", "부정": "#915454" }
+  // 긍정과 중립이 둘 다 파란 계열이라 구분이 안 됐다.
+  // 중립을 무채색으로 빼내면 유채색 둘(파랑·빨강)과 성질 자체가 달라진다.
+  light: { "긍정": "#4A7BB0", "중립": "#A2A6AB", "부정": "#C26060" },
+  dark:  { "긍정": "#5B8FC7", "중립": "#7C8288", "부정": "#915454" }
 };
 function sentiColor(k) { return (isDark() ? SENTI_COLOR.dark : SENTI_COLOR.light)[k]; }
 const SENTI_CLASS = { "긍정": "pos", "중립": "neu", "부정": "neg" };
@@ -1640,7 +1653,7 @@ function renderList() {
 
   const shown = data.slice(0, visibleCount);
   document.getElementById("list").innerHTML = shown.map(n => `
-    <div class="article ${n.senti === "부정" ? "negative" : ""}">
+    <div class="article ${n.senti === "부정" ? "negative" : n.senti === "긍정" ? "pos" : ""}">
       <div class="top">
         <span class="cat">${CAT_LABEL[n.cat]}</span>
         <span class="senti ${SENTI_CLASS[n.senti]}">${n.senti}</span>
