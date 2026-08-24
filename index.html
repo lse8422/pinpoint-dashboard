@@ -126,8 +126,10 @@
   .stat .label { font-size: 11.5px; color: var(--muted); margin-bottom: 4px; font-weight: 600; }
   /* 한글 글리프는 줄 상자 안에서 위쪽에 앉는다. 상자를 글자 크기에 맞추고
      아래로 조금 내려 눈에 가운데로 보이게 한다. */
+  /* 숫자(34px)와 글자(30px)가 섞여 있어도 아래 줄이 같은 높이에 오도록
+     값이 놓이는 자리의 높이를 고정하고 그 안에서 가운데에 둔다. */
   .stat .value { font-size: 34px; font-weight: 800; color: var(--stat-value); letter-spacing: -0.02em;
-    line-height: 1; margin-top: 5px; margin-bottom: 3px; }
+    line-height: 1; height: 42px; display: flex; align-items: center; }
   /* 글자 값은 숫자보다 조금 작게 둔다. 가장 긴 이름("문화·관광")이 좁은 화면에서 넘치지 않는 최대가 30px이다. */
   .stat .value.word { font-size: 30px; white-space: nowrap; }
   .stat .value.neg { color: var(--neg); }
