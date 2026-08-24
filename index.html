@@ -1624,6 +1624,11 @@ function updateDashboard() {
   const hasVer = Object.keys(verBucket).length > 0;
   document.getElementById("dailyTitle").textContent = byWeek ? "주별 기사량 추이" : "일별 기사량 추이";
 
+  // 마지막 주에 담긴 날짜가 7일이 안 되면 아직 진행 중인 주다.
+  const lastKey = keys[keys.length - 1];
+  const dayCount = new Set(data.filter(n => n.date >= lastKey).map(n => n.date)).size;
+  const partialLast = byWeek && keys.length > 1 && dayCount < 7;
+
   // 두 출처가 섞인 구간이 있으면 그 사실을 차트 밑에 밝힌다.
   const noteEl = document.getElementById("dailyNote");
   if (hasLive && hasVer) {
@@ -1639,11 +1644,6 @@ function updateDashboard() {
   const lineBlue = isDark() ? "#6e9c74" : "#4d7045";
   const lineBlueBg = isDark() ? "rgba(137,158,140,.15)" : "rgba(77,112,69,.12)";
   const liveLine = isDark() ? "#C9A227" : "#B08A1E";
-
-  // 마지막 주에 담긴 날짜가 7일이 안 되면 아직 진행 중인 주다.
-  const lastKey = keys[keys.length - 1];
-  const dayCount = new Set(data.filter(n => n.date >= lastKey).map(n => n.date)).size;
-  const partialLast = byWeek && keys.length > 1 && dayCount < 7;
 
   drawChart("chDaily", {
     type: "line",
