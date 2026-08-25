@@ -1,0 +1,47 @@
+# 경기도 인접 시와의 대조 통계(benchmark.json)를 만드는 워크플로
+# 매일 도는 수집 작업과 분리해 둔다. 여기가 실패해도 뉴스 수집은 영향을 받지 않는다.
+name: 대조 통계 수집
+
+on:
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "며칠치를 비교할지 (기본 14)"
+        default: "14"
+      cap:
+        description: "도시당 최대 처리 건수 (기본 400)"
+        default: "400"
+
+permissions:
+  contents: write
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: 파이썬 설치
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 네 도시 수집 및 판정
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          BENCH_DAYS: ${{ inputs.days }}
+          BENCH_CAP: ${{ inputs.cap }}
+        run: python benchmark.py
+
+      - name: 변경사항 커밋
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          if [ -n "$(git status --porcelain benchmark.json)" ]; then
+            git add benchmark.json
+            git commit -m "대조 통계 수집 $(date -u -d '+9 hours' +'%Y-%m-%d')"
+            git push
+          else
+            echo "변경사항이 없어 커밋하지 않습니다."
+          fi

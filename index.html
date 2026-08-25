@@ -155,6 +155,20 @@
   .heat .hwk { font-size: 9.5px; color: var(--muted2); text-align: center; height: 15px; line-height: 15px;
     white-space: nowrap; }
   .heat .hwk.late { color: var(--neg); font-weight: 700; }
+  /* 다른 시와 견주기 — 우리 시를 진하게, 나머지는 물러나게 */
+  .bench .brow { display: flex; align-items: center; gap: 10px; padding: 5px 0; }
+  .bench .bname { width: 62px; flex-shrink: 0; font-size: 12.5px; color: var(--muted); }
+  .bench .btrack { flex: 1; height: 15px; border-radius: 999px; background: var(--summary-bg);
+    border: 1px solid var(--border); overflow: hidden; }
+  .bench .bfill { height: 100%; background: var(--band-neu); border-radius: 999px; }
+  .bench .bval { width: 78px; flex-shrink: 0; text-align: right; font-size: 12.5px;
+    color: var(--muted); font-variant-numeric: tabular-nums; }
+  .bench .bval b { font-size: 14px; color: var(--article-title); }
+  .bench .brow.us .bname { color: var(--article-title); font-weight: 800; }
+  .bench .brow.us .bfill { background: var(--neg); }
+  .bench .brow.us .bval b { color: var(--neg); }
+  .bench .bnum { font-size: 11px; color: var(--muted2); }
+
   .heat .hbar { padding-left: 12px; width: 74px; }
   .heat .hbar .bt { height: 9px; border-radius: 999px; background: var(--summary-bg);
     border: 1px solid var(--border); overflow: hidden; }
@@ -574,6 +588,13 @@
     <div class="heat-nav" id="heatNav"></div>
     <div class="heat-wrap"><div class="heat" id="heatGrid"></div></div>
     <div class="heat-legend" id="heatLegend"></div>
+  </div>
+
+  <div class="card bench" id="benchCard" style="display:none;">
+    <h3 id="benchTitle">다른 시와 견주면</h3>
+    <div class="chart-note" id="benchLead" style="display:block; margin-bottom:10px;"></div>
+    <div id="benchRows"></div>
+    <div class="chart-note" id="benchNote" style="display:block;"></div>
   </div>
 
   <div class="card keywords">
@@ -1629,14 +1650,39 @@ function updateDashboard() {
   const dayCount = new Set(data.filter(n => n.date >= lastKey).map(n => n.date)).size;
   const partialLast = byWeek && keys.length > 1 && dayCount < 7;
 
+  // 사람이 고른 검증본 2개월치가 '평상시'다. 지금 수치가 높은지 낮은지 견줄 기준이 된다.
+  // 화면 필터와 무관하게 늘 같은 기준이어야 하므로 전체 데이터에서 구한다.
+  const verAll = NEWS.filter(n => n.src !== "자동수집");
+  const baseNeg = verAll.length
+    ? Math.round(verAll.filter(n => n.senti === "부정").length / verAll.length * 1000) / 10
+    : null;
+
+  // 자동수집 초기에는 하루 5~6건밖에 못 모아 비율이 크게 흔들린다.
+  // 그 구간을 구분하지 않으면 8월 초 급등이 실제 흐름으로 읽힌다.
+  const warmIdx = keys.map((k, i) => i)
+    .filter(i => i < keys.length - 1 && (liveBucket[keys[i]] || 0) > 0
+                 && (liveBucket[keys[i]] || 0) < 140);
+  const stable = NEWS.filter(n => n.src === "자동수집"
+    && (!keys.length || n.date >= keys[Math.max(0, (warmIdx[warmIdx.length - 1] ?? -1) + 1)]));
+  const stableNeg = stable.length
+    ? Math.round(stable.filter(n => n.senti === "부정").length / stable.length * 1000) / 10
+    : null;
+
   // 두 출처가 섞인 구간이 있으면 그 사실을 차트 밑에 밝힌다.
   const noteEl = document.getElementById("dailyNote");
   if (hasLive && hasVer) {
     noteEl.style.display = "";
-    noteEl.innerHTML = "초록·노랑 선은 <b>그 주에 모은 기사 수</b>(왼쪽 축)입니다. "
-      + "두 출처는 수집 범위가 달라 <b>건수는 견줄 수 없습니다.</b> 8월에 늘어난 것은 보도가 는 게 아니라 수집 방식이 바뀐 것입니다. "
-      + "그래서 붉은 선으로 <b>그 주 기사 중 부정 비율</b>을 따로 그렸습니다(오른쪽 축). <b>비율은 두 구간을 같은 잣대로 볼 수 있습니다.</b>"
-      + (partialLast ? " 맨 끝 주는 <b>아직 집계 중</b>이라 낮게 보입니다." : "");
+    noteEl.innerHTML = "<b>붉은 선</b>이 그 주 기사 중 <b>부정 비율</b>입니다(오른쪽 축). "
+      + (baseNeg != null
+          ? `<b>회색 점선</b>은 사람이 고른 검증본 2개월치 평균 <b>${baseNeg}%</b>로, <b>평상시 수준</b>입니다. `
+          : "")
+      + (stableNeg != null
+          ? `수집이 자리잡은 뒤로는 <b>${stableNeg}%</b>로 평상시보다 ${stableNeg < baseNeg ? "낮습니다" : "높습니다"}. `
+          : "")
+      + (warmIdx.length
+          ? "옅게 덮인 구간은 <b>자동수집 초기</b>라 하루 5~6건밖에 못 모아 비율이 흔들리는 구간입니다. " : "")
+      + "초록·노랑 선은 그 주에 모은 <b>기사 수</b>(왼쪽 축)이고, 두 출처는 수집 범위가 달라 <b>건수는 견줄 수 없습니다.</b>"
+      + (partialLast ? " 맨 끝 주는 <b>아직 집계 중</b>입니다." : "");
   } else {
     noteEl.style.display = "none";
   }
@@ -1647,6 +1693,21 @@ function updateDashboard() {
 
   drawChart("chDaily", {
     type: "line",
+    plugins: [{
+      // 표본이 적어 비율이 흔들리는 구간을 옅게 덮어 '읽을 수 있는 구간'과 나눈다.
+      id: "warmup",
+      beforeDatasetsDraw(chart) {
+        if (!warmIdx.length || !chart.scales.x) return;
+        const { ctx, chartArea: a, scales: { x } } = chart;
+        const lo = x.getPixelForValue(warmIdx[0]);
+        const hi = x.getPixelForValue(warmIdx[warmIdx.length - 1]);
+        const half = Math.abs(x.getPixelForValue(1) - x.getPixelForValue(0)) / 2 || 8;
+        ctx.save();
+        ctx.fillStyle = isDark() ? "rgba(255,255,255,.055)" : "rgba(23,51,92,.05)";
+        ctx.fillRect(lo - half, a.top, (hi - lo) + half * 2, a.bottom - a.top);
+        ctx.restore();
+      }
+    }],
     // 마지막 주는 아직 다 채워지지 않았을 수 있다. 그대로 두면 뚝 떨어진 것처럼 보인다.
     data: { labels: keys.map((k, i) => {
         const t = byWeek ? md(k) + "~" : md(k);
@@ -1663,7 +1724,12 @@ function updateDashboard() {
             return tot ? Math.round((negBucket[k] || 0) / tot * 100) : null;
           }),
           borderColor: isDark() ? "#C98080" : "#C26060", backgroundColor: "transparent",
-          fill: false, tension: .35, pointRadius: 3, borderWidth: 2.6, spanGaps: false }
+          fill: false, tension: .35, pointRadius: 3, borderWidth: 2.6, spanGaps: false },
+        // 평상시 기준선 — 이게 있어야 "8%가 높은 건가"에 화면이 답할 수 있다.
+        ...(baseNeg != null ? [{ label: `평상시 기준 ${baseNeg}%`, yAxisID: "y1",
+          data: keys.map(() => baseNeg),
+          borderColor: isDark() ? "#8A8F96" : "#98A0A8", backgroundColor: "transparent",
+          borderDash: [6, 4], borderWidth: 1.6, pointRadius: 0, fill: false, tension: 0 }] : [])
       ] },
     options: { maintainAspectRatio: false,
       plugins: { legend: { display: true, position: "top", labels: { boxWidth: 24, font: { size: 11 } } },
@@ -1869,6 +1935,53 @@ async function loadLive() {
   }
 }
 
+// 대조 통계를 읽는다. 파일이 없어도 화면은 그대로 동작해야 하므로 null을 돌려준다.
+async function loadBench() {
+  try {
+    const res = await fetch("benchmark.json", { cache: "no-store" });
+    if (!res.ok) return null;
+    const d = await res.json();
+    return (d && Array.isArray(d.cities) && d.cities.length >= 2) ? d : null;
+  } catch (e) {
+    return null;
+  }
+}
+
+// "부정 8%가 높은 건가"에 답하려면 견줄 대상이 있어야 한다.
+function renderBench(d) {
+  const card = document.getElementById("benchCard");
+  if (!card || !d) return;
+  const rows = d.cities.filter(c => typeof c.ratio === "number");
+  if (rows.length < 2) return;
+
+  const us = rows.find(c => c.name === "화성시");
+  const max = Math.max(...rows.map(c => c.ratio)) || 1;
+  const rank = rows.slice().sort((a, b) => b.ratio - a.ratio).findIndex(c => c.name === "화성시") + 1;
+  const others = rows.filter(c => c.name !== "화성시");
+  const avg = Math.round(others.reduce((s, c) => s + c.ratio, 0) / others.length * 10) / 10;
+
+  document.getElementById("benchLead").innerHTML = us
+    ? `같은 기간·같은 방법으로 모은 결과 <b>화성시 ${us.ratio}%</b>로, `
+      + `견준 ${rows.length}개 시 가운데 <b>${rank}번째</b>입니다. `
+      + `나머지 ${others.length}개 시 평균은 <b>${avg}%</b>입니다.`
+    : "";
+
+  document.getElementById("benchRows").innerHTML = rows.map(c => `
+    <div class="brow${c.name === "화성시" ? " us" : ""}">
+      <span class="bname">${c.name}</span>
+      <span class="btrack"><span class="bfill" style="width:${Math.round(c.ratio / max * 100)}%"></span></span>
+      <span class="bval"><b>${c.ratio}%</b> <span class="bnum">${c.count}건</span></span>
+    </div>`).join("");
+
+  document.getElementById("benchNote").innerHTML =
+    `${d.from} ~ ${d.to} 기사를 도시마다 같은 검색 방식으로 모아 <b>같은 AI 판정</b>을 적용했습니다. `
+    + `도시당 <b>${Math.min(...rows.map(c => c.count))}~${Math.max(...rows.map(c => c.count))}건</b>이라 `
+    + `<b>정밀한 순위가 아니라 대략의 위치</b>를 보는 값입니다. `
+    + `기사 수는 수집 시점에 좌우되므로 견주지 않고 <b>비율만</b> 견줍니다.`;
+
+  card.style.display = "";
+}
+
 async function init() {
   applyChartDefaults();
   try {
@@ -1898,6 +2011,7 @@ async function init() {
         + ` · 마지막 갱신 <b>${live.updated}</b>`;
     }
     document.getElementById("badge").textContent = "실데이터 " + NEWS.length.toLocaleString() + "건";
+    loadBench().then(renderBench);
     const allDates = NEWS.map(n => n.date).sort();
     const minDate = allDates[0], maxDate = allDates[allDates.length - 1];
     const fmt = d => d.replaceAll("-", ".");
