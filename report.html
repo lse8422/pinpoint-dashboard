@@ -38,7 +38,6 @@
 
   /* ── 개조식 항목 ── */
   h2 { font-size: 14.5px; font-weight: 800; margin: 22px 0 8px; }
-  h2::before { content: "□ "; }
   h2:first-of-type { margin-top: 0; }
   ul { list-style: none; margin: 0 0 4px 14px; }
   li { font-size: 12.5px; margin-bottom: 4px; text-indent: -15px; padding-left: 15px; }
@@ -73,6 +72,8 @@
   .attach { margin-top: 24px; border-top: 1px solid #b9bfc4; padding-top: 10px; font-size: 12.5px; }
   .attach .t { font-weight: 800; letter-spacing: 3px; margin-bottom: 4px; }
   .attach ol { margin-left: 22px; font-size: 12px; }
+  .attach li { text-indent: 0; padding-left: 0; margin-bottom: 2px; }
+  .attach li::before { content: none; }
 
   .foot { margin-top: 18px; text-align: center; font-size: 10.5px; color: #8a94a6;
     border-top: 1px solid #e0e4e0; padding-top: 8px; }
@@ -117,7 +118,15 @@ let NEWS = [], LIVE = null, BENCH = null, DAYS = 7, MAIL = null;
 const esc = s => String(s == null ? "" : s)
   .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const pct = (a, b) => b ? Math.round(a / b * 1000) / 10 : 0;
+// 5.7%와 8% 가 섞이면 표가 어긋나 보인다. 소수 한 자리로 맞춘다.
+const p1 = v => Number(v).toFixed(1);
 const md = s => s ? s.slice(5).replace("-", ".") : "";
+// toISOString()은 한국시간을 UTC로 바꿔 하루를 앞당긴다. 날짜는 직접 만든다.
+const ymd = d => d.getFullYear() + "-"
+  + String(d.getMonth() + 1).padStart(2, "0") + "-"
+  + String(d.getDate()).padStart(2, "0");
+// 공문서 날짜 표기 — 2026. 8. 25.
+const kd = s => s ? `${s.slice(0, 4)}. ${Number(s.slice(5, 7))}. ${Number(s.slice(8, 10))}.` : "";
 
 async function grab(url) {
   try { const r = await fetch(url, { cache: "no-store" }); return r.ok ? await r.json() : null; }
@@ -130,14 +139,14 @@ function slice_(days, endStr) {
   const end = endStr || NEWS.reduce((m, n) => n.date > m ? n.date : m, NEWS[0].date);
   const d = new Date(end + "T00:00:00");
   d.setDate(d.getDate() - (days - 1));
-  const from = d.toISOString().slice(0, 10);
+  const from = ymd(d);
   return { from, to: end, rows: NEWS.filter(n => n.date >= from && n.date <= end) };
 }
 
 function build() {
   const cur = slice_(DAYS);
   const pe = new Date(cur.from + "T00:00:00"); pe.setDate(pe.getDate() - 1);
-  const prev = slice_(DAYS, pe.toISOString().slice(0, 10));
+  const prev = slice_(DAYS, ymd(pe));
 
   const neg = cur.rows.filter(n => n.senti === "부정");
   const pneg = prev.rows.filter(n => n.senti === "부정");
@@ -200,8 +209,8 @@ function build() {
   <div class="doc-rule"></div>
 
   <table class="info">
-    <tr><th>보고기간</th><td>${cur.from} ~ ${cur.to} (${DAYS}일간)</td>
-        <th>작성일</th><td>${new Date().toISOString().slice(0, 10)}</td></tr>
+    <tr><th>보고기간</th><td>${kd(cur.from)} ~ ${kd(cur.to)} (${DAYS}일간)</td>
+        <th>작성일</th><td>${kd(ymd(new Date()))}</td></tr>
     <tr><th>자료출처</th><td>빅카인즈 검증본 · 구글 뉴스 RSS 자동수집</td>
         <th>작성방식</th><td>핀포인트 대시보드 자동 생성</td></tr>
   </table>
@@ -209,10 +218,10 @@ function build() {
   <h2>${N()}. 보고 개요</h2>
   <ul>
     <li>보고기간 중 화성시 관련 언론보도는 총 <b>${cur.rows.length.toLocaleString()}건</b>이며,
-        이 중 부정 보도는 <b class="neg">${neg.length}건(${ratio}%)</b>으로 집계됨</li>
-    <li>사람이 선별한 검증본 ${ver.length.toLocaleString()}건 기준 평상시 부정 비율 <b>${base}%</b> 대비
+        이 중 부정 보도는 <b class="neg">${neg.length}건(${p1(ratio)}%)</b>으로 집계됨</li>
+    <li>사람이 선별한 검증본 ${ver.length.toLocaleString()}건 기준 평상시 부정 비율 <b>${p1(base)}%</b> 대비
         <b class="${diff < -0.5 ? "pos" : diff > 0.5 ? "neg" : ""}">${Math.abs(diff)}%p ${diff < -0.5 ? "낮은" : diff > 0.5 ? "높은" : "비슷한"} 수준</b>임</li>
-    <li>직전 동일기간(${prev.from} ~ ${prev.to})은 ${prev.rows.length.toLocaleString()}건 중 부정 ${pneg.length}건(${pratio}%)으로,
+    <li>직전 동일기간(${kd(prev.from)} ~ ${kd(prev.to)})은 ${prev.rows.length.toLocaleString()}건 중 부정 ${pneg.length}건(${p1(pratio)}%)으로,
         ${Math.abs(wDiff) < 0.1 ? "변동 없음" : `<b class="${wDiff > 0 ? "neg" : "pos"}">${Math.abs(wDiff)}%p ${wDiff > 0 ? "증가" : "감소"}</b>함`}</li>
     ${topCat ? `<li>보도량 최다 분야는 <b>${CAT_LABEL[topCat.c]}</b>(${topCat.n}건),
         부정 보도 최다 분야는 <b>${byNeg[0] && byNeg[0].neg ? CAT_LABEL[byNeg[0].c] + `(${byNeg[0].neg}건)` : "해당 없음"}</b>임</li>` : ""}
@@ -232,10 +241,10 @@ function build() {
         <td class="n ${neg.length > pneg.length ? "up" : neg.length < pneg.length ? "down" : "flat"}">
           ${neg.length === pneg.length ? "-" : (neg.length > pneg.length ? "▲ " : "▼ ") + Math.abs(neg.length - pneg.length)}</td>
         <td class="n flat">-</td></tr>
-      <tr class="sum"><td>부정 비율</td><td class="n">${ratio}%</td><td class="n">${pratio}%</td>
+      <tr class="sum"><td>부정 비율</td><td class="n">${p1(ratio)}%</td><td class="n">${p1(pratio)}%</td>
         <td class="n ${wDiff > 0 ? "up" : wDiff < 0 ? "down" : "flat"}">
           ${Math.abs(wDiff) < 0.1 ? "-" : (wDiff > 0 ? "▲ " : "▼ ") + Math.abs(wDiff) + "%p"}</td>
-        <td class="n">${base}% <span class="${diff < 0 ? "down" : diff > 0 ? "up" : "flat"}">(${diff > 0 ? "+" : ""}${diff}%p)</span></td></tr>
+        <td class="n">${p1(base)}% <span class="${diff < 0 ? "down" : diff > 0 ? "up" : "flat"}">(${diff > 0 ? "+" : ""}${diff}%p)</span></td></tr>
     </tbody>
   </table>
   <div class="cap">평상시 기준은 <b>빅카인즈 검증본 ${ver.length.toLocaleString()}건</b>(사람이 화성시 관련 여부를 선별한 자료)의 부정 비율임.</div>
@@ -264,11 +273,11 @@ function build() {
     <tbody>${byNeg.map(r => {
       const d = r.neg - r.pneg;
       return `<tr><td>${CAT_LABEL[r.c]}</td><td class="n">${r.n}</td><td class="n">${r.neg}</td>
-        <td class="n">${pct(r.neg, r.n)}%</td>
+        <td class="n">${p1(pct(r.neg, r.n))}%</td>
         <td class="n ${d > 0 ? "up" : d < 0 ? "down" : "flat"}">${d > 0 ? "▲ " + d : d < 0 ? "▼ " + Math.abs(d) : "-"}</td></tr>`;
     }).join("")}
     <tr class="sum"><td>계</td><td class="n">${cur.rows.length.toLocaleString()}</td>
-      <td class="n">${neg.length}</td><td class="n">${ratio}%</td>
+      <td class="n">${neg.length}</td><td class="n">${p1(ratio)}%</td>
       <td class="n ${neg.length > pneg.length ? "up" : neg.length < pneg.length ? "down" : "flat"}">
         ${neg.length === pneg.length ? "-" : (neg.length > pneg.length ? "▲ " : "▼ ") + Math.abs(neg.length - pneg.length)}</td></tr>
     </tbody>
@@ -280,9 +289,9 @@ function build() {
     <thead><tr><th>지자체</th><th class="n">표본</th><th class="n">부정</th><th class="n">부정 비율</th></tr></thead>
     <tbody>${bench.map(c => `<tr class="${c.name === "화성시" ? "us" : ""}">
       <td>${c.name}</td><td class="n">${c.count}건</td><td class="n">${c.neg}건</td>
-      <td class="n">${c.ratio}%</td></tr>`).join("")}</tbody>
+      <td class="n">${p1(c.ratio)}%</td></tr>`).join("")}</tbody>
   </table>
-  <div class="cap">${BENCH.from} ~ ${BENCH.to} 기사를 지자체별로 <b>동일 검색 방식으로 수집하여 동일 AI 판정</b>을 적용함.
+  <div class="cap">${kd(BENCH.from)} ~ ${kd(BENCH.to)} 기사를 지자체별로 <b>동일 검색 방식으로 수집하여 동일 AI 판정</b>을 적용함.
     지자체당 표본이 ${Math.min(...bench.map(c => c.count))}~${Math.max(...bench.map(c => c.count))}건으로
     <b>정밀한 순위가 아닌 개략적 위치</b> 확인 목적임. 기사 수는 수집 시점에 좌우되므로 비율만 대조함.</div>
   ` : ""}
