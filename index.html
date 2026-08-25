@@ -169,6 +169,31 @@
   .bench .brow.us .bval b { color: var(--neg); }
   .bench .bnum { font-size: 11px; color: var(--muted2); }
 
+  /* 주간 보고서 — 화면에서만 쓰는 것들을 빼고 종이에 맞춘다 */
+  .report-head { display: none; }
+  @media print {
+    @page { size: A4; margin: 12mm 10mm; }
+    body { background: #fff !important; }
+    header, .period-bar, .toolbar, .simple-link, #darkToggle, .badge, .clock,
+    .heat-scope, .heat-nav, .scope, .cat-pick, .catHint, #catHint, .watch-form,
+    .more-wrap, .kwpanel, .score-why, .footer-note-live { display: none !important; }
+    .wrap { max-width: 100% !important; padding: 0 !important; }
+    .card, .today, .ai-brief { break-inside: avoid; box-shadow: none !important;
+      border: 1px solid #ccc !important; margin-bottom: 8px !important; }
+    .charts { display: block !important; }
+    .charts .card { margin-bottom: 10px !important; }
+    .chart-box { height: 190px !important; }
+    .article { break-inside: avoid; }
+    .report-head { display: block !important; border-bottom: 2px solid #4D7045;
+      padding-bottom: 6px; margin-bottom: 10px; }
+    .report-head .rt { font-size: 17px; font-weight: 800; color: #17335c; }
+    .report-head .rs { font-size: 11px; color: #6b7686; margin-top: 3px; }
+  }
+
+  .report-btn { border: 1px solid var(--border); background: var(--surface);
+    color: var(--muted); cursor: pointer; font-family: inherit; font-size: inherit; }
+  .report-btn:hover { border-color: var(--chip-active-bg); color: var(--article-title); }
+
   .heat .hbar { padding-left: 12px; width: 74px; }
   .heat .hbar .bt { height: 9px; border-radius: 999px; background: var(--summary-bg);
     border: 1px solid var(--border); overflow: hidden; }
@@ -504,6 +529,11 @@
 </header>
 
 <div class="wrap">
+  <div class="report-head">
+    <div class="rt">화성시 언론보도 주간 보고</div>
+    <div class="rs" id="reportSub"></div>
+  </div>
+
   <div class="period-bar">
     <span class="label">기간</span>
     <div class="period-chips-col">
@@ -512,6 +542,8 @@
         <span class="chip period-chip" data-p="7">최근 7일</span>
         <span class="chip period-chip" data-p="30">최근 30일</span>
         <span class="chip period-chip" data-p="custom">날짜 선택</span>
+        <button class="chip report-btn" id="reportBtn" onclick="printReport()"
+          title="지금 보고 있는 기간을 A4 보고서로 뽑습니다">🖨 주간 보고서</button>
         <span class="date-range-wrap" id="dateRangeWrap">
           <input type="date" id="dateFrom" class="date-input">
           <span class="date-sep">~</span>
@@ -1980,6 +2012,29 @@ function renderBench(d) {
     + `기사 수는 수집 시점에 좌우되므로 견주지 않고 <b>비율만</b> 견줍니다.`;
 
   card.style.display = "";
+}
+
+// 최근 7일로 바꿔 뽑고, 인쇄가 끝나면 보고 있던 기간으로 되돌린다.
+function printReport() {
+  const before = period;
+  const chip = document.querySelector('.period-chip[data-p="7"]');
+  if (chip && period !== "7") chip.click();
+
+  const rows = periodData();
+  const ds = rows.map(n => n.date).sort();
+  document.getElementById("reportSub").textContent =
+    (ds.length ? `${ds[0]} ~ ${ds[ds.length - 1]} · 기사 ${rows.length.toLocaleString()}건` : "")
+    + ` · 생성 ${new Date().toISOString().slice(0, 10)} · 핀포인트 대시보드`;
+
+  const back = () => {
+    window.removeEventListener("afterprint", back);
+    if (before !== period) {
+      const c = document.querySelector(`.period-chip[data-p="${before}"]`);
+      if (c) c.click();
+    }
+  };
+  window.addEventListener("afterprint", back);
+  setTimeout(() => window.print(), 400);
 }
 
 async function init() {
