@@ -104,8 +104,9 @@
   .mail-box textarea { flex: 1; min-height: 260px; border: none; resize: none; outline: none;
     padding: 14px 18px; font-family: Consolas, 'Malgun Gothic', monospace;
     font-size: 12px; line-height: 1.65; color: #1A2332; }
-  .mail-box .mf { padding: 12px 18px; border-top: 1px solid #dfe4dd; display: flex; gap: 8px; }
-  .mail-box .mf button { font-family: inherit; font-size: 13px; padding: 8px 15px;
+  .mail-box .mf { padding: 12px 18px; border-top: 1px solid #dfe4dd; display: flex; gap: 7px;
+    flex-wrap: wrap; align-items: center; }
+  .mail-box .mf button { font-family: inherit; font-size: 12.5px; padding: 8px 13px;
     border-radius: 5px; cursor: pointer; border: 1px solid #c3d0c0; background: #fff; color: #2E4628; }
   .mail-box .mf button.pri { background: #2E4628; color: #fff; border-color: #2E4628; font-weight: 700; }
   .mail-box .mf .ok { margin-left: auto; align-self: center; font-size: 12px;
@@ -152,11 +153,14 @@
   <div class="mail-box">
     <div class="mh"><b>메일 보고 초안</b><button class="x" id="mailClose">×</button></div>
     <div class="ms">아래 내용을 복사해 메일에 붙여 넣으십시오.
-      <b>메일 앱으로 열기</b>를 누르면 요약만 담긴 메일이 바로 열립니다.</div>
+      <b>Gmail</b>·<b>Outlook</b>은 브라우저에서 바로 열리고,
+      <b>메일 앱</b>은 이 PC에 기본 메일 프로그램이 지정돼 있어야 열립니다.</div>
     <textarea id="mailText" readonly></textarea>
     <div class="mf">
       <button class="pri" id="mailCopy">본문 복사</button>
-      <button id="mailOpen">메일 앱으로 열기</button>
+      <button id="mailGmail">Gmail로 열기</button>
+      <button id="mailOutlook">Outlook으로 열기</button>
+      <button id="mailOpen">메일 앱</button>
       <span class="ok" id="mailOk">복사했습니다</span>
     </div>
   </div>
@@ -497,9 +501,30 @@ function render() { document.getElementById("sheet").innerHTML = build(); }
     setTimeout(() => okTag.classList.remove("on"), 2200);
   };
 
+  // 웹 메일은 브라우저만 있으면 열린다. 기본 메일 프로그램이 없어도 쓸 수 있다.
+  const openWeb = url => {
+    const w = window.open(url, "_blank", "noopener");
+    if (!w) alert("팝업이 막혀 있습니다. 주소창 오른쪽에서 팝업을 허용해 주십시오.");
+  };
+  document.getElementById("mailGmail").onclick = () => openWeb(
+    "https://mail.google.com/mail/?view=cm&fs=1&su=" + encodeURIComponent(MAIL.subject)
+    + "&body=" + encodeURIComponent(MAIL.body));
+  document.getElementById("mailOutlook").onclick = () => openWeb(
+    "https://outlook.office.com/mail/deeplink/compose?subject=" + encodeURIComponent(MAIL.subject)
+    + "&body=" + encodeURIComponent(MAIL.body));
+
+  // 기본 메일 프로그램이 없으면 윈도우가 이 요청을 조용히 버린다. 그래서 안내를 남긴다.
   document.getElementById("mailOpen").onclick = () => {
     location.href = "mailto:?subject=" + encodeURIComponent(MAIL.subject)
       + "&body=" + encodeURIComponent(MAIL.brief);
+    setTimeout(() => {
+      if (!document.hidden) {
+        const ms = document.querySelector(".mail-box .ms");
+        ms.innerHTML = "이 PC에 <b>기본 메일 프로그램이 지정돼 있지 않은 것 같습니다.</b> "
+          + "위의 <b>Gmail로 열기</b>나 <b>본문 복사</b>를 쓰시면 됩니다.";
+        ms.style.color = "#A03D3D";
+      }
+    }, 1400);
   };
   render();
 })();
