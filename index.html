@@ -173,7 +173,8 @@
   .bench .brow.us { background: var(--summary-bg); }
   .bench .brow.us .bname { color: var(--article-title); font-weight: 800; }
   .bench .brow.us .bval b { font-size: 16px; }
-  .bench .brow.us .btrack { border-color: var(--chip-active-bg); }
+  .bench .brow.us.good .btrack { border-color: var(--chip-active-bg); }
+  .bench .brow.us.bad .btrack { border-color: var(--neg); }
   /* 좋고 나쁨은 색이 스스로 정한다. 평균보다 낮으면 초록, 높으면 붉게. */
   .bench .brow.us.good .bfill { background: var(--chip-active-bg); }
   .bench .brow.us.good .bval b { color: var(--chip-active-bg); }
