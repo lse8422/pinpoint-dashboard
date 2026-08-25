@@ -156,18 +156,38 @@
     white-space: nowrap; }
   .heat .hwk.late { color: var(--neg); font-weight: 700; }
   /* 다른 시와 견주기 — 우리 시를 진하게, 나머지는 물러나게 */
-  .bench .brow { display: flex; align-items: center; gap: 10px; padding: 5px 0; }
-  .bench .bname { width: 62px; flex-shrink: 0; font-size: 12.5px; color: var(--muted); }
-  .bench .btrack { flex: 1; height: 15px; border-radius: 999px; background: var(--summary-bg);
-    border: 1px solid var(--border); overflow: hidden; }
-  .bench .bfill { height: 100%; background: var(--band-neu); border-radius: 999px; }
-  .bench .bval { width: 78px; flex-shrink: 0; text-align: right; font-size: 12.5px;
+  .bench .brow { display: flex; align-items: center; gap: 10px; padding: 6px 8px;
+    border-radius: 7px; }
+  .bench .bname { width: 116px; flex-shrink: 0; font-size: 12.5px; color: var(--muted);
+    white-space: nowrap; }
+  .bench .btrack { position: relative; flex: 1; min-width: 0; height: 17px; border-radius: 999px;
+    background: var(--summary-bg); border: 1px solid var(--border); overflow: hidden; }
+  /* span은 인라인이라 폭을 무시한다. 반드시 블록으로 둬야 막대가 그려진다. */
+  .bench .bfill { display: block; height: 100%; min-width: 3px;
+    background: var(--band-neu); border-radius: 999px; }
+  .bench .bval { width: 86px; flex-shrink: 0; text-align: right; font-size: 12.5px;
     color: var(--muted); font-variant-numeric: tabular-nums; }
-  .bench .bval b { font-size: 14px; color: var(--article-title); }
-  .bench .brow.us .bname { color: var(--article-title); font-weight: 800; }
-  .bench .brow.us .bfill { background: var(--neg); }
-  .bench .brow.us .bval b { color: var(--neg); }
+  .bench .bval b { font-size: 15px; color: var(--article-title); }
   .bench .bnum { font-size: 11px; color: var(--muted2); }
+
+  .bench .brow.us { background: var(--summary-bg); }
+  .bench .brow.us .bname { color: var(--article-title); font-weight: 800; }
+  .bench .brow.us .bval b { font-size: 16px; }
+  .bench .brow.us .btrack { border-color: var(--chip-active-bg); }
+  /* 좋고 나쁨은 색이 스스로 정한다. 평균보다 낮으면 초록, 높으면 붉게. */
+  .bench .brow.us.good .bfill { background: var(--chip-active-bg); }
+  .bench .brow.us.good .bval b { color: var(--chip-active-bg); }
+  .bench .brow.us.bad .bfill { background: var(--neg); }
+  .bench .brow.us.bad .bval b { color: var(--neg); }
+  .bench .badge { margin-left: 6px; font-size: 10px; font-weight: 700; padding: 1px 6px;
+    border-radius: 999px; background: var(--chip-active-bg); color: #fff; vertical-align: 1px; }
+
+  /* 나머지 시 평균 — 어디에 서 있는지 한눈에 보이게 */
+  .bench .avgline { position: absolute; top: -3px; bottom: -3px; width: 0;
+    border-left: 1.5px dashed var(--muted2); }
+  .bench .avgnote { display: flex; align-items: center; gap: 6px; margin-top: 8px;
+    font-size: 11px; color: var(--muted2); }
+  .bench .avgnote i { width: 15px; border-top: 1.5px dashed var(--muted2); display: inline-block; }
 
 
   .report-btn { border: 1px solid var(--border); background: var(--surface);
@@ -2003,12 +2023,21 @@ function renderBench(d) {
       + `나머지 ${others.length}개 시 평균은 <b>${avg}%</b>입니다. 부정 비율은 낮을수록 좋은 값입니다.`
     : "";
 
-  document.getElementById("benchRows").innerHTML = rows.map(c => `
-    <div class="brow${c.name === "화성시" ? " us" : ""}">
-      <span class="bname">${c.name}</span>
-      <span class="btrack"><span class="bfill" style="width:${Math.round(c.ratio / max * 100)}%"></span></span>
+  // 눈금 끝은 가장 큰 값보다 조금 넉넉하게 잡아 막대가 끝에 붙지 않게 한다.
+  const scale = max * 1.08;
+  const good = us && us.ratio < avg;
+  document.getElementById("benchRows").innerHTML = rows.map(c => {
+    const me = c.name === "화성시";
+    return `<div class="brow${me ? " us " + (good ? "good" : "bad") : ""}">
+      <span class="bname">${c.name}${me ? '<span class="badge">우리 시</span>' : ""}</span>
+      <span class="btrack">
+        <span class="bfill" style="width:${Math.max(2, Math.round(c.ratio / scale * 100))}%"></span>
+        ${me ? "" : `<span class="avgline" style="left:${Math.round(avg / scale * 100)}%"></span>`}
+      </span>
       <span class="bval"><b>${c.ratio}%</b> <span class="bnum">${c.count}건</span></span>
-    </div>`).join("");
+    </div>`;
+  }).join("")
+    + `<div class="avgnote"><i></i> 점선은 나머지 ${others.length}개 시 평균 <b>${avg}%</b>입니다.</div>`;
 
   document.getElementById("benchNote").innerHTML =
     `${d.from} ~ ${d.to} 기사를 도시마다 같은 검색 방식으로 모아 <b>같은 AI 판정</b>을 적용했습니다. `
