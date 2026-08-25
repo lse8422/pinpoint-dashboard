@@ -1691,18 +1691,30 @@ function updateDashboard() {
 
   // 자동수집 초기에는 하루 5~6건밖에 못 모아 비율이 크게 흔들린다.
   // 그 구간을 구분하지 않으면 8월 초 급등이 실제 흐름으로 읽힌다.
-  const warmIdx = keys.map((k, i) => i)
+  // 일별 보기에서는 하루치가 늘 140건 미만이라 화면 전체가 덮인다. 주별에서만 쓴다.
+  const warmIdx = !byWeek ? [] : keys.map((k, i) => i)
     .filter(i => i < keys.length - 1 && (liveBucket[keys[i]] || 0) > 0
                  && (liveBucket[keys[i]] || 0) < 140);
-  const stable = NEWS.filter(n => n.src === "자동수집"
-    && (!keys.length || n.date >= keys[Math.max(0, (warmIdx[warmIdx.length - 1] ?? -1) + 1)]));
+  // 수집이 자리잡은 시점은 화면 기간과 무관한 사실이므로 전체 데이터에서 구한다.
+  const liveAll = NEWS.filter(n => n.src === "자동수집");
+  const liveByDay = {};
+  liveAll.forEach(n => liveByDay[n.date] = (liveByDay[n.date] || 0) + 1);
+  const settled = Object.keys(liveByDay).sort().find(d => liveByDay[d] >= 20);
+  const stable = settled ? liveAll.filter(n => n.date >= settled) : [];
   const stableNeg = stable.length
     ? Math.round(stable.filter(n => n.senti === "부정").length / stable.length * 1000) / 10
     : null;
 
   // 두 출처가 섞인 구간이 있으면 그 사실을 차트 밑에 밝힌다.
   const noteEl = document.getElementById("dailyNote");
-  if (hasLive && hasVer) {
+  if (!byWeek) {
+    // 일별에서는 하루 표본이 작아 비율이 튄다. 왜 건수로 보여주는지 밝힌다.
+    noteEl.style.display = "";
+    noteEl.innerHTML = "일별에서는 하루에 모이는 기사가 적어 <b>비율이 0%와 100%로 튑니다.</b> "
+      + "그래서 이 보기에서는 <b>부정을 건수로</b> 보여드립니다. "
+      + (baseNeg != null
+          ? `평상시 기준(<b>${baseNeg}%</b>)과 견주시려면 위 <b>[전체]</b>를 눌러 주별로 보십시오.` : "");
+  } else if (hasLive && hasVer) {
     noteEl.style.display = "";
     noteEl.innerHTML = "<b>붉은 선</b>이 그 주 기사 중 <b>부정 비율</b>입니다(오른쪽 축). "
       + (baseNeg != null
@@ -1746,19 +1758,31 @@ function updateDashboard() {
         return (i === keys.length - 1 && partialLast) ? [t, "(집계 중)"] : t;
       }),
       datasets: [
-        { label: hasLive && hasVer ? "검증본" : "전체", data: keys.map(k => verBucket[k] ?? null), borderColor: lineBlue, backgroundColor: lineBlueBg, fill: true, tension: .35, pointRadius: 3, spanGaps: false },
+        // 그 기간에 검증본이 없으면 verBucket이 비어 선이 통째로 사라진다. 그때는 합계를 그린다.
+        { label: hasLive && hasVer ? "검증본" : "전체",
+          data: keys.map(k => ((hasLive && hasVer) ? verBucket[k] : bucket[k]) ?? null),
+          borderColor: lineBlue, backgroundColor: lineBlueBg, fill: true, tension: .35, pointRadius: 3, spanGaps: false },
         ...(hasLive && hasVer ? [{ label: "자동수집", data: keys.map(k => liveBucket[k] ?? null), borderColor: liveLine, backgroundColor: isDark() ? "rgba(201,162,39,.15)" : "rgba(176,138,30,.12)", fill: true, tension: .35, pointRadius: 3, spanGaps: false, borderDash: [5, 3] }] : []),
         // 두 출처는 수집 범위가 달라 건수를 견줄 수 없다.
         // 비율로 그려야 검증본 구간과 자동수집 구간을 같은 잣대로 본다.
-        { label: "부정 비율", yAxisID: "y1",
-          data: keys.map(k => {
-            const tot = (verBucket[k] || 0) + (liveBucket[k] || 0);
-            return tot ? Math.round((negBucket[k] || 0) / tot * 100) : null;
-          }),
-          borderColor: isDark() ? "#C98080" : "#C26060", backgroundColor: "transparent",
-          fill: false, tension: .35, pointRadius: 3, borderWidth: 2.6, spanGaps: false },
+        // 주별은 비율로 본다. 두 출처의 수집 범위가 달라 건수는 견줄 수 없기 때문이다.
+        // 일별은 하루 표본이 한두 건이라 비율이 0%와 100%로 튄다. 그때는 건수로 본다.
+        (byWeek
+          ? { label: "부정 비율", yAxisID: "y1",
+              data: keys.map(k => {
+                const tot = (verBucket[k] || 0) + (liveBucket[k] || 0);
+                return tot ? Math.round((negBucket[k] || 0) / tot * 100) : null;
+              }),
+              borderColor: isDark() ? "#C98080" : "#C26060", backgroundColor: "transparent",
+              fill: false, tension: .35, pointRadius: 3, borderWidth: 2.6, spanGaps: false }
+          : { label: "부정 기사",
+              data: keys.map(k => negBucket[k] ?? 0),
+              borderColor: isDark() ? "#C98080" : "#C26060",
+              backgroundColor: isDark() ? "rgba(201,128,128,.18)" : "rgba(194,96,96,.14)",
+              fill: true, tension: .35, pointRadius: 3, borderWidth: 2.4, spanGaps: false }),
         // 평상시 기준선 — 이게 있어야 "8%가 높은 건가"에 화면이 답할 수 있다.
-        ...(baseNeg != null ? [{ label: `평상시 기준 ${baseNeg}%`, yAxisID: "y1",
+        // 비율 축이 있는 주별 보기에서만 뜻이 있다.
+        ...(byWeek && baseNeg != null ? [{ label: `평상시 기준 ${baseNeg}%`, yAxisID: "y1",
           data: keys.map(() => baseNeg),
           borderColor: isDark() ? "#8A8F96" : "#98A0A8", backgroundColor: "transparent",
           borderDash: [6, 4], borderWidth: 1.6, pointRadius: 0, fill: false, tension: 0 }] : [])
@@ -1769,9 +1793,9 @@ function updateDashboard() {
           ? `부정 비율 ${c.parsed.y}%` : `${c.dataset.label} ${c.parsed.y}건` } } },
       scales: {
         y: { beginAtZero: true, title: { display: true, text: "기사 수(건)", font: { size: 10 } } },
-        y1: { beginAtZero: true, max: 100, position: "right", grid: { drawOnChartArea: false },
+        ...(byWeek ? { y1: { beginAtZero: true, max: 100, position: "right", grid: { drawOnChartArea: false },
               ticks: { callback: v => v + "%", stepSize: 25 },
-              title: { display: true, text: "부정 비율(%)", font: { size: 10 } } }
+              title: { display: true, text: "부정 비율(%)", font: { size: 10 } } } } : {})
       } }
   });
 
