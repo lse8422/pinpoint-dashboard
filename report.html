@@ -205,7 +205,7 @@ function build() {
       ? `부정 보도는 <b>${CAT_LABEL[byNeg[0].c]}</b> 분야에 ${byNeg[0].neg}건으로 가장 많이 집중되어 해당 분야 대응 상황 점검이 필요함.`
       : `특정 분야에 부정 보도가 집중된 정황은 확인되지 않음.`,
     spread.length ? `<b>${spread.length}건</b>의 사안이 2개 이상 매체로 확산되고 있어 우선 대응 검토가 요구됨.` : "",
-    us && bench ? `인접 지자체 대조에서는 ${bench.length}개 시 중 <b>${rank}번째로 낮은 수준</b>임.` : "",
+    us && bench ? `인접 지자체 대조에서는 ${bench.length}개 시 중 <b>${rank === 1 ? "가장 낮은" : rank + "번째로 낮은"} 수준</b>임.` : "",
   ].filter(Boolean).join(" ");
 
   // 대응 필요사항 — 규칙으로 뽑는다. AI에 맡기면 없는 사실을 지어낼 수 있고 비용도 든다.

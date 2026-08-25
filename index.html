@@ -1987,14 +1987,16 @@ function renderBench(d) {
 
   const us = rows.find(c => c.name === "화성시");
   const max = Math.max(...rows.map(c => c.ratio)) || 1;
-  const rank = rows.slice().sort((a, b) => b.ratio - a.ratio).findIndex(c => c.name === "화성시") + 1;
+  // 부정 비율은 낮을수록 좋다. 높은 순으로 세면 1등이 가장 나쁜 곳이 되어 거꾸로 읽힌다.
+  const asc = rows.slice().sort((a, b) => a.ratio - b.ratio);
+  const rank = asc.findIndex(c => c.name === "화성시") + 1;
   const others = rows.filter(c => c.name !== "화성시");
   const avg = Math.round(others.reduce((s, c) => s + c.ratio, 0) / others.length * 10) / 10;
 
   document.getElementById("benchLead").innerHTML = us
     ? `같은 기간·같은 방법으로 모은 결과 <b>화성시 ${us.ratio}%</b>로, `
-      + `견준 ${rows.length}개 시 가운데 <b>${rank}번째</b>입니다. `
-      + `나머지 ${others.length}개 시 평균은 <b>${avg}%</b>입니다.`
+      + `견준 ${rows.length}개 시 가운데 <b>${rank === 1 ? "가장 낮습니다" : rank + "번째로 낮습니다"}</b>. `
+      + `나머지 ${others.length}개 시 평균은 <b>${avg}%</b>입니다. 부정 비율은 낮을수록 좋은 값입니다.`
     : "";
 
   document.getElementById("benchRows").innerHTML = rows.map(c => `
