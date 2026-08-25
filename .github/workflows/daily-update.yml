@@ -46,6 +46,8 @@ jobs:
           if [ -n "$(git status --porcelain news_live.json)" ]; then
             git add news_live.json
             git commit -m "뉴스 자동 수집 $(date -u -d '+9 hours' +'%Y-%m-%d')"
+            # 다른 워크플로가 먼저 밀어넣었을 수 있다. 최신을 당겨온 뒤 다시 시도한다.
+            git pull --rebase origin main
             git push
           else
             echo "변경사항이 없어 커밋하지 않습니다."
