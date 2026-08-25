@@ -236,7 +236,7 @@ def call_claude(api_key, articles):
     return json.loads(m.group())
 
 
-def brief_facts(rows, label):
+def brief_facts(rows, label, base=None):
     """브리핑에 쓸 수치를 코드가 직접 계산한다. AI에게 숫자를 맡기지 않기 위해서다."""
     total = len(rows)
     if not total:
@@ -261,6 +261,12 @@ def brief_facts(rows, label):
         # 2건은 같은 사건을 두 매체가 쓴 것일 수 있어 "집중"이라 부르기 어렵다.
         # 3건 이상일 때만 넘기고, 표현도 사실 그대로 "가장 많았던 날"로 둔다.
         "부정최다일": "%s %d건" % peak if peak and peak[1] >= 3 else None,
+        # 비율만 던지면 높은지 낮은지 알 수 없다. 견줄 기준을 반드시 함께 넘긴다.
+        "평상시부정비율": ("%.1f%%" % base) if base else None,
+        "평상시대비": (
+            "평상시보다 낮음" if base and len(neg) / total * 100 < base - 0.5 else
+            "평상시보다 높음" if base and len(neg) / total * 100 > base + 0.5 else
+            "평상시와 비슷함" if base else None),
     }
 
 
@@ -273,6 +279,9 @@ def write_briefs(api_key, facts):
 
 규칙:
 - 주어진 수치만 사용한다. 새로운 숫자를 만들거나 추정하지 않는다.
+- 부정 비율을 말할 때는 반드시 '평상시부정비율'과 견주어 쓴다.
+  "부정 142건(8%)이 집계되었다"처럼 비율만 던지면 담당자는 그게 높은지 낮은지 알 수 없다.
+  "평상시 8.6%보다 낮은 8%"처럼 기준과 나란히 놓아야 한다. '평상시대비' 값을 그대로 반영한다.
 - 담당자가 무엇을 먼저 확인해야 하는지가 드러나게 쓴다.
 - 기간마다 문장 구조를 다르게 쓴다. 같은 틀에 숫자만 바꿔 넣지 마라.
 - 강조할 표현은 [[b]]와 [[/b]]로, 부정 보도 관련 수치는 [[w]]와 [[/w]]로 감싼다.
@@ -694,6 +703,9 @@ def main():
     if api_key:
         allrows = verified + live
         last = max(r["date"] for r in allrows)
+        # 사람이 고른 검증본 2개월치가 '평상시'다. 지금이 높은지 낮은지 견줄 유일한 기준이다.
+        vneg = sum(1 for r in verified if r.get("senti") == "부정")
+        base_ratio = round(vneg / len(verified) * 100, 1) if verified else None
         facts = []
         for key, days, label in (("all", None, "수집 기간 전체"), ("7", 7, "최근 7일"), ("30", 30, "최근 30일")):
             if days is None:
@@ -701,7 +713,7 @@ def main():
             else:
                 cut = (datetime.strptime(last, "%Y-%m-%d") - timedelta(days=days - 1)).strftime("%Y-%m-%d")
                 rows = [r for r in allrows if r["date"] >= cut]
-            f = brief_facts(rows, label)
+            f = brief_facts(rows, label, base_ratio)
             if f:
                 facts.append(dict({"키": key}, **f))
         try:
