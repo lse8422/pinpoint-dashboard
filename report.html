@@ -87,6 +87,32 @@
   .attach .items { flex: 1; }
   .end { margin-top: 14px; font-size: 12.5px; font-weight: 700; padding-left: 4px; }
 
+  /* 메일 본문 패널 — 메일 앱이 없거나 주소가 길어도 붙여넣을 수 있게 한다 */
+  .mail-wrap { position: fixed; inset: 0; background: rgba(16,20,24,.55); display: none;
+    align-items: center; justify-content: center; padding: 20px; z-index: 50; }
+  .mail-wrap.on { display: flex; }
+  .mail-box { background: #fff; border-radius: 8px; width: min(680px, 100%);
+    max-height: 88vh; display: flex; flex-direction: column; overflow: hidden;
+    box-shadow: 0 8px 40px rgba(0,0,0,.3); }
+  .mail-box .mh { padding: 14px 18px; border-bottom: 1px solid #dfe4dd;
+    display: flex; align-items: center; gap: 10px; }
+  .mail-box .mh b { font-size: 14.5px; color: #17335c; }
+  .mail-box .mh .x { margin-left: auto; border: none; background: none; cursor: pointer;
+    font-size: 19px; color: #8a94a6; line-height: 1; padding: 2px 6px; }
+  .mail-box .ms { padding: 9px 18px; font-size: 11.5px; color: #6b7686;
+    background: #F6F8F5; border-bottom: 1px solid #e6eaf1; line-height: 1.6; }
+  .mail-box textarea { flex: 1; min-height: 260px; border: none; resize: none; outline: none;
+    padding: 14px 18px; font-family: Consolas, 'Malgun Gothic', monospace;
+    font-size: 12px; line-height: 1.65; color: #1A2332; }
+  .mail-box .mf { padding: 12px 18px; border-top: 1px solid #dfe4dd; display: flex; gap: 8px; }
+  .mail-box .mf button { font-family: inherit; font-size: 13px; padding: 8px 15px;
+    border-radius: 5px; cursor: pointer; border: 1px solid #c3d0c0; background: #fff; color: #2E4628; }
+  .mail-box .mf button.pri { background: #2E4628; color: #fff; border-color: #2E4628; font-weight: 700; }
+  .mail-box .mf .ok { margin-left: auto; align-self: center; font-size: 12px;
+    color: #2E4628; font-weight: 700; opacity: 0; transition: opacity .2s; }
+  .mail-box .mf .ok.on { opacity: 1; }
+  @media print { .mail-wrap { display: none !important; } }
+
   .apx { page-break-before: always; }
   .apx h2 { margin-top: 0; }
   .foot { margin-top: 20px; text-align: center; font-size: 10px; color: #98a0a8;
@@ -121,6 +147,20 @@
 </div>
 
 <div class="sheet" id="sheet">불러오는 중…</div>
+
+<div class="mail-wrap" id="mailWrap">
+  <div class="mail-box">
+    <div class="mh"><b>메일 보고 초안</b><button class="x" id="mailClose">×</button></div>
+    <div class="ms">아래 내용을 복사해 메일에 붙여 넣으십시오.
+      <b>메일 앱으로 열기</b>를 누르면 요약만 담긴 메일이 바로 열립니다.</div>
+    <textarea id="mailText" readonly></textarea>
+    <div class="mf">
+      <button class="pri" id="mailCopy">본문 복사</button>
+      <button id="mailOpen">메일 앱으로 열기</button>
+      <span class="ok" id="mailOk">복사했습니다</span>
+    </div>
+  </div>
+</div>
 
 <script>
 const CAT_LABEL = { 교통: "교통", 환경: "환경", 행정: "행정", 문화관광: "문화·관광",
@@ -376,6 +416,15 @@ function build() {
   const strip = s => s.replace(/<[^>]+>/g, "");
   MAIL = {
     subject: `[언론보도 주간 동향] ${kspan(cur.from, cur.to)}`,
+    // 메일 앱에 넘길 짧은 판. 한글은 주소로 바뀌면 글자당 9자가 되어 금방 한계를 넘는다.
+    brief: [
+      `보고기간: ${kspan(cur.from, cur.to)}`,
+      `전체 ${cur.rows.length.toLocaleString()}건 / 부정 ${neg.length}건(${p1(ratio)}%)`,
+      `평상시 기준 ${p1(base)}% 대비 ${Math.abs(diff)}%p ${lvl === "낮은" ? "낮음" : lvl === "높은" ? "높음" : "비슷"}`,
+      issues.length ? `중점 이슈: ${issues[0].label}` : "",
+      "", "상세 내용은 대시보드에서 확인하실 수 있음.",
+      location.href.replace(/report\.html.*$/, ""),
+    ].filter(Boolean).join("\n"),
     body: [
       "화성시 언론보도 주간 동향 보고", "",
       `보고기간: ${kspan(cur.from, cur.to)} (${DAYS}일간)`,
@@ -421,10 +470,36 @@ function render() { document.getElementById("sheet").innerHTML = build(); }
   const sel = document.getElementById("range");
   sel.value = String(DAYS);
   sel.onchange = () => { DAYS = Number(sel.value); render(); };
+  const wrap = document.getElementById("mailWrap");
+  const okTag = document.getElementById("mailOk");
+  const close = () => wrap.classList.remove("on");
+
   document.getElementById("mailBtn").onclick = () => {
     if (!MAIL) return;
+    document.getElementById("mailText").value = MAIL.subject + "\n\n" + MAIL.body;
+    okTag.classList.remove("on");
+    wrap.classList.add("on");
+  };
+  document.getElementById("mailClose").onclick = close;
+  wrap.onclick = e => { if (e.target === wrap) close(); };
+  document.addEventListener("keydown", e => { if (e.key === "Escape") close(); });
+
+  document.getElementById("mailCopy").onclick = async () => {
+    const ta = document.getElementById("mailText");
+    try {
+      await navigator.clipboard.writeText(ta.value);
+    } catch (e) {
+      // 클립보드 권한이 없는 환경에서는 직접 선택해 준다
+      ta.removeAttribute("readonly"); ta.select(); document.execCommand("copy");
+      ta.setAttribute("readonly", "");
+    }
+    okTag.classList.add("on");
+    setTimeout(() => okTag.classList.remove("on"), 2200);
+  };
+
+  document.getElementById("mailOpen").onclick = () => {
     location.href = "mailto:?subject=" + encodeURIComponent(MAIL.subject)
-      + "&body=" + encodeURIComponent(MAIL.body);
+      + "&body=" + encodeURIComponent(MAIL.brief);
   };
   render();
 })();
