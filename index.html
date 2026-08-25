@@ -1881,8 +1881,12 @@ function initFlatpickr(minDate, maxDate) {
   const opts = { locale: "ko", dateFormat: "Y-m-d", minDate, maxDate, disableMobile: false };
   if (fpFrom) fpFrom.destroy();
   if (fpTo) fpTo.destroy();
-  fpFrom = flatpickr("#dateFrom", { ...opts, onChange: ([d]) => { customFrom = d ? d.toISOString().slice(0,10) : ""; updateDashboard(); } });
-  fpTo   = flatpickr("#dateTo",   { ...opts, onChange: ([d]) => { customTo   = d ? d.toISOString().slice(0,10) : ""; updateDashboard(); } });
+  // toISOString()은 한국시간을 UTC로 바꿔 하루를 앞당긴다. 8월 1일을 고르면 7월 31일이 들어온다.
+  const pickDay = d => d ? d.getFullYear() + "-"
+    + String(d.getMonth() + 1).padStart(2, "0") + "-"
+    + String(d.getDate()).padStart(2, "0") : "";
+  fpFrom = flatpickr("#dateFrom", { ...opts, onChange: ([d]) => { customFrom = pickDay(d); updateDashboard(); } });
+  fpTo   = flatpickr("#dateTo",   { ...opts, onChange: ([d]) => { customTo   = pickDay(d); updateDashboard(); } });
 }
 // 그래프 쪽과 목록 쪽 두 군데서 분야를 고를 수 있다.
 // 어느 쪽을 눌러도 같은 결과가 되도록 한 함수로 모은다.

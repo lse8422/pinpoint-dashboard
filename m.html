@@ -214,7 +214,11 @@ function render(d) {
 
   // 최근 2주 부정 보도 — 날짜가 빈 날도 자리를 지켜야 흐름이 왜곡되지 않는다
   const days = [];
-  const base = (d.updated || "").slice(0, 10) || new Date().toISOString().slice(0, 10);
+  // toISOString()은 한국시간을 UTC로 바꿔 하루를 앞당긴다. 오늘 날짜는 직접 만든다.
+  const t = new Date();
+  const today = t.getFullYear() + "-" + String(t.getMonth() + 1).padStart(2, "0")
+    + "-" + String(t.getDate()).padStart(2, "0");
+  const base = (d.updated || "").slice(0, 10) || today;
   const cur = new Date(base + "T00:00:00");
   cur.setDate(cur.getDate() - 13);
   for (let i = 0; i < 14; i++) {
