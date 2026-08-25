@@ -158,14 +158,14 @@
   /* 다른 시와 견주기 — 우리 시를 진하게, 나머지는 물러나게 */
   .bench .brow { display: flex; align-items: center; gap: 10px; padding: 6px 8px;
     border-radius: 7px; }
-  .bench .bname { width: 116px; flex-shrink: 0; font-size: 12.5px; color: var(--muted);
+  .bench .bname { width: 56px; flex-shrink: 0; font-size: 12.5px; color: var(--muted);
     white-space: nowrap; }
   .bench .btrack { position: relative; flex: 1; min-width: 0; height: 17px; border-radius: 999px;
     background: var(--summary-bg); border: 1px solid var(--border); overflow: hidden; }
   /* span은 인라인이라 폭을 무시한다. 반드시 블록으로 둬야 막대가 그려진다. */
   .bench .bfill { display: block; height: 100%; min-width: 3px;
     background: var(--band-neu); border-radius: 999px; }
-  .bench .bval { width: 86px; flex-shrink: 0; text-align: right; font-size: 12.5px;
+  .bench .bval { width: 78px; flex-shrink: 0; text-align: right; font-size: 12.5px;
     color: var(--muted); font-variant-numeric: tabular-nums; }
   .bench .bval b { font-size: 15px; color: var(--article-title); }
   .bench .bnum { font-size: 11px; color: var(--muted2); }
@@ -179,8 +179,6 @@
   .bench .brow.us.good .bval b { color: var(--chip-active-bg); }
   .bench .brow.us.bad .bfill { background: var(--neg); }
   .bench .brow.us.bad .bval b { color: var(--neg); }
-  .bench .badge { margin-left: 6px; font-size: 10px; font-weight: 700; padding: 1px 6px;
-    border-radius: 999px; background: var(--chip-active-bg); color: #fff; vertical-align: 1px; }
 
   /* 나머지 시 평균 — 어디에 서 있는지 한눈에 보이게 */
   .bench .avgline { position: absolute; top: -3px; bottom: -3px; width: 0;
@@ -2029,7 +2027,7 @@ function renderBench(d) {
   document.getElementById("benchRows").innerHTML = rows.map(c => {
     const me = c.name === "화성시";
     return `<div class="brow${me ? " us " + (good ? "good" : "bad") : ""}">
-      <span class="bname">${c.name}${me ? '<span class="badge">우리 시</span>' : ""}</span>
+      <span class="bname">${c.name}</span>
       <span class="btrack">
         <span class="bfill" style="width:${Math.max(2, Math.round(c.ratio / scale * 100))}%"></span>
         ${me ? "" : `<span class="avgline" style="left:${Math.round(avg / scale * 100)}%"></span>`}
