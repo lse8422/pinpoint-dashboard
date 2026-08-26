@@ -964,7 +964,7 @@ function toggleTodo(idx) {
   el.insertAdjacentHTML("beforeend", `
     <div class="todo-detail"><div class="todo-arts">${arts.map(n =>
       `<div class="todo-art"><span class="d">${n.date.replaceAll("-", ".")}</span>` +
-      `<a href="${articleLink(n)}" target="_blank" rel="noopener">${n.title}</a>` +
+      `<a href="${escArt(articleLink(n))}" target="_blank" rel="noopener">${escArt(n.title)}</a>` +
       `${n.source ? ` <span class="d">${n.source}</span>` : ""}</div>`).join("")}</div></div>`);
 }
 
@@ -1046,7 +1046,7 @@ function openCategory(cat, opts) {
       <div style="font-size:12px;color:var(--muted);margin-bottom:6px;">이 분야의 최근 부정 보도</div>
       <div class="issue-arts">${negTop.map(n =>
         `<div class="issue-art"><span class="d">${n.date.replaceAll("-", ".")}</span>` +
-        `<a href="${articleLink(n)}" target="_blank" rel="noopener">${n.title}</a></div>`).join("")}</div>
+        `<a href="${escArt(articleLink(n))}" target="_blank" rel="noopener">${escArt(n.title)}</a></div>`).join("")}</div>
     </div>` : ""}`;
 
   document.getElementById("catPanelCard").style.display = "";
@@ -1088,6 +1088,9 @@ function escText(v) {
   return String(v).replace(/&/g, "&amp;").replace(/</g, "&lt;")
     .replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 }
+// 기사 제목과 요약은 외부에서 들어온 글자다. 태그로 해석되지 않게 막는다.
+// 실제 데이터에도 꺾쇠와 앰퍼샌드가 27건 들어 있었다.
+const escArt = escText;
 const WATCH_KEY = "pinpoint_watch";
 let WATCH = [];
 let watchChart = null, openWatch = null;
@@ -1206,7 +1209,7 @@ function openWatchTerm(term) {
       <div style="font-size:12px;color:var(--muted);margin-bottom:6px;">최근 부정 보도</div>
       <div class="issue-arts">${negTop.map(n =>
         `<div class="issue-art"><span class="d">${n.date.replaceAll("-", ".")}</span>` +
-        `<a href="${articleLink(n)}" target="_blank" rel="noopener">${n.title}</a></div>`).join("")}</div>
+        `<a href="${escArt(articleLink(n))}" target="_blank" rel="noopener">${escArt(n.title)}</a></div>`).join("")}</div>
     </div>` : ""}`;
 
   document.getElementById("watchClose").addEventListener("click", closeWatchPanel);
@@ -1416,7 +1419,7 @@ function toggleIssue(idx) {
       <div class="issue-chart"><canvas id="issueChartCanvas"></canvas></div>
       <div class="issue-arts">${arts.map(n =>
         `<div class="issue-art"><span class="d">${n.date.replaceAll("-", ".")}</span>` +
-        `<a href="${articleLink(n)}" target="_blank" rel="noopener">${n.title}</a>` +
+        `<a href="${escArt(articleLink(n))}" target="_blank" rel="noopener">${escArt(n.title)}</a>` +
         `${n.source ? ` <span class="d">${n.source}</span>` : ""}</div>`
       ).join("")}</div>
     </div>`);
@@ -1680,7 +1683,8 @@ function updateDashboard() {
   const dayCount = new Set(data.filter(n => n.date >= lastKey).map(n => n.date)).size;
   const partialLast = byWeek && keys.length > 1 && dayCount < 7;
 
-  // 사람이 고른 검증본 2개월치가 '평상시'다. 지금 수치가 높은지 낮은지 견줄 기준이 된다.
+  // 사람이 고른 검증본 2개월치의 비율. 두 달 한 번뿐이라 '평상시'라 부를 근거는 없고,
+  // 수집 방식도 달라 곧바로 견줄 수도 없다. 참고선으로만 쓴다.
   // 화면 필터와 무관하게 늘 같은 기준이어야 하므로 전체 데이터에서 구한다.
   const verAll = NEWS.filter(n => n.src !== "자동수집");
   const baseNeg = verAll.length
@@ -1716,10 +1720,11 @@ function updateDashboard() {
     noteEl.style.display = "";
     noteEl.innerHTML = "<b>붉은 선</b>이 그 주 기사 중 <b>부정 비율</b>입니다(오른쪽 축). "
       + (baseNeg != null
-          ? `<b>회색 점선</b>은 사람이 고른 검증본 2개월치 평균 <b>${baseNeg}%</b>로, <b>평상시 수준</b>입니다. `
+          ? `<b>회색 점선</b>은 사람이 고른 검증본 2개월치 비율 <b>${baseNeg}%</b>입니다. `
           : "")
       + (stableNeg != null
-          ? `수집이 자리잡은 뒤로는 <b>${stableNeg}%</b>로 평상시보다 ${stableNeg < baseNeg ? "낮습니다" : "높습니다"}. `
+          ? `수집이 자리잡은 뒤 자동수집분은 <b>${stableNeg}%</b>입니다. `
+            + `<b>두 값은 수집 방식이 달라 곧바로 견줄 수 없습니다.</b> 점선은 참고선일 뿐 기준값이 아닙니다. `
           : "")
       + (warmIdx.length
           ? "옅게 덮인 구간은 <b>자동수집 초기</b>라 하루 5~6건밖에 못 모아 비율이 흔들리는 구간입니다. " : "")
@@ -1780,7 +1785,7 @@ function updateDashboard() {
               fill: true, tension: .35, pointRadius: 3, borderWidth: 2.4, spanGaps: false }),
         // 평상시 기준선 — 이게 있어야 "8%가 높은 건가"에 화면이 답할 수 있다.
         // 비율 축이 있는 주별 보기에서만 뜻이 있다.
-        ...(byWeek && baseNeg != null ? [{ label: `평상시 기준 ${baseNeg}%`, yAxisID: "y1",
+        ...(byWeek && baseNeg != null ? [{ label: `검증본 참고선 ${baseNeg}%`, yAxisID: "y1",
           data: keys.map(() => baseNeg),
           borderColor: isDark() ? "#8A8F96" : "#98A0A8", backgroundColor: "transparent",
           borderDash: [6, 4], borderWidth: 1.6, pointRadius: 0, fill: false, tension: 0 }] : [])
@@ -1884,8 +1889,8 @@ function renderList() {
         <span class="senti ${SENTI_CLASS[n.senti]}">${n.senti}</span>
         <span class="date">${n.date.replaceAll("-", ".")}</span>
       </div>
-      <div class="title"><a href="${articleLink(n)}" target="_blank" rel="noopener">${n.title}<span class="ext">원문 보기 ↗</span></a></div>
-      <div class="summary"><span class="ai">AI 한 줄 정리</span>${n.summary}</div>
+      <div class="title"><a href="${escArt(articleLink(n))}" target="_blank" rel="noopener">${escArt(n.title)}<span class="ext">원문 보기 ↗</span></a></div>
+      <div class="summary"><span class="ai">AI 한 줄 정리</span>${escArt(n.summary)}</div>
     </div>`).join("");
   document.getElementById("listCount").textContent =
     "전체 " + data.length.toLocaleString() + "건 중 " + shown.length.toLocaleString() + "건 표시";
@@ -2021,14 +2026,16 @@ function renderBench(d) {
   const avg = Math.round(others.reduce((s, c) => s + c.ratio, 0) / others.length * 10) / 10;
 
   document.getElementById("benchLead").innerHTML = us
-    ? `같은 기간·같은 방법으로 모은 결과 <b>화성시 ${us.ratio}%</b>로, `
-      + `견준 ${rows.length}개 시 가운데 <b>${rank === 1 ? "가장 낮습니다" : rank + "번째로 낮습니다"}</b>. `
-      + `나머지 ${others.length}개 시 평균은 <b>${avg}%</b>입니다. 부정 비율은 낮을수록 좋은 값입니다.`
+    // 표본이 작아 순위를 말할 수 없다. 확인된 것만 말한다.
+    ? `같은 기간·같은 방법으로 모은 탐색 표본에서 <b>화성시는 ${us.count}건 중 ${us.neg}건(${us.ratio}%)</b>이 `
+      + `부정으로 판정됐습니다. 나머지 ${others.length}개 시 평균은 <b>${avg}%</b>입니다. `
+      + `<b>도시 사이 순위를 말할 수 있는 표본이 아닙니다.</b>`
     : "";
 
   // 눈금 끝은 가장 큰 값보다 조금 넉넉하게 잡아 막대가 끝에 붙지 않게 한다.
   const scale = max * 1.08;
-  const good = us && us.ratio < avg;
+  // 색으로도 우열을 말하지 않는다. 표본이 순위를 뒷받침하지 못한다.
+  const good = false;
   document.getElementById("benchRows").innerHTML = rows.map(c => {
     const me = c.name === "화성시";
     return `<div class="brow${me ? " us " + (good ? "good" : "bad") : ""}">
@@ -2044,9 +2051,10 @@ function renderBench(d) {
 
   document.getElementById("benchNote").innerHTML =
     `${d.from} ~ ${d.to} 기사를 도시마다 같은 검색 방식으로 모아 <b>같은 AI 판정</b>을 적용했습니다. `
-    + `도시당 <b>${Math.min(...rows.map(c => c.count))}~${Math.max(...rows.map(c => c.count))}건</b>이라 `
-    + `<b>정밀한 순위가 아니라 대략의 위치</b>를 보는 값입니다. `
-    + `기사 수는 수집 시점에 좌우되므로 견주지 않고 <b>비율만</b> 견줍니다.`;
+    + `도시당 <b>${Math.min(...rows.map(c => c.count))}~${Math.max(...rows.map(c => c.count))}건</b>뿐이고 `
+    + `<b>사람 검수를 거치지 않았습니다.</b> 검정해 보면 화성시와 수원·용인의 차이는 `
+    + `<b>통계적으로 확인되지 않습니다</b>(p=0.36, p=0.53). 성남시와의 차이만 확인됩니다(p=0.004). `
+    + `따라서 <b>도시 성과를 견주는 값이 아니라</b>, 같은 방법으로 대조 통계를 만들 수 있다는 것을 보이는 <b>탐색 자료</b>입니다.`;
 
   card.style.display = "";
 }
