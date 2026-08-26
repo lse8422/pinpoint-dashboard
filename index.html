@@ -1715,7 +1715,7 @@ function updateDashboard() {
     noteEl.innerHTML = "일별에서는 하루에 모이는 기사가 적어 <b>비율이 0%와 100%로 튑니다.</b> "
       + "그래서 이 보기에서는 <b>부정을 건수로</b> 보여드립니다. "
       + (baseNeg != null
-          ? `평상시 기준(<b>${baseNeg}%</b>)과 견주시려면 위 <b>[전체]</b>를 눌러 주별로 보십시오.` : "");
+          ? `검증본 참고선(<b>${baseNeg}%</b>)과 함께 보시려면 위 <b>[전체]</b>를 눌러 주별로 보십시오.` : "");
   } else if (hasLive && hasVer) {
     noteEl.style.display = "";
     noteEl.innerHTML = "<b>붉은 선</b>이 그 주 기사 중 <b>부정 비율</b>입니다(오른쪽 축). "
@@ -1783,7 +1783,7 @@ function updateDashboard() {
               borderColor: isDark() ? "#C98080" : "#C26060",
               backgroundColor: isDark() ? "rgba(201,128,128,.18)" : "rgba(194,96,96,.14)",
               fill: true, tension: .35, pointRadius: 3, borderWidth: 2.4, spanGaps: false }),
-        // 평상시 기준선 — 이게 있어야 "8%가 높은 건가"에 화면이 답할 수 있다.
+        // 검증본 참고선 — 견줄 것이 하나는 있어야 8%가 무슨 뜻인지 가늠할 수 있다.
         // 비율 축이 있는 주별 보기에서만 뜻이 있다.
         ...(byWeek && baseNeg != null ? [{ label: `검증본 참고선 ${baseNeg}%`, yAxisID: "y1",
           data: keys.map(() => baseNeg),
