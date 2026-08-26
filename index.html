@@ -1569,13 +1569,29 @@ function renderHeat() {
   // 결론을 먼저 문장으로 말한다. 격자만 있으면 무엇을 보라는 건지 알 수 없다.
   const worst = rows[0];
   const improving = rows.filter(r => r.r < r.b && r.b > 0);
+
+  // 견주는 두 구간의 출처 구성이 다르면 늘었다·줄었다를 말할 수 없다.
+  // 지금 데이터에서는 최근 4주가 자동수집, 그 이전 4주가 검증본이라 모집단 자체가 다르다.
+  const share = ws => {
+    const rs = NEWS.filter(n => ws.includes(weekStart(n.date)));
+    return rs.length ? rs.filter(n => n.src === "자동수집").length / rs.length : 0;
+  };
+  const recentAuto = share(recent);
+  const baseAuto = share(weeks.filter(w => !recent.includes(w)).slice(-4));
+  const sameBasis = Math.abs(recentAuto - baseAuto) < 0.3;
+
   document.getElementById("heatLead").innerHTML =
     `최근 4주에는 <b>${label[worst.c] || worst.c} 분야를 먼저 보셔야 합니다.</b> `
-    + `부정 보도가 <b>${worst.r}건</b>으로 가장 많고, 그 이전 4주(${worst.b}건)보다 `
-    + (worst.r > worst.b ? `<b>${worst.r - worst.b}건 늘었습니다.</b>`
-       : worst.r < worst.b ? `${worst.b - worst.r}건 줄었습니다.` : `변화가 없습니다.`)
-    + (improving.length
-       ? ` 반대로 <span class="ok">${improving.map(r => label[r.c] || r.c).join("·")}</span>${josa(improving[improving.length - 1].c)} 줄어드는 중입니다.` : "");
+    + `부정 보도가 <b>${worst.r}건</b>으로 가장 많습니다. `
+    + (sameBasis
+        ? `그 이전 4주(${worst.b}건)보다 `
+          + (worst.r > worst.b ? `<b>${worst.r - worst.b}건 늘었습니다.</b>`
+             : worst.r < worst.b ? `${worst.b - worst.r}건 줄었습니다.` : `변화가 없습니다.`)
+          + (improving.length
+             ? ` 반대로 <span class="ok">${improving.map(r => label[r.c] || r.c).join("·")}</span>${josa(improving[improving.length - 1].c)} 줄어드는 중입니다.` : "")
+        : `<b>다만 그 이전 4주와는 수집 방식이 달라 늘었는지 줄었는지 말할 수 없습니다.</b> `
+          + `최근 4주는 자동수집이 ${Math.round(recentAuto * 100)}%인데 그 이전 4주는 ${Math.round(baseAuto * 100)}%입니다. `
+          + `오른쪽 증감은 <b>참고용</b>이며, 실제 추세는 같은 수집 방식이 유지된 구간끼리만 볼 수 있습니다.`);
 
   const wkLabel = w => { const d = w.split("-"); return +d[1] + "/" + +d[2]; };
   const lastIdx = weeks.length - recent.filter(w => weeks.includes(w)).length;
