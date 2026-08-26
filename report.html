@@ -243,13 +243,13 @@ function build() {
 
   // 총평 — 숫자를 나열하는 데서 그치지 않고 한 문단으로 해석해 주는 것이 실무 보고서의 관행이다.
   const verdict = [
-    `보고기간 중 부정 보도 비율은 <b>${p1(ratio)}%</b>로 평상시 기준 ${p1(base)}% 대비 <b class="${diff < 0 ? "pos" : "neg"}">${Math.abs(diff)}%p ${lvl} 수준</b>이며,`,
+    `보고기간 중 부정 보도 비율은 <b>${p1(ratio)}%</b>입니다. 검증본 참고선 ${p1(base)}%와는 ${Math.abs(diff)}%p 차이가 있으나 <b>수집 방식이 달라 곧바로 견줄 수 없습니다.</b>`,
     `직전 기간(${p1(pratio)}%)과 견주어 ${Math.abs(wDiff) < 0.1 ? "변동이 없음" : `<b class="${wDiff > 0 ? "neg" : "pos"}">${Math.abs(wDiff)}%p ${wDiff > 0 ? "증가" : "감소"}</b>함`}.`,
     byNeg[0] && byNeg[0].neg
       ? `부정 보도는 <b>${CAT_LABEL[byNeg[0].c]}</b> 분야에 ${byNeg[0].neg}건으로 가장 많이 집중되어 해당 분야 대응 상황 점검이 필요함.`
       : `특정 분야에 부정 보도가 집중된 정황은 확인되지 않음.`,
     spread.length ? `<b>${spread.length}건</b>의 사안이 2개 이상 매체로 확산되고 있어 우선 대응 검토가 요구됨.` : "",
-    us && bench ? `인접 지자체 대조에서는 ${bench.length}개 시 중 <b>${rank === 1 ? "가장 낮은" : rank + "번째로 낮은"} 수준</b>임.` : "",
+    us && bench ? `인접 지자체 탐색 표본에서는 ${us.count}건 중 ${us.neg}건이 부정으로 판정됨. <b>표본이 작아 지자체 간 순위 해석은 하지 않음.</b>` : "",
   ].filter(Boolean).join(" ");
 
   // 대응 필요사항 — 규칙으로 뽑는다. AI에 맡기면 없는 사실을 지어낼 수 있고 비용도 든다.
@@ -265,10 +265,12 @@ function build() {
   if (worse.length)
     act.push(`직전 기간 대비 부정 보도 3건 이상 증가 분야: `
       + worse.map(r => `<b>${CAT_LABEL[r.c]}</b>(${r.neg - r.pneg}건↑)`).join(", ") + ` — 추이 관찰 필요`);
-  act.push(diff > 0.5
-    ? `부정 보도 비율이 평상시 대비 <b class="neg">${Math.abs(diff)}%p 높은 수준</b>으로 전반적 대응 상황 점검 필요`
-    : `부정 보도 비율은 평상시 대비 <b class="pos">${Math.abs(diff)}%p ${lvl} 수준</b>으로 현행 대응 기조 유지`);
-  act.push(`부정으로 분류된 보도는 <b>담당자 원문 확인 후</b> 대응 여부 판단 필요 (AI 판정값으로 확정값이 아님)`);
+  // 검증되지 않은 비교를 근거로 행정 권고를 내지 않는다. 확인된 사실만 적는다.
+  act.push(`직전 기간(${p1(pratio)}%) 대비 ${Math.abs(wDiff) < 0.1 ? "변동 없음" : Math.abs(wDiff) + "%p " + (wDiff > 0 ? "증가" : "감소")} `
+    + `— <b>같은 수집 방식이 유지된 기간끼리의 비교</b>이므로 이 값만 추세 판단에 사용`);
+  act.push(`검증본 참고선(${p1(base)}%)은 <b>수집 방식이 달라 직접 대조 불가</b>. 참고값으로만 확인`);
+  act.push(`분야 및 보도흐름은 <b>AI가 제목만 보고 판정한 값</b>이며 사람 검수 정확도가 확보되지 않음. `
+    + `부정으로 분류된 보도는 <b>담당자 원문 확인 후</b> 대응 여부 판단 필요`);
 
   const negSorted = neg.slice().sort((a, b) => b.date.localeCompare(a.date));
   const gen = ymd(new Date());
@@ -302,7 +304,7 @@ function build() {
   <h2>주요 지표</h2>
   <table class="grid">
     <thead><tr><th>구  분</th><th class="n">보고기간</th><th class="n">직전 기간</th>
-      <th class="c">증  감</th><th class="c">평상시 기준</th></tr></thead>
+      <th class="c">증  감</th><th class="c">검증본 참고선</th></tr></thead>
     <tbody>
       <tr><td>전체 보도</td><td class="n">${cur.rows.length.toLocaleString()}건</td>
         <td class="n">${prev.rows.length.toLocaleString()}건</td>
@@ -315,7 +317,8 @@ function build() {
         <td class="c">${p1(base)}% <span class="${diff < 0 ? "down" : diff > 0 ? "up" : "flat"}">(${diff > 0 ? "+" : ""}${diff}%p)</span></td></tr>
     </tbody>
   </table>
-  <div class="cap">평상시 기준은 <b>빅카인즈 검증본 ${ver.length.toLocaleString()}건</b>(사람이 화성시 관련 여부를 선별한 자료)의 부정 비율임.</div>
+  <div class="cap">검증본 참고선은 <b>빅카인즈 검증본 ${ver.length.toLocaleString()}건</b>(사람이 화성시 관련 여부를 선별한 자료)의 부정 비율임.
+    <b>수집 방식이 달라 자동수집분과 직접 대조할 수 없으며 참고값임.</b></div>
 
   ${issues.length ? `
   <h2>중점 관리 이슈</h2>
@@ -357,8 +360,9 @@ function build() {
       <td class="n">${p1(c.ratio)}%</td></tr>`).join("")}</tbody>
   </table>
   <div class="cap">${kspan(BENCH.from, BENCH.to)} 기사를 지자체별로 <b>동일 검색 방식으로 수집하여 동일 AI 판정</b>을 적용함.
-    지자체당 표본이 ${Math.min(...bench.map(c => c.count))}~${Math.max(...bench.map(c => c.count))}건으로
-    <b>정밀한 순위가 아닌 개략적 위치</b> 확인 목적임. 기사 수는 수집 시점에 좌우되므로 비율만 대조함.</div>
+    지자체당 표본이 ${Math.min(...bench.map(c => c.count))}~${Math.max(...bench.map(c => c.count))}건이며 <b>사람 검수를 거치지 않음.</b>
+    Fisher 정확검정 결과 화성시와 수원·용인의 차이는 <b>유의하지 않으며</b>(p=0.36, p=0.53) 성남시와의 차이만 유의함(p=0.004).
+    <b>지자체 성과 비교가 아니라 동일 방법으로 대조 통계를 산출할 수 있음을 확인한 탐색 자료임.</b></div>
   ` : ""}
 
   <h2>대응 필요사항</h2>
@@ -424,7 +428,7 @@ function build() {
     brief: [
       `보고기간: ${kspan(cur.from, cur.to)}`,
       `전체 ${cur.rows.length.toLocaleString()}건 / 부정 ${neg.length}건(${p1(ratio)}%)`,
-      `평상시 기준 ${p1(base)}% 대비 ${Math.abs(diff)}%p ${lvl === "낮은" ? "낮음" : lvl === "높은" ? "높음" : "비슷"}`,
+      `검증본 참고선 ${p1(base)}% (직접 대조 불가, 참고값)`,
       issues.length ? `중점 이슈: ${issues[0].label}` : "",
       "", "상세 내용은 대시보드에서 확인하실 수 있음.",
       location.href.replace(/report\.html.*$/, ""),
@@ -436,7 +440,7 @@ function build() {
       "□ 개  요",
       ` ○ 수집건수: 총 ${cur.rows.length.toLocaleString()}건 (직전 기간 ${prev.rows.length.toLocaleString()}건)`,
       ` ○ 보도흐름: 긍정 ${pos.length}건 · 중립 ${cur.rows.length - pos.length - neg.length}건 · 부정 ${neg.length}건(${p1(ratio)}%)`,
-      ` ○ 평상시 기준 ${p1(base)}% 대비 ${Math.abs(diff)}%p ${lvl} 수준`,
+      ` ○ 검증본 참고선 ${p1(base)}% (수집 방식이 달라 직접 대조 불가)`,
       bench ? ` ○ 인접 지자체 대조: ${bench.map(c => `${c.name} ${p1(c.ratio)}%`).join(" / ")}` : "",
       "", "□ 주간 총평", " " + strip(verdict),
       "", "□ 중점 관리 이슈",
