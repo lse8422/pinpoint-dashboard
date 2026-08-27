@@ -1,4 +1,4 @@
-# 경기도 인접 4개 시의 부정 보도 비율을 같은 방법으로 재수집해 대조 통계를 만드는 스크립트
+# 경기 5대 시의 부정 보도 비율을 같은 방법으로 재수집해 대조 통계를 만드는 스크립트
 # (화성시도 같은 조건으로 다시 모은다. 방법이 달라지면 비교가 성립하지 않기 때문이다.)
 import json
 import os
@@ -21,10 +21,15 @@ CAP = int(os.environ.get("BENCH_CAP", "400"))   # 도시당 최대 처리 건수
 
 # 인구는 비교 맥락용으로만 표시한다. 기사 수를 인구로 나누지는 않는다.
 # RSS는 최근 것만 주기 때문에 절대 건수가 수집 시점에 좌우되어 인구당 값은 방어할 수 없다.
+# 대조 대상은 우리가 임의로 고른 것이 아니라 화성시연구원이 실제로 쓰는 기준을 따랐다.
+# "경기도 안에서 5대 시를 비교를 하거든요. 화성시·용인시·수원시·성남시·고양시.
+#  규모를 어느 정도 비슷하게 봐서 비교를 하기 때문에."
+#  — 조진숙 화성시연구원 데이터센터장, 2026-08-27 2차 예선 심사평
 CITIES = [
     {"name": "화성시", "query": "화성시", "pop": 1_000_000},
     {"name": "수원시", "query": "수원시", "pop": 1_190_000},
     {"name": "용인시", "query": "용인시", "pop": 1_070_000},
+    {"name": "고양시", "query": "고양시", "pop": 1_080_000},
     {"name": "성남시", "query": "성남시", "pop": 920_000},
 ]
 
@@ -33,6 +38,9 @@ EXTRA_EXCLUDES = {
     "수원시": ["수원화성", "수원 화성", "화성행궁"],
     "용인시": [],
     "성남시": [],
+    # keep_title은 시 이름에서 "시"를 떼고 찾으므로 "고양"이 "고양이"에 걸린다.
+    # 고양시와 무관한 반려동물 기사가 통째로 섞이므로 반드시 막는다.
+    "고양시": ["고양이", "길고양", "들고양", "아기고양", "새끼고양"],
     "화성시": [],
 }
 
@@ -110,12 +118,30 @@ def run_city(api_key, city):
         except Exception as e:
             print("    분류 실패(%d~) — 건너뜁니다: %s" % (i, e))
             continue
+        # 응답을 그대로 세면 안 된다. 모델이 항목을 빠뜨리거나 더 만들면
+        # 집계가 조용히 어긋나 비율이 틀린다. 번호로 기사와 맞춰 확인한다.
+        seen_n = set()
         for r in res:
+            n = r.get("n")
+            if not isinstance(n, int) or not (1 <= n <= len(chunk)):
+                print("    번호 이상 — 건너뜁니다: %r" % (n,))
+                continue
+            if n in seen_n:
+                print("    번호 중복 %d — 건너뜁니다" % n)
+                continue
+            seen_n.add(n)
             if not r.get("keep"):
                 continue
+            senti = r.get("senti")
+            if senti not in ("긍정", "중립", "부정"):
+                print("    판정값 이상(%r) — 건너뜁니다" % (senti,))
+                continue
             kept += 1
-            if r.get("senti") == "부정":
+            if senti == "부정":
                 neg += 1
+        missing = len(chunk) - len(seen_n)
+        if missing:
+            print("    응답 누락 %d건 (요청 %d건 / 응답 %d건)" % (missing, len(chunk), len(seen_n)))
         time.sleep(0.4)
         print("    %d/%d 처리" % (min(i + BATCH, len(rows)), len(rows)))
 

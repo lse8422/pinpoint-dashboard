@@ -358,6 +358,147 @@
   .todo-more { font-size: 11px; color: var(--muted2); font-weight: 500; margin-left: 6px; }
 
   /* 주목 이슈 — 같은 사건을 여러 매체가 보도한 것을 하나로 묶어 보여준다 */
+  /* 탭 — 목적이 다른 화면을 한 줄로 세워두면 담당자가 길을 잃는다.
+     탭 이름은 기능이 아니라 질문에 대한 답으로 짓는다. DESIGN.md 2절. */
+  .tabs { display: flex; gap: 2px; margin: 0 0 14px; border-bottom: 2px solid var(--border);
+    overflow-x: auto; scrollbar-width: none; }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tab { flex-shrink: 0; padding: 11px 17px 10px; font-size: 14.5px; font-weight: 700;
+    color: var(--muted); background: none; border: none; border-bottom: 3px solid transparent;
+    margin-bottom: -2px; cursor: pointer; white-space: nowrap; font-family: inherit;
+    display: flex; align-items: center; gap: 6px; }
+  .tab:hover { color: var(--title); }
+  .tab.on { color: var(--chip-active-bg); border-bottom-color: var(--chip-active-bg); }
+  .tab .tab-q { font-size: 11.5px; font-weight: 400; color: var(--muted2); }
+  .tab.on .tab-q { color: var(--chip-active-bg); opacity: .8; }
+  .tab-alert { display: inline-block; min-width: 17px; height: 17px; line-height: 17px;
+    padding: 0 5px; border-radius: 999px; background: var(--neg); color: #fff;
+    font-size: 11px; font-weight: 800; text-align: center; }
+  .tabpanel { display: none; }
+  .tabpanel.on { display: block; }
+  @media (max-width: 640px) {
+    .tab { padding: 10px 12px 9px; font-size: 13.5px; }
+    .tab .tab-q { display: none; }
+  }
+
+  /* 보고서 탭 — 심사에서 가장 칭찬받은 기능이 날짜 선택 옆에 숨어 있었다. 자리를 올린다. */
+  .rp { background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
+    padding: 26px 28px; }
+  .rp h3 { margin: 0 0 8px; font-size: 19px; color: var(--title); }
+  .rp .rp-lead { font-size: 14.5px; line-height: 1.7; color: var(--summary-text); margin-bottom: 18px; }
+  .rp .rp-go { display: inline-flex; align-items: center; gap: 9px; padding: 14px 26px;
+    background: var(--chip-active-bg); color: #fff; border-radius: 10px;
+    font-size: 16px; font-weight: 800; text-decoration: none; }
+  .rp .rp-go:hover { filter: brightness(1.08); }
+  .rp-feat { display: flex; gap: 12px; flex-wrap: wrap; margin: 18px 0 0; }
+  .rp-feat div { flex: 1 1 190px; background: var(--summary-bg); border: 1px solid var(--border);
+    border-radius: 10px; padding: 13px 15px; font-size: 13px; line-height: 1.6; color: var(--summary-text); }
+  .rp-feat b { color: var(--title); display: block; margin-bottom: 3px; font-size: 13.5px; }
+
+  /* 대응 연결 — 무엇이 문제인지까지만 보여주고 멈추면 결재가 안 올라간다.
+     소관 후보 부서와 대응 상태를 이슈에 붙인다. */
+  /* 주간 시세판 — 저번 주 대비 이번 주를 분야별로 한 줄에 놓는다. */
+  .wk { display: grid; grid-template-columns: repeat(auto-fit, minmax(126px, 1fr)); gap: 9px; }
+  .wk-c { background: var(--summary-bg); border: 1px solid var(--border); border-radius: 10px;
+    padding: 11px 13px; }
+  .wk-c.up { border-color: #E0BFBF; background: #FDF4F4; }
+  .wk-c.down { border-color: #C5D6C0; background: #F3F7F2; }
+  .wk-n { font-size: 12.5px; font-weight: 700; color: var(--muted); margin-bottom: 5px; }
+  .wk-v { font-size: 23px; font-weight: 800; color: var(--title); line-height: 1.15; }
+  .wk-v span { font-size: 12px; font-weight: 600; color: var(--muted2); margin-left: 2px; }
+  .wk-d { font-size: 12.5px; font-weight: 800; margin-top: 4px; }
+  .wk-d.up { color: var(--neg); }
+  .wk-d.down { color: var(--chip-active-bg); }
+  .wk-d.same { color: var(--muted2); font-weight: 600; }
+  .wk-head { display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap; margin-bottom: 4px; }
+  .wk-warn { font-size: 12.5px; line-height: 1.65; color: var(--summary-text);
+    background: var(--summary-bg); border-left: 3px solid var(--neg);
+    border-radius: 0 8px 8px 0; padding: 10px 13px; margin-bottom: 12px; }
+  .wk-warn b { color: var(--title); }
+  body.dark .wk-c.up { border-color: #5A3A3A; background: #2A1F1F; }
+  body.dark .wk-c.down { border-color: #3D4F3A; background: #1E241D; }
+
+  /* 근거 탭 — "왜 이렇게 만들었나"를 한자리에 모은다.
+     기능 설명이 아니라 판단의 사슬을 적는다. */
+  .wy { background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
+    padding: 24px 28px; margin-bottom: 16px; }
+  .wy h3 { margin: 0 0 4px; font-size: 18px; color: var(--title); }
+  .wy .wy-sub { font-size: 13px; color: var(--muted); margin-bottom: 18px; }
+  .wy-chain { display: flex; flex-direction: column; gap: 14px; }
+  .wy-step { display: grid; grid-template-columns: 26px 1fr; gap: 13px; align-items: start; }
+  .wy-num { width: 26px; height: 26px; border-radius: 999px; background: var(--chip-active-bg);
+    color: #fff; font-size: 13px; font-weight: 800; display: flex; align-items: center;
+    justify-content: center; margin-top: 1px; }
+  .wy-q { font-size: 14.5px; font-weight: 800; color: var(--title); margin-bottom: 5px; }
+  .wy-a { font-size: 13.5px; line-height: 1.75; color: var(--summary-text); }
+  .wy-a b { color: var(--title); }
+  .wy-src { display: inline-block; font-size: 11.5px; color: var(--muted2); margin-left: 2px; }
+  .wy-not { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; }
+  .wy-not div { background: var(--summary-bg); border: 1px solid var(--border);
+    border-radius: 10px; padding: 13px 15px; font-size: 12.8px; line-height: 1.65;
+    color: var(--summary-text); }
+  /* 제목 줄만 블록으로 띄운다. 본문 안의 강조까지 걸리면 문장이 토막 난다. */
+  .wy-not b { color: var(--title); }
+  .wy-not b:first-child { display: block; color: var(--neg); margin-bottom: 4px; font-size: 13px; }
+  .wy-cite { font-size: 12.5px; line-height: 1.9; color: var(--summary-text); }
+  .wy-cite li { margin-bottom: 3px; }
+  .wy-cite em { font-style: normal; color: var(--title); font-weight: 700; }
+
+  /* 담당자 의견 — 쓰는 사람의 말을 듣는 통로를 화면 안에 둔다. */
+  .fb { background: var(--accent-bg); border: 1px solid var(--accent-hover);
+    border-radius: 12px; padding: 18px 22px; }
+  .fb .fb-t { font-size: 15px; font-weight: 800; color: var(--title); margin-bottom: 6px; }
+  .fb .fb-d { font-size: 13px; line-height: 1.7; color: var(--summary-text); margin-bottom: 13px; }
+  .fb-go { display: inline-flex; align-items: center; gap: 7px; padding: 10px 20px;
+    background: var(--accent); color: #fff; border: none; border-radius: 9px;
+    font-size: 14px; font-weight: 700; cursor: pointer; font-family: inherit; text-decoration: none; }
+  .fb-go:hover { filter: brightness(1.08); }
+
+  /* 언급 추이 — 부정 보도를 세는 것이 목적이 아니라 시 브랜드 이미지 관리가 목적이다. */
+  .mn-chips { display: flex; gap: 6px; flex-wrap: wrap; margin: 4px 0 14px; }
+  .mn-chips span { font-size: 12.5px; font-weight: 600; padding: 5px 12px; border-radius: 999px;
+    background: var(--accent-bg); color: var(--chip-text); cursor: pointer; }
+  .mn-chips span:hover { filter: brightness(.96); }
+  .mn-chips span.on { background: var(--chip-active-bg); color: #fff; }
+  .mn-grid { display: grid; grid-template-columns: 1fr 260px; gap: 20px; align-items: start; }
+  @media (max-width: 820px) { .mn-grid { grid-template-columns: 1fr; } }
+  .mn-box { height: 210px; }
+  .mn-sum { font-size: 13px; line-height: 1.7; color: var(--summary-text); }
+  .mn-sum .mn-big { font-size: 27px; font-weight: 800; color: var(--title); line-height: 1.2; }
+  .mn-sum .mn-lb { font-size: 12px; color: var(--muted); }
+  .mn-bar { display: flex; height: 11px; border-radius: 999px; overflow: hidden; margin: 11px 0 7px; }
+  .mn-bar i { display: block; height: 100%; }
+  .mn-leg { display: flex; gap: 11px; font-size: 11.5px; color: var(--muted); flex-wrap: wrap; }
+  .mn-leg b { color: var(--summary-text); }
+  .mn-leg em { font-style: normal; display: inline-block; width: 8px; height: 8px;
+    border-radius: 2px; margin-right: 4px; }
+  .mn-top { margin-top: 13px; font-size: 12.5px; line-height: 1.65; color: var(--summary-text); }
+  .mn-top b { color: var(--title); }
+
+  .sw-basis { margin-top: 9px; padding-top: 9px; border-top: 1px dashed var(--border);
+    font-size: 11.5px; line-height: 1.6; color: var(--muted); }
+  .sw-basis b { color: var(--summary-text); }
+  .sw-basis .sw-cite { color: var(--muted2); }
+
+  .todo-act { display: flex; align-items: center; gap: 7px; flex-wrap: wrap; margin-top: 8px; }
+  .todo-dept { font-size: 12px; color: var(--summary-text); background: var(--summary-bg);
+    border: 1px solid var(--border); border-radius: 7px; padding: 4px 9px; }
+  .todo-dept b { color: var(--title); }
+  .todo-dept i { font-style: normal; color: var(--muted2); font-size: 11px; }
+  .act-set { display: flex; gap: 3px; }
+  .act-btn { font-size: 11.5px; font-weight: 700; padding: 4px 9px; border-radius: 999px;
+    border: 1px solid var(--border); background: var(--surface); color: var(--muted);
+    cursor: pointer; font-family: inherit; }
+  .act-btn:hover { border-color: var(--chip-active-bg); color: var(--chip-active-bg); }
+  .act-btn.on { background: var(--chip-active-bg); border-color: var(--chip-active-bg); color: #fff; }
+  .act-btn.on.a-none { background: var(--neg); border-color: var(--neg); }
+  .act-btn.on.a-done { background: var(--neu-bg); border-color: var(--neu-bg); color: var(--neu-text); }
+  .todo-why { margin-top: 9px; padding: 10px 13px; background: var(--summary-bg);
+    border-left: 3px solid var(--chip-active-bg); border-radius: 0 8px 8px 0;
+    font-size: 13px; line-height: 1.65; color: var(--summary-text); }
+  .todo-why b { color: var(--title); }
+  .dept-note { font-size: 11.5px; color: var(--muted2); margin-top: 9px; line-height: 1.55; }
+
   .issues-head { display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap; margin-bottom: 10px; }
   .issues-note { font-size: 12.5px; color: var(--muted); }
   .watch-form { display: flex; gap: 8px; margin: 10px 0 12px; flex-wrap: wrap; }
@@ -520,7 +661,7 @@
 <div class="src-bar">
   <span class="src-item"><b>화성특례시</b> AI·DATA 공모전 · 지정과제 16번 정책 모니터링형</span>
   <span class="src-item" id="srcData">데이터 출처 <b>빅카인즈</b> 검증본 <b>1,026건</b> · 수집 2026.06.06~08.06</span>
-  <span class="src-item src-user">화성시 <b>홍보 담당 부서</b>의 아침 업무용 화면입니다</span>
+  <span class="src-item src-user">화성시 <b>언론·홍보 담당관</b>이 <b>시 브랜드 이미지를 관리</b>하기 위해 보는 아침 업무 화면입니다</span>
 </div>
 
 <header>
@@ -532,6 +673,15 @@
 </header>
 
 <div class="wrap">
+  <nav class="tabs" id="tabs">
+    <button class="tab on" data-tab="today">오늘<span class="tab-q">뭘 먼저 보나</span><span id="tabAlert"></span></button>
+    <button class="tab" data-tab="flow">흐름<span class="tab-q">늘고 있나</span></button>
+    <button class="tab" data-tab="bench">견주기<span class="tab-q">높은 편인가</span></button>
+    <button class="tab" data-tab="find">찾기<span class="tab-q">그 기사 어디 있나</span></button>
+    <button class="tab" data-tab="report">보고서<span class="tab-q">회의에 뭘 들고 가나</span></button>
+    <button class="tab" data-tab="why">근거<span class="tab-q">왜 이렇게 만들었나</span></button>
+  </nav>
+
   <div class="period-bar">
     <span class="label">기간</span>
     <div class="period-chips-col">
@@ -540,8 +690,6 @@
         <span class="chip period-chip" data-p="7">최근 7일</span>
         <span class="chip period-chip" data-p="30">최근 30일</span>
         <span class="chip period-chip" data-p="custom">날짜 선택</span>
-        <a class="chip report-btn" id="reportBtn" href="report.html"
-          title="회의에 들고 갈 수 있는 문서 형태로 정리해 보여줍니다">📄 주간 보고서</a>
         <span class="date-range-wrap" id="dateRangeWrap">
           <input type="date" id="dateFrom" class="date-input">
           <span class="date-sep">~</span>
@@ -551,6 +699,8 @@
       <div class="data-range-note" id="dataRangeNote"></div>
     </div>
   </div>
+
+  <div class="tabpanel on" data-panel="today">
 
   <div class="today" id="todayCard" style="display:none;">
     <div class="today-head">
@@ -562,6 +712,10 @@
     <div id="todoList"></div>
     <div class="score-help">점수는 <b>얼마나 최근인지 · 몇 개 매체가 다뤘는지 · 몇 건인지 · 오래 가는지</b>를
       더한 값입니다. 100점 만점이고, <b>점수를 누르면 그 항목의 계산 내역</b>이 나옵니다.</div>
+    <div class="dept-note">소관 후보 부서는 <b>기사를 보고 판정한 값이 아닙니다.</b>
+      제목에 부서명이 들어 있는 기사가 3.8%뿐이라 자동 분류를 하지 않고,
+      분야에 해당하는 부서를 <b>화성특례시 행정조직안내</b>에서 가져와 후보로만 보여드립니다.
+      확정은 담당자가 하십시오. 대응 상태도 담당자가 직접 누르는 값이며 이 브라우저에만 저장됩니다.</div>
     <div class="todo-tie" id="todoTie"></div>
     <div class="trust" id="trustBox"></div>
   </div>
@@ -582,6 +736,10 @@
     <div class="stat"><div class="label">최다 보도 분야</div><div class="value word" id="stTopCat">-</div><div class="sub">기사 수 기준</div></div>
     <div class="stat"><div class="label">핵심 키워드</div><div class="value word" id="stTopKw">-</div><div class="sub">언급 빈도 1위</div></div>
   </div>
+
+  </div><!-- /오늘 -->
+
+  <div class="tabpanel" data-panel="flow">
 
   <div class="charts">
     <div class="card">
@@ -604,6 +762,34 @@
     </div>
   </div>
 
+  <div class="card" id="weekCard" style="display:none;">
+    <div class="wk-head">
+      <h3 style="margin:0;">이번 주 대 지난주 — 분야별 부정 보도</h3>
+      <span class="issues-note" id="wkSub"></span>
+    </div>
+    <div id="wkWarn"></div>
+    <div class="wk" id="wkGrid"></div>
+    <div class="chart-note" style="display:block;">숫자는 <b>이번 주 부정 보도 건수</b>이고,
+      아래 화살표는 <b>지난주 대비 증감</b>입니다. 붉은색은 늘어난 분야, 초록색은 줄어든 분야입니다.
+      위 기간 필터와 무관하게 <b>모은 것 전체의 마지막 두 주</b>를 봅니다.</div>
+  </div>
+
+  <div class="card" id="mentionCard" style="display:none;">
+    <div class="chart-head">
+      <h3 style="margin:0;">시장·기관 언급 추이 — 브랜드 이미지 관리</h3>
+      <span class="issues-note">누가 얼마나 언급되는지, 그 보도가 어떤 성격인지 봅니다</span>
+    </div>
+    <div class="mn-chips" id="mnChips"></div>
+    <div class="mn-grid">
+      <div class="mn-box"><canvas id="mnCanvas"></canvas></div>
+      <div class="mn-sum" id="mnSum"></div>
+    </div>
+    <div class="chart-note" style="display:block;">부정 보도를 세는 것 자체가 목적이 아니라
+      <b>시 브랜드 이미지를 관리하는 것</b>이 목적입니다. 지자체장의 이미지가 곧 장소브랜드 관리로
+      이어진다는 선행연구가 있습니다(이효복·최지혜·김지현, 2018).
+      제목이나 키워드에 그 이름이 들어간 기사를 셉니다. <b>기사 내용을 판정한 값이 아닙니다.</b></div>
+  </div>
+
   <div class="card heat-card" id="heatCard" style="display:none;">
     <div class="heat-head">
       <h3 style="margin:0;">분야별 부정 보도 — 어디를 먼저 봐야 하나</h3>
@@ -620,12 +806,20 @@
     <div class="heat-legend" id="heatLegend"></div>
   </div>
 
+  </div><!-- /흐름 -->
+
+  <div class="tabpanel" data-panel="bench">
+
   <div class="card bench" id="benchCard" style="display:none;">
     <h3 id="benchTitle">다른 시와 견주면</h3>
     <div class="chart-note" id="benchLead" style="display:block; margin-bottom:10px;"></div>
     <div id="benchRows"></div>
     <div class="chart-note" id="benchNote" style="display:block;"></div>
   </div>
+
+  </div><!-- /견주기 -->
+
+  <div class="tabpanel" data-panel="find">
 
   <div class="card keywords">
     <h3>주요 키워드 TOP 8</h3>
@@ -667,6 +861,125 @@
 
   <div id="list"></div>
   <div class="more-wrap" id="moreWrap" style="display:none;"><button class="more-btn" id="moreBtn">더보기</button></div>
+
+  </div><!-- /찾기 -->
+
+  <div class="tabpanel" data-panel="report">
+    <div class="rp">
+      <h3>주간 동향 보고서</h3>
+      <div class="rp-lead">
+        화면을 갈무리해 붙인 것이 아니라 <b>개조식 보고서로 다시 씁니다.</b>
+        「행정업무의 운영 및 혁신에 관한 규정」을 확인해 날짜 표기·붙임·끝 표시를 맞췄습니다.
+        인쇄해서 그대로 결재선에 올리거나 메일로 보내실 수 있습니다.
+      </div>
+      <a class="rp-go" href="report.html">📄 이번 주 보고서 열기</a>
+      <div class="rp-feat">
+        <div><b>개조식 서술</b>□ · ○ · - 항목기호로 정리합니다. 화면 그림을 그대로 넣지 않습니다.</div>
+        <div><b>공문서 표기</b>날짜는 2026. 8. 25. 형식으로, 붙임과 끝 표시를 규정대로 답니다.</div>
+        <div><b>대응 필요 사항</b>이번 주 확인이 필요한 이슈와 소관 후보 부서를 함께 싣습니다.</div>
+        <div><b>메일 발송</b>본문 복사 · Gmail · Outlook 중에 고르실 수 있습니다. 비용은 들지 않습니다.</div>
+      </div>
+    </div>
+  </div><!-- /보고서 -->
+
+  <div class="tabpanel" data-panel="why">
+    <div class="wy">
+      <h3>왜 이렇게 만들었나</h3>
+      <div class="wy-sub">기능 설명이 아니라 판단의 사슬입니다. 각 단계마다 무엇을 보고 그렇게 정했는지 적었습니다.</div>
+      <div class="wy-chain">
+        <div class="wy-step"><div class="wy-num">1</div><div>
+          <div class="wy-q">무엇을 푸는가 — 검색으로는 "오늘 뭐가 터졌는지"를 알 수 없다</div>
+          <div class="wy-a">검색은 <b>무엇을 찾을지 이미 알고 있어야</b> 씁니다. 홍보 담당자의 실제 문제는
+            오늘 무엇이 터졌는지 모른다는 것입니다. 게다가 "동탄 도로 정체"처럼 제목에 화성시가
+            없는 기사는 검색으로 잡히지 않습니다. 그래서 <b>읍면동 이름까지 넣어 모으고, 매일 아침
+            정리된 상태로 두는 것</b>을 목표로 잡았습니다.</div>
+        </div></div>
+
+        <div class="wy-step"><div class="wy-num">2</div><div>
+          <div class="wy-q">왜 부정 보도인가 — 목적은 세는 것이 아니라 브랜드 이미지 관리다</div>
+          <div class="wy-a">지자체장과 시의 이미지가 곧 <b>장소브랜드 관리</b>로 이어진다는 선행연구가 있습니다.
+            <span class="wy-src">(이효복·최지혜·김지현, 2018)</span>
+            부정 보도를 세는 것은 목적이 아니라 수단입니다. 그래서 <b>시장·기관 언급 추이</b>를 함께 두어,
+            보도량뿐 아니라 <b>누가 어떤 성격으로 언급되는지</b>를 보게 했습니다.</div>
+        </div></div>
+
+        <div class="wy-step"><div class="wy-num">3</div><div>
+          <div class="wy-q">왜 기사를 사건 단위로 묶는가 — 건수를 세면 부풀려진다</div>
+          <div class="wy-a">뉴스의 <b>37.9%</b>가 부정 사건·사고이지만 중복과 후속 보도를 빼면 실제 리스크는
+            <b>1.6%</b>라는 연구가 있습니다. <span class="wy-src">(오효정·안승권·김용, 2016)</span>
+            한 사건을 열 매체가 받아쓰면 열 건이 됩니다. 그래서 제목이 겹치는 기사를 <b>사건으로 묶은 뒤</b>
+            점수를 매깁니다.</div>
+        </div></div>
+
+        <div class="wy-step"><div class="wy-num">4</div><div>
+          <div class="wy-q">왜 셋만 보여주는가 — 사람이 한 번에 잡을 수 있는 이슈에는 한계가 있다</div>
+          <div class="wy-a">공중의 주의력과 시간이 제한돼 있어 <b>한 번에 5~7개 이상의 이슈에 집중하기
+            어렵다</b>는 지적이 있습니다. <span class="wy-src">(이정환, 2020)</span>
+            열 개를 올리면 담당자는 아무것도 보지 않습니다. 다 보여주지 않는 것은 기능 부족이 아니라
+            <b>설계 판단</b>입니다.</div>
+        </div></div>
+
+        <div class="wy-step"><div class="wy-num">5</div><div>
+          <div class="wy-q">왜 최신성이 45점인가 — 아침에 보는 화면이기 때문이다</div>
+          <div class="wy-a">이 화면이 답하는 질문은 "오늘 뭘 먼저 보나"입니다. 그래서
+            <b>오늘 대응할 일인지</b>를 가장 크게 봤습니다. 뉴스 랭킹에서 최신성이 가장 크게 반영된다는
+            점과 같은 방향입니다. <span class="wy-src">(김병희, 2016)</span>
+            <b>다만 이슈 생존 기간은 유형별로 다르다</b>는 연구가 있어
+            <span class="wy-src">(유호선·명현·오효정, 2017)</span>, 모든 분야에 하루 7점씩 똑같이 깎는
+            지금 방식은 근거가 약합니다. 분야별 감쇠율과 AHP 가중치 도출
+            <span class="wy-src">(최명일 외, 2013)</span>이 다음 과제입니다.</div>
+        </div></div>
+
+        <div class="wy-step"><div class="wy-num">6</div><div>
+          <div class="wy-q">왜 화면이 스스로 한계를 말하는가 — 담당자가 이걸 믿고 움직이기 때문이다</div>
+          <div class="wy-a">틀린 값을 자신 있게 보여주면 담당자가 그것을 믿고 엉뚱한 곳에 대응합니다.
+            그러면 자동화가 <b>없느니만 못한 상태</b>가 됩니다. 그래서 숫자를 보여줄 때
+            <b>그 숫자를 얼마나 믿어도 되는지</b>를 같이 적었습니다. 표본이 작으면 순위를 말하지 않고,
+            수집 방식이 다른 구간은 비교하지 않는다고 화면이 먼저 밝힙니다.</div>
+        </div></div>
+      </div>
+    </div>
+
+    <div class="wy">
+      <h3>우리가 하지 않은 것</h3>
+      <div class="wy-sub">못한 것이 아니라, 재보고 접은 것입니다. 그 판단의 근거도 함께 적습니다.</div>
+      <div class="wy-not">
+        <div><b>부서 자동 판정</b>제목에 부서명이 있는 기사가 <b>1,596건 중 61건, 3.8%</b>뿐이었습니다.
+          나머지 96%는 근거 없이 찍어야 합니다. 맞히지 못하는 것을 맞히는 척하는 대신
+          소관 <b>후보</b>만 제시하고 확정은 담당자가 하게 했습니다.</div>
+        <div><b>도시 순위 발표</b>도시당 80~85건인 탐색 표본입니다. 피셔 정확검정으로 재보면
+          수원·용인과의 차이가 확인되지 않습니다. 그래서 <b>순위를 말하지 않습니다.</b></div>
+        <div><b>정확도 수치</b>사람이 만든 정답지가 없습니다. 89%·92%는 같은 기사를 다시 분류해 얻은
+          <b>재판정 일치율</b>이지 정확도가 아닙니다. 정답지 만들기가 다음 1순위 과제입니다.</div>
+        <div><b>검증본과 자동수집분 직접 비교</b>수집 방식이 달라 모집단이 다릅니다. 검증본 비율은
+          <b>참고선</b>으로만 두고, 변화는 같은 수집 방식이 유지된 구간끼리만 봅니다.</div>
+      </div>
+    </div>
+
+    <div class="wy">
+      <h3>참고한 연구</h3>
+      <div class="wy-sub">논문을 보고 설계한 것이 아니라, 만든 뒤 판단이 선행연구와 어긋나지 않는지 확인했습니다.</div>
+      <ul class="wy-cite">
+        <li><em>오효정·안승권·김용(2016)</em> 「소셜 빅데이터 기반 사회적 이슈 리스크 유형 분류」, 『한국콘텐츠학회논문지』 16(8) — 중복·후속 보도를 빼면 실제 리스크가 크게 줄어든다</li>
+        <li><em>유호선·명현·오효정(2017)</em> 「소셜미디어에서의 사회재난 이슈 생존 주기 분석」, 『한국정보기술학회논문지』 — 이슈 생존 기간은 유형별로 다르다</li>
+        <li><em>최명일·김신애·최믿음(2013)</em> 「뉴스 프로그램 선택요인의 상대적 중요도 및 우선순위 분석」, 『미디어 경제와 문화』 — AHP로 가중치를 도출하는 방법</li>
+        <li><em>이정환(2020)</em> 「누가 이슈의 중요도를 결정하는가」, 한국언론정보학회 — 한 번에 집중 가능한 이슈는 5~7개를 넘기 어렵다</li>
+        <li><em>이효복·최지혜·김지현(2018)</em> 「퍼스널 브랜드로서의 지방자치단체장 이미지 구성 요인과 영향에 관한 연구」, 『광고학연구』 — 지자체장 이미지가 장소브랜드 관리로 이어진다</li>
+        <li><em>오혜윤(2025)</em> 「디지털 환경에서의 정보 시각화를 위한 디자인 프레임워크 제안」, 『Design Works』 — 정보의 위계에 따른 배열</li>
+        <li><em>이승선(2014)</em> 「지방자치단체의 언론대응 방식 특성과 함의」, 『사회과학연구』 — 지자체의 실제 언론 대응 방식</li>
+        <li><em>김병희(2016)</em> 『뉴스 어뷰징과 검색 알고리즘』 — 뉴스 랭킹에서 최신성의 비중</li>
+      </ul>
+    </div>
+
+    <div class="fb" id="fbBox">
+      <div class="fb-t">쓰시는 분의 의견을 듣고 싶습니다</div>
+      <div class="fb-d">이 화면은 <b>화성시 언론·홍보 담당자가 실제로 쓰는 것</b>을 목표로 만들었습니다.
+        저희는 공무원이 아니라서 실제 업무 흐름을 다 알지 못합니다.
+        분류 기준이 실무 감각과 다르거나, 화면에 없어서 불편한 것이 있으면 알려 주십시오.
+        받은 의견은 다음 판에 반영하고, <b>무엇을 어떻게 고쳤는지 이 화면에 적겠습니다.</b></div>
+      <button class="fb-go" id="fbBtn">✉ 의견 보내기</button>
+    </div>
+  </div><!-- /근거 -->
 </div>
 
 <footer>핀포인트(Pinpoint) — 기사 제목을 기준으로 AI가 분야·긍부정을 판정하고 한 줄로 정리한 데이터 기반 대시보드.</footer>
@@ -686,6 +999,8 @@ const SENTI_COLOR = {
   dark:  { "긍정": "#5B8FC7", "중립": "#7C8288", "부정": "#915454" }
 };
 function sentiColor(k) { return (isDark() ? SENTI_COLOR.dark : SENTI_COLOR.light)[k]; }
+// 기준색(화성시 상징색 계열). Chart.js는 CSS 변수를 못 읽어 여기서 값으로 준다.
+function brandColor() { return isDark() ? "#5B7A5A" : "#4D7045"; }
 const SENTI_CLASS = { "긍정": "pos", "중립": "neu", "부정": "neg" };
 const PAGE_SIZE = 10;   // 처음부터 20건이면 화면의 절반이 목록이 된다
 
@@ -818,8 +1133,27 @@ function articleLink(n) {
 }
 
 // AI가 써 준 문장을 화면에 넣는다. 태그를 그대로 받지 않고 강조 표시자만 변환해 안전하게 처리한다.
+// 화면이 내보내면 안 되는 표현을 막는다.
+// 검증본과 자동수집분은 수집 방식이 달라 곧바로 견줄 수 없다.
+// 그래서 검증본 비율을 '평상시'라 부르거나 그보다 높다·낮다고 말하지 않는다.
+// 브리핑 문장은 수집 단계의 AI가 쓰므로, 화면에서 한 번 더 거른다.
+function guardBrief(t) {
+  return t
+    // "평상시 8.6%보다 낮은 수준입니다" 같은 문장을 통째로 바꾼다.
+    .replace(/평상시[^.]*?보다\s*(낮은|높은)\s*수준입니다/g,
+      "검증본 참고선은 8.6%입니다(수집 방식이 달라 곧바로 견줄 수 없습니다)")
+    .replace(/평상시\s*대비[^.]*?(낮|높)[^.]*?니다/g,
+      "검증본 참고선과는 수집 방식이 달라 곧바로 견줄 수 없습니다")
+    .replace(/평상시/g, "검증본 참고선")
+    // 순위를 말하는 표현도 막는다.
+    .replace(/가장\s*낮습니다/g, "낮은 편입니다(순위를 말할 수 있는 표본은 아닙니다)")
+    // 일치율을 정확도라 부르지 않는다.
+    .replace(/정확도\s*(\d+)%/g, "재판정 일치율 $1%");
+}
+
 function markupBrief(s) {
-  const esc = s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  const esc = guardBrief(s)
+    .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
   return esc
     .replace(/\[\[b\]\]/g, "<b>").replace(/\[\[\/b\]\]/g, "</b>")
     .replace(/\[\[w\]\]/g, '<span class="warn">').replace(/\[\[\/w\]\]/g, "</span>");
@@ -857,6 +1191,59 @@ function scoreParts(it) {
            total: Math.min(100, recency + spread + volume + lasting) };
 }
 
+// ── 소관 후보 부서 ──────────────────────────────────────────
+// 제목만으로 부서를 자동 판정하면 틀린다(제목에 부서명이 있는 기사가 3.8%뿐이다).
+// 그래서 기사별로 부서를 찍지 않고, 분야에 해당하는 부서를 화성시 조직도에서 가져와
+// '후보'로만 보여준다. 확정은 담당자가 한다.
+// 출처 — 화성특례시 홈페이지 행정조직안내 (2026-08-27 확인)
+const DEPT = {
+  "교통": ["교통정책과", "대중교통과", "주차물류과", "철도전략과"],
+  "환경": ["기후환경정책과", "물환경생태과", "자원순환과", "환경지도과"],
+  "안전": ["안전정책과", "재난대응과", "건설과"],
+  "복지": ["복지정책과", "통합돌봄과", "장애인복지과"],
+  "문화관광": ["문화예술과", "관광진흥과", "문화유산과", "체육진흥과"],
+  "산업경제": ["지역경제과", "기업지원과", "투자유치과", "농업정책과"],
+  "행정": ["자치행정과", "예산재정과", "세정과"],
+};
+
+// ── 대응 상태 ───────────────────────────────────────────────
+// 담당자가 직접 누른다. 우리가 판정하지 않는다. 이 브라우저에만 저장된다.
+const ACT_KEY = "pinpoint_action";
+const ACT_STEPS = [["none", "확인 필요"], ["seen", "확인함"], ["doing", "대응 중"], ["done", "종료"]];
+let ACTION = {};
+
+function loadAction() {
+  try { ACTION = JSON.parse(localStorage.getItem(ACT_KEY) || "{}"); }
+  catch (e) { ACTION = {}; }
+}
+function saveAction() {
+  try { localStorage.setItem(ACT_KEY, JSON.stringify(ACTION)); } catch (e) {}
+}
+function actKey(it) { return (it.label || it.titles?.[0] || "").slice(0, 60); }
+
+// ── 무엇이 문제인가 ─────────────────────────────────────────
+// 묶인 기사들의 제목에서 공통으로 나오는 낱말을 뽑는다. 지어내지 않고 세기만 한다.
+const WHY_STOP = new Set(["화성", "화성시", "동탄", "경기", "속보", "종합", "단독", "영상",
+  "포토", "인터뷰", "기자", "오늘", "내일", "올해", "지난", "이번", "관련", "위해", "대한"]);
+
+function issueWhy(it) {
+  const titles = it.titles || [];
+  const cnt = {};
+  titles.forEach(t => {
+    const seen = new Set();
+    (t.match(/[가-힣A-Za-z0-9]{2,}/g) || []).forEach(w => {
+      if (WHY_STOP.has(w) || w.length < 2 || seen.has(w)) return;
+      seen.add(w);
+      cnt[w] = (cnt[w] || 0) + 1;
+    });
+  });
+  const common = Object.entries(cnt)
+    .filter(([, c]) => c >= Math.max(2, Math.ceil(titles.length * 0.5)))
+    .sort((a, b) => b[1] - a[1]).slice(0, 4).map(([w]) => w);
+  const span = it.first === it.last ? "하루" : `${it.first.replaceAll("-", ".")}부터 ${it.last.replaceAll("-", ".")}까지`;
+  return { common, span };
+}
+
 function scoreWhy(it) {
   const p = scoreParts(it);
   const row = (name, val, why) =>
@@ -870,7 +1257,52 @@ function scoreWhy(it) {
     <div class="sw-row sw-tot"><span class="sw-n">합계</span>
       <span class="sw-w">최신성 + 퍼진 정도 + 기사 수 + 오래감</span>
       <span class="sw-v">${p.total}점</span></div>
+    ${scoreBasis()}
   </div>`;
+}
+
+// 배점을 왜 이렇게 두었는지 화면이 직접 밝힌다.
+// "저희가 정했습니다"로 끝내지 않는다. 근거와 한계를 같이 적는다.
+function scoreBasis() {
+  const d = issueSpanStat();
+  return `<div class="sw-basis">
+    <b>배점을 이렇게 둔 이유</b> — 담당자가 아침에 보는 화면이라 <b>오늘 대응할 일인지</b>를
+    가장 크게 봤습니다(최신성 45점). 뉴스 랭킹에서 최신성이 가장 크게 반영된다는 점과 같은 방향입니다.
+    <span class="sw-cite">(김병희, 2016)</span>
+    퍼진 정도는 <b>3개 매체에서 상한</b>입니다. 세 곳이 다뤘으면 이미 퍼진 사건이고,
+    그 이상 점수를 주면 이 항목 하나가 나머지를 눌러버립니다.
+    기사 수는 같은 매체의 후속 기사로 부풀기 쉬워 가장 낮게(15점) 뒀습니다.
+    ${d.n ? `오래감의 기준을 7일로 둔 것은 지금까지 묶인 이슈 <b>${d.n}건</b>의
+      지속일 중앙값이 <b>${d.med}일</b>이고 ${d.pct}%가 7일 안에 끝났기 때문입니다. ` : ""}
+    <b>한계</b> — 이슈 생존 기간은 유형별로 다르다는 연구가 있습니다
+    <span class="sw-cite">(유호선·명현·오효정, 2017)</span>. 지금은 모든 분야에 하루 7점씩 똑같이
+    깎고 있어 근거가 약합니다. <b>분야별 감쇠율</b>과, 가중치를 쌍대비교로 도출하는 <b>AHP</b>
+    <span class="sw-cite">(최명일 외, 2013)</span> 적용이 다음 과제입니다.
+  </div>`;
+}
+
+// 우리 데이터에서 이슈가 실제로 며칠 가는지 잰다. 배점을 말로만 방어하지 않기 위해서다.
+let _spanStat = null;
+function issueSpanStat() {
+  if (_spanStat) return _spanStat;
+  const all = (ISSUES.items || []).concat(TODAY.items || []);
+  const seen = new Set();
+  const spans = [];
+  all.forEach(it => {
+    const k = it.label || (it.titles || [])[0];
+    if (!k || seen.has(k) || !it.first || !it.last) return;
+    seen.add(k);
+    spans.push(Math.round((new Date(it.last) - new Date(it.first)) / 86400000) + 1);
+  });
+  if (!spans.length) return (_spanStat = { n: 0 });
+  spans.sort((a, b) => a - b);
+  const mid = Math.floor(spans.length / 2);
+  _spanStat = {
+    n: spans.length,
+    med: spans.length % 2 ? spans[mid] : Math.round((spans[mid - 1] + spans[mid]) / 2 * 10) / 10,
+    pct: Math.round(spans.filter(v => v < 7).length / spans.length * 100),
+  };
+  return _spanStat;
 }
 
 function todoRanks(items) {
@@ -922,6 +1354,28 @@ function renderToday() {
       <div class="todo-score" data-why="${i}" title="눌러서 점수 계산 내역 보기">${it.score}점 <span class="sw-q">?</span></div>
     </div>`).join("");
 
+  // 대응 줄 — 소관 후보 부서와 담당자가 누르는 상태
+  loadAction();
+  document.querySelectorAll("#todoList .todo").forEach(box => {
+    const it = items[Number(box.dataset.i)];
+    if (!it) return;
+    const depts = DEPT[it.cat] || [];
+    const cur = ACTION[actKey(it)] || "none";
+    box.querySelector(".todo-body").insertAdjacentHTML("beforeend", `
+      <div class="todo-act">
+        ${depts.length ? `<span class="todo-dept">소관 후보 <b>${depts.slice(0, 2).join(" · ")}</b>`
+          + `${depts.length > 2 ? ` <i>외 ${depts.length - 2}곳</i>` : ""}</span>` : ""}
+        <span class="act-set">${ACT_STEPS.map(([k, t]) =>
+          `<button class="act-btn a-${k}${cur === k ? " on" : ""}" data-act="${k}">${t}</button>`).join("")}</span>
+      </div>`);
+    box.querySelectorAll(".act-btn").forEach(b => b.addEventListener("click", e => {
+      e.stopPropagation();
+      ACTION[actKey(it)] = b.dataset.act;
+      saveAction();
+      box.querySelectorAll(".act-btn").forEach(x => x.classList.toggle("on", x === b));
+    }));
+  });
+
   document.querySelectorAll("#todoList .todo-score").forEach(el => el.addEventListener("click", e => {
     e.stopPropagation();
     const box = el.closest(".todo");
@@ -948,7 +1402,10 @@ function renderToday() {
       + (QUALITY.senti_acc ? ` · 긍부정 정확도 <b>${QUALITY.senti_acc}%</b>` : "") + `</span>`);
   }
   document.getElementById("trustBox").innerHTML = t.join("");
+  if (typeof paintTabAlert === "function") paintTabAlert();
 }
+
+function goFindFromChart() { if (typeof gotoFind === "function") gotoFind(); }
 
 function toggleTodo(idx) {
   const items = TODAY.items || [];
@@ -961,8 +1418,15 @@ function toggleTodo(idx) {
   const arts = NEWS.filter(n => it.titles.includes(n.title))
     .sort((a, b) => b.date.localeCompare(a.date));
   const el = document.querySelector(`#todoList .todo[data-i="${idx}"] .todo-body`);
+  const w = issueWhy(it);
+  const whyBox = `<div class="todo-why">
+    <b>${CAT_LABEL[it.cat] || it.cat}</b> 분야에서 ${w.span} <b>${it.count}건</b>이
+    ${it.sources ? `<b>${it.sources}개 매체</b>에 걸쳐 ` : ""}보도됐습니다.
+    ${w.common.length ? `기사 제목에 공통으로 나오는 말은 <b>${w.common.join(" · ")}</b>입니다. ` : ""}
+    아래 원문을 확인하신 뒤 소관 부서를 확정해 주십시오.</div>`;
+
   el.insertAdjacentHTML("beforeend", `
-    <div class="todo-detail"><div class="todo-arts">${arts.map(n =>
+    <div class="todo-detail">${whyBox}<div class="todo-arts">${arts.map(n =>
       `<div class="todo-art"><span class="d">${n.date.replaceAll("-", ".")}</span>` +
       `<a href="${escArt(articleLink(n))}" target="_blank" rel="noopener">${escArt(n.title)}</a>` +
       `${n.source ? ` <span class="d">${n.source}</span>` : ""}</div>`).join("")}</div></div>`);
@@ -1679,6 +2143,8 @@ function updateDashboard() {
     .map(([k, c]) => `<span class="kw">${k} <b>${c}</b></span>`).join("");
 
   renderBrief(data, total, negCount, topCat, kwSorted);
+  renderMention(data);
+  renderWeek();
 
   const byWeek = period === "all";
   const bucket = {}, negBucket = {}, verBucket = {}, liveBucket = {};
@@ -1937,6 +2403,8 @@ function initFlatpickr(minDate, maxDate) {
 // 툴바에서 고르면 결과가 바로 아래에 펼쳐지므로 화면을 움직이지 않는다.
 // 그래프나 도넛에서 고르면 결과가 아래에 있으므로 그쪽으로 옮겨 준다.
 function setCategory(f, opts) {
+  // 결과(분야 상세와 기사 목록)는 '찾기' 탭에 있다. 다른 탭에서 눌렀으면 같이 옮겨 준다.
+  if (opts && opts.scroll && typeof showTab === "function") showTab("find");
   filter = f;
   document.querySelectorAll(".cat-chip").forEach(x => x.classList.toggle("active", x.dataset.f === f));
   document.querySelectorAll("#catPick span").forEach(x => x.classList.toggle("on", x.dataset.f === f));
@@ -2027,6 +2495,180 @@ async function loadBench() {
 }
 
 // "부정 8%가 높은 건가"에 답하려면 견줄 대상이 있어야 한다.
+// ── 이번 주 대 지난주 ───────────────────────────────────────
+// 늘었다·줄었다를 말하려면 두 주의 수집 방식이 같아야 한다.
+// 다르면 숫자는 보여주되 증감은 말하지 않는다.
+function renderWeek() {
+  const card = document.getElementById("weekCard");
+  if (!card) return;
+  const weeks = [...new Set(NEWS.map(n => weekStart(n.date)))].sort();
+  if (weeks.length < 2) { card.style.display = "none"; return; }
+  const cur = weeks[weeks.length - 1], prv = weeks[weeks.length - 2];
+
+  const at = w => NEWS.filter(n => weekStart(n.date) === w);
+  const curRows = at(cur), prvRows = at(prv);
+
+  // 두 주의 출처 구성이 다르면 증감을 단정하지 않는다.
+  const autoShare = rs => rs.length ? rs.filter(n => n.src === "자동수집").length / rs.length : 0;
+  const same = Math.abs(autoShare(curRows) - autoShare(prvRows)) < 0.3;
+
+  // 마지막 주가 아직 안 끝났으면 그대로 견주면 이번 주가 작아 보인다.
+  const days = new Set(curRows.map(n => n.date)).size;
+  const partial = days < 7;
+
+  const cats = ["교통", "환경", "행정", "문화관광", "산업경제", "안전", "복지"];
+  const neg = (rs, c) => rs.filter(n => n.cat === c && n.senti === "부정").length;
+  const rows = cats.map(c => ({ c, now: neg(curRows, c), was: neg(prvRows, c) }))
+                   .sort((a, b) => b.now - a.now || b.was - a.was);
+
+  const kd = w => { const d = w.split("-"); return +d[1] + "월 " + +d[2] + "일"; };
+  document.getElementById("wkSub").textContent =
+    `${kd(prv)} 주 → ${kd(cur)} 주` + (partial ? ` · 이번 주는 ${days}일치까지 모였습니다` : "");
+
+  document.getElementById("wkWarn").innerHTML = same ? "" :
+    `<div class="wk-warn"><b>이번 주와 지난주는 수집 방식이 다릅니다.</b>
+      이번 주는 자동수집이 ${Math.round(autoShare(curRows) * 100)}%인데
+      지난주는 ${Math.round(autoShare(prvRows) * 100)}%입니다.
+      아래 <b>증감은 참고용</b>이며 실제 보도량 변화로 읽으시면 안 됩니다.</div>`;
+
+  document.getElementById("wkGrid").innerHTML = rows.map(r => {
+    const d = r.now - r.was;
+    const dir = d > 0 ? "up" : d < 0 ? "down" : "same";
+    const arrow = d > 0 ? "▲" : d < 0 ? "▼" : "―";
+    return `<div class="wk-c${same && dir !== "same" ? " " + dir : ""}">
+      <div class="wk-n">${CAT_LABEL[r.c] || r.c}</div>
+      <div class="wk-v">${r.now}<span>건</span></div>
+      <div class="wk-d ${dir}">${arrow} ${d === 0 ? "변화 없음" : Math.abs(d) + "건"}
+        <span style="font-weight:600;color:var(--muted2)">(지난주 ${r.was})</span></div>
+    </div>`;
+  }).join("");
+  card.style.display = "";
+}
+
+// ── 인물·기관 언급 추이 ─────────────────────────────────────
+// 이름이 제목이나 키워드에 들어간 기사를 센다. 내용을 판정하지 않는다.
+const MENTION = [
+  { key: "정명근", label: "정명근 시장", alias: ["정명근", "화성시장", "화성특례시장"] },
+  { key: "의회", label: "화성시의회", alias: ["화성시의회", "시의회"] },
+  { key: "특례시", label: "특례시", alias: ["특례시"] },
+];
+let mnPick = "정명근";
+let mnChart = null;
+
+function mentionHits(m, rows) {
+  return rows.filter(n => {
+    const hay = n.title + " " + (n.kw || []).join(" ");
+    return m.alias.some(a => hay.includes(a));
+  });
+}
+
+function renderMention(rows) {
+  const card = document.getElementById("mentionCard");
+  if (!card) return;
+  const m = MENTION.find(x => x.key === mnPick) || MENTION[0];
+  const hits = mentionHits(m, rows);
+
+  document.getElementById("mnChips").innerHTML = MENTION.map(x => {
+    const c = mentionHits(x, rows).length;
+    return `<span data-m="${x.key}"${x.key === mnPick ? ' class="on"' : ""}>${x.label} ${c}</span>`;
+  }).join("");
+  document.querySelectorAll("#mnChips span").forEach(el => el.addEventListener("click", () => {
+    mnPick = el.dataset.m; renderMention(rows);
+  }));
+
+  if (!hits.length) {
+    document.getElementById("mnSum").innerHTML =
+      '<div class="mn-lb">선택한 기간에 이 이름이 들어간 기사가 없습니다.</div>';
+    if (mnChart) { mnChart.destroy(); mnChart = null; }
+    card.style.display = "";
+    return;
+  }
+
+  const pos = hits.filter(n => n.senti === "긍정").length;
+  const neg = hits.filter(n => n.senti === "부정").length;
+  const neu = hits.length - pos - neg;
+  const share = Math.round(hits.length / Math.max(1, rows.length) * 1000) / 10;
+  const pct = v => Math.round(v / hits.length * 100);
+
+  // 어느 분야에서 주로 언급되는지 — 홍보 방향을 잡는 재료다
+  const byCat = {};
+  hits.forEach(n => { byCat[n.cat] = (byCat[n.cat] || 0) + 1; });
+  const topCat = Object.entries(byCat).sort((a, b) => b[1] - a[1]).slice(0, 3);
+
+  document.getElementById("mnSum").innerHTML = `
+    <div class="mn-big">${hits.length.toLocaleString()}건</div>
+    <div class="mn-lb">선택 기간 전체 기사의 <b>${share}%</b></div>
+    <div class="mn-bar">
+      <i style="width:${pct(pos)}%;background:${sentiColor("긍정")}"></i>
+      <i style="width:${pct(neu)}%;background:${sentiColor("중립")}"></i>
+      <i style="width:${pct(neg)}%;background:${sentiColor("부정")}"></i>
+    </div>
+    <div class="mn-leg">
+      <span><em style="background:${sentiColor("긍정")}"></em>긍정 <b>${pos}</b></span>
+      <span><em style="background:${sentiColor("중립")}"></em>중립 <b>${neu}</b></span>
+      <span><em style="background:${sentiColor("부정")}"></em>부정 <b>${neg}</b></span>
+    </div>
+    ${topCat.length ? `<div class="mn-top">주로 <b>${topCat.map(([c, v]) =>
+      `${CAT_LABEL[c] || c} ${v}건`).join(" · ")}</b> 분야에서 언급됐습니다.</div>` : ""}`;
+
+  // 주별 추이 — 홍보 활동 전후로 언급이 어떻게 움직였는지 본다
+  const wk = {};
+  hits.forEach(n => { const w = weekStart(n.date); wk[w] = (wk[w] || 0) + 1; });
+  const wkAll = {};
+  rows.forEach(n => { const w = weekStart(n.date); wkAll[w] = (wkAll[w] || 0) + 1; });
+  const keys = Object.keys(wkAll).sort();
+
+  if (mnChart) mnChart.destroy();
+  mnChart = new Chart(document.getElementById("mnCanvas"), {
+    type: "line",
+    data: {
+      labels: keys.map(k => { const d = k.split("-"); return +d[1] + "/" + +d[2]; }),
+      datasets: [{
+        label: m.label + " 언급",
+        data: keys.map(k => wk[k] || 0),
+        borderColor: brandColor(), backgroundColor: isDark() ? "rgba(91,122,90,.16)" : "rgba(77,112,69,.12)",
+        borderWidth: 2, tension: .3, fill: true, pointRadius: 2.5,
+      }],
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: { y: { beginAtZero: true, ticks: { precision: 0 } },
+                x: { ticks: { autoSkip: true, maxTicksLimit: 12 } } },
+    },
+  });
+  card.style.display = "";
+}
+
+// ── 피셔 정확검정 ───────────────────────────────────────────
+// 표본이 작을 때는 카이제곱이 맞지 않는다. 두 도시의 부정 비율 차이가
+// 우연으로 볼 수 있는 정도인지 정확검정으로 잰다.
+// p값을 코드에 박아 두면 도시를 늘리는 순간 화면이 틀린 말을 하게 되므로 직접 계산한다.
+const _lgCache = [0, 0];
+function lgamma(n) {                       // log(n!) — 표본이 커도 자릿수가 넘치지 않게
+  if (_lgCache[n] !== undefined) return _lgCache[n];
+  let v = _lgCache[_lgCache.length - 1];
+  for (let i = _lgCache.length; i <= n; i++) { v += Math.log(i); _lgCache[i] = v; }
+  return _lgCache[n];
+}
+function hyperProb(a, b, c, d) {           // 주변합을 고정했을 때 이 표가 나올 확률
+  return Math.exp(
+    lgamma(a + b) + lgamma(c + d) + lgamma(a + c) + lgamma(b + d)
+    - lgamma(a) - lgamma(b) - lgamma(c) - lgamma(d) - lgamma(a + b + c + d));
+}
+function fisherP(a, b, c, d) {             // 양측 p값
+  const n = a + b + c + d, r1 = a + b, c1 = a + c;
+  const obs = hyperProb(a, b, c, d);
+  let p = 0;
+  const lo = Math.max(0, c1 - (n - r1)), hi = Math.min(r1, c1);
+  for (let k = lo; k <= hi; k++) {
+    const pr = hyperProb(k, r1 - k, c1 - k, n - r1 - c1 + k);
+    if (pr <= obs * 1.0000001) p += pr;
+  }
+  return Math.min(1, p);
+}
+function pText(p) { return p < 0.001 ? "p<0.001" : "p=" + p.toFixed(p < 0.01 ? 3 : 2); }
+
 function renderBench(d) {
   const card = document.getElementById("benchCard");
   if (!card || !d) return;
@@ -2066,11 +2708,31 @@ function renderBench(d) {
   }).join("")
     + `<div class="avgnote"><i></i> 점선은 나머지 ${others.length}개 시 평균 <b>${avg}%</b>입니다.</div>`;
 
+  // 검정 결과를 화면에서 직접 계산한다. 도시를 늘려도 문장이 저절로 맞는다.
+  const tests = us ? others.map(o => ({
+    name: o.name,
+    p: fisherP(us.neg, us.count - us.neg, o.neg, o.count - o.neg),
+  })) : [];
+  const sig = tests.filter(t => t.p < 0.05);
+  const ns = tests.filter(t => t.p >= 0.05);
+  const fmtList = ts => ts.map(t => `${t.name.replace(/시$/, "")}(${pText(t.p)})`).join(" · ");
+
+  const FIVE = ["화성시", "수원시", "용인시", "성남시", "고양시"];
+  const isFive = rows.length >= 4 && rows.every(c => FIVE.includes(c.name));
+
   document.getElementById("benchNote").innerHTML =
     `${d.from} ~ ${d.to} 기사를 도시마다 같은 검색 방식으로 모아 <b>같은 AI 판정</b>을 적용했습니다. `
+    + (isFive
+        ? `대조 도시는 저희가 임의로 고른 것이 아니라 <b>화성시연구원이 실제로 쓰는 경기 5대 시</b>`
+          + `(화성·용인·수원·성남·고양) 기준을 따랐습니다. 인구 규모가 비슷한 도시끼리 견주는 것이 비교의 전제이기 때문입니다. `
+        : `대조 도시는 인구 규모가 비슷한 경기도 내 도시로 골랐습니다. `)
     + `도시당 <b>${Math.min(...rows.map(c => c.count))}~${Math.max(...rows.map(c => c.count))}건</b>뿐이고 `
-    + `<b>사람 검수를 거치지 않았습니다.</b> 검정해 보면 화성시와 수원·용인의 차이는 `
-    + `<b>통계적으로 확인되지 않습니다</b>(p=0.36, p=0.53). 성남시와의 차이만 확인됩니다(p=0.004). `
+    + `<b>사람 검수를 거치지 않았습니다.</b> `
+    + (tests.length
+        ? `표본이 작을 때 쓰는 <b>피셔 정확검정</b>으로 화성시와 각 도시를 견주면, `
+          + (ns.length ? `<b>${fmtList(ns)}</b>와의 차이는 <b>통계적으로 확인되지 않습니다.</b> ` : "")
+          + (sig.length ? `<b>${fmtList(sig)}</b>와의 차이만 확인됩니다. ` : "확인되는 차이가 없습니다. ")
+        : "")
     + `따라서 <b>도시 성과를 견주는 값이 아니라</b>, 같은 방법으로 대조 통계를 만들 수 있다는 것을 보이는 <b>탐색 자료</b>입니다.`;
 
   card.style.display = "";
@@ -2114,6 +2776,8 @@ async function init() {
     initFlatpickr(minDate, maxDate);
     initWatch();
     updateDashboard();
+    paintTabAlert();
+    restoreTab();
   } catch (e) {
     document.getElementById("badge").textContent = "데이터 로드 실패";
     document.querySelector(".wrap").insertAdjacentHTML("afterbegin",
@@ -2140,6 +2804,100 @@ async function init() {
   window.addEventListener("scroll", onScroll, { passive: true });
   onScroll();
 })();
+
+// ── 탭 ──────────────────────────────────────────────────────
+// 목적이 다른 화면을 한 줄로 세워두면 담당자가 길을 잃는다는 지적을 받았다.
+// 탭은 화면을 나누기만 하고, 기간 필터는 모든 탭에 그대로 걸린다.
+const TAB_KEY = "pinpoint_tab";
+
+function showTab(name, remember) {
+  const tabs = document.querySelectorAll("#tabs .tab");
+  if (![...tabs].some(t => t.dataset.tab === name)) name = "today";
+  tabs.forEach(t => t.classList.toggle("on", t.dataset.tab === name));
+  document.querySelectorAll(".tabpanel").forEach(p =>
+    p.classList.toggle("on", p.dataset.panel === name));
+
+  // 기간 필터는 보고서·근거 탭에서 아무 일도 하지 않는다. 눌러도 반응이 없으면 고장으로 보인다.
+  const pb = document.querySelector(".period-bar");
+  if (pb) pb.style.display = (name === "report" || name === "why") ? "none" : "";
+
+  // 숨어 있던 동안 캔버스 폭이 0이었다. 보이는 순간 다시 재야 한다.
+  requestAnimationFrame(() => {
+    Object.values(charts).forEach(c => { try { c.resize(); } catch (e) {} });
+    [catChart, watchChart, kwChart, issueChart, mnChart].forEach(c => {
+      if (c) { try { c.resize(); } catch (e) {} }
+    });
+  });
+
+  if (remember !== false) {
+    try { localStorage.setItem(TAB_KEY, name); } catch (e) {}
+  }
+}
+
+const fbBtn = document.getElementById("fbBtn");
+if (fbBtn) fbBtn.addEventListener("click", sendFeedback);
+
+document.getElementById("tabs").addEventListener("click", e => {
+  const b = e.target.closest(".tab");
+  if (b) showTab(b.dataset.tab);
+});
+
+// 분야를 누르면 상세와 목록이 '찾기' 탭에 열린다. 탭을 같이 옮겨 주지 않으면
+// 눌렀는데 아무 일도 안 일어난 것처럼 보인다.
+function gotoFind() { showTab("find"); }
+
+// '오늘' 탭에 확인할 이슈 수를 배지로 단다. 다른 탭에 있어도 놓치지 않게 한다.
+function paintTabAlert() {
+  const n = (TODAY.items || []).length;
+  const el = document.getElementById("tabAlert");
+  if (el) el.innerHTML = n ? `<span class="tab-alert">${n}</span>` : "";
+}
+
+// 담당자 의견 — 쓰는 사람의 말을 듣는 통로를 화면 안에 둔다.
+// 메일 앱이 없는 환경도 있으므로 실패하면 본문을 복사해 준다.
+const FB_TO = "dsk00700@gmail.com";
+
+function feedbackText() {
+  const d = new Date();
+  const day = `${d.getFullYear()}. ${d.getMonth() + 1}. ${d.getDate()}.`;
+  return [
+    "핀포인트 대시보드 사용 의견",
+    "",
+    `보내는 날짜: ${day}`,
+    "소속·직위:",
+    "",
+    "1. 실제 업무에서 이 화면을 언제 여실 것 같습니까",
+    "",
+    "2. 분류(분야·긍부정)가 실무 감각과 다른 부분이 있습니까",
+    "",
+    "3. 화면에 없어서 불편한 것이 있습니까",
+    "",
+    "4. 주간 보고서를 그대로 결재선에 올릴 수 있습니까",
+    "",
+    "5. 그 밖에 하실 말씀",
+    "",
+  ].join("\n");
+}
+
+function sendFeedback() {
+  const body = feedbackText();
+  const url = "mailto:" + FB_TO
+    + "?subject=" + encodeURIComponent("[핀포인트] 대시보드 사용 의견")
+    + "&body=" + encodeURIComponent(body);
+  // 주소가 너무 길면 메일 앱이 열리다 만다. 그때는 복사로 돌린다.
+  if (url.length < 1900) {
+    try { window.location.href = url; return; } catch (e) {}
+  }
+  navigator.clipboard?.writeText(body).then(
+    () => alert("의견 양식을 복사했습니다.\n메일에 붙여넣어 " + FB_TO + " 로 보내 주십시오."),
+    () => prompt("아래 내용을 복사해 " + FB_TO + " 로 보내 주십시오.", body));
+}
+
+function restoreTab() {
+  let saved = null;
+  try { saved = localStorage.getItem(TAB_KEY); } catch (e) {}
+  showTab(saved || "today", false);
+}
 
 function tick() {
   const d = new Date();

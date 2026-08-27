@@ -3,6 +3,7 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%93%8D%3C/text%3E%3C/svg%3E">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>화성시 언론보도 주간 동향 보고 — 핀포인트</title>
 <link rel="stylesheet" href="pretendard.min.css">
@@ -203,6 +204,59 @@ function slice_(days, endStr) {
   return { from, to: end, rows: NEWS.filter(n => n.date >= from && n.date <= end) };
 }
 
+// 분야에 해당하는 소관 후보 부서. 기사를 보고 판정한 값이 아니다.
+// 제목에 부서명이 있는 기사가 3.8%뿐이라 자동 분류를 하지 않고 후보만 제시한다.
+// 출처 — 화성특례시 행정조직안내 (2026-08-27 확인)
+const DEPT = {
+  "교통": ["교통정책과", "대중교통과", "주차물류과", "철도전략과"],
+  "환경": ["기후환경정책과", "물환경생태과", "자원순환과", "환경지도과"],
+  "안전": ["안전정책과", "재난대응과", "건설과"],
+  "복지": ["복지정책과", "통합돌봄과", "장애인복지과"],
+  "문화관광": ["문화예술과", "관광진흥과", "문화유산과", "체육진흥과"],
+  "산업경제": ["지역경제과", "기업지원과", "투자유치과", "농업정책과"],
+  "행정": ["자치행정과", "예산재정과", "세정과"],
+};
+
+// 피셔 정확검정 — p값을 문서에 박아 두면 대조 지자체를 늘리는 순간 틀린 값이 된다.
+const _lg = [0, 0];
+function lgamma(n) {
+  if (_lg[n] !== undefined) return _lg[n];
+  let v = _lg[_lg.length - 1];
+  for (let i = _lg.length; i <= n; i++) { v += Math.log(i); _lg[i] = v; }
+  return _lg[n];
+}
+function hyperProb(a, b, c, d) {
+  return Math.exp(lgamma(a + b) + lgamma(c + d) + lgamma(a + c) + lgamma(b + d)
+    - lgamma(a) - lgamma(b) - lgamma(c) - lgamma(d) - lgamma(a + b + c + d));
+}
+function fisherP(a, b, c, d) {
+  const n = a + b + c + d, r1 = a + b, c1 = a + c;
+  const obs = hyperProb(a, b, c, d);
+  let p = 0;
+  for (let k = Math.max(0, c1 - (n - r1)); k <= Math.min(r1, c1); k++) {
+    const pr = hyperProb(k, r1 - k, c1 - k, n - r1 - c1 + k);
+    if (pr <= obs * 1.0000001) p += pr;
+  }
+  return Math.min(1, p);
+}
+function pText(p) { return p < 0.001 ? "p<0.001" : "p=" + p.toFixed(p < 0.01 ? 3 : 2); }
+
+// 대조 지자체가 늘어도 문장이 저절로 맞도록 검정 결과를 계산해서 쓴다.
+function benchTest(bench) {
+  const us = bench.find(c => c.name === "화성시");
+  if (!us) return "";
+  const t = bench.filter(c => c.name !== "화성시").map(c => ({
+    name: c.name, p: fisherP(us.neg, us.count - us.neg, c.neg, c.count - c.neg) }));
+  const f = ts => ts.map(x => `${x.name.replace(/시$/, "")}(${pText(x.p)})`).join(", ");
+  const ns = t.filter(x => x.p >= 0.05), sig = t.filter(x => x.p < 0.05);
+  const FIVE = ["화성시", "수원시", "용인시", "성남시", "고양시"];
+  const five = bench.length >= 4 && bench.every(c => FIVE.includes(c.name));
+  return (five ? `대조 지자체는 <b>화성시연구원이 사용하는 경기 5대 시</b>(화성·용인·수원·성남·고양) 기준을 준용함. ` : "")
+    + `Fisher 정확검정 결과 `
+    + (ns.length ? `화성시와 ${f(ns)}의 차이는 <b>유의하지 않으며</b> ` : "")
+    + (sig.length ? `${f(sig)}와의 차이만 유의함. ` : "유의한 차이가 확인되지 않음. ");
+}
+
 function build() {
   const cur = slice_(DAYS);
   const pe = new Date(cur.from + "T00:00:00"); pe.setDate(pe.getDate() - 1);
@@ -254,11 +308,15 @@ function build() {
 
   // 대응 필요사항 — 규칙으로 뽑는다. AI에 맡기면 없는 사실을 지어낼 수 있고 비용도 든다.
   const act = [];
+  const deptOf = c => (DEPT[c] || []).length
+    ? `소관 후보 <b>${DEPT[c].slice(0, 3).join(" · ")}</b>` : "";
   if (byNeg[0] && byNeg[0].neg > 0)
-    act.push(`<b>${CAT_LABEL[byNeg[0].c]}</b> 분야 부정 보도 ${byNeg[0].neg}건에 대한 소관 부서 확인 및 사실관계 정리 필요`);
+    act.push(`<b>${CAT_LABEL[byNeg[0].c]}</b> 분야 부정 보도 ${byNeg[0].neg}건에 대한 사실관계 정리 및 대응 검토 필요`
+      + (deptOf(byNeg[0].c) ? ` — ${deptOf(byNeg[0].c)}` : ""));
   if (spread.length)
     act.push(`2개 이상 매체 확산 사안 ${spread.length}건에 대한 우선 대응 검토 필요`
-      + `<ul>${spread.map(it => `<li>${esc(it.label)} (${it.sources}개 매체, ${it.score}점)</li>`).join("")}</ul>`);
+      + `<ul>${spread.map(it => `<li>${esc(it.label)} (${it.sources}개 매체, ${it.score}점)`
+        + (deptOf(it.cat) ? ` — ${deptOf(it.cat)}` : "") + `</li>`).join("")}</ul>`);
   if (surge && surge.cat)
     act.push(`<b>${CAT_LABEL[surge.cat] || surge.cat}</b> 분야 부정 보도 증가 추세에 따른 원인 점검 필요`);
   const worse = rows.filter(r => r.neg - r.pneg >= 3);
@@ -271,6 +329,9 @@ function build() {
   act.push(`검증본 참고선(${p1(base)}%)은 <b>수집 방식이 달라 직접 대조 불가</b>. 참고값으로만 확인`);
   act.push(`분야 및 보도흐름은 <b>AI가 제목만 보고 판정한 값</b>이며 사람 검수 정확도가 확보되지 않음. `
     + `부정으로 분류된 보도는 <b>담당자 원문 확인 후</b> 대응 여부 판단 필요`);
+  act.push(`위 <b>소관 후보 부서는 기사 내용을 판정한 값이 아님.</b> 제목에 부서명이 포함된 보도가 `
+    + `전체의 3.8%에 불과하여 자동 분류를 하지 않고, 분야에 해당하는 부서를 `
+    + `<b>화성특례시 행정조직안내</b>에서 인용하여 후보로만 제시함. 소관 확정은 담당자가 판단`);
 
   const negSorted = neg.slice().sort((a, b) => b.date.localeCompare(a.date));
   const gen = ymd(new Date());
@@ -361,7 +422,7 @@ function build() {
   </table>
   <div class="cap">${kspan(BENCH.from, BENCH.to)} 기사를 지자체별로 <b>동일 검색 방식으로 수집하여 동일 AI 판정</b>을 적용함.
     지자체당 표본이 ${Math.min(...bench.map(c => c.count))}~${Math.max(...bench.map(c => c.count))}건이며 <b>사람 검수를 거치지 않음.</b>
-    Fisher 정확검정 결과 화성시와 수원·용인의 차이는 <b>유의하지 않으며</b>(p=0.36, p=0.53) 성남시와의 차이만 유의함(p=0.004).
+    ${benchTest(bench)}
     <b>지자체 성과 비교가 아니라 동일 방법으로 대조 통계를 산출할 수 있음을 확인한 탐색 자료임.</b></div>
   ` : ""}
 
