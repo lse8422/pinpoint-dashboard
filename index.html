@@ -109,7 +109,7 @@
   .period-bar { display: flex; gap: 8px; align-items: flex-start; margin-bottom: 14px; }
   .period-bar .label { font-size: 14px; color: var(--muted); font-weight: 600; padding-top: 7px; }
   .date-range-wrap { display: none; align-items: center; gap: 6px; }
-  .date-input { padding: 5px 10px; border: 1px solid var(--input-border); border-radius: 12px; font-size: 12px; background: var(--surface); color: var(--text); outline: none; cursor: pointer; }
+  .date-input { padding: 5px 10px; border: 1px solid var(--input-border); border-radius: 3px; font-size: 12px; background: var(--surface); color: var(--text); outline: none; cursor: pointer; }
   .date-input:focus { border-color: var(--accent); }
   .date-sep { font-size: 12px; color: var(--muted); }
   .period-chips-col { display: flex; flex-direction: column; gap: 6px; }
@@ -118,7 +118,7 @@
   .data-range-note strong { color: var(--text); font-weight: 700; font-size: 14px; }
 
   .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 16px; }
-  .stat { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px; }
+  .stat { background: var(--surface); border: 1px solid var(--border); border-radius: 3px; padding: 14px 16px; }
   /* 기사 수가 매일 늘어난다. 고정폭이 아니면 값이 바뀔 때마다 자리가 미세하게 흔들린다. */
   .stat .value, .todo-score, .count, .todo-meta, .article .date, .kwbar-row,
   .today-time, .ai-brief-time, .mnav .lb, .trust-item {
@@ -157,7 +157,7 @@
   .heat .hwk.late { color: var(--neg); font-weight: 700; }
   /* 다른 시와 견주기 — 우리 시를 진하게, 나머지는 물러나게 */
   .bench .brow { display: flex; align-items: center; gap: 10px; padding: 6px 8px;
-    border-radius: 7px; }
+    border-radius: 2px; }
   .bench .bname { width: 56px; flex-shrink: 0; font-size: 12.5px; color: var(--muted);
     white-space: nowrap; }
   .bench .btrack { position: relative; flex: 1; min-width: 0; height: 17px; border-radius: 999px;
@@ -204,12 +204,12 @@
   .heat .htrend .down { color: var(--chip-active-bg); font-weight: 700; }
   .heat .hr.top .hname { color: var(--neg); }
   /* 이미 카드 안이라 띠가 없어도 구분된다. 강조는 아껴 써야 강조로 읽힌다. */
-  .heat-lead { background: var(--summary-bg); border-radius: 8px;
+  .heat-lead { background: var(--summary-bg); border-radius: 3px;
     padding: 9px 13px; margin-bottom: 12px; font-size: 13px; line-height: 1.6; color: var(--summary-text); }
   .heat-lead b { color: var(--neg); font-weight: 800; }
   .heat-scope { display: flex; gap: 5px; margin-left: auto; }
   .heat-nav { display: flex; align-items: center; gap: 8px; margin-bottom: 9px; font-size: 11.5px; color: var(--muted); }
-  .heat-nav button { width: 24px; height: 22px; border: 1px solid var(--input-border); border-radius: 6px;
+  .heat-nav button { width: 24px; height: 22px; border: 1px solid var(--input-border); border-radius: 2px;
     background: var(--surface); color: var(--cat-color); cursor: pointer; font-size: 11px;
     font-family: inherit; padding: 0; }
   .heat-nav button:disabled { opacity: .35; cursor: default; }
@@ -225,7 +225,7 @@
     .heat .hbar { display: none; }
     .heat .hnum { padding-left: 10px; }
   }
-  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 3px; padding: 14px 16px; }
   .card h3 { font-size: 15px; color: var(--article-title); margin-bottom: 10px; font-weight: 600; }
   .chart-box { position: relative; height: 180px; }
   /* 카드 높이가 서로 맞춰지면서 남는 공간이 생긴다. 차트가 그 공간을 채우게 한다. */
@@ -244,7 +244,7 @@
   .src-user { opacity: .92; }
   /* 출근길에 휴대폰으로 3건만 보는 화면으로 넘어가는 링크 */
   .simple-link { font-size: 12.5px; font-weight: 600; color: var(--chip-text);
-    background: var(--surface); border: 1px solid var(--input-border); border-radius: 8px;
+    background: var(--surface); border: 1px solid var(--input-border); border-radius: 3px;
     padding: 6px 11px; text-decoration: none; margin-right: 7px; white-space: nowrap; }
   .simple-link:hover { background: var(--accent-bg); }
   .chart-head { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
@@ -268,10 +268,10 @@
   .kwpanel-title { font-size: 16px; font-weight: 800; color: var(--stat-value); }
   .kwpanel-meta { font-size: 12px; color: var(--muted); }
   .kwpanel-close { margin-left: auto; font-size: 12px; color: var(--muted); cursor: pointer;
-    border: 1px solid var(--border); border-radius: 8px; padding: 3px 10px; background: none; }
+    border: 1px solid var(--border); border-radius: 3px; padding: 3px 10px; background: none; }
   .kwpanel-close:hover { background: var(--summary-bg); }
   .kwpanel-note { background: var(--summary-bg); border-left: 3px solid var(--chip-active-bg);
-    border-radius: 8px; padding: 10px 13px; font-size: 13.5px; line-height: 1.6;
+    border-radius: 3px; padding: 10px 13px; font-size: 13.5px; line-height: 1.6;
     color: var(--article-title); margin-bottom: 12px; }
   .kwpanel-note b { color: var(--stat-value); font-weight: 800; }
   .kwpanel-note .warn { color: var(--neg); font-weight: 800; }
@@ -285,25 +285,25 @@
   .mnav { display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 4px; }
   .mnav button { border: 1px solid var(--input-border); background: var(--surface);
     color: var(--chip-text); font-family: inherit; font-size: 13px; line-height: 1;
-    width: 26px; height: 24px; border-radius: 7px; cursor: pointer; padding: 0; }
+    width: 26px; height: 24px; border-radius: 2px; cursor: pointer; padding: 0; }
   .mnav button:hover:not(:disabled) { background: var(--accent-bg); }
   .mnav button:disabled { opacity: .3; cursor: default; }
   .mnav .lb { font-size: 12.5px; font-weight: 700; color: var(--cat-color); min-width: 84px; text-align: center; }
   .mnav .all { font-size: 11.5px; color: var(--muted2); font-weight: 500; }
   .kwbar { display: flex; flex-direction: column; gap: 7px; }
   .kwbar-row { font-size: 12px; color: var(--muted); }
-  .kwbar-track { height: 8px; border-radius: 5px; background: var(--summary-bg); margin-top: 4px; overflow: hidden; }
-  .kwbar-fill { height: 100%; border-radius: 5px; }
+  .kwbar-track { height: 8px; border-radius: 2px; background: var(--summary-bg); margin-top: 4px; overflow: hidden; }
+  .kwbar-fill { height: 100%; border-radius: 2px; }
 
   /* 오늘 확인할 것 — 담당자가 화면을 열자마자 보는 자리 */
   .today { background: var(--surface); border: 1px solid var(--border);
-    border-left: 5px solid var(--neg); border-radius: 8px; padding: 15px 18px 16px; margin-bottom: 16px; }
+    border-left: 5px solid var(--neg); border-radius: 3px; padding: 15px 18px 16px; margin-bottom: 16px; }
   .today-head { display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap; margin-bottom: 11px; }
   .today-title { font-size: 16px; font-weight: 800; color: var(--article-title); }
   .today-sub { font-size: 12px; color: var(--muted); }
   .today-time { margin-left: auto; font-size: 11px; color: var(--muted2); }
 
-  .surge { background: #FDF3F3; border: 1px solid #EBC9C9; border-radius: 8px;
+  .surge { background: #FDF3F3; border: 1px solid #EBC9C9; border-radius: 3px;
     padding: 9px 13px; margin-bottom: 11px; font-size: 13px; line-height: 1.6; color: #6E2B2B; }
   body.dark .surge { background: #3A2222; border-color: #5A3636; color: #E8C4C4; }
   .surge b { color: var(--neg); font-weight: 800; }
@@ -333,7 +333,7 @@
     color: var(--muted); font-size: 9px; font-weight: 700; vertical-align: 1px; }
   .todo-score:hover .sw-q { background: var(--neg); border-color: var(--neg); color: #fff; }
   .score-why { margin-top: 9px; padding: 9px 12px; background: var(--summary-bg);
-    border: 1px solid var(--border); border-radius: 8px; }
+    border: 1px solid var(--border); border-radius: 3px; }
   .sw-row { display: flex; align-items: baseline; gap: 9px; padding: 3px 0; font-size: 11.5px; }
   .sw-n { width: 52px; flex-shrink: 0; font-weight: 700; color: var(--article-title); }
   .sw-w { flex: 1; color: var(--muted); }
@@ -349,7 +349,7 @@
 
   /* 운영 기록·검수 정확도 — 화면에 근거를 밝힌다 */
   .trust { display: flex; gap: 9px; flex-wrap: wrap; margin-top: 12px; }
-  .trust-item { background: var(--summary-bg); border: 1px solid var(--border); border-radius: 8px;
+  .trust-item { background: var(--summary-bg); border: 1px solid var(--border); border-radius: 3px;
     padding: 6px 12px; font-size: 11.5px; color: var(--summary-text); }
   .trust-item b { color: var(--stat-value); font-weight: 800; }
   .todo-label .todo-open { color: inherit; text-decoration: none; }
@@ -382,17 +382,17 @@
   }
 
   /* 보고서 탭 — 심사에서 가장 칭찬받은 기능이 날짜 선택 옆에 숨어 있었다. 자리를 올린다. */
-  .rp { background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
+  .rp { background: var(--surface); border: 1px solid var(--border); border-radius: 3px;
     padding: 26px 28px; }
   .rp h3 { margin: 0 0 8px; font-size: 19px; color: var(--title); }
   .rp .rp-lead { font-size: 14.5px; line-height: 1.7; color: var(--summary-text); margin-bottom: 18px; }
   .rp .rp-go { display: inline-flex; align-items: center; gap: 9px; padding: 14px 26px;
-    background: var(--chip-active-bg); color: #fff; border-radius: 10px;
+    background: var(--chip-active-bg); color: #fff; border-radius: 3px;
     font-size: 16px; font-weight: 800; text-decoration: none; }
   .rp .rp-go:hover { filter: brightness(1.08); }
   .rp-feat { display: flex; gap: 12px; flex-wrap: wrap; margin: 18px 0 0; }
   .rp-feat div { flex: 1 1 190px; background: var(--summary-bg); border: 1px solid var(--border);
-    border-radius: 10px; padding: 13px 15px; font-size: 13px; line-height: 1.6; color: var(--summary-text); }
+    border-radius: 3px; padding: 13px 15px; font-size: 13px; line-height: 1.6; color: var(--summary-text); }
   .rp-feat b { color: var(--title); display: block; margin-bottom: 3px; font-size: 13.5px; }
 
   /* 대응 연결 — 무엇이 문제인지까지만 보여주고 멈추면 결재가 안 올라간다.
@@ -418,7 +418,7 @@
   .bh-t { font-size: 14.5px; font-weight: 800; color: var(--title); }
   .bh-box { height: 190px; }
   .bh-cycle { display: flex; align-items: flex-start; gap: 9px; margin-top: 14px;
-    background: var(--summary-bg); border: 1px solid var(--border); border-radius: 10px;
+    background: var(--summary-bg); border: 1px solid var(--border); border-radius: 3px;
     padding: 12px 15px; font-size: 12.5px; line-height: 1.7; color: var(--summary-text); }
   .bh-cycle b { color: var(--title); }
   .bh-cycle .ic { flex-shrink: 0; font-size: 15px; line-height: 1.4; }
@@ -427,7 +427,7 @@
   .ml-kpi { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 11px; margin-bottom: 18px; }
   .ml-kpi > div { background: var(--summary-bg); border: 1px solid var(--border);
-    border-radius: 10px; padding: 13px 15px; }
+    border-radius: 3px; padding: 13px 15px; }
   .ml-kpi .k { font-size: 11.5px; color: var(--muted); margin-bottom: 5px; }
   .ml-kpi .v { font-size: 24px; font-weight: 800; color: var(--title); line-height: 1.15; }
   .ml-kpi .v.warn { color: var(--neg); }
@@ -442,7 +442,7 @@
   .ml-h { font-size: 13.5px; font-weight: 800; color: var(--title); margin: 18px 0 7px; }
   .ml-p { font-size: 12.8px; line-height: 1.75; color: var(--summary-text); margin-bottom: 4px; }
   .ml-p b { color: var(--title); }
-  .ml-warn { background: #FDF4F4; border: 1px solid #E8C9C9; border-radius: 10px;
+  .ml-warn { background: #FDF4F4; border: 1px solid #E8C9C9; border-radius: 3px;
     padding: 13px 16px; font-size: 12.8px; line-height: 1.75; color: var(--summary-text); }
   .ml-warn b { color: var(--neg); }
   body.dark .ml-warn { background: #2A1F1F; border-color: #5A3A3A; }
@@ -455,7 +455,7 @@
   .bu-t { font-size: 14.5px; font-weight: 800; color: var(--title); margin-bottom: 11px; }
   .bu-g { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; }
   .bu-g > div { background: var(--summary-bg); border: 1px solid var(--border);
-    border-radius: 10px; padding: 13px 16px; }
+    border-radius: 3px; padding: 13px 16px; }
   .bu-g b { display: block; font-size: 13px; color: var(--title); margin-bottom: 6px; }
   .bu-g ul { margin: 0; padding-left: 17px; }
   .bu-g li { font-size: 12.8px; line-height: 1.7; color: var(--summary-text); margin-bottom: 5px; }
@@ -471,7 +471,7 @@
 
   /* 주간 시세판 — 저번 주 대비 이번 주를 분야별로 한 줄에 놓는다. */
   .wk { display: grid; grid-template-columns: repeat(auto-fit, minmax(126px, 1fr)); gap: 9px; }
-  .wk-c { background: var(--summary-bg); border: 1px solid var(--border); border-radius: 10px;
+  .wk-c { background: var(--summary-bg); border: 1px solid var(--border); border-radius: 3px;
     padding: 11px 13px; }
   .wk-c.up { border-color: #E0BFBF; background: #FDF4F4; }
   .wk-c.down { border-color: #C5D6C0; background: #F3F7F2; }
@@ -485,14 +485,14 @@
   .wk-head { display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap; margin-bottom: 4px; }
   .wk-warn { font-size: 12.5px; line-height: 1.65; color: var(--summary-text);
     background: var(--summary-bg); border-left: 3px solid var(--neg);
-    border-radius: 0 8px 8px 0; padding: 10px 13px; margin-bottom: 12px; }
+    border-radius: 0 2px 2px 0; padding: 10px 13px; margin-bottom: 12px; }
   .wk-warn b { color: var(--title); }
   body.dark .wk-c.up { border-color: #5A3A3A; background: #2A1F1F; }
   body.dark .wk-c.down { border-color: #3D4F3A; background: #1E241D; }
 
   /* 근거 탭 — "왜 이렇게 만들었나"를 한자리에 모은다.
      기능 설명이 아니라 판단의 사슬을 적는다. */
-  .wy { background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
+  .wy { background: var(--surface); border: 1px solid var(--border); border-radius: 3px;
     padding: 24px 28px; margin-bottom: 16px; }
   .wy h3 { margin: 0 0 4px; font-size: 18px; color: var(--title); }
   .wy .wy-sub { font-size: 13px; color: var(--muted); margin-bottom: 18px; }
@@ -507,7 +507,7 @@
   .wy-src { display: inline-block; font-size: 11.5px; color: var(--muted2); margin-left: 2px; }
   .wy-not { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; }
   .wy-not div { background: var(--summary-bg); border: 1px solid var(--border);
-    border-radius: 10px; padding: 13px 15px; font-size: 12.8px; line-height: 1.65;
+    border-radius: 3px; padding: 13px 15px; font-size: 12.8px; line-height: 1.65;
     color: var(--summary-text); }
   /* 제목 줄만 블록으로 띄운다. 본문 안의 강조까지 걸리면 문장이 토막 난다. */
   .wy-not b { color: var(--title); }
@@ -518,13 +518,28 @@
 
   /* 담당자 의견 — 쓰는 사람의 말을 듣는 통로를 화면 안에 둔다. */
   .fb { background: var(--accent-bg); border: 1px solid var(--accent-hover);
-    border-radius: 12px; padding: 18px 22px; }
+    border-radius: 3px; padding: 18px 22px; }
   .fb .fb-t { font-size: 15px; font-weight: 800; color: var(--title); margin-bottom: 6px; }
   .fb .fb-d { font-size: 13px; line-height: 1.7; color: var(--summary-text); margin-bottom: 13px; }
   .fb-go { display: inline-flex; align-items: center; gap: 7px; padding: 10px 20px;
-    background: var(--accent); color: #fff; border: none; border-radius: 9px;
+    background: var(--accent); color: #fff; border: none; border-radius: 3px;
     font-size: 14px; font-weight: 700; cursor: pointer; font-family: inherit; text-decoration: none; }
   .fb-go:hover { filter: brightness(1.08); }
+  .fb-panel { margin-top: 14px; background: var(--surface); border: 1px solid var(--border);
+    border-radius: 3px; padding: 15px 17px; }
+  .fb-panel .fb-to { font-size: 12.5px; color: var(--muted); margin-bottom: 10px; }
+  .fb-panel .fb-to b { color: var(--title); }
+  .fb-ways { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+  .fb-way { display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px;
+    border: 1px solid var(--input-border); border-radius: 3px; background: var(--surface);
+    color: var(--chip-text); font-size: 13px; font-weight: 600; cursor: pointer;
+    text-decoration: none; font-family: inherit; }
+  .fb-way:hover { border-color: var(--accent); color: var(--accent); }
+  .fb-way.main { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .fb-text { width: 100%; min-height: 190px; font-family: inherit; font-size: 12.5px;
+    line-height: 1.7; color: var(--summary-text); background: var(--summary-bg);
+    border: 1px solid var(--border); border-radius: 3px; padding: 11px 13px; resize: vertical; }
+  .fb-done { font-size: 12.5px; color: var(--chip-active-bg); font-weight: 700; margin-top: 8px; }
 
   /* 언급 추이 — 부정 보도를 세는 것이 목적이 아니라 시 브랜드 이미지 관리가 목적이다. */
   .mn-chips { display: flex; gap: 6px; flex-wrap: wrap; margin: 4px 0 14px; }
@@ -554,7 +569,7 @@
 
   .todo-act { display: flex; align-items: center; gap: 7px; flex-wrap: wrap; margin-top: 8px; }
   .todo-dept { font-size: 12px; color: var(--summary-text); background: var(--summary-bg);
-    border: 1px solid var(--border); border-radius: 7px; padding: 4px 9px; }
+    border: 1px solid var(--border); border-radius: 2px; padding: 4px 9px; }
   .todo-dept b { color: var(--title); }
   .todo-dept i { font-style: normal; color: var(--muted2); font-size: 11px; }
   .act-set { display: flex; gap: 3px; }
@@ -566,7 +581,7 @@
   .act-btn.on.a-none { background: var(--neg); border-color: var(--neg); }
   .act-btn.on.a-done { background: var(--neu-bg); border-color: var(--neu-bg); color: var(--neu-text); }
   .todo-why { margin-top: 9px; padding: 10px 13px; background: var(--summary-bg);
-    border-left: 3px solid var(--chip-active-bg); border-radius: 0 8px 8px 0;
+    border-left: 3px solid var(--chip-active-bg); border-radius: 0 2px 2px 0;
     font-size: 13px; line-height: 1.65; color: var(--summary-text); }
   .todo-why b { color: var(--title); }
   .dept-note { font-size: 11.5px; color: var(--muted2); margin-top: 9px; line-height: 1.55; }
@@ -575,9 +590,9 @@
   .issues-note { font-size: 12.5px; color: var(--muted); }
   .watch-form { display: flex; gap: 8px; margin: 10px 0 12px; flex-wrap: wrap; }
   .watch-form input { flex: 1; min-width: 180px; padding: 7px 12px; font-size: 13px;
-    border: 1px solid var(--input-border); border-radius: 8px; background: var(--surface); color: var(--text); }
+    border: 1px solid var(--input-border); border-radius: 3px; background: var(--surface); color: var(--text); }
   .watch-form button { padding: 7px 16px; font-size: 13px; font-weight: 600; cursor: pointer;
-    border: none; border-radius: 8px; background: var(--chip-active-bg); color: #fff; }
+    border: none; border-radius: 3px; background: var(--chip-active-bg); color: #fff; }
   .watch-list { display: flex; gap: 8px; flex-wrap: wrap; }
   .watch { display: inline-flex; align-items: center; gap: 6px; background: var(--cat-bg);
     color: var(--cat-color); font-size: 12.5px; padding: 5px 8px 5px 13px; border-radius: 999px;
@@ -588,7 +603,7 @@
   .watch .x:hover { opacity: 1; }
   .watch-empty { font-size: 12.5px; color: var(--muted2); }
   .issue-list { display: flex; flex-direction: column; gap: 9px; }
-  .issue { border: 1px solid var(--border); border-left: 4px solid var(--neg); border-radius: 8px;
+  .issue { border: 1px solid var(--border); border-left: 4px solid var(--neg); border-radius: 3px;
     padding: 11px 14px; cursor: pointer; background: var(--surface); }
   .issue:hover { background: var(--summary-bg); }
   .issue.on { background: var(--summary-bg); border-left-width: 6px; }
@@ -607,8 +622,8 @@
     position: sticky; top: 0; z-index: 40; background: var(--bg);
     padding: 10px 12px; margin-left: -12px; margin-right: -12px;
     border-bottom: 1px solid transparent; transition: border-color .15s, box-shadow .15s; }
-  .toolbar.stuck { border-bottom-color: var(--border); box-shadow: 0 4px 14px rgba(0,0,0,.06); }
-  body.dark .toolbar.stuck { box-shadow: 0 4px 14px rgba(0,0,0,.4); }
+  .toolbar.stuck { border-bottom-color: var(--border); box-shadow: none; }
+  body.dark .toolbar.stuck { box-shadow: none; }
   .toolbar .count { margin-left: auto; font-size: 12.5px; color: var(--muted); font-weight: 600; }
   .toolbar input { flex: 1; min-width: 160px; padding: 8px 14px; border: 1px solid var(--input-border); border-radius: 999px; font-size: 13px; outline: none; background: var(--surface); color: var(--text); }
   .toolbar input:focus { border-color: var(--accent); }
@@ -618,19 +633,19 @@
 
   /* 띠를 부정에만 두면 규칙이 아니라 예외로 보인다.
      모두에게 두되 굵기와 진하기로 "먼저 볼 것"을 말한다. */
-  .article { background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+  .article { background: var(--surface); border: 1px solid var(--border); border-radius: 3px;
     border-left: 3px solid var(--band-neu); padding: 14px 16px; margin-bottom: 10px; }
   .article.pos { border-left-color: var(--band-pos); }
   .article.negative { border-left-width: 5px; border-left-color: var(--neg); }
   .article .top { display: flex; gap: 8px; align-items: center; margin-bottom: 6px; flex-wrap: wrap; }
-  .article .cat { font-size: 11.2px; background: var(--cat-bg); color: var(--cat-color); padding: 2px 8px; border-radius: 8px; font-weight: 600; }
-  .article .senti { font-size: 11.2px; padding: 2px 8px; border-radius: 8px; font-weight: 600; }
+  .article .cat { font-size: 11.2px; background: var(--cat-bg); color: var(--cat-color); padding: 2px 8px; border-radius: 3px; font-weight: 600; }
+  .article .senti { font-size: 11.2px; padding: 2px 8px; border-radius: 3px; font-weight: 600; }
   .senti.pos { background: var(--pos-bg); color: var(--pos-text); }
   .senti.neu { background: var(--neu-bg); color: var(--neu-text); }
   .senti.neg { background: var(--neg-senti-bg, #f0e6e6); color: var(--neg); }
   .article .date { font-size: 11px; color: var(--muted2); margin-left: auto; }
   .article .title { font-size: 14.5px; font-weight: 700; margin-bottom: 5px; color: var(--article-title); }
-  .article .summary { font-size: 12.5px; color: var(--summary-text); line-height: 1.6; background: var(--summary-bg); border-radius: 8px; padding: 8px 12px; }
+  .article .summary { font-size: 12.5px; color: var(--summary-text); line-height: 1.6; background: var(--summary-bg); border-radius: 3px; padding: 8px 12px; }
   .article .summary .ai { font-size: 10.5px; color: var(--ai-color); font-weight: 700; margin-right: 6px; }
   .list-count { font-size: 12px; color: var(--muted); margin-bottom: 8px; }
 
@@ -638,13 +653,13 @@
   .more-btn { padding: 9px 34px; border: 1px solid var(--input-border); border-radius: 999px; background: var(--surface); font-size: 13px; font-weight: 600; color: var(--accent); cursor: pointer; }
   .more-btn:hover { border-color: var(--accent); }
 
-  .load-error { background: #fdebec; border: 1px solid #f5c2c5; color: #c62828; border-radius: 12px; padding: 16px; font-size: 13px; line-height: 1.7; margin-bottom: 16px; }
+  .load-error { background: #fdebec; border: 1px solid #f5c2c5; color: #c62828; border-radius: 3px; padding: 16px; font-size: 13px; line-height: 1.7; margin-bottom: 16px; }
 
   /* 목록 아래쪽에서 위쪽 카드로 한 번에 돌아가기 */
   .to-top { position: fixed; right: 22px; bottom: 22px; z-index: 60;
     width: 46px; height: 46px; border-radius: 50%; border: 1px solid var(--border);
     background: var(--surface); color: var(--cat-color); font-size: 17px; font-weight: 700;
-    cursor: pointer; box-shadow: 0 4px 14px rgba(0,0,0,.12); font-family: inherit;
+    cursor: pointer; box-shadow: none; font-family: inherit;
     display: none; align-items: center; justify-content: center; padding: 0; }
   .to-top.on { display: flex; }
   .to-top:hover { background: var(--accent-bg); }
@@ -675,8 +690,8 @@
   body.dark .senti.neg { background: #A85F5F; color: #e2e2e2; }
 
   /* Flatpickr 커스텀 스타일 */
-  .flatpickr-calendar { font-family: 'Pretendard', sans-serif; font-size: 13px; border: 1px solid #e0e0e0; box-shadow: 0 2px 10px rgba(0,0,0,.08); background: #ffffff; border-radius: 8px; padding: 4px; }
-  .flatpickr-day { color: #333; border-radius: 4px; border: none; }
+  .flatpickr-calendar { font-family: 'Pretendard', sans-serif; font-size: 13px; border: 1px solid #e0e0e0; box-shadow: none; background: #ffffff; border-radius: 3px; padding: 4px; }
+  .flatpickr-day { color: #333; border-radius: 2px; border: none; }
   .flatpickr-day.selected, .flatpickr-day.selected:hover { background: var(--chip-active-bg); border-color: var(--chip-active-bg); color: #fff; }
   .flatpickr-day:hover:not(.flatpickr-disabled) { background: #f0f0f0; }
   .flatpickr-day.flatpickr-disabled, .flatpickr-day.flatpickr-disabled:hover { color: #d0d0d0; background: none; cursor: default; }
@@ -685,7 +700,7 @@
   .flatpickr-current-month .flatpickr-monthDropdown-months, .flatpickr-current-month input.cur-year { color: #333; font-weight: 600; }
   .flatpickr-prev-month svg, .flatpickr-next-month svg { fill: #888; }
   .flatpickr-prev-month:hover svg, .flatpickr-next-month:hover svg { fill: #333; }
-  body.dark .flatpickr-calendar { background: #2e2e2e; border-color: #444; box-shadow: 0 2px 10px rgba(0,0,0,.3); }
+  body.dark .flatpickr-calendar { background: #2e2e2e; border-color: #444; box-shadow: none; }
   body.dark .flatpickr-day { color: #ccc; }
   body.dark .flatpickr-day:hover:not(.flatpickr-disabled) { background: #3a3a3a; }
   body.dark .flatpickr-day.selected, body.dark .flatpickr-day.selected:hover { background: var(--chip-active-bg); border-color: var(--chip-active-bg); color: #fff; }
@@ -707,7 +722,7 @@
 
   /* AI 브리핑 — 선택 기간의 분석 결과를 문장으로 제시 */
   .ai-brief { background: var(--surface); border: 1px solid var(--border);
-    border-left: 4px solid var(--chip-active-bg); border-radius: 8px;
+    border-left: 4px solid var(--chip-active-bg); border-radius: 3px;
     padding: 14px 18px 16px; margin-bottom: 16px; }
   .ai-brief-head { display: flex; align-items: center; gap: 9px; margin-bottom: 9px; flex-wrap: wrap; }
   .ai-badge { background: var(--chip-active-bg); color: #fff; font-size: 11px; font-weight: 700;
@@ -718,7 +733,7 @@
   .ai-brief-body b { color: var(--stat-value); font-weight: 800; }
   .ai-brief-body .warn { color: var(--neg); font-weight: 800; }
   .ai-brief-issues { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 11px; }
-  .ai-issue { background: var(--summary-bg); border: 1px solid var(--border); border-radius: 8px;
+  .ai-issue { background: var(--summary-bg); border: 1px solid var(--border); border-radius: 3px;
     padding: 7px 12px; font-size: 12px; color: var(--summary-text); max-width: 100%; }
   .ai-issue .tag { color: var(--neg); font-weight: 700; margin-right: 6px; }
 
@@ -726,6 +741,114 @@
   .article .title a { color: inherit; text-decoration: none; }
   .article .title a:hover { text-decoration: underline; text-underline-offset: 3px; }
   .article .title .ext { font-size: 11px; color: var(--muted2); margin-left: 5px; font-weight: 500; }
+
+  /* ── 조판 ─────────────────────────────────────────────────
+     이 화면은 언론보도를 다루는 업무 도구다. 편집국과 관보의 조판을 따른다.
+     둥근 카드가 아니라 각진 면과 괘선으로 나눈다. 심사에서 받은
+     "너무 기본 AI의 UI를 그냥 따랐잖아요"라는 지적에 대한 답이다. */
+
+  /* 누르는 것은 각지게. 알약 단추는 상태 표시와 헷갈리고 도구답지 않다.
+     알약은 '지금 어떤 상태인가'를 나타내는 꼬리표에만 남긴다. */
+  .chip, .act-btn, .scope-btn, .fb-way, .fb-go, .rp-go, .more-btn,
+  .mn-chips span, .cat-pick span, .kw, .date-input, #search,
+  .watch-form input, .watch-form button, #darkToggle, .simple-link {
+    border-radius: 2px;
+  }
+  .todo-state, .senti, .cat, .badge, .tab-alert, .bw-c, .mn-bar, .ml-bar,
+  .mn-bar i, .ml-bar i, .heat .hbar, .bench .btrack, .bench .bfill {
+    border-radius: 999px;
+  }
+
+  /* 숫자는 자릿수가 맞아야 표에서 읽힌다. */
+  .stat .value, .todo-score, .bench .bval, .ml-kpi .v, .mn-sum .mn-big,
+  .wk-v, .bu-tb td, .ml-tb td, .heat .hc, table td, .sw-v, .bh-t {
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum" 1;
+  }
+
+  /* 제목은 굵고 좁게. 큰 글씨가 아니라 밀도로 위계를 만든다. */
+  header h1 { letter-spacing: -0.03em; font-weight: 800; }
+  .card h3, .wy h3, .rp h3, .bw-t, .bh-t, .ml-h, .bu-t {
+    letter-spacing: -0.02em;
+  }
+
+  /* 면과 면 사이는 그림자가 아니라 선으로 나눈다. */
+  .card, .wy, .rp, .fb, .fb-panel, .today, .ai-brief, .stat {
+    box-shadow: none;
+  }
+  .card, .wy, .rp { border-color: var(--border); }
+
+  /* 표는 괘선만 남긴다. 세로줄은 긋지 않는다. */
+  .bu-tb, .ml-tb { border-collapse: collapse; }
+  .bu-tb th, .ml-tb th {
+    border-bottom: 1.5px solid var(--title); color: var(--title);
+    font-weight: 700; letter-spacing: -0.01em;
+  }
+
+  /* 탭은 문서의 색인처럼. 밑줄만 남기고 배경을 두지 않는다. */
+  .tabs { border-bottom-width: 1.5px; }
+  .tab { border-radius: 0; }
+
+  /* 상단 출처 줄은 관보의 발행 정보처럼 얇고 조용하게. */
+  .src-bar { letter-spacing: -0.01em; }
+
+  /* ── 제호 ─────────────────────────────────────────────────
+     신문 제호처럼 크고 좁게 짜고, 아래를 굵은 규칙선으로 닫는다.
+     장식이 아니라 "여기부터 이 문서"라는 경계를 만드는 선이다. */
+  header {
+    padding: 18px 24px 14px;
+    border-bottom: 2.5px solid var(--title);
+    align-items: baseline;
+  }
+  header h1 {
+    font-size: 25px; font-weight: 800; letter-spacing: -0.045em;
+    line-height: 1.1;
+  }
+  header h1 .pin { display: none; }
+  header .badge {
+    background: none; border: 1px solid var(--border); color: var(--muted);
+    border-radius: 2px; font-weight: 600; padding: 2px 8px;
+    font-variant-numeric: tabular-nums;
+  }
+  header .clock { font-variant-numeric: tabular-nums; letter-spacing: -0.01em; }
+  header .simple-link, header #darkToggle {
+    border: 1px solid var(--input-border); background: none; color: var(--muted);
+    font-size: 12.5px; padding: 5px 11px;
+  }
+  header .simple-link:hover, header #darkToggle:hover {
+    border-color: var(--title); color: var(--title);
+  }
+
+  /* ── 지표 띠 ──────────────────────────────────────────────
+     똑같은 흰 상자 넷은 가장 전형적인 대시보드 모양이다.
+     신문의 지표 띠처럼 한 덩어리로 두고 세로 괘선으로만 나눈다. */
+  .stats {
+    gap: 0; margin-bottom: 22px;
+    background: var(--surface); border: 1px solid var(--border);
+    border-left: 3px solid var(--title);
+  }
+  .stat {
+    background: none; border: none; border-radius: 0;
+    border-left: 1px solid var(--border);
+    padding: 15px 20px;
+  }
+  .stat:first-child { border-left: none; }
+  .stat .label {
+    font-size: 11px; font-weight: 700; letter-spacing: 0.02em;
+    color: var(--muted); margin-bottom: 6px;
+  }
+  .stat .value { letter-spacing: -0.045em; line-height: 1.05; }
+  @media (max-width: 720px) {
+    .stats { grid-template-columns: repeat(2, 1fr); }
+    .stat:nth-child(3) { border-left: none; }
+    .stat:nth-child(n+3) { border-top: 1px solid var(--border); }
+  }
+
+  /* 기간 막대도 상자를 걷고 줄로 남긴다. */
+  .period-bar { border-radius: 0; }
+
+  /* '오늘 확인할 것'은 이 화면의 1층이다. 왼쪽 굵은 선으로 그 위치를 표시한다. */
+  .today { border-left-width: 3px; }
 </style>
 </head>
 <body>
@@ -737,11 +860,11 @@
 </div>
 
 <header>
-  <h1><span class="pin">📍</span> 핀포인트 — 화성시 언론보도 대시보드</h1>
+  <h1><span class="pin"></span>핀포인트 — 화성시 언론보도 대시보드</h1>
   <span class="badge" id="badge">데이터 불러오는 중…</span>
   <span class="clock" id="clock"></span>
-  <a class="simple-link" href="m.html">📱 간편 보기</a>
-  <button id="darkToggle" onclick="toggleDark()">🌙 다크</button>
+  <a class="simple-link" href="m.html">간편 보기</a>
+  <button id="darkToggle" onclick="toggleDark()">어두운 화면</button>
 </header>
 
 <div class="wrap">
@@ -948,7 +1071,7 @@
         「행정업무의 운영 및 혁신에 관한 규정」을 확인해 날짜 표기·붙임·끝 표시를 맞췄습니다.
         인쇄해서 그대로 결재선에 올리거나 메일로 보내실 수 있습니다.
       </div>
-      <a class="rp-go" href="report.html">📄 이번 주 보고서 열기</a>
+      <a class="rp-go" href="report.html">이번 주 보고서 열기</a>
       <div class="rp-feat">
         <div><b>개조식 서술</b>□ · ○ · - 항목기호로 정리합니다. 화면 그림을 그대로 넣지 않습니다.</div>
         <div><b>공문서 표기</b>날짜는 2026. 8. 25. 형식으로, 붙임과 끝 표시를 규정대로 답니다.</div>
@@ -1078,7 +1201,8 @@
         저희는 공무원이 아니라서 실제 업무 흐름을 다 알지 못합니다.
         분류 기준이 실무 감각과 다르거나, 화면에 없어서 불편한 것이 있으면 알려 주십시오.
         받은 의견은 다음 판에 반영하고, <b>무엇을 어떻게 고쳤는지 이 화면에 적겠습니다.</b></div>
-      <button class="fb-go" id="fbBtn">✉ 의견 보내기</button>
+      <button class="fb-go" id="fbBtn">의견 보내기</button>
+      <div id="fbPanel"></div>
     </div>
   </div><!-- /근거 -->
 </div>
@@ -1129,14 +1253,14 @@ function isDark() {
 function toggleDark() {
   const on = document.body.classList.toggle('dark');
   localStorage.setItem('darkMode', on ? '1' : '0');
-  document.getElementById('darkToggle').textContent = on ? '☀️ 라이트' : '🌙 다크';
+  document.getElementById('darkToggle').textContent = on ? '밝은 화면' : '어두운 화면';
   applyChartDefaults();
   if (NEWS.length) updateDashboard();
 }
 if (localStorage.getItem('darkMode') === '1') {
   document.body.classList.add('dark');
   document.addEventListener('DOMContentLoaded', () => {
-    document.getElementById('darkToggle').textContent = '☀️ 라이트';
+    document.getElementById('darkToggle').textContent = '밝은 화면';
   });
 }
 
@@ -2898,7 +3022,7 @@ function renderBenchHist(hist) {
   if (!box) return;
 
   // 갱신 주기는 이력이 없어도 밝힌다. 매일 도는 줄 알면 화면이 거짓말을 하는 셈이다.
-  const cycle = `<div class="bh-cycle"><span class="ic">🗓</span><span>
+  const cycle = `<div class="bh-cycle"><span class="ic"></span><span>
     <b>대조는 주 1회(월요일 오전 6시) 자동으로 갱신됩니다.</b>
     화성시 기사 수집은 매일 돌지만 대조는 그렇지 않습니다.
     도시당 표본이 80~85건뿐이라 <b>부정 기사 한 건 차이가 비율을 약 1.2%p 움직입니다.</b>
@@ -3319,18 +3443,46 @@ function feedbackText() {
   ].join("\n");
 }
 
+// mailto: 는 기본 메일 앱이 없으면 눌러도 아무 일이 일어나지 않는다.
+// 그래서 한 가지 길만 두지 않고 고르게 한다. 복사가 가장 확실하므로 앞에 둔다.
 function sendFeedback() {
+  const panel = document.getElementById("fbPanel");
+  if (!panel) return;
+  if (panel.innerHTML) { panel.innerHTML = ""; return; }
+
+  const sub = "[핀포인트] 대시보드 사용 의견";
   const body = feedbackText();
-  const url = "mailto:" + FB_TO
-    + "?subject=" + encodeURIComponent("[핀포인트] 대시보드 사용 의견")
-    + "&body=" + encodeURIComponent(body);
-  // 주소가 너무 길면 메일 앱이 열리다 만다. 그때는 복사로 돌린다.
-  if (url.length < 1900) {
-    try { window.location.href = url; return; } catch (e) {}
-  }
-  navigator.clipboard?.writeText(body).then(
-    () => alert("의견 양식을 복사했습니다.\n메일에 붙여넣어 " + FB_TO + " 로 보내 주십시오."),
-    () => prompt("아래 내용을 복사해 " + FB_TO + " 로 보내 주십시오.", body));
+  const enc = encodeURIComponent;
+  const gmail = "https://mail.google.com/mail/?view=cm&fs=1&to=" + enc(FB_TO)
+    + "&su=" + enc(sub) + "&body=" + enc(body);
+  const outlook = "https://outlook.live.com/mail/0/deeplink/compose?to=" + enc(FB_TO)
+    + "&subject=" + enc(sub) + "&body=" + enc(body);
+  const mailto = "mailto:" + FB_TO + "?subject=" + enc(sub) + "&body=" + enc(body);
+
+  panel.innerHTML = `
+    <div class="fb-panel">
+      <div class="fb-to">받는 곳 <b>${FB_TO}</b> · 아래 양식을 그대로 쓰셔도 되고 고쳐 쓰셔도 됩니다.</div>
+      <div class="fb-ways">
+        <button class="fb-way main" id="fbCopy">본문 복사</button>
+        <a class="fb-way" href="https://mail.naver.com/" target="_blank" rel="noopener">네이버 메일 열기</a>
+        <a class="fb-way" href="${gmail}" target="_blank" rel="noopener">Gmail로 쓰기</a>
+        <a class="fb-way" href="${outlook}" target="_blank" rel="noopener">Outlook으로 쓰기</a>
+        <a class="fb-way" href="${mailto}">메일 앱으로 열기</a>
+      </div>
+      <textarea class="fb-text" id="fbText" spellcheck="false">${escText(body)}</textarea>
+      <div class="fb-done" id="fbDone"></div>
+    </div>`;
+
+  const ta = document.getElementById("fbText");
+  document.getElementById("fbCopy").addEventListener("click", () => {
+    const done = document.getElementById("fbDone");
+    const ok = () => { done.textContent = "복사했습니다. 메일에 붙여넣어 " + FB_TO + " 로 보내 주십시오."; };
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(ta.value).then(ok, () => { ta.select(); document.execCommand("copy"); ok(); });
+    } else {
+      ta.select(); document.execCommand("copy"); ok();
+    }
+  });
 }
 
 function restoreTab() {
