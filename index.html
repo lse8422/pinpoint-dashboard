@@ -926,7 +926,7 @@
      똑같은 흰 상자 넷은 가장 전형적인 대시보드 모양이다.
      신문의 지표 띠처럼 한 덩어리로 두고 세로 괘선으로만 나눈다. */
   .stats {
-    gap: 0; margin-bottom: 22px;
+    gap: 0; margin-bottom: 16px;
     background: var(--surface); border: 1px solid var(--border);
     border-left: 3px solid var(--title);
   }
@@ -1000,6 +1000,25 @@
 
   <div class="tabpanel on" data-panel="today">
 
+  <!-- 주간보고서와 같은 순서로 둔다. 개요(숫자) → 총평(브리핑) → 세부(확인할 것).
+       화면과 문서가 같은 차례를 쓰면 담당자가 두 번 배우지 않아도 된다. -->
+  <div class="stats">
+    <div class="stat"><div class="label">전체 기사</div><div class="value" id="stTotal">-</div><div class="sub">선택 기간 내</div></div>
+    <div class="stat"><div class="label">부정 보도</div><div class="value neg" id="stNeg">-</div><div class="sub" id="stNegRate"></div></div>
+    <div class="stat"><div class="label">최다 보도 분야</div><div class="value word" id="stTopCat">-</div><div class="sub">기사 수 기준</div></div>
+    <div class="stat"><div class="label">핵심 키워드</div><div class="value word" id="stTopKw">-</div><div class="sub">언급 빈도 1위</div></div>
+  </div>
+
+  <div class="ai-brief" id="aiBrief">
+    <div class="ai-brief-head">
+      <span class="ai-badge">AI 브리핑</span>
+      <span class="ai-brief-title" id="aiBriefNote">선택 기간의 언론 동향을 AI 분석 결과로 요약했습니다</span>
+      <span class="ai-brief-time" id="aiBriefTime"></span>
+    </div>
+    <div class="ai-brief-body" id="aiBriefBody">분석 중…</div>
+
+  </div>
+
   <div class="today" id="todayCard" style="display:none;">
     <div class="today-head">
       <span class="today-title">오늘 확인할 것</span>
@@ -1017,23 +1036,6 @@
       확정은 담당자가 하십시오. 대응 상태도 담당자가 직접 누르는 값이며 이 브라우저에만 저장됩니다.</div>
     <div class="todo-tie" id="todoTie"></div>
     <div class="trust" id="trustBox"></div>
-  </div>
-
-  <div class="ai-brief" id="aiBrief">
-    <div class="ai-brief-head">
-      <span class="ai-badge">AI 브리핑</span>
-      <span class="ai-brief-title" id="aiBriefNote">선택 기간의 언론 동향을 AI 분석 결과로 요약했습니다</span>
-      <span class="ai-brief-time" id="aiBriefTime"></span>
-    </div>
-    <div class="ai-brief-body" id="aiBriefBody">분석 중…</div>
-
-  </div>
-
-  <div class="stats">
-    <div class="stat"><div class="label">전체 기사</div><div class="value" id="stTotal">-</div><div class="sub">선택 기간 내</div></div>
-    <div class="stat"><div class="label">부정 보도</div><div class="value neg" id="stNeg">-</div><div class="sub" id="stNegRate"></div></div>
-    <div class="stat"><div class="label">최다 보도 분야</div><div class="value word" id="stTopCat">-</div><div class="sub">기사 수 기준</div></div>
-    <div class="stat"><div class="label">핵심 키워드</div><div class="value word" id="stTopKw">-</div><div class="sub">언급 빈도 1위</div></div>
   </div>
 
   </div><!-- /오늘 -->
