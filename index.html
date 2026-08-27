@@ -397,6 +397,21 @@
 
   /* 대응 연결 — 무엇이 문제인지까지만 보여주고 멈추면 결재가 안 올라간다.
      소관 후보 부서와 대응 상태를 이슈에 붙인다. */
+  /* 비율을 만든 기사 — 숫자 옆에 실제 기사를 둔다. */
+  .bw { margin-top: 16px; padding-top: 15px; border-top: 1px solid var(--border); }
+  .bw-h { display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap; margin-bottom: 4px; }
+  .bw-t { font-size: 14.5px; font-weight: 800; color: var(--title); }
+  .bw-list { display: flex; flex-direction: column; }
+  .bw-i { display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap;
+    padding: 8px 2px; border-bottom: 1px solid var(--border); font-size: 13px; }
+  .bw-i:last-child { border-bottom: none; }
+  .bw-d { font-size: 11.5px; color: var(--muted2); flex-shrink: 0; width: 62px; }
+  .bw-i a { color: var(--article-title); text-decoration: none; flex: 1 1 260px; line-height: 1.5; }
+  .bw-i a:hover { text-decoration: underline; }
+  .bw-c { font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 999px;
+    background: var(--cat-bg); color: var(--cat-color); flex-shrink: 0; }
+  .bw-p { font-size: 11px; color: var(--muted); flex-shrink: 0; }
+
   /* 대조 추세 — 회차별 이력이 쌓이면 그린다. */
   .bh { margin-top: 16px; padding-top: 15px; border-top: 1px solid var(--border); }
   .bh-h { display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap; margin-bottom: 9px; }
@@ -873,6 +888,7 @@
     <div class="chart-note" id="benchLead" style="display:block; margin-bottom:10px;"></div>
     <div id="benchRows"></div>
     <div class="chart-note" id="benchNote" style="display:block;"></div>
+    <div id="benchWhat"></div>
     <div id="benchHist"></div>
     <div id="benchUse"></div>
   </div>
@@ -1375,9 +1391,20 @@ function scoreBasis() {
     실제로 뉴스의 37.9%가 부정 사건·사고이지만 중복과 후속 보도를 빼면 1.6%로 줄어듭니다
     <span class="sw-cite">(오효정 외, 2016)</span>. 그래서 건수는 참고만 합니다.
 
-    ${d.n ? `<br><br><b>오래감의 기준을 7일로 둔 이유</b> — 지금까지 묶인 이슈 <b>${d.n}건</b>의
-      지속일 중앙값이 <b>${d.med}일</b>이고 <b>${d.pct}%</b>가 7일 안에 끝났습니다.
-      우리 데이터에서 직접 재서 정했습니다. ` : ""}
+    ${ML && ML.지속분포 ? `<br><br><b>오래감의 기준을 7일로 둔 이유</b> —
+      모은 기사를 사건으로 묶으면 <b>${ML.지속분포.사건수.toLocaleString()}개 사건</b>이 되는데,
+      지속일 중앙값이 <b>${ML.지속분포.중앙값}일</b>이고
+      <b>7일 이상 이어진 사건은 ${ML.지속분포["7일이상비율"]}%</b>뿐입니다.
+      7일은 흔한 값이 아니라 <b>드문 경우를 골라내는 문턱</b>이라 가산점(10점)으로 뒀습니다.
+      ${ML.지속예측 ? `첫날 정보(매체 수·기사 수)만으로 오래 갈 사건을 맞히려 해보면
+        F1이 <b>${ML.지속예측.F1.toFixed(3)}</b>로 거의 못 맞힙니다.
+        그래서 <b>미리 예측해 점수를 주지 않고 실제로 이어진 뒤에 가산</b>합니다.` : ""}` : ""}
+    ${ML && ML.점수점검 && ML.점수점검.상관["매체 수-기사 수"] >= 0.6 ? `
+      <br><br><b>스스로 찾은 결함</b> — 항목값을 표준화해 상관을 재보니
+      <b>매체 수와 기사 수의 상관이 ${ML.점수점검.상관["매체 수-기사 수"]}</b>로 높았습니다.
+      주성분분석에서도 세 항목이 사실상 <b>${ML.점수점검.필요축수}개 축</b>이었습니다.
+      <b>퍼진 정도(30점)와 기사 수(15점)가 겹치는 것을 두 번 세고 있다는 뜻</b>입니다.
+      감추지 않고 적어 둡니다. 다음 판에서 두 항목을 합치거나 가중치를 조정하겠습니다.` : ""}
 
     <br><br><b>남은 한계</b> — 이슈 생존 기간은 유형별로 다르다는 연구가 있습니다
     <span class="sw-cite">(유호선·명현·오효정, 2017 · 김영곤·신다윗, 2021)</span>.
@@ -2748,6 +2775,8 @@ function renderMention(rows) {
 
 // ── 머신러닝 점검 ───────────────────────────────────────────
 // ml_analysis.py 가 만든 결과를 읽어 그린다. 수치를 코드에 박지 않는다.
+let ML = null;
+
 async function loadML() {
   try {
     const r = await fetch("ml_report.json");
@@ -2758,7 +2787,9 @@ async function loadML() {
 
 function renderML(m) {
   const card = document.getElementById("mlCard");
-  if (!card || !m) return;
+  if (!m) return;
+  ML = m;                       // 점수 근거에서도 쓴다
+  if (!card) return;
   const f3 = v => (v == null ? "-" : v.toFixed(3));
   const leak = m["누수"] || {};
   const cmp = m["모델비교"] || {};
@@ -2918,6 +2949,53 @@ function renderBenchHist(hist) {
       scales: { y: { beginAtZero: true, title: { display: true, text: "부정 비율(%)" } } },
     },
   });
+}
+
+// ── 그 부정 보도가 무엇인가 ─────────────────────────────────
+// 조진숙 센터장이 견주기 화면을 보며 물은 것.
+//   "그 내용이 뭔지 다른 시와 비교해서 왜 나온"
+//   "부정적인 게 몇 퍼센트가 나왔고 우리가 몇이야, 그다음에 그 부정적인 게 뭔데"
+// 비율만 있으면 행정 대응이 안 나온다. 그 비율을 만든 기사를 바로 옆에 둔다.
+let benchCity = "화성시";
+
+function renderBenchWhat(rows, us) {
+  const box = document.getElementById("benchWhat");
+  if (!box) return;
+  const has = rows.some(c => (c.neg_items || []).length);
+  if (!has) {
+    box.innerHTML = `<div class="bw"><div class="bw-t">그 부정 보도가 무엇입니까</div>
+      <div class="bu-n">비율을 만든 기사 목록은 <b>다음 수집분부터</b> 담깁니다.
+      비율만 보여주고 그 비율을 만든 기사를 못 보여주면 행정 대응으로 이어지지 않습니다.
+      도시마다 최근 8건까지 함께 저장하도록 수집 코드를 고쳐 두었습니다.</div></div>`;
+    return;
+  }
+  if (!rows.some(c => c.name === benchCity)) benchCity = rows[0].name;
+  const cur = rows.find(c => c.name === benchCity);
+  const items = cur.neg_items || [];
+
+  box.innerHTML = `<div class="bw">
+    <div class="bw-h"><span class="bw-t">그 부정 보도가 무엇입니까</span>
+      <span class="issues-note">비율을 만든 기사를 도시별로 봅니다</span></div>
+    <div class="mn-chips" id="bwChips">${rows.map(c =>
+      `<span data-c="${c.name}"${c.name === benchCity ? ' class="on"' : ""}>${c.name} ${c.neg}건</span>`).join("")}</div>
+    ${items.length ? `<div class="bw-list">${items.map(n => `
+      <div class="bw-i">
+        <span class="bw-d">${(n.date || "").replaceAll("-", ".")}</span>
+        <a href="${escArt(n.url || ("https://news.google.com/search?q=" + encodeURIComponent(n.title)))}"
+           target="_blank" rel="noopener">${escArt(n.title)}</a>
+        ${n.cat ? `<span class="bw-c">${CAT_LABEL[n.cat] || n.cat}</span>` : ""}
+        ${n.cat && DEPT[n.cat] && cur.name === "화성시"
+          ? `<span class="bw-p">${DEPT[n.cat][0]}</span>` : ""}
+      </div>`).join("")}</div>`
+      : `<div class="bu-n">이 도시는 저장된 부정 기사가 없습니다.</div>`}
+    <div class="bu-n">최근 8건까지만 담습니다. 화성시 기사에는 <b>분야에 해당하는 소관 후보 부서</b>를 함께 표시합니다.
+      다른 시 기사를 함께 보시면 <b>같은 성격의 사안인지, 우리만 겪는 일인지</b> 가늠할 수 있습니다.</div>
+  </div>`;
+
+  document.querySelectorAll("#bwChips span").forEach(el => el.addEventListener("click", () => {
+    benchCity = el.dataset.c;
+    renderBenchWhat(rows, us);
+  }));
 }
 
 // ── 이 값을 어디에 쓰는가 ───────────────────────────────────
@@ -3092,6 +3170,7 @@ function renderBench(d) {
         : "")
     + `따라서 <b>도시 성과를 견주는 값이 아니라</b>, 같은 방법으로 대조 통계를 만들 수 있다는 것을 보이는 <b>탐색 자료</b>입니다.`;
 
+  renderBenchWhat(rows, us);
   renderBenchUse(d, rows, us);
 
   card.style.display = "";
@@ -3216,7 +3295,7 @@ function paintTabAlert() {
 
 // 담당자 의견 — 쓰는 사람의 말을 듣는 통로를 화면 안에 둔다.
 // 메일 앱이 없는 환경도 있으므로 실패하면 본문을 복사해 준다.
-const FB_TO = "dsk00700@gmail.com";
+const FB_TO = "dkmdkm999@naver.com";
 
 function feedbackText() {
   const d = new Date();

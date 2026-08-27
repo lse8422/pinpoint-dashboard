@@ -122,6 +122,7 @@ def run_city(api_key, city):
 
     kept, neg = 0, 0
     cats = {}          # 분야별 {건수, 부정}
+    neg_items = []     # 부정으로 판정된 기사. 비율만 보여주면 "그게 뭔데"에 답할 수 없다.
     for i in range(0, len(rows), BATCH):
         chunk = rows[i:i + BATCH]
         try:
@@ -150,6 +151,10 @@ def run_city(api_key, city):
             kept += 1
             if senti == "부정":
                 neg += 1
+                src = chunk[n - 1]
+                neg_items.append({"title": src["title"], "date": src["date"],
+                                  "url": src.get("url", ""), "source": src.get("source", ""),
+                                  "cat": r.get("cat") if r.get("cat") in CATS else None})
             # 분야가 우리 7종에 없으면 분야별 집계에서만 뺀다. 전체 집계는 그대로 둔다.
             cat = r.get("cat")
             if cat in CATS:
@@ -170,8 +175,11 @@ def run_city(api_key, city):
     if cats:
         print("     분야별: %s" % " · ".join(
             "%s %d/%d" % (k, v["neg"], v["count"]) for k, v in sorted(cats.items())))
+    # 최근 것부터. 파일이 너무 커지지 않게 도시당 8건까지만 둔다.
+    neg_items.sort(key=lambda x: x["date"], reverse=True)
     return {"name": city["name"], "pop": city["pop"],
-            "count": kept, "neg": neg, "ratio": ratio, "cats": cats}
+            "count": kept, "neg": neg, "ratio": ratio, "cats": cats,
+            "neg_items": neg_items[:8]}
 
 
 def main():
@@ -192,7 +200,8 @@ def main():
         "method": "구글 뉴스 RSS를 도시별 단일 검색어로 같은 날 같은 조건으로 수집하고, "
                   "같은 AI 모델·같은 지시문으로 분야와 긍부정을 판정했습니다. "
                   "기사 수는 수집 시점에 좌우되므로 비교에 쓰지 않고 부정 비율만 견줍니다. "
-                  "분야별 값은 표본이 5건 이상인 분야만 담았습니다.",
+                  "분야별 값은 표본이 5건 이상인 분야만 담았습니다. "
+                  "비율을 만든 부정 기사를 도시마다 최근 8건까지 함께 담았습니다.",
         "cities": sorted(ok, key=lambda c: -c["ratio"]),
     }
     with open(OUT, "w", encoding="utf-8") as f:
