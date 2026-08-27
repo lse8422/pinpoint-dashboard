@@ -12,20 +12,20 @@
      기안문 본문의 글꼴·여백을 정한 규정은 없다. */
   @page { size: A4; margin: 15mm 20mm; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: Pretendard, 'Malgun Gothic', sans-serif; background: #E9EBE9;
+  body { font-family: Pretendard, 'Malgun Gothic', sans-serif; background: #EAEBEC;
     color: #101418; line-height: 1.6; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 
-  .bar { background: #2E4628; color: #fff; padding: 10px 18px; display: flex; gap: 12px;
+  .bar { background: #17335c; color: #fff; padding: 10px 18px; display: flex; gap: 12px;
     align-items: center; flex-wrap: wrap; font-size: 13px; }
-  .bar .home { color: #cfe0c9; text-decoration: none; font-weight: 700; }
+  .bar .home { color: #CBD6E4; text-decoration: none; font-weight: 700; }
   .bar .home:hover { color: #fff; }
   .bar .sp { flex: 1; }
   .bar button, .bar select { font-family: inherit; font-size: 13px; padding: 5px 12px;
     border-radius: 5px; border: 1px solid rgba(255,255,255,.35); background: rgba(255,255,255,.08);
     color: #fff; cursor: pointer; }
   .bar button:hover { background: rgba(255,255,255,.2); }
-  .bar button.go { background: #fff; color: #2E4628; font-weight: 700; border-color: #fff; }
-  .bar .hint { color: #b9cdb3; font-size: 11.5px; }
+  .bar button.go { background: #fff; color: #17335c; font-weight: 700; border-color: #fff; }
+  .bar .hint { color: #B7C4D6; font-size: 11.5px; }
 
   .sheet { width: 210mm; margin: 18px auto; background: #fff; padding: 15mm 20mm;
     box-shadow: 0 2px 14px rgba(0,0,0,.13); }
@@ -36,7 +36,7 @@
   .doc-lead { font-size: 12.5px; margin: 12px 0 16px; }
   table.info { width: 100%; border-collapse: collapse; font-size: 11.5px; margin-bottom: 18px; }
   table.info th, table.info td { border: 1px solid #aeb5ba; padding: 5px 9px; }
-  table.info th { background: #F1F3F1; width: 66px; font-weight: 700; text-align: center;
+  table.info th { background: #F1F2F3; width: 66px; font-weight: 700; text-align: center;
     letter-spacing: 2px; white-space: nowrap; }
   table.info td { width: 37%; }
 
@@ -48,31 +48,31 @@
 
   ul { list-style: none; margin: 0 0 5px 0; padding-left: 16px; }
   li { font-size: 12.5px; margin-bottom: 3px; text-indent: -16px; padding-left: 16px; }
-  li::before { content: "○ "; color: #2E4628; font-weight: 700; }
+  li::before { content: "○ "; color: #17335c; font-weight: 700; }
   li ul { margin: 3px 0 5px 0; padding-left: 17px; }
   li li { font-size: 12px; color: #333c47; }
   li li::before { content: "- "; color: #7a8599; }
   b { font-weight: 800; }
   .neg { color: #A03D3D; }
-  .pos { color: #2E4628; }
+  .pos { color: #17335c; }
 
   /* 총평 — 통계 뒤에 해석 한 문단을 붙이는 것이 실무 보고서의 관행이다 */
-  .verdict { font-size: 12.5px; line-height: 1.75; background: #F4F6F3;
-    border: 1px solid #d5dfd1; border-radius: 3px; padding: 10px 13px 10px 30px;
+  .verdict { font-size: 12.5px; line-height: 1.75; background: #F4F5F7;
+    border: 1px solid #D3DAE3; border-radius: 3px; padding: 10px 13px 10px 30px;
     text-indent: -17px; }
-  .verdict::before { content: "➡ "; color: #2E4628; font-weight: 800; }
+  .verdict::before { content: "➡ "; color: #17335c; font-weight: 800; }
 
   /* ── 표 ── */
   table.grid { width: 100%; border-collapse: collapse; font-size: 11.5px; margin: 6px 0 3px; }
   table.grid th, table.grid td { border: 1px solid #aeb5ba; padding: 5px 8px; text-align: left;
     vertical-align: top; }
-  table.grid thead th { background: #F1F3F1; text-align: center; font-weight: 700; white-space: nowrap; }
+  table.grid thead th { background: #F1F2F3; text-align: center; font-weight: 700; white-space: nowrap; }
   table.grid td.n, table.grid th.n { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
   table.grid td.c, table.grid th.c { text-align: center; white-space: nowrap; }
-  table.grid tr.us td { background: #EEF3ED; font-weight: 800; }
-  table.grid tr.sum td { background: #F7F8F7; font-weight: 800; }
+  table.grid tr.us td { background: #EDF0F4; font-weight: 800; }
+  table.grid tr.sum td { background: #F7F8F9; font-weight: 800; }
   .up { color: #A03D3D; font-weight: 700; }
-  .down { color: #2E4628; font-weight: 700; }
+  .down { color: #17335c; font-weight: 700; }
   .flat { color: #8a94a6; }
   .sub { color: #6b7686; font-size: 10.5px; display: block; margin-top: 1px; }
   a { color: inherit; }
@@ -95,23 +95,23 @@
   .mail-box { background: #fff; border-radius: 8px; width: min(680px, 100%);
     max-height: 88vh; display: flex; flex-direction: column; overflow: hidden;
     box-shadow: 0 8px 40px rgba(0,0,0,.3); }
-  .mail-box .mh { padding: 14px 18px; border-bottom: 1px solid #dfe4dd;
+  .mail-box .mh { padding: 14px 18px; border-bottom: 1px solid #DDE1E6;
     display: flex; align-items: center; gap: 10px; }
   .mail-box .mh b { font-size: 14.5px; color: #17335c; }
   .mail-box .mh .x { margin-left: auto; border: none; background: none; cursor: pointer;
     font-size: 19px; color: #8a94a6; line-height: 1; padding: 2px 6px; }
   .mail-box .ms { padding: 9px 18px; font-size: 11.5px; color: #6b7686;
-    background: #F6F8F5; border-bottom: 1px solid #e6eaf1; line-height: 1.6; }
+    background: #F5F6F8; border-bottom: 1px solid #e6eaf1; line-height: 1.6; }
   .mail-box textarea { flex: 1; min-height: 260px; border: none; resize: none; outline: none;
     padding: 14px 18px; font-family: Consolas, 'Malgun Gothic', monospace;
     font-size: 12px; line-height: 1.65; color: #1A2332; }
-  .mail-box .mf { padding: 12px 18px; border-top: 1px solid #dfe4dd; display: flex; gap: 7px;
+  .mail-box .mf { padding: 12px 18px; border-top: 1px solid #DDE1E6; display: flex; gap: 7px;
     flex-wrap: wrap; align-items: center; }
   .mail-box .mf button { font-family: inherit; font-size: 12.5px; padding: 8px 13px;
-    border-radius: 5px; cursor: pointer; border: 1px solid #c3d0c0; background: #fff; color: #2E4628; }
-  .mail-box .mf button.pri { background: #2E4628; color: #fff; border-color: #2E4628; font-weight: 700; }
+    border-radius: 5px; cursor: pointer; border: 1px solid #C0C9D4; background: #fff; color: #17335c; }
+  .mail-box .mf button.pri { background: #17335c; color: #fff; border-color: #17335c; font-weight: 700; }
   .mail-box .mf .ok { margin-left: auto; align-self: center; font-size: 12px;
-    color: #2E4628; font-weight: 700; opacity: 0; transition: opacity .2s; }
+    color: #17335c; font-weight: 700; opacity: 0; transition: opacity .2s; }
   .mail-box .mf .ok.on { opacity: 1; }
   @media print { .mail-wrap { display: none !important; } }
 
@@ -146,6 +146,9 @@
     /* 인쇄할 때는 화면용 단추와 안내를 뺀다. 결재선에 올라가는 것은 본문뿐이다. */
     .mail, .no-print, button { display: none !important; }
   }
+  /* 화성시 전용색(오렌지)은 글자에 쓰기엔 명암비가 3.01로 낮다.
+     띠 한 줄로만 둔다. 읽는 색이 아니라 어디 자료인지 알리는 표시다. */
+  body::before { content: ""; display: block; height: 4px; background: #E66B1E; }
 </style>
 </head>
 <body>

@@ -18,8 +18,8 @@
 <script src="flatpickr-ko.js"></script>
 <style>
   :root {
-    --bg: #F5F7F5;
-    --text: #618A59;
+    --bg: #F4F5F6;
+    --text: #1a1a1a;
     --surface: #ffffff;
     --border: #e3e8f0;
     --title: #17335c;
@@ -29,7 +29,7 @@
     --muted: #7a8599;
     --muted2: #9aa4b5;
     --chip-text: #4a5568;
-    --chip-active-bg: #4d7045;
+    --chip-active-bg: #17335c;
     --summary-bg: #f8f9fc;
     --summary-text: #4a5568;
     --input-border: #d5dce8;
@@ -39,9 +39,9 @@
     --pos-text: #21507F;
     --neg: #C26060;
     --article-title: #000000;
-    --stat-value: #4d7045;
-    --kw-color: #4d7045;
-    --heat0: #EFF1EE;
+    --stat-value: #1a1a1a;
+    --kw-color: #17335c;
+    --heat0: #EFF0F1;
     --heat1: #E7C9C9;
     --heat2: #D79E9E;
     --heat3: #C26060;
@@ -49,16 +49,16 @@
     --band-pos: #7FA5D0;
     --band-neu: #C9CDD2;
     --heat-late: #B9846F;
-    --badge-bg: #e8f0e6;
-    --badge-color: #4d7045;
-    --cat-bg: #e8f0e6;
-    --cat-color: #3a5631;
-    --ai-color: #4d7045;
+    --badge-bg: #E7ECF3;
+    --badge-color: #17335c;
+    --cat-bg: #EDEFF2;
+    --cat-color: #3A4453;
+    --ai-color: #17335c;
   }
   body.dark .article .senti { font-weight: 500; }
   body.dark {
     --bg: #1a1a1a;
-    --text: #6e9c74;
+    --text: #e4e4e4;
     --surface: #262626;
     --border: #333333;
     --title: #c8c8c8;
@@ -68,7 +68,7 @@
     --muted: #888888;
     --muted2: #888888;
     --chip-text: #a0a0a0;
-    --chip-active-bg: #5b7a5a;
+    --chip-active-bg: #4E6C90;
     --summary-bg: #161616;
     --summary-text: #a8a8a8;
     --input-border: #333333;
@@ -86,13 +86,13 @@
     --band-pos: #4E6C90;
     --band-neu: #3F444A;
     --heat-late: #8A6355;
-    --stat-value: #6e9c74;
-    --kw-color: #6e9c74;
-    --badge-bg: #3d5240;
+    --stat-value: #e4e4e4;
+    --kw-color: #9DB8DD;
+    --badge-bg: #2B3A4E;
     --badge-color: #d4d4d4;
-    --cat-bg: #4a6248;
+    --cat-bg: #333A44;
     --cat-color: #d4d4d4;
-    --ai-color: #6e9c74;
+    --ai-color: #9DB8DD;
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -186,7 +186,7 @@
   .bench .brow.us .bval b { font-size: 16px; }
   .bench .brow.us.good .btrack { border-color: var(--chip-active-bg); }
   .bench .brow.us.bad .btrack { border-color: var(--neg); }
-  /* 좋고 나쁨은 색이 스스로 정한다. 평균보다 낮으면 초록, 높으면 붉게. */
+  /* 좋고 나쁨은 색이 스스로 정한다. 평균보다 낮으면 남색, 높으면 붉게. */
   .bench .brow.us.good .bfill { background: var(--chip-active-bg); }
   .bench .brow.us.good .bval b { color: var(--chip-active-bg); }
   .bench .brow.us.bad .bfill { background: var(--neg); }
@@ -330,9 +330,9 @@
   .todo-meta { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 5px; font-size: 11.5px; color: var(--muted); }
   .todo-state { font-weight: 800; padding: 1px 8px; border-radius: 999px; font-size: 11px; }
   /* 상태 배지는 두 화면이 같은 색을 쓴다. 간편 화면(m.html)의 값과 같다. */
-  .st-확산중, .st-신규, .st-진행중, .st-장기, .st-종결 { background: #E8F0E6; color: #3A5631; }
+  .st-확산중, .st-신규, .st-진행중, .st-장기, .st-종결 { background: #E7ECF3; color: #17335c; }
   body.dark .st-확산중, body.dark .st-신규, body.dark .st-진행중,
-  body.dark .st-장기, body.dark .st-종결 { background: #33422F; color: #BBD3B4; }
+  body.dark .st-장기, body.dark .st-종결 { background: #2B3646; color: #B4C4D8; }
   .todo-score { margin-left: auto; font-size: 12px; font-weight: 800; color: var(--neg); white-space: nowrap; }
   /* 동점은 같은 번호로 이미 드러난다. 색까지 다르게 할 필요가 없고 간편 화면과도 맞춘다. */
   .todo-rank.tie { background: var(--neg); }
@@ -520,7 +520,7 @@
   .wk-c { background: var(--summary-bg); border: 1px solid var(--border); border-radius: 3px;
     padding: 11px 13px; }
   .wk-c.up { border-color: #E0BFBF; background: #FDF4F4; }
-  .wk-c.down { border-color: #C5D6C0; background: #F3F7F2; }
+  .wk-c.down { border-color: #C2CFDD; background: #F2F5F9; }
   .wk-n { font-size: 12.5px; font-weight: 700; color: var(--muted); margin-bottom: 5px; }
   .wk-v { font-size: 23px; font-weight: 800; color: var(--title); line-height: 1.15; }
   .wk-v span { font-size: 12px; font-weight: 600; color: var(--muted2); margin-left: 2px; }
@@ -534,7 +534,7 @@
     border-radius: 0 2px 2px 0; padding: 10px 13px; margin-bottom: 12px; }
   .wk-warn b { color: var(--title); }
   body.dark .wk-c.up { border-color: #5A3A3A; background: #2A1F1F; }
-  body.dark .wk-c.down { border-color: #3D4F3A; background: #1E241D; }
+  body.dark .wk-c.down { border-color: #33445A; background: #1B2129; }
 
   /* 근거 탭 — "왜 이렇게 만들었나"를 한자리에 모은다.
      기능 설명이 아니라 판단의 사슬을 적는다. */
@@ -803,7 +803,7 @@
   body.dark .flatpickr-prev-month svg, body.dark .flatpickr-next-month svg { fill: #888; }
 
   #darkToggle { margin-left: auto; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; padding: 5px 12px; font-size: 12px; color: #7a7a7a; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 5px; }
-  #darkToggle:hover { background: #c8d9c4; }
+  #darkToggle:hover { background: #C7D2E0; }
   body.dark #darkToggle { color: #e8e8e8; font-weight: 550; }
 
   /* 상단 출처 바 — 데이터의 성격과 과제 정보를 명시 */
@@ -999,6 +999,12 @@
     border-bottom: 2.5px solid var(--title);
     align-items: baseline;
   }
+  /* 화성시 전용색(오렌지)은 글자에 쓰기엔 명암비가 낮다.
+     제호 위 띠 한 줄로만 둔다. 읽는 색이 아니라 어디 자료인지 알리는 표시다. */
+  body::before {
+    content: ""; display: block; height: 4px;
+    background: #E66B1E;
+  }
   header h1 {
     font-size: 25px; font-weight: 800; letter-spacing: -0.045em;
     line-height: 1.1;
@@ -1167,7 +1173,7 @@
     <div id="wkWarn"></div>
     <div class="wk" id="wkGrid"></div>
     <div class="chart-note" style="display:block;">숫자는 <b>이번 주 부정 보도 건수</b>이고,
-      아래 화살표는 <b>지난주 대비 증감</b>입니다. 붉은색은 늘어난 분야, 초록색은 줄어든 분야입니다.
+      아래 화살표는 <b>지난주 대비 증감</b>입니다. 붉은색은 늘어난 분야, 남색은 줄어든 분야입니다.
       위 기간 필터와 무관하게 <b>모은 것 전체의 마지막 두 주</b>를 봅니다.</div>
   </div>
 
@@ -1468,6 +1474,42 @@
       </div>
     </div>
 
+    <div class="wy">
+      <h3>색을 이렇게 고른 이유</h3>
+      <div class="wy-sub">심사 전 <b>"디자인만 바꾸면 괜찮을 텐데"</b>라는 말씀을 들었습니다.
+        고치면서 저희가 쓰던 색에 근거가 없다는 것을 알게 됐습니다. 그 과정을 그대로 적습니다.</div>
+
+      <div class="ml-warn" style="margin-bottom:14px">
+        <b>먼저 바로잡습니다.</b> 저희는 기준색을 초록으로 쓰면서
+        <b>"화성시 상징색이 녹색이라서"</b>라고 설명해 왔습니다.
+        <b>확인하지 않고 쓴 말이었고, 사실이 아닙니다.</b>
+        화성시청 시 상징 안내는 <b>오렌지와 회색</b>이라고 적고 있습니다.
+        화성시청 화면을 직접 재봤을 때도 강조색은 주황과 파랑이었고 초록은 없었습니다.
+      </div>
+
+      <div class="wy-a" style="margin-bottom:14px">
+        <b>그렇다고 오렌지로 바꾸지도 않았습니다. 재본 값이 막았습니다.</b>
+        흰 바탕에서의 명암비(WCAG 2.1)입니다. 본문 글자는 4.5 이상이어야 합니다.
+        <ul style="margin:8px 0 0;padding-left:18px">
+          <li>본문 먹색 <b>16.17</b> · 남색 <b>11.72</b> · 옛 초록 5.24</li>
+          <li>화성시 오렌지 <b>3.01</b>, 화성시청 파랑 <b>2.90</b> — <b>둘 다 본문 기준 미달</b>입니다.</li>
+        </ul>
+        게다가 오렌지는 부정 보도를 표시하는 빨강과 <b>RGB 거리 76</b>으로 붙어 있습니다.
+        초록은 121이었습니다. <b>부정 보도를 세는 화면에서 기준색과 경고색이 붙어 있으면 안 됩니다.</b>
+      </div>
+
+      <div class="wy-not">
+        <div><b>그래서 기준색은 남색 하나</b>이미 제목에 쓰던 남색으로 모았습니다.
+          강조색이 둘이면 눈이 두 번 판단해야 합니다. 명암비도 11.72로 가장 편합니다.</div>
+        <div><b>화성시 전용색은 제호 위 띠 한 줄</b>글자가 아니므로 명암비 문제도,
+          경고색과의 혼동도 생기지 않습니다. <b>확인한 사실은 쓰되, 쓸 수 있는 자리에만 씁니다.</b></div>
+        <div><b>분야 7색은 그대로</b>그것은 상징색이 아니라 항목을 구분하는 색입니다.
+          순서가 없는 항목이라 밝기가 아니라 색상으로 나눕니다.</div>
+        <div><b>큰 숫자는 색을 빼고 먹색으로</b>숫자에 색이 있으면 좋고 나쁨을 뜻하는 것처럼 읽힙니다.
+          좋고 나쁨을 말하는 자리에서만 색을 씁니다.</div>
+      </div>
+    </div>
+
     <div class="wy" id="mlCard" style="display:none;">
       <h3>머신러닝으로 점검한 것</h3>
       <div class="wy-sub">우리 분류가 얼마나 믿을 만한지, 수업에서 배운 방법으로 직접 재봤습니다.
@@ -1509,7 +1551,7 @@
   </div><!-- /근거 -->
 </div>
 
-<footer>핀포인트(Pinpoint) — 기사 제목을 기준으로 AI가 분야·긍부정을 판정하고 한 줄로 정리한 데이터 기반 대시보드.</footer>
+<footer>핀포인트(Pinpoint) — 기사를 AI가 읽어 분야·긍부정을 판정하고 한 줄로 정리한 데이터 기반 대시보드.</footer>
 
 <script>
 const CAT_LABEL = { "교통": "교통", "환경": "환경", "행정": "행정", "문화관광": "문화·관광", "산업경제": "산업·경제", "안전": "안전", "복지": "복지" };
@@ -1526,8 +1568,12 @@ const SENTI_COLOR = {
   dark:  { "긍정": "#5B8FC7", "중립": "#7C8288", "부정": "#915454" }
 };
 function sentiColor(k) { return (isDark() ? SENTI_COLOR.dark : SENTI_COLOR.light)[k]; }
-// 기준색(화성시 상징색 계열). Chart.js는 CSS 변수를 못 읽어 여기서 값으로 준다.
-function brandColor() { return isDark() ? "#5B7A5A" : "#4D7045"; }
+// 기준색. Chart.js는 CSS 변수를 못 읽어 여기서 값으로 준다.
+// 화성시 전용색은 오렌지(#E66B1E)지만 명암비가 3.01로 본문 기준 4.5에 못 미치고,
+// 부정 빨강 #C26060 과 RGB 거리 76 으로 붙어 있어 경고와 헷갈린다.
+// 그래서 제목에 쓰는 남색(명암비 11.72)을 기준색으로 쓰고,
+// 오렌지는 제호 띠에만 식별 표시로 둔다.
+function brandColor() { return isDark() ? "#9DB8DD" : "#17335c"; }
 const SENTI_CLASS = { "긍정": "pos", "중립": "neu", "부정": "neg" };
 const PAGE_SIZE = 10;   // 처음부터 20건이면 화면의 절반이 목록이 된다
 
@@ -1664,16 +1710,35 @@ function articleLink(n) {
 // 검증본과 자동수집분은 수집 방식이 달라 곧바로 견줄 수 없다.
 // 그래서 검증본 비율을 '평상시'라 부르거나 그보다 높다·낮다고 말하지 않는다.
 // 브리핑 문장은 수집 단계의 AI가 쓰므로, 화면에서 한 번 더 거른다.
+// 자동 수집(구글 RSS)과 검증본(빅카인즈)은 수집 방식이 달라 비율을 곧바로 견줄 수 없다.
+// 심사에서 그렇게 답했으므로 화면도 그 말을 지켜야 한다.
+//
+// 이 그물은 두 번 뚫렸다. 두 번 다 낱말을 막으려 한 것이 원인이었다.
+//   1) '평상시'를 막았더니 서버가 '검증본 참고선'으로 바꿔 쓰며 통과했다.
+//   2) 낱말을 늘렸더니 이번엔 강조 표시가 낱말을 끊었다.
+//      원문이 "…낮은 수준[[/w]]입니다"라 '수준입니다'가 이어진 적이 없다.
+//
+// 그래서 표시를 걷어낸 문장으로 판단한다. 걸린 문장만 통째로 바꾼다.
+// 나머지 문장의 강조는 그대로 둔다.
 function guardBrief(t) {
-  return t
-    // "평상시 8.6%보다 낮은 수준입니다" 같은 문장을 통째로 바꾼다.
-    .replace(/평상시[^.]*?보다\s*(낮은|높은)\s*수준입니다/g,
-      "검증본 참고선은 8.6%입니다(수집 방식이 달라 곧바로 견줄 수 없습니다)")
-    .replace(/평상시\s*대비[^.]*?(낮|높)[^.]*?니다/g,
-      "검증본 참고선과는 수집 방식이 달라 곧바로 견줄 수 없습니다")
+  const bare = x => x.replace(/\[\[\/?\w+\]\]/g, "");
+  const BAN = [
+    // 견주는 낱말이 무엇이든 "N%보다 낮은/높은 수준입니다"라는 모양 자체를 막는다.
+    { re: /(?:평상시|검증본\s*참고선|참고선|기준선)?\s*(\d+(?:\.\d+)?)%\s*보다\s*(?:낮은|높은)\s*수준입니다/,
+      to: "검증본 참고선 $1%와는 수집 방식이 달라 곧바로 견줄 수 없습니다" },
+    { re: /평상시\s*대비[^.]*?(?:낮|높)[^.]*?니다/,
+      to: "검증본 참고선과는 수집 방식이 달라 곧바로 견줄 수 없습니다" },
+    // 표본이 이만큼일 때 순위를 말할 수 없다.
+    { re: /가장\s*낮습니다/,
+      to: "낮은 편입니다(순위를 말할 수 있는 표본은 아닙니다)" },
+  ];
+  // 마침표 뒤 빈칸에서만 나눈다. 8.6% 같은 숫자는 빈칸이 없어 나뉘지 않는다.
+  return t.split(/(?<=\.)\s+/).map(sent => {
+    const flat = bare(sent);
+    for (const b of BAN) if (b.re.test(flat)) return flat.replace(b.re, b.to);
+    return sent;
+  }).join(" ")
     .replace(/평상시/g, "검증본 참고선")
-    // 순위를 말하는 표현도 막는다.
-    .replace(/가장\s*낮습니다/g, "낮은 편입니다(순위를 말할 수 있는 표본은 아닙니다)")
     // 일치율을 정확도라 부르지 않는다.
     .replace(/정확도\s*(\d+)%/g, "재판정 일치율 $1%");
 }
@@ -2782,14 +2847,14 @@ function updateDashboard() {
           : "")
       + (warmIdx.length
           ? "옅게 덮인 구간은 <b>자동수집 초기</b>라 하루 5~6건밖에 못 모아 비율이 흔들리는 구간입니다. " : "")
-      + "초록·노랑 선은 그 주에 모은 <b>기사 수</b>(왼쪽 축)이고, 두 출처는 수집 범위가 달라 <b>건수는 견줄 수 없습니다.</b>"
+      + "남색·노랑 선은 그 주에 모은 <b>기사 수</b>(왼쪽 축)이고, 두 출처는 수집 범위가 달라 <b>건수는 견줄 수 없습니다.</b>"
       + (partialLast ? " 맨 끝 주는 <b>아직 집계 중</b>입니다." : "");
   } else {
     noteEl.style.display = "none";
   }
 
-  const lineBlue = isDark() ? "#6e9c74" : "#4d7045";
-  const lineBlueBg = isDark() ? "rgba(137,158,140,.15)" : "rgba(77,112,69,.12)";
+  const lineBlue = isDark() ? "#9DB8DD" : "#17335c";
+  const lineBlueBg = isDark() ? "rgba(157,184,221,.15)" : "rgba(23,51,92,.10)";
   const liveLine = isDark() ? "#C9A227" : "#B08A1E";
 
   drawChart("chDaily", {
@@ -2889,7 +2954,7 @@ function updateDashboard() {
   drawChart("chCat", {
     type: "doughnut",
     data: { labels: catKeys.map(c => CAT_LABEL[c]),
-      datasets: [{ data: catKeys.map(c => catCount2[c]), backgroundColor: catKeys.map(c => isDark() ? (CAT_COLORS_DARK[c] || "#69926E") : (CAT_COLORS_LIGHT[c] || "#4d7045")), borderColor: isDark() ? "#262626" : "#ffffff", borderWidth: 3 }] },
+      datasets: [{ data: catKeys.map(c => catCount2[c]), backgroundColor: catKeys.map(c => isDark() ? (CAT_COLORS_DARK[c] || "#7C8288") : (CAT_COLORS_LIGHT[c] || "#8A8F96")), borderColor: isDark() ? "#262626" : "#ffffff", borderWidth: 3 }] },
     options: {
       maintainAspectRatio: false,
       plugins: { legend: { position: "right", labels: { boxWidth: 11, font: { size: 11.5 } } } },
@@ -3678,7 +3743,7 @@ function renderBench(d) {
 
   // 눈금 끝은 가장 큰 값보다 조금 넉넉하게 잡아 막대가 끝에 붙지 않게 한다.
   const scale = max * 1.08;
-  // 평균보다 낮으면 초록, 높으면 붉게. 평균 대비 위치는 계산이지 순위 주장이 아니다.
+  // 평균보다 낮으면 남색, 높으면 붉게. 평균 대비 위치는 계산이지 순위 주장이 아니다.
   // 순위를 말할 수 없다는 것은 바로 아래 문장이 밝힌다.
   const good = us && us.ratio < avg;
   document.getElementById("benchRows").innerHTML = rows.map(c => {
