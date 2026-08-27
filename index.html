@@ -163,7 +163,18 @@
   .bench .btrack { position: relative; flex: 1; min-width: 0; height: 17px; border-radius: 999px;
     background: var(--summary-bg); border: 1px solid var(--border); overflow: hidden; }
   /* span은 인라인이라 폭을 무시한다. 반드시 블록으로 둬야 막대가 그려진다. */
-  .bench .bfill { display: block; height: 100%; min-width: 3px;
+  /* 참값이 있을 만한 범위. 매일 갱신하면 값이 튀는데 그 폭을 감추지 않고 그린다.
+     통계 그림에서 쓰는 오차 막대 방식이다. 값은 막대로, 범위는 가로선과 양끝 눈금으로. */
+  .bench .bci { position: absolute; top: 50%; height: 1.5px; z-index: 2;
+    background: var(--title); opacity: .55; transform: translateY(-50%); }
+  .bench .bci::before, .bench .bci::after {
+    content: ""; position: absolute; top: -4px; width: 1.5px; height: 9px;
+    background: var(--title); opacity: 1;
+  }
+  .bench .bci::before { left: 0; }
+  .bench .bci::after { right: 0; }
+  .bench .brow.us .bci { background: var(--title); opacity: .7; }
+  .bench .bfill { display: block; height: 100%; min-width: 3px; position: relative;
     background: var(--band-neu); border-radius: 999px; }
   .bench .bval { width: 78px; flex-shrink: 0; text-align: right; font-size: 12.5px;
     color: var(--muted); font-variant-numeric: tabular-nums; }
@@ -3348,11 +3359,12 @@ function renderBenchHist(hist) {
 
   // 갱신 주기는 이력이 없어도 밝힌다. 매일 도는 줄 알면 화면이 거짓말을 하는 셈이다.
   const cycle = `<div class="bh-cycle"><span class="ic"></span><span>
-    <b>대조는 주 1회(월요일 오전 6시) 자동으로 갱신됩니다.</b>
-    화성시 기사 수집은 매일 돌지만 대조는 그렇지 않습니다.
-    도시당 표본이 80~85건뿐이라 <b>부정 기사 한 건 차이가 비율을 약 1.2%p 움직입니다.</b>
-    매일 갱신하면 그 흔들림이 추세처럼 보이는데 <b>실제 변화가 아니라 표본 오차</b>입니다.
-    창도 14일이라 하루에 7%만 바뀝니다. 그래서 <b>주간 보고서와 같은 주기</b>로 맞췄습니다.
+    <b>대조는 매일 오전 6시에 자동으로 갱신됩니다.</b> 화성시 기사 수집과 같은 시각입니다.
+    다만 도시당 표본이 90건 안팎이라 <b>부정 기사 한 건 차이가 비율을 약 1%p 움직입니다.</b>
+    그래서 하루하루의 오르내림은 실제 변화가 아니라 <b>표본이 흔들리는 폭</b>일 수 있습니다.
+    <b>그 폭을 감추지 않고 위 막대에 옅은 띠로 함께 그렸습니다.</b>
+    띠가 겹치는 두 도시는 차이를 말할 수 없습니다.
+    추세는 아래 회차별 그래프에서 <b>여러 회차가 같은 방향으로 움직일 때</b>만 보십시오.
     </span></div>`;
 
   if (!hist || hist.length < 2) {
@@ -3608,6 +3620,17 @@ function fisherP(a, b, c, d) {             // 양측 p값
 }
 function pText(p) { return p < 0.001 ? "p<0.001" : "p=" + p.toFixed(p < 0.01 ? 3 : 2); }
 
+// 윌슨 신뢰구간 — 표본이 작을 때 이 비율이 얼마나 흔들릴 수 있는지 잰다.
+// 매일 갱신하면 값이 하루하루 튄다. 그것을 감추지 않고 막대에 함께 그린다.
+function wilson(k, n, z) {
+  if (!n) return [0, 0];
+  z = z || 1.96;
+  const p = k / n, d = 1 + z * z / n;
+  const c = p + z * z / (2 * n);
+  const m = z * Math.sqrt(p * (1 - p) / n + z * z / (4 * n * n));
+  return [Math.max(0, (c - m) / d) * 100, Math.min(1, (c + m) / d) * 100];
+}
+
 function renderBench(d) {
   const card = document.getElementById("benchCard");
   if (!card || !d) return;
@@ -3638,16 +3661,24 @@ function renderBench(d) {
   const good = us && us.ratio < avg;
   document.getElementById("benchRows").innerHTML = rows.map(c => {
     const me = c.name === "화성시";
+    const [lo, hi] = wilson(c.neg, c.count);
+    const L = Math.max(0, Math.min(100, lo / scale * 100));
+    const H = Math.max(0, Math.min(100, hi / scale * 100));
     return `<div class="brow${me ? " us " + (good ? "good" : "bad") : ""}">
       <span class="bname">${c.name}</span>
       <span class="btrack">
+        <span class="bci" style="left:${L}%;width:${Math.max(2, H - L)}%"
+          title="이 표본에서 참값이 있을 만한 범위 ${lo.toFixed(1)}~${hi.toFixed(1)}%"></span>
         <span class="bfill" style="width:${Math.max(2, Math.round(c.ratio / scale * 100))}%"></span>
         ${me ? "" : `<span class="avgline" style="left:${Math.round(avg / scale * 100)}%"></span>`}
       </span>
       <span class="bval"><b>${c.ratio}%</b> <span class="bnum">${c.count}건</span></span>
     </div>`;
   }).join("")
-    + `<div class="avgnote"><i></i> 점선은 나머지 ${others.length}개 시 평균 <b>${avg}%</b>입니다.</div>`;
+    + `<div class="avgnote"><i></i> 점선은 나머지 ${others.length}개 시 평균 <b>${avg}%</b>입니다.
+       막대 위를 가로지르는 <b>가는 선은 참값이 있을 만한 범위</b>(95% 윌슨 구간)입니다.
+       <b>두 도시의 선이 겹치면 그 차이는 말할 수 없습니다.</b>
+       지금은 다섯 도시의 선이 모두 겹칩니다.</div>`;
 
   // 검정 결과를 화면에서 직접 계산한다. 도시를 늘려도 문장이 저절로 맞는다.
   const tests = us ? others.map(o => ({
