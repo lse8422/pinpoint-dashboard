@@ -19,28 +19,38 @@
     background: var(--bg); color: var(--text); line-height: 1.5;
     padding: 0 0 34px; -webkit-text-size-adjust: 100%; }
 
-  .top { background: var(--green); color: #fff; padding: 13px 18px calc(13px + env(safe-area-inset-top));
-    padding-top: calc(13px + env(safe-area-inset-top)); }
-  .top .t { font-size: 15.5px; font-weight: 800; letter-spacing: -.3px; }
-  .top .s { font-size: 11.5px; opacity: .88; margin-top: 3px; }
+  /* 제호 — 전체 화면과 같은 성격으로. 신문 제호처럼 좁게 짜고 굵은 선으로 닫는다. */
+  .top { background: var(--surface); color: var(--title);
+    padding: calc(15px + env(safe-area-inset-top)) 16px 12px;
+    border-bottom: 2.5px solid var(--title); }
+  .top .t { font-size: 20px; font-weight: 800; letter-spacing: -.045em; line-height: 1.15; }
+  .top .s { font-size: 11.5px; color: var(--muted); margin-top: 4px;
+    font-variant-numeric: tabular-nums; }
 
   .wrap { padding: 14px 14px 0; max-width: 620px; margin: 0 auto; }
   .card { background: var(--surface); border: 1px solid var(--border);
-    border-radius: 13px; padding: 15px 16px; margin-bottom: 11px; }
+    border-radius: 2px; padding: 15px 16px; margin-bottom: 11px; }
 
   .surge { background: #FDF3F3; border: 1px solid #EBC9C9; border-left: 4px solid var(--neg);
-    border-radius: 11px; padding: 12px 14px; margin-bottom: 11px; font-size: 14px; line-height: 1.6; }
+    border-radius: 2px; padding: 12px 14px; margin-bottom: 11px; font-size: 14px; line-height: 1.6; }
   .surge b { color: #A03D3D; }
 
   h2 { font-size: 13px; color: var(--muted); font-weight: 600; margin: 0 2px 9px;
     display: flex; align-items: baseline; gap: 7px; }
   h2 .n { color: var(--green-dark); font-weight: 800; font-size: 14px; }
 
+  /* 이슈는 상자를 겹치지 않고 괘선으로 나눈다. 좁은 화면일수록 상자가 자리를 먹는다. */
+  .items { background: var(--surface); border: 1px solid var(--border);
+    border-left: 3px solid var(--neg); margin-bottom: 11px; }
   .item { display: block; text-decoration: none; color: inherit;
-    background: var(--surface); border: 1px solid var(--border);
-    border-left: 4px solid var(--neg); border-radius: 13px;
-    padding: 14px 15px; margin-bottom: 10px; }
+    background: none; border: none; border-bottom: 1px solid var(--border);
+    border-radius: 0; padding: 13px 15px; margin: 0; }
+  .item:last-child { border-bottom: none; }
   .item:active { background: #FAFBFC; }
+  /* 소관 후보 부서 — 전체 화면과 같은 정보를 담는다. 여기서 끊기면 반쪽이다. */
+  .item .dept { margin-top: 7px; font-size: 11.5px; color: var(--muted);
+    background: #F6F8F5; border: 1px solid var(--border); padding: 5px 9px; }
+  .item .dept b { color: var(--title); }
   .item .rank { display: inline-flex; align-items: center; justify-content: center;
     width: 21px; height: 21px; border-radius: 50%; background: var(--neg); color: #fff;
     font-size: 11.5px; font-weight: 800; margin-right: 7px; vertical-align: 2px; }
@@ -48,13 +58,13 @@
   .item .meta { margin-top: 8px; font-size: 12px; color: var(--muted); display: flex;
     align-items: center; gap: 8px; flex-wrap: wrap; }
   .item .st { background: var(--green-light); color: var(--green-dark);
-    font-weight: 700; padding: 2px 8px; border-radius: 9px; font-size: 11.5px; }
+    font-weight: 700; padding: 2px 8px; border-radius: 2px; font-size: 11.5px; }
   .item .sc { margin-left: auto; color: var(--neg); font-weight: 800; font-size: 13px; }
   .item .go { font-size: 11.5px; color: var(--muted2); font-weight: 500; }
 
   .more { width: 100%; border: 1px solid var(--border); background: var(--surface);
     color: var(--green-dark); font-family: inherit; font-size: 14px; font-weight: 700;
-    padding: 13px; border-radius: 12px; cursor: pointer; }
+    padding: 13px; border-radius: 2px; cursor: pointer; }
   .sub { font-size: 14px; padding: 11px 4px; border-bottom: 1px solid #eef1f5; display: block;
     text-decoration: none; color: var(--text); }
   .sub:last-child { border-bottom: none; }
@@ -64,12 +74,19 @@
   .foot b { color: var(--green-dark); }
   .full { display: block; text-align: center; background: var(--green); color: #fff;
     text-decoration: none; font-size: 14.5px; font-weight: 700; padding: 15px;
-    border-radius: 12px; margin-top: 6px; }
+    border-radius: 2px; margin-top: 6px; }
   .empty { text-align: center; color: var(--muted); font-size: 14px; padding: 26px 0; }
+
+  /* 숫자는 자릿수가 맞아야 훑을 때 읽힌다. */
+  .item .sc, .item .meta, .spark, .bar, .foot, .sub .d, .top .s {
+    font-variant-numeric: tabular-nums; font-feature-settings: "tnum" 1; }
+  /* 상태 꼬리표만 알약. 나머지는 각지게. */
+  .item .st { border-radius: 999px; }
+  .more, .full { border-radius: 2px; }
 
   /* 차트 라이브러리를 쓰지 않는다. 간편 화면은 파일 하나만 받고 빨리 떠야 한다. */
   .mini { background: var(--surface); border: 1px solid var(--border);
-    border-radius: 13px; padding: 14px 15px 12px; margin-bottom: 11px; }
+    border-radius: 2px; padding: 14px 15px 12px; margin-bottom: 11px; }
   .mini h3 { font-size: 13.5px; color: var(--title); margin-bottom: 2px; }
   .mini .cap { font-size: 11.5px; color: var(--muted2); margin-bottom: 11px; }
 
@@ -88,8 +105,8 @@
   .hbar .t { display: flex; align-items: baseline; gap: 6px; font-size: 12.5px; margin-bottom: 4px; }
   .hbar .t b { color: var(--neg); font-size: 13.5px; }
   .hbar .t .c { color: var(--muted2); font-size: 11px; margin-left: auto; }
-  .hbar .track { height: 8px; background: var(--bg); border-radius: 5px; overflow: hidden; }
-  .hbar .fill { height: 100%; background: var(--neg); border-radius: 5px; }
+  .hbar .track { height: 8px; background: var(--bg); border-radius: 2px; overflow: hidden; }
+  .hbar .fill { height: 100%; background: var(--neg); border-radius: 2px; }
   /* 전부 부정 비율이다. 낮다고 초록으로 칠하면 좋은 소식처럼 읽힌다.
      색은 하나로 두고 길이로만 크기를 말한다. 낮은 것은 옅게. */
   .hbar.low .fill { opacity: .45; }
@@ -98,7 +115,7 @@
 <body>
 
 <div class="top">
-  <div class="t">📍 핀포인트 · 오늘 확인할 것</div>
+  <div class="t">핀포인트 · 오늘 확인할 것</div>
   <div class="s" id="asof">불러오는 중…</div>
 </div>
 
@@ -128,6 +145,7 @@
 
   <div class="foot" id="ops"></div>
   <a class="full" href="index.html">전체 화면으로 보기 →</a>
+  <div class="foot" style="margin-top:12px">소관 후보 부서는 <b>기사를 보고 판정한 값이 아닙니다.</b> 분야에 해당하는 부서를 화성특례시 행정조직안내에서 가져와 후보로만 보여드립니다.</div>
   <div class="foot">화성시 홍보 담당 부서용 · 사무실에서는 전체 화면을 권합니다</div>
 </div>
 
@@ -137,6 +155,19 @@
 // 파일을 하나만 받으므로 휴대폰에서 훨씬 빨리 뜬다.
 const esc = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 const CAT = { 문화관광: "문화·관광", 산업경제: "산업·경제" };
+
+// 소관 후보 부서. 기사를 보고 판정한 값이 아니라 분야에 해당하는 부서다.
+// 전체 화면(index.html)과 같은 표를 쓴다. 두 화면이 다른 말을 하면 안 된다.
+// 출처 — 화성특례시 행정조직안내 (2026-08-27 확인)
+const DEPT = {
+  "교통": ["교통정책과", "대중교통과", "주차물류과", "철도전략과"],
+  "환경": ["기후환경정책과", "물환경생태과", "자원순환과", "환경지도과"],
+  "안전": ["안전정책과", "재난대응과", "건설과"],
+  "복지": ["복지정책과", "통합돌봄과", "장애인복지과"],
+  "문화관광": ["문화예술과", "관광진흥과", "문화유산과", "체육진흥과"],
+  "산업경제": ["지역경제과", "기업지원과", "투자유치과", "농업정책과"],
+  "행정": ["자치행정과", "예산재정과", "세정과"],
+};
 
 fetch("news_live.json", { cache: "no-store" })
   .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
@@ -172,11 +203,15 @@ function render(d) {
     items.forEach((it, i) => rank.push(
       i > 0 && items[i - 1].score === it.score ? rank[i - 1] : i + 1));
 
-    document.getElementById("list").innerHTML = items.map((it, i) => {
+    // 항목을 한 덩어리로 감싸 괘선으로 나눈다. 상자를 겹치면 좁은 화면에서 자리를 먹는다.
+    document.getElementById("list").innerHTML = '<div class="items">' + items.map((it, i) => {
       const art = byTitle[it.titles && it.titles[0]];
       const href = art && art.url ? art.url : null;
       const tag = href ? "a" : "div";
       const attr = href ? ` href="${esc(href)}" target="_blank" rel="noopener"` : "";
+      // 소관 후보 부서 — 전체 화면에는 있는데 여기 없으면 반쪽이다.
+      // 출근길에 보는 화면일수록 "누가 대응하나"가 바로 보여야 한다.
+      const dept = DEPT[it.cat] || [];
       return `<${tag} class="item"${attr}>
         <div class="ti"><span class="rank">${rank[i]}</span>${esc(it.label)}</div>
         <div class="meta">
@@ -187,8 +222,10 @@ function render(d) {
           ${href ? '<span class="go">원문 ↗</span>' : ""}
           <span class="sc">${it.score}점</span>
         </div>
+        ${dept.length ? `<div class="dept">소관 후보 <b>${esc(dept.slice(0, 2).join(" · "))}</b>${
+          dept.length > 2 ? ` 외 ${dept.length - 2}곳` : ""}</div>` : ""}
       </${tag}>`;
-    }).join("");
+    }).join("") + '</div>';
   }
 
   // 위 3건에 안 들어간 최근 부정 보도

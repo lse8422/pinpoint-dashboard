@@ -20,12 +20,13 @@
 #  11. 해석 — 어떤 낱말이 부정 판정을 끌어내는가
 #  12. 점수 항목 점검 — 표준화 · 상관 · 주성분분석으로 중복 계산을 찾음
 #  13. 지속 예측 — 첫날 정보만으로 그 이슈가 오래 갈지 맞힐 수 있는가
+#  14. 감쇠율 도출 — "왜 7점인가"에 데이터로 답한다. 경험적 생존함수와 지수 적합
 import io
 import json
 import os
 import re
 import warnings
-from collections import defaultdict
+from collections import Counter, defaultdict
 
 import numpy as np
 
@@ -170,6 +171,9 @@ def pipe(model):
                                   min_df=2, max_features=40000, sublinear_tf=True)),
         ("clf", model),
     ])
+
+
+CATS_ORDER = ["교통", "환경", "행정", "문화관광", "산업경제", "안전", "복지"]
 
 
 def main():
@@ -442,6 +446,92 @@ def main():
     else:
         print("  오래 간 사건이 %d개뿐이라 예측 모형을 세울 수 없다." % int(y2.sum()))
         out["지속예측"] = None
+
+    # ── 11. 감쇠율을 데이터에서 뽑는다 ─────────────────────
+    # 참석자 4 교수: "하루에 7점씩 깎인다, 이때 7점은 무슨 기준이고"
+    # 지금 배점은 우리가 정한 값이다. 데이터에서 뽑으면 그 물음에 답할 수 있다.
+    print("\n" + "─" * 74)
+    print("11. 감쇠율을 데이터에서 뽑는다 — 왜 7점인가")
+    print("─" * 74)
+
+    # 경험적 생존함수 — 첫 보도 뒤 d일이 지나도 사건이 아직 이어지고 있을 확률
+    def survival(sp, upto=8):
+        n = len(sp)
+        return [float((sp > d).mean()) for d in range(upto)] if n else []
+
+    S = survival(spans)
+    print("  사건이 첫 보도 뒤 d일이 지나도 아직 이어지고 있을 확률 S(d)")
+    for d, v in enumerate(S):
+        cur = max(0, 45 - d * 7)
+        print("    d=%d일  S=%.3f  →  데이터 기반 %4.1f점   (지금 쓰는 값 %2d점)"
+              % (d, v, 45 * v, cur))
+
+    # 지금 방식(하루 7점씩 직선 감쇠)과 데이터가 얼마나 어긋나는지
+    lin = [max(0, 45 - d * 7) for d in range(len(S))]
+    emp = [45 * v for v in S]
+    gap = max(abs(a - b) for a, b in zip(lin, emp)) if S else 0
+    print("  → 직선 감쇠와 데이터 기반 값의 최대 차이 %.1f점" % gap)
+    if gap > 8:
+        print("     차이가 크다. 실제 관심은 직선이 아니라 첫 하루에 급격히 꺾인다.")
+        print("     지금 방식은 오래된 사건에 점수를 후하게 주고 있다.")
+
+    # 지수 적합 — S(d) = exp(-λd). 반감기를 구하면 감쇠를 한 숫자로 말할 수 있다.
+    import math
+    xs = [d for d in range(len(S)) if S[d] > 0.01]
+    if len(xs) >= 3:
+        ys = [math.log(S[d]) for d in xs]
+        mx, my = sum(xs) / len(xs), sum(ys) / len(ys)
+        den = sum((x - mx) ** 2 for x in xs)
+        lam = -(sum((x - mx) * (y - my) for x, y in zip(xs, ys)) / den) if den else 0
+        half = math.log(2) / lam if lam > 0 else None
+        print("  지수 적합 S(d)=exp(-%.3f d) → 관심 반감기 %.1f일" % (lam, half) if half
+              else "  지수 적합 실패")
+        out["감쇠"] = {"생존함수": [round(v, 3) for v in S],
+                     "데이터점수": [round(v, 1) for v in emp],
+                     "현재점수": lin, "최대차이": round(gap, 1),
+                     "감쇠계수": round(lam, 3), "반감기": round(half, 1) if half else None}
+    else:
+        out["감쇠"] = {"생존함수": [round(v, 3) for v in S],
+                     "데이터점수": [round(v, 1) for v in emp],
+                     "현재점수": lin, "최대차이": round(gap, 1)}
+
+    # ── 12. 분야별 감쇠 ─────────────────────────────────────
+    # 유호선·명현·오효정(2017): 이슈 생존 기간은 유형별로 상이하다.
+    # 그 말이 우리 데이터에서도 맞는지 재고, 맞으면 분야별 감쇠율을 만든다.
+    print("\n" + "─" * 74)
+    print("12. 분야별로 관심이 다르게 식는가 — 분야별 감쇠율")
+    print("─" * 74)
+    cat_of = {}
+    for g, rs in ev.items():
+        c = Counter(r["cat"] for r in rs).most_common(1)
+        if c:
+            cat_of[g] = c[0][0]
+    keys = list(ev.keys())
+    per = {}
+    for c in CATS_ORDER:
+        sel = np.array([spans[i] for i, g in enumerate(keys) if cat_of.get(g) == c])
+        if len(sel) >= 40:
+            per[c] = {"n": int(len(sel)), "중앙값": float(np.median(sel)),
+                      "평균": round(float(sel.mean()), 2),
+                      "7일이상": round(float((sel >= 7).mean()) * 100, 1),
+                      "S1": round(float((sel > 1).mean()), 3)}
+    if per:
+        print("  분야         사건수   중앙값   평균    7일이상   S(1)")
+        for c, v in sorted(per.items(), key=lambda kv: -kv[1]["S1"]):
+            print("  %-10s %5d   %4.0f일  %5.2f일  %5.1f%%   %.3f"
+                  % (c, v["n"], v["중앙값"], v["평균"], v["7일이상"], v["S1"]))
+        hi = max(per.values(), key=lambda v: v["S1"])["S1"]
+        lo = min(per.values(), key=lambda v: v["S1"])["S1"]
+        print("  → S(1)이 가장 높은 분야 %.3f, 가장 낮은 분야 %.3f (차이 %.3f)" % (hi, lo, hi - lo))
+        if hi - lo >= 0.05:
+            print("     분야마다 식는 속도가 다르다. 모든 분야에 같은 7점을 깎는 것은 근거가 약하다.")
+            print("     분야별 감쇠율을 쓰면 '왜 7점인가'에 분야마다 다른 답을 낼 수 있다.")
+        else:
+            print("     분야 사이 차이가 크지 않다. 지금처럼 하나의 감쇠율을 써도 무리가 없다.")
+        out["분야별감쇠"] = per
+    else:
+        print("  분야마다 사건 수가 40건에 못 미쳐 분야별로 나누지 않는다.")
+        out["분야별감쇠"] = None
 
     # ── 결론 ────────────────────────────────────────────────
     print("\n" + "=" * 74)
