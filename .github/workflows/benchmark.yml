@@ -3,12 +3,13 @@
 name: 대조 통계 수집
 
 on:
-  # 월요일 한국시간 오전 6시. 주간 보고서 주기와 맞춘다.
-  # 매일 돌리지 않는 이유 — 도시당 표본이 80~85건뿐이라 하루 사이의 오르내림이
-  # 실제 변화가 아니라 표본 오차다(화성시 4/85의 95% 구간이 1.8~11.5%, 한 건이 1.2%p를 움직인다).
-  # 그 흔들림을 추세로 읽으면 잘못 대응하게 된다. 창도 14일이라 하루에 7%만 바뀐다.
+  # 매일 한국시간 오전 6시. 화성시 기사 수집과 같은 시각이다.
+  # 우리는 발표에서 "매일 아침 6시에 자동으로 갱신된다"고 말했다.
+  # 화면이 발표와 다른 말을 하면 안 되므로 대조도 같은 주기로 돈다.
+  # 표본이 작아 하루 사이 값이 흔들리는 문제는 주기를 늦춰서가 아니라
+  # 신뢰구간을 함께 보여주는 것으로 다룬다. 흔들리는 폭을 감추지 않고 그린다.
   schedule:
-    - cron: "0 21 * * 0"
+    - cron: "0 21 * * *"
   workflow_dispatch:
     inputs:
       days:
@@ -48,7 +49,9 @@ jobs:
             git add benchmark.json benchmark_history.json
             git commit -m "대조 통계 수집 $(date -u -d '+9 hours' +'%Y-%m-%d')"
             # 다른 워크플로가 먼저 밀어넣었을 수 있다. 최신을 당겨온 뒤 다시 시도한다.
-            git pull --rebase origin main
+            # --autostash 가 없으면 파이썬이 만든 캐시 파일 때문에
+            # "cannot pull with rebase: You have unstaged changes" 로 죽는다. 실제로 겪었다.
+            git pull --rebase --autostash origin main
             git push
           else
             echo "변경사항이 없어 커밋하지 않습니다."
