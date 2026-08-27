@@ -87,6 +87,84 @@ POS_WORDS = ["개통", "준공", "완공", "유치", "선정", "수상", "우수
              "표창", "인증", "달성", "혁신", "활성화", "무료", "장학", "기부", "감사패"]
 
 
+# ── 본문 붙이기 ─────────────────────────────────────────────
+# 구글 뉴스 RSS는 제목만 준다. 실제로 재봤다.
+#   description 이 제목과 다른 내용을 담은 기사: 30건 중 0건
+#   구글 링크를 디코딩해 원문 주소를 얻은 기사: 6건 중 0건
+# 네이버 검색 API는 본문 일부와 실제 언론사 주소를 함께 준다.
+# 키가 없으면 이 단계를 통째로 건너뛴다. 없다고 수집을 멈추지 않는다.
+NAVER_ID = os.environ.get("NAVER_CLIENT_ID", "").strip()
+NAVER_SECRET = os.environ.get("NAVER_CLIENT_SECRET", "").strip()
+
+
+def strip_tags(t):
+    t = re.sub(r"<[^>]+>", "", t or "")
+    for a, b in [("&quot;", '"'), ("&amp;", "&"), ("&lt;", "<"), ("&gt;", ">"),
+                 ("&apos;", "'"), ("&nbsp;", " ")]:
+        t = t.replace(a, b)
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def naver_search(query, display=100, start=1):
+    """네이버 뉴스 검색. 본문 일부와 언론사 원문 주소를 얻는다."""
+    url = ("https://openapi.naver.com/v1/search/news.json?query=%s&display=%d&start=%d&sort=date"
+           % (urllib.parse.quote(query), display, start))
+    req = urllib.request.Request(url, headers={
+        "X-Naver-Client-Id": NAVER_ID,
+        "X-Naver-Client-Secret": NAVER_SECRET,
+    })
+    with urllib.request.urlopen(req, timeout=30) as res:
+        return json.load(res).get("items", [])
+
+
+def attach_bodies(items):
+    """수집한 기사에 본문 일부와 언론사 원문 주소를 붙인다.
+    제목이 정확히 같지 않아도 앞부분이 겹치면 같은 기사로 본다."""
+    if not (NAVER_ID and NAVER_SECRET):
+        print("  네이버 키가 없어 본문은 붙이지 않습니다. 제목만으로 판정합니다.")
+        return 0
+
+    pool = {}
+    for q in QUERIES:
+        for page in (1, 101, 201):
+            try:
+                got = naver_search(q, 100, page)
+            except Exception as e:
+                print("  네이버 검색 실패(%s %d): %s" % (q, page, str(e)[:60]))
+                break
+            if not got:
+                break
+            for it in got:
+                t = strip_tags(it.get("title", ""))
+                if t:
+                    pool[norm(t)] = {
+                        "body": strip_tags(it.get("description", "")),
+                        "url": it.get("originallink") or it.get("link") or "",
+                    }
+            time.sleep(0.12)
+    print("  네이버에서 %d건을 받아 두었습니다." % len(pool))
+
+    # 제목 앞부분으로도 맞춰 본다. 언론사마다 제목 뒤를 조금씩 다르게 붙인다.
+    prefix = {}
+    for k, v in pool.items():
+        p = k[:14]
+        if len(p) >= 10:
+            prefix.setdefault(p, v)
+
+    hit = 0
+    for a in items:
+        k = norm(a["title"])
+        m = pool.get(k) or prefix.get(k[:14])
+        if m and m["body"]:
+            a["body"] = m["body"][:300]
+            if m["url"]:
+                a["url"] = m["url"]      # 구글 중계 주소를 언론사 주소로 바꾼다
+            hit += 1
+    print("  본문을 붙인 기사 %d건 / %d건 (%.0f%%)"
+          % (hit, len(items), hit / max(1, len(items)) * 100))
+    return hit
+
+
 def parse_pubdate(pub):
     """RSS 날짜를 읽는다. 어느 형식으로도 못 읽으면 None을 돌려 그 기사를 버리게 한다."""
     pub = (pub or "").strip()
@@ -193,8 +271,15 @@ def classify_by_rule(title):
 
 
 def call_claude(api_key, articles):
-    """기사 묶음을 Claude에 보내 분류·요약·키워드를 한 번에 받는다."""
-    listing = "\n".join("%d. %s" % (i + 1, a["title"]) for i, a in enumerate(articles))
+    """기사 묶음을 Claude에 보내 분류·요약·키워드를 한 번에 받는다.
+    본문이 붙어 있으면 제목과 함께 보낸다. 제목 32자로 내리던 판정이
+    본문을 보고 내리는 판정으로 바뀐다."""
+    def one(i, a):
+        line = "%d. %s" % (i + 1, a["title"])
+        if a.get("body"):
+            line += "\n   [본문] " + a["body"][:220]
+        return line
+    listing = "\n".join(one(i, a) for i, a in enumerate(articles))
     prompt = """아래는 '화성시' 검색으로 수집한 뉴스 제목 목록이다. 각 기사를 분석해 JSON 배열로만 답하라.
 
 %s
@@ -206,7 +291,8 @@ def call_claude(api_key, articles):
 - keep: 경기도 화성시(동탄·병점·향남·봉담·남양 등 포함)의 행정·생활과 직접 관련된 기사만 true. 경기도 전체 정치, 타 지역, 중앙 정치, 행성 화성 관련은 false.
 - cat: %s 중 하나.
 - senti: 화성시 입장에서의 긍정·중립·부정.
-- summary: 제목을 바탕으로 한 문장(50자 내외) 요약. 사실만 담고 추측하지 않는다.
+- summary: 한 문장(50자 내외) 요약. 본문이 있으면 본문을 바탕으로, 없으면 제목만으로 쓴다.
+  둘 다 사실만 담고 추측하지 않는다.
 - kw: 핵심 주제어 3개. 조사가 붙은 단어("동탄은")나 형식어("영상","포토")는 금지.
 - keep이 false면 cat/senti/summary/kw는 빈 값으로 둔다.
 설명 없이 JSON 배열만 출력하라.""" % (listing, " / ".join(CATS))
@@ -624,6 +710,13 @@ def main():
         print("안전장치: %d건까지만 처리합니다." % MAX_NEW)
         fresh = fresh[:MAX_NEW]
 
+    # 분류 전에 본문을 붙인다. 붙은 기사는 제목이 아니라 본문으로 판정된다.
+    if fresh:
+        try:
+            attach_bodies(fresh)
+        except Exception as e:
+            print("본문 붙이기 실패 — 제목만으로 진행합니다: %s" % str(e)[:80])
+
     # 분류
     added = []
     if api_key and fresh:
@@ -666,6 +759,7 @@ def main():
                     cat, senti = r2["cat"], r2["senti"]
                 added.append({
                     "date": src["date"], "cat": cat, "senti": senti,
+                    **({"body": src["body"]} if src.get("body") else {}),
                     "title": src["title"],
                     "summary": (r.get("summary") or "").strip(),
                     "kw": [k for k in (r.get("kw") or []) if k][:3],
