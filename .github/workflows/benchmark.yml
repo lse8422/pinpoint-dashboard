@@ -3,6 +3,12 @@
 name: 대조 통계 수집
 
 on:
+  # 월요일 한국시간 오전 6시. 주간 보고서 주기와 맞춘다.
+  # 매일 돌리지 않는 이유 — 도시당 표본이 80~85건뿐이라 하루 사이의 오르내림이
+  # 실제 변화가 아니라 표본 오차다(화성시 4/85의 95% 구간이 1.8~11.5%, 한 건이 1.2%p를 움직인다).
+  # 그 흔들림을 추세로 읽으면 잘못 대응하게 된다. 창도 14일이라 하루에 7%만 바뀐다.
+  schedule:
+    - cron: "0 21 * * 0"
   workflow_dispatch:
     inputs:
       days:
@@ -27,19 +33,19 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: 네 도시 수집 및 판정
+      - name: 경기 5대 시 수집 및 판정
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          BENCH_DAYS: ${{ inputs.days }}
-          BENCH_CAP: ${{ inputs.cap }}
+          BENCH_DAYS: ${{ inputs.days || '14' }}
+          BENCH_CAP: ${{ inputs.cap || '400' }}
         run: python benchmark.py
 
       - name: 변경사항 커밋
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          if [ -n "$(git status --porcelain benchmark.json)" ]; then
-            git add benchmark.json
+          if [ -n "$(git status --porcelain benchmark.json benchmark_history.json)" ]; then
+            git add benchmark.json benchmark_history.json
             git commit -m "대조 통계 수집 $(date -u -d '+9 hours' +'%Y-%m-%d')"
             # 다른 워크플로가 먼저 밀어넣었을 수 있다. 최신을 당겨온 뒤 다시 시도한다.
             git pull --rebase origin main

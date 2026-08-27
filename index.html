@@ -397,6 +397,63 @@
 
   /* 대응 연결 — 무엇이 문제인지까지만 보여주고 멈추면 결재가 안 올라간다.
      소관 후보 부서와 대응 상태를 이슈에 붙인다. */
+  /* 대조 추세 — 회차별 이력이 쌓이면 그린다. */
+  .bh { margin-top: 16px; padding-top: 15px; border-top: 1px solid var(--border); }
+  .bh-h { display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap; margin-bottom: 9px; }
+  .bh-t { font-size: 14.5px; font-weight: 800; color: var(--title); }
+  .bh-box { height: 190px; }
+  .bh-cycle { display: flex; align-items: flex-start; gap: 9px; margin-top: 14px;
+    background: var(--summary-bg); border: 1px solid var(--border); border-radius: 10px;
+    padding: 12px 15px; font-size: 12.5px; line-height: 1.7; color: var(--summary-text); }
+  .bh-cycle b { color: var(--title); }
+  .bh-cycle .ic { flex-shrink: 0; font-size: 15px; line-height: 1.4; }
+
+  /* 머신러닝 점검 — 수치는 ml_report.json 에서 읽어 그린다. */
+  .ml-kpi { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 11px; margin-bottom: 18px; }
+  .ml-kpi > div { background: var(--summary-bg); border: 1px solid var(--border);
+    border-radius: 10px; padding: 13px 15px; }
+  .ml-kpi .k { font-size: 11.5px; color: var(--muted); margin-bottom: 5px; }
+  .ml-kpi .v { font-size: 24px; font-weight: 800; color: var(--title); line-height: 1.15; }
+  .ml-kpi .v.warn { color: var(--neg); }
+  .ml-kpi .s { font-size: 11.5px; color: var(--muted2); margin-top: 4px; line-height: 1.5; }
+  .ml-tb { width: 100%; border-collapse: collapse; font-size: 12.8px; margin-bottom: 6px; }
+  .ml-tb th { text-align: left; font-size: 11.5px; font-weight: 600; color: var(--muted);
+    padding: 6px 8px; border-bottom: 1px solid var(--border); }
+  .ml-tb td { padding: 7px 8px; border-bottom: 1px solid var(--border); color: var(--summary-text); }
+  .ml-tb td.n { text-align: right; font-variant-numeric: tabular-nums; }
+  .ml-tb tr.best td { background: var(--badge-bg); font-weight: 700; }
+  .ml-tb tr.base td { color: var(--muted); }
+  .ml-h { font-size: 13.5px; font-weight: 800; color: var(--title); margin: 18px 0 7px; }
+  .ml-p { font-size: 12.8px; line-height: 1.75; color: var(--summary-text); margin-bottom: 4px; }
+  .ml-p b { color: var(--title); }
+  .ml-warn { background: #FDF4F4; border: 1px solid #E8C9C9; border-radius: 10px;
+    padding: 13px 16px; font-size: 12.8px; line-height: 1.75; color: var(--summary-text); }
+  .ml-warn b { color: var(--neg); }
+  body.dark .ml-warn { background: #2A1F1F; border-color: #5A3A3A; }
+  .ml-bar { display: flex; height: 9px; border-radius: 999px; overflow: hidden;
+    background: var(--neu-bg); margin-top: 5px; }
+  .ml-bar i { display: block; height: 100%; background: var(--chip-active-bg); }
+
+  /* 대조 값을 어디에 쓰는지 — "어디에 쓸 건데"라는 물음에 화면이 직접 답한다. */
+  .bu { margin-top: 16px; padding-top: 15px; border-top: 1px solid var(--border); }
+  .bu-t { font-size: 14.5px; font-weight: 800; color: var(--title); margin-bottom: 11px; }
+  .bu-g { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; }
+  .bu-g > div { background: var(--summary-bg); border: 1px solid var(--border);
+    border-radius: 10px; padding: 13px 16px; }
+  .bu-g b { display: block; font-size: 13px; color: var(--title); margin-bottom: 6px; }
+  .bu-g ul { margin: 0; padding-left: 17px; }
+  .bu-g li { font-size: 12.8px; line-height: 1.7; color: var(--summary-text); margin-bottom: 5px; }
+  .bu-g li b { display: inline; margin: 0; font-size: inherit; }
+  .bu-n { font-size: 12.5px; line-height: 1.7; color: var(--muted); margin-top: 11px; }
+  .bu-n b { color: var(--summary-text); }
+  .bu-tb { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .bu-tb th { text-align: left; font-size: 11.5px; font-weight: 600; color: var(--muted);
+    padding: 5px 8px; border-bottom: 1px solid var(--border); }
+  .bu-tb td { padding: 7px 8px; border-bottom: 1px solid var(--border); color: var(--summary-text); }
+  .bu-tb .bu-up { color: var(--neg); font-weight: 800; }
+  .bu-s { font-size: 11.5px; color: var(--muted2); }
+
   /* 주간 시세판 — 저번 주 대비 이번 주를 분야별로 한 줄에 놓는다. */
   .wk { display: grid; grid-template-columns: repeat(auto-fit, minmax(126px, 1fr)); gap: 9px; }
   .wk-c { background: var(--summary-bg); border: 1px solid var(--border); border-radius: 10px;
@@ -711,7 +768,8 @@
     <div id="surgeBox"></div>
     <div id="todoList"></div>
     <div class="score-help">점수는 <b>얼마나 최근인지 · 몇 개 매체가 다뤘는지 · 몇 건인지 · 오래 가는지</b>를
-      더한 값입니다. 100점 만점이고, <b>점수를 누르면 그 항목의 계산 내역</b>이 나옵니다.</div>
+      더한 값입니다. 100점 만점이고, <b>점수를 누르면 계산 내역과 배점 근거</b>가 나옵니다.
+      네 항목은 뉴스가치 연구가 다뤄 온 기준 가운데 <b>제목만으로 셀 수 있는 것</b>을 고른 것입니다.</div>
     <div class="dept-note">소관 후보 부서는 <b>기사를 보고 판정한 값이 아닙니다.</b>
       제목에 부서명이 들어 있는 기사가 3.8%뿐이라 자동 분류를 하지 않고,
       분야에 해당하는 부서를 <b>화성특례시 행정조직안내</b>에서 가져와 후보로만 보여드립니다.
@@ -815,6 +873,8 @@
     <div class="chart-note" id="benchLead" style="display:block; margin-bottom:10px;"></div>
     <div id="benchRows"></div>
     <div class="chart-note" id="benchNote" style="display:block;"></div>
+    <div id="benchHist"></div>
+    <div id="benchUse"></div>
   </div>
 
   </div><!-- /견주기 -->
@@ -920,14 +980,25 @@
         </div></div>
 
         <div class="wy-step"><div class="wy-num">5</div><div>
-          <div class="wy-q">왜 최신성이 45점인가 — 아침에 보는 화면이기 때문이다</div>
-          <div class="wy-a">이 화면이 답하는 질문은 "오늘 뭘 먼저 보나"입니다. 그래서
-            <b>오늘 대응할 일인지</b>를 가장 크게 봤습니다. 뉴스 랭킹에서 최신성이 가장 크게 반영된다는
-            점과 같은 방향입니다. <span class="wy-src">(김병희, 2016)</span>
-            <b>다만 이슈 생존 기간은 유형별로 다르다</b>는 연구가 있어
-            <span class="wy-src">(유호선·명현·오효정, 2017)</span>, 모든 분야에 하루 7점씩 똑같이 깎는
-            지금 방식은 근거가 약합니다. 분야별 감쇠율과 AHP 가중치 도출
-            <span class="wy-src">(최명일 외, 2013)</span>이 다음 과제입니다.</div>
+          <div class="wy-q">점수 네 항목과 배점은 어디서 왔는가</div>
+          <div class="wy-a">항목은 저희가 지어낸 것이 아닙니다. 뉴스가치 연구는 갈퉁과 루지 이후
+            50여 년간 <b>시의성·영향성·저명성·근접성</b>을 핵심 기준으로 다뤄 왔습니다
+            <span class="wy-src">(이종혁, 2019 · 이종혁 외, 2013)</span>. 그 가운데
+            <b>제목만으로 셀 수 있는 것</b>만 골라 최신성·퍼진 정도·기사 수·오래감으로 옮겼습니다.
+            근접성은 화성시 기사만 모으므로 이미 고정돼 있고, 저명성은 제목만으로 재기 어려워 뺐습니다.<br>
+            <b>최신성을 가장 크게(45점)</b> 둔 것은 언론과 공중의 관심이 사건 직후 치솟았다가 빠르게
+            식기 때문입니다. 다운스의 <b>이슈관심주기</b>가 그 현상을 설명하고, 국내에서도 언론 관심도가
+            정책 결정으로 이어지는 과정에 적용돼 왔습니다
+            <span class="wy-src">(이진실, 2017 · 유수동, 2018)</span>.
+            <b>퍼진 정도</b>는 매체들이 서로의 의제에 영향을 주고받으며 하나의 의제를 키운다는 점
+            <span class="wy-src">(이승희·송진, 2014)</span>에서 두 번째로 크게,
+            <b>기사 수</b>는 후속 보도로 부풀기 쉬워
+            <span class="wy-src">(오효정 외, 2016)</span> 가장 낮게 뒀습니다.<br>
+            <b>다만 배점의 정확한 값까지 논문이 정해 준 것은 아닙니다.</b> 항목을 고른 근거는 있지만
+            45·30·15·10이라는 숫자는 저희가 정했습니다. 이슈 생존 기간이 유형별로 다르다는 연구
+            <span class="wy-src">(유호선 외, 2017 · 김영곤·신다윗, 2021)</span>가 있어
+            <b>분야별 감쇠율</b>과 쌍대비교로 가중치를 도출하는 <b>AHP</b>
+            <span class="wy-src">(최명일 외, 2013)</span> 적용이 다음 과제입니다.</div>
         </div></div>
 
         <div class="wy-step"><div class="wy-num">6</div><div>
@@ -956,6 +1027,13 @@
       </div>
     </div>
 
+    <div class="wy" id="mlCard" style="display:none;">
+      <h3>머신러닝으로 점검한 것</h3>
+      <div class="wy-sub">우리 분류가 얼마나 믿을 만한지, 수업에서 배운 방법으로 직접 재봤습니다.
+        <b>정답을 사람이 아니라 AI가 매겼기 때문에 이 값은 정확도가 아닙니다.</b></div>
+      <div id="mlBody"></div>
+    </div>
+
     <div class="wy">
       <h3>참고한 연구</h3>
       <div class="wy-sub">논문을 보고 설계한 것이 아니라, 만든 뒤 판단이 선행연구와 어긋나지 않는지 확인했습니다.</div>
@@ -968,6 +1046,13 @@
         <li><em>오혜윤(2025)</em> 「디지털 환경에서의 정보 시각화를 위한 디자인 프레임워크 제안」, 『Design Works』 — 정보의 위계에 따른 배열</li>
         <li><em>이승선(2014)</em> 「지방자치단체의 언론대응 방식 특성과 함의」, 『사회과학연구』 — 지자체의 실제 언론 대응 방식</li>
         <li><em>김병희(2016)</em> 『뉴스 어뷰징과 검색 알고리즘』 — 뉴스 랭킹에서 최신성의 비중</li>
+        <li><em>이종혁(2019)</em> 「뉴스가치의 개념, 유형, 작동 기제 및 규범에 대한 종합 고찰」, 『방송문화연구』 — 갈퉁·루지 이후 뉴스가치 기준의 종합</li>
+        <li><em>이종혁·길우영·강성민·최윤정(2013)</em> 「다매체 환경에서의 뉴스 가치 판단 기준에 대한 종합적 구조적 접근」, 『한국방송학보』 — 새로움·영향성·관련성·시의성·근접성</li>
+        <li><em>이진실(2017)</em> 「아동복지 이슈에 대한 언론의 관심도와 정책결정에 관한 연구: Downs의 이슈관심주기이론을 중심으로」 — 언론 관심은 시간에 따라 식는다</li>
+        <li><em>유수동(2018)</em> 「사회적 이슈에 대한 공공의 관심도와 예산결정에 관한 연구」 — 이슈관심주기가 행정 결정으로 이어지는 경로</li>
+        <li><em>이승희·송진(2014)</em> 「재난보도에 나타난 소셜 미디어와 방송 뉴스의 매체 간 의제설정」, 『한국언론학보』 — 매체들이 서로의 의제를 키운다</li>
+        <li><em>김영곤·신다윗(2021)</em> 「운형함수 모형을 적용한 병역 관련 사회적 이슈의 생존주기 탐색 및 유형화 연구」, 『행정논총』 — 이슈마다 생존 곡선이 다르다</li>
+        <li><em>임현수·이준웅(2011)</em> 「보도자료 기사화 과정에서의 영향요인에 관한 연구」, 『한국언론학보』 — 영향력·갈등성·의외성·저명성·근접성·새로움이 기사 채택에 미치는 영향</li>
       </ul>
     </div>
 
@@ -1266,17 +1351,38 @@ function scoreWhy(it) {
 function scoreBasis() {
   const d = issueSpanStat();
   return `<div class="sw-basis">
-    <b>배점을 이렇게 둔 이유</b> — 담당자가 아침에 보는 화면이라 <b>오늘 대응할 일인지</b>를
-    가장 크게 봤습니다(최신성 45점). 뉴스 랭킹에서 최신성이 가장 크게 반영된다는 점과 같은 방향입니다.
-    <span class="sw-cite">(김병희, 2016)</span>
-    퍼진 정도는 <b>3개 매체에서 상한</b>입니다. 세 곳이 다뤘으면 이미 퍼진 사건이고,
+    <b>네 항목을 고른 근거</b> — 뉴스가치 연구는 갈퉁과 루지 이후 50여 년간
+    <b>시의성 · 영향성 · 저명성 · 근접성</b>을 핵심 기준으로 다뤄 왔습니다
+    <span class="sw-cite">(이종혁, 2019 · 이종혁 외, 2013)</span>.
+    저희는 그 가운데 <b>제목만으로 셀 수 있는 것</b>만 골랐습니다.
+    최신성은 시의성, 퍼진 정도와 기사 수는 영향성, 오래감은 지속성에 해당합니다.
+    근접성은 화성시 기사만 모으므로 이미 고정돼 있고, 저명성은 제목만으로 재기 어려워 뺐습니다.
+
+    <br><br><b>최신성이 45점으로 가장 큰 이유</b> — 언론과 공중의 관심은 사건 직후 치솟았다가
+    시간이 지나며 빠르게 식습니다. 다운스의 <b>이슈관심주기</b>가 그 현상을 설명하고,
+    국내에서도 언론 관심도가 정책 결정으로 이어지는 과정에 이 모형이 적용돼 왔습니다
+    <span class="sw-cite">(이진실, 2017 · 유수동, 2018)</span>.
+    뉴스 랭킹에서 최신성이 가장 크게 반영된다는 점도 같은 방향입니다
+    <span class="sw-cite">(김병희, 2016)</span>.
+
+    <br><br><b>퍼진 정도를 두 번째로 크게 둔 이유</b> — 한 매체가 쓴 것과 여러 매체가 받아쓴 것은
+    무게가 다릅니다. 매체들은 서로의 의제에 영향을 주고받으며 하나의 의제를 키웁니다
+    <span class="sw-cite">(이승희·송진, 2014)</span>.
+    그래서 <b>3개 매체에서 상한</b>을 뒀습니다. 세 곳이 다뤘으면 이미 퍼진 사건이고,
     그 이상 점수를 주면 이 항목 하나가 나머지를 눌러버립니다.
-    기사 수는 같은 매체의 후속 기사로 부풀기 쉬워 가장 낮게(15점) 뒀습니다.
-    ${d.n ? `오래감의 기준을 7일로 둔 것은 지금까지 묶인 이슈 <b>${d.n}건</b>의
-      지속일 중앙값이 <b>${d.med}일</b>이고 ${d.pct}%가 7일 안에 끝났기 때문입니다. ` : ""}
-    <b>한계</b> — 이슈 생존 기간은 유형별로 다르다는 연구가 있습니다
-    <span class="sw-cite">(유호선·명현·오효정, 2017)</span>. 지금은 모든 분야에 하루 7점씩 똑같이
-    깎고 있어 근거가 약합니다. <b>분야별 감쇠율</b>과, 가중치를 쌍대비교로 도출하는 <b>AHP</b>
+
+    <br><br><b>기사 수를 가장 낮게(15점) 둔 이유</b> — 같은 매체의 후속 기사로 부풀기 쉽습니다.
+    실제로 뉴스의 37.9%가 부정 사건·사고이지만 중복과 후속 보도를 빼면 1.6%로 줄어듭니다
+    <span class="sw-cite">(오효정 외, 2016)</span>. 그래서 건수는 참고만 합니다.
+
+    ${d.n ? `<br><br><b>오래감의 기준을 7일로 둔 이유</b> — 지금까지 묶인 이슈 <b>${d.n}건</b>의
+      지속일 중앙값이 <b>${d.med}일</b>이고 <b>${d.pct}%</b>가 7일 안에 끝났습니다.
+      우리 데이터에서 직접 재서 정했습니다. ` : ""}
+
+    <br><br><b>남은 한계</b> — 이슈 생존 기간은 유형별로 다르다는 연구가 있습니다
+    <span class="sw-cite">(유호선·명현·오효정, 2017 · 김영곤·신다윗, 2021)</span>.
+    지금은 모든 분야에 하루 7점씩 똑같이 깎고 있어 <b>이 부분은 아직 근거가 약합니다.</b>
+    <b>분야별 감쇠율</b>과, 가중치를 쌍대비교로 도출하는 <b>AHP</b>
     <span class="sw-cite">(최명일 외, 2013)</span> 적용이 다음 과제입니다.
   </div>`;
 }
@@ -2640,6 +2746,249 @@ function renderMention(rows) {
   card.style.display = "";
 }
 
+// ── 머신러닝 점검 ───────────────────────────────────────────
+// ml_analysis.py 가 만든 결과를 읽어 그린다. 수치를 코드에 박지 않는다.
+async function loadML() {
+  try {
+    const r = await fetch("ml_report.json");
+    if (!r.ok) return null;
+    return await r.json();
+  } catch (e) { return null; }
+}
+
+function renderML(m) {
+  const card = document.getElementById("mlCard");
+  if (!card || !m) return;
+  const f3 = v => (v == null ? "-" : v.toFixed(3));
+  const leak = m["누수"] || {};
+  const cmp = m["모델비교"] || {};
+  const best = m["최고모델"];
+  const b = cmp[best] || {};
+  const base = cmp["규칙 기반(베이스라인)"] || {};
+  const im = m["불균형"] || {};
+
+  const rows = Object.entries(cmp).sort((a, b2) => (b2[1].F1 || 0) - (a[1].F1 || 0));
+  const bd = m["편향분산"] || [];
+  const worst = bd.length ? bd[bd.length - 1] : null;
+
+  document.getElementById("mlBody").innerHTML = `
+    <div class="ml-kpi">
+      <div><div class="k">부정 보도 비율</div><div class="v">${im.부정비율}%</div>
+        <div class="s">${im.부정.toLocaleString()}건 / ${im.전체.toLocaleString()}건</div></div>
+      <div><div class="k">아무것도 안 했을 때 정확도</div><div class="v warn">${im.다수클래스정확도}%</div>
+        <div class="s">전부 "부정 아님"이라고만 답한 결과</div></div>
+      <div><div class="k">${best} F1</div><div class="v">${f3(b.F1)}</div>
+        <div class="s">규칙 기반 ${f3(base.F1)} 대비 ${(b.F1 - base.F1 >= 0 ? "+" : "")}${f3(b.F1 - base.F1)}</div></div>
+      <div><div class="k">놓친 부정 보도</div><div class="v warn">${b.FN}건</div>
+        <div class="s">헛짚은 것은 ${b.FP}건</div></div>
+    </div>
+
+    <div class="ml-warn"><b>정확도로 성능을 말하면 안 됩니다.</b>
+      부정 보도가 전체의 ${im.부정비율}%뿐이라, <b>아무 판단도 하지 않고 전부 "부정 아님"이라고만 해도
+      정확도가 ${im.다수클래스정확도}%</b>가 나옵니다. 그런데 그 모델은 부정 보도를 하나도 못 잡습니다(재현율 0).
+      그래서 이 문제는 <b>재현율과 F1</b>으로 봐야 합니다.</div>
+
+    <div class="ml-h">1. 나누는 방법에 따라 성능이 달라진다 — 데이터 누수</div>
+    <div class="ml-p">기사 <b>${im.전체.toLocaleString()}건</b>을 제목이 겹치는 것끼리 묶으면
+      <b>${(leak.사건수 || 0).toLocaleString()}개 사건</b>이 됩니다(중복 ${leak.중복기사}건).
+      같은 사건 기사가 학습과 시험에 나뉘어 들어가면 모델이 <b>답을 미리 보게</b> 됩니다.</div>
+    <table class="ml-tb">
+      <thead><tr><th>나눈 방법</th><th class="n">정밀도</th><th class="n">재현율</th><th class="n">F1</th></tr></thead>
+      <tbody>
+        ${["무작위 분할", "사건 분할", "시간 분할"].filter(k => leak[k]).map(k => `
+          <tr><td>${k}${k === "무작위 분할" ? " <span class=\"bu-s\">(누수 있음)</span>"
+            : k === "시간 분할" ? " <span class=\"bu-s\">(실제 운영 조건)</span>" : ""}</td>
+            <td class="n">${f3(leak[k].정밀도)}</td><td class="n">${f3(leak[k].재현율)}</td>
+            <td class="n">${f3(leak[k].F1)}</td></tr>`).join("")}
+      </tbody>
+    </table>
+    <div class="ml-p">무작위로 나누면 F1이 <b>${f3(leak["무작위 분할"] && leak["무작위 분할"].F1)}</b>이지만
+      같은 사건을 한쪽에만 두면 <b>${f3(leak["사건 분할"] && leak["사건 분할"].F1)}</b>입니다.
+      실제 운영은 과거로 배워 오늘 기사를 판정하는 <b>시간 분할</b>과 같은 조건이라
+      <b>${f3(leak["시간 분할"] && leak["시간 분할"].F1)}</b>이 현실에 가깝습니다.
+      부풀려진 숫자를 쓰지 않으려고 이렇게 나눠 쟀습니다.</div>
+
+    <div class="ml-h">2. 모델을 바꿔가며 견줬습니다 — 사건 분할 5겹 교차검증</div>
+    <table class="ml-tb">
+      <thead><tr><th>모델</th><th class="n">정확도</th><th class="n">정밀도</th>
+        <th class="n">재현율</th><th class="n">F1</th></tr></thead>
+      <tbody>${rows.map(([k, v]) => `
+        <tr class="${k === best ? "best" : (k.includes("베이스라인") ? "base" : "")}">
+          <td>${k}</td><td class="n">${f3(v.정확도)}</td><td class="n">${f3(v.정밀도)}</td>
+          <td class="n">${f3(v.재현율)}</td><td class="n">${f3(v.F1)}</td></tr>`).join("")}
+      </tbody>
+    </table>
+    <div class="ml-p">손으로 적은 낱말 목록(규칙 기반)이 이미 F1 <b>${f3(base.F1)}</b>을 냅니다.
+      학습 모델은 <b>${f3(b.F1)}</b>로 <b>${(b.F1 - base.F1 >= 0 ? "+" : "")}${f3(b.F1 - base.F1)}</b>
+      나아졌습니다. <b>베이스라인을 먼저 재지 않으면 이 차이를 알 수 없습니다.</b></div>
+
+    <div class="ml-h">3. 정밀도보다 재현율을 먼저 봅니다</div>
+    <div class="ml-p">헛짚은 <b>${b.FP}건</b>은 담당자가 원문을 열어보면 걸러집니다.
+      그런데 놓친 <b>${b.FN}건</b>은 <b>화면에 아예 안 뜹니다.</b>
+      홍보 담당자에게는 놓치는 쪽이 훨씬 아픕니다. 그래서 지표를 고를 때 재현율을 먼저 봤습니다.</div>
+
+    ${worst ? `<div class="ml-h">4. 복잡한 모델이 더 좋지 않았습니다 — 과적합</div>
+    <div class="ml-p">결정 트리의 깊이를 ${worst.깊이}까지 늘리면 <b>학습 F1이 ${worst.학습F1}</b>까지 오릅니다.
+      그런데 <b>검증 F1은 ${worst.검증F1}</b>에 머뭅니다. 차이가 <b>${worst.차이}</b>입니다.
+      외운 것이지 배운 것이 아닙니다. 그래서 더 단순한 로지스틱 회귀를 골랐습니다.</div>
+    <div class="ml-bar"><i style="width:${Math.round(worst.검증F1 / Math.max(worst.학습F1, 0.001) * 100)}%"></i></div>
+    <div class="ml-p" style="font-size:11.5px;color:var(--muted2)">막대는 학습 성능 대비 실제 성능입니다.</div>` : ""}
+
+    <div class="ml-h">5. 무엇을 보고 판정하는지 열어봤습니다</div>
+    <div class="ml-p">부정 쪽으로 미는 낱말 —
+      <b>${(m.해석 && m.해석.부정낱말 || []).slice(0, 10).join(" · ")}</b><br>
+      이 가운데 <b>${m.해석 && m.해석.규칙목록과겹침}개</b>는 저희가 손으로 적어 둔 부정 낱말 목록에 이미 있습니다.
+      모델이 사람이 정한 규칙과 <b>비슷한 곳을 보고 있다는 뜻</b>입니다.</div>
+
+    <div class="ml-warn" style="margin-top:16px"><b>다시 말씀드립니다 — 이 값은 정확도가 아닙니다.</b>
+      여기서 쓴 정답은 사람이 아니라 AI가 매긴 값입니다. 따라서 이 분석이 재는 것은
+      "AI가 맞았는가"가 아니라 <b>"AI의 판정이 제목만으로 재현 가능한 규칙인가"</b>입니다.
+      사람이 검수한 정답지를 만들면 그때 비로소 정확도를 말할 수 있습니다.
+      그것이 본선까지 저희 1순위 과제입니다.</div>`;
+  card.style.display = "";
+}
+
+// ── 대조 추세 ───────────────────────────────────────────────
+// 회차별 이력이 쌓이면 화성시가 다른 시 대비 어떻게 움직였는지 볼 수 있다.
+// 홍보 활동을 하고 나서 실제로 달라졌는지 보려면 한 시점 값만으로는 안 된다.
+let benchHistChart = null;
+
+async function loadBenchHist() {
+  try {
+    const r = await fetch("benchmark_history.json");
+    if (!r.ok) return null;
+    const h = await r.json();
+    return Array.isArray(h) && h.length ? h : null;
+  } catch (e) { return null; }
+}
+
+function renderBenchHist(hist) {
+  const box = document.getElementById("benchHist");
+  if (!box) return;
+
+  // 갱신 주기는 이력이 없어도 밝힌다. 매일 도는 줄 알면 화면이 거짓말을 하는 셈이다.
+  const cycle = `<div class="bh-cycle"><span class="ic">🗓</span><span>
+    <b>대조는 주 1회(월요일 오전 6시) 자동으로 갱신됩니다.</b>
+    화성시 기사 수집은 매일 돌지만 대조는 그렇지 않습니다.
+    도시당 표본이 80~85건뿐이라 <b>부정 기사 한 건 차이가 비율을 약 1.2%p 움직입니다.</b>
+    매일 갱신하면 그 흔들림이 추세처럼 보이는데 <b>실제 변화가 아니라 표본 오차</b>입니다.
+    창도 14일이라 하루에 7%만 바뀝니다. 그래서 <b>주간 보고서와 같은 주기</b>로 맞췄습니다.
+    </span></div>`;
+
+  if (!hist || hist.length < 2) {
+    box.innerHTML = cycle;
+    return;
+  }
+
+  const labels = hist.map(h => { const d = h.collected.split("-"); return +d[1] + "/" + +d[2]; });
+  const mine = hist.map(h => {
+    const c = (h.cities || []).find(x => x.name === "화성시");
+    return c ? c.ratio : null;
+  });
+  const avg = hist.map(h => {
+    const o = (h.cities || []).filter(x => x.name !== "화성시" && typeof x.ratio === "number");
+    return o.length ? Math.round(o.reduce((s, x) => s + x.ratio, 0) / o.length * 10) / 10 : null;
+  });
+
+  box.innerHTML = `<div class="bh">
+    <div class="bh-h"><span class="bh-t">회차별 추세</span>
+      <span class="issues-note">${hist.length}회차 · 화성시와 나머지 시 평균을 나란히 봅니다</span></div>
+    <div class="bh-box"><canvas id="benchHistCanvas"></canvas></div>
+    <div class="chart-note" style="display:block;">한 점이 한 번의 수집입니다.
+      회차마다 표본이 80~85건이라 <b>점 하나하나는 흔들립니다.</b>
+      <b>여러 회차가 같은 방향으로 움직일 때만</b> 추세로 보십시오.</div>
+  </div>${cycle}`;
+
+  if (benchHistChart) benchHistChart.destroy();
+  benchHistChart = new Chart(document.getElementById("benchHistCanvas"), {
+    type: "line",
+    data: {
+      labels,
+      datasets: [
+        { label: "화성시", data: mine, borderColor: brandColor(),
+          backgroundColor: "transparent", borderWidth: 2.5, tension: .3, pointRadius: 3.5 },
+        { label: "나머지 시 평균", data: avg, borderColor: sentiColor("중립"),
+          backgroundColor: "transparent", borderWidth: 2, borderDash: [5, 4],
+          tension: .3, pointRadius: 2.5 },
+      ],
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: true, position: "top", labels: { boxWidth: 14, font: { size: 11 } } } },
+      scales: { y: { beginAtZero: true, title: { display: true, text: "부정 비율(%)" } } },
+    },
+  });
+}
+
+// ── 이 값을 어디에 쓰는가 ───────────────────────────────────
+// 조진숙 화성시연구원 데이터센터장이 화면을 보며 물었다.
+//   "여기에서 우리 시가 낮은 게 어디예요? 다른 시랑 비교해서 부정적으로 나온 거"
+//   "행정에서 대응을 하려면 구체적인 게 있어야 대응을 해요."
+// 전체 합계만으로는 그 물음에 답할 수 없다. 분야별 대조가 있어야 부서로 이어진다.
+// 지금은 수집 데이터에 분야가 없으므로, 무엇을 할 수 있고 무엇이 아직 없는지 밝힌다.
+function renderBenchUse(d, rows, us) {
+  const box = document.getElementById("benchUse");
+  if (!box) return;
+  const hasCat = rows.some(c => c.cats && Object.keys(c.cats).length);
+
+  if (!hasCat) {
+    box.innerHTML = `<div class="bu">
+      <div class="bu-t">이 값을 어디에 씁니까</div>
+      <div class="bu-g">
+        <div><b>쓸 수 있는 것</b>
+          <ul>
+            <li>홍보실이 <b>시 브랜드 이미지</b>를 관리할 때의 바깥 기준점.
+              우리 숫자만으로는 높은지 낮은지 알 수 없습니다.</li>
+            <li>같은 방법으로 지자체를 견주는 <b>절차가 성립한다</b>는 확인.
+              검색식·모델·지시문·기간을 모두 같게 두면 비교 가능한 값이 나옵니다.</li>
+            <li>특정 시기에 우리만 튀는지, 다섯 시가 함께 움직이는지 구분.
+              함께 움직이면 화성시 문제가 아니라 <b>경기도 전체 사안</b>입니다.</li>
+          </ul>
+        </div>
+        <div><b>아직 못 하는 것 — 다음 과제</b>
+          <ul>
+            <li><b>분야별 대조.</b> 지금은 전체 합계뿐이라
+              "어느 분야에서 우리가 다른 시보다 나쁜가"에 답하지 못합니다.
+              대조 수집에 분야 판정을 더하면 <b>그 분야 소관 부서</b>까지 이어집니다.</li>
+            <li><b>같은 사안 대조.</b> 같은 사건을 다른 시는 어떻게 다뤘는지 견주는 것.</li>
+            <li>도시당 표본을 300건 이상으로 늘려 <b>순위를 말할 수 있는 상태</b>로 만드는 것.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="bu-n">전체 비율 하나로는 행정 대응이 나오지 않습니다.
+        <b>어느 분야가, 어느 부서 소관인지까지</b> 가야 결재선에 올라갑니다.
+        그 자리를 비워 두지 않고 무엇이 없는지 적어 둡니다.</div>
+    </div>`;
+    return;
+  }
+
+  // 분야별 대조가 들어오면 우리가 유독 높은 분야를 짚는다.
+  const cats = [...new Set(rows.flatMap(c => Object.keys(c.cats || {})))];
+  const gap = cats.map(c => {
+    const mine = us.cats[c];
+    const others = rows.filter(x => x.name !== "화성시" && x.cats && x.cats[c])
+                       .map(x => x.cats[c]);
+    if (!mine || !mine.count || !others.length) return null;
+    const myR = mine.neg / mine.count * 100;
+    const avg = others.reduce((s, o) => s + o.neg / o.count * 100, 0) / others.length;
+    return { c, myR: Math.round(myR * 10) / 10, avg: Math.round(avg * 10) / 10,
+             diff: Math.round((myR - avg) * 10) / 10, n: mine.count };
+  }).filter(Boolean).sort((a, b) => b.diff - a.diff);
+
+  const worse = gap.filter(g => g.diff > 0).slice(0, 3);
+  box.innerHTML = `<div class="bu">
+    <div class="bu-t">어느 분야에서 다른 시보다 높습니까</div>
+    ${worse.length ? `<table class="bu-tb"><thead><tr><th>분야</th><th>화성시</th>
+      <th>다른 시 평균</th><th>차이</th><th>소관 후보</th></tr></thead><tbody>
+      ${worse.map(g => `<tr><td>${CAT_LABEL[g.c] || g.c}</td>
+        <td><b>${g.myR}%</b> <span class="bu-s">${g.n}건</span></td>
+        <td>${g.avg}%</td><td class="bu-up">+${g.diff}%p</td>
+        <td class="bu-s">${(DEPT[g.c] || []).slice(0, 2).join(" · ") || "-"}</td></tr>`).join("")}
+      </tbody></table>` : `<div class="bu-n">다른 시 평균보다 높은 분야가 없습니다.</div>`}
+    <div class="bu-n">분야별 표본은 더 작습니다. <b>순위가 아니라 어디부터 확인할지</b>를 고르는 데만 쓰십시오.</div>
+  </div>`;
+}
+
 // ── 피셔 정확검정 ───────────────────────────────────────────
 // 표본이 작을 때는 카이제곱이 맞지 않는다. 두 도시의 부정 비율 차이가
 // 우연으로 볼 수 있는 정도인지 정확검정으로 잰다.
@@ -2717,15 +3066,23 @@ function renderBench(d) {
   const ns = tests.filter(t => t.p >= 0.05);
   const fmtList = ts => ts.map(t => `${t.name.replace(/시$/, "")}(${pText(t.p)})`).join(" · ");
 
+  // 다섯 개가 다 있을 때만 "5대 시"라고 말한다.
+  // 넷만 있는데 5대 시 기준이라고 하면 없는 도시를 있는 것처럼 말하는 셈이다.
   const FIVE = ["화성시", "수원시", "용인시", "성남시", "고양시"];
-  const isFive = rows.length >= 4 && rows.every(c => FIVE.includes(c.name));
+  const inFive = rows.filter(c => FIVE.includes(c.name));
+  const isFive = inFive.length === 5;
+  const partFive = inFive.length === rows.length && rows.length >= 3 && !isFive;
 
   document.getElementById("benchNote").innerHTML =
     `${d.from} ~ ${d.to} 기사를 도시마다 같은 검색 방식으로 모아 <b>같은 AI 판정</b>을 적용했습니다. `
     + (isFive
         ? `대조 도시는 저희가 임의로 고른 것이 아니라 <b>화성시연구원이 실제로 쓰는 경기 5대 시</b>`
           + `(화성·용인·수원·성남·고양) 기준을 따랐습니다. 인구 규모가 비슷한 도시끼리 견주는 것이 비교의 전제이기 때문입니다. `
-        : `대조 도시는 인구 규모가 비슷한 경기도 내 도시로 골랐습니다. `)
+        : partFive
+          ? `대조 도시는 <b>화성시연구원이 쓰는 경기 5대 시</b>(화성·용인·수원·성남·고양) 기준을 따르되, `
+            + `현재 <b>${rows.length}개 시까지 수집된 상태</b>입니다`
+            + `(${FIVE.filter(n => !rows.some(c => c.name === n)).join("·")} 미수집). `
+          : `대조 도시는 인구 규모가 비슷한 경기도 내 도시로 골랐습니다. `)
     + `도시당 <b>${Math.min(...rows.map(c => c.count))}~${Math.max(...rows.map(c => c.count))}건</b>뿐이고 `
     + `<b>사람 검수를 거치지 않았습니다.</b> `
     + (tests.length
@@ -2734,6 +3091,8 @@ function renderBench(d) {
           + (sig.length ? `<b>${fmtList(sig)}</b>와의 차이만 확인됩니다. ` : "확인되는 차이가 없습니다. ")
         : "")
     + `따라서 <b>도시 성과를 견주는 값이 아니라</b>, 같은 방법으로 대조 통계를 만들 수 있다는 것을 보이는 <b>탐색 자료</b>입니다.`;
+
+  renderBenchUse(d, rows, us);
 
   card.style.display = "";
 }
@@ -2768,6 +3127,8 @@ async function init() {
     }
     document.getElementById("badge").textContent = "실데이터 " + NEWS.length.toLocaleString() + "건";
     loadBench().then(renderBench);
+    loadML().then(renderML);
+    loadBenchHist().then(renderBenchHist);
     const allDates = NEWS.map(n => n.date).sort();
     const minDate = allDates[0], maxDate = allDates[allDates.length - 1];
     const fmt = d => d.replaceAll("-", ".");
@@ -2824,7 +3185,7 @@ function showTab(name, remember) {
   // 숨어 있던 동안 캔버스 폭이 0이었다. 보이는 순간 다시 재야 한다.
   requestAnimationFrame(() => {
     Object.values(charts).forEach(c => { try { c.resize(); } catch (e) {} });
-    [catChart, watchChart, kwChart, issueChart, mnChart].forEach(c => {
+    [catChart, watchChart, kwChart, issueChart, mnChart, benchHistChart].forEach(c => {
       if (c) { try { c.resize(); } catch (e) {} }
     });
   });
