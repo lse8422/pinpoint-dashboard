@@ -77,6 +77,28 @@
     border-radius: 2px; margin-top: 6px; }
   .empty { text-align: center; color: var(--muted); font-size: 14px; padding: 26px 0; }
 
+  /* ══ 공공 서비스 조판 ══════════════════════════════════════
+     GOV.UK 디자인 시스템 · 화성특례시청 · e-나라지표를 열어 값을 재고 맞췄다.
+     각지고, 그림자가 없고, 글자가 크고, 색이 중성 회색이다. */
+  :root {
+    --text: #1a1a1a; --muted: #505050; --muted2: #767676; --border: #cfcfcf;
+  }
+  body { font-size: 15px; }
+  .card, .mini, .item, .items, .surge, .more, .full, .sub {
+    border-radius: 0;
+  }
+  .item .ti { font-size: 16px; }
+  .item .meta { font-size: 12.5px; }
+  .item .dept { font-size: 12px; border-radius: 0; }
+  .mini h3, h2 { font-size: 15px; }
+  .sub { font-size: 14.5px; }
+  .more, .full { border: 2px solid var(--green); font-size: 15px; }
+  /* 공공 서비스는 키보드만으로도 쓸 수 있어야 한다. GOV.UK의 노란 포커스 표준을 따른다. */
+  a:focus-visible, button:focus-visible {
+    outline: 3px solid #ffdd00; outline-offset: 0;
+    box-shadow: 0 3px 0 0 #0b0c0c; background-color: #ffdd00; color: #0b0c0c;
+  }
+
   /* 숫자는 자릿수가 맞아야 훑을 때 읽힌다. */
   .item .sc, .item .meta, .spark, .bar, .foot, .sub .d, .top .s {
     font-variant-numeric: tabular-nums; font-feature-settings: "tnum" 1; }

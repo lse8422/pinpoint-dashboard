@@ -131,6 +131,21 @@
     .sheet { width: auto; margin: 10px; padding: 18px 15px; }
     .doc-title { font-size: 16px; letter-spacing: 2px; }
   }
+
+  /* ══ 공공 서비스 조판 ══════════════════════════════════════
+     보고서는 이미 공문서 서식을 따르고 있다.
+     화면에서 볼 때의 요소(단추·상자)만 다른 두 화면과 같은 기준으로 맞춘다. */
+  button, a.btn, .mail button, .mail a, input, select {
+    border-radius: 0;
+  }
+  a:focus-visible, button:focus-visible, input:focus-visible {
+    outline: 3px solid #ffdd00; outline-offset: 0;
+    box-shadow: 0 3px 0 0 #0b0c0c; background-color: #ffdd00; color: #0b0c0c;
+  }
+  @media print {
+    /* 인쇄할 때는 화면용 단추와 안내를 뺀다. 결재선에 올라가는 것은 본문뿐이다. */
+    .mail, .no-print, button { display: none !important; }
+  }
 </style>
 </head>
 <body>

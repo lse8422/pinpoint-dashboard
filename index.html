@@ -895,6 +895,91 @@
   }
   .article .cat, .article .senti { border-radius: 0; }
 
+  /* ══ 공공 서비스 조판 ══════════════════════════════════════
+     실제 공공 사이트를 열어 값을 재고 맞췄다.
+       GOV.UK 디자인 시스템 · 화성특례시청 · e-나라지표
+     세 곳의 공통점은 각지고, 그림자가 없고, 글자가 크고, 색이 중성 회색이라는 것이다.
+     ══════════════════════════════════════════════════════ */
+
+  /* 1. 모서리를 없앤다. GOV.UK는 반경이 0px다. 공공 문서는 둥글지 않다. */
+  .card, .wy, .rp, .fb, .fb-panel, .today, .ai-brief, .stats, .stat,
+  .chip, .act-btn, .scope-btn, .fb-way, .fb-go, .rp-go, .more-btn,
+  .mn-chips span, .cat-pick span, .kw, .date-input, #search,
+  .watch-form input, .watch-form button, #darkToggle, .simple-link,
+  .watch-item, .watch-list span, .toolbar, .period-bar, .surge,
+  .bn-act, .bu-g > div, .wy-not div, .ml-warn, .ml-kpi > div,
+  .wk-c, .bh-cycle, .todo-dept, .todo-why, .bw-c, .sw-basis,
+  .kwpanel, .heat-card, .bench, #bwChips span, .article .senti {
+    border-radius: 0;
+  }
+
+  /* 2. 글자를 키운다. 공공 사이트는 본문이 16~19px다. 우리는 14px이었다. */
+  body { font-size: 15px; line-height: 1.65; }
+  .article .title { font-size: 15px; line-height: 1.55; }
+  .article .summary { font-size: 13.5px; }
+  .card h3, .wy h3, .rp h3 { font-size: 19px; }
+  .today-title { font-size: 19px; }
+  .ai-brief-body { font-size: 15.5px; line-height: 1.75; }
+  .todo-label { font-size: 15.5px; }
+  .chip, .cat-chip { font-size: 13.5px; }
+  .wy-a, .ml-p, .bn-act-p, .chart-note { font-size: 13.5px; }
+
+  /* 3. 글자색에서 파란기를 뺀다. 공공 사이트는 중성 회색이다. */
+  :root {
+    --text: #1a1a1a;
+    --title: #17335c;
+    --muted: #505050;
+    --muted2: #767676;
+    --summary-text: #444444;
+    --article-title: #1a1a1a;
+    --border: #cfcfcf;
+    --input-border: #1a1a1a;
+  }
+  body.dark {
+    --text: #e4e4e4;
+    --muted: #b0b0b0;
+    --muted2: #949494;
+    --summary-text: #cccccc;
+    --border: #454545;
+    --input-border: #8a8a8a;
+  }
+
+  /* 4. 입력 테두리를 진하게. GOV.UK는 입력 테두리가 검정이다.
+        연한 회색 테두리는 "누를 수 있는 곳"이 어디인지 알려주지 못한다. */
+  #search, .date-input, .watch-form input {
+    border: 2px solid var(--input-border);
+    padding: 9px 12px; font-size: 14.5px;
+  }
+  .watch-form button, .more-btn, .fb-go, .rp-go {
+    border: 2px solid var(--chip-active-bg);
+  }
+
+  /* 5. 포커스 표시. 공공 서비스는 키보드만으로도 쓸 수 있어야 한다.
+        GOV.UK가 쓰는 노란 바탕에 검은 밑줄이 그 표준이다. */
+  a:focus-visible, button:focus-visible, input:focus-visible,
+  .chip:focus-visible, [tabindex]:focus-visible {
+    outline: 3px solid #ffdd00;
+    outline-offset: 0;
+    box-shadow: 0 3px 0 0 #0b0c0c;
+    background-color: #ffdd00;
+    color: #0b0c0c;
+    text-decoration: none;
+  }
+
+  /* 6. 구획을 굵은 선으로 나눈다. GOV.UK의 section break와 같은 구실이다. */
+  .charts, .heat-card, .bench, .keywords, #watchCard, #mentionCard, #weekCard {
+    border-top: 2px solid var(--title);
+    border-left: none; border-right: none; border-bottom: none;
+    padding-top: 18px; margin-top: 4px; background: none;
+  }
+  .charts { border-top: none; padding-top: 0; }
+  .charts > .card { border: 1px solid var(--border); background: var(--surface); padding: 16px; }
+
+  /* 7. 링크에 밑줄. 공공 서비스에서 링크는 색만으로 구분하지 않는다. */
+  .article .title a { text-decoration: underline; text-underline-offset: 3px;
+    text-decoration-thickness: 1px; text-decoration-color: #b6b6b6; }
+  .article .title a:hover { text-decoration-color: currentColor; }
+
   /* ── 제호 ─────────────────────────────────────────────────
      신문 제호처럼 크고 좁게 짜고, 아래를 굵은 규칙선으로 닫는다.
      장식이 아니라 "여기부터 이 문서"라는 경계를 만드는 선이다. */
