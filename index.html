@@ -1090,9 +1090,160 @@
 
   /* '오늘 확인할 것'은 이 화면의 1층이다. 왼쪽 굵은 선으로 그 위치를 표시한다. */
   .today { border-left-width: 3px; }
+
+  /* ── 첫 화면 ──────────────────────────────────────────────
+     처음 온 사람이 3초 안에 "무엇을, 누구를 위해, 얼마에" 를 알게 한다.
+     장식을 넣지 않는다. 넣을수록 공모전 출품물처럼 보이고 공문서처럼 안 보인다. */
+  .lp { display: none; background: var(--surface); }
+  body.intro .lp { display: block; }
+  body.intro .src-bar, body.intro header, body.intro .wrap, body.intro footer { display: none; }
+
+  .lp-in { max-width: 940px; margin: 0 auto; padding: 56px 24px 72px; }
+  .lp-tag { display: inline-block; border: 1px solid var(--border);
+    padding: 5px 11px; font-size: 12.5px; color: var(--muted); font-weight: 600;
+    letter-spacing: -0.01em; margin-bottom: 26px; }
+  .lp-tag b { color: var(--title); }
+  .lp h1 { font-size: 38px; line-height: 1.28; letter-spacing: -0.045em;
+    font-weight: 800; color: var(--article-title); margin-bottom: 18px; }
+  .lp h1 em { font-style: normal; color: var(--neg); }
+  .lp-sub { font-size: 17px; line-height: 1.75; color: var(--summary-text);
+    max-width: 660px; margin-bottom: 8px; }
+  .lp-sub b { color: var(--title); }
+  .lp-cite { font-size: 12.5px; line-height: 1.7; color: var(--muted2);
+    max-width: 660px; margin-bottom: 34px; }
+
+  .lp-go { display: inline-block; background: var(--title); color: #fff;
+    border: 2px solid var(--title); padding: 13px 26px; font-size: 16px;
+    font-weight: 700; text-decoration: none; letter-spacing: -0.02em; }
+  .lp-go:hover { background: #0f2444; border-color: #0f2444; }
+  .lp-go2 { display: inline-block; margin-left: 14px; font-size: 14px;
+    color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+
+  .lp-nums { display: grid; grid-template-columns: repeat(3, 1fr);
+    border-top: 2px solid var(--title); border-bottom: 1px solid var(--border);
+    margin: 40px 0 40px; }
+  .lp-nums > div { padding: 20px 20px 20px 0; border-right: 1px solid var(--border); }
+  .lp-nums > div:last-child { border-right: none; }
+  .lp-nums .n { font-size: 27px; font-weight: 800; color: var(--article-title);
+    letter-spacing: -0.035em; line-height: 1.2; display: block; }
+  .lp-nums .k { font-size: 13px; color: var(--muted); margin-top: 7px; line-height: 1.6; }
+  .lp-nums .k b { color: var(--summary-text); }
+
+  .lp-sec { margin-top: 38px; }
+  .lp-sec h2 { font-size: 19px; font-weight: 800; color: var(--title);
+    letter-spacing: -0.03em; margin-bottom: 12px; }
+  .lp-who { border-left: 3px solid var(--title); background: var(--summary-bg);
+    padding: 15px 18px; font-size: 14.5px; line-height: 1.8; color: var(--summary-text); }
+  .lp-who b { color: var(--article-title); }
+  .lp-who .src { display: block; font-size: 12px; color: var(--muted2); margin-top: 8px; }
+
+  .lp-vs { width: 100%; border-collapse: collapse; margin-top: 4px; }
+  .lp-vs th, .lp-vs td { text-align: left; padding: 11px 12px 11px 0;
+    border-bottom: 1px solid var(--border); font-size: 14px; line-height: 1.65;
+    vertical-align: top; color: var(--summary-text); }
+  .lp-vs thead th { font-size: 12.5px; color: var(--muted); font-weight: 700;
+    border-bottom: 2px solid var(--title); padding-bottom: 8px; }
+  .lp-vs td:first-child { font-weight: 700; color: var(--article-title); width: 148px; }
+  .lp-vs b { color: var(--title); }
+  .lp-note { font-size: 12.5px; line-height: 1.75; color: var(--muted2); margin-top: 12px; }
+  .lp-note b { color: var(--muted); }
+
+  .lp-foot { margin-top: 44px; padding-top: 20px; border-top: 1px solid var(--border);
+    font-size: 12.5px; color: var(--muted2); line-height: 1.8; }
+
+  @media (max-width: 720px) {
+    .lp-in { padding: 34px 18px 52px; }
+    .lp h1 { font-size: 27px; }
+    .lp-sub { font-size: 15.5px; }
+    .lp-nums { grid-template-columns: 1fr; }
+    .lp-nums > div { border-right: none; border-bottom: 1px solid var(--border); padding: 16px 0; }
+    .lp-nums > div:last-child { border-bottom: none; }
+    .lp-vs td:first-child { width: 96px; }
+    .lp-go, .lp-go2 { display: block; text-align: center; margin: 0 0 10px; }
+  }
 </style>
 </head>
 <body>
+
+<section class="lp" id="lp">
+  <div class="lp-in">
+    <div class="lp-tag">2026 화성시 AI·DATA 공모전 · <b>지정과제 16번 — 언론보도 대시보드</b></div>
+
+    <h1>기사는 쌓이는데,<br>오늘 <em>손봐야 할 것</em>은 알려주지 않습니다.</h1>
+
+    <div class="lp-sub">
+      화성시 관련 언론보도를 <b>매일 아침 6시에 자동으로</b> 모으고,
+      그날 확인할 <b>부정 보도를 사건 단위로 묶어</b> 맨 위에 올립니다.
+      회의에 들고 갈 <b>주간 보고서는 공문서 서식 그대로</b> 나옵니다.
+    </div>
+    <div class="lp-cite">
+      저희가 모은 화성시 기사 <b>1,978건</b> 중 부정으로 판정된 것은 <b>145건(7.3%)</b>입니다.
+      같은 사건끼리 묶으면 <b>1,325건</b>이 되고, 그중 <b>하루를 넘겨 이어지는 사건은 7.7%</b>뿐입니다.
+      다 읽을 필요가 없습니다. <b>읽어야 할 것을 골라내는 화면</b>입니다.
+      <span style="display:block;margin-top:5px">
+        위 숫자는 인용이 아니라 저희가 직접 잰 값입니다. 계산 코드와 결과를 <b>근거 탭</b>에 함께 두었습니다.
+      </span>
+    </div>
+
+    <a class="lp-go" href="#" id="lpGo">화면 열어 보기</a>
+    <a class="lp-go2" href="m.html">출근길 간편 보기</a>
+
+    <div class="lp-nums">
+      <div><span class="n">매일 06:00</span>
+        <span class="k">사람이 손대지 않습니다. <b>2026-08-14부터 하루도 거르지 않았고 실패 0회</b>입니다.</span></div>
+      <div><span class="n">서버 0대</span>
+        <span class="k">백엔드도 데이터베이스도 없습니다. <b>호스팅·서버 비용이 들지 않습니다.</b>
+          드는 것은 기사를 판정하는 AI 사용료뿐입니다.</span></div>
+      <div><span class="n">로그인 없음</span>
+        <span class="k">주소만 있으면 열립니다. 설치·계정 발급·<b>보안 심의가 필요 없습니다.</b></span></div>
+    </div>
+
+    <div class="lp-sec">
+      <h2>누가 씁니까</h2>
+      <div class="lp-who">
+        화성특례시 <b>공보실 언론담당관</b>입니다. 저희가 상상한 사용자가 아니라,
+        시가 공개한 업무분장에 이렇게 적혀 있습니다.
+        <b>「보도자료 작성, 신문·간행물 구독 관리, 언론 모니터링 및 스크랩 작성, 인터뷰 자료 작성」</b>
+        <span class="src">출처 — 화성특례시 「부서 및 업무 안내」 행정전화번호부, 공보실 언론담당관 주무관 업무분장</span>
+      </div>
+      <div class="lp-note">
+        지금은 <b>사람이 눈으로 읽고 스크랩</b>합니다. 그 일을 대신하는 화면입니다.
+      </div>
+    </div>
+
+    <div class="lp-sec">
+      <h2>이미 있는 것과 무엇이 다릅니까</h2>
+      <table class="lp-vs">
+        <thead><tr><th></th><th>지금</th><th>핀포인트</th></tr></thead>
+        <tbody>
+          <tr><td>빅카인즈</td>
+            <td>전국 뉴스를 검색·분석하는 <b>범용 도구</b>입니다. 기관 승인과 로그인이 필요하고,
+              무엇을 검색할지는 담당자가 정해야 합니다.</td>
+            <td>화성시만 봅니다. <b>검색하지 않아도 오늘 볼 것이 이미 골라져</b> 있습니다.
+              저희 검증 데이터 1,026건도 빅카인즈에서 받았습니다. <b>대체가 아니라 그 위에 얹는 것</b>입니다.</td></tr>
+          <tr><td>포털 뉴스 알림</td>
+            <td>키워드가 걸리면 다 옵니다. 같은 사건의 <b>후속 보도가 몇 번이고 다시</b> 옵니다.</td>
+            <td>같은 사건을 <b>하나로 묶어</b> 한 번만 올립니다. 몇 개 매체가 다뤘는지가 그 옆에 붙습니다.</td></tr>
+          <tr><td>사람이 직접 스크랩</td>
+            <td>매일 아침 눈으로 읽고 골라 붙입니다. <b>고른 기준은 남지 않습니다.</b></td>
+            <td>고른 이유가 <b>점수와 계산 내역으로 화면에 남습니다.</b>
+              주간 보고서까지 서식 그대로 나옵니다.</td></tr>
+        </tbody>
+      </table>
+      <div class="lp-note">
+        <b>저희가 못 하는 것도 적어 두었습니다.</b> 부서를 자동으로 찍지 않고 후보만 냅니다.
+        도시 사이 순위를 말하지 않습니다. 재판정 일치율을 정확도라고 부르지 않습니다.
+        근거를 댈 수 없는 것은 화면에 쓰지 않았고, 왜 못 하는지는 <b>근거 탭</b>에 그대로 적었습니다.
+      </div>
+    </div>
+
+    <div class="lp-foot">
+      팀 핀포인트 · 수원대학교 · 2026 AI 화성 챌린지 지정과제 16번<br>
+      화면 데이터는 <b>빅카인즈 검증본 1,026건</b>과 <b>매일 자동 수집분</b> 두 갈래입니다.
+      어느 쪽 숫자인지는 화면에 항상 밝혀 둡니다.
+    </div>
+  </div>
+</section>
 
 <div class="src-bar">
   <span class="src-item"><b>화성특례시</b> AI·DATA 공모전 · 지정과제 16번 정책 모니터링형</span>
@@ -1104,6 +1255,7 @@
   <h1><span class="pin"></span>핀포인트 — 화성시 언론보도 대시보드</h1>
   <span class="badge" id="badge">데이터 불러오는 중…</span>
   <span class="clock" id="clock"></span>
+  <a class="simple-link" href="?intro">소개</a>
   <a class="simple-link" href="m.html">간편 보기</a>
   <button id="darkToggle" onclick="toggleDark()">어두운 화면</button>
 </header>
@@ -1759,6 +1911,25 @@ function articleLink(n) {
 //
 // 그래서 표시를 걷어낸 문장으로 판단한다. 걸린 문장만 통째로 바꾼다.
 // 나머지 문장의 강조는 그대로 둔다.
+// ── 첫 화면 ─────────────────────────────────────────────────
+// 처음 온 사람에게만 보인다. 매일 쓰는 담당자에게 소개 화면은 방해다.
+// 발표 때는 주소 뒤에 ?intro 를 붙이면 언제든 다시 뜬다.
+const LP_KEY = "pinpoint_seen_intro_v1";
+function initLanding() {
+  const q = location.search;
+  const force = /[?&]intro\b/.test(q);
+  let seen = false;
+  try { seen = localStorage.getItem(LP_KEY) === "1"; } catch (e) { seen = false; }
+  if (force || !seen) document.body.classList.add("intro");
+  const go = document.getElementById("lpGo");
+  if (go) go.addEventListener("click", e => {
+    e.preventDefault();
+    document.body.classList.remove("intro");
+    try { localStorage.setItem(LP_KEY, "1"); } catch (e2) {}
+    window.scrollTo(0, 0);
+  });
+}
+
 function guardBrief(t) {
   const bare = x => x.replace(/\[\[\/?\w+\]\]/g, "");
   const BAN = [
@@ -4231,6 +4402,7 @@ function tick() {
 tick();
 setInterval(tick, 30000);
 
+initLanding();
 init();
 </script>
 </body>
