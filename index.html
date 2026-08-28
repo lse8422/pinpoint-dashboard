@@ -1098,13 +1098,41 @@
   body.intro .lp { display: block; }
   body.intro .src-bar, body.intro header, body.intro .wrap, body.intro footer { display: none; }
 
-  .lp-in { max-width: 940px; margin: 0 auto; padding: 56px 24px 72px; }
+  .lp-in { max-width: 1020px; margin: 0 auto; padding: 52px 24px 76px; }
+
+  /* 왼쪽은 말, 오른쪽은 실물. 읽기만 하는 화면으로 두지 않는다. */
+  .lp-hero { display: grid; grid-template-columns: 1.02fr 0.98fr; gap: 46px;
+    align-items: start; }
+
+  /* 오늘 아침 화면을 그대로 얹는다. 사진이 아니라 지금 데이터다. */
+  .lp-live { border: 2px solid var(--title); background: var(--surface); }
+  .lp-live-h { background: var(--title); color: #fff; padding: 10px 15px;
+    font-size: 13px; font-weight: 700; display: flex; justify-content: space-between;
+    align-items: baseline; gap: 8px; }
+  .lp-live-h span { font-weight: 500; font-size: 11.5px; color: #b9c8de; }
+  .lp-live-b { padding: 4px 15px 12px; }
+  .lp-live-i { display: flex; gap: 11px; align-items: baseline;
+    padding: 11px 0; border-bottom: 1px solid var(--border); }
+  .lp-live-i:last-child { border-bottom: none; }
+  .lp-live-n { font-size: 12px; font-weight: 800; color: #fff; background: var(--neg);
+    width: 19px; height: 19px; line-height: 19px; text-align: center;
+    flex-shrink: 0; position: relative; top: 2px; }
+  .lp-live-t { flex: 1; font-size: 13.5px; line-height: 1.55; color: var(--article-title);
+    font-weight: 600; }
+  .lp-live-m { display: block; font-size: 11.5px; color: var(--muted2);
+    font-weight: 400; margin-top: 3px; }
+  .lp-live-s { font-size: 15px; font-weight: 800; color: var(--neg);
+    flex-shrink: 0; font-variant-numeric: tabular-nums; }
+  .lp-live-f { padding: 9px 15px; border-top: 1px solid var(--border);
+    font-size: 11.5px; color: var(--muted2); background: var(--summary-bg); }
+  .lp-live-wait { padding: 26px 15px; font-size: 13px; color: var(--muted2); }
   .lp-tag { display: inline-block; border: 1px solid var(--border);
     padding: 5px 11px; font-size: 12.5px; color: var(--muted); font-weight: 600;
     letter-spacing: -0.01em; margin-bottom: 26px; }
   .lp-tag b { color: var(--title); }
-  .lp h1 { font-size: 38px; line-height: 1.28; letter-spacing: -0.045em;
-    font-weight: 800; color: var(--article-title); margin-bottom: 18px; }
+  .lp h1 { font-size: 35px; line-height: 1.3; letter-spacing: -0.045em;
+    font-weight: 800; color: var(--article-title); margin-bottom: 18px;
+    word-break: keep-all; }
   .lp h1 em { font-style: normal; color: var(--neg); }
   .lp-sub { font-size: 17px; line-height: 1.75; color: var(--summary-text);
     max-width: 660px; margin-bottom: 8px; }
@@ -1153,6 +1181,7 @@
 
   @media (max-width: 720px) {
     .lp-in { padding: 34px 18px 52px; }
+    .lp-hero { grid-template-columns: 1fr; gap: 28px; }
     .lp h1 { font-size: 27px; }
     .lp-sub { font-size: 15.5px; }
     .lp-nums { grid-template-columns: 1fr; }
@@ -1169,13 +1198,15 @@
   <div class="lp-in">
     <div class="lp-tag">2026 화성시 AI·DATA 공모전 · <b>지정과제 16번 — 언론보도 대시보드</b></div>
 
-    <h1>기사는 쌓이는데,<br>오늘 <em>손봐야 할 것</em>은 알려주지 않습니다.</h1>
+    <div class="lp-hero">
+      <div>
+        <h1>기사는 쌓이는데,<br>오늘 <em>손봐야 할 것</em>은<br>알려주지 않습니다.</h1>
 
-    <div class="lp-sub">
-      화성시 관련 언론보도를 <b>매일 아침 6시에 자동으로</b> 모으고,
-      그날 확인할 <b>부정 보도를 사건 단위로 묶어</b> 맨 위에 올립니다.
-      회의에 들고 갈 <b>주간 보고서는 공문서 서식 그대로</b> 나옵니다.
-    </div>
+        <div class="lp-sub">
+          화성시 관련 언론보도를 <b>매일 아침 6시에 자동으로</b> 모으고,
+          그날 확인할 <b>부정 보도를 사건 단위로 묶어</b> 맨 위에 올립니다.
+          회의에 들고 갈 <b>주간 보고서는 공문서 서식 그대로</b> 나옵니다.
+        </div>
     <div class="lp-cite">
       저희가 모은 화성시 기사 <b>1,978건</b> 중 부정으로 판정된 것은 <b>145건(7.3%)</b>입니다.
       같은 사건끼리 묶으면 <b>1,325건</b>이 되고, 그중 <b>하루를 넘겨 이어지는 사건은 7.7%</b>뿐입니다.
@@ -1185,8 +1216,18 @@
       </span>
     </div>
 
-    <a class="lp-go" href="#" id="lpGo">화면 열어 보기</a>
-    <a class="lp-go2" href="m.html">출근길 간편 보기</a>
+        <a class="lp-go" href="#" id="lpGo">화면 열어 보기</a>
+        <a class="lp-go2" href="m.html">출근길 간편 보기</a>
+      </div>
+
+      <div class="lp-live" id="lpLive">
+        <div class="lp-live-h">오늘 확인할 것<span id="lpLiveTime"></span></div>
+        <div class="lp-live-b" id="lpLiveBody">
+          <div class="lp-live-wait">지금 화면의 값을 불러오는 중입니다…</div>
+        </div>
+        <div class="lp-live-f">사진이 아닙니다. <b>지금 이 순간 화면에 떠 있는 값</b>입니다.</div>
+      </div>
+    </div>
 
     <div class="lp-nums">
       <div><span class="n">매일 06:00</span>
@@ -1233,7 +1274,10 @@
       <div class="lp-note">
         <b>저희가 못 하는 것도 적어 두었습니다.</b> 부서를 자동으로 찍지 않고 후보만 냅니다.
         도시 사이 순위를 말하지 않습니다. 재판정 일치율을 정확도라고 부르지 않습니다.
-        근거를 댈 수 없는 것은 화면에 쓰지 않았고, 왜 못 하는지는 <b>근거 탭</b>에 그대로 적었습니다.
+        근거를 댈 수 없는 것은 화면에 쓰지 않았습니다.
+        왜 못 하는지, 무엇을 어떻게 쟀는지는 <b>「근거」 탭</b>에 계산 결과까지 그대로 적어 두었습니다.
+        <a href="#" id="lpWhy" style="color:var(--accent);text-decoration:underline;
+          text-underline-offset:3px">근거 탭 열어 보기 →</a>
       </div>
     </div>
 
@@ -1924,10 +1968,49 @@ function initLanding() {
   const go = document.getElementById("lpGo");
   if (go) go.addEventListener("click", e => {
     e.preventDefault();
-    document.body.classList.remove("intro");
-    try { localStorage.setItem(LP_KEY, "1"); } catch (e2) {}
-    window.scrollTo(0, 0);
+    closeLanding();
   });
+  const why = document.getElementById("lpWhy");
+  if (why) why.addEventListener("click", e => {
+    e.preventDefault();
+    closeLanding();
+    showTab("why");
+  });
+}
+
+function closeLanding() {
+  document.body.classList.remove("intro");
+  try { localStorage.setItem(LP_KEY, "1"); } catch (e) {}
+  window.scrollTo(0, 0);
+}
+
+// 첫 화면 오른쪽에 오늘 아침 실제 화면을 그대로 얹는다.
+// 화면 사진을 넣으면 찍은 날에 멈춘다. 우리는 매일 도는 것이 강점이므로
+// 멈춘 그림을 보여주면 그 강점이 사라진다.
+function renderLandingPreview() {
+  const body = document.getElementById("lpLiveBody");
+  if (!body) return;
+  const items = (TODAY.items || []).slice(0, 3);
+  const timeEl = document.getElementById("lpLiveTime");
+  if (timeEl) timeEl.textContent = TODAY.updated ? TODAY.updated + " 기준" : "";
+  if (!items.length) {
+    body.innerHTML = '<div class="lp-live-wait">오늘 확인할 부정 보도가 없습니다.</div>';
+    return;
+  }
+  const rank = todoRanks(items);
+  body.innerHTML = items.map((it, i) => {
+    const bits = [];
+    if (it.cat) bits.push(CAT_LABEL[it.cat] || it.cat);
+    if (it.count) bits.push("기사 " + it.count + "건");
+    if (it.media) bits.push(it.media + "개 매체");
+    if (it.date) bits.push(it.date.replaceAll("-", "."));
+    return `<div class="lp-live-i">
+      <span class="lp-live-n">${rank[i]}</span>
+      <span class="lp-live-t">${escArt(it.label || "")}
+        <span class="lp-live-m">${bits.join(" · ")}</span></span>
+      <span class="lp-live-s">${it.score}점</span>
+    </div>`;
+  }).join("");
 }
 
 function guardBrief(t) {
@@ -2163,6 +2246,7 @@ function todoRanks(items) {
 function renderToday() {
   const card = document.getElementById("todayCard");
   const items = (TODAY.items || []);
+  renderLandingPreview();   // 첫 화면 오른쪽 실물 카드도 같은 값으로 채운다
   if (!items.length) { card.style.display = "none"; return; }
   card.style.display = "";
 
