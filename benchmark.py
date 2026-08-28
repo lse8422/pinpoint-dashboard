@@ -170,8 +170,9 @@ def run_city(api_key, city):
 
     ratio = round(neg / kept * 100, 1) if kept else None
     print("  → %d건 중 부정 %d건 = %s%%" % (kept, neg, ratio))
-    # 분야별 표본이 너무 작으면 비율이 튄다. 5건 미만인 분야는 내보내지 않는다.
-    cats = {k: v for k, v in cats.items() if v["count"] >= 5}
+    # 표본이 작은 분야를 지우지 않는다. 지우면 화면에서 "부정이 없다"로 읽힌다.
+    # 실제로 화성시 환경은 표본 5건 미만이라 통째로 사라졌는데, 그 안에 부정이 2건 있었다.
+    # 작은 표본은 비율을 내지 않는 방식으로 화면에서 다룬다. 데이터에서는 지우지 않는다.
     if cats:
         print("     분야별: %s" % " · ".join(
             "%s %d/%d" % (k, v["neg"], v["count"]) for k, v in sorted(cats.items())))
