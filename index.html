@@ -39,7 +39,7 @@
     --pos-text: #21507F;
     --neg: #C26060;
     --article-title: #000000;
-    --stat-value: #1a1a1a;
+    --stat-value: #17335c;
     --kw-color: #17335c;
     --heat0: #EFF0F1;
     --heat1: #E7C9C9;
@@ -123,7 +123,7 @@
   .stat .value, .todo-score, .count, .todo-meta, .article .date, .kwbar-row,
   .today-time, .ai-brief-time, .mnav .lb, .trust-item {
     font-variant-numeric: tabular-nums; font-feature-settings: "tnum" 1; }
-  .stat .label { font-size: 11.5px; color: var(--muted); margin-bottom: 4px; font-weight: 600; }
+  .stat .label { font-size: 13px; color: var(--muted); margin-bottom: 4px; font-weight: 700; }
   /* 한글 글리프는 줄 상자 안에서 위쪽에 앉는다. 상자를 글자 크기에 맞추고
      아래로 조금 내려 눈에 가운데로 보이게 한다. */
   /* 숫자(34px)와 글자(30px)가 섞여 있어도 아래 줄이 같은 높이에 오도록
@@ -379,7 +379,10 @@
     margin-bottom: -2px; cursor: pointer; white-space: nowrap; font-family: inherit;
     display: flex; align-items: center; gap: 6px; }
   .tab:hover { color: var(--title); }
-  .tab.on { color: var(--chip-active-bg); border-bottom-color: var(--chip-active-bg); }
+  /* 지금 어느 탭인지 한눈에 보여야 한다. 밑줄만으로는 약하다는 지적을 받았다.
+     옅은 바탕을 깔고 밑줄을 굵혀 두 가지로 표시한다. */
+  .tab.on { color: var(--chip-active-bg); border-bottom-color: var(--chip-active-bg);
+    border-bottom-width: 4px; background: var(--accent-bg); }
   .tab .tab-q { font-size: 11.5px; font-weight: 400; color: var(--muted2); }
   .tab.on .tab-q { color: var(--chip-active-bg); opacity: .8; }
   .tab-alert { display: inline-block; min-width: 17px; height: 17px; line-height: 17px;
@@ -489,6 +492,23 @@
   .bmx-lead { font-size: 13.5px; line-height: 1.75; color: var(--summary-text); }
   .bmx-lead b { color: var(--title); }
   .bmx-lead b.up { color: var(--neg); }
+
+  /* 검수 결과 숫자 셋. 세 번째(사람끼리 일치)가 가장 중요해 따로 표시한다. */
+  .rv-nums { display: grid; grid-template-columns: repeat(3, 1fr);
+    border-top: 2px solid var(--title); border-bottom: 1px solid var(--border);
+    margin: 14px 0 16px; }
+  .rv-nums > div { padding: 15px 16px 15px 0; border-right: 1px solid var(--border); }
+  .rv-nums > div:last-child { border-right: none; }
+  .rv-nums > div:last-child .n { color: var(--neg); }
+  .rv-nums .n { display: block; font-size: 27px; font-weight: 800;
+    color: var(--title); letter-spacing: -0.035em; line-height: 1.15; }
+  .rv-nums .k { display: block; font-size: 12.5px; color: var(--muted);
+    margin-top: 6px; line-height: 1.55; }
+  @media (max-width: 720px) {
+    .rv-nums { grid-template-columns: 1fr; }
+    .rv-nums > div { border-right: none; border-bottom: 1px solid var(--border); padding: 12px 0; }
+    .rv-nums > div:last-child { border-bottom: none; }
+  }
   .bmx-gap { border-left: 3px solid var(--muted2); background: var(--summary-bg);
     padding: 10px 13px; margin-top: 12px; font-size: 13px; line-height: 1.75;
     color: var(--summary-text); }
@@ -1075,8 +1095,8 @@
   }
   .stat:first-child { border-left: none; }
   .stat .label {
-    font-size: 11px; font-weight: 700; letter-spacing: 0.02em;
-    color: var(--muted); margin-bottom: 6px;
+    font-size: 13.5px; font-weight: 700; letter-spacing: -0.01em;
+    color: var(--title); margin-bottom: 7px;
   }
   .stat .value { letter-spacing: -0.045em; line-height: 1.05; }
   @media (max-width: 720px) {
@@ -1339,7 +1359,7 @@
   <div class="stats">
     <div class="stat"><div class="label">전체 기사</div><div class="value" id="stTotal">-</div><div class="sub">선택 기간 내</div></div>
     <div class="stat"><div class="label">부정 보도</div><div class="value neg" id="stNeg">-</div><div class="sub" id="stNegRate"></div></div>
-    <div class="stat"><div class="label">최다 보도 분야</div><div class="value word" id="stTopCat">-</div><div class="sub">기사 수 기준</div></div>
+    <div class="stat"><div class="label">부정 보도 최다 분야</div><div class="value word" id="stTopCat">-</div><div class="sub" id="stTopCatSub">부정 기사 수 기준</div></div>
     <div class="stat"><div class="label">핵심 키워드</div><div class="value word" id="stTopKw">-</div><div class="sub">언급 빈도 1위</div></div>
   </div>
 
@@ -1362,12 +1382,14 @@
     <div id="surgeBox"></div>
     <div id="todoList"></div>
     <div class="score-help">점수는 <b>얼마나 최근인지 · 몇 개 매체가 다뤘는지 · 몇 건인지 · 오래 가는지</b>를
-      더한 값입니다. 100점 만점이고, <b>점수를 누르면 계산 내역과 배점 근거</b>가 나옵니다.
-      네 항목은 뉴스가치 연구가 다뤄 온 기준 가운데 <b>제목만으로 셀 수 있는 것</b>을 고른 것입니다.</div>
+      더한 값입니다. 100점 만점이고, <b>점수를 누르면 계산 내역과 배점 근거</b>가 나옵니다.</div>
+    <div class="score-help">네 항목은 뉴스가치 연구가 다뤄 온 기준 가운데
+      <b>제목만으로 셀 수 있는 것</b>을 고른 것입니다.</div>
     <div class="dept-note">소관 후보 부서는 <b>기사를 보고 판정한 값이 아닙니다.</b>
       제목에 부서명이 들어 있는 기사가 3.8%뿐이라 자동 분류를 하지 않고,
-      분야에 해당하는 부서를 <b>화성특례시 행정조직안내</b>에서 가져와 후보로만 보여드립니다.
-      확정은 담당자가 하십시오. 대응 상태도 담당자가 직접 누르는 값이며 이 브라우저에만 저장됩니다.</div>
+      분야에 해당하는 부서를 <b>화성특례시 행정조직안내</b>에서 가져와 후보로만 보여드립니다.</div>
+    <div class="dept-note"><b>확정은 담당자가 하십시오.</b>
+      대응 상태도 담당자가 직접 누르는 값이며 이 브라우저에만 저장됩니다.</div>
     <div class="todo-tie" id="todoTie"></div>
     <div class="trust" id="trustBox"></div>
   </div>
@@ -1645,7 +1667,7 @@
         네이버 검색 키를 저장소에 등록해야 다음 수집부터 붙습니다.
         <b>고쳤다고 해서 이미 적용된 것처럼 말하지 않겠습니다.</b>
         지금 보시는 판정은 여전히 제목으로 내린 것이고,
-        재판정 일치율이 분야 89%·긍부정 92%에 머무는 이유도 거기 있습니다.
+        사람이 검수한 값이 분야 93%·긍부정 81%에 머무는 이유도 거기 있습니다.
       </div>
 
       <div class="wy-not">
@@ -1700,8 +1722,10 @@
           소관 <b>후보</b>만 제시하고 확정은 담당자가 하게 했습니다.</div>
         <div><b>도시 순위 발표</b>도시당 80~85건인 탐색 표본입니다. 피셔 정확검정으로 재보면
           수원·용인과의 차이가 확인되지 않습니다. 그래서 <b>순위를 말하지 않습니다.</b></div>
-        <div><b>정확도 수치</b>사람이 만든 정답지가 없습니다. 89%·92%는 같은 기사를 다시 분류해 얻은
-          <b>재판정 일치율</b>이지 정확도가 아닙니다. 정답지 만들기가 다음 1순위 과제입니다.</div>
+        <div><b>정확도라는 말</b>100건을 사람 다섯이 검수해 분야 93%, 긍부정 81%를 얻었습니다.
+          그런데 <b>같은 기사를 두 사람이 보면 긍부정이 77.8%만 일치</b>했습니다.
+          정답이 하나로 정해지지 않는 문제라 <b>여전히 정확도라고 부르지 않습니다.</b>
+          자세한 것은 아래 「사람이 검수한 결과」를 보십시오.</div>
         <div><b>검증본과 자동수집분 직접 비교</b>수집 방식이 달라 모집단이 다릅니다. 검증본 비율은
           <b>참고선</b>으로만 두고, 변화는 같은 수집 방식이 유지된 구간끼리만 봅니다.</div>
       </div>
@@ -1740,6 +1764,55 @@
           순서가 없는 항목이라 밝기가 아니라 색상으로 나눕니다.</div>
         <div><b>큰 숫자는 색을 빼고 먹색으로</b>숫자에 색이 있으면 좋고 나쁨을 뜻하는 것처럼 읽힙니다.
           좋고 나쁨을 말하는 자리에서만 색을 씁니다.</div>
+      </div>
+    </div>
+
+    <div class="wy">
+      <h3>사람이 검수한 결과</h3>
+      <div class="wy-sub">저희가 <b>가장 큰 약점</b>이라고 말해 온 것입니다.
+        2026년 8월 29~30일, 팀원 다섯 명이 기사 100건을 나눠 직접 채점했습니다.</div>
+
+      <div class="rv-nums">
+        <div><span class="n">93%</span><span class="k">분야 분류<br>100건 중 93건</span></div>
+        <div><span class="n">81%</span><span class="k">긍부정 판별<br>100건 중 81건</span></div>
+        <div><span class="n">77.8%</span><span class="k">사람끼리 일치<br>같은 기사, 두 사람</span></div>
+      </div>
+
+      <div class="wy-a" style="margin-bottom:14px">
+        <b>세 번째 숫자가 가장 중요합니다.</b>
+        구간을 겹쳐 검수한 27건에서, <b>같은 기사를 두 사람이 보면 긍부정 판단이 77.8%만 일치</b>했습니다.
+        분야는 92.6%가 일치했습니다.
+        <b>사람끼리도 다섯 건 중 하나는 갈립니다.</b>
+        그러니 "AI가 몇 % 맞혔다"는 말은 애초에 성립하기 어렵습니다. 정답이 하나가 아니기 때문입니다.
+      </div>
+
+      <div class="wy-a" style="margin-bottom:14px">
+        <b>그런데 어디서 갈리는지가 다릅니다.</b>
+        사람이 「틀림」이라 한 긍부정 20건을 AI 판정별로 나눠 봤습니다.
+        <ul style="margin:8px 0 0;padding-left:18px">
+          <li>AI가 <b>중립</b>이라 한 기사 — 이의 <b>17건</b></li>
+          <li>AI가 <b>긍정</b>이라 한 기사 — 이의 <b>3건</b></li>
+          <li>AI가 <b>부정</b>이라 한 기사 — 이의 <b>0건</b></li>
+        </ul>
+        갈린 기사 제목을 보면 전부 이렇습니다 —
+        「개발 갈등 해결 국면 접어드나」, 「PBA 팀리그 개막」, 「의장 3일 연속 현장 행보」,
+        「송산포도축제 판 키운다」. <b>전부 긍정이냐 중립이냐입니다.</b>
+      </div>
+
+      <div class="wy-not">
+        <div><b>이 화면은 부정만 씁니다</b>오늘 확인할 것, 급증 경고, 다른 시와 견주기, 주간 보고서.
+          전부 부정 기준입니다. <b>긍정인지 중립인지는 담당자가 할 일을 바꾸지 않습니다.</b></div>
+        <div><b>정말 중요한 판정은 갈리지 않았습니다</b>AI가 부정이라 한 기사에
+          <b>다섯 사람 중 아무도 이의를 달지 않았습니다.</b>
+          화재, 4중 추돌, 신청사 예산 칼럼 — 부정인지 아닌지는 사람마다 다르지 않았습니다.</div>
+        <div><b>엄한 쪽 값을 씁니다</b>겹친 구간에서 한 사람이라도 「틀림」이라 했으면 틀린 것으로 셌습니다.
+          너그럽게 세면 분야 95%·긍부정 87%가 됩니다. <b>낮은 쪽을 적습니다.</b></div>
+        <div><b>이것도 한계가 있습니다</b>검수 도구가 「맞음/틀림」만 받고
+          <b>「그럼 무엇이어야 하나」는 받지 않았습니다.</b>
+          그래서 부정이 아닌 기사를 누군가 부정으로 봤는지는 이 자료로 알 수 없습니다.
+          도구를 그렇게 만든 저희 잘못이고, 다음에 고칠 것입니다.</div>
+        <div><b>독립 라벨링이 아니라 검수입니다</b>AI 답을 먼저 보여주고 맞는지 물었습니다.
+          판단이 AI 쪽으로 끌릴 수 있습니다. 처음부터 사람이 매기는 정답지는 아직 없습니다.</div>
       </div>
     </div>
 
@@ -1820,7 +1893,10 @@ let LIVE_META = null;  // 자동 수집분의 갱신 시각 등. 화면에 사�
 let catScope = "all";  // 분야 도넛을 전체로 볼지 검증본만 볼지
 let TODAY = {};    // 오늘 확인할 것. 없으면 카드가 통째로 숨는다.
 let OPS = {};      // 자동 수집 운영 기록
-let QUALITY = {};  // 사람이 검수한 정확도
+// 2026-08-29~30, 팀원 다섯 명이 100건을 나눠 검수한 결과.
+// 매일 도는 수집이 news_live.json 을 덮어쓰므로 그 파일에 두면 사라진다.
+// 사람이 한 번 재서 바뀌지 않는 값이라 여기에 둔다.
+let QUALITY = { checked: 100, cat_acc: 93, senti_acc: 81 };
 let period = "all";
 let customFrom = "", customTo = "";
 let filter = "all";
@@ -2345,9 +2421,12 @@ function renderToday() {
     t.push(`<span class="trust-item">자동 수집 <b>${OPS.days}일 연속</b> · 정기 실행 ${OPS.runs}회 · 실패 <b>${OPS.failures}회</b></span>`);
   }
   if (QUALITY.checked) {
+    // '정확도'라고 쓰지 않는다. 우리가 화면에 적어 둔 원칙이다.
+    // 긍부정은 사람끼리도 77.8%만 일치해 정답이 하나로 정해지지 않는다.
     t.push(`<span class="trust-item">사람이 검수한 표본 <b>${QUALITY.checked}건</b>`
-      + (QUALITY.cat_acc ? ` · 분야 정확도 <b>${QUALITY.cat_acc}%</b>` : "")
-      + (QUALITY.senti_acc ? ` · 긍부정 정확도 <b>${QUALITY.senti_acc}%</b>` : "") + `</span>`);
+      + (QUALITY.cat_acc ? ` · 분야 <b>${QUALITY.cat_acc}%</b>` : "")
+      + (QUALITY.senti_acc ? ` · 긍부정 <b>${QUALITY.senti_acc}%</b>` : "")
+      + ` <span class="trust-q">일치</span></span>`);
   }
   document.getElementById("trustBox").innerHTML = t.join("");
   if (typeof paintTabAlert === "function") paintTabAlert();
@@ -3084,7 +3163,15 @@ function updateDashboard() {
       + (lateRate === null || wks.length < 2 ? ""
          : ` · 최근 4주 <b style="color:${lateRate > rate ? "var(--neg)" : lateRate < rate ? "var(--chip-active-bg)" : "inherit"}">${lateRate}%</b>`);
   }
-  document.getElementById("stTopCat").textContent = topCat ? CAT_LABEL[topCat[0]] : "-";
+  // 기사가 많은 분야가 아니라 부정 보도가 많은 분야를 보여준다.
+  // 담당자가 오늘 손봐야 할 곳은 기사가 많은 곳이 아니라 부정이 몰린 곳이다.
+  const negByCatS = {};
+  data.filter(n => n.senti === "부정").forEach(n => negByCatS[n.cat] = (negByCatS[n.cat] || 0) + 1);
+  const topNegCatS = Object.entries(negByCatS).sort((a, b) => b[1] - a[1])[0];
+  document.getElementById("stTopCat").textContent =
+    topNegCatS ? (CAT_LABEL[topNegCatS[0]] || topNegCatS[0]) : "-";
+  document.getElementById("stTopCatSub").textContent =
+    topNegCatS ? "부정 " + topNegCatS[1] + "건 · 이 분야를 먼저" : "부정 보도 없음";
   document.getElementById("stTopKw").textContent = kwSorted.length ? kwSorted[0][0] : "-";
 
   document.getElementById("kwList").innerHTML = kwSorted.slice(0, 8)
@@ -3732,8 +3819,8 @@ function renderML(m) {
     <div class="ml-warn" style="margin-top:16px"><b>다시 말씀드립니다 — 이 값은 정확도가 아닙니다.</b>
       여기서 쓴 정답은 사람이 아니라 AI가 매긴 값입니다. 따라서 이 분석이 재는 것은
       "AI가 맞았는가"가 아니라 <b>"AI의 판정이 제목만으로 재현 가능한 규칙인가"</b>입니다.
-      사람이 검수한 정답지를 만들면 그때 비로소 정확도를 말할 수 있습니다.
-      그것이 본선까지 저희 1순위 과제입니다.</div>`;
+      사람이 검수한 값은 따로 재서 아래 「사람이 검수한 결과」에 적었습니다.
+      그런데 거기서도 정확도라는 말은 쓰지 않았습니다. 이유가 있습니다.</div>`;
   card.style.display = "";
 }
 
