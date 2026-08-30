@@ -1,4 +1,4 @@
-﻿# 구글 뉴스 RSS에서 화성시 기사를 매일 수집해 news_live.json에 누적하는 스크립트 (검증본 news_data.json은 읽기만 한다)
+# 구글 뉴스 RSS에서 화성시 기사를 매일 수집해 news_live.json에 누적하는 스크립트 (검증본 news_data.json은 읽기만 한다)
 import json
 import os
 import re
@@ -336,22 +336,24 @@ def brief_facts(rows, label, base=None):
     if not total:
         return None
     neg = [r for r in rows if r.get("senti") == "부정"]
-    cats = Counter(r["cat"] for r in rows)
-    kws = Counter(k for r in rows for k in (r.get("kw") or []))
     negcats = Counter(r["cat"] for r in neg)
     negdates = Counter(r["date"] for r in neg)
-    top_cat = cats.most_common(1)[0] if cats else None
-    top_kw = kws.most_common(1)[0] if kws else None
     top_negcat = negcats.most_common(1)[0] if negcats else None
     peak = negdates.most_common(1)[0] if negdates else None
+    # 화면 위 지표 카드가 이미 보여 주는 것은 넘기지 않는다.
+    #   전체 건수 · 부정 건수와 비율 · 부정 최다 분야 · 핵심 키워드
+    # 넘기면 AI가 그대로 되풀이해 브리핑이 카드의 복사본이 된다.
+    # 특히 '전체 보도 최다 분야'(행정)는 오늘 탭에서 담당자가 볼 것(안전)과 달라
+    # 화면이 서로 다른 말을 하게 만든다. 그래서 아예 뺀다.
     return {
         "기간": label,
         "전체기사": total,
         "부정기사": len(neg),
         "부정비율": "%d%%" % round(len(neg) / total * 100),
-        "최다분야": "%s %d건" % top_cat if top_cat else None,
-        "핵심키워드": top_kw[0] if top_kw else None,
         "부정최다분야": "%s %d건" % top_negcat if top_negcat else None,
+        # 카드에 없는 것 — 2·3위 분야가 있어야 "안전에 몰렸는지 흩어졌는지"를 말할 수 있다.
+        "부정분야2위": "%s %d건" % negcats.most_common(2)[1] if len(negcats) > 1 else None,
+        "부정분야3위": "%s %d건" % negcats.most_common(3)[2] if len(negcats) > 2 else None,
         # 2건은 같은 사건을 두 매체가 쓴 것일 수 있어 "집중"이라 부르기 어렵다.
         # 3건 이상일 때만 넘기고, 표현도 사실 그대로 "가장 많았던 날"로 둔다.
         "부정최다일": "%s %d건" % peak if peak and peak[1] >= 3 else None,
@@ -379,6 +381,12 @@ def write_briefs(api_key, facts):
   비율은 그냥 "부정 142건(8%%)"처럼 사실만 적는다.
   이유 — 검증본은 사람이 걸러낸 빅카인즈 자료이고 이 수치는 자동 수집분이다.
   모집단이 달라 비율을 나란히 놓으면 담당자가 잘못 읽는다.
+- 화면 위쪽 지표 카드가 이미 「전체 건수」「부정 건수와 비율」「부정 최다 분야」
+  「핵심 키워드」를 크게 보여주고 있다. 그것을 그대로 되풀이하지 마라.
+  네 값을 나열하기만 한 브리핑은 카드의 복사본이라 쓸모가 없다.
+- 대신 카드만 보고는 알 수 없는 것을 말하라.
+  부정 보도가 한 분야에 몰렸는지 여러 분야에 흩어졌는지(2·3위 분야를 견줘서),
+  특정 날짜에 몰렸는지, 그래서 담당자가 무엇을 먼저 열어봐야 하는지.
 - 담당자가 무엇을 먼저 확인해야 하는지가 드러나게 쓴다.
 - 기간마다 문장 구조를 다르게 쓴다. 같은 틀에 숫자만 바꿔 넣지 마라.
 - 강조할 표현은 [[b]]와 [[/b]]로, 부정 보도 관련 수치는 [[w]]와 [[/w]]로 감싼다.
@@ -635,10 +643,20 @@ def ops_record(repo, token):
     runs = [x for x in data.get("workflow_runs", []) if x.get("event") == "schedule"]
     if not runs:
         return None
-    days = sorted(set(x["created_at"][:10] for x in runs))
+    # created_at은 UTC다. 우리 예약은 KST 06시라 UTC로는 전날 21시가 되어,
+    # 그냥 앞 10글자를 자르면 시작일이 하루 앞으로 밀린다(8/15 실행이 8/14로 보인다).
+    def kst(x):
+        t = datetime.strptime(x["created_at"], "%Y-%m-%dT%H:%M:%SZ")
+        return (t + timedelta(hours=9)).date()
+
+    days = sorted(set(kst(x) for x in runs))
     fails = sum(1 for x in runs if x.get("conclusion") not in ("success", None))
-    return {"runs": len(runs), "days": len(days), "since": days[0],
-            "last": days[-1], "failures": fails}
+    # 실패는 아닌데 예약 실행 자체가 건너뛰어진 날이 있다(깃허브 무료 예약의 알려진 한계).
+    # 그걸 세지 않으면 화면이 "하루도 거르지 않았다"고 잘못 말하게 된다.
+    span = (days[-1] - days[0]).days + 1
+    return {"runs": len(runs), "days": len(days), "since": days[0].isoformat(),
+            "last": days[-1].isoformat(), "failures": fails,
+            "span": span, "skipped": span - len(days)}
 
 
 class CorruptedLive(Exception):
