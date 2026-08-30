@@ -39,7 +39,8 @@ def main():
     for a in live["items"]:
         b = bodies.get(a["title"])
         if b and len(b.get("body") or "") >= 200:
-            pool.append((a, b["body"][:1200]))
+            # 300자까지만 담아 두었다. 화면에 적어 둔 저작권 기준과 같게 유지한다.
+            pool.append((a, b["body"][:300]))
     print("본문이 붙은 기사 %d건 / 자동수집분 %d건" % (len(pool), len(live["items"])))
 
     pool = pool[-LIMIT:]           # 최근 것부터. 오래된 기사는 판정 기준이 달랐을 수 있다.
