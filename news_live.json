@@ -1,8 +1,8 @@
 {
-  "updated": "2026-08-30 06:04",
+  "updated": "2026-08-31 06:12",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 1181,
+  "count": 1259,
   "items": [
     {
       "date": "2026-08-02",
@@ -16483,6 +16483,20 @@
       "source": "뉴스클레임"
     },
     {
+      "date": "2026-08-29",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시가족센터, 예비노년기 부부 위한 ‘동행 부부교실’ 운영:경인투데이뉴스",
+      "summary": "화성시가족센터가 예비노년기 부부를 위한 동행 부부교실을 운영한다.",
+      "kw": [
+        "가족센터",
+        "부부교실",
+        "예비노년기"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBxVlBkQ2JQc0t1bXJ6QjNidXd0QVJfbXRpbXQySDlENFZmMFhSTzhpS2NFQ1pxZ1Fock80WTJWSkNYYjDSAV9BVV95cUxNWnFaS183NXBYUk9BV0pYc1dvSjZjTHpSYlh6a3ljdjJidnBqdnRPUF9IUGQwNkxFNXVGcjB4ZHB2Szc0NUhZWGZpbnRQNUQtVGY0UDY3dHd0eDdLaWUwZw?oc=5",
+      "source": "경인투데이뉴스"
+    },
+    {
       "date": "2026-08-30",
       "cat": "산업경제",
       "senti": "중립",
@@ -16537,42 +16551,1120 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBZVl9yNnVMVkFCN1EweW4yeWpzLWZmTDZzczZMaWJ2RTRRV0I4Rzd5RzFPWkc4UUI5czlsQ19tVmV1VUc5bllWeklTdTFKeGVYeURGQS01QUhaQjUtUWdvdDh6OVJPYjRm?oc=5",
       "source": "OBC 뉴스"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시의회, 향남읍 3대3 농구대회 참석…청소년 격려",
+      "summary": "화성시의회가 향남읍 3대3 농구대회에 참석해 청소년을 격려했다.",
+      "kw": [
+        "향남읍",
+        "농구대회",
+        "청소년"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5jRExTdWd4WEgzVG9pRTI3VlZmYUFBbHFZTE1TR3MzbFZMRDRrREFvdzM3WXI0SDg4aExQTmczOTlCNTI1anQxNGdUeXBXejhOOXBZRzZNSHNtdF9rX1UwMGxYX3I?oc=5",
+      "source": "매일일보"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시 봉담에 울려 퍼진 한여름 밤 재즈…시민 1000명 매료",
+      "summary": "화성시 봉담에서 재즈 공연이 열려 시민 1000명이 관람했다.",
+      "kw": [
+        "봉담",
+        "재즈공연",
+        "문화행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9VLUJncUs5YVNMOF9OcWlmT2hFN1UwdmtMMU85ajdxcURxQlhxS182eWdXdGxuc0tEdEozcmY5S210MUc2djR1SzVZSzJYbmhhQlRIakJQWWlrRGZmYlgyZA?oc=5",
+      "source": "아시아경제"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시, 자율주행 차량 실증… 8개 공공서비스에 기술 적용",
+      "summary": "화성시가 자율주행 차량 실증을 추진하며 8개 공공서비스에 기술을 적용했다.",
+      "kw": [
+        "자율주행",
+        "기술실증",
+        "공공서비스"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9CN3AtVmxFY1lTOUNOb3p0bVBPYmZETzE3dm9nZks0UjljbDFLVVFLNGJ3ZnBpQklhU1Y5YjJ6bEZWQWRUTzN3enkxSXdoMzhCUHc?oc=5",
+      "source": "경인일보"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성특례시 병점구보건소, 화성온이음채와 업무협약 맺고 맞춤형 건강관리 추진",
+      "summary": "화성특례시 병점구보건소가 화성온이음채와 협약을 체결해 맞춤형 건강관리를 추진한다.",
+      "kw": [
+        "병점구보건소",
+        "건강관리",
+        "업무협약"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9sRTh1SU1IMmVrSHFoQlE0c1RnaDk1amowTHpMNUppUTVCc2wwNV9VSjFESHl0WTBpRGU0N0tERU1Pb3JBOFhCTkZJdjQ?oc=5",
+      "source": "모닝투데이"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시의회, 향남읍 주민자치 3on3 농구대회 찾아 청소년 격려:경인투데이뉴스",
+      "summary": "화성특례시의회가 향남읍 주민자치 3on3 농구대회를 찾아 청소년을 격려했다.",
+      "kw": [
+        "향남읍",
+        "농구대회",
+        "주민자치"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBVU3gzSjNKb0U3VnUtNEl6bXlhelQ2blVINFNHZ2ZPeDhlNGctbkF0aE1ReXo1V0RrbFhCUmxTMzA3aHfSAV9BVV95cUxQV1pfeU5zOHByMzNaZUI1eE1CTE1zVTBKZGpVczZfV3I1RVg5b2ZRX2VkdjVRS0hvTmQ0ZFNYME9zRm1oVWNacEpHVm5XY0MyZmNGbFNESzR4d0dRNEFKTQ?oc=5",
+      "source": "경인투데이뉴스"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시, 올해 지방공무원 332명 최종합격",
+      "summary": "화성시가 올해 지방공무원 332명의 최종합격을 발표했다.",
+      "kw": [
+        "지방공무원",
+        "채용",
+        "합격"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBncXV1Z3Nad0JSM1NiRV9qc0ZmQWpXMlVPR2lMVWRYT0h6d2lrVXl2Smd1MGtMN0ptTWh2c2RTb0VvaGdmanZNb0FFMGt3WEVPdzJ1eHlpdkRSOUtMT0hKbEtpLTlSSXBJMmhhaVhadw?oc=5",
+      "source": "기호일보"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성특례시의회, 주민 손으로 만든 ‘동탄호수한마당’ 함께하다",
+      "summary": "화성특례시의회가 주민이 만든 동탄호수한마당 축제에 참여했다.",
+      "kw": [
+        "동탄호수한마당",
+        "주민자치",
+        "축제"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBadWN3U0FZYTllOEZNNFI3TUlSc2xpSVNCbmY5V1dfWnU5VFE3VE81YU5XOERZQksxWHlKaVhzN0JYNGgzTmttTUQyUFhqVUZuTXdULTg1ZEZINk5UdTNhLURpeHcxVWo3M2c?oc=5",
+      "source": "천지일보"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성특례시, 장애인생활체육 ‘저력’… 경기도대회 메달 20개",
+      "summary": "화성특례시가 장애인생활체육 경기도대회에서 메달 20개를 획득했다.",
+      "kw": [
+        "장애인생활체육",
+        "경기도대회",
+        "메달"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ZaEs1aUtHLXY2eWJmUC14TUIxOVdvc3J6MVI2TkRzZnRqQklwaE5ZVW9HUC1zRVl4NGpLVk9kVjAwMjdhd1NQaXJKYlFaLUtTSWlOTkdOcVQ1TW82ZzBUdi10TXUzbXJ2dWc?oc=5",
+      "source": "천지일보"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "화성 병점구보건소-화성溫이음채 맞손",
+      "summary": "화성시 병점구보건소와 화성온이음채가 협력을 시작했다.",
+      "kw": [
+        "병점구보건소",
+        "화성온이음채",
+        "협력"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE84M25hU1BhbDFkRUZFMHpwTWFid25uTFZBRVNfNUFXSktoX3Etdy1HSU5FTmNEcVBhaTFFbm1lcDk4bjJpTzlGdVRqZEdDUXJUNzNfdGRDVVVCUWlrU05Ia1FuYzNRR004MFE?oc=5",
+      "source": "경기도민일보 미디어"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "모래판 달군 3일간의 열전…화성시, 경기도씨름왕대회 ‘종합우승’",
+      "summary": "화성시가 경기도씨름왕대회에서 종합우승을 차지했다.",
+      "kw": [
+        "씨름왕대회",
+        "종합우승",
+        "경기도"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4wX181M0JHQ2lTOGNkWUdETVF4V3A4VE1hYk5uRVVIWjdhNlUxMVVwYWdRbjZ4a3ZMUV9xSUhFRnlDMkt1ZmNqTERLQkg5WkJLTWw5dl9SM2U1bEk?oc=5",
+      "source": "경기일보"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성특례시의회, ‘제6회 동탄호수한마당’ 찾아 주민자치 축제 응원",
+      "summary": "화성특례시의회가 제6회 동탄호수한마당 주민자치 축제를 응원했다.",
+      "kw": [
+        "동탄호수한마당",
+        "주민자치축제",
+        "문화행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9UZXpNbW1KcWhwLU1LNkd3cTJVdG1Ya0tDTHE1LWk1a3R2c0c1MzMwWko3dnd4aGdnS240RDF5VGdOdF9hZHkxVjhEVUo2NGJzaDlVb0d5NkpVd0JWWXZyTXd2eS16Yy1vT1ctMG53?oc=5",
+      "source": "서프라이즈뉴스"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "한여름 밤 재즈 향연...‘제2회 화성재즈페스티벌’ 성료",
+      "summary": "화성시에서 제2회 화성재즈페스티벌을 성공적으로 개최했다.",
+      "kw": [
+        "화성재즈페스티벌",
+        "문화행사",
+        "재즈"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBPUVNNV3I3amtzbmI3cUhTLVVPXzFxbkRVWnlISGRIWHhvcTVsUjRYYWxCTnFqMzMzcWg3LXBPdUI0dFhPRVJyR2h5cHMtd09QTDdZbzBjRTBXOUpjZWRnNTRzRU83TVdiZmc?oc=5",
+      "source": "수원일보"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성시의회, 동탄7동 제6회 동탄호수한마당 참석",
+      "summary": "화성시의회가 동탄7동 제6회 동탄호수한마당 행사에 참석했다.",
+      "kw": [
+        "동탄호수한마당",
+        "동탄7동",
+        "지역행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5VcVFSaWdMY2JpcjdWVzRCZlJJSVpwZTNfQ3Bod2JCZlVCaElrTWhwY0FiRG1IbmdsTWlRLUlGNEVhaVdrY094T3JaeW41V3FYOHVhcWt4VmJiVmRSQVZJd0FR?oc=5",
+      "source": "경인미래신문"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "“한여름 밤 재즈”…화성특례시‘2026 제2회 화성재즈페스티벌’ 성료",
+      "summary": "화성특례시가 2026년 제2회 화성재즈페스티벌을 성공적으로 마쳤다.",
+      "kw": [
+        "화성재즈페스티벌",
+        "특례시",
+        "문화행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBhZkJKZ1c2aGRsWk9ZcDVyYjVXLWpvUm54cXphak40TXljRHB0U2ZnOU15S1hBWVZHbldad01aMF82ZGJyYXpSWHkxLTdFblZmR1hnb0tlZWo1cGV6M3pUUnh3bW52cFFXbmJUaGZB?oc=5",
+      "source": "중부일보"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성특례시의회, 제6회 동탄호수한마당 참석:경인투데이뉴스",
+      "summary": "화성특례시의회가 제6회 동탄호수한마당 행사에 참석했다.",
+      "kw": [
+        "동탄호수한마당",
+        "의회",
+        "지역행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9HVnB0Zm1QSUN1Z2ljQzdzOWwzdUo0cGhoVGk1Um1jRHNhOFdsdy1MMlJYMGUzMmRBU2pxaDBIbWlIRmPSAV9BVV95cUxQQV9lN2phd2x5VW5ZLVNGNGlUTHhEUHdQeFBMeFFFbEJvZUxocVhGbmdpTURrMGFQUnVGeEVnWGxjOUthR0lkZlVHZDdoOGc1TzBUdVNXUDRuM0hNdGFzOA?oc=5",
+      "source": "경인투데이뉴스"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "산업경제",
+      "senti": "부정",
+      "title": "중복 참여로 멈춘 화성시 노조 설문조사",
+      "summary": "화성시 노조 설문조사가 중복 참여로 인해 중단되었다.",
+      "kw": [
+        "노조",
+        "설문조사",
+        "중단"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5iRkx2TTZOYXZzenBIejRWeUJFMzloUHZtVVl4Nk1rWEJlb0RkS3hncmItVkhWa2pFZlVmOEdqQjNfZ0xMNlBoMkxjbEdUUE0?oc=5",
+      "source": "v.daum.net"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시의회, 주민이 만들고 주민이 즐긴다...동탄7동 동탄호수한마당 6회째 성황",
+      "summary": "동탄7동 제6회 동탄호수한마당이 주민이 주도하는 행사로 성황리에 진행되었다.",
+      "kw": [
+        "동탄호수한마당",
+        "주민참여",
+        "지역축제"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53dVVaS0JWdHpQeGNCRUlORkh3eEtVaE52djdSN19Pd0dhSmRfR2pObTFFTFduQUJUZ1lYOXBud1o1azhyS3laM2tWSkZNMVRJdmV5WnBpaW9Zd9IBWEFVX3lxTE0zNUk3YjEzZW8welctMlNQS3RvMm96WTBvaHRPeGNJZ0tlemRFU1Bqd054WGRXQ1p4TkdlWFkwUXRzRGQwdjRxeHQyRXN4dEZzbWRoZnlHdWo?oc=5",
+      "source": "아주경제"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "“한여름 밤 재즈의 향연”.화성특례시, ‘제2회 화성재즈페스티벌’ 성료",
+      "summary": "화성특례시의 제2회 화성재즈페스티벌이 성공적으로 개최되었다.",
+      "kw": [
+        "화성재즈페스티벌",
+        "문화행사",
+        "한여름행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Hall2WWZtNzk0Z2hnbG1GRHVXN1hzeHlTNndiLWdZV1FVckF2bmdhZXI0bF9WM1lnVnRQUFlkUWd4bTA1QTVNc1p1Y0pxcXgzdUJtdG0yWGhiUzh2MkM1OWh1VVJoRElPVk8zT1ln?oc=5",
+      "source": "서프라이즈뉴스"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "정명근 화성시장 화성재즈페스티벌이 대표 문화행사로 자리매김할 것",
+      "summary": "정명근 화성시장이 화성재즈페스티벌이 대표 문화행사로 자리매김할 것으로 전망했다.",
+      "kw": [
+        "화성재즈페스티벌",
+        "정명근시장",
+        "문화행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yN1NidzNTQjZJN2hSWlFiZ3AtQzdOZjFFa2ZzNDIwekRrdDZXWnFBRnFOZGswVzNPa1ZhelBhWDFhYzk2azR5UkFZTlg3VmlKSUJ4VGZGc0hfZ9IBWEFVX3lxTE9PdlV3T1lkVmJmTFhDYnRVbnBWVmFRNzMzbm12OG1wNnpsT3R4eG8yaVJRU255UmhxV0IzcWFMRlZiUkxaU09iZ3BIckMyNUQ1Tm1yUFh2ZkY?oc=5",
+      "source": "아주경제"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성 밤 물들인 재즈 선율…'제2회 화성재즈페스티벌' 성료",
+      "summary": "화성시의 제2회 화silon재즈페스티벌이 성공적으로 개최되었다.",
+      "kw": [
+        "화성재즈페스티벌",
+        "재즈",
+        "문화행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9qWURvZU1GWUw3V2pzcVpzOWtHbXRKZk5ERlpDSkRLR2VreHNZcVF6UUxOZGNrWXVoZWROQWRwY3JNU2tYVDdzTGpMMF94TVUyd0Q4NWZFbE1kaThEamF3LU9KTGNNaXpKQkdvVXI2WXRqRkXSAXNBVV95cUxPallEb2VNRllMN1dqc3FaczlrR210SmZOREZaQ0pES0dla3hzWXFRelFMTmRja1l1aGVkTkFkcGNyTVNrWFQ3c0xqTDBfeE1VMndEODVmRWxNZGk4RGphdy1PSkxjTWl6SkJHb1VyNll0akZF?oc=5",
+      "source": "뉴스웍스"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시, 경기도씨름왕선발대회 종합 우승",
+      "summary": "화성시가 경기도씨름왕선발대회에서 종합 우승을 차지했다.",
+      "kw": [
+        "씨름왕선발대회",
+        "종합우승",
+        "스포츠"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0yR2toODEyOGh5SzZPNV9zMlBSR2hHZzJZdTdfRnY3Ny1RczRZNGZCS3NNMFNQLVFyUVdnUkFXYnVtN01BNmp5UF92NFJyTWxmakpleGVBWmduYUFpazFCbHJDT0hPeGgzZzM0MGdwUQ?oc=5",
+      "source": "중부일보"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시의회, 동탄호수한마당 참석…“주민이 만드는 축제 응원”",
+      "summary": "화성시의회가 동탄호수한마당 축제에 참석해 주민 참여 축제를 응원했다.",
+      "kw": [
+        "동탄호수한마당",
+        "축제",
+        "주민참여"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMExNWXZuakQzVFFrbmlKVUFULWptNFhicVVxdmd6ZjU0cFVlSjJzbzZWUFhUczFxRl8wOFMtVkw0b3hqazZEZUIyYTNUeHpHTmtoeGVaWXZGQlpCUlJqUHVrcW80NVgwLXQxQ1pJb1BGTTN0UVgwM0JnVUxhWU5tRVdB?oc=5",
+      "source": "아시아경제"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "정명근 화성시장 “재즈로 시민 일상에 특별함”…화성재즈페스티벌 1000명 호응",
+      "summary": "정명근 화성시장이 재즈페스티벌에서 시민 일상의 특별함을 강조하며 1000명이 호응했다.",
+      "kw": [
+        "재즈페스티벌",
+        "정명근시장",
+        "문화행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5sTDIxV2Y4VVR5NGMwTlhBcHFkcHRIQ3NRQ0lNRHBmX2VnX0R5WDVHRy1fY0J2SjItX0dqYkFIWElrWE0yR0E5bmJ3R2I1blJacDAyV2MwOGZwWHIwdF9SOFhaTXFUVXE2UEw1UDA5ZDNyTm9feS1QR1JyTGI?oc=5",
+      "source": "비욘드포스트"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "‘화성 AI쇼츠로 세계를!, 화성AI디지털교육원 9. 14. “AI 2기 교육생 개강”",
+      "summary": "화성AI디지털교육원의 AI 2기 교육생이 9월 14일 개강한다.",
+      "kw": [
+        "AI교육",
+        "디지털교육원",
+        "교육프로그램"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1zbnZfSFBXVU5HTlJKYWlDbjZManIwLTBXeVJGd04tVkRCTXdyY2JIblpVTElNX04xb3J2TGtOSXI5dw?oc=5",
+      "source": "화성인터넷신문"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시, 20회 경기 장애인생활체육대회 '금5·은9·동6'",
+      "summary": "화성시가 경기 장애인생활체육대회에서 금5개, 은9개, 동6개의 메달을 획득했다.",
+      "kw": [
+        "장애인체육",
+        "생활체육대회",
+        "메달"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5fbFo4RmhtcWxOeGJackh2bUhhcG1DU1JxM1BCNUNINjBzWnc5RTR3TFhkVXdSa055Q0VrZHdoQmE1RzNseTd3OW1hdUZtNVN4M1YtZmZpU3YzRnpsdDdhQ9IBeEFVX3lxTFBlOHhhMHM3YXh2VllrU05FRnBUaDkwX3NhQzVyMTdjQ3BVbzVGa0Q0Zzd2elUwaHhaR00tamFhalJBSjdnRWhBLS1Wb25KWUg2RWdzY19JS3NBMVBKejhnNlIxb1RUM0RQdG9POE1Gc0M2OEtVdVpPbQ?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "동탄 부동산 인사이트 - 동탄의 ‘분당 따라잡기’, 현실이 되고 있다",
+      "summary": "동탄이 분당을 따라잡는 부동산 시장의 변화를 보이고 있다.",
+      "kw": [
+        "동탄",
+        "부동산",
+        "분당"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9OOVcwWUJ3dkt2WGlIVDZwMDUzVHppUl9MQ1JiUkY4aEhoTFZEMXh0X0V1alFDYUtEUW5ob201c21BYjRpaFBDbEp2RFJwNkR3Qzl4aDhRZTRScm1vaDgxTnl3?oc=5",
+      "source": "미담플러스"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성특례시, 한여름 밤 재즈페스티벌 성황리 마무리",
+      "summary": "화성특례시의 한여름 밤 재즈페스티벌이 성황리에 마무리되었다.",
+      "kw": [
+        "재즈페스티벌",
+        "문화행사",
+        "성공"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2bmcxUFlrOEVoLVdHRnBiNnA2T1BTUmRRRTFHc0htalhPZ2V5eW56T3J1UHRyb1lEYkJURjZqd0xicTVZSWsteVFxbHQ0alZWQXdxUmxSeWVzQ0Z5Wk1mbjdEZFlsSU1kNGJERdIBb0FVX3lxTE9RNWtjZUgxQ1c5anlMVkxjMkVnRXNPNlJYZDhMUUhOR2pzd1M0X01jcEJMWS1BSWJmVE1KUlFOUS1SQkVJbmgyUkJ6ZmN4MU5ydnRaZ2FSa185YWlIemdBN2xJc0RBeFU4dVlHNVh6RQ?oc=5",
+      "source": "한스경제"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "삼성전자 주택대출 시행 앞두고…동탄·기흥 '반도체 셔세권' 다시 들썩",
+      "summary": "삼성전자 주택대출 시행을 앞두고 동탄·기흥의 반도체 셔세권 부동산 시장이 활발해지고 있다.",
+      "kw": [
+        "삼성전자",
+        "동탄",
+        "반도체"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5rTG9kTTdjSHJKRkxUUXdFcDhGVldrdW5tc3FIdVM4UFFEMGo4cFJpcDZCTVBMY1RObVI5TGd0anRDYjBlVHEtTUdZSnEzSE9uYzNiWU9rZXBSZ21BSnJCNU5yNFVpQno1YjFjUlhB?oc=5",
+      "source": "네이트"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성시, ‘제12회 화성송산포도축제’ 현장 로드체킹 ‘성료’",
+      "summary": "화성시가 제12회 화성송산포도축제의 현장 로드체킹을 완료했다.",
+      "kw": [
+        "포도축제",
+        "송산",
+        "축제준비"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE02UU9QREx6R25wSEMzQ1pOZU5IdlAwQkZrU29EanZzOFBYR2N6WV9kN2NsQWttamxYZVBlb1lkMHJBeU1iX1RZdlFodjR4UXVvXzdaLUdvUDQ?oc=5",
+      "source": "스포츠서울"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시의회 “어떤 대한민국 꿈꾸나”… 태극기 그리기 대회 시상식",
+      "summary": "화성시의회가 태극기 그리기 대회 시상식을 개최해 어린이들을 격려했다.",
+      "kw": [
+        "태극기",
+        "그리기대회",
+        "시상식"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5xc3lKTlpoTFlHV2w3NGJnWF91N3Z0cmNvUXB6RGRITUhmb2JhM2Vnd0tZOGhFZXg3Mnd2MzFhbmVTYnd5M2pReXhXTjVZemY5Q3kzejh0Mzd6TUdtaVJvdW5n?oc=5",
+      "source": "경인미래신문"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시의회, 태극기 그리기 대회 수상 어린이 격려",
+      "summary": "화성시의회가 태극기 그리기 대회 수상 어린이들을 격려했다.",
+      "kw": [
+        "태극기",
+        "그리기대회",
+        "어린이"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBZZ0FjUXZyX1dlTW1DMGczNnBDUjNONFV3UzlhY3RaNXg2OHJRVG5GU3J0enNjSGNTbjlIZTNWRnFFUDhJNEx0MHh0aElNUQ?oc=5",
+      "source": "전자신문"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시, 2026 제2회 화성재즈페스티벌 성료",
+      "summary": "화성시의 2026 제2회 재즈페스티벌이 성료되었다.",
+      "kw": [
+        "재즈페스티벌",
+        "문화행사",
+        "2026"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5TX2RjSkZEbVZxZFA3cjlUdzR1U3Q3YURDMElUcHdYR1FSZVhHczkzRnFySEJvRlpYbEFlcG1WbmN6SHFMXzNYRS1oUk85T2RuZVBESzFaN2lOc2Z6d0R6ZlRR?oc=5",
+      "source": "경인미래신문"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "반도체 효과에 뛴 동탄 집값…삼성전자 저리대출, 매수세 자극 전망",
+      "summary": "반도체 효과로 동탄 집값이 상승하고 삼성전자 저리대출이 매수세를 자극할 전망이다.",
+      "kw": [
+        "동탄",
+        "부동산",
+        "반도체"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9Ia0RTQkY0UnhnSHVaRXBwV3JrV1RjMC1CRFgweXE3NzM2LUpRZEppRE1paFZZdzdyUWFuMEcxQkpPMnV2ZEl2SnlmUQ?oc=5",
+      "source": "v.daum.net"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시, 29개 읍·면·동장 대상 통합돌봄 역량 강화",
+      "summary": "화성시가 29개 읍·면·동장을 대상으로 통합돌봄 역량 강화 교육을 실시했다.",
+      "kw": [
+        "통합돌봄",
+        "역량강화",
+        "지역행정"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBRb25QTEtsRENCRjVEVENldUtlalVOMlhYZl9VSW9OeWZXWVZ4Z09rV1ZuTWlTZ3Y2Q3R3SFVRUFNfbWw1eGtQYnRfZ1lFNS11M3g0QzhyV2NiQ0dDaUlvdFNycVlsX1BnNXhrYjFnSDY?oc=5",
+      "source": "신아일보"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "환경",
+      "senti": "긍정",
+      "title": "화성시연구원 탄소중립 지원센터, 역량강화 교육’개최",
+      "summary": "화성시연구원이 탄소중립 지원센터의 역량강화 교육을 개최했다.",
+      "kw": [
+        "탄소중립",
+        "지원센터",
+        "교육"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1fNl9PRWFhZ0JYbUh2TzY4NGZtclJFZUlTVjNuNWhwUTA0QXJqTnZVVmVRTmVWVzhYQ2FuQXFDU3hNVzdVQUYyeFNCQW1iXy1zZ1FtZ2VLNlFiMl93TU43d1BR?oc=5",
+      "source": "미담플러스"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성시의회, 복합리조트 유치 해법 찾는다… 양양·삼척 관광개발 현장조사",
+      "summary": "화성시의회가 복합리조트 유치 방안을 모색하기 위해 양양과 삼척의 관광개발 현장을 조사했다.",
+      "kw": [
+        "복합리조트",
+        "관광개발",
+        "현장조사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ZSF9jbEkyLVdNZXJhZ3ZYR0I0ZEVPRWEtaDUxZTNGaDhtQ1hNSkZ0VFAzQnA5UzlnRzBCdnVJeG1jM2ZaTE5NRGN5c2pRUmRtUzBDREU2TTZYeVpzX2kwcnp5VklfX05iaUHSAW5BVV95cUxPYWRHUUsxZEZFZlNMNVNHVmFUMU82UDJMcDlvQ0dRVUtIOFBtdUcyU3BtSTFpN09qNnl0WFBIbEU3SDFzS3cyYi1GSG1nRldoVHpNbU5yemxFYk52X3ZfZ1NxTXI0anBHSWpJSVQ0dw?oc=5",
+      "source": "미디어와이"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "[기고] 화성시장애인누릴인권센터, 지역 인권강사 양성부터 교통약자 이동지원 현장까지",
+      "summary": "화성시장애인누릴인권센터가 인권강사 양성과 교통약자 이동지원 사업을 추진하고 있다.",
+      "kw": [
+        "인권센터",
+        "인권강사",
+        "교통약자"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1SdDBMZ1IxRWZyYXAwYkJSbktPc1dEdUhkRVJERDdpczVKYkVqVmlKSlMxX2RZb00tUDN3TzMzQ0R4a0xONFprQUJmM2FlVVJHNXpESGpBZUlyS2RkOWJmcDZQR2ZUS1Zzc3JPd0RtX2NOd9IBckFVX3lxTE1SdDBMZ1IxRWZyYXAwYkJSbktPc1dEdUhkRVJERDdpczVKYkVqVmlKSlMxX2RZb00tUDN3TzMzQ0R4a0xONFprQUJmM2FlVVJHNXpESGpBZUlyS2RkOWJmcDZQR2ZUS1Zzc3JPd0RtX2NOdw?oc=5",
+      "source": "뉴스 따옴"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시, 읍면동장 사회복지 역량강화",
+      "summary": "화성시가 읍면동장의 사회복지 역량강화 교육을 실시했다.",
+      "kw": [
+        "읍면동장",
+        "사회복지",
+        "역량강화"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5OQ19raUd2SFlSMHFYaElBUXBRYkFaX3ZfVzVKZm1IN1dscjk5cmlLRzFpdFJFTFE3NzBfYWtyOFBQVTl4dnlPbXNBcGkyUWd3UTRHaXNwWXQzbHJQQkhSNjdycmV1VGdsUmc?oc=5",
+      "source": "경기도민일보 미디어"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성시 9월5일~6일 12회 화성송산포도축제 현장 로드체킹",
+      "summary": "화성시가 9월 5~6일 개최되는 제12회 화성송산포도축제의 현장을 로드체킹했다.",
+      "kw": [
+        "포도축제",
+        "송산",
+        "현장조사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9sLXoyUWkxX3l3ekRZdTNpSlR5cUlwRkZhQU4xUC1qNlUzQnpsZDh5MUw5NTAwdW1FSWY4R3JUZklzNFkxSkluY1hBaEdERGp6bnhySUpWN2oxRkVPbm5TbTFxamJldw?oc=5",
+      "source": "열린뉴스통신"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시, 경기도장애인생활체육대회서 메달 20개 획득",
+      "summary": "화성시가 경기도장애인생활체육대회에서 메달 20개를 획득했다.",
+      "kw": [
+        "장애인",
+        "생활체육",
+        "메달"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4xc2RsQXQyUXRuUnV2QkxCRXZFcHkwTWQ4R0pmbE1kR2V6bE5ub2IyM3liS282RmViNkloX1Rkbm1xT1ZVb3lmMnJsNTZaUXNIcHNfUXBaY3lRUTFYTUhxNGtQNmZyWmkzQ3dqbXdR0gFuQVVfeXFMTjFzZGxBdDJRdG5SdXZCTEJFdkVweTBNZDhHSmZsTWRHZXpsTm5vYjIzeWJLbzZGZWI2SWhfVGRubXFPVlVveWYycmw1NlpRc0hwc19RcFpjeVFRMVhNSHE0a1A2ZnJaaTNDd2ptd1E?oc=5",
+      "source": "미디어와이"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성특례시의회, 태극기 그리기 수상 어린이 격려...나라사랑 씨앗 키운다",
+      "summary": "화성특례시의회가 태극기 그리기 수상 어린이를 격려하며 나라사랑 의식을 고취했다.",
+      "kw": [
+        "태극기",
+        "어린이",
+        "나라사랑"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9aclh6dERCSVRzRGFZenpiMUM2MXdFNzlSa2VfRndhNnRlZzIyUEhHdDdsLXRTc2QtcUhFempXTmtNcVduNmJHT3hDb0xTemh6Q3FfdDNRX25SQdIBWEFVX3lxTFBFaFZySE5vQzlrMmc3T3hieUROUDdEa2lycHZ6VmhMTjNWN0JRZzRfZ3RFTDdscU15VzRpaWtncmF1dGpDWHp6QTZmcFdSa3oza0tFeW96dXE?oc=5",
+      "source": "아주경제"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "중대재해 Zero… 화성시, 용역·위탁 사업 안전보건 특별교육 실시 > 뉴스",
+      "summary": "화성시가 중대재해 예방을 위해 용역·위탁 사업 관계자 대상 안전보건 특별교육을 실시했다.",
+      "kw": [
+        "중대재해",
+        "안전보건",
+        "특별교육"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00WFpObzhqWXNxUFc3U3A1c01GcXJURnJLRWFIQ2M3TDdUWlBDLVoyYUtObTdyaklqX3VzUHh1N01DMTZNYmxncV84LUo5ZXE2NjR4dUpITnVNbUlDMDhTN0NDeXVHSlVoV1lUOUR0eVo?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "시민 1000여 명과 함께 한여름 밤 재즈 향연...화성재즈페스티벌 성료",
+      "summary": "화성재즈페스티벌이 시민 1000여 명이 참가한 가운데 성공적으로 개최되었다.",
+      "kw": [
+        "화성재즈페스티벌",
+        "문화행사",
+        "시민참가"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBPREN0SWJNZ052VXNfbHJOdXdYVlRfYS1LM281dVU4cEVYM2RGZmhBM3NSR1FiX0JmMFdIbThkS05ZZmdIbkN0cGZobDBNeW5YaEVTaHY2dUJsMjVK0gFTQVVfeXFMT0JoT2dTZ3o1NWhSeHRYOVREV0I3b2hvNGFNM1hiQzAzem5mdDAza21RTXYzaG5FMWRlZ3RBT1A1OGdzYmJwLXA5ajJQSWFBaW5BZ3c?oc=5",
+      "source": "KPI뉴스"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시의회, 제8회 나라사랑 태극기 그리기 대회 시상식 참석",
+      "summary": "화성특례시의회가 제8회 나라사랑 태극기 그리기 대회 시상식에 참석했다.",
+      "kw": [
+        "시의회",
+        "태극기",
+        "대회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9nYU13cGV1dERkcWswSFQwajhYOUhkUmkxSEN6MXpoZUlrWk9rTi1zeTE2cEtPaS1kZG9wcjNxeFVzcWdGRW11UG5zMUlLM1huVnlBaWN6a296NUhESkpMYlhzQQ?oc=5",
+      "source": "시사미래신문"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "[화성소식]'9월5~6일 화성송산포도축제' 현장 점검 등",
+      "summary": "화성송산포도축제가 9월 5~6일 개최 예정으로 현장 점검을 진행했다.",
+      "kw": [
+        "포도축제",
+        "화성송산",
+        "행사준비"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1SRE9YZXpGS2VBcHlhUFMyWUJka2xrWnRRTDVHWWg5TGJfb0djMnR0Wk5lT1dxTlB4VUc5SVBXemVMZ25BbEZLU01DTGdRcVlyZU52VlRtUnF6Z3NNWXEzUNIBeEFVX3lxTE1NcTluQUctUVdHazVfT3JySkg3U3p4RHllYk56Y0FFUHllMzB6d196T1UyWXh3RGlsZmR6a0N4WVRVQUptVWIxYW1lNXBSWUNMS2c3eGcxbTkzeHhwTm9idFJncmJZMVB2Ykh4LVRqYVNsZ3lONHJsTA?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "정명근 화성시장, 대통령 주재 국정설명회서 1만호 공공주택 건의",
+      "summary": "정명근 화성시장이 대통령 주재 국정설명회에서 1만호 공공주택 건의안을 제시했다.",
+      "kw": [
+        "정명근시장",
+        "공공주택",
+        "정책제안"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9KMVJCWVUxYVJjeUt2akRNWmt3dE5jYnZLaXQwTGN6ck03SmlmSmxmWVpzUnJKSUoxN1dEaG15SGE1eE1OYTRWejJ3S2o4ZVRHRkRweE1RR1Z0VVdFQ1pYNko0WEZwb0FlVmlKZHB30gFuQVVfeXFMT0oxUkJZVTFhUmN5S3ZqRE1aa3d0TmNidktpdDBMY3pyTTdKaWZKbGZZWnNSckpJSjE3V0RobXlIYTV4TU5hNFZ6MndLajhlVEdGRHB4TVFHVnRVV0VDWlg2SjRYRnBvQWVWaUpkcHc?oc=5",
+      "source": "미디어와이"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시의회 이계철 의장과 시의원들, 향남읍 주민자치 농구대회 방문 격려",
+      "summary": "화성시의회 의장과 시의원들이 향남읍 주민자치 농구대회에 방문하여 격려했다.",
+      "kw": [
+        "시의회",
+        "향남읍",
+        "주민행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5sUXBXWkRTZDBSTWkzMW9VUFFpTW9OVlV4cW1HQjVCMUNzTTVDWjJLenRjaEpLS01Sb2d2M0M5SWdNVnBPME5uRHVMV1I1eUM2SWJwWnVVMG4xc2p6ZUg1N0E1UHl5TTVj?oc=5",
+      "source": "수도권지역뉴스"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "【집중취재】 과밀학교 37% 줄었다지만 ‘착시’..화성 중·고교 교육환경 ‘빨간불’",
+      "summary": "화성 중·고교의 과밀학교 감소에도 불구하고 교육환경이 여전히 악화되고 있다.",
+      "kw": [
+        "과밀학교",
+        "교육환경",
+        "중고교"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBMdEJ3N2ZlMWI0OXdMUmpEa2VQTF96RzFGUEVBQ1d2REVEeEgyd2Z3eDB5WnVLZzFqNDhPZ2JYX3FGUGdP?oc=5",
+      "source": "화성 투데이"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "정명근 화성특례시장, 국정설명회 참석",
+      "summary": "정명근 화성특례시장이 국정설명회에 참석하여 지역 현안을 보고했다.",
+      "kw": [
+        "정명근시장",
+        "국정설명회",
+        "지역현안"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFByem1uRWRfMm1JX245OW5XSHpkNWJibm03OFpsUmJpNVp2NS11QzZfQUJxVVJwaTR0SWgwUDYtZy1KN0x5cl9VMWxWLXB5YkdCNjlyTnNDeTZFVV9wMFRZMlNn?oc=5",
+      "source": "미담플러스"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성특례시의회 “우리 동네 축제, 우리가 만든다”",
+      "summary": "화성특례시의회가 주민 참여형 동네 축제 개최를 추진하고 있다.",
+      "kw": [
+        "시의회",
+        "지역축제",
+        "주민참여"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8tT3A4aGtxd2xld0NmVnlWSy16NHM3NHE1Q0h1ZHpkS0NmZm1VQ0dqeW1PcEluVFdhcEc0bEc3OWU0R3N4V3JtNUlUVjdXUkhHdy03Z2dGekpEVTJWd0NZekE3M2JleV9KZDBlUA?oc=5",
+      "source": "경기타임스 e"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "정명근 화성시장, 화성동행기구 소개하고 주택·에너지 현안 제안",
+      "summary": "정명근 화성시장이 화성동행기구를 소개하고 주택·에너지 현안을 제안했다.",
+      "kw": [
+        "정명근시장",
+        "주택정책",
+        "에너지"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9HaFZQeVVudFZxeFNvNTRwT1gwWlR3Uy0zWFZQc3ZCWVAzZmZFVUMtQkpuSEp2MHZjRFBIR3FBakQxMThlOF9xb2tyTDBaQQ?oc=5",
+      "source": "전자신문"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성특례시 화성FC, 마지막 홈경기서 짜릿한 역전승",
+      "summary": "화성FC가 마지막 홈경기에서 짜릿한 역전승을 거두었다.",
+      "kw": [
+        "화성FC",
+        "스포츠",
+        "역전승"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91aGNPckNEMjhuODFQQl93R1dRa2dYbjlnWUtlcmp6ZDU4NV9FMFBsUTAzYTk0Q2xWUUI3a0pUdmVPRUhFb2xnZTA4OUhCc0czRFIxMWxEYU1QYnRLSEhhcDdNM2s1ZE94bC1wQg?oc=5",
+      "source": "경기타임스 e"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성특례시, 장애인생활체육대회서 메달 20개 획득 ‘쾌거’",
+      "summary": "화성특례시가 장애인생활체육대회에서 메달 20개를 획득했다.",
+      "kw": [
+        "장애인",
+        "체육대회",
+        "메달"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9PdTA4aEZPWlRQc0l6MlpoNk05YWZxdnhtODN1ZGc3bjhFY2Z4Z1NldmdvczZuWlkxNEhuTTdsMzhnMEVIZ1Q0U3ZvUnpqbXlBNHB5ZkFGYlZsTjdBUk9LSmw5QWR3dmN2UHZVVw?oc=5",
+      "source": "경기타임스 e"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성재즈페스티벌, 여름밤을 재즈로 물들이다",
+      "summary": "화성재즈페스티벌이 여름밤을 재즈 공연으로 물들였다.",
+      "kw": [
+        "화성재즈페스티벌",
+        "문화공연",
+        "음악"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBhQ0lhNXZaTjN4dko4cW5td2V2Vm15MEhoTUNJVHU3ajVnbHVXOUN0Nmt2N2tZNF9EWGtLOUNaczdDa2xRa1JuMHFGZjl5QnRId1loNXVQOGNNdw?oc=5",
+      "source": "브릿지경제"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시의회, 태극기 그리기 대회 시상식서 어린이 수상자 격려",
+      "summary": "화성특례시의회가 태극기 그리기 대회 시상식에서 어린이 수상자를 격려했다.",
+      "kw": [
+        "시의회",
+        "태극기",
+        "어린이"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5iT3dZUkJkQzJZNUZKYk04Zk4tdVhWazEyWllvc25vVmc0WDJBXzdfeDAwVkZqWWp5ekc4aVBwM21sM21QbjRZR0F0ZWs3LW03S0R4ZV9LcnBzMmxYQjlIV1F0VDM3cVQwSXhwYjBnTTHSAXRBVV95cUxNOTlvWUEwRWpmY3FqZG1mSElmeEhuR3VxakRYUWs1c1FkN28tV2g2X0U3TjFpNVFaNXIwWmo1Tk85aHltaklWVjgyYWZUeGN6c2RXUnhVTUEtSmczNU9ESTRrMFpSaXNtUFJrMWl2dGNYSTA2VQ?oc=5",
+      "source": "이뉴스투데이"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시가족센터, 맞벌이가정 위한 가족 소통 프로그램 ‘우리가족 케미 ON’ 성료",
+      "summary": "화성시가족센터가 맞벌이가정을 위한 가족 소통 프로그램을 성공적으로 마쳤다.",
+      "kw": [
+        "가족센터",
+        "맞벌이가정",
+        "복지프로그램"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9uUy1qZVdqWHRTdmFtWXp6T3Fmb3BkQ0VOdnhaSkZ6Wll2NHBZcU5XNXpyR2U1SWlCTHlwNEJHMDVlbS1JalBOV3A3TzVwdkJwM1R2Y3hhWlZRTnF3MlYxLXZMMmdWdllQTjJfYUpjTHc?oc=5",
+      "source": "한국강사신문"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시의회, 제8회 나라사랑 태극기 그리기 대회 시상식 참석:경인투데이뉴스",
+      "summary": "화성특례시의회가 제8회 나라사랑 태극기 그리기 대회 시상식에 참석했다.",
+      "kw": [
+        "태극기그리기대회",
+        "시상식",
+        "나라사랑"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5XMHBDemdhLTdleU02T2Izc2l4ZTJzcVVSdTNvZldzeWdPWTNYb0FTTnJidDBsejhndDYyUy1yb3R5VVnSAV9BVV95cUxQWlNPcTlIRnlWQVIxSjh6T1BoS3I5MC04clEteDFnYTVmTlg2dU5aNGp4bzQzaUQ3dF8wVUw5TDZTVnNTUGFxSVFaaXpJR3U1bWplMmd4UldnemZ2cWxyRQ?oc=5",
+      "source": "경인투데이뉴스"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "“한여름 밤, 재즈에 빠졌다”…화성재즈페스티벌에 시민 1000명 몰려",
+      "summary": "화성재즈페스티벌에 약 1000명의 시민이 참석했다.",
+      "kw": [
+        "재즈페스티벌",
+        "시민참여",
+        "음악행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5LTUdENU56UG1mQnRLUVExcVlzVl9iSERRVGtYUWg2eW0tNVdZOWtRTG00Yjdxa0tjUXA5ZlBkU01wRG5TNkE2M3U4bUQ3OTJUbW8zZDFNM2FyNHhVWmR5NF9HRVQ?oc=5",
+      "source": "베타뉴스"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "화성특례시의회 보건복지위원회, 화성 중장년 행복캠퍼스 하반기 개강식 참석",
+      "summary": "화성특례시의회 보건복지위원회가 중장년 행복캠퍼스 하반기 개강식에 참석했다.",
+      "kw": [
+        "중장년캠퍼스",
+        "보건복지위원회",
+        "개강식"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5iZW83THU4eEhmT1ZOVkZ5bTRWNERYdEdQRU9KZWRuc29EeWFFTXBvUmhvTllKVTZZTklLeW9EMEZ3bjRXMFhHUHAyaE8?oc=5",
+      "source": "모닝투데이"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성 한여름 밤, 재즈 선율로 물들다…‘제2회 화성재즈페스티벌’ 성료",
+      "summary": "제2회 화성재즈페스티벌이 성황리에 개최되었다.",
+      "kw": [
+        "재즈페스티벌",
+        "문화행사",
+        "음악"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9iUHJUUG8tb3dybHhVOEdUTXBIVHFZbjIzTWpkVGpzbjN5WUllZUtSV1FLR01jeGNvZ0pIYWhnZDV6em9CeUtPSjg2bWxTWVRaZEM4TVNzMkhLMWpSWnhPenBqc2daaFJPemNaVDhR?oc=5",
+      "source": "투어코리아"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성특례시 “재즈 선율로 물든 여름밤”…화성재즈페스티벌 성료",
+      "summary": "화성재즈페스티벌이 성료되었다.",
+      "kw": [
+        "재즈페스티벌",
+        "문화",
+        "음악"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1LbUVybWVDNzUxVVdNUzM2ZXVHYS1DTVBlMDFuM0gyYlgxeWJsbF9oOVJjYTQzVkdFY1lxTDJoU2pCZjlyUEowY2lfS0kyS1E0YkZFd000V2RDR0JRcmhnLVliSGhwZXBRbTBOag?oc=5",
+      "source": "경기타임스 e"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성문화원, ‘쿠바 안순필 일가’ 북콘서트",
+      "summary": "화성문화원에서 쿠바 안순필 일가 북콘서트를 개최했다.",
+      "kw": [
+        "북콘서트",
+        "문화원",
+        "기획행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1DS1hNeEJtN09NaGVkaXE2VkxLZlBLbkpPS3BaNGpmaWkxQnFzN0ptR19DNWdRS0pMaWctZ3R6WlFnYzIxaUl3TVp0N2dLWlRoeHRZX201Q2Rwcmd0cUotcVp3?oc=5",
+      "source": "미담플러스"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "화성특례시, 포도축제 앞두고 안전 총력점검",
+      "summary": "화성특례시가 포도축제 개최 전 안전 총력점검을 실시했다.",
+      "kw": [
+        "포도축제",
+        "안전점검",
+        "행사준비"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBmQkxZZ3RsSFg3R3FCUnB1WkVzaTdiWTVITS12cldCcWgxNzA3dnZwREhpeVhCVGp1TEcwTC1PUzlWX004dHJ2b1o5N0EydlBvcnRyb0ZxUEJCYmZmWXpROTFzMmtMUTdSaEhwSQ?oc=5",
+      "source": "경기타임스 e"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성특례시의회, 의장기 배드민턴대회 개최… ˝생활체육 활성화 지원 확대˝:경인투데이뉴스",
+      "summary": "화성특례시의회가 의장기 배드민턴대회를 개최하여 생활체육을 활성화했다.",
+      "kw": [
+        "배드민턴대회",
+        "생활체육",
+        "의장기"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBmQlBXakZkcDRTbTJKeFY3Sy1JUzhxbTlCSjd0aGpJZDU0UzFvYVdJRXNoWHJwTU4tVW1BVjVnS3NOODjSAV9BVV95cUxNa3lLTlZidGpCWWlnVEVMWUhJRFFEZ1Nac2FPbDZxbEMxdGtyVFNoU0owajAtTjV2NkpvWjVjREdxUll1SkwzWGVMNEJreEdmclM0OWtBRi1mVDJqXzF2UQ?oc=5",
+      "source": "경인투데이뉴스"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "화성특례시, 용역·위탁 근로자 대상 중대산업재해 예방교육",
+      "summary": "화성특례시가 용역·위탁 근로자를 대상으로 중대산업재해 예방교육을 실시했다.",
+      "kw": [
+        "중대산업재해",
+        "예방교육",
+        "근로자안전"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9QUjk1ODlCMzg5dTA3eXlQM05VdlVBeGxoNW9HZEZsTFUwLWVIdDhDdkRVM0ZmaWhlV1VsQW9ZNHdyZjBCMzdVMGo2SERacl8tLUdNOXR6bWkwc1I5aUdRRnN6VmZ4MEk3N1NHaw?oc=5",
+      "source": "경기타임스 e"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "화성신남지역주택조합 ‘조합원 임시총회 안건 심의’ 의결",
+      "summary": "화성신남지역주택조합이 조합원 임시총회 안건을 심의하여 의결했다.",
+      "kw": [
+        "주택조합",
+        "임시총회",
+        "신남지역"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9lR3lPSUwyWDlyRWJhc0J4dFVkTTNYaWdJZ09VQ1VKTkdoSTE4M1hTc1Z0LXg5R05VNDJRLWdOdVhvZHc?oc=5",
+      "source": "화성인터넷신문"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "[화성시문화관광재단] 클래식이 영화의 숨결을 탐닉할 때",
+      "summary": "화성시문화관광재단이 클래식 음악과 영화를 연결하는 문화 프로그램을 소개했다.",
+      "kw": [
+        "클래식",
+        "영화",
+        "문화프로그램"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA1aE41ZlRKNGV5aURXYVJYejdLelU1RjV4OENJVFppdnNJMWtoMHhMLXJEUEZYMkFQVUJOMEFlZFd3NWI5Rl9jNw?oc=5",
+      "source": "브런치"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "수원특례시, 전국 족구 동호인 1000여 명 화성에 모였다",
+      "summary": "전국 족구 동호인 약 1000명이 화성에 모여 행사에 참가했다.",
+      "kw": [
+        "족구대회",
+        "스포츠행사",
+        "동호인"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5BSzViWHh1NC1VX2JMaDdGTTZKSXBnaGtoN21ITWlNVVdwYTkyWEs0cU9iTXJhc0gtVFRKV2EzTkxXcWd2RjBqcE1KemQ2M2Jiei1Xb1M4YzdMWm5vMVlDUmJsLUNFQTVOalhkVA?oc=5",
+      "source": "경기타임스 e"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성특례시, ‘제12회 화성송산포도축제’ 앞두고 현장 로드체킹",
+      "summary": "화성특례시가 제12회 화성송산포도축제 개최를 앞두고 현장 로드체킹을 진행했다.",
+      "kw": [
+        "포도축제",
+        "송산",
+        "축제준비"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5xWFIycTZmaW56NFVvOGE5WTV2YUdkRGY2ZHRGYTk3YVhTeHdxeGlOdnR4TlB2Z2k3Wkk3dWw4bVlIUTlEcUp0RTF6T3psRkdOSndLMjlnZWdBeU8yb3RLbTR5V3ZiWFc20gFrQVVfeXFMTzBnQnplSzNUejdYUEo5bDhqZElPdVV0S09NZ3FxZmZ0bE5hQ0lkV19IS011N1AtMjZuelhYbnR5NWdhUF9MbGItVVFOZDFDdEFZUFV6Y2dwRmdwUFZnSFYxTmc3aWIxTkUyUTA?oc=5",
+      "source": "뉴스잡"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "화성특례시, 하반기 용역·위탁 사업 ‘중대산업재해 예방’ 특별교육 실시",
+      "summary": "화성특례시가 하반기 용역·위탁 사업 근로자를 대상으로 중대산업재해 예방 특별교육을 실시했다.",
+      "kw": [
+        "중대산업재해",
+        "특별교육",
+        "산업안전"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9TRGJRa0FIVldEa0R3ZEMtdl9MVDlZMUhfZEFHVUhFdkRvTFRLWEdIczdoWkc0NlZzRXltN21yRlNuQTg0emozUTdIWV9LVnpiYzQtQVlLOFRjejNrZm5SVzBibHdTWGs40gFrQVVfeXFMT2VvbDl6dVhfeUQtQVEwODlFVnRGTzFxMTliRXdPSlZGeW5uSFBTQ0xLQTFiZmsyTnZHejVDLUhXOFNUS3ZsUnQwQV9QaGJvNXJZSHFKR2FDMGozZkV0V2RFbGpoYkNIQVM5Ymc?oc=5",
+      "source": "뉴스잡"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "화성서부경찰서, '도로 양보 시비' 엽총으로 위협한 60대男 검거",
+      "summary": "화성서부경찰서가 도로 양보 시비로 엽총으로 위협한 60대 남성을 검거했다.",
+      "kw": [
+        "도로양보",
+        "엽총위협",
+        "검거"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1vdEQ4VUMxOWRyMC1BanVfenBQN0t1RU9yVmlhNGV1NWJaMVpjZkd4VlI2bHdCYWRFMWoySTlUUV90WFlTelI0TTdBRkR1YTF6WnJZeng3MTRGVDJQMDdvSG1qVmFvSjFpY2pha2xzRQ?oc=5",
+      "source": "기호일보"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성특례시,지방공무원 332명 최종 합격",
+      "summary": "화성특례시 지방공무원 채용시험에서 332명이 최종 합격했다.",
+      "kw": [
+        "지방공무원",
+        "채용",
+        "합격"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9tSzhyREI3N21ya3g5X2pZd0ZQSnJDY2xOTTlRazkza0hOZjdNb1RBc1RhUlRVSVFJNDFRdGFVUlVLTkdnN3ZYTUFacndPaDNGb3JUNjVnbzhZcWFMZVNqcFBR?oc=5",
+      "source": "미담플러스"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성재즈페스티벌, 이영현 열정의 무대:경찰연합신문",
+      "summary": "화성재즈페스티벌에서 이영현의 열정적인 무대가 펼쳐졌다.",
+      "kw": [
+        "재즈페스티벌",
+        "이영현",
+        "공연"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5NeGE4Ym55QmNQSFhaMjQyUnJ0ZEZkWVZLbzNmaVRvekd3TnlEWnpaVTc4alczekhQQkk1RmkyZWFuSjUzNUQ3REpWa2I1dVpIMi1OUHpPSG9lcnZG0gFsQVVfeXFMTXNWbWs0cDFzazdLOXhaOHE1YmpWd0VXcjE2MThUVnpRb2tLLWVuMlRwY1NGcGZoZm9PcHdaQVJicGNGWlNMQXZ0V0o1VnlHbWRlWk9aYlFkUkh0TERtb29JVU94T3Q2Q09aSmJ0?oc=5",
+      "source": "경찰연합신문"
+    },
+    {
+      "date": "2026-08-30",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "전국체전 준비로 홈 경기 일정 일찍 마친 화성, 그런데 플레이오프 가면 어떻게?",
+      "summary": "화성은 전국체전 준비로 홈 경기를 일찍 마쳤으나 플레이오프 진출 시 일정 조정이 필요한 상황이다.",
+      "kw": [
+        "전국체전",
+        "일정조정",
+        "플레이오프"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBUMzZXTmh3dnJJdENwanJVSzZLVURnZ3duN2hHZU9iNFhLaXlMMGlqNFp5eS1IZVMzcV93Y245clZxTmJERkpWUE9NTUswakd3d0dGdDdEU2c3MzlFSld0dFBRNVppTVJETU4teGpR0gFuQVVfeXFMUFQzNldOaHd2ckl0Q3BqclVLNktVRGdnd243aEdlT2I0WEtpeUwwaWo0Wnl5LUhlUzNxX3djbjlyVnFOYkRGSlZQT01NSzBqR3d3R0Z0N0RTZzczOUVKV3R0UFE1WmlNUkRNTi14alE?oc=5",
+      "source": "스포츠니어스"
+    },
+    {
+      "date": "2026-08-31",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "송산포도 맛보기 전 안전부터…화성시, 축제장 막바지 점검",
+      "summary": "화성시가 송산포도축제 개최 전 축제장 안전점검을 실시했다.",
+      "kw": [
+        "송산포도축제",
+        "안전점검",
+        "축제장"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE41SUhpVUNXUzRLa0NTNHlzU3hfU0psQUliNVBhMExQVG12eVV4eGQySXV6aWpDbVowU0hOcmNnVmtfelVKQlZhNy1mOGd5dw?oc=5",
+      "source": "전자신문"
+    },
+    {
+      "date": "2026-08-31",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "[특집] 정명근표 큰 생각... 모두의 행복 더큰 화성 위한 미래비전 담았다 (하)",
+      "summary": "정명근 화성시장의 행정 비전과 시정 방향을 담은 특집 기사다.",
+      "kw": [
+        "정명근시장",
+        "시정비전",
+        "화성시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9UcmFXUDRydHozcUpzQzlUbXFXeGVDWFJxNkIxQmpHb1lDU3hESUg1bkdmVzMyYXRQU2JjUzBIWDc5d1V2M0lSbjZDemFPVldydzllVFAtMUJMd9IBWEFVX3lxTE9fQXhRZGhlQm01UTFDVy03Sjk1cVh4UnZBUlBwNktJNFQtSDF6d3NCYjB4TjhFTDNqbFRvaXFFaVhlQXhadHRqa3ZuMk15QksyRmJoZzJfaWg?oc=5",
+      "source": "아주경제"
+    },
+    {
+      "date": "2026-08-31",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성특례시의회, 제6회 동탄호수한마당 참석:경찰연합신문",
+      "summary": "화성특례시의회가 제6회 동탄호수한마당 행사에 참석했다.",
+      "kw": [
+        "동탄호수한마당",
+        "의회",
+        "지역행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBKenpKbmJ2ZGxqbWk3Yk1aYjdyNkRiclR2bVhKZ1hRNnVndGIwV0ZBYnlZV295cS1FV1o5NFlTWlMtc2lhbmhJU2swWDFndzFmY3hqRm5aNzl1VzRnbzNqVnZtNDhIeVFaWW84NNIBbEFVX3lxTFBKenpKbmJ2ZGxqbWk3Yk1aYjdyNkRiclR2bVhKZ1hRNnVndGIwV0ZBYnlZV295cS1FV1o5NFlTWlMtc2lhbmhJU2swWDFndzFmY3hqRm5aNzl1VzRnbzNqVnZtNDhIeVFaWW84NA?oc=5",
+      "source": "경찰연합신문"
     }
   ],
   "dropped": {
-    "count": 41,
+    "count": 24,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
-      "홍원식 남양유업 전 회장, 443억 퇴직금 청구 1심 패소",
-      "미분양 폭탄 맞던 오산 '이 아파트', GTX-C 호재 타고 돌연 실검 1위",
-      "남양유업, '당류 0g' 루카스나인 시그니처 라떼 제로슈거 4종 출시",
-      "포토뉴스",
-      "남양유업, 퇴직금 소송서 판정승…법원 \"홍원식, 회사에 11억원 지급하라\"",
-      "김미경 의장 민관경 합동순찰 이계철 의장 3on3 농구대회 격려",
+      "분당 - 평촌 - 영통이어 부천으로! (1기 신도시)",
       "'2026 생생우리음악축제' 성대하게 막 올려!",
-      "남양유업, 444억 퇴직금 부담 덜었다…법원 \"홍원식 전 회장이 11억 반환\"",
-      "제왕 교수 먹튀 2025년 애자일 개발: 현상, 본질 및 법칙",
-      "'그냥드림' 29개 읍면동으로 확대",
-      "\"돈벌이는 괜찮은데, 곳간은 빠듯\"…남양유업, 영업현금흐름 '적자 전환'",
-      "비보존제약, 中 하이난에 어나프라주 완제품 공급",
+      "[트렌드+] 금융 피싱 막고 환아 돕고…모범 보이는 유업계",
+      "홍원식 남양유업 전 회장, 443억 퇴직금 청구 1심 패소",
+      "시공갤러리",
+      "농협 경남본부, 미래세대와 함께하는 스쿨팜 첫걸음",
+      "\"우리동네 지하철, 안터지는 이유있었네\"…87곳 중 8개 품질 '미흡'",
       "[신상잇슈] 빙그레 '식후관리 워터'·오뚜기 '열찐만두'",
-      "[뉴스 브리핑] 남양유업 홍원식 퇴직금 소송의 반전… 443억 청구 기각, 11억 반환",
-      "커피전문점 식용얼음, 안전 할까요?",
-      "중장년 행복캠퍼스에서 성공적인 생의 전환기를 설계하자",
-      "흰우유 부진 넘었다…단백질·베이커리가 유업계 새 성장축으로",
-      "[이문호 칼럼](223) 모슬포 바다 27.7도 백록담 20도…뜨거워진 제주바다, 한라산 비구름도 막았나",
-      "수원대, USW챔버 앙상블과 함께하는 어린이 식생활 개선 음악회 성료",
-      "식음료업계 ‘AI 전환’ 속도…업무 효율화 촉진"
+      "[이문호 칼럼](224)제주국제과학기술원 설립은 만시지탄(晩時之歎)…제주를 살릴 해법은 없는가?",
+      "부산도시철도 일부 구간 LTE 품질, 여전히 문제",
+      "'아기 울음 소리' 늘어나자 프리미엄 분유·유아식 온기",
+      "제21회 수원화성기 전국 동호인 족구대회 개최",
+      "[릴레이 칭찬 인터뷰] 최성혁 교통시설팀장 “시민의 발길이 닿는 현장에 답이 있다”",
+      "구조적 성장기에 접어든 K-푸드… 식품주, 실적 기반 밸류에이션 재평가",
+      "제21회 수원화성기 전국 동호인 족구대회 120팀 열전",
+      "[CEO 위클리] 李대통령 만난 이재용, 美서 첫 삽 뜬 곽노정…재계 수장들 사업확장 분주",
+      "울릉군, 마을별 순회 `예초기 등 농기계 집중수리`",
+      "9월 '삼전 대출' 시작 기대감?... 집값 다시 오르는 경기 남부",
+      "[임희윤의 시대&뮤직]공연장을 떠돈다, 'X 같은 음악'을 찾으려",
+      "[이문호 칼럼](223) 모슬포 바다 27.7도 백록담 20도…뜨거워진 제주바다, 한라산 비구름도 막았나"
     ]
   },
   "briefs": {
-    "all": "수집 기간 전체 2,207건 중 [[w]]부정기사 173건(8%)[[/w]]이 집계되었으며, 안전 분야에서 [[w]]79건[[/w]]으로 부정 보도가 가장 많습니다. [[b]]동탄[[/b]]이 핵심 보도 키워드이며, 행정 분야 보도(649건)가 가장 활발합니다.",
-    "7": "최근 7일간 421건 보도 중 [[w]]38건(9%)이 부정 기사[[/w]]로, 부정비율이 전체 기간보다 높은 상황입니다. 복지 분야 보도가 100건으로 집중되고 있으며, [[w]]안전 관련 부정 보도 22건[[/w]]을 주시할 필요가 있습니다.",
-    "30": "월간 기준 1,259건 중 [[w]]부정기사 101건(8%)[[/w]]의 분포를 보이며, [[w]]안전 분야 57건[[/w]]이 부정 보도의 주요 부분입니다. 행정 분야가 292건으로 가장 많은 보도량을 기록하고 있습니다."
+    "all": "전체 기간 동안 부정 보도 [[w]]175건(8%)[[/w]] 중 안전 분야가 [[b]]79건으로 압도적[[/b]]이며, 행정 46건, 산업경제 27건으로 뒤를 잇습니다. 8월 28일에 [[b]]18건이 집중[[/b]]되었으므로 해당 날짜의 보도 내용을 우선 확인하시기 바랍니다.",
+    "7": "최근 7일간 부정 보도는 [[w]]32건(8%)[[/w]]으로, 안전 분야 [[b]]21건이 대부분[[/b]]을 차지하고 있습니다. 8월 28일 [[b]]18건 집중 보도[[/b]]의 영향이 크므로 해당 안전 사안에 대한 재점검이 필요합니다.",
+    "30": "최근 30일 부정 보도 [[w]]102건(8%)[[/w]]은 안전 분야에 [[b]]57건이 집중[[/b]]되어 있으며, 행정과 교통 분야는 각각 17건, 10건입니다. 안전 관련 이슈가 [[b]]전체 부정 보도의 56%[[/b]]를 차지하고 있어 이 분야 현황 검토가 시급합니다."
   },
-  "briefs_updated": "2026-08-30 06:04",
+  "briefs_updated": "2026-08-31 06:11",
   "issues": {
-    "updated": "2026-08-30 06:04",
+    "updated": "2026-08-31 06:11",
     "items": [
       {
         "label": "[속보] 화성 동탄 능동 자동차 정비업체 화재…대응 1단계 발령",
@@ -16648,7 +17740,7 @@
     ]
   },
   "today": {
-    "updated": "2026-08-30 06:04",
+    "updated": "2026-08-31 06:12",
     "items": [
       {
         "label": "[속보] 화성 동탄 능동 자동차 정비업체 화재…대응 1단계 발령",
@@ -16670,70 +17762,73 @@
           "화성 동탄 능동서 화재...검은 연기 풀풀",
           "[속보] 화성 동탄 능동 자동차 정비업체 화재…대응 1단계 발령"
         ],
-        "score": 76,
+        "score": 69,
         "state": "진행 중"
       },
       {
-        "label": "화성 동탄서 4중 추돌사고…11명 부상",
-        "count": 2,
-        "sources": 2,
-        "first": "2026-08-27",
-        "last": "2026-08-27",
-        "cat": "안전",
-        "titles": [
-          "화성 동탄구서 4중 연쇄 추돌사고…11명 경상",
-          "화성 동탄서 4중 추돌사고…11명 부상"
-        ],
-        "score": 54,
-        "state": "진행 중"
-      },
-      {
-        "label": "[기자수첩] “아이보다 하루만 더 살고 싶다”… 생존을 향한 절규와 눈물, 그리고 외면한 화성특례시",
+        "label": "중복 참여로 멈춘 화성시 노조 설문조사",
         "count": 1,
         "sources": 1,
-        "first": "2026-08-29",
-        "last": "2026-08-29",
-        "cat": "복지",
+        "first": "2026-08-30",
+        "last": "2026-08-30",
+        "cat": "산업경제",
         "titles": [
-          "[기자수첩] “아이보다 하루만 더 살고 싶다”… 생존을 향한 절규와 눈물, 그리고 외면한 화성특례시"
+          "중복 참여로 멈춘 화성시 노조 설문조사"
+        ],
+        "score": 53,
+        "state": "신규"
+      },
+      {
+        "label": "【집중취재】 과밀학교 37% 줄었다지만 ‘착시’..화성 중·고교 교육환경 ‘빨간불’",
+        "count": 1,
+        "sources": 1,
+        "first": "2026-08-30",
+        "last": "2026-08-30",
+        "cat": "행정",
+        "titles": [
+          "【집중취재】 과밀학교 37% 줄었다지만 ‘착시’..화성 중·고교 교육환경 ‘빨간불’"
         ],
         "score": 53,
         "state": "신규"
       }
     ],
-    "surge": [
-      {
-        "cat": "안전",
-        "recent": 16,
-        "days": 3,
-        "base": 20,
-        "base_days": 12,
-        "base_daily": 1.67,
-        "ratio": 3.2
-      }
-    ]
+    "surge": []
   },
   "ops": {
-    "runs": 17,
-    "days": 14,
-    "since": "2026-08-14",
-    "last": "2026-08-29",
-    "failures": 0
+    "runs": 18,
+    "days": 16,
+    "since": "2026-08-15",
+    "last": "2026-08-31",
+    "failures": 0,
+    "span": 17,
+    "skipped": 1
+  },
+  "quality": {
+    "checked": 100,
+    "cat_acc": 93,
+    "senti_acc": 81,
+    "inter_rater_senti": 77.8,
+    "inter_rater_cat": 92.6,
+    "overlap": 27,
+    "reviewers": 5,
+    "from": "2026-08-29",
+    "to": "2026-08-30",
+    "note": "팀원 다섯 명이 기사 100건을 나눠 검수한 결과. 겹친 구간에서 한 사람이라도 「틀림」이라 했으면 틀린 것으로 셌다. 너그럽게 세면 분야 95%·긍부정 87%가 된다."
   },
   "keyword_notes": {
-    "updated": "2026-08-30 06:04",
+    "updated": "2026-08-31 06:12",
     "window": "최근 30일",
     "items": {
-      "동탄": "동탄 지역이 산업경제 중심으로 191건의 높은 관심도를 보이고 있으나, [[w]]35건의 부정 기사[[/w]]가 교통사고 및 화재 관련 안전 사건으로 집중되어 있어 지역 안전 이미지 개선이 필요합니다.",
-      "동탄역": "동탄역은 산업경제 분야 44건 중 긍정 기사가 [[b]]56.8%[[/b]]로 높은 비중을 차지하고 있으나, [[w]]PSD 미설치와 음주운전 사건[[/w]] 등 4건의 부정 기사가 시설 안전성과 관련되어 있습니다.",
-      "부동산": "부동산 키워드는 산업경제 분야 39건으로 대부분을 차지하며 부정 기사 없이 중립적으로 보도되고 있어, 화성시 부동산 시장에 대한 객관적 관심이 유지되는 상태입니다.",
-      "아이마음놀이터": "[[b]]31건 중 31건이 긍정 기사[[/b]]로 복지 분야에서 100% 긍정적으로 평가받은 대표 시설이며, 아이마음놀이터의 우수한 홍보 성과를 지속적으로 활용할 가치가 있습니다.",
-      "화재": "8월 한 달간 [[w]]31건 중 19건이 부정 기사로 61%를 차지[[/w]]하며, 아파트와 학원가, 공장 등 다양한 시설에서의 화재 사건이 안전 분야 이슈로 지속 발생하고 있습니다.",
-      "화성시": "화성시 일반 브랜드 키워드는 30건 중 [[b]]긍정 기사 24건(80%)[[/b]]으로 행정 분야 중심의 호평을 받고 있으며, 부정 기사가 없어 긍정적 도시 이미지를 유지하고 있습니다.",
-      "문화행사": "문화행사 키워드는 25건 모두 문화관광 분야에서 보도되었으며 [[b]]부정 기사 없이 19건의 긍정 기사[[/b]]로 완전한 긍정 평가 비중은 76%입니다.",
-      "복지": "복지 정책은 25건 중 [[b]]21건이 긍정 기사(84%)[[/b]]로 높은 호응도를 보이고 있으나, [[w]]1건의 부정 기사에서 취약계층 지원 한계를 지적[[/w]]하고 있어 정책 개선 필요성을 검토할 필요가 있습니다.",
-      "을지연습": "을지연습은 8월 14~20일 집중 보도된 25건의 안전 분야 기사로, 부정 기사는 없으나 긍정 평가(2건)가 낮아 시민 참여 독려와 연습의 필요성 홍보 강화가 필요합니다.",
-      "정명근": "정명근 시장 관련 24건 기사 중 [[b]]14건이 긍정 기사(58%)[[/b]]로 행정 분야 중심 보도되고 있으며, 부정 기사 없이 시정 추진 활동이 긍정적으로 평가받고 있습니다."
+      "동탄": "194건의 압도적 기사량 중 [[b]]산업경제 분야가 107건[[/b]]으로 지배적이나, [[w]]부정 기사 35건[[/w]]의 대부분이 교통사고 및 화재 사건으로 집중되어 있어 안전 관리 강화 필요성이 드러났습니다.",
+      "동탄역": "긍정 기사 25건으로 호평이 우세하지만, [[w]]PSD 미설치 지적 및 만취운전 사건[[/w]] 등 [[w]]4건의 부정 보도[[/w]]가 인프라 안전성 개선을 요구하고 있습니다.",
+      "부동산": "산업경제 분야에서 43건의 꾸준한 보도가 이루어지고 있으며, [[b]]부정 기사가 0건[[/b]]으로 해당 기간 부동산 관련 주요 갈등이 없었음을 보여줍니다.",
+      "문화행사": "[[b]]부정 기사 0건에 긍정 기사 31건[[/b]]으로 문화관광 분야에서 매우 긍정적 평가를 받고 있으며, 시민 호응도가 높은 상태입니다.",
+      "아이마음놀이터": "[[b]]32건 보도 중 31건이 긍정 평가[[/b]]로 복지 관련 신규 정책이 언론과 시민으로부터 높은 호응을 얻고 있습니다.",
+      "화성시": "행정 분야를 중심으로 31건의 균형잡힌 보도가 이루어지고 있으며, [[b]]부정 기사 0건[[/b]]으로 시정 전반에 대한 주요 비판이 없는 상황입니다.",
+      "화재": "[[b]]30건 모두 안전 분야[[/b]]에 집중되어 있으며, [[w]]18건의 부정 기사[[/w]]가 학원, 공장 등에서의 화재 사건으로 구성되어 산업 시설 화재 예방이 시급합니다.",
+      "복지": "[[b]]21건의 높은 긍정도[[/b]]를 유지하고 있으나, [[w]]1건의 부정 기사[[/w]]에서 복지 사각지대 관련 비판이 제기되어 있어 대책이 필요합니다.",
+      "을지연습": "25건의 안전 관련 보도가 집중되어 있으며, [[b]]부정 기사 0건[[/b]]으로 국방력 강화 훈련이 무난하게 진행되었음을 의미합니다.",
+      "정명근": "행정 분야 주요 인물로 24건 보도 중 [[b]]긍정 기사 14건[[/b]]으로 시장의 정책 추진이 주요 뉴스로 다루어지고 있으며, 부정 기사가 없는 상황입니다."
     }
   }
 }
