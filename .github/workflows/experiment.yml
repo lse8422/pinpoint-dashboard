@@ -3,7 +3,13 @@
 # 예약(schedule)을 걸지 않는다. 이 작업은 매일 돌 필요가 없고,
 # 매일 도는 수집과 섞이면 "정기 실행 실패 0회"가 이 실험 때문에 깨질 수 있다.
 #
-# news_live.json 은 건드리지 않는다. 결과는 body_experiment.json 에만 쓴다.
+# 본문은 여기서 긁어 판정에만 쓰고 버린다. 저장소에 커밋하지 않는다.
+# 남의 기사이기 때문이다. 결과는 body_experiment.json 에만 쓴다.
+#
+# 이 실행에는 목적이 하나 더 있다.
+# 집에서는 본문 확보율이 95%였는데, 깃허브 주소에서도 그런지는 재보지 않았다.
+# 언론사가 데이터센터 주소를 막으면 이 방식은 매일 실행에 넣으면 안 된다.
+# 그 답이 이 실행 로그에 나온다.
 name: 본문 판정 실험
 
 on:
@@ -23,16 +29,33 @@ jobs:
       - name: 저장소 체크아웃
         uses: actions/checkout@v4
 
+      - name: 노드 설치
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
       - name: 파이썬 설치
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      - name: 브라우저 도구 설치
+        run: npm install --no-save puppeteer-core@23
+
+      - name: 본문 긁기 (저장소에 남기지 않음)
+        env:
+          EXP_LIMIT: ${{ inputs.limit }}
+        run: node fetch_bodies.js
 
       - name: 본문을 붙여 다시 판정
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           EXP_LIMIT: ${{ inputs.limit }}
         run: python experiment.py
+
+      - name: 본문 임시 파일 삭제
+        if: always()
+        run: rm -f _bodies_tmp.json
 
       - name: 결과 커밋
         run: |

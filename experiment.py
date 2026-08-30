@@ -6,10 +6,13 @@
 #
 # 상시로 켜지 않는 이유는 두 가지다.
 #   1. 사람이 검수한 93%/81%은 제목 기준으로 잰 값이다. 판정이 바뀌면 그 숫자가 화면을 설명하지 못한다.
-#   2. 브라우저로 본문을 긁는 데 100건에 3분이 걸린다. 매일 도는 작업에 넣으면
-#      실패 지점이 늘어 "정기 실행 실패 0회"를 걸 수 없다.
+#   2. 매일 도는 작업에 브라우저를 넣으면 실패 지점이 하나 는다.
+#      시간은 문제가 아니다. 하루 신규가 44~94건이라 3분이면 끝난다.
+#      문제는 언론사가 깃허브 주소를 막는지를 아직 안 재봤다는 것이다.
+#      집에서는 95%였다. 이 실행 로그가 그 답을 준다.
 #
-# 그래서 이 파일은 손으로 한 번만 돌린다. 결과는 body_experiment.json 에만 쓴다.
+# 그래서 이 파일은 손으로만 돌린다. 결과는 body_experiment.json 에만 쓴다.
+# 본문은 판정에만 쓰고 버린다. 남의 기사라 저장소에 남기지 않는다.
 import json
 import os
 import sys
@@ -18,7 +21,7 @@ import collect          # 판정 함수를 그대로 쓴다. 다른 함수를 �
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 LIVE = os.path.join(BASE, "news_live.json")
-BODIES = os.path.join(BASE, "bodies.json")
+BODIES = os.path.join(BASE, "_bodies_tmp.json")   # fetch_bodies.js 가 그 자리에서 만든다. 커밋하지 않는다.
 OUT = os.path.join(BASE, "body_experiment.json")
 
 BATCH = 15
