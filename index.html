@@ -1244,8 +1244,9 @@
           회의에 들고 갈 <b>주간 보고서는 공문서 서식 그대로</b> 나옵니다.
         </div>
     <div class="lp-cite">
-      저희가 모은 화성시 기사 <b>1,978건</b> 중 부정으로 판정된 것은 <b>145건(7.3%)</b>입니다.
-      같은 사건끼리 묶으면 <b>1,325건</b>이 되고, 그중 <b>하루를 넘겨 이어지는 사건은 7.7%</b>뿐입니다.
+      <span id="lpCiteNums">저희가 모은 화성시 기사 <b>1,978건</b> 중 부정으로 판정된 것은 <b>145건(7.3%)</b>입니다.</span>
+      기사가 1,978건이던 때 같은 사건끼리 묶어 보니 <b>1,325건</b>으로 줄었고,
+        그중 <b>하루를 넘겨 이어지는 사건은 7.7%</b>뿐이었습니다.
       다 읽을 필요가 없습니다. <b>읽어야 할 것을 골라내는 화면</b>입니다.
       <span style="display:block;margin-top:5px">
         위 숫자는 인용이 아니라 저희가 직접 잰 값입니다. 계산 코드와 결과를 <b>근거 탭</b>에 함께 두었습니다.
@@ -2085,7 +2086,19 @@ function closeLanding() {
 // 첫 화면 오른쪽에 오늘 아침 실제 화면을 그대로 얹는다.
 // 화면 사진을 넣으면 찍은 날에 멈춘다. 우리는 매일 도는 것이 강점이므로
 // 멈춘 그림을 보여주면 그 강점이 사라진다.
+// 수집이 매일 돌아 건수가 늘어난다. 첫 화면에 숫자를 박아 두면
+// 바로 위 제호 옆 건수와 어긋난다. 데이터에서 세어 넣는다.
+function renderLandingCite() {
+  const el = document.getElementById("lpCiteNums");
+  if (!el || !NEWS.length) return;
+  const neg = NEWS.filter(n => n.senti === "부정").length;
+  el.innerHTML = "저희가 모은 화성시 기사 <b>" + NEWS.length.toLocaleString() + "건</b> 중 " +
+    "부정으로 판정된 것은 <b>" + neg.toLocaleString() +
+    "건(" + (neg / NEWS.length * 100).toFixed(1) + "%)</b>입니다.";
+}
+
 function renderLandingPreview() {
+  renderLandingCite();
   const body = document.getElementById("lpLiveBody");
   if (!body) return;
   const items = (TODAY.items || []).slice(0, 3);
