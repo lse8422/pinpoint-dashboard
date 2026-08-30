@@ -335,7 +335,11 @@ function render(d) {
   const o = d.ops;
   if (o && o.days) {
     document.getElementById("ops").innerHTML =
-      `자동 수집 <b>${o.days}일 연속</b> · 실패 <b>${o.failures}회</b><br>매일 아침 6시에 갱신됩니다`;
+      `자동 수집 <b>정기 실행 ${o.runs}회</b> · 실패 <b>${o.failures}회</b>` +
+      // 실패 0회는 사실이지만 예약 실행이 통째로 건너뛰어진 날이 있다.
+      // "연속"이라고 쓰면 실행 이력을 열어 본 사람에게 바로 들통난다.
+      (o.skipped ? ` · 미실행 ${o.skipped}일` : ``) +
+      `<br>매일 아침 6시에 갱신됩니다`;
   }
 }
 </script>
