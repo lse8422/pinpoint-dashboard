@@ -1,0 +1,48 @@
+# 본문을 붙이면 판정이 얼마나 달라지는지 재는 실험. 손으로만 돌린다.
+#
+# 예약(schedule)을 걸지 않는다. 이 작업은 매일 돌 필요가 없고,
+# 매일 도는 수집과 섞이면 "정기 실행 실패 0회"가 이 실험 때문에 깨질 수 있다.
+#
+# news_live.json 은 건드리지 않는다. 결과는 body_experiment.json 에만 쓴다.
+name: 본문 판정 실험
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "몇 건을 다시 판정할지 (기본 300)"
+        default: "300"
+
+permissions:
+  contents: write
+
+jobs:
+  experiment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: 파이썬 설치
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 본문을 붙여 다시 판정
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          EXP_LIMIT: ${{ inputs.limit }}
+        run: python experiment.py
+
+      - name: 결과 커밋
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          if [ -n "$(git status --porcelain body_experiment.json)" ]; then
+            git add body_experiment.json
+            git commit -m "본문 판정 실험 $(date -u -d '+9 hours' +'%Y-%m-%d')"
+            git pull --rebase origin main
+            git push
+          else
+            echo "변경사항이 없어 커밋하지 않습니다."
+          fi

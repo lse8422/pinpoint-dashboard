@@ -1734,7 +1734,10 @@
           </ul>
       </div>
 
-      <div class="wy-not">
+      <div class="rv-nums" id="expNums" style="display:none;"></div>
+        <div class="wy-a" id="expNote" style="display:none;margin-bottom:14px"></div>
+
+        <div class="wy-not">
         <div><b>부서는 본문을 붙여도 안 됩니다</b>제목에 부서명이 있는 기사가 3.8%뿐이라
           부서를 자동으로 못 붙였습니다. <b>그런데 본문에도 안 나왔습니다.</b>
           96건을 실제로 세어 보니 <b>「화성시 ○○과」가 나온 기사는 3.1%</b>였습니다.
@@ -3888,6 +3891,38 @@ function renderMention(rows) {
 // ml_analysis.py 가 만든 결과를 읽어 그린다. 수치를 코드에 박지 않는다.
 let ML = null;
 
+// 본문 판정 실험 결과. 손으로 한 번만 돌리는 작업이라 파일이 없을 수 있다.
+// 없으면 칸을 아예 띄우지 않는다. 안 한 것을 한 것처럼 보이면 안 된다.
+async function loadExp() {
+  try {
+    const r = await fetch("body_experiment.json");
+    if (!r.ok) return null;
+    return await r.json();
+  } catch (e) { return null; }
+}
+
+function renderExp(e) {
+  if (!e || !e.대상) return;
+  const nums = document.getElementById("expNums");
+  const note = document.getElementById("expNote");
+  if (!nums || !note) return;
+  const p = v => (v / e.대상 * 100).toFixed(0) + "%";
+  nums.innerHTML =
+    `<div><span class="n">${p(e.분야바뀜)}</span><span class="k">분야가 바뀜<br>${e.대상}건 중 ${e.분야바뀜}건</span></div>` +
+    `<div><span class="n">${p(e.긍부정바뀜)}</span><span class="k">긍부정이 바뀜<br>${e.대상}건 중 ${e.긍부정바뀜}건</span></div>` +
+    `<div><span class="n">${p(e.부정여부바뀜)}</span><span class="k">부정 여부가 바뀜<br>화면이 실제로 쓰는 판정</span></div>`;
+  nums.style.display = "";
+  note.innerHTML =
+    `<b>본문을 붙여 같은 기사를 다시 판정해 봤습니다.</b>
+     같은 함수, 같은 프롬프트로 제목만 볼 때와 본문까지 볼 때를 견줬습니다.
+     <b>세 번째 숫자가 중요합니다.</b> 저희 화면은 부정만 쓰기 때문에,
+     긍정인지 중립인지가 바뀌는 것은 담당자가 할 일을 바꾸지 않습니다.
+     <b>다만 이 결과는 화면에 반영하지 않았습니다.</b>
+     사람이 검수한 93%·81%은 제목 기준으로 잰 값이라, 판정을 바꾸면 그 숫자가 화면을 설명하지 못합니다.
+     <b>재보기만 하고 켜지 않았다고 적어 둡니다.</b>`;
+  note.style.display = "";
+}
+
 async function loadML() {
   try {
     const r = await fetch("ml_report.json");
@@ -4629,6 +4664,7 @@ async function init() {
     document.getElementById("badge").textContent = "실데이터 " + NEWS.length.toLocaleString() + "건";
     loadBench().then(renderBench);
     loadML().then(renderML);
+      loadExp().then(renderExp);
     loadBenchHist().then(renderBenchHist);
     const allDates = NEWS.map(n => n.date).sort();
     const minDate = allDates[0], maxDate = allDates[allDates.length - 1];
