@@ -18,6 +18,12 @@ on:
       limit:
         description: "몇 건을 다시 판정할지 (기본 300)"
         default: "300"
+      wait:
+        description: "기사 한 건마다 기다릴 밀리초 (기본 2200)"
+        default: "2200"
+      conc:
+        description: "동시에 열 창 수 (기본 4)"
+        default: "4"
 
 permissions:
   contents: write
@@ -45,6 +51,8 @@ jobs:
       - name: 본문 긁기 (저장소에 남기지 않음)
         env:
           EXP_LIMIT: ${{ inputs.limit }}
+          EXP_WAIT: ${{ inputs.wait }}
+          EXP_CONC: ${{ inputs.conc }}
         run: node fetch_bodies.js
 
       - name: 본문을 붙여 다시 판정

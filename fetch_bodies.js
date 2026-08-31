@@ -19,6 +19,9 @@ const BASE = __dirname;
 const OUT = path.join(BASE, '_bodies_tmp.json');
 const LIMIT = Number(process.env.EXP_LIMIT || 300);
 const CONC = Number(process.env.EXP_CONC || 4);
+// 러너가 느리면 페이지가 다 뜨기 전에 긁게 된다. 기다리는 시간을 밖에서 조절한다.
+const WAIT = Number(process.env.EXP_WAIT || 2200);
+const TIMEOUT = Number(process.env.EXP_TIMEOUT || 22000);
 
 // 깃허브 러너에는 크롬이 깔려 있다. 없으면 환경변수로 받는다.
 function chromePath() {
@@ -37,7 +40,8 @@ const clean = t => (t || '').replace(/\s+/g, ' ').trim();
 (async () => {
   const live = JSON.parse(fs.readFileSync(path.join(BASE, 'news_live.json'), 'utf8'));
   const items = live.items.filter(x => x.url).slice(-LIMIT);
-  console.log('대상 %d건 · 동시 %d개', items.length, CONC);
+  console.log('대상 %d건 · 동시 %d개 · 대기 %dms · 시간초과 %dms',
+    items.length, CONC, WAIT, TIMEOUT);
 
   const exe = chromePath();
   console.log('크롬: ' + exe);
@@ -54,8 +58,8 @@ const clean = t => (t || '').replace(/\s+/g, ' ').trim();
     for (const it of list) {
       let body = '', host = '';
       try {
-        await p.goto(it.url, { waitUntil: 'domcontentloaded', timeout: 22000 });
-        await new Promise(r => setTimeout(r, 2200));
+        await p.goto(it.url, { waitUntil: 'domcontentloaded', timeout: TIMEOUT });
+        await new Promise(r => setTimeout(r, WAIT));
         host = new URL(p.url()).hostname;
         body = clean(await p.evaluate(() => {
           const sel = ['article', '#articleBody', '.article-body', '#news_body_area',
