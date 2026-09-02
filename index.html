@@ -343,6 +343,11 @@
     border-radius: 50%; background: var(--summary-bg); border: 1px solid var(--border);
     color: var(--muted); font-size: 9px; font-weight: 700; vertical-align: 1px; }
   .todo-score:hover .sw-q { background: var(--neg); border-color: var(--neg); color: #fff; }
+  /* 긴 각주는 결론 한 줄만 보이고 이유는 접는다. 고지는 지우지 않되 화면을 덮지 않게 한다. */
+  .note-fold { margin-top: 6px; }
+  .note-fold > summary { cursor: pointer; font-weight: 700; font-size: 12px;
+    color: var(--muted2); user-select: none; }
+  .note-fold > summary:hover { color: var(--title); }
   /* 근거·검증은 기본으로 접어 둔다. 사용자는 합계까지만 보면 되고, 심사·확인은 펼치면 된다. */
   .sw-fold { margin-top: 8px; }
   .sw-fold > summary { cursor: pointer; font-size: 12px; font-weight: 700;
@@ -1511,10 +1516,12 @@
       <div class="mn-box"><canvas id="mnCanvas"></canvas></div>
       <div class="mn-sum" id="mnSum"></div>
     </div>
-    <div class="chart-note" style="display:block;">부정 보도를 세는 것 자체가 목적이 아니라
-      <b>시 브랜드 이미지를 관리하는 것</b>이 목적입니다. 지자체장의 이미지가 곧 장소브랜드 관리로
-      이어진다는 선행연구가 있습니다(이효복·최지혜·김지현, 2018).
-      제목이나 키워드에 그 이름이 들어간 기사를 셉니다. <b>기사 내용을 판정한 값이 아닙니다.</b></div>
+    <div class="chart-note" style="display:block;">제목이나 키워드에 그 이름이 들어간 기사를 셉니다.
+      <b>기사 내용을 판정한 값이 아닙니다.</b>
+      <details class="note-fold"><summary>왜 이 지표를 두었나</summary>
+        부정 보도를 세는 것 자체가 목적이 아니라 <b>시 브랜드 이미지를 관리하는 것</b>이 목적입니다.
+        지자체장의 이미지가 곧 장소브랜드 관리로 이어진다는 선행연구가 있습니다(이효복·최지혜·김지현, 2018).
+      </details></div>
   </div>
 
   <div class="card heat-card" id="heatCard" style="display:none;">
@@ -3316,9 +3323,11 @@ function renderHeat() {
              : worst.r < worst.b ? `${worst.b - worst.r}건 줄었습니다.` : `변화가 없습니다.`)
           + (improving.length
              ? ` 반대로 <span class="ok">${improving.map(r => label[r.c] || r.c).join("·")}</span>${josa(improving[improving.length - 1].c)} 줄어드는 중입니다.` : "")
-        : `<b>다만 그 이전 4주와는 수집 방식이 달라 늘었는지 줄었는지 말할 수 없습니다.</b> `
+        : `오른쪽 증감 표시는 <b>참고용</b>입니다. `
+          + `<details class="note-fold"><summary>왜 참고용인가</summary>`
+          + `그 이전 4주와는 <b>수집 방식이 달라</b> 늘었는지 줄었는지 말할 수 없습니다. `
           + `최근 4주는 자동수집이 ${Math.round(recentAuto * 100)}%인데 그 이전 4주는 ${Math.round(baseAuto * 100)}%입니다. `
-          + `오른쪽 증감은 <b>참고용</b>이며, 실제 추세는 같은 수집 방식이 유지된 구간끼리만 볼 수 있습니다.`);
+          + `실제 추세는 같은 수집 방식이 유지된 구간끼리만 볼 수 있습니다.</details>`);
 
   const wkLabel = w => { const d = w.split("-"); return +d[1] + "/" + +d[2]; };
   const lastIdx = weeks.length - recent.filter(w => weeks.includes(w)).length;
@@ -3475,18 +3484,20 @@ function updateDashboard() {
           ? `검증본 참고선(<b>${baseNeg}%</b>)과 함께 보시려면 위 <b>[전체]</b>를 눌러 주별로 보십시오.` : "");
   } else if (hasLive && hasVer) {
     noteEl.style.display = "";
-    noteEl.innerHTML = "<b>붉은 선</b>이 그 주 기사 중 <b>부정 비율</b>입니다(오른쪽 축). "
+    noteEl.innerHTML = "<b>붉은 선</b>은 그 주 기사 중 <b>부정 비율</b>(오른쪽 축), "
+      + "남색·노랑 선은 그 주에 모은 <b>기사 수</b>(왼쪽 축)입니다. "
+      + "<b>두 출처는 수집 방식이 달라 곧바로 견줄 수 없습니다.</b>"
+      + (partialLast ? " 맨 끝 주는 <b>아직 집계 중</b>입니다." : "")
+      + `<details class="note-fold"><summary>자세한 읽는 법</summary>`
       + (baseNeg != null
           ? `<b>회색 점선</b>은 사람이 고른 검증본 2개월치 비율 <b>${baseNeg}%</b>입니다. `
           : "")
       + (stableNeg != null
-          ? `수집이 자리잡은 뒤 자동수집분은 <b>${stableNeg}%</b>입니다. `
-            + `<b>두 값은 수집 방식이 달라 곧바로 견줄 수 없습니다.</b> 점선은 참고선일 뿐 기준값이 아닙니다. `
+          ? `수집이 자리잡은 뒤 자동수집분은 <b>${stableNeg}%</b>입니다. 점선은 참고선일 뿐 기준값이 아닙니다. `
           : "")
       + (warmIdx.length
           ? "옅게 덮인 구간은 <b>자동수집 초기</b>라 하루 5~6건밖에 못 모아 비율이 흔들리는 구간입니다. " : "")
-      + "남색·노랑 선은 그 주에 모은 <b>기사 수</b>(왼쪽 축)이고, 두 출처는 수집 범위가 달라 <b>건수는 견줄 수 없습니다.</b>"
-      + (partialLast ? " 맨 끝 주는 <b>아직 집계 중</b>입니다." : "");
+      + "두 출처는 수집 범위도 달라 <b>건수 자체도 견줄 수 없습니다.</b></details>";
   } else {
     noteEl.style.display = "none";
   }
