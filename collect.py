@@ -541,13 +541,21 @@ def cluster_negative(rows, threshold=0.35, min_size=2, top=5):
             continue
         g.sort(key=lambda r: r["date"])
         srcs = sorted(set(r.get("source", "") for r in g if r.get("source")))
+        # 최다 분야가 동률이면 최신 기사의 분야를 쓴다. Counter.most_common()의
+        # 입력 순서에 맡기면 오래된 기사 분류가 우연히 사건 전체를 대표하게 된다.
+        cat_counts = Counter(r["cat"] for r in g)
+        max_cat_count = max(cat_counts.values())
+        cluster_cat = next(
+            r["cat"] for r in reversed(g)
+            if cat_counts[r["cat"]] == max_cat_count
+        )
         out.append({
             "label": g[-1]["title"],          # 가장 최근 제목을 대표로 삼는다
             "count": len(g),
             "sources": len(srcs),
             "first": g[0]["date"],
             "last": g[-1]["date"],
-            "cat": Counter(r["cat"] for r in g).most_common(1)[0][0],
+            "cat": cluster_cat,
             "titles": [r["title"] for r in g],
         })
     # 최근에 끝난 이슈를 앞에, 같으면 규모가 큰 것을 앞에 둔다

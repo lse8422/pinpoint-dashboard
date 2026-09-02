@@ -1436,7 +1436,7 @@
   <div class="stats">
     <div class="stat"><div class="label">전체 기사</div><div class="value" id="stTotal">-</div><div class="sub">선택 기간 내</div></div>
     <div class="stat"><div class="label">부정 보도</div><div class="value neg" id="stNeg">-</div><div class="sub" id="stNegRate"></div></div>
-    <div class="stat"><div class="label">부정 보도 최다 분야</div><div class="value word" id="stTopCat">-</div><div class="sub" id="stTopCatSub">부정 기사 수 기준</div></div>
+    <div class="stat"><div class="label">기간 내 부정 최다 분야</div><div class="value word" id="stTopCat">-</div><div class="sub" id="stTopCatSub">부정 기사 수 기준</div></div>
     <div class="stat"><div class="label">핵심 키워드</div><div class="value word" id="stTopKw">-</div><div class="sub">언급 빈도 1위</div></div>
   </div>
 
@@ -2579,7 +2579,7 @@ function renderToday() {
         return `<div class="surge"><b>${CAT_LABEL[s.cat] || s.cat}</b> 분야 부정 보도가
         최근 ${s.days}일 <b>${s.recent}건</b>입니다. 그 이전 ${bd}일은 ${bc}건이었으므로
         하루 평균으로는 <b>${s.ratio}배</b>입니다.
-        이 분야를 먼저 살펴보시기 바랍니다.</div>`;
+        최근 급증 분야이므로 추이를 살펴보시기 바랍니다.</div>`;
       }).join("")
     : "";
 
@@ -3425,7 +3425,7 @@ function updateDashboard() {
   document.getElementById("stTopCat").textContent =
     topNegCatS ? (CAT_LABEL[topNegCatS[0]] || topNegCatS[0]) : "-";
   document.getElementById("stTopCatSub").textContent =
-    topNegCatS ? "부정 " + topNegCatS[1] + "건 · 이 분야를 먼저" : "부정 보도 없음";
+    topNegCatS ? "부정 " + topNegCatS[1] + "건 · 기간 합계" : "부정 보도 없음";
   document.getElementById("stTopKw").textContent = kwSorted.length ? kwSorted[0][0] : "-";
 
   document.getElementById("kwList").innerHTML = kwSorted.slice(0, 8)
