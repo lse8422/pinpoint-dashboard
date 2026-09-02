@@ -343,6 +343,11 @@
     border-radius: 50%; background: var(--summary-bg); border: 1px solid var(--border);
     color: var(--muted); font-size: 9px; font-weight: 700; vertical-align: 1px; }
   .todo-score:hover .sw-q { background: var(--neg); border-color: var(--neg); color: #fff; }
+  /* 근거·검증은 기본으로 접어 둔다. 사용자는 합계까지만 보면 되고, 심사·확인은 펼치면 된다. */
+  .sw-fold { margin-top: 8px; }
+  .sw-fold > summary { cursor: pointer; font-size: 12px; font-weight: 700;
+    color: var(--muted); padding: 4px 0; user-select: none; }
+  .sw-fold > summary:hover { color: var(--title); }
   .score-why { margin-top: 9px; padding: 9px 12px; background: var(--summary-bg);
     border: 1px solid var(--border); border-radius: 3px; }
   .sw-row { display: flex; align-items: baseline; gap: 9px; padding: 3px 0; font-size: 11.5px; }
@@ -699,6 +704,11 @@
     margin-bottom: 9px; display: flex; align-items: center; gap: 8px; }
   .plan-kind { font-size: 11px; font-weight: 600; color: var(--muted2);
     border: 1px solid var(--border); border-radius: 2px; padding: 1px 6px; }
+  /* "AI가 쓰지 않았다"는 긴 설명 대신 딱지 하나로 줄였다. 발표 근거는 하단 각주에 남는다. */
+  .plan-tag { font-size: 11px; font-weight: 700; color: var(--title);
+    border: 1px solid var(--title); border-radius: 2px; padding: 1px 6px; margin-left: 4px; }
+  .plan-chk { display: block; margin-top: 5px; font-size: 12px; color: var(--muted); }
+  .plan-chk::before { content: "☑ "; }
   .plan-row { display: grid; grid-template-columns: 78px 1fr; gap: 10px;
     padding: 6px 0; border-top: 1px solid var(--border); font-size: 12.5px; line-height: 1.65; }
   .plan-row:first-of-type { border-top: none; }
@@ -889,8 +899,11 @@
   body.dark .flatpickr-prev-month svg, body.dark .flatpickr-next-month svg { fill: #888; }
 
   #darkToggle { margin-left: auto; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; padding: 5px 12px; font-size: 12px; color: #7a7a7a; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 5px; }
-  #darkToggle:hover { background: #C7D2E0; }
+  /* 휴대폰은 탭한 뒤에도 :hover가 남는다. 다크모드에서 밝은 배경 + 밝은 글자가 겹쳐
+     글씨가 안 보였다. 마우스가 진짜 있는 기기에서만 hover 배경을 준다. */
+  @media (hover: hover) { #darkToggle:hover { background: #C7D2E0; } }
   body.dark #darkToggle { color: #e8e8e8; font-weight: 550; }
+  @media (hover: hover) { body.dark #darkToggle:hover { background: #3a3a3a; color: #e8e8e8; } }
 
   /* 상단 출처 바 — 데이터의 성격과 과제 정보를 명시 */
   .src-bar { background: var(--chip-active-bg); color: #fff; padding: 7px 24px; display: flex;
@@ -1362,10 +1375,9 @@
   </div>
 </section>
 
+<!-- 상단에는 신뢰 정보(출처·갱신)만 남긴다. 공모전·대상 사용자 소개는 하단으로 내렸다. -->
 <div class="src-bar">
-  <span class="src-item"><b>화성특례시</b> AI·DATA 공모전 · 지정과제 16번 정책 모니터링형</span>
   <span class="src-item" id="srcData">데이터 출처 <b>빅카인즈</b> 검증본 <b>1,026건</b> · 수집 2026.06.06~08.06</span>
-  <span class="src-item src-user">화성시 <b>언론·홍보 담당관</b>이 <b>시 브랜드 이미지를 관리</b>하기 위해 보는 아침 업무 화면입니다</span>
 </div>
 
 <header>
@@ -1936,7 +1948,9 @@
   </div><!-- /근거 -->
 </div>
 
-<footer>핀포인트(Pinpoint) — 기사를 AI가 읽어 분야·긍부정을 판정하고 한 줄로 정리한 데이터 기반 대시보드.</footer>
+<footer>핀포인트(Pinpoint) — 기사를 AI가 읽어 분야·긍부정을 판정하고 한 줄로 정리한 데이터 기반 대시보드.<br>
+  화성특례시 AI·DATA 공모전 · 지정과제 16번 정책 모니터링형 출품작.
+  화성시 언론·홍보 담당관이 시 브랜드 이미지를 관리하기 위해 보는 아침 업무 화면으로 설계했습니다.</footer>
 
 <script>
 // 분야를 늘어놓는 차례. 여러 화면이 같은 차례를 써야 눈이 헤매지 않는다.
@@ -2371,58 +2385,50 @@ function issuePlan(it) {
   const depts = DEPT[it.cat] || [];
   const sg = (TODAY.surge || []).find(x => x.cat === it.cat);
 
-  // 핵심 쟁점 — 지어내지 않는다. 묶인 제목에 공통으로 나온 낱말을 세어 그대로 적는다.
+  // 핵심 쟁점 — 지어내지 않는다. 묶인 제목에 공통으로 나온 낱말만 문장에 넣는다.
+  // "초기 수습 현황" 같은 해석 어구는 제목 세기에서 나올 수 없으므로 쓰지 않는다.
   const issue = w.common.length
-    ? `묶인 기사 ${it.count}건이 공통으로 다루는 말은 <b>${w.common.join(" · ")}</b>입니다.`
+    ? `묶인 기사 ${it.count}건이 공통으로 다루는 내용은 <b>${w.common.join(" · ")}</b>입니다.`
     : `묶인 기사 ${it.count}건의 제목에서 공통으로 나온 낱말이 없습니다. 제목을 직접 보셔야 합니다.`;
 
-  // 확산 근거 — 전부 세어서 나온 값이다
-  const spread = [];
-  spread.push(it.sources > 1
-    ? `<b>${it.sources}개 매체</b>에서 ${it.count}건이 나왔습니다`
-    : `아직 한 매체에서 ${it.count}건입니다`);
-  if (days > 1) spread.push(`<b>${days}일째</b> 이어지고 있습니다`);
-  if (sg) spread.push(`${CAT_LABEL[sg.cat] || sg.cat} 분야 부정 보도가 최근 ${sg.days}일 하루 평균 <b>${sg.ratio}배</b>입니다`);
-
-  // 왜 지금인가 — 우리가 실제로 잰 값으로만 말한다. 며칠짜리인지와 몇 매체가 받아썼는지로 갈린다.
-  // 오늘 탭 항목은 그날 묶음이라 대개 하루짜리다. 그래서 퍼진 정도로 가르는 쪽이 실제로 쓸모 있다.
+  // 우선 확인 근거 — 확산 근거와 시점 판단을 한 자리로 합쳤다. 전부 세어서 나온 값이다.
   const src = it.sources || 1;
-  let now;
+  const why = [];
   if (days > 1) {
-    now = `이미 <b>${days}일째</b>입니다. 저희가 사건 1,325건을 재 보니
-      <b>하루를 넘겨 이어지는 것은 7.7%</b>뿐이었습니다. 드문 축에 듭니다.`;
-  } else if (src >= 4) {
-    now = `하루 만에 <b>${src}개 매체</b>가 받아썼습니다. 저희 배점에서 퍼진 정도는 최대 30점으로
-      기사 수(15점)보다 크게 잡혀 있습니다. <b>한 사건을 여러 매체가 다루면 더 오래갑니다.</b>`;
+    why.push(`<b>${days}일째</b> 보도가 이어지고 있습니다. 하루를 넘겨 이어지는 사건은
+      저희가 잰 1,325건 중 <b>7.7%</b>뿐이라 드문 경우입니다`);
+    if (src > 1) why.push(`<b>${src}개 매체</b>에서 ${it.count}건이 나왔습니다`);
+  } else if (src >= 2) {
+    why.push(`하루 만에 <b>${src}개 매체</b>에서 ${it.count}건이 보도돼 단기간 확산이 확인됩니다`);
   } else {
-    now = `아직 ${src}개 매체입니다. 저희가 잰 바로는 사건의 <b>92.3%가 하루 만에 잦아듭니다.</b>
-      번지는지만 보시면 됩니다.`;
+    why.push(`아직 <b>1개 매체</b> ${it.count}건입니다. 사건의 <b>92.3%가 하루 만에 잦아들므로</b>
+      번지는지만 지켜보시면 됩니다`);
   }
+  if (sg) why.push(`${CAT_LABEL[sg.cat] || sg.cat} 분야 부정 보도가 최근 ${sg.days}일 하루 평균 <b>${sg.ratio}배</b>로 늘었습니다`);
 
+  // 대응 검토 순서 — 확인할 사항을 첫 단계 아래 붙여 상자 하나로 합쳤다. 내용이 겹쳤기 때문이다.
   const li = a => a.map(x => `<li>${x}</li>`).join("");
+  const steps = p ? `<ol class="plan-ol">${li(p.steps)}</ol>
+      <span class="plan-chk">1번에서 확인할 것 — ${p.check.join(" · ")}</span>` : "";
+
   return `<div class="plan">
     <div class="plan-h">대응 검토안
-      <span class="plan-kind">${p ? p.kind : "분류 없음"}</span></div>
+      <span class="plan-kind">${p ? p.kind : "분류 없음"}</span>
+      <span class="plan-tag">규칙 기반 · 생성형 AI 미사용</span></div>
     <div class="plan-row"><span class="plan-k">핵심 쟁점</span>
       <span class="plan-v">${issue}</span></div>
-    <div class="plan-row"><span class="plan-k">확산 근거</span>
-      <span class="plan-v">${spread.join(". ")}.</span></div>
-    <div class="plan-row"><span class="plan-k">왜 지금인가</span>
-      <span class="plan-v">${now}</span></div>
-    ${p ? `<div class="plan-row"><span class="plan-k">확인할 사항</span>
-      <span class="plan-v"><ul class="plan-ul">${li(p.check)}</ul></span></div>
-    <div class="plan-row"><span class="plan-k">검토 순서</span>
-      <span class="plan-v"><ol class="plan-ol">${li(p.steps)}</ol></span></div>` : ""}
+    <div class="plan-row"><span class="plan-k">우선 확인 근거</span>
+      <span class="plan-v">${why.join(". ")}.</span></div>
+    ${p ? `<div class="plan-row"><span class="plan-k">대응 검토 순서</span>
+      <span class="plan-v">${steps}</span></div>` : ""}
     ${depts.length ? `<div class="plan-row"><span class="plan-k">담당 부서</span>
       <span class="plan-v">${depts.join(" · ")}
         <i>화성시 조직도에서 이 분야에 해당하는 부서를 가져온 것입니다. 확정은 담당자가 하십시오.</i></span></div>` : ""}
-    <div class="plan-note"><b>이 글은 AI가 쓴 것이 아닙니다.</b>
-      분야별로 저희가 미리 적어 둔 문안이고, 숫자와 기간만 위 기사에서 채웠습니다.
-      그래서 같은 사건에는 언제나 같은 초안이 나옵니다.
-      <b>검토 순서의 첫 단계는 실무와 맞습니다.</b> 화성시 공보실 언론팀과의 통화(2026.8.31)에서
-      부정 기사가 나면 <b>「팩트 체크 먼저」</b>라고 확인했습니다.
-      다만 그 뒤의 결재와 보고는 <b>사안의 경중에 따라 매번 다르다</b>고 하셔서,
-      아래 순서는 고정 절차가 아니라 참고용 초안입니다. 최종 판단은 담당자가 합니다.</div>
+    <div class="plan-note">분야별로 미리 정한 절차에 이 사건의 숫자만 채운 초안이라,
+      같은 사건에는 언제나 같은 초안이 나옵니다.
+      첫 단계(사실관계 확인)는 화성시 공보실 언론팀 통화(2026.8.31)에서 확인한
+      실무 순서(<b>「팩트 체크 먼저」</b>)와 같습니다. 그 뒤의 보고·결재는 사안의 경중에 따라
+      매번 다르다고 하셔서 참고용이며, 최종 판단은 담당자가 합니다.</div>
   </div>`;
 }
 
@@ -2433,13 +2439,13 @@ function scoreWhy(it) {
     + `<span class="sw-w">${why}</span><span class="sw-v">${val}점</span></div>`;
   return `<div class="score-why">
     ${row("최신성", p.recency, p.age === 0 ? "오늘 기사" : `${p.age}일 전 기사 · 하루에 7점씩 깎임`)}
-    ${row("퍼진 정도", p.spread, `${it.sources || 1}개 매체가 다룸 · 한 곳당 10점`)}
-    ${row("기사 수", p.volume, `${it.count || 1}건 · 한 건당 5점`)}
-    ${row("오래감", p.lasting, p.span >= 7 ? `${p.span}일째 이어짐` : "일주일 미만이라 없음")}
+    ${row("확산(매체 수)", p.spread, `${it.sources || 1}개 매체가 다룸 · 한 곳당 10점`)}
+    ${row("보도량(기사 수)", p.volume, `${it.count || 1}건 · 한 건당 5점`)}
+    ${row("지속", p.lasting, p.span >= 7 ? `${p.span}일째 이어짐` : "일주일 미만이라 없음")}
     <div class="sw-row sw-tot"><span class="sw-n">합계</span>
-      <span class="sw-w">최신성 + 퍼진 정도 + 기사 수 + 오래감</span>
+      <span class="sw-w">최신성 + 확산 + 보도량 + 지속</span>
       <span class="sw-v">${p.total}점</span></div>
-    ${scoreBasis()}
+    <details class="sw-fold"><summary>배점 근거 · 검증 결과 · 한계 보기</summary>${scoreBasis()}</details>
   </div>`;
 }
 
@@ -2481,10 +2487,10 @@ function scoreBasis() {
         F1이 <b>${ML.지속예측.F1.toFixed(3)}</b>로 거의 못 맞힙니다.
         그래서 <b>미리 예측해 점수를 주지 않고 실제로 이어진 뒤에 가산</b>합니다.` : ""}` : ""}
     ${ML && ML.점수점검 && ML.점수점검.상관["매체 수-기사 수"] >= 0.6 ? `
-      <br><br><b>스스로 찾은 결함</b> — 항목값을 표준화해 상관을 재보니
+      <br><br><b>검증 결과 — 항목 간 겹침</b> — 항목값을 표준화해 상관을 재보니
       <b>매체 수와 기사 수의 상관이 ${ML.점수점검.상관["매체 수-기사 수"]}</b>로 높았습니다.
       주성분분석에서도 세 항목이 사실상 <b>${ML.점수점검.필요축수}개 축</b>이었습니다.
-      <b>퍼진 정도(30점)와 기사 수(15점)가 겹치는 것을 두 번 세고 있다는 뜻</b>입니다.
+      <b>확산(30점)과 보도량(15점)이 겹치는 것을 두 번 세고 있다는 뜻</b>입니다.
       감추지 않고 적어 둡니다. 다음 판에서 두 항목을 합치거나 가중치를 조정하겠습니다.` : ""}
 
     ${ML && ML.감쇠 ? `<br><br><b>"왜 하루에 7점인가" — 데이터로 재봤습니다</b><br>
@@ -3373,6 +3379,10 @@ function updateDashboard() {
   const kwSorted = Object.entries(kwCount).sort((a, b) => b[1] - a[1]);
 
   document.getElementById("stTotal").textContent = total.toLocaleString() + "건";
+  // 기간을 좁히면 배지가 "지금 몇 건을 보고 있는지 / 전체 몇 건인지"를 같이 말한다.
+  document.getElementById("badge").textContent = total === NEWS.length
+    ? "누적 수집 " + NEWS.length.toLocaleString() + "건"
+    : "현재 조회 " + total.toLocaleString() + "건 / 누적 " + NEWS.length.toLocaleString() + "건";
   document.getElementById("stNeg").textContent = negCount.toLocaleString() + "건";
   // "8%"만 있으면 높은지 낮은지 알 수 없다. 최근 4주와 견줘 방향을 함께 보여준다.
   const rateEl = document.getElementById("stNegRate");
@@ -4681,7 +4691,7 @@ async function init() {
         + ` + 자동 수집 <b>${live.items.length.toLocaleString()}건</b>`
         + ` · 마지막 갱신 <b>${live.updated}</b>`;
     }
-    document.getElementById("badge").textContent = "실데이터 " + NEWS.length.toLocaleString() + "건";
+    document.getElementById("badge").textContent = "누적 수집 " + NEWS.length.toLocaleString() + "건";
     loadBench().then(renderBench);
     loadML().then(renderML);
       loadExp().then(renderExp);

@@ -340,6 +340,11 @@ def brief_facts(rows, label, base=None):
     negdates = Counter(r["date"] for r in neg)
     top_negcat = negcats.most_common(1)[0] if negcats else None
     peak = negdates.most_common(1)[0] if negdates else None
+    # 날짜만 주면 브리핑이 "18건 집중"까지만 말하고 어느 분야인지 못 밝힌다. 그날의 최다 분야를 같이 센다.
+    peakcat = None
+    if peak:
+        pc = Counter(r["cat"] for r in neg if r["date"] == peak[0])
+        peakcat = pc.most_common(1)[0] if pc else None
     # 화면 위 지표 카드가 이미 보여 주는 것은 넘기지 않는다.
     #   전체 건수 · 부정 건수와 비율 · 부정 최다 분야 · 핵심 키워드
     # 넘기면 AI가 그대로 되풀이해 브리핑이 카드의 복사본이 된다.
@@ -356,7 +361,8 @@ def brief_facts(rows, label, base=None):
         "부정분야3위": "%s %d건" % negcats.most_common(3)[2] if len(negcats) > 2 else None,
         # 2건은 같은 사건을 두 매체가 쓴 것일 수 있어 "집중"이라 부르기 어렵다.
         # 3건 이상일 때만 넘기고, 표현도 사실 그대로 "가장 많았던 날"로 둔다.
-        "부정최다일": "%s %d건" % peak if peak and peak[1] >= 3 else None,
+        "부정최다일": ("%s %d건(%s %d건)" % (peak + peakcat) if peakcat else "%s %d건" % peak)
+                      if peak and peak[1] >= 3 else None,
         # 검증본(빅카인즈)과 자동수집분(구글 RSS)은 수집 방식이 달라 모집단이 다르다.
         # 예전에는 '평상시부정비율'과 '평상시대비'를 넘기고 AI에게 견주어 쓰라고 시켰다.
         # 그 결과 화면이 "평상시 8.6%보다 낮은 수준"이라고 말했는데,
