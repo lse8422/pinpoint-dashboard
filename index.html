@@ -241,7 +241,9 @@
   .chart-box { position: relative; height: 180px; }
   /* 카드 높이가 서로 맞춰지면서 남는 공간이 생긴다. 차트가 그 공간을 채우게 한다. */
   .charts > .card { display: flex; flex-direction: column; }
-  .charts > .card .chart-box { flex: 1; height: auto; min-height: 180px; }
+  /* 높이를 auto+flex로 두면 캔버스가 자기 높이로 카드를 다시 밀어올려,
+     각주를 여닫을 때마다 차트가 조금씩 자라는 되먹임이 생겼다. 높이를 못박아 고리를 끊는다. */
+  .charts > .card .chart-box { flex: none; height: 240px; }
   /* 두 출처를 섞어 보여주지 않기 위한 안내와 전환 버튼 */
   .chart-note { margin-top: 9px; font-size: 11.5px; line-height: 1.5; color: var(--muted); }
   /* 그래프를 보면서 바로 분야를 고를 수 있어야 한다.
