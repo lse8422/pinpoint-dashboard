@@ -1311,7 +1311,8 @@
 
     <div class="lp-nums">
       <div><span class="n">매일 06:00</span>
-        <span class="k">사람이 손대지 않습니다. <b>2026-08-15부터 정기 실행 17회, 실패 0회</b>입니다.</span></div>
+        <!-- 실행 횟수는 매일 변한다. 손으로 적어 두면 화면이 거짓말을 하게 되므로 ops에서 채운다. -->
+        <span class="k">사람이 손대지 않습니다. <b id="lpOps">2026-08-15부터 매일 자동 실행, 실패 0회</b>입니다.</span></div>
       <div><span class="n">서버 0대</span>
         <span class="k">백엔드도 데이터베이스도 없습니다. <b>호스팅·서버 비용이 들지 않습니다.</b>
           드는 것은 기사를 판정하는 AI 사용료뿐입니다.</span></div>
@@ -2643,6 +2644,12 @@ function renderToday() {
 
   // 근거를 화면에 밝힌다. 말로만 "매일 돈다"고 하지 않는다.
   const t = [];
+  // 첫 화면의 실행 횟수도 같은 값에서 채운다. 두 군데가 다른 숫자를 말하면 안 된다.
+  const lpOps = document.getElementById("lpOps");
+  if (lpOps && OPS.days) {
+    lpOps.textContent = `${(OPS.since || "2026-08-15")}부터 정기 실행 ${OPS.days}회, 실패 ${OPS.failures || 0}회`
+      + (OPS.skipped ? ` (미실행 ${OPS.skipped}일)` : "");
+  }
   if (OPS.days) {
     t.push(`<span class="trust-item">자동 수집 <b>정기 실행 ${OPS.runs}회</b> · 실패 <b>${OPS.failures}회</b>` +
       // 실패 0회는 사실이지만 예약 실행이 통째로 건너뛰어진 날이 있다.
