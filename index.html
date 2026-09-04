@@ -734,6 +734,10 @@
   }
 
   .dept-note { font-size: 11.5px; color: var(--muted2); margin-top: 9px; line-height: 1.55; }
+  .act-io { font-size: 11px; font-weight: 700; color: var(--title); background: none;
+    border: 1px solid var(--title); border-radius: 2px; padding: 2px 8px; cursor: pointer; margin: 0 2px; }
+  .act-io:hover { background: var(--pale, #eef3fb); }
+  .act-io-msg { font-size: 11px; color: var(--title); margin-left: 4px; }
 
   .issues-head { display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap; margin-bottom: 10px; }
   .issues-note { font-size: 12.5px; color: var(--muted); }
@@ -1467,6 +1471,16 @@
       분야에 해당하는 부서를 <b>화성특례시 행정조직안내</b>에서 가져와 후보로만 보여드립니다.</div>
     <div class="dept-note"><b>확정은 담당자가 하십시오.</b>
       대응 상태도 담당자가 직접 누르는 값이며 이 브라우저에만 저장됩니다.</div>
+    <!-- 서버 없이도 상태를 팀과 나눌 수 있게 파일로 내보내고 불러온다.
+         "쌓이면 저장이 필요하다"는 지적에 대한, 서버리스를 지키는 답이다. -->
+    <div class="dept-note">
+      대응 상태를 팀과 나누려면 —
+      <button type="button" class="act-io" id="actExport">상태 내보내기</button>
+      <button type="button" class="act-io" id="actImport">상태 불러오기</button>
+      <input type="file" id="actImportFile" accept=".json,application/json" style="display:none">
+      <span id="actIoMsg" class="act-io-msg"></span>
+      <i>파일로 주고받는 방식입니다. 불러오면 지금 상태와 합쳐지고, 같은 사건은 더 진행된 단계가 남습니다.</i>
+    </div>
     <div class="todo-tie" id="todoTie"></div>
     <div class="trust" id="trustBox"></div>
   </div>
@@ -1750,6 +1764,9 @@
                 <b>고쳤다고 해서 이미 적용된 것처럼 말하지 않겠습니다.</b>
         지금 보시는 판정은 여전히 제목으로 내린 것이고,
         사람이 검수한 값이 분야 93%·긍부정 81%에 머무는 이유도 거기 있습니다.
+        <br><b>적용 로드맵</b> — 본문은 언론사 저작물이라 지금 방식(현장 수집·즉시 폐기)을 상시로 돌리지 않습니다.
+        본문을 합법적으로 제공하는 <b>공식 API를 확보하는 대로</b>, 부정 후보 기사부터 본문 판정을 붙이고
+        전후 비교를 이 자리에서 공개하겠습니다.
         </div>
 
         <div class="wy-a" style="margin-bottom:14px">
@@ -1909,6 +1926,31 @@
           도구를 그렇게 만든 저희 잘못이고, 다음에 고칠 것입니다.</div>
         <div><b>독립 라벨링이 아니라 검수입니다</b>AI 답을 먼저 보여주고 맞는지 물었습니다.
           판단이 AI 쪽으로 끌릴 수 있습니다. 처음부터 사람이 매기는 정답지는 아직 없습니다.</div>
+      </div>
+    </div>
+
+    <div class="wy">
+      <h3>자체 분류 모델 실험 — 외부 AI 없이도 되는가</h3>
+      <div class="wy-sub">외부 AI 호출에만 기대지 말고 자체 모델을 만들어 보라는 조언을 받아,
+        2026년 9월 4일에 기초 실험을 했습니다. AI 판정 1,545건을 정답 삼아
+        가벼운 모델(TF-IDF + 로지스틱 회귀)을 학습시키고, 떼어 둔 20%에서 얼마나 따라오는지 쟀습니다.</div>
+      <div class="wy-a" style="margin-bottom:10px">
+        <b>결과 — 부정 선별만은 가벼운 모델도 꽤 합니다.</b>
+        <ul style="margin:8px 0 0;padding-left:18px">
+          <li>부정이냐 아니냐: <b>95.8% 일치</b> (사람 확인을 거친 검증본 1,026건에 교차 적용해도 93.0%)</li>
+          <li>분야 7종: 76.7% · 긍정/중립/부정 3종: 82.8% — <b>세부 판정은 아직 AI를 못 따라옵니다</b></li>
+          <li>검증본 교차에서는 분야 57.6%·긍부정 54.7%로 크게 떨어집니다 —
+            두 데이터의 수집 방식이 달라 생기는 차이로, 저희가 두 출처를 섞지 않는 이유와 같은 현상입니다</li>
+        </ul>
+      </div>
+      <div class="wy-not">
+        <div><b>이 값은 정확도가 아닙니다</b>정답을 사람이 아니라 AI가 매긴 데이터라,
+          「가벼운 모델이 AI 판정을 얼마나 흉내 내는가」를 잰 것입니다.</div>
+        <div><b>그래서 지금은 바꾸지 않습니다</b>세부 판정 품질이 떨어지는 것을 확인했으므로
+          판정은 계속 AI가 하고, 이 실험은 근거로만 둡니다.</div>
+        <div><b>다음 단계</b>사람 검수가 쌓여 정답지가 되면 재학습해서,
+          부정 선별처럼 <b>가벼운 모델로 충분한 단계부터</b> 비용을 줄이는 경로를 검토합니다.
+          외부 AI 없이 내부에서 도는 구성의 가능성을 확인해 둔 것입니다.</div>
       </div>
     </div>
 
@@ -2308,6 +2350,56 @@ function saveAction() {
   try { localStorage.setItem(ACT_KEY, JSON.stringify(ACTION)); } catch (e) {}
 }
 function actKey(it) { return (it.label || it.titles?.[0] || "").slice(0, 60); }
+
+// ── 상태 나누기 — 서버 없이 파일로 ──────────────────────────
+// 확인함·대응 중 표시가 한 브라우저에 갇히지 않게 한다. 합칠 때는 더 진행된 단계가 이긴다.
+const ACT_RANK = { none: 0, seen: 1, doing: 2, done: 3 };
+function initActShare() {
+  const ex = document.getElementById("actExport"), im = document.getElementById("actImport");
+  const file = document.getElementById("actImportFile"), msg = document.getElementById("actIoMsg");
+  if (!ex || !im || !file) return;
+  ex.onclick = () => {
+    const data = { 종류: "핀포인트 대응 상태", 내보낸때: new Date().toISOString(),
+      action: ACTION, watch: WATCH };
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([JSON.stringify(data, null, 1)], { type: "application/json" }));
+    a.download = "핀포인트_대응상태_" + new Date().toISOString().slice(0, 10) + ".json";
+    a.click();
+    URL.revokeObjectURL(a.href);
+    if (msg) msg.textContent = "내보냈습니다.";
+  };
+  im.onclick = () => file.click();
+  file.onchange = () => {
+    const f = file.files[0];
+    if (!f) return;
+    const r = new FileReader();
+    r.onload = () => {
+      try {
+        const d = JSON.parse(r.result);
+        if (!d || typeof d.action !== "object") throw new Error("형식");
+        let merged = 0;
+        Object.entries(d.action).forEach(([k, v]) => {
+          if (!(v in ACT_RANK)) return;
+          if ((ACT_RANK[v] || 0) > (ACT_RANK[ACTION[k]] || 0)) { ACTION[k] = v; merged++; }
+        });
+        if (Array.isArray(d.watch)) {
+          d.watch.filter(x => typeof x === "string").forEach(w => {
+            if (!WATCH.includes(w) && WATCH.length < 12) WATCH.push(w);
+          });
+          saveWatch();
+        }
+        saveAction();
+        if (NEWS.length) updateDashboard();
+        if (msg) msg.textContent = "불러왔습니다 — 상태 " + merged + "건을 합쳤습니다.";
+      } catch (e) {
+        if (msg) msg.textContent = "이 파일은 핀포인트 상태 파일이 아닙니다.";
+      }
+      file.value = "";
+    };
+    r.readAsText(f);
+  };
+}
+document.addEventListener("DOMContentLoaded", initActShare);
 
 // ── 무엇이 문제인가 ─────────────────────────────────────────
 // 묶인 기사들의 제목에서 공통으로 나오는 낱말을 뽑는다. 지어내지 않고 세기만 한다.
