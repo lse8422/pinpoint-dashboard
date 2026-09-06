@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-06 07:49",
+  "updated": "2026-09-06 09:48",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 1932,
+  "count": 1943,
   "items": [
     {
       "date": "2026-08-02",
@@ -26800,6 +26800,48 @@
       "source": "광교신문"
     },
     {
+      "date": "2026-09-04",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시, 양성평등주간 맞아 기념식·시민 참여행사 운영",
+      "summary": "화성특례시가 양성평등주간을 맞아 기념식과 시민 참여행사를 운영한다.",
+      "kw": [
+        "화성특례시",
+        "양성평등주간",
+        "기념식"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAxQ2NNM1VfSzVPWFhySGdlNUJhM0NZbW1yVDFYU1Q4bWU1ZS1WaWc4c0t6aS1HMDZOQ2t5aHZITzhyUjB1YnRpQmlFbmpvdHkyZkxBU3dVVWhsZm9WSXVuNENvRnTSAWhBVV95cUxNUG1FVkxib25NdG52eG1DTTc3Yzdlc0h1M25jLUJfVGVnU0t2TURMZmZScHhQMGhRUGFfM2stNkY4aU1abEJVZUtlek1jbjhTSEdPYWVvOXZqTVI4U0RnUUp6b0lsdV95Wg?oc=5",
+      "source": "매일일보"
+    },
+    {
+      "date": "2026-09-04",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성특례시, ‘제1회 화성특례시장배 전국장애인어울림 슐런대회’ 성료!",
+      "summary": "화성특례시장배 전국장애인어울림 슐런대회가 성료되었다.",
+      "kw": [
+        "장애인",
+        "슐런대회",
+        "화성특례시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0zWnlUVXZQS0ZHcWZ1ZTNoQ0NrbTVQTHJhSmtmWGFxbndyMy1INVVnUzFwTVVGWF9mS3lzQ1ZRWlA5ZlZodE9zQVVkT3U2Y1NoQ3VWZ0hhVHRrUzBONzhaaWJnNHpHT0ZsVUF30gFrQVVfeXFMTTNaeVRVdlBLRkdxZnVlM2hDQ2ttNVBMcmFKa2ZYYXFud3IzLUg1VWdTMXBNVUZYX2ZLeXNDVlFaUDlmVmh0T3NBVWRPdTZjU2hDdVZnSGFUdGtTME43OFppYmc0ekdPRmxVQXc?oc=5",
+      "source": "뉴스잡"
+    },
+    {
+      "date": "2026-09-04",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성문화원, ‘쿠바 안순필 일가’ 북콘서트 성료",
+      "summary": "화성문화원이 쿠바 안순필 일가 북콘서트를 성료했다.",
+      "kw": [
+        "화성문화원",
+        "북콘서트",
+        "문화행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4zQ0liZ1dOWE9RLXZiOEw5VGlheVVzVUVvVmVoc1MzdWNyc0thbmJkVUtiWWRUVzlRdDdwMFV5SURtd3VNdXRDbnFJNHV6WlNHaWMyMmN5a21YbVdIbW5Uem4yX3dMUQ?oc=5",
+      "source": "화성저널"
+    },
+    {
       "date": "2026-09-05",
       "cat": "산업경제",
       "senti": "중립",
@@ -27050,42 +27092,154 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9wSG5PWDVWUDF0NV9HT2stc1hpUXRPQmxidDRYUmZzcHhDN2Yyc3RJY3hMb0NlYkpkRXhPWFFKWXRxT004czBIY0pNM2ZGbHpJT2d1NzVUYlg1MmppaVhlejFOdzfSAWhBVV95cUxQOUFCdzZsOXlDemRSU1ZFQ0cwSnoxU25MOEJnWjctdm0zNlZlRnFBNWZyZkl3R2tDTmVzZEdpUmw5QUpGdGFoMnJ6YVJtV0Y1Yml0NDdjQ1JlVFNPRjN5SzRXb0xCcVNyTg?oc=5",
       "source": "매일일보"
+    },
+    {
+      "date": "2026-09-06",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성특례시, ‘AI 시대의 과학 문해력’ 시민 디지털 특강 개최",
+      "summary": "화성특례시가 AI 시대 대응을 위한 시민 디지털 특강을 개최한다.",
+      "kw": [
+        "AI",
+        "디지털",
+        "시민교육"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9CQzFsWjB5V2pESnRaVmpHZXJHX0dlZVcwdGtobXNuUWQ4ajQ3MmFlTnVERG5nanFZeU9fUHJIbldLaEI1Tk5tYnFFemFncm9qZzJvdmFfYWYwYlhGaHE0TWlCSTlWZw?oc=5",
+      "source": "화성저널"
+    },
+    {
+      "date": "2026-09-06",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "통장단 아이디어가 행정으로... 화성특례시 동탄5동, 주민등록 사실조사 ‘문고리형 안내문’ 도입",
+      "summary": "동탄5동이 주민 아이디어를 반영한 '문고리형 안내문'을 주민등록 사실조사에 도입한다.",
+      "kw": [
+        "주민참여",
+        "행정혁신",
+        "동탄5동"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE80c1pqa2haWDBndTd4MUxvc1FtWnFIVHJaVmZyTWkyRlVUVkVZU1plRnVaUDdiQ2hOeVMyTkdvLVNmOXlfXzJFU3VUV2t2VHB0WGlGSVZvSlFWZC1GU3A1elg2cDNMdw?oc=5",
+      "source": "화성저널"
+    },
+    {
+      "date": "2026-09-06",
+      "cat": "교통",
+      "senti": "긍정",
+      "title": "화성시, 연내 '동탄트램' 우선시공분 착공 본궤도",
+      "summary": "화성시가 동탄트램 우선시공분 착공을 연내에 추진한다.",
+      "kw": [
+        "동탄트램",
+        "교통",
+        "착공"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5EVTZ4NjNIT2hYUUlHc1VZU0FHbmFYSWlIT0JrOFpZVVE2UVg5cXB2dUk2RGFWUXNyajVsMS1kOXVfNlJiZ3BPVHFFU2VtbF9aMXlB?oc=5",
+      "source": "news.nate.com"
+    },
+    {
+      "date": "2026-09-06",
+      "cat": "교통",
+      "senti": "긍정",
+      "title": "화성특례시, 동탄트램 기술제안서 접수... 연내 우선시공분 착공 본격",
+      "summary": "화성특례시가 동탄트램 기술제안서를 접수하고 연내 우선시공분 착공을 추진한다.",
+      "kw": [
+        "동탄트램",
+        "기술제안",
+        "착공"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE81QjE5eU5HQ3l0N1J6b0VhZmlUMmlwTU5MV3RvOVM1emJCdm8xT0llMEhINVlhU1k0cWhPanZ2cUVVWXBZU2tzc2p2Q04zR3VfakdHcmg0Z0gyU1hUMzFpTmNTZ0NsenBKY3Q5Wlp6WdIBckFVX3lxTE9jNV9ub3hTYUd4aGkzZ1p0dEVYOVBBQ1kyTXNFeUJxRXRoSjRQSEM3Z0xHX25DcFRfc2k0OGZMMUN4Y2ROdGJGcFJ6SGVCdGt4QnFUallGdkFrLThsQU1jaGN6dm1tbW1OSHluMG9FNEJDdw?oc=5",
+      "source": "팝콘뉴스"
+    },
+    {
+      "date": "2026-09-06",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "수원·화성·오산시의회, 서해안 관광벨트 협력 논의",
+      "summary": "수원·화성·오산시의회가 서해안 관광벨트 조성을 위해 협력을 논의한다.",
+      "kw": [
+        "관광",
+        "협력",
+        "서해안"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5Oa0QzRF9LVmtyWF9tMk5CYWNEamp3QVJLQ2N3YXZ0UmgwQU9aYV9fMnhVN252UHpvRnJmWFlZSl9sVGtoUWRxRzd5SE9kQQ?oc=5",
+      "source": "전자신문"
+    },
+    {
+      "date": "2026-09-06",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "김영훈 경기도의원, 동탄 과밀 해소 \"따로 풀면 답 없다\"… 교원·학급 연계 협의 > 뉴스",
+      "summary": "경기도의원이 동탄의 과밀 문제 해소를 위해 교원·학급 연계 협의를 제안한다.",
+      "kw": [
+        "동탄",
+        "과밀해소",
+        "교육"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5lM1BOX2wtZDUyeVQzbTlVMUZLRmxJWnJWaWwzMG9ZOW1ZUERBWGRodkdDWlZ5RC1DVUo4MTZVN0lENVhOTkhhT2ctY0lFSW56Q29qUmFHMmlDYmQ4TVRfd2NKTEVockNzbmhZY2dsOVk?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-09-06",
+      "cat": "교통",
+      "senti": "긍정",
+      "title": "교통혁신 선도 화성특례시, 동탄트램 사업 본궤도…연내 우선시공분 착공 추진",
+      "summary": "화성특례시가 교통혁신 선도를 위해 동탄트램 사업을 본격 추진하고 연내 우선시공분 착공을 목표로 한다.",
+      "kw": [
+        "동탄트램",
+        "교통혁신",
+        "착공"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1oYld5SFUwbUhHN0w2MFg5QmNPSTZHdzBwVjg3emhtVWtyN3FtUlF0Yl90T1dmYTdDRWkzWGxSdDJRTjh3QlBfMXFQUVRFbkFKcVVHUkJVT2tDekRJVHkyZlExa0NPSm91MTBMYldn?oc=5",
+      "source": "투어코리아"
+    },
+    {
+      "date": "2026-09-06",
+      "cat": "환경",
+      "senti": "긍정",
+      "title": "정명근 시장 \"'보타닉가든 화성' 연계 특색 있는 녹색 공간 만들겠다\"",
+      "summary": "정명근 화성시장이 보타닉가든 화성과 연계한 특색 있는 녹색 공간 조성을 약속한다.",
+      "kw": [
+        "보타닉가든",
+        "녹색공간",
+        "환경"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9lYnVIVjBnbzlUT1duU05PQml4TURfSXA1eUJoMThHWUdoQ1B2dmlkNWpJanNQSVpHV2xhdXhQano3ZkZkTVBTZWRhbHVaVzhkd3dV?oc=5",
+      "source": "news.nate.com"
     }
   ],
   "dropped": {
-    "count": 51,
+    "count": 64,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
       "\"8년 만에 17억 뛰었다\"…'로또' 맞은 동네 어디길래",
       "두 달 만에 1억7000만원 뛰었다…자고 일어나면 집값 오르는 ‘이 동네’ 이유가",
-      "“8년 만에 17억 벌었다”...‘롯데캐슬’ 아닌 ‘로또캐슬’ 어디길래",
-      "남양유업, 다양한 제품군 활용 \"소비자 체험 확대\"",
+      "'10억 이하 다 쓸어 담는다'...8억 하던 집, 이제는 11억",
       "우리카지노 꽁머니 디자이너를 위한 반응형 디자인 실전 핸드북",
       "\"일상부터 러닝까지\"…남양유업 테이크핏, 타깃 맞춤형 단백질 마케팅 강화",
+      "\"4억이 6년만에 22억 됐다\"...300만 대란 '그 아파트' 또 난리 [부동산 아토즈]",
       "베트남과 한국의 협력은 교육, 고용, 그리고 젊은 세대의 미래 진로 지도에 중점을 두고 있습니다.",
       "[똑똑한한끼] 오뚜기 타바스코 협업 타코·남양유업 테이크핏 맞춤 체험…뚜레쥬르·배스킨라빈스·네스프레소",
+      "“8년 만에 17억 벌었다”...‘롯데캐슬’ 아닌 ‘로또캐슬’ 어디길래",
       "‘수원화성 아름다운 역사' 그림에 담다",
+      "남양유업, 다양한 제품군 활용 \"소비자 체험 확대\"",
+      "세제 개편 눈치보기 속 -강남 3구- 내리막길…노원·도봉은 불붙었다",
       "남양유업 '테이크핏', 대학생·러너 맞춤 공략…단백질 소비층 넓힌다",
       "고양시청 이유연, 회장기 전국수영 남일반부 자유형 100m 정상...대회 2관왕 달성",
-      "'10억 이하 다 쓸어 담는다'...8억 하던 집, 이제는 11억",
-      "남양유업에 에이전틱 OS 적용",
-      "[식음료] 남양유업 테이크핏 체험 확대 / 오뚜기 타바스코 협업 타코",
-      "남양유업, 대학생·러너 겨냥한 ‘테이크핏’ 체험 프로그램 운영",
-      "남양유업, 러너와 대학생에 '테이크핏 에너지젤·쉐이크' 맞춤 제공",
-      "\"단백질도 라이프스타일 따라 즐긴다\" 남양유업, '테이크핏' 경험 강화",
-      "전국서 1,400여 작품 몰렸다…‘수원화성 그림그리기 대회’ 66점 수상",
       "강남은 얼어붙고 서울 외곽은 더 뛰었다",
+      "연말까지 공공주택 3.2만 가구 공급…경기남부 집중",
+      "남양유업에 에이전틱 OS 적용",
+      "토토 재택근무 연구원를 위한 비판적 사고 해결책",
+      "대학생부터 러너까지 잡는다... 남양유업 ‘테이크핏’ 체험 확대",
       "\"캠퍼스부터 러닝 트랙까지!\"···남양유업, 테이크핏 체험단 모집"
     ]
   },
   "briefs": {
-    "all": "전체 기간 [[w]]2,958건 중 부정 213건(7%)[[/w]]이 수집되었으며, [[b]]안전 분야에 부정 보도가 집중[[/b]]되어 있습니다(99건). 2026-08-28에 [[w]]18건[[/w]]이 몰렸던 만큼, 당시 보도 내용을 우선 검토할 필요가 있습니다.",
-    "7": "최근 7일간 [[w]]부정 기사 38건(6%)[[/w]] 중 안전 분야가 52%를 차지[[/b]]하고 있습니다. 어제(2026-09-04) [[w]]14건[[/w]]이 집중되었으므로, 해당 날짜 안전 관련 보도부터 확인하시기 바랍니다.",
-    "30": "지난 30일간 [[w]]부정 118건(6%)[[/w]]의 대부분이 안전(62건) 분야에서 나왔고, 행정(26건)은 2위에 그쳐 [[b]]분야 편중이 뚜렷[[/b]]합니다. 8월 28일 [[w]]18건[[/w]] 사건을 중심으로 후속 보도 현황을 점검하시길 권장합니다."
+    "all": "전체 기간 2,969건 중 [[w]]부정 기사 213건(7%)[[/w]]이 수집되었으며, 안전 분야 부정 기사가 99건으로 절대 다수를 차지하고 있습니다. [[b]]2026-08-28일에 18건이 집중[[/b]]되었으므로 해당 날짜의 안전 관련 보도를 우선 확인하시기 바랍니다.",
+    "7": "최근 7일간 681건 중 [[w]]부정 기사 38건(6%)[[/w]]이 발생했으며, 안전 분야(20건)에 부정 보도가 집중되어 있습니다. [[b]]9월 4일 14건[[/b]]을 포함해 안전 이슈가 지속적으로 보도되고 있으니 관련 현황 점검이 필요합니다.",
+    "30": "최근 30일간 1,907건 중 [[w]]부정 기사 118건(6%)[[/w]]으로, 안전(62건)과 행정(26건)에 주로 집중되어 있습니다. [[b]]두 분야 합계가 전체 부정 기사의 75%를 차지[[/b]]하고 있어 이 분야의 보도 경향을 중점 모니터링할 필요가 있습니다."
   },
-  "briefs_updated": "2026-09-06 07:49",
+  "briefs_updated": "2026-09-06 09:48",
   "issues": {
-    "updated": "2026-09-06 07:49",
+    "updated": "2026-09-06 09:48",
     "items": [
       {
         "label": "화성 봉담읍 10ｍ 보강토 옹벽 일부 붕괴… 추가 붕괴 우려",
@@ -27170,7 +27324,7 @@
     ]
   },
   "today": {
-    "updated": "2026-09-06 07:49",
+    "updated": "2026-09-06 09:48",
     "items": [
       {
         "label": "화성 서해안고속도로서 4중 추돌사고…5명 부상",
@@ -27226,7 +27380,7 @@
     "surge": []
   },
   "ops": {
-    "runs": 36,
+    "runs": 38,
     "days": 22,
     "since": "2026-08-15",
     "last": "2026-09-06",
@@ -27247,19 +27401,19 @@
     "note": "팀원 다섯 명이 기사 100건을 나눠 검수한 결과. 겹친 구간에서 한 사람이라도 「틀림」이라 했으면 틀린 것으로 셌다. 너그럽게 세면 분야 95%·긍부정 87%가 된다."
   },
   "keyword_notes": {
-    "updated": "2026-09-06 07:49",
+    "updated": "2026-09-06 09:48",
     "window": "최근 30일",
     "items": {
-      "동탄": "동탄은 237건으로 가장 많은 언론 노출을 기록했으며, 산업경제 분야(140건)에서 주로 다뤄지고 있습니다. 다만 [[w]]부정 기사 26건[[/w]] 중 교통사고와 주택시장 관련 우려 보도가 포함되어 있어 주의가 필요합니다.",
-      "부동산": "부동산 관련 기사 62건이 모두 산업경제 분야에 집중되었으며, [[b]]부정 기사가 0건[[/b]]으로 중립적인 보도 환경을 보이고 있습니다.",
-      "문화행사": "문화행사는 50건 중 [[b]]45건이 긍정 보도[[/b]]로, 문화관광 분야(49건)의 압도적 호응을 얻고 있어 시의 브랜드 이미지 제고에 긍정적으로 작용하고 있습니다.",
-      "동탄역": "동탄역 관련 47건 보도 중 긍정 기사가 25건으로 우세하지만, [[w]]4건의 부정 기사[[/w]]는 안전 문제(PSD 미설치, 만취운전 사고)를 중심으로 시설 개선 필요성을 제기하고 있습니다.",
-      "복지": "복지 정책이 41건 중 [[b]]35건의 긍정 보도[[/b]]로 시민 호응을 얻고 있으나, [[w]]1건의 부정 기사[[/w]]에서 개별 지원 사각지대 문제가 지적되었으므로 세밀한 정책 검토가 필요합니다.",
-      "화성시": "화성시 일반 브랜드는 39건 보도에서 [[b]]부정 기사 0건, 긍정 27건[[/b]]으로 긍정적 인식이 형성되고 있으며, 행정 분야 중심의 균형잡힌 언론 보도를 보이고 있습니다.",
-      "아이마음놀이터": "아이마음놀이터는 32건 보도 중 [[b]]31건이 긍정 평가[[/b]]로, 단기간(8월 21~25일)에 높은 대중 관심과 호평을 집중적으로 받은 복지 사업입니다.",
-      "화재": "[[w]]화재는 31건 전량이 부정 보도(19건의 구체적 사건 보도)[[/w]]로, 안전 분야의 가장 우려되는 이슈이며 학원·공장 등 시민 생활 밀접 지역에서 발생하여 재발 방지 대책 강화가 시급합니다.",
-      "봉담": "봉담은 30건 중 [[w]]4건의 부정 기사[[/w]]가 옹벽 붕괴 안전 사고 관련으로, 기반시설 점검 및 선제적 안전 관리 강화의 필요성을 보여주고 있습니다.",
-      "의회": "의회는 29건 보도가 모두 중립적 또는 긍정적(11건)이며 [[b]]부정 기사 0건[[/b]]으로, 행정 분야 중심의 안정적인 언론 관계를 유지하고 있습니다."
+      "동탄": "238건의 높은 언론 보도량 중 [[w]]부정 기사 26건[[/w]]이 교통사고와 주택시장 관련으로 집중되어 있으니, 안전 및 주거 정책 소통에 주의가 필요합니다.",
+      "부동산": "62건 모두 산업경제 분야에서 다루어졌으며 [[b]]부정 기사가 없다[[/b]]는 점은 긍정적이나, 긍정 평가도 10건에 그쳐 중립적 보도 기조임을 인식해야 합니다.",
+      "문화행사": "51건 중 [[b]]45건이 긍정 평가[[/b]]로 문화관광 분야 홍보가 매우 효과적인 상황이므로, 이러한 성과를 지속적으로 발굴하고 확산할 가치가 있습니다.",
+      "동탄역": "47건 보도 중 [[w]]부정 기사 4건[[/w]]이 교통 안전 인프라 부족과 안전사고로 나타나 있어, 시설 개선과 안전 관리 강화 메시지 전달이 필요합니다.",
+      "복지": "42건 중 [[b]]35건이 긍정 평가[[/b]]로 복지 정책이 호응을 얻고 있으나, [[w]]생존 문제 관련 비판 기사 1건[[/w]]이 있어 사각지대 해소 방안 보완이 시급합니다.",
+      "화성시": "39건 보도에서 [[b]]부정 평가가 없고 27건이 긍정[[/b]]으로 평가되어, 시 전반의 이미지가 긍정적으로 형성되고 있는 상황입니다.",
+      "아이마음놀이터": "32건 중 [[b]]31건이 긍정 평가[[/b]]로 거의 모든 보도가 호의적이며, 시의 복지 사업의 대표 성공 사례로 활용 가치가 높습니다.",
+      "화재": "31건 모두 안전 분야에서 다루어졌으며 [[w]]19건이 부정 기사[[/w]]로 학원가 화재와 공장 화재 등 재난 안전 이슈가 집중되고 있어, 예방 및 대응 체계 개선 소통이 필요합니다.",
+      "봉담": "30건 중 [[w]]4건의 부정 기사[[/w]]가 옹벽 붕괴 사고로 보도되었으므로, 기반시설 안전 점검 및 복구 상황에 대한 투명한 정보 공개가 중요합니다.",
+      "장애인": "30건 중 [[b]]28건이 긍정 평가[[/b]]로 장애인 복지 정책이 매우 호의적으로 평가되고 있어, 포용적 시정의 핵심 성과로 강조할 수 있습니다."
     }
   }
 }
