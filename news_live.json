@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-16 08:31",
+  "updated": "2026-09-16 10:18",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 3148,
+  "count": 3171,
   "items": [
     {
       "date": "2026-08-02",
@@ -43883,6 +43883,48 @@
       "source": "경기뉴스광장"
     },
     {
+      "date": "2026-09-15",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "핀셋 규제 두 달, 동탄·기흥·구리 집값…풍선효과만 뚜렷",
+      "summary": "규제 강화 속 동탄·기흥·구리 집값에 풍선효과가 나타났다.",
+      "kw": [
+        "규제",
+        "집값",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBRS1hTTUNqcUc0OE83aXFFeEQ4dTJ0UXNvcUlwYWxRQ1lzQUF0WFJZRUZNcXFzWlVMRWw3QmJ6UVM3YkExeVJsdEMyeEtrNjBoMFRveTRlSk52SEc5aUZIdUNWZXMydUtfYng4S3Nmdw?oc=5",
+      "source": "중부일보"
+    },
+    {
+      "date": "2026-09-15",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "김영훈 경기도의원, 동탄 영천초 다목적강당 누수 개선 대책 마련 나서",
+      "summary": "김영훈 경기도의원이 동탄 영천초 다목적강당 누수 개선 대책을 마련하고 있다.",
+      "kw": [
+        "시설개선",
+        "학교",
+        "누수"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5kS25NNE1wRTUtOUsyVndlMGJFOUFJTmJJYlBFVThlWHgtdzE3SzlhTGNBdFptY2JPUTQ4Vy1WNm5zZnc?oc=5",
+      "source": "화성신문"
+    },
+    {
+      "date": "2026-09-15",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "[이슈] 동탄 '7만 원 탁구채' 문구점 고소당해",
+      "summary": "동탄의 한 문구점이 고가의 탁구채 판매로 고소당함",
+      "kw": [
+        "동탄",
+        "문구점",
+        "탁구채"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBa0hHNEpfXzk3VlM2TjUzWjJWU3BsZXNjbnRVaWVKV2JRUzNkU1ZZWTdJMHphbjFlZlhQdmh5akI5U3hGZC1FN3ZmLWR3eDh1SWZ3eE4tUUlXclNOd3Iw?oc=5",
+      "source": "인벤"
+    },
+    {
       "date": "2026-09-16",
       "cat": "교통",
       "senti": "긍정",
@@ -44077,42 +44119,322 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5hcU5KWHBZdmV6bk0yam12NjFaZXZPQ0V0VDF4Zl92N2YyMmc1WnljcWZIcWtPcHdKTWJPT0N4ZnR3d0h5VHB0c3pvbGJXUU1QaUJCT3F5cUw4dTBpczVuMEluR1RXMFo0SEtCZ0tR0gFuQVVfeXFMTmFxTkpYcFl2ZXpuTTJqbXY2MVpldk9DRXRUMXhmX3Y3ZjIyZzVaeWNxZkhxa09wd0pNYk9PQ3hmdHd3SHlUcHRzem9sYldRTVBpQkJPcXlxTDh1MGlzNW4wSW5HVFcwWjRIS0JnS1E?oc=5",
       "source": "미디어와이"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "교통",
+      "senti": "긍정",
+      "title": "화성시, 인천발 KTX 직결사업 막바지 준비 돌입",
+      "summary": "화성시가 인천발 KTX 직결사업의 막바지 준비에 돌입했다.",
+      "kw": [
+        "KTX",
+        "직결사업",
+        "인천"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE45bjg5SGNNYmxpckoya1hJWHRVVTYzVDE5ZXVSUW9LUHBFYW01UDNjZHFaRzI4WEcxUzZUaE1qNVBLYlFIOWpKa1I3UXVHSE9NbXhGSEUwMDBSV3pxV1RudlZjMmZFMDJTTjZNTmpwdmE?oc=5",
+      "source": "인천일보"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "남사 ~ 동탄, 반도체 도시 잇는 ‘새 길’ 뚫린다",
+      "summary": "남사에서 동탄을 잇는 반도체 도시 연결 도로가 개통된다.",
+      "kw": [
+        "반도체",
+        "도로",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE51eWxJSjZWNjFCVFBaQWpIUnVkU0p1ay0zcG5PWFJTUmU4dEhmSm9aYlJMbUZQRXg4V1NhRTdYbGhBeHpVQTdIcGNRcWNHcG5wdUlVZGJndVhmQnlNQ3BQbC04VW4?oc=5",
+      "source": "용인신문"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성특례시 봉담읍, 정신질환 위기가구 집수리 봉사",
+      "summary": "화성특례시 봉담읍이 정신질환 위기가구 집수리 봉사를 실시했다.",
+      "kw": [
+        "정신질환",
+        "집수리",
+        "봉담"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE82XzItYUFHUGs1WkJRc3hqeXFoLWl4T2pkczVFanUxX3dSdnc1aG9jc2FkeGY5SGhoU0IyMW5KRVEtMTRtQlNaSWlSRVk1WVNqdVd6eE5ZSDZBRG81Q3Z1ZjE1am1CTUJSZmRPWQ?oc=5",
+      "source": "ggtimes.co.kr"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "시민 아이디어가 AI 서비스로…화성시 ‘AI 챌린지’ 개최",
+      "summary": "화성시가 시민 아이디어를 AI 서비스로 개발하는 챌린지를 개최했다.",
+      "kw": [
+        "AI",
+        "시민참여",
+        "챌린지"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1tbEZxQXE3WVl2eDE0cFJIdWFjTjQ3cFFaRGFPeGNIQkhqYUFHSkdGcVNyUEl4YkM1NjBURnhUbkk4dTdrcVdYWm9xZ2hmQmZ3YjU3RmVRUlRrMEJhaXpkVEs3UmnSAWhBVV95cUxNYVBaNW9SeEJJdGFMN1B5b2pIbXZDRjZIN2lwNkYyNDUzLW5rU0lsTzlvazJEZmh4czF6Uy1yZmsyeGxjbHVtTlFRMmp3SHhFd2U1SlpHbk1RbHFmTDZXdHBmSWlMdjdzTg?oc=5",
+      "source": "매일일보"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시 동탄구, 추석맞이 대청소 실시",
+      "summary": "화성시 동탄구가 추석을 맞아 대청소를 실시했다.",
+      "kw": [
+        "추석",
+        "대청소",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBhbHJaSjhOLUhaczZZZXlQWUJhTF9qZlZhWGlSZ1RnUkRTRjZlMV85UjlhdVVfUDZYS2JPc3o5UUhGeFo0OTRkdkRPa2xVYkNTd3hBTVptRkdsNmZ1YnozMlh3?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성시, ‘가을 마중 낭독회’ 성료",
+      "summary": "화성시가 '가을 마중 낭독회'를 성공적으로 개최했다.",
+      "kw": [
+        "낭독회",
+        "문화",
+        "가을"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1jY05BcWlHcnVKb1kwQWJ3Uy1fNWtaU3c4YnF1VG1nd0N0aDh2ZjRiUEJvT2dnSzNOTW1jUmswNmhWclBPV2hndkZJbmk1T2FLNExyY1VZR1lGMENtWTEwTDNn?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성 품앗이공연예술축제 10월 개최",
+      "summary": "화성 품앗이공연예술축제가 10월에 개최될 예정이다.",
+      "kw": [
+        "축제",
+        "공연예술",
+        "10월"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9uNWNZakI2TnZnTHFMSGF5SUhWVGZ0TEJmRVRVUUcydzVpTTZ1bWhJd3ZpMklpOWI4Tzk1dGRGYnBqdy1FN09yN05UeTVBQTJSRFlWcW5rdkhBcDNDMWFIem9FaHNMc3phMldFU05lWG8?oc=5",
+      "source": "인천일보"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "동탄 아파트 규제 속 오피스텔 관심…‘동탄 루센채’ 공급",
+      "summary": "동탄 아파트 규제 속 오피스텔에 대한 관심이 증가하고 있다.",
+      "kw": [
+        "오피스텔",
+        "규제",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE44Q3RRX1FQN0wwczdEbWlFLVFaU1h1dFYtOGpmRGtseDM5Qkp2dW41a1lVLU5fWmRFQXhZRWJNM1BudW1KWl8wMlVXWWVHelhQbmJEYkpqR0E?oc=5",
+      "source": "뷰어스"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "교통",
+      "senti": "긍정",
+      "title": "화성시, 어천역 KTX 시대 개막 눈앞",
+      "summary": "화성시 어천역 KTX 시대 개막이 임박했다.",
+      "kw": [
+        "KTX",
+        "어천역",
+        "교통"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9kZWJpX3ZuVEVOUENoUmZfV2J4VTBNLXpXQXBfeE5iOW0yU0Zfa3RNRjRMQXVUZjdxdTk0SDc3LTNPaUE3S0Vwc3pvN25XclVaUmFxWFRCdjRfQmV6Qm5pRzVQQmsydDU3?oc=5",
+      "source": "중앙신문"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "화성특례시 동탄구, 집단급식소 식중독 예방 교육",
+      "summary": "화성특례시 동탄구가 집단급식소 식중독 예방 교육을 실시했다.",
+      "kw": [
+        "식중독",
+        "예방",
+        "급식소"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4tNTNSTVNtN2s2c2hNcGZKdUxDXzBNMGhPWTZmZ3dvQzB4LXV0eVZEb0ZGeV9aaUNORjlmUVMxSU1aN1pReVVYSWQ1OG90ZU54LXVBNkEyal9EZk1LbXduNU5hMGE5MlFndDduVw?oc=5",
+      "source": "ggtimes.co.kr"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시문화관광재단, ‘제18회 품앗이공연예술축제’ 10월 개최…동탄까지 무대 확대",
+      "summary": "화성시문화관광재단이 제18회 품앗이공연예술축제를 10월 개최하며 무대를 동탄까지 확대한다.",
+      "kw": [
+        "축제",
+        "동탄",
+        "공연예술"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9VR3dWQkNJTTlIODhOTkpJLU43QkMyelJBdXg1N2lkbWZXeG1HckFMdmRmZU1yOUpIZ1Y0TEVZTUtKQ3g5S3VtbmtHb01BUnYtVTQ1bUF0Sm9JcVlFcGZ1QS1CbTE2SklMN1daQ1VGdmPSAXRBVV95cUxNR1hCVkQzb1E4eGtpMGlKU2dkbVhINWotNTlRanhER204Sm9FSDdDSHVZTlJDdHFLTVZwMTE2MFFGR25aa3JkSDN4UEh3NGFyR3RFUWZNQ1ZSYVhaNDhiclVXZERORnh2anF6UlhDS0lqQWtfWQ?oc=5",
+      "source": "이뉴스투데이"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "교통",
+      "senti": "긍정",
+      "title": "화성시, 인천발 KTX 직결사업 마무리 수순...'어천역 KTX 시대' 개막 초읽기",
+      "summary": "화성시의 인천발 KTX 직결사업이 마무리 수순에 접어들었다.",
+      "kw": [
+        "KTX",
+        "어천역",
+        "인천"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPNXdadmhtOEF0NFlMWkw5YmI2VldmbWlxSFFkSFJHNlphdTVoWW9xUUpjR0N3bjJIRHlzSmIwTU84SlZEblkwX3VZM0taVkdNVXRtNEdWRGJFM1hhSldkVnhTWnRlckhvZzVtS09udHdQMTZXczViWUlsM2FHRE04VFFybTdpUGRYX0x4eTJPMUoxVGRPQzh0VHBWQkpIN3otWXdxNHZJczlla0czb0VkVlkxd1h5dmQxVnRBbVpGZUNnSHpBZTJWMUxHam5uUDRQOERZY3pHbzRPeVhYNlRyX3F6OWYyaGVIbC1FYzQ3MVF4MFNqLU5rNVE2WXdhQzZwQ2tR?oc=5",
+      "source": "데일리안"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "화성시 동탄구, ‘하반기 집단급식소 식중독 사전예방 교육’ 실시",
+      "summary": "화성시 동탄구가 하반기 집단급식소 식중독 예방 교육을 실시했다.",
+      "kw": [
+        "동탄구",
+        "식중독예방",
+        "급식소"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE93NnZuY21YWklfRlVSSmZhbDM2YldzU285MFpJSHFBWUFIcl9YeW8zVFA2OVJMUzNVZVJvVlc0ZjlBU1RLYU1uTlFES2QyY215RTlwTi1HZGFRS3VPOWtwdjNR?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성특례시 동탄구, 시의원·기업·주민 등 50여 명 참여 '우리동네 새단장'",
+      "summary": "화성특례시 동탄구에서 시의원·기업·주민이 참여해 지역 환경 개선 활동을 진행했다.",
+      "kw": [
+        "동탄구",
+        "주민참여",
+        "지역발전"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE55ZndiOFRlbXVUaWVXS1psbXh6OHZoLWVfREJaMEhtZHNvUnBUUXFYcWJ1bGJDcXhFdE56SWhnY1VDc1N3Zk9XUGp6eEZONGxzRTZpOGptNDdoMEVZQ2tfQkgyRVljbXEwSWdWZQ?oc=5",
+      "source": "ggtimes.co.kr"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시 봉담읍, 민관 손잡고 소외계층 집수리 봉사 진행",
+      "summary": "화성시 봉담읍에서 민관이 협력하여 소외계층 주택수리 봉사활동을 펼쳤다.",
+      "kw": [
+        "봉담읍",
+        "사회봉사",
+        "소외계층"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBjQmppZUpSbG9tU0Ztb19CRFZUbVNZelVkLXhMNFBpXzVTRVdTRUhrZjh2Q1g2NTNzVUFBWHl0b0lKM2lJdHZyWmFhclpxalA3MWlIRXh4WlBWWHFsT09XOTl3?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시, 제46회 전국장애인체육대회 출전 선수단 격려 방문",
+      "summary": "화성시가 제46회 전국장애인체육대회 출전 선수단을 격려 방문했다.",
+      "kw": [
+        "장애인체육대회",
+        "선수단격려",
+        "지역대표"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA0TjFjX0VEWXBGSV96WDJ3YWx6RDFaMUs3alpKRG5LTWlyWGE5YzA4NGtUcl8zNDZiVk5xWVJISW5OMVV1bzdneWF2eTZGVE4tMTgwb19MOGhZS3hjV0JYSzl3?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "교통",
+      "senti": "긍정",
+      "title": "화성시, 어천역 'KTX 시대' 활짝…올해말 개통 작업 '순항'",
+      "summary": "화성시 어천역 KTX가 올해말 개통 예정으로 공사가 순조롭게 진행 중이다.",
+      "kw": [
+        "어천역",
+        "KTX",
+        "교통인프라"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5PNXpRbnZMMEh4LW14NFRfMFAwbmtzbzhIa2I3WEF6Uncwb21KeDJsVHgyQ3BENUNLZjRyMTJGbmtsdzVBNktpMzRVWnU4Y19RWS1YNXA1MF9MalR0alZHeUw3ejV0QWpSSUQ1RjJMZmlwQQ?oc=5",
+      "source": "중앙이코노미뉴스"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "교통",
+      "senti": "긍정",
+      "title": "화성 어천역서 KTX 탄다…인천발 KTX 12월 말 개통 목표",
+      "summary": "화성 어천역에서 인천발 KTX 탑승 가능하도록 12월 말 개통 목표",
+      "kw": [
+        "KTX",
+        "어천역",
+        "개통"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ySzU5NEdESHVGbDZ3cVlWRGtFYWRQaF9VYklza2pXTVU0cFg1aFFQM2V2MFVpc04tekgwNF9acDlpeXNET3FZWm15MWpsOHVRc2fSAVNBVV95cUxNcFdGSkdMUXAtOVdQWVhkblVRb0tvYWJKU3hCWHNHa0Z2X00wdzZDUldqdDlOMEdTT0JJQThOcGc2cVdqS1ZpWXVWdUc2Q09PVHJ1OA?oc=5",
+      "source": "서울경제"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성특례시 윤성진 제1부시장, 전국장애인체육대회 출전 선수단 현장 격려",
+      "summary": "화성특례시 윤성진 제1부시장이 전국장애인체육대회 선수단을 현장 격려",
+      "kw": [
+        "화성특례시",
+        "장애인체육대회",
+        "현장격려"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBydkY0N04weFc2RE9MWUhwTVpoRVhMTTcxR0JRQXgtTWtQaXgwdjRpWTB5REh5MWI3cHRZQWdSSmR1ODdrV0RkcExwNTBKeGdseWZfMi1ISmJ4SjFZREQ1c05zS2RTMU5famxILQ?oc=5",
+      "source": "ggtimes.co.kr"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "교통",
+      "senti": "긍정",
+      "title": "화성특례시, 인천발 KTX 직결사업 12월 말 개통 목표로 마무리 단계",
+      "summary": "화성특례시의 인천발 KTX 직결사업이 12월 말 개통을 목표로 마무리 단계 진행",
+      "kw": [
+        "KTX",
+        "직결사업",
+        "개통"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MMHFjb0s0SVZrblp3OXdGV3NhUVNSdmEyRGdpdnBMT3FDaVIzUFREdVQybFVYaS1sb3NMRlQydW5yQXI3ZUU2NGlOeE93OVdNdjZ0MmhzSVBTWGx3ZjEtMnFLbTFJUUYyWWRoSw?oc=5",
+      "source": "ggtimes.co.kr"
     }
   ],
   "dropped": {
-    "count": 108,
+    "count": 103,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
+      "남양유업, 해외 매출 130% 증가…카자흐스탄서 K-밀크 알린다",
       "[유통 브리핑] CU, 남양유업, 맘스터치",
+      "이계철 의장의 일하는 의회 승부수...31명 의원 역량, 시민 삶 바꾸는 의회 만들겠다",
+      "의왕TG 하이패스 확 넓어진다…통과속도 30→60km, 처리량 60%↑",
       "남양유업, 카자흐스탄 ‘K-밀크 페스티벌’ 참가… 중앙아시아 공략",
       "입문 단계에서 자주 생기는 마작 한국영업소 현대통상 질문",
       "중앙아시아 공략 나선 남양유업, ‘K-밀크 페스티벌’ 참가",
       "분유 넘어 커피·단백질로… 남양유업, 중앙아시아 신시장 영토 넓힌다",
-      "집값 잡으려다 옆 동네 띄웠다…토허제 두 달 ‘풍선효과’ 역풍",
       "남양유업, 이운경 전 고문 배임 등 혐의로 고소... 8.6억 기부금 배임·명품소파 반출 의혹",
-      "처음 보는 슬롯 메뉴를 익히는 축구토토승무패44회차분석 사용 안내",
-      "남양유업, 국내 6개 유업체와 카자흐스탄 ‘K-밀크 페스티벌’ 참가",
-      "포토뉴스",
-      "남양유업, 카자흐스탄 `K밀크 페스티벌` 참가…\"중앙아시아 시장 공략\"",
-      "초보자가 이해하기 쉬운 주식 포커 판정 예시",
+      "집값 잡으려다 옆 동네 띄웠다…토허제 두 달 ‘풍선효과’ 역풍",
+      "남양유업, 카자흐스탄 K-밀크 페스티벌 참가",
+      "현재 라운드 번호가 표시되나요? 슬롯형 CDP 정보 안내",
       "남양유업, 카자흐스탄 시장 출사표…K-유제품 영토 확장",
-      "수원시, 수원화성 3대 축제 앞두고 안전·협업체계 점검",
-      "남양유업, 분유 넘어 단백질·커피로…중앙아시아 수출 확대",
+      "초보자가 이해하기 쉬운 주식 포커 판정 예시",
+      "남양유업, 국내 6개 유업체와 카자흐스탄 ‘K-밀크 페스티벌’ 참가",
       "남양유업, 해외 매출 130% 뛰었다…카자흐스탄서 중앙아시아 공략",
-      "이재준 수원시장 \"수원화성문화제, 글로벌 축제로 발전시킬 것\"",
-      "남양유업, 소아 뇌전증 가족 초청 희망캠프 개최 - 조선비즈",
-      "남양유업, 해외 매출 130% 증가…카자흐스탄서 K-밀크 알린다",
-      "여러 창을 열었을 때 주의할 바둑 토토 세다 벳 이용 상태"
+      "남양유업, 카자흐스탄 `K밀크 페스티벌` 참가…\"중앙아시아 시장 공략\"",
+      "수원시, 수원화성 3대 축제 앞두고 안전·협업체계 점검",
+      "[오늘의 식품리뷰] 삼양식품·bhc·남양유업·풀무원·설빙",
+      "남양유업, 소아 뇌전증 가족 초청 희망캠프 개최 - 조선비즈"
     ]
   },
   "briefs": {
-    "all": "수집 기간 전체 [[w]]4,174건 중 281건(7%)[[/w]]이 부정 보도입니다. 안전 분야([[w]]127건[[/w]])에 부정 기사가 집중되어 있으며, 행정([[w]]79건[[/w]])과의 격차가 큽니다. [[b]]2026-08-28[[/b]]에 [[w]]18건[[/w]]의 부정 보도가 몰렸으므로 해당 날짜의 안전 관련 이슈를 먼저 검토하시기 바랍니다.",
-    "7": "최근 7일간 [[w]]733건 중 30건(4%)[[/w]]이 부정 보도로, 행정 분야([[w]]15건[[/w]])의 부정 기사가 안전([[w]]8건[[/w]])을 앞섭니다. [[b]]2026-09-10[[/b]]에 [[w]]16건[[/w]]이 집중되었으며, 특히 행정 분야([[w]]10건[[/w]])를 중점 확인하시기 바랍니다.",
-    "30": "최근 30일 [[w]]2,824건 중 171건(6%)[[/w]]이 부정 보도이며, 안전([[w]]80건[[/w]])과 행정([[w]]47건[[/w]])에 부정 기사가 양극화되어 있습니다. [[b]]2026-08-28[[/b]]의 안전 관련 이슈([[w]]16건[[/w]])가 월간 부정 보도의 주요 원인이므로 해당 사안 재검토가 필요합니다."
+    "all": "수집 기간 전체 [[w]]부정 281건(7%)[[/w]] 중 안전 분야가 127건으로 절반에 가까운 비중을 차지하고 있습니다. 2026-08-28에 18건이 집중되었으니 해당 날짜의 안전 관련 보도부터 확인이 필요합니다.",
+    "7": "최근 7일간 [[w]]부정 30건(4%)[[/w]]으로 안정적인 수준이나, 행정 분야 부정 보도가 15건으로 주된 이슈입니다. 2026-09-10에 행정 분야 10건을 포함해 16건이 몰렸으므로 해당 행정 사안에 대한 대응 확인이 우선입니다.",
+    "30": "최근 30일 [[w]]부정 171건(6%)[[/w]]은 안전 분야(80건)에 집중되어 있으며, 행정(47건)과의 격차가 뚜렷합니다. [[b]]2026-08-28의 안전 관련 16건이 전체 동향에 가장 큰 영향[[/b]]을 미쳤으므로 해당 사건의 후속 보도 추이를 모니터링해야 합니다."
   },
-  "briefs_updated": "2026-09-16 08:31",
+  "briefs_updated": "2026-09-16 10:17",
   "issues": {
-    "updated": "2026-09-16 08:31",
+    "updated": "2026-09-16 10:17",
     "items": [
       {
         "label": "화성도시공사 토지 매각, 잔금 130억 못 냈는데 또 1년 연장.. 책임자는 누구인가?",
@@ -44185,7 +44507,7 @@
     ]
   },
   "today": {
-    "updated": "2026-09-16 08:31",
+    "updated": "2026-09-16 10:18",
     "items": [
       {
         "label": "405억 지방채·트램 720억 증액…화성시 철도재정 ‘깜깜이’",
@@ -44230,11 +44552,11 @@
     "surge": []
   },
   "ops": {
-    "runs": 66,
+    "runs": 68,
     "days": 32,
     "since": "2026-08-15",
     "last": "2026-09-16",
-    "failures": 0,
+    "failures": 1,
     "span": 33,
     "skipped": 1
   },
@@ -44251,19 +44573,19 @@
     "note": "팀원 다섯 명이 기사 100건을 나눠 검수한 결과. 겹친 구간에서 한 사람이라도 「틀림」이라 했으면 틀린 것으로 셌다. 너그럽게 세면 분야 95%·긍부정 87%가 된다."
   },
   "keyword_notes": {
-    "updated": "2026-09-16 08:31",
+    "updated": "2026-09-16 10:18",
     "window": "최근 30일",
     "items": {
-      "동탄": "352건의 압도적 보도량 중 긍정 129건으로 긍정 비율이 높으나, [[w]]부정 35건[[/w]]이 절대수로도 많아 교통사고, 전세 문제, 철도 형평성 논란 등 [[b]]부정적 이슈에 지속적인 관심[[/b]]이 필요합니다.",
-      "부동산": "79건 중 긍정 13건으로 부정 기사가 거의 없으나, 삼성전자 영향에 따른 집값 변동 이슈가 주목받고 있어 시장 안정성 관련 메시지 강화가 요구됩니다.",
-      "화성시": "72건 중 긍정 51건으로 호평이 많으나, [[w]]부정 4건[[/w]]이 옹벽 붕괴, 경찰서 부족 등 [[b]]기반시설과 공공서비스 충원 문제[[/b]]를 지적하고 있습니다.",
-      "문화행사": "69건 모두 문화관광 분야에서 [[b]]부정 기사 없이 긍정 58건으로 순수하게 긍정적 평가[[/b]]를 받고 있어 화성시 이미지 제고에 기여하는 영역입니다.",
-      "복지": "63건 중 긍정 48건으로 높은 호응도를 보이지만, [[w]]부정 1건[[/w]]이 생존권 관련 심각한 민원을 다루고 있어 [[b]]복지 사각지대 해소에 관심[[/b]] 필요합니다.",
-      "분양": "53건 모두 산업경제 분야이며 부정 기사 없이 긍정 20건으로 [[b]]개발사업 진행이 시장에서 긍정적으로 평가[[/b]]받고 있습니다.",
-      "동탄역": "53건 중 긍정 29건이지만, [[w]]부정 3건[[/w]]이 모두 만취운전 사고로 집중되어 [[b]]교통안전 및 역주변 안전 강화 필요성[[/b]]을 드러냅니다.",
-      "향남": "48건 중 긍정 25건이나 [[w]]부정 4건[[/w]]이 염분 오염, 행정구역 분리 갈등, 도로 안전 문제 등 [[b]]환경과 기반시설 민원[[/b]]을 반영하고 있습니다.",
-      "시민참여": "42건 중 긍정 33건으로 부정 기사 없으며, [[b]]시민 주도의 행정 참여가 긍정적으로 보도[[/b]]되고 있어 민주적 시정 이미지를 강화하는 영역입니다.",
-      "AI": "42건 중 긍정 36건으로 부정 기사 없이 [[b]]산업과 기술 분야에서 화성시의 첨단 이미지[[/b]]를 형성하는 데 기여하고 있습니다."
+      "동탄": "358건의 압도적 보도량 중 긍정 131건으로 호평이 많으나, [[w]]부정 35건[[/w]]에서 교통사고, 전세난, 철도공단 형평성 논란 등이 지속적으로 제기되고 있어 부정적 이슈 관리가 필요합니다.",
+      "부동산": "79건 중 [[w]]부정은 1건[[/w]]으로 매우 낮지만, 삼성전자 성과급 여파에 따른 동탄 집값 변동성이 언론의 주요 관심사로 나타나고 있습니다.",
+      "화성시": "72건 중 긍정 51건으로 우호적이나, [[w]]부정 4건[[/w]]에서 옹벽 붕괴와 경찰서 부족 문제가 부각되어 안전 인프라 강화 홍보가 필요합니다.",
+      "문화행사": "[[b]]69건 모두 긍정 기사로 부정 사례가 없으며[[/b]], 문화관광 분야에서 화성시의 가장 긍정적인 이미지를 형성하고 있습니다.",
+      "복지": "48건의 긍정 기사로 호응이 높으나, [[w]]1건의 부정 기사[[/w]]에서 아동 관련 생존 문제가 심각하게 다루어져 복지 사각지대 해소에 주의가 필요합니다.",
+      "분양": "53건이 모두 중립 이상이며 [[b]]부정 기사가 없는[[/b]] 점에서 부동산 시장의 안정성을 반영하는 긍정적 신호입니다.",
+      "동탄역": "53건 중 긍정 29건이 우세하나, [[w]]부정 3건[[/w]]이 모두 만취운전 사건으로 집중되어 교통 안전 캠페인 강화가 요구됩니다.",
+      "향남": "48건 보도 중 [[w]]부정 4건[[/w]]에서 토양 염분 오염, 동 전환 갈등, 옹벽 균열 등 환경·인프라 문제가 연이어 노출되고 있습니다.",
+      "시민참여": "[[b]]43건 모두 중립 이상이며 부정 사례가 없고[[/b]] 긍정 기사 34건으로, 시민 협력 사업의 성공 사례를 지속적으로 홍보할 수 있는 분야입니다.",
+      "AI": "[[b]]43건 전부 부정 사례 없이 긍정 37건으로 가장 우호적[[/b]]이며, 산업경제 발전의 핵심 키워드로서 화성시의 미래 이미지를 대표하고 있습니다."
     }
   }
 }
