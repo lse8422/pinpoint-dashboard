@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-16 10:18",
+  "updated": "2026-09-17 08:38",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 3171,
+  "count": 3267,
   "items": [
     {
       "date": "2026-08-02",
@@ -43925,6 +43925,48 @@
       "source": "인벤"
     },
     {
+      "date": "2026-09-15",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "그린텍남양, 17억원 규모 비유동자산 취득 결정",
+      "summary": "그린텍남양이 17억원 규모 비유동자산 취득을 결정했다.",
+      "kw": [
+        "그린텍남양",
+        "자산취득",
+        "투자"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0tTW1lV3dBZXpoYTJnVUh4MDduVkZOaTZRdEFrNy1adVpNaEdPVEdSMXpYaFdhVjBTYmhoTHZkX1RPX2JwSTAteDFCRQ?oc=5",
+      "source": "v.daum.net"
+    },
+    {
+      "date": "2026-09-15",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "동탄 '정본 수학학원', 재원생 100명 돌파 이벤트-시스템 안내 진행",
+      "summary": "동탄의 정본 수학학원이 재원생 100명 돌파 이벤트를 진행했다.",
+      "kw": [
+        "학원",
+        "동탄",
+        "이벤트"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBqV0JfMUNxakdmSzBxOUd2cDJsSEhFZGtWdFdSQUxieFlpSnFkNlRXdXhLaXhlcUF2MUg0X0pxbUwweDc3ejc4OGN5elR3SldOaVIwTnJ5YmdJbDB1aG9fNk85WdIBZ0FVX3lxTFBpcUQyNDZITE9rSFR6U1BCbmFyR1ROTVFQLV9TSThZMjBCbGY5Qnk2MWN5ZUkyS1AwVEV6eEdkT0VlZFQtazY4RGFZUTc5U25WdFFpeGdsM0k5SmhxSm1HaXh6ZVcyTTQ?oc=5",
+      "source": "ABC뉴스"
+    },
+    {
+      "date": "2026-09-15",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시 동탄중 김태린 학생, 전국 중국가요경연대회 대상·인기상 수상",
+      "summary": "화성시 동탄중 김태린 학생이 전국 중국가요경연대회에서 대상과 인기상을 수상했다.",
+      "kw": [
+        "학생",
+        "경연대회",
+        "수상"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA1Zm1ra3BHQS01NURKREhIRE5KNlJBVjRrV1JQbms5RjFmOVU5bmVqUUxrSFVlZENqei05R1dxbVBURXMtVmVXNUVnb3V1bXowU2xCSExqbkF4YkJybzUzYWZPbFlPZw?oc=5",
+      "source": "newsv.kr"
+    },
+    {
       "date": "2026-09-16",
       "cat": "교통",
       "senti": "긍정",
@@ -44399,43 +44441,1381 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MMHFjb0s0SVZrblp3OXdGV3NhUVNSdmEyRGdpdnBMT3FDaVIzUFREdVQybFVYaS1sb3NMRlQydW5yQXI3ZUU2NGlOeE93OVdNdjZ0MmhzSVBTWGx3ZjEtMnFLbTFJUUYyWWRoSw?oc=5",
       "source": "ggtimes.co.kr"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "화성시 자원순환시설에서 불...한때 대응 2단계 발령",
+      "summary": "화성시 자원순환시설에서 화재가 발생해 한때 대응 2단계가 발령되었다.",
+      "kw": [
+        "화재",
+        "자원순환시설",
+        "안전"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE02bk4tZ2Vaa0VLUmVtdEF0Ykg5X09rcUdWa1V6Wk51SUZySkhTcnB2VnRwOFJqMFpGaVVvYXVWUHVickd6M0otck1LNUVCUG5iZUhUVEo1a3FmU19ua2c?oc=5",
+      "source": "YTN"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "화성 동탄구, 대규모 집단급식소 대상 식중독 예방 교육 실시 > 뉴스",
+      "summary": "화성 동탄구가 대규모 집단급식소를 대상으로 식중독 예방 교육을 실시한다.",
+      "kw": [
+        "식중독예방",
+        "교육",
+        "급식소"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5iajJNLTBHS2dTaEdmQmYyelNvbmNJMlNiSENTTjc4NmhieTVGVk10MDlfbEFERmt3dHBxQ09KOC1GR2lJR0lBUXRRMVZBOW1PUjRkaE01ZDJCdTdOMFlZb3phc1hKaVdidXFUbU8wb3E?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "초·중·고 도보권에 교육환경 갖춘 KCC건설 '향남역 그로브 스위첸' 10월 분양",
+      "summary": "KCC건설이 교육환경이 갖춰진 향남역 그로브 스위첸을 10월 분양한다.",
+      "kw": [
+        "주택분양",
+        "향남역",
+        "교육환경"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8wUlE0dXJ6WUNOM0s4bHdRVVFnbFM2RXY0MmM0U3U3M3ZXTi0wck1aNzhtMERlbUJ6U3pFWGZaTnZHWERLX0lNMWhXa1NERkxINE1wbEZSaHN2UQ?oc=5",
+      "source": "hankyung.com"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "화성서부경찰서, 스쿨존 교통안전·학교폭력 예방 합동 캠페인",
+      "summary": "화성서부경찰서가 스쿨존 교통안전과 학교폭력 예방 합동 캠페인을 펼친다.",
+      "kw": [
+        "스쿨존",
+        "교통안전",
+        "학교폭력예방"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkdlJWd3c1Z2VOTWo1U1FkZXkzVVVPa1l3WHViNFdRMFVvWUxEM05vUXdOT091WUdRS2FVcy1NYUJhYkJLSC1fenJ3Z3ZkMzdvcDlxWXRR0gFbQVVfeXFMUHlHOTYwTW5BcGVJaHcwSHVWV2J0UUd0WFlSZHI4dzk1SndwQ3BZZ1JRT3A0ZDlRRVF0c0NvY3pDOS15OVRqd3lZQ0VpVU5HUUx3V3MtM2ttTGRoYw?oc=5",
+      "source": "뉴스1"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "병점당, 중소벤처기업부 소셜벤처기업 인증 획득 - 머니투데이",
+      "summary": "병점당이 중소벤처기업부 소셜벤처기업 인증을 획득했다.",
+      "kw": [
+        "소셜벤처",
+        "기업인증",
+        "중소벤처"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8zZlRlWkVwby1CZnkwVFlHSGpTZ3dxZnRvQU1WOFZYWm95MlhUZEFwREcybWlWYzRWN2FkZ05UVV9UaFlZeFN4Sk5IV3VMa3ZsUFZ4amt1X0drRWV2bHVsUUNLM3N6ek1fd1BkdVFwdEl0Z9IBckFVX3lxTE8zZlRlWkVwby1CZnkwVFlHSGpTZ3dxZnRvQU1WOFZYWm95MlhUZEFwREcybWlWYzRWN2FkZ05UVV9UaFlZeFN4Sk5IV3VMa3ZsUFZ4amt1X0drRWV2bHVsUUNLM3N6ek1fd1BkdVFwdEl0Zw?oc=5",
+      "source": "머니투데이"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시 봉담읍, 정신질환 위기가구 주거 개선",
+      "summary": "화성시 봉담읍이 정신질환 위기가구의 주거 개선을 지원한다.",
+      "kw": [
+        "정신질환",
+        "주거개선",
+        "위기가구"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1DSUtFVF9NOEVwal9jdVd0Q3BMVVkxOWxMcWh5d3h6SHdOQ3BjTm0xMUFMX29KQjE1RU9WQXFMREIzN1k0WDY5NTFGeWZmeUJlNmQxeXpqcElwZDRrc0M0bkN1TDFBblhVVmc?oc=5",
+      "source": "경기도민일보 미디어"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "하나님의교회, 화성 병점2동 식료품 나눔",
+      "summary": "하나님의교회가 화성시 병점2동 주민들을 위해 식료품을 나누었다.",
+      "kw": [
+        "식료품나눔",
+        "병점2동",
+        "복지"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9aM1NzcFpJeDlTMnRyaFJEX29yb0RKakRCOVRzdFZhcTBTbXBnVWFhbHdhdnU5cEFlZkxKZzBva1RXSkJDekRUMGdvcEJRM2JPSkVmV2VjbzByQW9Gai1fNXNoYjlRb3d3cWc?oc=5",
+      "source": "경기도민일보 미디어"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성도시공사, 화성시 체력왕 선발대회 수상자 10명에게 시상",
+      "summary": "화성도시공사가 체력왕 선발대회 수상자 10명을 시상했다.",
+      "kw": [
+        "체력왕선발대회",
+        "시상",
+        "스포츠"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1FSDRqa0ZPQ1R4SnJ4eHdFajd0bzZiZllrMVZOMTZ4T18zYVRHcURyQ3VDc05SUUZKVFprS0JyTW5HSlg1eFpRTVc3eC1sbkVndERvNlRlbGhwemthNi1HSm5oYjNydE9z0gFoQVVfeXFMTUVINGprRk9DVHhKcnh4d0VqN3RvNmJmWWsxVk4xNnhPXzNhVEdxRHJDdUNzTlJRRkpUWmtLQnJNbkdKWDV4WlFNVzd4LWxuRWd0RG82VGVsaHB6a2E2LUdKbmhiM3J0T3M?oc=5",
+      "source": "매일일보"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "국가철도공단 수도권본부, 인덕원~동탄 7공구서 불시 비상대응훈련",
+      "summary": "국가철도공단 수도권본부가 인덕원-동탄 구간에서 비상대응훈련을 실시했다.",
+      "kw": [
+        "비상대응훈련",
+        "동탄",
+        "철도안전"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1nUDdlVW9OWHpIMlN1UHJjMmRudmlVcXVBZl9VY3lfMUFNZWgzb1BEWlNuMVdWYzBYMXllX1BESGFZb0NTM29TbkhhQkJLLWRRWFp0aV9pNWtJYTZvdnVucnd4ZmYwOXhLdkE?oc=5",
+      "source": "천지일보"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "교통",
+      "senti": "긍정",
+      "title": "화성특례시, 인천발 KTX 직결사업 12월 개통 앞두고 마무리 단계",
+      "summary": "화성특례시의 인천발 KTX 직결사업이 12월 개통을 앞두고 마무리 단계에 진입했다.",
+      "kw": [
+        "KTX직결",
+        "교통",
+        "개통"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9fZzBrWTdUY1F4aW9MM09EMHlUOHZpektualphU2lUUk1zNXZFa1A0TjRPZVNMQmhScUZEeEVsS2FQb1NQUU9RVzhHX25vZUJSNmhyTFU1UXBxMEx4OGUwdjRTem9UT25oT0s3LQ?oc=5",
+      "source": "파이낸스투데이"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "“미사도 이렇게” 동탄 루나쇼 본 하남 통장들 한목소리",
+      "summary": "동탄 루나쇼를 본 하남 지역 통장들이 긍정적 평가를 나눴다.",
+      "kw": [
+        "루나쇼",
+        "동탄",
+        "문화"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9jc2l0X1lad01iUjZKT0IzTWlFTS1Hd2h1ekszdjMzbHVERFpyRUs4TThiXzRKZXJVSWZQc1U0VlJBd3pza1NlNWRKR2pWeUx5c2UyME5ZVWo4NWpURElER0loVDFkLUhkRVE?oc=5",
+      "source": "하남일보"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "1808가구 초고층 주상복합 ‘아크메르 동탄’ 분양",
+      "summary": "1808가구 규모의 초고층 주상복합 아크메르 동탄이 분양 중이다.",
+      "kw": [
+        "아크메르동탄",
+        "주상복합",
+        "분양"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBkSVVCMWFLYVNXUDF5bmxPSFJ0aDF4dTNrd1dVUkJsMGMyZ1M1Tk9Hb19mQkkxRDBuNlplMDBMNTV4Z19YOFNmTnNXUnZCYUU?oc=5",
+      "source": "v.daum.net"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "화성署, 동양초 등굣길 안전 지키기 나서",
+      "summary": "화성서가 동양초등학교 등굣길 안전을 위한 활동을 펼치고 있다.",
+      "kw": [
+        "등굣길안전",
+        "어린이보호",
+        "경찰"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5tc04wTVYyRHJMa2pPMDFUZFNCOVV1dmZFVHVDdkNma2pzNFdROFdEcDF1eU9abGR0SWktMFZEV1BqdnBBUjhJM0ZrZkl6bkE3VzNaZ09BOUI0UWIzb3o4cnFxS05Ia1dkZUxLbldPaFg?oc=5",
+      "source": "데일리경기신문"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "[병점중] 내 장난감은 안전할까?",
+      "summary": "병점중에서 어린이 장난감의 안전성에 대한 교육을 진행했다.",
+      "kw": [
+        "장난감안전",
+        "소비자교육",
+        "병점중"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1nOXNORU1ETUlFOGNqbDdhYlBObUFLUG1yTmM2WHpBbkZOZVlPRUcycU5BcVJrVkx3bG1taEUxQ3lmTmF5QUl5UlNaV2lIQ0xP?oc=5",
+      "source": "우리학교신문"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "화성서부경찰서 착!한 운전 · 학교폭력 예방 스쿨존 캠페인 실시",
+      "summary": "화성서부경찰서가 착한 운전과 학교폭력 예방 스쿨존 캠페인을 실시한다.",
+      "kw": [
+        "스쿨존",
+        "안전캠페인",
+        "학교폭력"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA5eW82b2V1VXl1Mm1xU3RjeXlaXzN6anFTcnlTaWkwN0J2Y04wRUNSWnFTaHZObTVSZnhocHI1TzREVWs3Snl0dU9FNzgxaU05YUpJOTkySWdjd3FyU0owdUtxN3hrZw?oc=5",
+      "source": "화성저널"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "교통",
+      "senti": "중립",
+      "title": "철도공단 수도권본부, 인덕원~동탄 건설현장 ‘불시 비상훈련’ 실시",
+      "summary": "철도공단 수도권본부가 인덕원~동탄 건설현장에서 비상훈련을 실시한다.",
+      "kw": [
+        "인덕원동탄",
+        "철도공사",
+        "비상훈련"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5pYllXdlVENjFvblZKTU9iN3d4bDR1RFQzWmpRLWZ4S3FrN0tnTlpqR1ZlVWt0bTMzcC1kV2lqZHVqNVpiVmpTSFVWM0xvb2Z4NEg0VmhaNHZPWl93XzJTeFYyQzA?oc=5",
+      "source": "국토일보"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시 'AI 화성 챌린지' 17일 개최…AI 행정 실험 본격화",
+      "summary": "화성시가 AI 화성 챌린지를 개최해 AI 행정 실험을 본격화한다.",
+      "kw": [
+        "AI챌린지",
+        "AI행정",
+        "디지털혁신"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9uX084dmRhNlk2V2l0Yy11b19saks3aDJTY2ZoeEI4bGtfTmJGZWxJWktRdTRpenFfdnZSVGY0cTBhdnRNTldGU1ZIYkhlS3NGN1BaeXJHQWQxeDhZZnlIemk1RVRUcFl6YjZ0dzZPNmdqT0HSAXNBVV95cUxPbl9POHZkYTZZNldpdGMtdW9fbGpLN2gyU2NmaHhCOGxrX05iRmVsSVpLUXU0aXpxX3Z2UlRmNHEwYXZ0TU5XRlNWSGJIZUtzRjdQWnlyR0FkMXg4WWZ5SHppNUVUVHBZemI2dHc2TzZnak9B?oc=5",
+      "source": "뉴스웍스"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "환경",
+      "senti": "부정",
+      "title": "화성 자원순환시설서 불…대응 1단계 발령",
+      "summary": "화성 자원순환시설에서 불이 발생해 대응 1단계가 발령되었다.",
+      "kw": [
+        "자원순환시설",
+        "화재",
+        "긴급대응"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9WcTNhNTJIdkJOWF9CZ0hkOF9JdFRveTZEVHVYZ2xKNjJXdmt6aG9SLUhWazR0a1U3aExSaTB6UzJHOWE4cE5JTjRpREpiM19pYTRzY1VWRUg3MzTSAWBBVV95cUxOV0tkYUV0dklfeHh2UVlwal9MRnhsVnBGVXZMMlVwOHhJV0QtcFlMb2NrQ25qemVoei1xdE51eDRiM0ttQzdzRFZMQzhmR3Nmb0xPOXU5TFk4NmRIMDBfOWs?oc=5",
+      "source": "연합뉴스"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "이계철 화성시의회 의장, 만세사랑위원회 정기회의 참석",
+      "summary": "이계철 화성시의회 의장이 만세사랑위원회 정기회의에 참석했다.",
+      "kw": [
+        "시의회의장",
+        "정기회의",
+        "만세사랑위원회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE10Q3luZDlydHZvMllZODJzcVlENUxyMFNaMVNvdmFiOVZKcGlKZ0wxSlZabVJLRWpLQ2ZYZVlVRjBhY0pVVDdsSG55TVhJWkgtWVZzcXNpVGVwX0p2TXZIN2Vn?oc=5",
+      "source": "경인미래신문"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "교통",
+      "senti": "중립",
+      "title": "국가철도공단, 인덕원∼동탄 공사현장 비상대응훈련",
+      "summary": "국가철도공단이 인덕원~동탄 공사현장에서 비상대응훈련을 실시한다.",
+      "kw": [
+        "인덕원동탄",
+        "철도공사",
+        "비상훈련"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5yN0RkTnZ2Rm83Skw5a2stMkZ5RDljU3hnRkhXUGZtczRwT2d6U3Z4ay1JSER6Y2xTQXIzcW9XMElmUVV1N0hDWGlvRVgtc1UxeDVxbGhlUUR2YkJWRmJLWXBDY1R4MFZCOGtRRi1odHFGaldxYnE5SHVR?oc=5",
+      "source": "로이슈"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "속보 경기 화성시 자원순환시설에서 불...대응 2단계 발령",
+      "summary": "화성시 자원순환시설에서 화재 발생, 대응 2단계 발령",
+      "kw": [
+        "자원순환시설",
+        "화재",
+        "대응"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9MUXlzc014bDI4bkxBa2tGb08wT0lqTWxvdXdSQWJFYzZUREhITFZvSTA2eFhMZ0hGUUcwTEhhOW5MX2V5X2ZKNXA1bU5ZdjRRNDhRZ09TSnM5TnJWcGc?oc=5",
+      "source": "YTN"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "화성시 자원순환시설에서 불…대응 2단계 진화 중",
+      "summary": "화성시 자원순환시설 화재에 대응 2단계로 진화 중",
+      "kw": [
+        "자원순환시설",
+        "화재",
+        "진화"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5wSE5ESTNGbVlEUVZFZkgzNllJMEJRbkU1SmtzSmZoWnFTTkZKNGliNC1CVm9LcXFZM25vRXBLM1JtYjR5OWc?oc=5",
+      "source": "v.daum.net"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "환경",
+      "senti": "긍정",
+      "title": "깨끗한 동탄역으로 더욱 즐거운 명절",
+      "summary": "동탄역 청소로 더욱 쾌적한 명절 환경 조성",
+      "kw": [
+        "동탄역",
+        "청소",
+        "명절"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBHQTBIdHBRMHFhc1ZMZ2hnUWJ0ZVRGN3YtS3NRSzUyQzRuVWI0WEtWbHN3djh5aUtUOUVrN0k3bmZZbDI4?oc=5",
+      "source": "hstodays.com"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시, 가을 마중 낭독회로 시와 음악의 온기 전해 > 뉴스",
+      "summary": "화성시에서 가을 마중 낭독회로 시와 음악 감상의 기회 제공",
+      "kw": [
+        "낭독회",
+        "시",
+        "음악"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBSZDVaZXRKM1hWYlNva0x3eVJlcmRneFp4NnNuUGp3WUxHZ1UzR0VFNWI1T1lQZHdYX1ExN0ZnMVNDcUlObVd2bHV1dHh6WVAzMk55Rm1POEhaNHBFZmlFZDB5QzVnbV9qa1V1c3N0Ukc?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "경기 화성시 자원순환시설에서 불...대응 2단계 발령",
+      "summary": "경기 화성시 자원순환시설에서 화재 발생, 대응 2단계 발령",
+      "kw": [
+        "자원순환시설",
+        "화재",
+        "대응"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1QemZreFNtbGt6N0VFNUlySFc5aUlqS1VteV83TjRlMG1LMnpPYm5ORGlRWEJ1YmlWM2hUM21RSUVpU2pZS2lMaDZQa0NXNElvLXNCY1Y1dm9EXzRnd2c?oc=5",
+      "source": "YTN"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "[포토] 화성시 세연기술 2공장 화재 발생… 소방당국 대응 1단계 하향 및 진화 완료",
+      "summary": "화성시 세연기술 2공장 화재로 대응 1단계 하향, 진화 완료",
+      "kw": [
+        "화재",
+        "세연기술",
+        "진화"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1GTWx1Q3R4YzZSQWE5TkJtOWZhZUtXNF9fYUVHZ21WU0pfYVFCWWFKT3EzbWduT0hSLXdONWs4LVpHUjlxQmw3Ny1TVWU1ZnFSZjM1UjNXOWJ0TnZCWGF6elM5blM?oc=5",
+      "source": "경기신문"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "경기 화성시 자원순환시설 불...50대 여성 화상",
+      "summary": "화성시 자원순환시설 화재로 50대 여성 화상 입음",
+      "kw": [
+        "자원순환시설",
+        "화재",
+        "화상"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9sMVk2cENyNDJ1SmRuOXJGMm1EajNkbERtMzBzb1ZLdWo0VUZneXozUEVKUVBrZ1NWaXpHUDVVTktTbEN4cnJqazFSLUdLb19CYkhMMEZ6Y21KSFJNRFE?oc=5",
+      "source": "YTN"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "경기도교육청-한국에듀누리교육원, 화성동탄 '한마음초'에서 에듀테크 활용한 참여형 보건 교육 실시",
+      "summary": "경기도교육청과 한국에듀누리교육원이 화성동탄 한마음초에서 에듀테크 활용 보건교육 실시",
+      "kw": [
+        "에듀테크",
+        "보건교육",
+        "한마음초"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1DOF91TERmSmExelZkNzN5b3g0QVBMazNUeFdqQW42OElqRG5VRTNYVFNXRW5sSDFzUUp1TXFPNEhndXNUUUFkakwybnMtbmtXaDFtRDB1OXdDbjNFM3VNag?oc=5",
+      "source": "경기경제신문"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시, 전국장애인체전 선수단 격려와 2027년 양대 체전 벤치마킹 총력 > 뉴스",
+      "summary": "화성시가 전국장애인체전 선수단을 격려하고 2027년 양대 체전 벤치마킹 추진",
+      "kw": [
+        "장애인체전",
+        "선수단",
+        "벤치마킹"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5IZEZZNnFyLVNaSmVMN1IwSHpJUmtyR3oyTjQyWFJiWkJ5Nm4tamNHN2dYUVJqVV9OQVlxbEhkN0JJUVdLaHZOczBCUXFnc3liN3BmRy1JbmJIbEJnMFVNMV9OdnRGbTBROHhxbEtod2w?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "교통",
+      "senti": "긍정",
+      "title": "화성시, 어천역 인천발 KTX 직결사업 12월 개통 목표 17일 종합시운전 돌입",
+      "summary": "어천역 인천발 KTX 직결사업이 12월 개통을 목표로 17일 종합시운전을 시작한다.",
+      "kw": [
+        "어천역",
+        "KTX",
+        "개통"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBjRkR6WUlQdFlmdVAxaXNUOXUzdnFITXZhbGVEN3dfeVV5SnRnVkxYU1BMOHFma2gwdjJncVFUUzI5aV9VMnlDdjN3Y0lLeVl4NVVOcjVMb2R2c0JE?oc=5",
+      "source": "뉴스핌"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "동탄 루나쇼 찾은 하남 통장단…미사호수공원 사업 해법 찾나",
+      "summary": "하남 통장단이 동탄 루나쇼를 방문해 미사호수공원 사업 해법을 모색한다.",
+      "kw": [
+        "동탄",
+        "미사호수공원",
+        "교류"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0zNmVlMUxMS1hZT0N5eXpWcTBnZzVVeDBtUTZ5bGdYbUh0ZmhiS0RZZkdnaURGNHBXRW95RHpqRWZFcEtQaV9UNEJkZE83dkZiMWpTbzBzaDdVUUwzY3U2ekl1Um1NLW1fd3Zxc1FuS3gydw?oc=5",
+      "source": "디스커버리뉴스(DISCOVERYNEWS)"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "\"29조 반도체 머니 쏟아져\"... 동탄 집값 철벽 방어하는 '실리콘 실드'",
+      "summary": "반도체 산업의 투자로 동탄 부동산 가격이 안정적으로 유지되고 있다.",
+      "kw": [
+        "동탄",
+        "반도체",
+        "부동산"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5hZkhLOXZGQlcyeksyekladllUTnJVY2FXZENoWUtMemRuT2xnd2lwMHJNcU5iZzEtalJlRGxPcEJzaDV6SllCRGRRQkxVN1prYkI3MjRsbG9oek1XSTRiX0JDc0JMUQ?oc=5",
+      "source": "이로운넷"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "낙반 가정한 인덕원동탄 7공구 불시 대응훈련",
+      "summary": "인덕원동탄 7공구에서 낙반 대응 불시 훈련을 실시한다.",
+      "kw": [
+        "인덕원동탄",
+        "낙반",
+        "대응훈련"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE94Ulh6SmkxVXREdTdQNkYxUFVmcW1Bc293STFXOFZWTm9LblJNblVRZEc3cnRuNGNMQUNTZDJaX3A0OVNjRkVUSWwzUENZTHNrbW5fVzE2Z3hBdW4zTG5fVGlOZkgwNjZpSUJlNFNHbE0?oc=5",
+      "source": "충청일보"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "(사)화성시자원봉사센터, GST 중고컴퓨터 40대 아동·청소년 학습 지원",
+      "summary": "화성시자원봉사센터가 중고컴퓨터 40대를 아동·청소년 학습 지원에 기부한다.",
+      "kw": [
+        "자원봉사",
+        "아동청소년",
+        "학습지원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBnbUVUOW1HSXNSWjRrbEw1c0Vzd0paZTVUNlFlYUd4bXZXdXVNMkVFQzMydzBTaGFCbERGZnkxcUVxQ0k4ZFFKZ1hHUGhRLVV2c3Q2OTNPMkRqSWIzQXlUUnBSb1I4LTFm0gFoQVVfeXFMUGdtRVQ5bUdJc1JaNGtsTDVzRXN3SlplNVQ2UWVhR3htdld1dU0yRUVDMzJ3MFNoYUJsREZmeTFxRXFDSThkUUpnWEdQaFEtVXZzdDY5M08yRGpJYjNBeVRScFJvUjgtMWY?oc=5",
+      "source": "매일일보"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "교통",
+      "senti": "긍정",
+      "title": "\"화성시에서도 KTX 탄다\" 내년 상반기 어천역 운영",
+      "summary": "어천역 KTX 운영이 내년 상반기에 시작되어 화성시 교통 접근성이 개선된다.",
+      "kw": [
+        "어천역",
+        "KTX",
+        "운영"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1IT3RtSzNRME43VGFQRUpYZllwcEtKYWZPampNcHUyNU5JeWh0dUFXLVVaSEFCaWNfQVk2RE1rQmNfM3JBNE9OcU9zT0xEMElMR3RscjBVbl9VbGlZd2N5dGl5SkMwNlpRZjhZQzRlTHJncEJLc0FkN9IBeEFVX3lxTE1IT3RtSzNRME43VGFQRUpYZllwcEtKYWZPampNcHUyNU5JeWh0dUFXLVVaSEFCaWNfQVk2RE1rQmNfM3JBNE9OcU9zT0xEMElMR3RscjBVbl9VbGlZd2N5dGl5SkMwNlpRZjhZQzRlTHJncEJLc0FkNw?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "동탄역 보행로·상가 주변 새단장…추석 앞두고 대청소",
+      "summary": "동탄역 보행로와 상가 주변을 추석 앞두고 정비한다.",
+      "kw": [
+        "동탄역",
+        "보행로",
+        "환경정비"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE91Q0dhZFNMX1B5VENEdkIyTTBsbHdYX2x3RXNxTVIxRTdYajBpM2Z0Mm1YX0FWMV9kb2dmSTFkbzdSTmRjY2VLM2JoV2JxcllHT3ppNjZjam1VTWkzMUVfTDdMRUp3U2hnRWJRVGRwTHg?oc=5",
+      "source": "한국철도일보"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "장철규 화성시의원, ‘2026 자랑스런대한국민대상’ 수상…포용·생활정치 성과 인정",
+      "summary": "장철규 화성시의원이 포용과 생활정치 성과로 2026 자랑스런대한국민대상을 수상한다.",
+      "kw": [
+        "시의원",
+        "생활정치",
+        "수상"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9IcENpOVoxajhwbjY0dm5RUlplR3A4d3ZGVmpuX2FNMjloM0QyOFFHMHNubWh2dUlmalZmbGUtYnllMm1BV2FheHRsQWQ4eTkwbm1kcmYxLWhoZmQ2aFhMbllJVktjN2ZKaW80LXlZMGtYZ9IBckFVX3lxTE9IcENpOVoxajhwbjY0dm5RUlplR3A4d3ZGVmpuX2FNMjloM0QyOFFHMHNubWh2dUlmalZmbGUtYnllMm1BV2FheHRsQWQ4eTkwbm1kcmYxLWhoZmQ2aFhMbllJVktjN2ZKaW80LXlZMGtYZw?oc=5",
+      "source": "엔디엔뉴스"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성시의회, 제5회 의장기 게이트볼대회 개최",
+      "summary": "화성시의회가 제5회 의장기 게이트볼대회를 개최한다.",
+      "kw": [
+        "시의회",
+        "게이트볼",
+        "대회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE82bWlQbUpLaXFXd0hLakoxNWZzTXJLcmx1eVlQZ1FRR0QxTWFmVUgxOGtGRExIcVp5dkVrOEwxVGRKQ2hWckFDOEh3ZFhDd2lMZXJFU0hqY01hRDFtYUgzZEwyRjBHV2FE?oc=5",
+      "source": "hkbs.co.kr"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "화성특례시 동탄구, '2026년 하반기 집단급식소 식중독 사전예방 교육'",
+      "summary": "화성특례시 동탄구에서 2026년 하반기 집단급식소 식중독 사전예방 교육을 실시한다.",
+      "kw": [
+        "동탄구",
+        "식중독",
+        "예방교육"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBmMHRhTjJURXhXMGltU0NPM0VGRFNDZVdlWERCcUlublQ4aFZMTVhabHdpdnhsNlgxX1hfVTZvMXNSQQ?oc=5",
+      "source": "화성인터넷신문"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "화성시가족센터, 영아·부모 함께하는 ‘오감톡톡’ 운영",
+      "summary": "화성시가족센터가 영아와 부모를 위한 오감톡톡 프로그램을 운영한다.",
+      "kw": [
+        "가족센터",
+        "영아",
+        "교육프로그램"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8tc19tZmxhSzhBN3lqeC1tVGJfb1NGRndOU29vUldxSEJKMmFHM1loYmJHbkE5OUdadDdiaUxEb3lPMVJhcldLdXNQRUpSMHBNbGdxcWtHazQzZ3NCNk0xYUJ3elZ5V2l1RVRCNkp6ZUQ?oc=5",
+      "source": "데일리경기신문"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "교통",
+      "senti": "긍정",
+      "title": "어천역~부산 2시간…화성시 'KTX 시대' 곧 열린다",
+      "summary": "어천역 KTX 개통으로 화성시에서 부산까지 2시간 내에 이동할 수 있게 된다.",
+      "kw": [
+        "어천역",
+        "KTX",
+        "교통"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4xNHdiNU1sVWhKbEhSZGYxYWVqUEppby1lV3E3TlYtTWJFekM3b0ttdnE1Zkh5VlRHVVltZnRWeXdubDlVTmNkd3ZaU01IZ1J2ZUwzV0doa2dpdzN2X2RoUjBMeVI3dFowRFE?oc=5",
+      "source": "머니투데이"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "국가철도공단 수도권본부, 인덕원~동탄 건설현장 비상대응훈련",
+      "summary": "국가철도공단 수도권본부가 인덕원~동탄 건설현장에서 비상대응훈련을 실시한다.",
+      "kw": [
+        "철도공단",
+        "건설현장",
+        "비상훈련"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE90elRscDhPOWwwXzNPZHJLLWJuSjR3bm1Cd05Fc2pTT1Fudnk0WUFuczJqUDNpVmRyUW9jOHBWQWFCMVdTWFNIelpLYTFqdzZnZVRQdDBZUnNHZVZiRUlFOTc5RzVEU2Fj?oc=5",
+      "source": "newsfun.kr"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "화성 한 자원순환시설서 불…1명 화상·대응 2단계 발령",
+      "summary": "화성 자원순환시설에서 화재가 발생해 1명이 화상을 입었다.",
+      "kw": [
+        "화재",
+        "자원순환시설",
+        "안전사고"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAyZzFUd0tHVWZweGdpQjRUV2lCRVZVbFFNT00tVm9ReTJJcVMycHJVWkpUcXpSNTl6NHlPV29IdEdQdHJYMHFhSkRwTHFuajB2aDB4VjB3TUVTMVE?oc=5",
+      "source": "경기일보"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시 동탄구, ‘2026년 하반기 집단급식소 식중독 사전예방 교육’ 실시",
+      "summary": "동탄구에서 2026년 하반기 집단급식소 식중독 사전예방 교육을 실시한다.",
+      "kw": [
+        "식중독예방",
+        "급식소",
+        "교육"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBJbmlIbHo0dC1rSUVNNlJNV2tBRTJhb0FmSkpwMUQ2OUdqWmhabUNqVERkNm5xWUNwdWhMVEZzMEttTjZzWEV2Ui1MN0xJeThldEZna1VoQjZ6ZVVXRnE3RmhiZmEwd3du?oc=5",
+      "source": "경기중앙신문"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시-용인시 청소년참여위원회 교류 성료",
+      "summary": "화성시와 용인시 청소년참여위원회가 교류 행사를 성료했다.",
+      "kw": [
+        "청소년참여위원회",
+        "교류",
+        "협력"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ueXFHS1FFWjRFOThzMndvZXJjTGJoV00ycmxvUmhmZnhBX1k4eTNZY3gzejZlbW1LNlFuSEhYMnV4ZGR2ajNjZmlXM1VwQnd1eUJNM1RSRHRCRlo0RTlMeV82WHIzSnhO?oc=5",
+      "source": "경기청소년신문"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "‘수도권 대표 신도시’ 동탄의 마지막 심장부 아크메르 동탄 개발 시동",
+      "summary": "동탄의 마지막 심장부로 불리는 아크메르 동탄 개발이 시동된다.",
+      "kw": [
+        "동탄",
+        "신도시개발",
+        "아크메르"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5kTnNpb2wyZ183YWd5b09aN0x1Nk5MOThIOUt5enFCdFZaVVFFcjYwVXlJb3kzSFRZM0p0SFRGUjJuckRiWktnV3BJSW4yMC1UdTN6d0xhUmdVZ3c1UzR6UUhZSlhMRjVNVVJHd01WVlhSTG8?oc=5",
+      "source": "스포츠동아"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시문화관광재단, 농촌과 도시에서 함께 펼쳐지는 순수 공연예술축제 '2026 제18회 품앗이공연예술축제' 10월 개최",
+      "summary": "화성시문화관광재단이 10월 제18회 품앗이공연예술축제를 개최한다.",
+      "kw": [
+        "품앗이공연예술축제",
+        "문화관광",
+        "공연"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5adVc2N19yWF95dHhNckkzZUlITnU1b1BNVUdoOFlkYU5pcWllQ0NQd3M1QnIxUHN6YXh4VVN5Tnh6UHBUa3UwUl9fai1qSDNGZnAxVWh0ZDdSOW1odEpRZTVBOGQ1eUJvbUhtOUtaWnlpZ9IBckFVX3lxTE5adVc2N19yWF95dHhNckkzZUlITnU1b1BNVUdoOFlkYU5pcWllQ0NQd3M1QnIxUHN6YXh4VVN5Tnh6UHBUa3UwUl9fai1qSDNGZnAxVWh0ZDdSOW1odEpRZTVBOGQ1eUJvbUhtOUtaWnlpZw?oc=5",
+      "source": "엔디엔뉴스"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "지역을 넘어 정책으로 잇다... 화성시-용인시 청소년참여위원회 교류 성료",
+      "summary": "화성시와 용인시 청소년참여위원회가 정책 교류를 성료했다.",
+      "kw": [
+        "청소년참여위원회",
+        "교류",
+        "정책"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBmd3hpQVd5ZFlZWkU4MGlUbV9fVUJYM1oyamNBek5IMi1UaFVIWWxMYzNGX1RDQV9ENms4YmY2WkZ3X1BqVE9tRU9YQ0lzeUZfX0JXcEJLcnNMcVlMUU8xWmk3WXctQQ?oc=5",
+      "source": "화성저널"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "화성 자원순환시설 화재…9명 자력대피·1명 부상",
+      "summary": "화성 자원순환시설에서 화재가 발생해 9명이 자력대피하고 1명이 부상했다.",
+      "kw": [
+        "자원순환시설",
+        "화재",
+        "안전"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE95SWFvUEpIV2VWOS0zRGpYTGdDcENKamYwX0oxUGU3N01RT2x2VVVWZXc1RTZ0Z195UWxyYV9ZVVVXNVVDRHUzNTBjTlBtVDZwdUJhMldHNURtN1I5YVpiQdIBYEFVX3lxTE95SWFvUEpIV2VWOS0zRGpYTGdDcENKamYwX0oxUGU3N01RT2x2VVVWZXc1RTZ0Z195UWxyYV9ZVVVXNVVDRHUzNTBjTlBtVDZwdUJhMldHNURtN1I5YVpiQQ?oc=5",
+      "source": "연합뉴스"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "화성시 자원순환시설 화재…소방 대응 2단계 발령",
+      "summary": "화성시 자원순환시설 화재로 소방 대응이 2단계로 발령되었다.",
+      "kw": [
+        "자원순환시설",
+        "화재",
+        "소방대응"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5hQVhfZzIta0JTZXlTTXNXREx4Zkh4WnZNLTZmeWE2VW9FSXZpQ09wa2hBMHQwMnJxbE1wellTS004QzNGdzdrYk5RbWtEUDZGMTIycDYxVmw0QTR6MVFwbDUwZmpYdVBQWkpwOEVKejQ?oc=5",
+      "source": "SK브로드밴드 회사소개"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시아르딤복지관, 제9회 추석맞이 어울림 축제 열어",
+      "summary": "화성시아르딤복지관이 제9회 추석맞이 어울림 축제를 개최했다.",
+      "kw": [
+        "복지관",
+        "추석축제",
+        "지역행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9RcVd5T0N5UFctejJVRmFtaC1jcFVLcXUtV3REWGNhRUVxMFpvMnpzWWJrUkdlenFNWTRrZXZNVEZXRERwaWFfVFZHeTFUdDJteUhtRy1LMTdyQTU2cTJWMA?oc=5",
+      "source": "NSP통신"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "칭찬취재. 짬뽕지존 남양점 장진우대표, “한 사람의 손님도 소중합니다”",
+      "summary": "남양지역 짬뽕지존 남양점 대표가 고객 중심 경영 철학을 실천하고 있다.",
+      "kw": [
+        "남양",
+        "소상공인",
+        "경영철학"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE4tZmxvYXZDajdfd1lnOEQ0VG9pWUNKQmptVVV4SzJLMmRIWG5qdHJfQWFYWjRSN2JvaWctS1NOcEdwWVd3TXU5RHVn?oc=5",
+      "source": "얼리어답터뉴스"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "화성 자원순환시설 화재 2시간 40여분 만에 완진(종합2보)",
+      "summary": "화성 자원순환시설 화재가 2시간 40여분 만에 완전히 진화되었다.",
+      "kw": [
+        "자원순환시설",
+        "화재진화",
+        "소방"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBhX3NYejNqTVU5a1ByX2J5RUdVUjY2aThIUU1pLU9UbjJCbDdRYzJzYXN4dU1QYnhLNVNNSmpiS0p5Y3FMcC02alB3Qlo4UGlhSnQyd0N6RVVqN0XSAWBBVV95cUxNZDNLQ0Qwcm05UDRLVTR6MV94c0FpS0dOMTFyMm96NTA5S1ZwTmpSeWZiNll1V1p2VmZDS21Md3ltQnRVbm9CbFc5akJmWmlxczVPZ3lhRWZtanZNa1cxdEE?oc=5",
+      "source": "연합뉴스"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "[속보] 경기 화성시 정남면 귀래리서 화재 발생",
+      "summary": "경기 화성시 정남면 귀래리에서 화재가 발생했다.",
+      "kw": [
+        "화재",
+        "정남면",
+        "귀래리"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5sSmV5ZDVNYjRDd3c1T0RpUmY3MWNTNVVwQ1dhdUpVMTlUWGlWWDcxNXNEbS1jcG8xdkMzLVp3NFpIY20yd1Z4TVlFcHJZcUxNaUl5cg?oc=5",
+      "source": "이투데이"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "화성 자원순환시설 화재 2시간 40여분 만에 진화…1명 부상 - 조선비즈",
+      "summary": "화성 자원순환시설 화재가 2시간 40분 만에 진화되어 1명이 부상했다.",
+      "kw": [
+        "화재",
+        "자원순환시설",
+        "부상"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNc21aT0VqTzZpWVVqQURBazh4U2hod0RHWjdmNVhQTWZ0d1pOMDRxMjViUXRvcXc4RlJmOFJ0c2tmZDBqODdnNU5mRHZkOGRoaDltWkR4N0drNGFoQUV2UFFQeXJDbTJYS0R1R3NZM1NkeXlKb09wb0U4ZTZuUnVfT1BaVEF3SnY2LW04aVZwTUdKNm5Fbkh1VHRhUTVYZ9IBngFBVV95cUxNc21aT0VqTzZpWVVqQURBazh4U2hod0RHWjdmNVhQTWZ0d1pOMDRxMjViUXRvcXc4RlJmOFJ0c2tmZDBqODdnNU5mRHZkOGRoaDltWkR4N0drNGFoQUV2UFFQeXJDbTJYS0R1R3NZM1NkeXlKb09wb0U4ZTZuUnVfT1BaVEF3SnY2LW04aVZwTUdKNm5Fbkh1VHRhUTVYZw?oc=5",
+      "source": "Chosunbiz"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시문화관광재단, 농촌과 도시에서 함께 펼쳐지는 순수 공연예술축제 '2026 제18회 품앗이공연예술축제'",
+      "summary": "화성시문화관광재단이 2026년 제18회 품앗이공연예술축제를 개최한다.",
+      "kw": [
+        "공연예술축제",
+        "문화관광재단",
+        "품앗이"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3YUw4cklWeEowSEFUZzJ3bU1mOHBqRVNXUVFPbVRlTWhMcHpMNGRYRlR5cjNWUzJCVVJibjNabWlDclZsUVhhdFJqbUVLTXM?oc=5",
+      "source": "화성인터넷신문"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "경기도 화성시 자원순환시설서 화재…대응 2단계 발령",
+      "summary": "경기도 화성시 자원순환시설에서 발생한 화재로 소방 대응 2단계가 발령되었다.",
+      "kw": [
+        "화재",
+        "자원순환시설",
+        "대응"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPc2hrTW9XX2M5eXhteUhoaEIxSzdzX3RKYnVZVjZael9qZnppVnhxNTdhOVh5UkRKLVdXZG5UQ0ZDM1VxeF83Z3VjWnB1d0FLeFBqZkduc3RwWGwxR2l6Q0J4ZWdXbHpxSGx1VGVCcnctLXdTSkNRZFplUFVDQkRLUkZDZWpScEtpZVdGRThHMEdYVGRDc3EzRUNYYlRCbk9jcktxck5sVHRXdUo4ZUQzY3p0ekE4cmNHVFdnaTh4MEY1M0JsR2VaQjJOSEczRTJ2aHdxUVFGWHczVE04elhiVnkzMDdQTEViRmlyZFhEMVFzOWdaRE95NC1VcDNqdkVQd3MzbkdSYU9TRTFPbXhpRmNnN3FXeDBHVkRDUlN6eWNGVEJ4bHRDUXFNeEplQQ?oc=5",
+      "source": "데일리안"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성특례시, 제46회 전국장애인체전 선수단 제주 현장 격려",
+      "summary": "화성특례시가 제46회 전국장애인체전 선수단을 제주에서 격려했다.",
+      "kw": [
+        "장애인체전",
+        "선수단",
+        "격려"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5UT0ROV19Yb0FZQUVTRmNrT0R1Q0FtMXNfaU1JNnNtaERUclZ2bVZOY0Nic1M5NXRNeHdvT082V3cxN2J5Tk5TU2FRSWg1WEJJUXA4NHRrT0UwVXBmR2hzR19Yb04?oc=5",
+      "source": "경기신문"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "화성 자원순환시설 화재 2시간여 만에 초진…대응 2단계 해제 - 머니투데이",
+      "summary": "화성 자원순환시설 화재가 2시간여 만에 초진되어 대응 2단계가 해제되었다.",
+      "kw": [
+        "화재",
+        "자원순환시설",
+        "진화"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYUUdDVUVvOEdsNWx4NW9MUDJjbXpqMmdHaDFwWlE1U2wzSTlpR2VDbGZnamFfMjIydEE0cFNQLWxlLWVwZjhHVjI1VDdZSFg1NktpZ1dlTzg3dnBLU3FhcTNQRGs3MDBiZ2RQZ08wcWnSAXBBVV95cUxQWFFHQ1VFbzhHbDVseDVvTFAyY216ajJnR2gxcFpRNVNsM0k5aUdlQ2xmZ2phXzIyMnRBNHBTUC1sZS1lcGY4R1YyNVQ3WUhYNTZLaWdXZU84N3ZwS1NxYXEzUERrNzAwYmdkUGdPMHFp?oc=5",
+      "source": "머니투데이"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "[속보] 화성시 자원순환시설 화재…소방 대응 2단계 발령",
+      "summary": "화성시 자원순환시설 화재로 소방 대응 2단계가 발령되었다.",
+      "kw": [
+        "화재",
+        "자원순환시설",
+        "대응"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00R2JXQlREMm1VQmU3Zm5fZXlSZmtoNnhSZ3hJNzZ3UHpyd2pmVjZFQXpTZzBiNi1ac3NQNXo2VE80Z2lmaFZnWGdYNm9DSzVISEZGa2VNSENRcVI0OFJkQzNQZWxZT1BnZGc5X0tIemE?oc=5",
+      "source": "SK브로드밴드 회사소개"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "화성 자원순환시설서 큰불…위험물 다량 보관, 대응 2단계 - 조선비즈",
+      "summary": "화성 자원순환시설 화재가 위험물 다량 보관 상태에서 발생하여 대응 2단계가 발령되었다.",
+      "kw": [
+        "화재",
+        "자원순환시설",
+        "위험물"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdUVnZEctVDVQODk3dEpVam5HZHAzY29yYVRqc01tUDhycW1xbG5UdFJfQkZvZnFMcnhRMmlQZDhVY3RObjc2LWZwaXZnYUVtc1JTbjljNUswbVFkMWNrOXNiOWZxWElORURaRTdRLU5HUmFscjdEb2dWcXdZNWtaQndPbHo2QlZieWfSAZ4BQVVfeXFMTXF4OXh6ZEliLWZZSlFKOEpXRFg2bTFBRFhsNm5oc1oyRXB0YjhaUjdkSV9JTzZtYmZKRFV3OWxxNTV6RjlobFZOR2tZTzh1UHVpajVPLXZ4QW9ZQ18yX3lva212LUw5NjJtbkd5cmRoc3dGaHZ6bVZIUjRBa1lINVl3eVRHek9wdEtzNXBpZXkyX2ZBaHNqdjY0VHVmQXc?oc=5",
+      "source": "Chosunbiz"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "화성도시공사, 개선 약속 27일 뒤 25억 수의계약",
+      "summary": "화성도시공사가 개선 약속 후 27일 뒤 25억 규모의 수의계약을 체결했다.",
+      "kw": [
+        "도시공사",
+        "수의계약",
+        "개선"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB6RjJnNGRkQ1I3Xy1SY2twSE5xaExmU3pRUURxZXNONnhQb2RRNjA2bkdUQ19GXzRuV1A0R1BLQWJKaUtZXzNHQ213a1NjblFrSEUzOThIejFJTUlxdmtTWmlnR1h4Rzl3?oc=5",
+      "source": "OBC 뉴스"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "이틀 전 불난 화성 야산서 다시 화재…\"남은 불씨 재발화 추정\"",
+      "summary": "이틀 전 화재가 난 화성 야산에서 남은 불씨의 재발화로 다시 화재가 발생했다.",
+      "kw": [
+        "화재",
+        "야산",
+        "재발화"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4yOTZhcm1NZzRPSUU3Sndtd29tdDlLR0F3Z0VJckZucHI3VGp6NXRfaldQNkNKYnVIQkl5V2hna1pyS3Via3B2UjYtWFYwZE14QVpHSHhZQW9ycjTSAWBBVV95cUxPU2wtUVBnNF9OWlNqOGVPZ2VscnZxYk4tREUzR05sNTFnQ3NLQ241VTJTendvd1RQQy15V0xLcDVGcldtMkdNN3JwblF6c1hyakQwNUpndUVyVWc3WVZfMVA?oc=5",
+      "source": "연합뉴스"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시여성가족청소년재단, 추석맞이 가족요리체험 '쿡쿡패밀리' 성료",
+      "summary": "화성시여성가족청소년재단이 추석을 맞아 가족 대상 요리체험 프로그램을 성공적으로 개최했다.",
+      "kw": [
+        "가족요리체험",
+        "추석",
+        "재단"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1OTlpsOWEwWmRpaGJLRXN1eUZjWVFZNXFUV0FQVk12dXNGd3Y3d2dSQmlmYjIwX0NHRmlrbFAyajdfWnlHODRFM0VvUWNHenhqTVRYUFJJVVVYYjR5Xzh3RDJDUDFncjRw?oc=5",
+      "source": "경기청소년신문"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "정남면 자원순환시설 대형 화재로 대응 2단계 발령 지휘부 긴급 출동 방재 총력",
+      "summary": "화성시 정남면 자원순환시설에서 대형 화재가 발생해 소방 대응 2단계가 발령되었다.",
+      "kw": [
+        "자원순환시설",
+        "대형화재",
+        "정남면"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9qUVBXa3BJQnJwLU4ybEU5RWRkcXBneFc0V3RkMXdwTGpEZXFEcTlOVFVaMXpiZUVHeFNVMVkwR2t5Zw?oc=5",
+      "source": "ihsnews.com"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "화성 자원순환시설서 큰불…소방 대응 2단계 상향(종합)",
+      "summary": "화성시 자원순환시설에서 큰불이 발생해 소방이 대응 2단계로 상향했다.",
+      "kw": [
+        "자원순환시설",
+        "화재",
+        "소방대응"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1kR0dCZHBVd09weE1QMl9jMGVJSlVsMG5GWjJiV0VqTk9RZmw3NFlsc2FaX3hrTGw3N2lnQkdORU9jclNPdncwZndxdDRPM0lGSUppWENIU1BBQ0nSAWBBVV95cUxOQXpJQlJUS2tZR2xNdnFSck15T2hnYUpuLUpHb2VEMS05b1BNWEVxLVE1a2NIOE1qendBdkhPYWRIZHdrVkxWczktVG1nUFVqengzSS1aWmxQcENGNHBkTXo?oc=5",
+      "source": "연합뉴스"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "[포토] 화성 정남 '자원순환시설 큰 불",
+      "summary": "화성 정남 자원순환시설에서 큰 불이 발생했다.",
+      "kw": [
+        "자원순환시설",
+        "화재",
+        "정남"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE02MmFXZUo2c3MteTE2VU5JQTRMN2VRV2h5VDdEelRHUHduYTdDM2dqSk5pZmh2dW5kQTVKUTJrX3RrTi1icEcyclhqM1BEa0JLVDR1YlBNWGVfUFQ0SE1kZmdtZXF2ZmJRaHF1dTdmazc?oc=5",
+      "source": "인천일보"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "화성 폐유처리시설 불…대응 2단계 해제",
+      "summary": "화성시 폐유처리시설 화재로 대응 2단계가 발령되었다가 해제되었다.",
+      "kw": [
+        "폐유처리시설",
+        "화재",
+        "대응"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBLTEV3SU5sNXB6VTk5XzlXMXNfblg3Nm1TemlNeDYzOEhma0VxZ183STQzMVVxR2pLZnRYeHdCVXdUUGN2dUgzcGxMVEQtMlU?oc=5",
+      "source": "v.daum.net"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "화성 효행구 자원순환시설서 대형 화재…대응 2단계 발령",
+      "summary": "화성시 효행구 자원순환시설에서 대형 화재가 발생해 대응 2단계가 발령되었다.",
+      "kw": [
+        "자원순환시설",
+        "대형화재",
+        "효행구"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBpNzRPc2FBY243VkR2aVNIMUd4MFlkQUZITk5BLTdYbkpXOHVWZ3pyRjhsLU1sUHotNTN2UnRrMUFNX3dWODA4TnMzY2Q0ZWhDZG9aRUJuQ0NrTmxobHoxS2tR?oc=5",
+      "source": "경기신문"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시, 정신건강의 날 기념 ‘대시민강좌’ 성료",
+      "summary": "화성시가 정신건강의 날을 기념해 시민 대상 강좌를 개최했다.",
+      "kw": [
+        "정신건강의날",
+        "대시민강좌",
+        "복지"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4wTUk4RVYxOWY3bm5pdFFfVGRsQS1CVlBXeWgydFZaNE1SdkNhNVhkd3pvLURadlU3NTlmSm8yQnBPaHVSUF8zX0Q5X2pNc3ZkNWlDZjJwcUJxNGtRY2FKLWNR?oc=5",
+      "source": "ggplaza.co.kr"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "[속보] 경기 화성시 정남면 귀래리 공장 화재 발생 · 현장 상황은?",
+      "summary": "경기 화성시 정남면 귀래리 공장에서 화재가 발생했다.",
+      "kw": [
+        "공장화재",
+        "정남면",
+        "화성시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1hRmpBakVmZTVpNHF5VWNoZ3BhdERackJ5cXFVcU9WTnRhSmt1MS00VmlHWHhMeVpyQW1nQ0stdWphYl90cUMxdFdrcHJDSnZLOGNCalcwdmNHNV9W?oc=5",
+      "source": "supple.kr"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "화성 자원순환시설 큰불…확산 우려에 소방 대응 2단계",
+      "summary": "화성시 자원순환시설 화재로 확산 우려 속 소방이 대응 2단계를 발령했다.",
+      "kw": [
+        "자원순환시설",
+        "화재",
+        "소방"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0VF9aWTBOSFlzbVhlempWcEhOcThxdGlnRDJ5TE5fbzF2aEJaNE1oWkFxNVZ3a3FDN2NNNk05X1QzempoMmQxd3FEbjlzRklHNlJLN2ZGMlFnZw?oc=5",
+      "source": "경북매일"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "화성 정남면 자원순환시설서 화재…대응 1단계 발령",
+      "summary": "화성시 정남면 자원순환시설에서 화재가 발생해 대응 1단계가 발령되었다.",
+      "kw": [
+        "자원순환시설",
+        "화재",
+        "정남면"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBXbUF2c2tMYVJod2MwUnNtdjhPbm5zMWU2N2drMVh0aWR6NFpGYVp5WEVybTc5VUJvNmVORTZBdEs0Yk5iRjdqTlpMX1lIOFdhQlFVSmRn0gFbQVVfeXFMTW1kTzVWSVo4aGNYZG5jemI1aE1UY3o0clcxVXd3WFB6YTVVYlltU3RBb0dFMVVTdk1FSkpwMXNaaGdVTjlqWElseDQ5SzBtbzVEWmVhT0FBWWxYQQ?oc=5",
+      "source": "뉴스1"
+    },
+    {
+      "date": "2026-09-16",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "화성 자원순환시설 화재 2시간 40여분 만에 완진…1명 부상(종합)",
+      "summary": "화성시 자원순환시설 화재가 약 2시간 40분 만에 완진되었으며 1명이 부상했다.",
+      "kw": [
+        "자원순환시설",
+        "화재",
+        "부상"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPR1dOZl9TWmwtZm00MzQ4bnZ3V0IwaTYtYkRvSk04cTJ6a05ncTJTeUNFZDJwQ1RNMldhOU1nanA0eS1WTU5zS0lvN0FLNHVtSEZzc1BKN0poSWdhcDctS3Y5cjhpc2lEdjZUcFVkLVAxMGtZQ1hTNURfZWJOU0RPVg?oc=5",
+      "source": "edaily.co.kr"
+    },
+    {
+      "date": "2026-09-17",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시, 해외바이어 초청 수출상담회서 29억원 규모 업무협약 추진",
+      "summary": "화성시가 해외바이어 초청 수출상담회에서 29억원 규모 업무협약을 추진한다.",
+      "kw": [
+        "수출상담회",
+        "해외바이어",
+        "업무협약"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4tSlQyLXVjQUIzM2tyV2dGb1dxaFNkMGFPS1FVdnloTEtjMm0zWVo0eWZFMFZMN1JFSThVVXJrS2p6blRuSUpZQ1hPQUx1b2lIQ3l6RmxGZnpqSHN0c1pfUg?oc=5",
+      "source": "아시아경제"
+    },
+    {
+      "date": "2026-09-17",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "동탄초, ‘핑크셔츠데이’상호존중 문화 조성 등굣길 캠페인",
+      "summary": "동탄초가 핑크셔츠데이 등굣길 캠페인으로 상호존중 문화를 조성한다.",
+      "kw": [
+        "핑크셔츠데이",
+        "상호존중",
+        "캠페인"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBha2hyRWJYblFYZUZIMG5RZm1DNUZTbVhEQlVRY3ZLLWc4X1ZWaVZxRVNJRnYzUldkVXUwWmdKaV8yMnlRXy05M0V1a25uV2dUYTdLWnVaMkNLYVJYSG9lWQ?oc=5",
+      "source": "vision21.kr"
+    },
+    {
+      "date": "2026-09-17",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "태안라이온스클럽, 병점1동 취약계층에 추석맞이 사랑의 후원물품 전달",
+      "summary": "태안라이온스클럽이 병점1동 취약계층을 위해 추석맞이 후원물품을 전달한다.",
+      "kw": [
+        "후원물품",
+        "취약계층",
+        "추석"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE05blFWU1lmcjZIcC1kdThWdjIyWmpNamJ3NUszQUhvNmRDcE1ZNjZ4OEF3cmxfdmVfWDd3cUpxbV9LUnRHVUlrSnBvcmpmUnYwX3l3UTgtdEFoTHdER2pJSjE2ZExEUQ?oc=5",
+      "source": "경기탑뉴스"
+    },
+    {
+      "date": "2026-09-17",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성특례시 효행구 봉담읍, 정신건강 위기가구 민관 합동 집수리 봉사 > 뉴스",
+      "summary": "화성특례시 봉담읍이 정신건강 위기가구를 위해 민관 합동 집수리 봉사를 실시한다.",
+      "kw": [
+        "정신건강",
+        "집수리봉사",
+        "취약계층"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBsYkY3b0Y1RF9yVFVDUEprdEFnd3c0TktQc1VjVG9Xc3BrREFyMVBkSml0cGNncThnRTZIeWNkZ3ZTUTBVbWVPTHlsQWJXaDZrbHI0Vmk0UnlWcGlFNWl1YzFxR0phbklwamVfeGY1VS0?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-09-17",
+      "cat": "환경",
+      "senti": "부정",
+      "title": "【기획취재】 화성시 화학안전 ‘서류뿐이었나’..계획 두 번·63억 재정조치 뒤 또 하천 유입",
+      "summary": "화성시 화학안전 계획이 재수립되고 재정 조치 후에도 하천 유입 문제가 발생했다.",
+      "kw": [
+        "화학안전",
+        "하천오염",
+        "환경관리"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1xV1VoZk5yc1ZyUE5nWGJSOTdISUJhOWhCS0N4Sy1zaGtQSUk3WndUWjJPNnR2cWJ0OEpPOWI0OGdoMU1i?oc=5",
+      "source": "hstodays.com"
+    },
+    {
+      "date": "2026-09-17",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성특례시 동탄구, 추석 맞이 동탄역 일원 대청소 실시 > 뉴스",
+      "summary": "화성특례시 동탄구가 추석을 맞아 동탄역 일원 대청소를 실시한다.",
+      "kw": [
+        "대청소",
+        "추석",
+        "동탄역"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9LWkg3VTcxT2dRa2JVeGFqWkNPZVhXNVR0bldZNHhpZTB0bzRSeHFCTThzcE5NbFNDMkh5bHN5WTJUdGc2SnBRUUdVSWdCc3VteEtYUGc1VG1WbktncVVkTFlxQndNWEdfaEw0SldpVHc?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-09-17",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성특례시, 화성시아동보호전문기관 개관 20주년 기념 부모교육 세미나 개최",
+      "summary": "화성특례시아동보호전문기관이 개관 20주년을 맞아 부모교육 세미나를 개최한다.",
+      "kw": [
+        "아동보호",
+        "부모교육",
+        "세미나"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA0VnhfaU9jTkhfVXRsNXVvdzZMZkp4MnliaUxMMXRVZS11Rl9zRV9NLVNzVDdTSXFvSEJvMlVKTDZQaWZsV2dvNGc2ZE02dk9GY3BiV1ZTdnNacXBTVGVpenUybw?oc=5",
+      "source": "경기탑뉴스"
+    },
+    {
+      "date": "2026-09-17",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시의회 장철규 의원, ‘자랑스런 대한국민대상’ 자치의정 대상",
+      "summary": "화성시의회 장철규 의원이 자치의정 분야에서 자랑스런 대한국민대상을 수상했다.",
+      "kw": [
+        "장철규",
+        "의원",
+        "표창"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ZUFB6N3l5Sm15emxwanZfRmU4M1pxTFc3Q2VKcWpEZnEwTXlfUUZldDF5b2lxemhHVG5QR1BJTkRwaFpMajlIWUt0YVdDa0ZMU1FVeExBRG5DdUJuWlNBaThQYWw2cDQ1ZWxyS1d3NlA?oc=5",
+      "source": "신아일보"
+    },
+    {
+      "date": "2026-09-17",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성특례시, 소상공인 전문경영인 양성 ‘MINI MBA’ 교육 운영",
+      "summary": "화성특례시가 소상공인 전문경영인 양성을 위한 MINI MBA 교육을 운영한다.",
+      "kw": [
+        "소상공인",
+        "MBA교육",
+        "경영"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBhX3QwUlY4dk9BR2xMamppWWRWS0w4d1FJTHptRmlCQ2MwZXBaMW1meTZoQlQ1d2JhSzdiT2dIalp4SVBiWjA3Rm1hV3p4elZ3WUxjVE14UXRHZ2M5VXlwMWlwc0phMTg?oc=5",
+      "source": "경기핫타임뉴스"
+    },
+    {
+      "date": "2026-09-17",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성특례시의회 장철규 의원, ‘2026 자랑스런 대한국민대상’ 수상 영예",
+      "summary": "화성특례시의회 장철규 의원이 2026 자랑스런 대한국민대상을 수상했다.",
+      "kw": [
+        "장철규",
+        "의원",
+        "표창"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB5MzlXRXR3Uk5iaG05aVlmcjNMTC03QVZQV2lMOEdrTzdKTEdOcVdmZGtCR0lRSHBhZmE0TnR5LWUzTGd5Yloxdm5KN2NadlhTYUp1Rm1qZGxlTXRlV1IzY3gzMm1lamNI?oc=5",
+      "source": "수도권지역뉴스"
+    },
+    {
+      "date": "2026-09-17",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성도시공사, 2026년 화성시 체력왕 선발대회 시상식 개최",
+      "summary": "화성도시공사가 2026년 체력왕 선발대회 시상식을 개최했다.",
+      "kw": [
+        "체력왕선발대회",
+        "시상식",
+        "스포츠"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5tWVV5WjdnMWtqbDJTU3U0V3pfUXdVT1VpVDlHckR6Y04tdElmMlhoMzhWZV9DX1BVWGw5TG9pTFlLRzNhWUVzMTU2X0ZqVnBSXzU2bmFnbVVDQ3NYRHhTSEtxVlpLSkhxejNR0gFrQVVfeXFMTm1ZVXlaN2cxa2psMlNTdTRXel9Rd1VPVWlUOUdyRHpjTi10SWYyWGgzOFZlX0NfUFVYbDlMb2lMWUtHM2FZRXMxNTZfRmpWcFJfNTZuYWdtVUNDc1hEeFNIS3FWWktKSHF6M1E?oc=5",
+      "source": "뉴스잡"
+    },
+    {
+      "date": "2026-09-17",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시, 해외바이어 수출상담회 ‘성과’…29억원 MOU 추진",
+      "summary": "화성시가 해외바이어 수출상담회를 개최해 29억원 규모 MOU를 추진한다.",
+      "kw": [
+        "수출상담회",
+        "해외바이어",
+        "MOU"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1Ebzg2bUIwWElHamlENnduY2h1WHo4bzIwUUk5dFg0VjdZdFFkMDYyWmwwM1hwZ0hLSEZScFpYek42M3NETktCdkNQUFNienRKSHU4RTk2d08zSy05UmZlX3A5TUsxZE9USkpGWEtXM0psRmJDbENoNmY1Q1k?oc=5",
+      "source": "비욘드포스트"
+    },
+    {
+      "date": "2026-09-17",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "화성시, 부모 자녀 관계 심리학 대시민강좌 성료 > 뉴스",
+      "summary": "화성시가 부모 자녀 관계 심리학 대시민강좌를 성료했다.",
+      "kw": [
+        "심리학강좌",
+        "부모자녀",
+        "대시민강좌"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5kVzBXU2lWMlF4ekhYOVRBd014TVhIV01YcW5Ca3pFbXYtLUFZUEgtUUJYY3RPcG5aWUNSdjFPZHZsY25Yak1aMnNnQThfOUhCUGFEMGcyTERXaURFX2g3VDZ5ZEZBR0k2LUt4anJUc2Q?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-09-17",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시문화관광재단, 2026 제18회 품앗이공연예술축제 10월 개최",
+      "summary": "화성시문화관광재단이 2026년 제18회 품앗이공연예술축제를 10월에 개최",
+      "kw": [
+        "품앗이공연예술축제",
+        "문화관광",
+        "공연"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9kNjVyRmpOWTlBTGcyU2J4cmo2QU1EQ2xMajlTY0tzRURRN0tocU15eHQ5RTlBTFdpNEVlWU5VeHF0dWhYbmRfUTVZRkcyYjlhck1heXFCS0kwd1dhTXd2ZVJxZFZiOVZLdFRKZHdGQ2ZfUQ?oc=5",
+      "source": "웹이코노미"
+    },
+    {
+      "date": "2026-09-17",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "만세구 만세사랑위원회, 화성특례시 만세구 이웃돕기 실천 첫걸음",
+      "summary": "만세구 만세사랑위원회가 화성특례시 이웃돕기 활동을 실천한다.",
+      "kw": [
+        "만세구",
+        "자선활동",
+        "나눔"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5jZW8xbnBGdkNBMTBWU0ExUGNJRGxGOUw5Y0d5cW5pN0RxVlpRYnZZYWdOSVQ5eS1IcExjenZjUXFkNGJnc0taMFZYbXNiV0tCOXliZTFjTVhFa1VLbnEyc0o4OGRKdmp5?oc=5",
+      "source": "newspeak.kr"
+    },
+    {
+      "date": "2026-09-17",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성특례시, 해외바이어 초청 수출상담회서 29억원 업무협약 추진 성과",
+      "summary": "화성특례시가 해외바이어 초청 수출상담회에서 29억원 업무협약을 추진했다.",
+      "kw": [
+        "수출상담회",
+        "해외바이어",
+        "업무협약"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ZTmdwVDFQNDExdFl5eXBNMGJPNXRHcnBYZzRzZkNwQldlSzFaVTE4d1lMOWJsSVNJUnB0Z2lrZ0VwdFh1d0kzdDBrOXBIYTF0aXNKLUQ5NXg3NXpFTGdubUdoQQ?oc=5",
+      "source": "경기탑뉴스"
+    },
+    {
+      "date": "2026-09-17",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시의회, 만세구 만세사랑위원회 제1회 정기회의 참석",
+      "summary": "화성특례시의회 만세구 만세사랑위원회가 제1회 정기회의를 개최했다.",
+      "kw": [
+        "의회",
+        "정기회의",
+        "행정"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaSm5Vc1M4WGhreHkwcC1YSlJtcUI1eEdjSTZ4dWY2U1F5a2JBN1hSX0hRWVo1QVJPWlF6bVVVc1FzbjBpckZFMUFSb1VSUXJhbUVWNG5UYmljQU8xYkFnZkl3MHcyRzDSAWtBVV95cUxNTEFfQU9KWTNGdzg3TU1oZjMzejBCTzVUbGRRVVozVUFLbWRWX1c0MVM5T2JOVklfY0RLbUQzbDQwN2FzNGh5SVhWREN6YzlWU2p1V0FWMGtqbTJNaFEtN2xXYndNcXlBZlQ4MA?oc=5",
+      "source": "뉴스잡"
+    },
+    {
+      "date": "2026-09-17",
+      "cat": "환경",
+      "senti": "부정",
+      "title": "화성 화재폐수 황구지천 유입…하류는 평택",
+      "summary": "화성시 화재 폐수가 황구지천을 통해 하류 평택으로 유입되었다.",
+      "kw": [
+        "화재폐수",
+        "황구지천",
+        "환경오염"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB3NHZ6TTd3TGNYOW1JbGlKQVdNMHVVZUFycjZOa3R5SUgyVnRIZTdNQmltUzRfMXo1bkVmYUlLOERyaDJ1UFVFQ3QwUE1naHpTUFRncVVVak9YbWRURzB6dU9MLWJ0M2ty?oc=5",
+      "source": "OBC 뉴스"
+    },
+    {
+      "date": "2026-09-17",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성특례시, ‘장애인 평생교육강사 2급 양성과정’ 수강생 모집",
+      "summary": "화성특례시가 장애인 대상 평생교육강사 양성과정 수강생을 모집한다.",
+      "kw": [
+        "장애인교육",
+        "평생교육강사",
+        "양성과정"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE15VUJCUHhYRVIyY3FISGhGTHUtM3NJb3FaUjNlUmhTRDZ3dHFNZzJwYS16SGV0SGhwUkVZZkNFRktiLXB4dHV3d3B2Wm4xdWNXQTVJRzdMRV9JOVktd0dr?oc=5",
+      "source": "누리일보"
     }
   ],
   "dropped": {
-    "count": 103,
+    "count": 94,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
-      "남양유업, 해외 매출 130% 증가…카자흐스탄서 K-밀크 알린다",
-      "[유통 브리핑] CU, 남양유업, 맘스터치",
-      "이계철 의장의 일하는 의회 승부수...31명 의원 역량, 시민 삶 바꾸는 의회 만들겠다",
+      "'홍원식 리스크' 턴다…남양유업, 분유 차명수입 관세 소송전",
+      "남양유업, 한앤컴퍼니 체제서 'R&D 투자' 후퇴…성장성 의문부호",
+      "\"사내대출 5억, 회사 찬스\" 삼성맨 움직였다...'이 동네' 집값 후끈 - 머니투데이",
+      "[오늘의 날씨] 경기(17일, 목)…최대 150㎜ 이상 많은 비…낮 최고 30도",
       "의왕TG 하이패스 확 넓어진다…통과속도 30→60km, 처리량 60%↑",
-      "남양유업, 카자흐스탄 ‘K-밀크 페스티벌’ 참가… 중앙아시아 공략",
+      "‘과거와 단절’ 나선 남양유업…법적 책임·피해 회복도 경영 정상화의 한 축",
+      "[목회칼럼] 복음전파의 정석에 관하여",
+      "으뜸안경아울렛, 안경원들 선택 이어진다… 8월 3개점 신규 오픈",
+      "자작시를 무대에서 낭독하는 ‘가을 마중 낭독회’ 성료",
+      "남양유업, 분유 넘어 단백질·커피로…중앙아시아 수출 확대",
+      "경기도, 전국장애인체전 6년 연속 종합우승...역대 최다 점수 획득",
       "입문 단계에서 자주 생기는 마작 한국영업소 현대통상 질문",
-      "중앙아시아 공략 나선 남양유업, ‘K-밀크 페스티벌’ 참가",
-      "분유 넘어 커피·단백질로… 남양유업, 중앙아시아 신시장 영토 넓힌다",
-      "남양유업, 이운경 전 고문 배임 등 혐의로 고소... 8.6억 기부금 배임·명품소파 반출 의혹",
-      "집값 잡으려다 옆 동네 띄웠다…토허제 두 달 ‘풍선효과’ 역풍",
-      "남양유업, 카자흐스탄 K-밀크 페스티벌 참가",
+      "처음 보는 슬롯 메뉴를 익히는 축구토토승무패44회차분석 사용 안내",
       "현재 라운드 번호가 표시되나요? 슬롯형 CDP 정보 안내",
-      "남양유업, 카자흐스탄 시장 출사표…K-유제품 영토 확장",
-      "초보자가 이해하기 쉬운 주식 포커 판정 예시",
-      "남양유업, 국내 6개 유업체와 카자흐스탄 ‘K-밀크 페스티벌’ 참가",
-      "남양유업, 해외 매출 130% 뛰었다…카자흐스탄서 중앙아시아 공략",
+      "HLB제약, 증자 규모 반토막에도 신공장 투자 사수한 속사정",
+      "남양유업, 카자흐스탄 K-밀크 페스티벌 참가",
+      "첫삽 뜬 GTX-C…수원역 일대 부동산 \"공사 진척 땐 추가 기대감\"[르포]",
       "남양유업, 카자흐스탄 `K밀크 페스티벌` 참가…\"중앙아시아 시장 공략\"",
-      "수원시, 수원화성 3대 축제 앞두고 안전·협업체계 점검",
-      "[오늘의 식품리뷰] 삼양식품·bhc·남양유업·풀무원·설빙",
-      "남양유업, 소아 뇌전증 가족 초청 희망캠프 개최 - 조선비즈"
+      "‘육상계 카리나’ 김민지, 브라탑에 와이드 팬츠…탄탄한 애슬레저룩",
+      "이계철 의장의 일하는 의회 승부수...31명 의원 역량, 시민 삶 바꾸는 의회 만들겠다"
     ]
   },
   "briefs": {
-    "all": "수집 기간 전체 [[w]]부정 281건(7%)[[/w]] 중 안전 분야가 127건으로 절반에 가까운 비중을 차지하고 있습니다. 2026-08-28에 18건이 집중되었으니 해당 날짜의 안전 관련 보도부터 확인이 필요합니다.",
-    "7": "최근 7일간 [[w]]부정 30건(4%)[[/w]]으로 안정적인 수준이나, 행정 분야 부정 보도가 15건으로 주된 이슈입니다. 2026-09-10에 행정 분야 10건을 포함해 16건이 몰렸으므로 해당 행정 사안에 대한 대응 확인이 우선입니다.",
-    "30": "최근 30일 [[w]]부정 171건(6%)[[/w]]은 안전 분야(80건)에 집중되어 있으며, 행정(47건)과의 격차가 뚜렷합니다. [[b]]2026-08-28의 안전 관련 16건이 전체 동향에 가장 큰 영향[[/b]]을 미쳤으므로 해당 사건의 후속 보도 추이를 모니터링해야 합니다."
+    "all": "전체 기간 동안 [[w]]부정 기사 303건(7%)[[/w]] 중 안전 분야가 145건으로 절반 가까이를 차지하고 있으며, 9월 16일에 [[b]]21건이 집중[[/b]]되었습니다. 안전 분야의 부정 보도 추이를 먼저 확인할 필요가 있습니다.",
+    "7": "최근 7일간 [[w]]부정 기사 36건(5%)[[/w]]의 대부분이 안전 분야(21건)에서 발생했으며, 9월 16일 하루에 전주 부정 기사의 절반 이상이 집중되었습니다. 해당 날짜의 안전 관련 보도 내용 확인이 시급합니다.",
+    "30": "최근 30일간 [[w]]부정 기사 185건(6%)[[/w]] 중 안전이 97건으로 절대 다수를 차지한 반면, 2·3위 분야(행정 44건, 산업경제 21건)는 분산되어 있습니다. [[b]]안전 분야의 부정 보도 집중도[[/b]]가 특히 높으므로 이에 대한 대응이 우선입니다."
   },
-  "briefs_updated": "2026-09-16 10:17",
+  "briefs_updated": "2026-09-17 08:38",
   "issues": {
-    "updated": "2026-09-16 10:17",
+    "updated": "2026-09-17 08:38",
     "items": [
+      {
+        "label": "화성 자원순환시설 화재 2시간 40여분 만에 완진…1명 부상(종합)",
+        "count": 26,
+        "sources": 14,
+        "first": "2026-06-28",
+        "last": "2026-09-16",
+        "cat": "안전",
+        "titles": [
+          "화성 공장서 화재 소방 대응 1단계 발령",
+          "화성 장안면 장비 부품 제조 공장서 큰 불...대응 1단계 발령",
+          "[속보] 화성 동탄 능동 자동차 정비업체 화재…한때 대응 1단계 발령",
+          "화성 동탄 상가주택서 화재…대응 1단계 발령",
+          "동탄 자동차공업소서 연속 폭발…한때 대응 1단계",
+          "화성 동탄 상가주택서 화재…1명 부상",
+          "화성 동탄 상가주택서 화재…1명 부상·한때 대응 1단계(종합)",
+          "화성 동탄 자동차정비업체서 폭발 화재…대응 1단계 발령",
+          "[그래픽] 화성 동탄 자동차 정비업체 화재 발생",
+          "화성 동탄 상가주택에서 화재…대응 1단계 발령",
+          "화성 동탄 상가주택서 화재…주택가 '검은 연기'",
+          "화성 동탄 능동서 화재...검은 연기 풀풀",
+          "[속보] 화성 동탄 능동 자동차 정비업체 화재…대응 1단계 발령",
+          "화성시 자원순환시설에서 불...한때 대응 2단계 발령",
+          "화성 자원순환시설서 불…대응 1단계 발령",
+          "속보 경기 화성시 자원순환시설에서 불...대응 2단계 발령",
+          "경기 화성시 자원순환시설에서 불...대응 2단계 발령",
+          "화성 한 자원순환시설서 불…1명 화상·대응 2단계 발령",
+          "화성 자원순환시설 화재…9명 자력대피·1명 부상",
+          "화성시 자원순환시설 화재…소방 대응 2단계 발령",
+          "화성 자원순환시설서 큰불…위험물 다량 보관, 대응 2단계 - 조선비즈",
+          "화성 자원순환시설서 큰불…소방 대응 2단계 상향(종합)",
+          "화성 효행구 자원순환시설서 대형 화재…대응 2단계 발령",
+          "화성 자원순환시설 큰불…확산 우려에 소방 대응 2단계",
+          "화성 정남면 자원순환시설서 화재…대응 1단계 발령",
+          "화성 자원순환시설 화재 2시간 40여분 만에 완진…1명 부상(종합)"
+        ]
+      },
       {
         "label": "화성도시공사 토지 매각, 잔금 130억 못 냈는데 또 1년 연장.. 책임자는 누구인가?",
         "count": 2,
@@ -44491,73 +45871,82 @@
           "화성시 만세구, 폭우 피해 도로 옹벽 균열 발견…긴급 통행 차단",
           "화성시 만세구, 도로 옹벽 균열 포착…통행 전면 통제"
         ]
-      },
-      {
-        "label": "화성특례시 향남읍, ‘동 전환’ 갈등 격화! 주민 등 반발 집회",
-        "count": 2,
-        "sources": 2,
-        "first": "2026-09-02",
-        "last": "2026-09-09",
-        "cat": "행정",
-        "titles": [
-          "화성 향남읍 ‘동 전환’ 시의회까지 반발",
-          "화성특례시 향남읍, ‘동 전환’ 갈등 격화! 주민 등 반발 집회"
-        ]
       }
     ]
   },
   "today": {
-    "updated": "2026-09-16 10:18",
+    "updated": "2026-09-17 08:38",
     "items": [
       {
-        "label": "405억 지방채·트램 720억 증액…화성시 철도재정 ‘깜깜이’",
-        "count": 1,
-        "sources": 1,
+        "label": "화성 정남면 자원순환시설서 화재…대응 1단계 발령",
+        "count": 11,
+        "sources": 8,
         "first": "2026-09-16",
         "last": "2026-09-16",
-        "cat": "산업경제",
+        "cat": "안전",
         "titles": [
-          "405억 지방채·트램 720억 증액…화성시 철도재정 ‘깜깜이’"
+          "화성시 자원순환시설에서 불...한때 대응 2단계 발령",
+          "화성 자원순환시설서 불…대응 1단계 발령",
+          "속보 경기 화성시 자원순환시설에서 불...대응 2단계 발령",
+          "경기 화성시 자원순환시설에서 불...대응 2단계 발령",
+          "화성 한 자원순환시설서 불…1명 화상·대응 2단계 발령",
+          "화성시 자원순환시설 화재…소방 대응 2단계 발령",
+          "화성 자원순환시설서 큰불…위험물 다량 보관, 대응 2단계 - 조선비즈",
+          "화성 자원순환시설서 큰불…소방 대응 2단계 상향(종합)",
+          "화성 효행구 자원순환시설서 대형 화재…대응 2단계 발령",
+          "화성 자원순환시설 큰불…확산 우려에 소방 대응 2단계",
+          "화성 정남면 자원순환시설서 화재…대응 1단계 발령"
+        ],
+        "score": 83,
+        "state": "확산 중"
+      },
+      {
+        "label": "화성 자원순환시설 화재 2시간 40여분 만에 완진…1명 부상(종합)",
+        "count": 2,
+        "sources": 2,
+        "first": "2026-09-16",
+        "last": "2026-09-16",
+        "cat": "안전",
+        "titles": [
+          "화성 자원순환시설 화재…9명 자력대피·1명 부상",
+          "화성 자원순환시설 화재 2시간 40여분 만에 완진…1명 부상(종합)"
+        ],
+        "score": 68,
+        "state": "확산 중"
+      },
+      {
+        "label": "【기획취재】 화성시 화학안전 ‘서류뿐이었나’..계획 두 번·63억 재정조치 뒤 또 하천 유입",
+        "count": 1,
+        "sources": 1,
+        "first": "2026-09-17",
+        "last": "2026-09-17",
+        "cat": "환경",
+        "titles": [
+          "【기획취재】 화성시 화학안전 ‘서류뿐이었나’..계획 두 번·63억 재정조치 뒤 또 하천 유입"
         ],
         "score": 60,
         "state": "신규"
-      },
-      {
-        "label": "【단독】 화성시의회, 개원 36일 만에 일본 출장부터 결재.. 의정보다 출국이 먼저였나",
-        "count": 1,
-        "sources": 1,
-        "first": "2026-09-15",
-        "last": "2026-09-15",
-        "cat": "행정",
-        "titles": [
-          "【단독】 화성시의회, 개원 36일 만에 일본 출장부터 결재.. 의정보다 출국이 먼저였나"
-        ],
-        "score": 53,
-        "state": "신규"
-      },
-      {
-        "label": "비 오면 체육수업도 멈춘다…동탄 영천초 강당 누수, 김영훈 도의원 대책 나서",
-        "count": 1,
-        "sources": 1,
-        "first": "2026-09-15",
-        "last": "2026-09-15",
-        "cat": "행정",
-        "titles": [
-          "비 오면 체육수업도 멈춘다…동탄 영천초 강당 누수, 김영훈 도의원 대책 나서"
-        ],
-        "score": 53,
-        "state": "신규"
       }
     ],
-    "surge": []
+    "surge": [
+      {
+        "cat": "환경",
+        "recent": 3,
+        "days": 3,
+        "base": 1,
+        "base_days": 12,
+        "base_daily": 0.08,
+        "ratio": 12.0
+      }
+    ]
   },
   "ops": {
-    "runs": 68,
-    "days": 32,
+    "runs": 69,
+    "days": 33,
     "since": "2026-08-15",
-    "last": "2026-09-16",
+    "last": "2026-09-17",
     "failures": 1,
-    "span": 33,
+    "span": 34,
     "skipped": 1
   },
   "quality": {
@@ -44573,19 +45962,19 @@
     "note": "팀원 다섯 명이 기사 100건을 나눠 검수한 결과. 겹친 구간에서 한 사람이라도 「틀림」이라 했으면 틀린 것으로 셌다. 너그럽게 세면 분야 95%·긍부정 87%가 된다."
   },
   "keyword_notes": {
-    "updated": "2026-09-16 10:18",
+    "updated": "2026-09-17 08:38",
     "window": "최근 30일",
     "items": {
-      "동탄": "358건의 압도적 보도량 중 긍정 131건으로 호평이 많으나, [[w]]부정 35건[[/w]]에서 교통사고, 전세난, 철도공단 형평성 논란 등이 지속적으로 제기되고 있어 부정적 이슈 관리가 필요합니다.",
-      "부동산": "79건 중 [[w]]부정은 1건[[/w]]으로 매우 낮지만, 삼성전자 성과급 여파에 따른 동탄 집값 변동성이 언론의 주요 관심사로 나타나고 있습니다.",
-      "화성시": "72건 중 긍정 51건으로 우호적이나, [[w]]부정 4건[[/w]]에서 옹벽 붕괴와 경찰서 부족 문제가 부각되어 안전 인프라 강화 홍보가 필요합니다.",
-      "문화행사": "[[b]]69건 모두 긍정 기사로 부정 사례가 없으며[[/b]], 문화관광 분야에서 화성시의 가장 긍정적인 이미지를 형성하고 있습니다.",
-      "복지": "48건의 긍정 기사로 호응이 높으나, [[w]]1건의 부정 기사[[/w]]에서 아동 관련 생존 문제가 심각하게 다루어져 복지 사각지대 해소에 주의가 필요합니다.",
-      "분양": "53건이 모두 중립 이상이며 [[b]]부정 기사가 없는[[/b]] 점에서 부동산 시장의 안정성을 반영하는 긍정적 신호입니다.",
-      "동탄역": "53건 중 긍정 29건이 우세하나, [[w]]부정 3건[[/w]]이 모두 만취운전 사건으로 집중되어 교통 안전 캠페인 강화가 요구됩니다.",
-      "향남": "48건 보도 중 [[w]]부정 4건[[/w]]에서 토양 염분 오염, 동 전환 갈등, 옹벽 균열 등 환경·인프라 문제가 연이어 노출되고 있습니다.",
-      "시민참여": "[[b]]43건 모두 중립 이상이며 부정 사례가 없고[[/b]] 긍정 기사 34건으로, 시민 협력 사업의 성공 사례를 지속적으로 홍보할 수 있는 분야입니다.",
-      "AI": "[[b]]43건 전부 부정 사례 없이 긍정 37건으로 가장 우호적[[/b]]이며, 산업경제 발전의 핵심 키워드로서 화성시의 미래 이미지를 대표하고 있습니다."
+      "동탄": "356건의 압도적 기사량 중 산업경제가 235건으로 지배적이며, 긍정 132건 대비 [[w]]부정 35건[[/w]]으로 교통사고, 전세 문제, 철도 형평성 논란 등이 지속적으로 보도되고 있습니다.",
+      "부동산": "80건 중 산업경제 76건으로 집중되어 있으며, 삼성전자 임직원 수급 변화에 따른 동탄 집값 변동성이 주요 관심사로 작용하고 있습니다.",
+      "화성시": "73건 중 행정이 36건으로 가장 많으나 [[b]]긍정 51건으로 부정 5건을 크게 상회[[/b]]하며, 경찰서 확충 등 인프라 확대 계획이 긍정적으로 평가받고 있습니다.",
+      "문화행사": "69건 모두 문화관광 분야에 집중되어 [[b]]부정기사 0건, 긍정 58건으로 순수 긍정 평가[[/b]]를 받고 있어 시의 문화 이미지 제고에 효과적입니다.",
+      "복지": "64건 중 복지 59건으로 대부분 복지 관련 보도이며, [[b]]긍정 49건의 높은 비율[[/b]]에도 불구하고 취약계층 지원 미흡에 대한 비판 사례가 존재합니다.",
+      "동탄역": "56건 중 산업경제 30건으로 주로 역세권 개발 관심이 높으나, [[w]]부정 3건이 모두 동탄역 주변 교통사고로 집중[[/w]]되어 안전 관리 강화 필요성을 시사합니다.",
+      "분양": "53건 전량 산업경제 분야이며 [[b]]부정기사 0건으로 순수 중립적 분양 정보 전달[[/b]]이 이루어지고 있습니다.",
+      "향남": "48건 중 산업경제 26건으로 도시 개발 관심이 높지만, 토양 오염, 동 전환 갈등, 옹벽 붕괴 등 [[w]]부정 4건의 인프라 문제[[/w]]가 지속적으로 제기되고 있습니다.",
+      "화재": "45건 전량 안전 분야이며 [[w]]부정 30건으로 모두 부정적[[/w]] 성격의 화재 사고 보도로, 안전 인프라 개선의 시급성을 강조하는 뉘앙스입니다.",
+      "AI": "43건 중 산업경제 14건으로 분산되어 있으며, [[b]]긍정 37건으로 부정 0건[[/b]]을 기록하여 첨단산업 중심지로서의 화성시 이미지 제고에 긍정적으로 작용합니다."
     }
   }
 }
