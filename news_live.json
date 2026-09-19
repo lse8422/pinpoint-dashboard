@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-19 08:13",
+  "updated": "2026-09-19 10:06",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 3576,
+  "count": 3582,
   "items": [
     {
       "date": "2026-08-02",
@@ -47887,6 +47887,20 @@
       "source": "경기타임스 e"
     },
     {
+      "date": "2026-09-17",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시의회, 제254회 정례회 마무리… 추경 4조3613억원 확정",
+      "summary": "화성시의회가 제254회 정례회를 마무리하고 4조3613억원 추경을 확정했다.",
+      "kw": [
+        "정례회",
+        "추경예산",
+        "시의회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rUDJtX054VkYyUkd1OUsxMUdHMWRiZ3o0R1RWZTFlTXJBRTZaaVdtX2l0ZFJUN041bzFUNmFMM1FPOEJqV0JVMEZmY21pdlZSOUtUYmVJTWtwMHBkRmhKYXNtT2RCLUM4UHFGZVlDaEFjcGJHQmd0eXVpVXZIUmPSAX9BVV95cUxNa1AybV9OeFZGMlJHdTlLMTFHRzFkYmd6NEdUVmUxZU1yQUU2WmlXbV9pdGRSVDdONW8xVDZhTDNRTzhCaldCVTBGZmNtaXZWUjlLVGJlSU1rcDBwZEZoSmFzbU9kQi1DOFBxRmVZQ2hBY3BiR0JndHl1aVV2SFJj?oc=5",
+      "source": "뉴데일리 경기"
+    },
+    {
       "date": "2026-09-18",
       "cat": "행정",
       "senti": "긍정",
@@ -50001,6 +50015,34 @@
       "source": "경기뉴스광장"
     },
     {
+      "date": "2026-09-18",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "경기도의회 최미금 의원, 화성 동탄3동·반월동 교육현안 안민석 교육감에게 직접 전달",
+      "summary": "경기도의회 최미금 의원이 화성 동탄3동·반월동 교육현안을 교육감에게 전달한다.",
+      "kw": [
+        "교육현안",
+        "동탄3동",
+        "반월동"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE95TkVrMENfQ3JMTmpwZmpjSmlKV0Q4QjhfLUlrYXhjWjV1aTRFUGR2UHVZUVUta0VHQWJjUkZJRE1paWFGd3haYWl3bXFPOEVwSVA2NEJIeGpFWEY1VE9CQm9GOEtOTGtp0gFsQVVfeXFMUHFpejdTX1FPRk5aTEVNbjVZeFdOcFRzcGRqVHJlWURGOFpRRm1yMmNScElSdFEtSEd1TXprQTg4Rmx6c2lTVGxVVHJnRi1OckItMV9lR1duZDU4YTRJejdjYU1IZDVqN3NoZVJx?oc=5",
+      "source": "시사팩트"
+    },
+    {
+      "date": "2026-09-18",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "경기도의회 최미금 의원, 화성 동탄3동·반월동 교육현안 안민석 교육감에게 전달",
+      "summary": "경기도의회 최미금 의원이 화성 동탄3동·반월동 교육현안을 교육감에게 전달한다.",
+      "kw": [
+        "교육현안",
+        "동탄3동",
+        "반월동"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1rcVotazZQc2YycG1faWNwdGwxeVVySzNmdHFuek1YbjNKZlcwc3JsWVc4SkNTQ3dMMXpCN1RnWjZFSEluSGxVdTRmRjIzcFlTZ2ZSYUNhbk52eVZaVmE5bjc5ZE01NXlKdlhIZEtmaGNHUQ?oc=5",
+      "source": "웹이코노미"
+    },
+    {
       "date": "2026-09-19",
       "cat": "행정",
       "senti": "부정",
@@ -50069,6 +50111,48 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1jMUpxLXMwTVpJVWNPSVcxYzZBSFlXdlpnX0hMMzJxS0tMRVFtcG5qU0FLbldxQ0owRExuUmtiTE4xY3ZxVE9LMG5YbmJySFBDWHpSejM2cFNtSEJPY0lfdUx3aHBmWXo1WXRHSi1B0gFyQVVfeXFMUEhmQTNDWmQwMFdTdXhMTFRweUJPUzh2dkEyWFFIeVBxWkhIUFlXSXNkcy16cTYwOEpva2pjOFFjS3Z5RVB6QnZId2c0MGxaR2ZsRWZTS2YxSTdTWEZ4cEE0QWRJM28tckJSaHdfQlc0MV9R?oc=5",
       "source": "뉴스 따옴"
+    },
+    {
+      "date": "2026-09-19",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "(재)화성시문화관광재단, 20일 동탄호수공원 주차타워에서「찾아가는 클래식Ⅴ」 개최!",
+      "summary": "화성시문화관광재단이 동탄호수공원에서 클래식 공연을 개최한다.",
+      "kw": [
+        "동탄호수공원",
+        "클래식공연",
+        "문화행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE94Zy1UUVpQYWZLSE5HWHVYNFlJTmFaaUtIMlMweFZyNFlSQVRpMG1VN2RLa1JsNFI4aTVDeVNUYU5NZzdna1h4dWsxUXRtdjNNbFA4YmdVWFllb19laGJ6THd5dzl6a3ZaUmNHSTBqWUVlSnp2?oc=5",
+      "source": "경기종합뉴스"
+    },
+    {
+      "date": "2026-09-19",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시의회 보건복지 표준화 연구회, 돌봄복지 우수사례 현장답사",
+      "summary": "화성시의회 보건복지 연구회가 돌봄복지 우수사례를 현장답사한다.",
+      "kw": [
+        "돌봄복지",
+        "우수사례",
+        "현장답사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5WbjFEaUZUU0tuenZfMEU0ZTYzejFJZ1JPY2k0NGd2NE5JNVBVOS0wdmtpa2Rtd2xUcmVaU3ZBc2R4aVREWEJXeEJaanF6ajkyeXNLWW4yUXE5b2JuclNSN0JqbF85ZXfSAWtBVV95cUxPdUVXYUxtSDhYV1RvVjM1d0wzd1hTWndiNTRrc1RPbnNsTm01OUNPN0o1bWg2WURzWFBrMnkxY093NUJXS2xXZzJrYXhsUzluT1pwbnF1NUtEVGNBSmNRMElaakViSWNMUTZDNA?oc=5",
+      "source": "뉴스잡"
+    },
+    {
+      "date": "2026-09-19",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시아이돌봄센터, 직무 및 안전사고 예방 위한 역량 강화 교육 실시!",
+      "summary": "화성시아이돌봄센터이 직무 및 안전사고 예방 역량 강화 교육을 실시한다.",
+      "kw": [
+        "아이돌봄센터",
+        "안전교육",
+        "역량강화"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBaRUlOX093ZjlZN05XWGRTWEVNVGJGQVI5YU92QU14SEVDWDNpM2dmc2UzSFhJX2ZKdWhRWG5wdW5OYlRKVnBEZnNySWF6a29QR0tOdTVSWXliTnJub0ZtTlYxc0h1Q2FGSlRibS1vWGEzQnQ0?oc=5",
+      "source": "경기종합뉴스"
     }
   ],
   "dropped": {
@@ -50084,27 +50168,27 @@
       "\"커피 한 잔에 99원\"…남양유업, 가성비 스틱커피 시장 공략",
       "남양유업, 스틱당 99원 커피 출시... 저가 제품군 확대",
       "커피값 줄줄이 오르는데, 남양유업 '99원' 꺼낸 속내는",
-      "\"커피 한 잔 99원\"…990원 컵커피 재미 본 남양유업 또 승부수",
       "남양유업, '스틱당 최저 99원' 아메리카노 2종 출시",
-      "남양유업, 스틱당 99원 ‘프렌치카페 데일리 아메리카노’ 출시",
+      "신동희 의원, 물 절약·재이용 정책 제안 “공공부문이 먼저 실천해야”",
       "남양유업, 스틱당 최저 99원 커피 선봬",
       "[제약 Weekly]HLB제약, 주가 급락에 조달액 반토막…유증 608억 마무리",
-      "[뉴스워커_남양유업] 한 잔 99원 스틱커피 나왔다…‘실속형 커피’ 라인업 확대",
-      "2026 아이치·나고야 AG D-1… 한눈에 보는 ‘골든데이 캘린더’",
+      "\"커피 한 잔 99원\"…990원 컵커피 재미 본 남양유업 또 승부수",
       "[인터뷰] 이계철 의장 “말보다 실천, 약속보다 결과…시민에게 답하는 의회 만들겠다”",
-      "남양유업, 스틱커피도 실속형…99원대 '프렌치카페 데일리 아메리카노' 2종 출시",
-      "서천군청 육상팀, 전국실업단대항육상경기대회 종합우승",
-      "1200억 유증 반토막 난 HLB제약…신공장에 사실상 '올인'"
+      "[뉴스워커_남양유업] 한 잔 99원 스틱커피 나왔다…‘실속형 커피’ 라인업 확대",
+      "1200억 유증 반토막 난 HLB제약…신공장에 사실상 '올인'",
+      "남양유업, 스틱당 99원 ‘프렌치카페 데일리 아메리카노’ 출시",
+      "최은희 위원장, “현장에서 듣고 대안까지”.. 생활밀착 의정의 모범",
+      "2026 아이치·나고야 AG D-1… 한눈에 보는 ‘골든데이 캘린더’"
     ]
   },
   "briefs": {
-    "all": "전체 기간 동안 [[w]]부정 기사 316건(7%)[[/w]] 중 안전 분야가 146건으로 압도적입니다. 행정(87건)과 산업경제(45건)를 합쳐도 안전의 절반에 미치지 못하는 수준으로, [[b]]부정 보도가 특정 분야에 집중[[/b]]되어 있습니다. 9월 16일 하루에만 22건이 집중되었으므로 해당 사건을 우선 점검하시기 바랍니다.",
-    "7": "최근 7일간 부정 기사는 46건으로, 이 중 안전이 22건을 차지하며 여전히 지배적입니다. 행정(11건)과 산업경제(7건)는 안전의 1/3~1/2 수준에 불과해 [[b]]안전 분야 보도 관리가 핵심[[/b]]입니다. 9월 16일의 22건 집중이 전체 통계에 여전히 영향을 미치고 있습니다.",
-    "30": "최근 30일 [[w]]192건의 부정 기사(6%)[[/w]] 중 안전(96건)이 전체의 절반을 차지합니다. 행정과 산업경제의 부정 기사는 각각 47건, 25건으로 [[b]]안전 외 분야는 상대적으로 분산[[/b]]되어 있습니다. 단일 사건인 9월 16일(22건)의 임팩트가 크므로, 해당 안건의 후속 보도 추이를 집중 모니터링하시기 바랍니다."
+    "all": "수집 기간 전체 [[w]]부정기사 316건(7%)[[/w]] 중 안전 분야가 146건으로 절반 가까이 차지하고 있으며, 행정 87건, 산업경제 45건으로 뒤따릅니다. 특히 2026-09-16에 22건이 집중되어 해당 날짜의 안전 관련 보도를 먼저 검토할 필요가 있습니다.",
+    "7": "최근 7일간 [[w]]부정기사 46건(6%)[[/w]] 중 안전이 22건으로 거의 절반을 차지하며 안전 분야의 집중도가 높습니다. 행정 11건, 산업경제 7건과 비교할 때 [[b]]특정 분야에 편중된 양상[[/b]]을 보이고 있습니다.",
+    "30": "최근 30일 [[w]]부정기사 192건(6%)[[/w]]에서 안전이 96건으로 절반을 차지해 [[b]]지속적으로 한 분야에 집중[[/b]]되어 있습니다. 9월 16일의 22건 집중 외에도 안전 분야 보도 동향을 지속적으로 모니터링해야 합니다."
   },
-  "briefs_updated": "2026-09-19 08:13",
+  "briefs_updated": "2026-09-19 10:06",
   "issues": {
-    "updated": "2026-09-19 08:13",
+    "updated": "2026-09-19 10:06",
     "items": [
       {
         "label": "최은희 화성시의회 보건복지위원장, 시립화성 실버드림센터 준공 전 외벽 색상·운영계획 바로잡아야",
@@ -50198,7 +50282,7 @@
     ]
   },
   "today": {
-    "updated": "2026-09-19 08:13",
+    "updated": "2026-09-19 10:06",
     "items": [
       {
         "label": "화성 정남면 자원순환시설서 화재…대응 1단계 발령",
@@ -50254,7 +50338,7 @@
     "surge": []
   },
   "ops": {
-    "runs": 75,
+    "runs": 77,
     "days": 35,
     "since": "2026-08-15",
     "last": "2026-09-19",
@@ -50275,19 +50359,19 @@
     "note": "팀원 다섯 명이 기사 100건을 나눠 검수한 결과. 겹친 구간에서 한 사람이라도 「틀림」이라 했으면 틀린 것으로 셌다. 너그럽게 세면 분야 95%·긍부정 87%가 된다."
   },
   "keyword_notes": {
-    "updated": "2026-09-19 08:13",
+    "updated": "2026-09-19 10:06",
     "window": "최근 30일",
     "items": {
-      "동탄": "377건의 압도적 보도량 중 [[w]]35건의 부정기사[[/w]]가 전세 문제, 철도 형평성 논란, 교통 사고 등으로 나타나고 있으며, 산업경제 분야(253건)에서 시장 수급 관심이 집중되고 있습니다.",
-      "부동산": "90건 중 [[w]]부정기사는 2건[[/w]]에 불과하나, 삼성전자 영향으로 인한 동탄 집값 급등과 평택 신도시와의 대조가 핵심 이슈로 다뤄지고 있습니다.",
-      "화성시": "[[b]]긍정 기사 52건으로 호평이 우세[[/b]]하나, [[w]]옹벽 붕괴와 경찰서 부족[[/w]]이 지적되고 있어 기반시설과 안전 관련 제도 개선이 필요한 상황입니다.",
-      "문화행사": "70건 전량 긍정(부정 0건)으로 [[b]]문화관광 분야의 성과가 가장 우수[[/b]]하며, 시민 호응도가 높은 것으로 평가됩니다.",
-      "복지": "53건의 긍정 보도로 복지 정책이 호응을 얻고 있으나, [[w]]1건의 부정기사에서 생존 지원 관련 미흡함[[/w]]이 제기되어 취약계층 지원 강화가 요구됩니다.",
-      "동탄역": "55건 중 [[w]]3건이 만취운전 교통사고로 보도[[/w]]되어 역세권 교통안전 대책이 담당자의 관심 대상이며, 긍정 기사(31건)도 상당하므로 안전성 강화를 통한 이미지 개선이 필요합니다.",
-      "분양": "55건 전량 중립 이상(부정 0건)으로 [[b]]분양 사업 관련 언론 평가가 객관적[[/b]]이며, 실질적인 주택 공급 뉴스로 긍정 기사 20건이 보도되고 있습니다.",
-      "향남": "53건 중 [[w]]염분 오염, 행정 혼란, 옹벽 안전 문제 4건[[/w]]이 나타나 환경과 인프라 관리 개선이 시급한 지역으로 인식되고 있습니다.",
-      "의회": "45건 중 대부분 중립적으로 보도되며, [[w]]위원장의 준공 관련 지적 1건[[/w]]을 제외하고는 의회 활동이 순조롭게 진행 중인 것으로 나타납니다.",
-      "추석": "45건이 전량 긍정(부정 0건)으로, [[b]]복지 분야 중심의 추석 특별 지원이 호평[[/b]]받고 있어 시민 체감도 높은 정책 사례로 활용 가능합니다."
+      "동탄": "377건의 압도적 보도량 중 [[w]]35건의 부정기사[[/w]]가 전세 시장 부진, 철도 형평성 논란, 교통사고 등으로 나타나고 있으며, [[b]]산업경제 분야(253건)에서의 높은 관심[[/b]]을 고려할 때 부동산 시장 심화 모니터링이 필요합니다.",
+      "부동산": "긍정 기사(19건) 대비 [[w]]부정 기사(2건)[[/w]]의 비중은 낮지만, 삼성전자 영향으로 인한 집값 급등과 계약금 환수 사례 등 시장 과열 우려가 산업경제 뉴스(86건)의 핵심 프레임임을 인식해야 합니다.",
+      "화성시": "[[b]]긍정 기사(52건)가 우세[[/b]]하나 [[w]]부정 기사(5건)[[/w]]에서 옹벽 붕괴, 경찰서 부족 등 인프라 문제가 반복 지적되고 있어, 행정(36건) 영역의 취약점 보완이 중요합니다.",
+      "문화행사": "70건 중 61건이 긍정 보도로 [[b]]가장 우호적인 평가[[/b]]를 받고 있으며, [[w]]부정기사가 0건[[/w]]인 만큼 지속적인 문화행사 추진으로 긍정 이미지 강화를 이어가시기 바랍니다.",
+      "복지": "53건의 높은 긍정률에도 불구하고 [[w]]1건의 부정기사[[/w]]에서 '생존을 향한 절규'라는 강한 표현의 비판이 제기되었으므로, 복지 정책의 실질적 효과성 입증이 필요합니다.",
+      "동탄역": "31건 긍정에도 [[w]]3건의 부정기사[[/w]]가 모두 교통사고 관련으로 집중되어 있어, 교통 안전 강화 및 보안 대책 개선의 가시적 성과 홍보가 중요합니다.",
+      "분양": "[[b]]부정기사 0건[[/b]]으로 중립적 보도 분위기이나, 부동산 시장 전반의 경색 속에서 분양 뉴스(54건)의 공급자 입장 중심 프레임 검토가 필요합니다.",
+      "향남": "28건의 긍정에 비해 [[w]]4건의 부정[[/w]]이 염분 오염, 동 전환 갈등, 옹벽 균열 등 환경·안전 이슈로 나타나고 있어, 신도시 개발 과정에서의 생활 민원 대응을 강화해야 합니다.",
+      "의회": "11건의 낮은 긍정도와 [[w]]1건의 부정기사[[/w]]에서 의회의 견제 기능이 부각되고 있으므로, 행정(25건)과의 협력 사례를 더욱 적극적으로 알릴 필요가 있습니다.",
+      "추석": "32건의 높은 긍정률에 [[w]]부정기사 0건[[/w]]으로 명절 복지 정책이 좋은 평가를 받고 있으니, 이러한 성과를 지속 가능한 복지 사업 홍보로 연결하면 좋겠습니다."
     }
   }
 }
