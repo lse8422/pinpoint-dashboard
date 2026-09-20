@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-20 07:54",
+  "updated": "2026-09-20 09:57",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 3632,
+  "count": 3648,
   "items": [
     {
       "date": "2026-08-02",
@@ -50785,6 +50785,20 @@
       "source": "필드뉴스"
     },
     {
+      "date": "2026-09-19",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "주일, 전국 대체로 맑지만 일교차 커…수도권 곳곳 행사, 동탄서 '연근 마켓'",
+      "summary": "동탄에서 연근 마켓 등 주말 행사가 개최될 예정이다.",
+      "kw": [
+        "동탄",
+        "시장행사",
+        "주말행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9LRzlsYWVuRnk4V3dWN3hhTHJGTGZDbWtwS0FFQnhWM3Yyc19yTVV3bGhuZlV1dWhqZzJJdlBBS2ZYRVdBV2V3OEh5WWlIel9wWVYxLWlUYXRGME1iWTZOcHVfalpYUk16T0Q1YmVB?oc=5",
+      "source": "이슈밸리"
+    },
+    {
       "date": "2026-09-20",
       "cat": "문화관광",
       "senti": "긍정",
@@ -50853,42 +50867,252 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ZVERzNXFUbG4xLS14SzJvUmJobm90aGlWbG14RG5XWHBsU1ZyQjlWX3J0OUNmVlZKNjEtdnpYNjM0NHd0Y2NOMHFDUktpZUZsaC11SEk5VVUyQ19IZDlteA?oc=5",
       "source": "아시아경제"
+    },
+    {
+      "date": "2026-09-20",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시 병점구, '2026 병점구 행복 콘서트' 성료",
+      "summary": "화성시 병점구에서 2026 병점구 행복 콘서트를 성공적으로 개최했다.",
+      "kw": [
+        "병점구",
+        "행복콘서트",
+        "문화행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9RZTJidGNjSUV5WVR2YzE3eTQ5S0NvclNxLXVSRG1iMWRZcEZIMkNSUDZvVXFYZHB2Sy1SMjBKMTdvWk1lMEF1dGdldHdFQW5zY0tQRDR6anByUGd6b1pBYmZVOTFWcTdEbzN4V1FsS3M?oc=5",
+      "source": "인천일보"
+    },
+    {
+      "date": "2026-09-20",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "【발행인논설】 침묵하는 지역 정치권, 향남읍 동 전환, 주민 앞에 입장 밝혀라",
+      "summary": "향남읍 동 전환에 대해 지역 정치권의 입장 표명을 촉구하는 논설이다.",
+      "kw": [
+        "향남읍",
+        "동전환",
+        "지역정치"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBmUDRqZXdxYzVUbzBSUjR0UjhkZmttejVoMjRXd0ZHWVFNZDFXWlRmNDI4c25lcHUxemdGeVdOSnAxb2Fa?oc=5",
+      "source": "화성 투데이"
+    },
+    {
+      "date": "2026-09-20",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성특례시 향남읍 지역사회보장협의체, 저소득 한부모가정 한가위 꾸러미 지원 > 뉴스",
+      "summary": "화성특례시 향남읍 지역사회보장협의체가 저소득 한부모가정을 위한 한가위 꾸러미를 지원했다.",
+      "kw": [
+        "향남읍",
+        "한부모가정",
+        "추석지원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE91azhSaDU4VVJDTlVYR25iQ1ZOU2o3VVBqb3M5ZmZaSWdGZV9DXy1pRm1Zb1htUDJrWTZ1NlhmQVcxdmFNMVM0SENnX1I4TUFGaS1tS0V4SkxUVWcyOEtFQS1TSGRsazYtM3pQM0NJczc?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-09-20",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성특례시 병점구, 2026 모두의 행복 콘서트 성황리 개최 > 뉴스",
+      "summary": "화성특례시 병점구의 2026 모두의 행복 콘서트가 1만5천여 시민이 참석하며 성공적으로 개최되었다.",
+      "kw": [
+        "병점구",
+        "행복콘서트",
+        "시민행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1zU2gyQTFHZVFnUGh4alpZWG5sZTZQdlFRV2tqZk5HNG12VmtkMlktTDNrZnItbFpBUkhudGZ1Ty1vUkpWQ3dpRHFncmNRUnNCV3RpUzA0NDhfcXBoTGc2QTNsS1VQVWNiYWdaT2hPVk0?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-09-20",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성특례시 만세구 향남읍 지역사회보장협의체, ‘한가위 꾸러미’ 지원",
+      "summary": "화성특례시 만세구 향남읍 지역사회보장협의체가 저소득층을 위한 한가위 꾸러미를 지원했다.",
+      "kw": [
+        "향남읍",
+        "추석지원",
+        "복지"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9QVGlOcEZfamF2eVNXZUNrSHhlQnJUeDl2aWd5cTJaZEE4d0xxeXZRdXNWd09vTWdUS0tiYlZ1QkFSOGNoYUNNMzNKM2hKbHdVSE1pVC1KZFlrZ1diNWxzZ1lOQzFQTmd0Q0NN0gFrQVVfeXFMT1BUaU5wRl9qYXZ5U1dlQ2tIeGVCclR4OXZpZ3lxMlpkQTh3THF5dlF1c1Z3T29NZ1RLS2JiVnVCQVI4Y2hhQ00zM0ozaEpsd1VITWlULUpkWWtnV2I1bHNnWU5DMVBOZ3RDQ00?oc=5",
+      "source": "뉴스잡"
+    },
+    {
+      "date": "2026-09-20",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성특례시 팔탄면에 한우불고기·삼계탕 기부 이어져",
+      "summary": "화성특례시 팔탄면에 한우불고기와 삼계탕 기부가 계속되고 있다.",
+      "kw": [
+        "팔탄면",
+        "기부",
+        "지역경제"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Dc3o3OWpObkFXeEpKLTBGano4ZWlwX1FISkxGVnBWYnhueVo1c0FWNkRGTFFhVFdoUUlMZ0hjZ1hSbkJFM0wwN3B1a1Z3N1Etc0lSN0pabnJIVUZYamZuMTRNbkVMVmxK0gFrQVVfeXFMTVRtdnBsMzBkLU9PYmw5YmV6VnhVcUo4b3VpbFBfeEplZHR3eXFDSmdpN3FwWXVWdk5jeWpvYktJS0lLTUZZYkhlQXA5LURpSmhhZFZUc19qNEJjSlpiV0Mzb2RZOUpZZUswbms?oc=5",
+      "source": "뉴스잡"
+    },
+    {
+      "date": "2026-09-20",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "동탄구보건소, 치매극복의 날 기념 치매강좌 및 걷기 행사이 개최 > 뉴스",
+      "summary": "동탄구보건소가 치매극복의 날을 기념해 치매강좌와 걷기 행사를 개최했다.",
+      "kw": [
+        "동탄구",
+        "치매극복",
+        "보건"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5IX29MY3hZR2Z3TjZCQ3o1QnB4OExTU2RRUFF2VmhDbXFXLUZXS1hoalJNTWpGdDdPUmlPQTR1eXluelNjQjUxNU9uZFkydHZBVnlMME9CeW54OFFTT0VreDhHTHV3OE52WERNMDg3NnY?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-09-20",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성특례시 병점구, ‘2026 모두의 행복 콘서트’ 성료...1만5천여 시민 환호",
+      "summary": "화성특례시 병점구의 2026 모두의 행복 콘서트가 1만5천여 시민이 참석하며 성료했다.",
+      "kw": [
+        "병점구",
+        "행복콘서트",
+        "시민행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9ncEVZTXpfQUROUlA4V3IyU1ZBZ3QxTmg1WmQyaW9ydHVxTmZrOVVwdS1qUmxueUFmWkx1OE9XN0ZfWEtlbW1nMkRtVGJqaXBZeE5KbzhtNHZqVjI1S0pNdXcxUnZEUHExLXg00gFrQVVfeXFMT2dwRVlNel9BRE5SUDhXcjJTVkFndDFOaDVaZDJpb3J0dXFOZms5VXB1LWpSbG55QWZaTHU4T1c3Rl9YS2VtbWcyRG1UYmppcFl4TkpvOG00dmpWMjVLSk11dzFSdkRQcTEteDQ?oc=5",
+      "source": "뉴스잡"
+    },
+    {
+      "date": "2026-09-20",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "화성특례시 동탄구보건소, 치매극복의 날 기념 치매강좌·한마음 치매극복 걷기 개최",
+      "summary": "화성특례시 동탄구보건소가 치매극복의 날을 기념해 강좌와 걷기 행사를 개최했다.",
+      "kw": [
+        "동탄구",
+        "치매극복",
+        "보건소"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wcFgtcWV6bzk2bjVfQy00M0VCM09VSGF2dFpYQ1BPSi1zU1p6NzdDLVBqQnZ0U0VLYk9wdWhwUFVaR2U5Q1YzZ2Z2aEM4WkhVR2dRNmtKRW1WREIwMGJZdGROLWJXT0FC0gFrQVVfeXFMT1FLbzRqSWl4VGl6Q1d0aEROelNPcTRXbF9HbXJRTzl6TThScGkxbzVTYm1hOTk3d2dRYkxyOUFSY0xfcXBVaWtiNzZvUEQ5QWJiSmloZkhXVlpCSFhnOHlPQlBYMGFTbGNMcVU?oc=5",
+      "source": "뉴스잡"
+    },
+    {
+      "date": "2026-09-20",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "“시민과 함께 웃고 노래한 밤”…화성 병점구, 1만5천여 명 음악으로 하나됐다",
+      "summary": "화성 병점구에서 1만5천여 명이 참석한 음악 행사가 성공적으로 개최되었다.",
+      "kw": [
+        "병점구",
+        "음악행사",
+        "시민참석"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1QZGlJOHQ3M0Z5VTFRWm53am1tck1kQ1VTa3EtbkZBQmc2ZE43ZHRWWl9OWi1HVzhUekZzNjlITHo3YWVXQkVfbGEyVFpqa1M4bGFzNkVyTG5pSEZPWmZxVmFySFVBSnVINWthTnZB?oc=5",
+      "source": "투어코리아"
+    },
+    {
+      "date": "2026-09-20",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "화성특례시 병점구보건소, 안용파출소 치매극복선도기관 지정해 치매안전망 강화 > 뉴스",
+      "summary": "화성특례시 병점구보건소가 안용파출소를 치매극복선도기관으로 지정해 안전망을 강화했다.",
+      "kw": [
+        "병점구",
+        "치매안전망",
+        "보건소"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5zMGxYajh5am53UUxmTk4wLVVWOE9TSzZCRVlDX3RabHRqMVpkQk1ZVHVnc0ZYbzZjYVNHdVQ3bUQ5OE4ydkZna1hVT3NYc2VuNHlHdnhqWk9SWmRYR214Rk9pUUEwdVlSSmxTTDdwRFQ?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-09-20",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성특례시 병점구보건소, 안용파출소 ‘치매극복선도기관’ 지정...치매안전망 강화",
+      "summary": "병점구보건소와 안용파출소가 치매극복선도기관으로 지정되어 치매안전망이 강화된다.",
+      "kw": [
+        "치매",
+        "보건소",
+        "안전망"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE02eXFROUpzbXpkdzM2NUVaR1h6WThfYVpKZ1pESGZSNzNnb1VhVVZLRDlhNnNaVzNhSU5CTE50VXhrSjN0RXNIaGNqUm9Jdk5UQ2pXbUV6UEczc1RMS0ZhM1ZMUXpFYVA10gFrQVVfeXFMTTdQTzd1dTAwRXFUdlczWHdwMmtLM0Yzem00Yl9fdVVmMHdzUjd6ME0xTTdXNkhoQWVJMkFydWlXc1FuU0NmVGt3ZVVkTmR4LXVmc01kOXI2QlROMlktUnNPUlVsdlk2clI0cTg?oc=5",
+      "source": "뉴스잡"
+    },
+    {
+      "date": "2026-09-20",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성특례시의회, 전국 e스포츠대회 개회식 참석",
+      "summary": "화성특례시의회가 전국 e스포츠대회 개회식에 참석했다.",
+      "kw": [
+        "e스포츠",
+        "의회",
+        "개회식"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1FZ1pYLUNkaUNYQ25SeThpbDAzNklEOWREMGhTM3BPODZSX1FSQTg5djRzRHBaUERLMjVaalZHbUVjMU9OQXZkUnNGdFFwcWI5dnEwb2hUNDlaU0J1OXZOUGlObE5HSWM10gFrQVVfeXFMTUl6SFo0bUN0dmJsUTZTaUExRUdLbzJXTEc3MlBZRVplLVBhM2FadW9XeXA2STl2QV8wWjVFQVdwWDJfVWxBX3lxWllMQktPY2FUNmZaZnNNdlRHd0hHV0ZCeTYtRGFEYl9LeDQ?oc=5",
+      "source": "뉴스잡"
+    },
+    {
+      "date": "2026-09-20",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성특례시, ‘2026 전국 장애인 e스포츠대회’ 성황리 개최",
+      "summary": "화성특례시에서 2026년 전국 장애인 e스포츠대회를 성황리에 개최했다.",
+      "kw": [
+        "장애인",
+        "e스포츠대회",
+        "개최"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5EX0pJSmxvN2hXSlc5LUczVXNHZ2JyTmdRYTdWbDBwZi15Z2J0bm8zR0dRMDh6UmRYX0EtNUh6Y095a29HXzI1U0FCZ3M0MGpOcmlTS29QTThqRDNFRWswNFQxbjhaWURz0gFrQVVfeXFMTjdQRVFDQWVkUi1Na0xsRjRiTUFfQjVsSURMV3QtTzNrMWN3RHR6d2M5Wnc2cmpTRU1UaFpuamt1Z0g4X2VyYkJ5UjhjcE9zTDFCMFpuaUJ5UHFBR1B3dmk2VmZybElTWWJuLVE?oc=5",
+      "source": "뉴스잡"
+    },
+    {
+      "date": "2026-09-20",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성특례시,‘2026년 청년의 날’ 기념행사 성황리 개최",
+      "summary": "화성특례시에서 2026년 청년의 날 기념행사를 성황리에 개최했다.",
+      "kw": [
+        "청년의날",
+        "기념행사",
+        "개최"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE54TXpDd0s1dFdPNkpRSTRFaS1qTkI1M1lSSGxNdnowSlJMTHVCOTR0UVlYT2dMSHp4OEZCQW5GdkhPSzZkYkh2QzN6a1Y1TllSVFRPU2s3aXQya2JXc3l0ZEV3UU93WjRV0gFrQVVfeXFMT1FCajBrWS02eXBld2NrZTVrZHZpdmxibWtGSHUwSEhLcHlOcVF0LUI2cXoxVTlLLWxWbGlSR2ZOWk50azRYVlZ5SVY0MnZXYUZzUXEyYjZIc0s4MXJqRHNiSl90WjNKSWtVUUE?oc=5",
+      "source": "뉴스잡"
     }
   ],
   "dropped": {
-    "count": 50,
+    "count": 40,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
       "경기도 ‘똑버스’의 배신...“예산 수백억 쓰는데 30분 대기”",
       "\"매탄동에도 철도를\"…수원특례시의회 배지환 의원, 국회서 경기남부광역철도 '신매탄사거리역' 제안",
       "\"커피 한 잔도 부담\"…남양유업, '스틱당 99원' 커피 내놨다",
-      "경기남부광역철도 국가계획 반영·신분당선 요금인하 촉구",
-      "남양유업, '스틱당 최저 99원' 아메리카노 2종 출시",
       "“99원 스틱커피”…남양유업, '프렌치카페 데일리 아메리카노' 2종 출시",
-      "남양유업, ‘프렌치카페 데일리 아메리카노’ 출시…스틱커피도 실속형",
+      "경기남부광역철도 국가계획 반영·신분당선 요금인하 촉구",
       "\"커피 한 잔 99원\"…990원 컵커피 재미 본 남양유업 또 승부수",
       "\"커피 한 잔에 99원\"…남양유업, 가성비 스틱커피 시장 공략",
-      "남양유업, 스틱당 99원 커피 출시... 저가 제품군 확대",
-      "추석 앞두고 기초생활수급 가구에 10만원 명절위로금",
       "나이키 ‘알파플라이 4’‧남양유업, ‘99원 스틱커피’ 외 [나왔다 신상]",
-      "남양유업, 스틱당 최저 99원 ‘데일리 아메리카노’ 출시 - 조선비즈",
-      "[단독] \"안전이라는 이름 앞에 타협은 없다\"… 문봉균 서장·이택구 구청장의 소름 돋는 '디테일’",
+      "남양유업, 스틱당 99원 커피 출시... 저가 제품군 확대",
       "커피값 줄줄이 오르는데, 남양유업 '99원' 꺼낸 속내는",
-      "포토뉴스",
       "남양유업, 스틱당 99원 ‘프렌치카페 데일리 아메리카노’ 출시",
+      "추석 앞두고 기초생활수급 가구에 10만원 명절위로금",
+      "남양유업, ‘프렌치카페 데일리 아메리카노’ 출시…스틱커피도 실속형",
+      "[똑똑한한끼] 맥도날드, 아워홈, 이디야커피, 남양유업, 현대그린푸드, 이지화이트 브레드",
+      "남양유업, ‘99원 스틱커피’ 출시…실속형 ‘프렌치카페’ 라인업 확대",
+      "[신상품] 아워홈 ‘쌀떡 품은 보름달 떡갈비’ 남양유업, ‘99원 스틱커피’",
       "최은희 위원장, “현장에서 듣고 대안까지”.. 생활밀착 의정의 모범",
-      "남양유업, 스틱당 99원 커피 선 봬…실속형 제품 확대",
-      "[오늘의신상]\"100원도 안 되는 스틱커피\"…남양유업, '프렌치카페 데일리 아메리카노'"
+      "남양유업, 스틱커피도 ‘99원’ 물가에 실속형 승부수",
+      "신동희 의원, 물 절약·재이용 정책 제안 “공공부문이 먼저 실천해야”",
+      "남양유업, 스틱당 최저 99원 커피 선봬"
     ]
   },
   "briefs": {
-    "all": "전체 기간 [[w]]부정 기사 321건(7%)[[/w]] 중 안전 분야가 147건으로 압도적이며, 행정 90건, 산업경제 45건으로 안전 분야에 [[b]]부정 보도가 집중[[/b]]되어 있습니다. 9월 16일에 22건이 몰려 발생했으므로 해당 날짜의 안전 관련 이슈부터 확인하시기 바랍니다.",
-    "7": "최근 7일간 [[w]]부정 기사는 47건(6%)[[/w]]으로, 안전 분야 21건이 전체의 절반 가까이를 차지합니다. 9월 16일 집중 발생분이 여전히 영향을 미치고 있으므로 [[b]]해당 날짜의 안전 이슈 재검토[[/b]]가 우선입니다.",
-    "30": "최근 30일 [[w]]부정 기사 190건(6%)[[/w]] 중 안전이 91건으로 절반을 넘으며, 행정(50건)은 4분의 1 수준입니다. 단일 날짜인 9월 16일에 22건이 발생한 점으로 보아 [[b]]특정 안전 사안이 지속적인 언론 관심의 대상[[/b]]이 되고 있습니다."
+    "all": "수집 기간 전체 [[w]]부정 기사 321건(7%)[[/w]] 중 안전 분야가 147건으로 압도적이며, 행정 90건, 산업경제 45건으로 뒤따릅니다. [[b]]안전 분야에 부정 보도가 집중[[/b]]되어 있어 해당 분야 보도 동향 점검이 우선입니다.",
+    "7": "최근 7일간 [[w]]부정 기사 47건(6%)[[/w]]의 대부분이 9월 16일에 발생했으며, 그 중 안전 관련이 18건입니다. [[b]]단일 날짜에 부정 보도가 집중[[/b]]된 만큼 해당 일자의 안전 이슈를 먼저 확인할 필요가 있습니다.",
+    "30": "최근 30일 [[w]]부정 기사 190건(6%)[[/w]]에서 안전(91건)과 행정(50건)이 전체의 74%를 차지합니다. 안전 분야의 부정 보도가 [[b]]행정의 거의 2배 수준[[/b]]으로, 이 두 분야에 대한 집중적인 모니터링이 필요합니다."
   },
-  "briefs_updated": "2026-09-20 07:54",
+  "briefs_updated": "2026-09-20 09:57",
   "issues": {
-    "updated": "2026-09-20 07:54",
+    "updated": "2026-09-20 09:57",
     "items": [
       {
         "label": "최은희 화성시의회 보건복지위원장, 시립화성 실버드림센터 준공 전 외벽 색상·운영계획 바로잡아야",
@@ -50982,7 +51206,7 @@
     ]
   },
   "today": {
-    "updated": "2026-09-20 07:54",
+    "updated": "2026-09-20 09:57",
     "items": [
       {
         "label": "화성 정남면 자원순환시설서 화재…대응 1단계 발령",
@@ -51038,7 +51262,7 @@
     "surge": []
   },
   "ops": {
-    "runs": 78,
+    "runs": 80,
     "days": 36,
     "since": "2026-08-15",
     "last": "2026-09-20",
@@ -51059,19 +51283,19 @@
     "note": "팀원 다섯 명이 기사 100건을 나눠 검수한 결과. 겹친 구간에서 한 사람이라도 「틀림」이라 했으면 틀린 것으로 셌다. 너그럽게 세면 분야 95%·긍부정 87%가 된다."
   },
   "keyword_notes": {
-    "updated": "2026-09-20 07:54",
+    "updated": "2026-09-20 09:57",
     "window": "최근 30일",
     "items": {
-      "동탄": "377건의 압도적 보도량 중 산업경제 분야(253건)가 주도하고 있으나, [[w]]35건의 부정 기사[[/w]]에서 전세난, 철도공단 형평성 논란 등 주거 문제가 반복 지적되고 있어 주의 깊은 모니터링이 필요합니다.",
-      "부동산": "부정 기사 비중은 매우 낮으나(2건), 삼성전자 직원 수급으로 인한 집값 급등과 평택 신도시와의 시장 이탈 현상이 보도되고 있어 시장 안정성 관련 커뮤니케이션을 고려해야 합니다.",
-      "문화행사": "73건 중 [[b]]부정 기사 0건[[/b]]으로 긍정 비중(63건)이 가장 높으며, 문화관광 분야의 일관된 호평 사례로 향후 홍보의 강점으로 활용할 수 있습니다.",
-      "복지": "69건 중 긍정 기사(55건)가 주류이나, [[w]]1건의 부정 기사[[/w]]에서 '아이 보호' 관련 시정 미흡 지적이 있어 아동복지 정책 강화 필요성이 제기되고 있습니다.",
-      "화성시": "68건의 행정 뉴스 중 [[w]]5건의 부정 보도[[/w]]가 경찰서 부족, 옹벽 붕괴 등 기반시설 관련 이슈로 집중되어 있어 안전 및 인프라 확충 추진 상황을 적극 홍보할 필요가 있습니다.",
-      "향남": "56건 중 [[w]]5건의 부정 기사[[/w]]가 농지 염분 오염, 동 전환 갈등, 옹벽 균열 등으로 환경·기반시설 문제가 복합적으로 나타나고 있어 지역 민원 해결 현황 공시가 중요합니다.",
-      "분양": "54건 모두 산업경제 분야이며 [[b]]부정 기사 0건[[/b]]으로 분양 소식에 대한 중립적 보도 환경이 조성되어 있어 긍정적 프로젝트 진행 상황을 지속 알릴 수 있는 기회입니다.",
-      "의회": "47건의 의회 뉴스 중 [[w]]1건의 부정 기사[[/w]]만 있으나, 시설 준공 관련 지적사항이 언급되고 있어 실버드림센터 등 주요 사업 완수 과정의 투명한 정보 공개가 필요합니다.",
-      "추석": "45건 중 [[b]]부정 기사 0건[[/b]]으로 긍정 기사(32건)가 절대 우위를 차지하고 있어, 명절 관련 복지 정책과 지역 행사의 성공적 운영이 일관되게 호평받고 있는 상황입니다.",
-      "화재": "44건 중 [[w]]30건이 부정 기사[[/w]]로 안전 분야 최악의 비중을 보이고 있으며, 동탄 지역의 반복적 화재 사고가 지적되고 있어 화재 예방 및 대응 강화 현황을 투명하게 공개해야 합니다."
+      "동탄": "378건의 압도적 기사량 중 [[b]]산업경제(253건)[[/b]]가 주를 이루며 긍정 평가(151건)가 우세하나, [[w]]전세 및 주택 공급, 철도 형평성 문제 등 35건의 부정 기사[[/w]]가 지속적으로 제기되고 있습니다.",
+      "부동산": "88건 중 부정 기사가 [[w]]2건에 불과[[/w]]하나, 삼성전자 영향으로 인한 동탄 집값 변동성과 계약 이행 문제가 시장 신뢰도에 영향을 미치는 상황입니다.",
+      "문화행사": "74건 기사 중 [[b]]부정 평가 0건으로 긍정률(86%)이 가장 높으며[[/b]], 문화관광 분야의 성공적인 대외 홍보가 이루어지고 있습니다.",
+      "복지": "70건 중 [[b]]긍정 평가 56건(80%)[[/b]]으로 높은 호응을 보이나, [[w]]생존 보장 관련 1건의 부정 기사[[/w]]에서 정책 사각지대 개선 필요성이 드러났습니다.",
+      "화성시": "68건의 보도에서 [[b]]긍정(46건) 대비 부정(5건)이 제한적[[/b]]이지만, 경찰서 부족, 옹벽 붕괴 등 기초 인프라 미비 문제가 반복되어 시정이 시급합니다.",
+      "향남": "56건 중 [[w]]부정 5건이 다루고 있는 염분 오염, 행정수요 미충족, 옹벽 안전[[/w]] 문제들이 동 전환과 맞물려 지역 민원의 핵심 쟁점입니다.",
+      "분양": "54건의 보도가 모두 [[b]]산업경제 분야에 집중[[/b]]되었으며 부정 기사 0건으로, 분양 사업에 대한 시장의 중립적 또는 긍정적 평가가 유지되고 있습니다.",
+      "의회": "48건 중 [[b]]긍정 평가 13건으로 소수[[/b]]이며, [[w]]실버드림센터 등 주요 정책에서 의회의 제동 움직임[[/w]]이 포착되어 협력 체계 강화가 필요합니다.",
+      "추석": "45건 모두 [[b]]부정 평가 0건으로 명절 관련 복지 정책이 언론에서 긍정적으로 평가[[/b]]되었으며, 특히 복지 분야 홍보 성과가 뚜렷합니다.",
+      "화재": "44건 모두 [[w]]부정 평가(30건) 중심의 안전 사건 보도[[/b]]로, 동탄 지역의 화재 다발로 인한 시민 불안감 해소를 위한 안전 대책 강화가 시급합니다."
     }
   }
 }
