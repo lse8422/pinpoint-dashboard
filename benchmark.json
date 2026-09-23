@@ -1,135 +1,54 @@
 {
- "collected": "2026-09-23",
+ "collected": "2026-09-24",
  "window": "최근 14일",
- "from": "2026-09-09",
- "to": "2026-09-23",
+ "from": "2026-09-10",
+ "to": "2026-09-24",
  "method": "구글 뉴스 RSS를 도시별 단일 검색어로 같은 날 같은 조건으로 수집하고, 같은 AI 모델·같은 지시문으로 분야와 긍부정을 판정했습니다. 기사 수는 수집 시점에 좌우되므로 비교에 쓰지 않고 부정 비율만 견줍니다. 분야별 값은 표본이 5건 이상인 분야만 담았습니다. 비율을 만든 부정 기사를 도시마다 최근 8건까지 함께 담았습니다.",
  "cities": [
   {
-   "name": "수원시",
-   "pop": 1190000,
-   "count": 63,
+   "name": "화성시",
+   "pop": 1000000,
+   "count": 87,
    "neg": 7,
-   "ratio": 11.1,
+   "ratio": 8.0,
    "cats": {
-    "안전": {
-     "count": 7,
-     "neg": 5
+    "행정": {
+     "count": 25,
+     "neg": 2
     },
-    "문화관광": {
-     "count": 21,
-     "neg": 0
+    "안전": {
+     "count": 10,
+     "neg": 3
     },
     "산업경제": {
      "count": 11,
-     "neg": 1
+     "neg": 0
+    },
+    "문화관광": {
+     "count": 11,
+     "neg": 2
     },
     "교통": {
-     "count": 1,
+     "count": 9,
      "neg": 0
-    },
-    "행정": {
-     "count": 13,
-     "neg": 0
-    },
-    "복지": {
-     "count": 6,
-     "neg": 0
-    },
-    "환경": {
-     "count": 4,
-     "neg": 1
-    }
-   },
-   "neg_items": [
-    {
-     "title": "전동휠체어 못 타는 ‘무장애 관광차량’ 지적에…수원시 “개선하겠다”",
-     "date": "2026-09-22",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE55MzRSZ2dSU25aQWRuUHdaZkEwMGZfT1V0dXRFdTE2b1licWUwOHVYLWlqSFN5Z0FkQWxZa3dUaS1iUFBldzJMbEtsQnByU0NxblhqRGlQTmQzc2lNTGtoMzZhZ1UyR1Q4?oc=5",
-     "source": "비마이너",
-     "cat": "안전"
-    },
-    {
-     "title": "\"양치하다 목 타들어 갈 뻔\"…‘시너 냄새’에 수원 5천 세대 단수",
-     "date": "2026-09-20",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oelRvUTlvRXh4dERjQVZrdlZDNzV1ZVlSVnlYSmUzbWU5RGV6dmlsbFFLTDl5c1NoNGR4UmF3eVd1WE1xY1ZFX3pwU0o2X0NQTVpQRw?oc=5",
-     "source": "JTBC",
-     "cat": "안전"
-    },
-    {
-     "title": "\"아파트 철거후 4년째 첫 삽도 못 떴다\" 수원 영통 재건축 장기표류 원인?",
-     "date": "2026-09-20",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBRUJhcmhZRE5abERNNUs3dm1jN1JVdFNoQVN6dlg2OGVpTWFUNVZTUzlFYllkRThYY1FTWXJQYkd0bElRZEVJdEVBeEpicEJKUDNCWDZET3ctdUVBYUxjeTlYdndReWJpRmphSV85M1lCVnhBbHdkYkFKV0JwZU3SAXNBVV95cUxQRDRmSjh2TmJLWXlpRHZGbUtRdDhxQm5SVk1qQThGajgtcWNrS0NIaDFRTktfUThkQ0JwWF9nWVNVQl9wanZiNkVjV1ZVRlRucFJ1MmRTMHJjYjFyVnhPY2E2S1NTRVpxR0JCV1FyTnZ6QWYw?oc=5",
-     "source": "땅집고",
-     "cat": "산업경제"
-    },
-    {
-     "title": "수원시 5천여 가구 아파트 단지서 단수 발생… 주민들 불편 겪어",
-     "date": "2026-09-20",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5nakNEQ3daTUNpX3p6VVRtV3hOLUFzQVJFNHNaNk5pT2t0bFY3T0Q4VHNWRHdrbjFRazR5eVJQSGFZbnp0R05QS1dFYmJuM0dfcXZ4S05HTG5OOUVmYk96b3RjblQtLXBMaXhSRnFiSQ?oc=5",
-     "source": "기호일보",
-     "cat": "안전"
-    },
-    {
-     "title": "수원 장안구 야산서 불…소방당국 진화 중",
-     "date": "2026-09-20",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA4VVRtODVPZ3NsREQxbk9nU0Z3Nm1VOUdZbC0zQXRVeU9Cck52X2sxMWE3WDM0V19vYmg5QkdPUlk1dTd4ckktbmU2MmYwSVFzM2xtOXNGRmFrMFHSAWBBVV95cUxPZV9Yc1VwalA1SFBOODB6bGpVTVZPaUhYai1fLWV4dmFfSXpHc3daQk0wMmtWUkZfTzJyNUpUdWZxYjNudmx0UEdiSE9feEQ5UlNHRmN2NktqVEQyRU9ZNVE?oc=5",
-     "source": "연합뉴스",
-     "cat": "안전"
-    },
-    {
-     "title": "“물은 나와도 쓰기 찜찜”…수원 한일타운 급수 재개에도 ‘생수 행렬’ [현장, 그곳&]",
-     "date": "2026-09-20",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE10MFZNQVpjS1VrNkFHeXZFSktPX3Q1Y3c3eXJhY0I4RUxGM0lYSW5IUi1wZHRwRU93cW45dGVfeTFYMFhNNkxOYlVfSndSelBYNHd1cGFMT0ZWLVk?oc=5",
-     "source": "경기일보",
-     "cat": "환경"
-    },
-    {
-     "title": "수원시 한 야산서 불…소방당국 진화에 나서",
-     "date": "2026-09-20",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5hZW0zOTdHVUtTNVh0WWdMTk9LR005cmJVSFVOQjVwRWhzVDI5MFVDb2dsenJUbExhRU1JNkk2R19FdDNSSkNnWm16T1Y4cmZ5dDJ5c1JtVHZuZ1ljT2RURnpJbVF4dXJaRWpKUTRCbw?oc=5",
-     "source": "기호일보",
-     "cat": "안전"
-    }
-   ]
-  },
-  {
-   "name": "화성시",
-   "pop": 1000000,
-   "count": 82,
-   "neg": 8,
-   "ratio": 9.8,
-   "cats": {
-    "안전": {
-     "count": 11,
-     "neg": 3
-    },
-    "행정": {
-     "count": 24,
-     "neg": 4
     },
     "복지": {
      "count": 17,
      "neg": 0
     },
-    "문화관광": {
-     "count": 13,
-     "neg": 1
-    },
-    "교통": {
-     "count": 8,
-     "neg": 0
-    },
-    "산업경제": {
-     "count": 5,
-     "neg": 0
-    },
     "환경": {
      "count": 4,
      "neg": 0
     }
    },
    "neg_items": [
+    {
+     "title": "화성시, 향남캠핑장 폐쇄 후 화성FC 연습구장 조성…캠핑족 반발",
+     "date": "2026-09-22",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9xZko3dklhODZycXM0RWdzdkNjOEJpM1c5SWVCX2lsLXMtaElIT25BWkdER1YwSG9TY0ZBVnNxSmtlelFsVjZDUTMxOE1RdXpyWTR5ZlBTN2J6S1XSAWBBVV95cUxPeE1OYmtLNGR5OFVHclNrSWJoeGl0Ty1UQWx1T3I0YTBpc0pQZ1NKTnk1RGVqYXVTSHRhNm9PeHUwWHB1MmtTOG1JUUVvQ0tMU0pfVnNSRlJyWklhYmoxOHE?oc=5",
+     "source": "연합뉴스",
+     "cat": "문화관광"
+    },
     {
      "title": "화성시 관광지 시설 모니터링 결과, 이동권·대중교통 접근성 여전히 취약",
      "date": "2026-09-22",
@@ -145,24 +64,10 @@
      "cat": "행정"
     },
     {
-     "title": "화성시인재육성재단 대표 임용 ‘절차 논란’ 속 인사청문회 실시",
-     "date": "2026-09-22",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9QaXFla0Y1bGctelVDUE5veGNDdzhxWGhnU2ZlcXNXMXdXUUJrUDZMQmxxRnNuVGRJQU1pdFN0UzlMOVNOUzJqNGplRk5UX045cW8zZXBTT2ZLS1RFLU9KLXB2bGt6U19kdkNJbUJBeVc?oc=5",
-     "source": "화성시민신문",
-     "cat": "행정"
-    },
-    {
      "title": "백년대계 놓친 화성시의회 신청사…'주차난' 피해는 시민 몫",
      "date": "2026-09-21",
      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBwOUl4alpSWFVIU2M4ME81SEo5RVRBZnpNcXpYTnpGV2dvQTZvRkg1YnBHMjB1U1YzaUV2WU5nX2NsNzNPOVlhQjdyZFNUbEhMUFVuVEFlSWxaYVA5WnRKckVB?oc=5",
      "source": "경기신문",
-     "cat": "행정"
-    },
-    {
-     "title": "화성시의회, 껍데기 계획서로 45일전 공개, 규칙까지 무력화하며 혈세해외여행 강행",
-     "date": "2026-09-20",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMEwySjlfRW5TSEFuMm80VmhKakxpelNTNFVBTjQ0OFNPRlVTU09ZalZOU0dfbml4UXNESXUxSF80a0VjYXc2Z0FJNlVhaHdhbFR3TDdjQXhGYXowOXF2N0lTMUpwVm5pcGtEX3FKcThsN24wTmpxRzRWN0lzSGI3aG9yNVBOaFFEOTJDRjFYc1NXZw?oc=5",
-     "source": "화성 투데이",
      "cat": "행정"
     },
     {
@@ -182,8 +87,82 @@
     {
      "title": "경기 화성시 자원순환시설에서 불...대응 2단계 발령",
      "date": "2026-09-16",
-     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1QemZreFNtbGt6N0VFNUlySFc5aUlqS1VteV83TjRlMG1LMnpPYm5ORGlRWEJ1YmlWM2hUM21RSUVpU2pZS2lMaDZQa0NXNElvLXNCY1Y1dm9EXzRnd2c?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ROGcxMGpvXy1TN1dHTDNfTUgwbnpMSzllRy1XOExLV20xdWc2VUd2S0RnRVFGRjRjRDJpczV1aHk0REFYRHZhNkxSend3cWRab0IyNnBrdWF1NzdxRkpFN2I0cHN3SjV3SUVyeEdOYw?oc=5",
      "source": "YTN",
+     "cat": "안전"
+    }
+   ]
+  },
+  {
+   "name": "수원시",
+   "pop": 1190000,
+   "count": 69,
+   "neg": 5,
+   "ratio": 7.2,
+   "cats": {
+    "문화관광": {
+     "count": 19,
+     "neg": 0
+    },
+    "행정": {
+     "count": 16,
+     "neg": 0
+    },
+    "교통": {
+     "count": 1,
+     "neg": 0
+    },
+    "산업경제": {
+     "count": 11,
+     "neg": 1
+    },
+    "복지": {
+     "count": 14,
+     "neg": 0
+    },
+    "안전": {
+     "count": 5,
+     "neg": 4
+    },
+    "환경": {
+     "count": 3,
+     "neg": 0
+    }
+   },
+   "neg_items": [
+    {
+     "title": "수원 도심에 뿌려진 검찰 서류 뭉치…경찰이 수거해 경위 조사",
+     "date": "2026-09-23",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9SZUV3S01ISmI1cXBRM2gzQ2hROW5DcjdrOGU0bHdsVkgxVmZpN1JEbVBUdDVJdE80QUstTk0xWFp2SXpIbFJmUlFoRk5zSEhSbkM2QWcyWTdJYTDSAWBBVV95cUxNQWJ1UXFTYXRaZXN4VmJhblk2Z0FkaTJ4VFp4QnZsNWJFOEFLSDdOOVpZUW85LVRVc3dGbC1yekJzTVlfT2gwLTNJYXlITldFQ01pUkVxX25EbHduU3hGdUc?oc=5",
+     "source": "연합뉴스",
+     "cat": "안전"
+    },
+    {
+     "title": "수원 도심에 흩날린 법원·검찰 서류 뭉치‥경찰 경위 파악중",
+     "date": "2026-09-23",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5UZTZHXzdxZFdnZUdoSXhBaTRCdmFuS0N6ZWcyMGJFU2VZRGFmMW84ZmZkaTZydzI1dm9hV1VTVTBsQnA4ZTBRdVpmcnNySzdtclNXYURsN3lnNUtzWG1vVERJQVlNZkZTRTNfbG1hN2dfdTJTUEsw0gF3QVVfeXFMUEFqbzZjX2lWWlhDdmZpSlVpSjF0MEN1b3dTQ3BWeFVmUmk0WjBueXEyYkJ6RmRNNkFWWWJPamM4ZWFGazltZWdqbGFQYnpMRlh1SGxtdmtUbGJpQWJEbzZMUHVMQ1RBWkZTZFZKSm9ZZ1ZoZ2Z4T1k?oc=5",
+     "source": "MBC 뉴스",
+     "cat": "안전"
+    },
+    {
+     "title": "전동휠체어 못 타는 ‘무장애 관광차량’ 지적에…수원시 “개선하겠다”",
+     "date": "2026-09-22",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE55MzRSZ2dSU25aQWRuUHdaZkEwMGZfT1V0dXRFdTE2b1licWUwOHVYLWlqSFN5Z0FkQWxZa3dUaS1iUFBldzJMbEtsQnByU0NxblhqRGlQTmQzc2lNTGtoMzZhZ1UyR1Q4?oc=5",
+     "source": "비마이너",
+     "cat": "안전"
+    },
+    {
+     "title": "\"아파트 철거후 4년째 첫 삽도 못 떴다\" 수원 영통 재건축 장기표류 원인?",
+     "date": "2026-09-20",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBRUJhcmhZRE5abERNNUs3dm1jN1JVdFNoQVN6dlg2OGVpTWFUNVZTUzlFYllkRThYY1FTWXJQYkd0bElRZEVJdEVBeEpicEJKUDNCWDZET3ctdUVBYUxjeTlYdndReWJpRmphSV85M1lCVnhBbHdkYkFKV0JwZU3SAXNBVV95cUxQRDRmSjh2TmJLWXlpRHZGbUtRdDhxQm5SVk1qQThGajgtcWNrS0NIaDFRTktfUThkQ0JwWF9nWVNVQl9wanZiNkVjV1ZVRlRucFJ1MmRTMHJjYjFyVnhPY2E2S1NTRVpxR0JCV1FyTnZ6QWYw?oc=5",
+     "source": "땅집고",
+     "cat": "산업경제"
+    },
+    {
+     "title": "“물은 나와도 쓰기 찜찜”…수원 한일타운 급수 재개에도 ‘생수 행렬’ [현장, 그곳&]",
+     "date": "2026-09-20",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE10MFZNQVpjS1VrNkFHeXZFSktPX3Q1Y3c3eXJhY0I4RUxGM0lYSW5IUi1wZHRwRU93cW45dGVfeTFYMFhNNkxOYlVfSndSelBYNHd1cGFMT0ZWLVk?oc=5",
+     "source": "경기일보",
      "cat": "안전"
     }
    ]
@@ -191,36 +170,36 @@
   {
    "name": "용인시",
    "pop": 1070000,
-   "count": 92,
-   "neg": 4,
-   "ratio": 4.3,
+   "count": 89,
+   "neg": 5,
+   "ratio": 5.6,
    "cats": {
+    "복지": {
+     "count": 22,
+     "neg": 0
+    },
     "산업경제": {
      "count": 12,
-     "neg": 1
+     "neg": 2
     },
     "행정": {
-     "count": 25,
+     "count": 20,
      "neg": 2
     },
     "문화관광": {
-     "count": 18,
-     "neg": 0
-    },
-    "교통": {
-     "count": 3,
-     "neg": 0
-    },
-    "복지": {
-     "count": 17,
+     "count": 15,
      "neg": 0
     },
     "안전": {
-     "count": 6,
+     "count": 7,
      "neg": 1
     },
     "환경": {
-     "count": 11,
+     "count": 12,
+     "neg": 0
+    },
+    "교통": {
+     "count": 1,
      "neg": 0
     }
    },
@@ -229,7 +208,7 @@
      "title": "\"용인 반도체 단지, 도로·용수에 발목\"…한경협, 정책 과제 41건 건의",
      "date": "2026-09-21",
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYWtRV1dxN1dWdldWRzVpQmxwS3ZkeG1nWEVKazgxVHdDQ2ROQ3gtbUt0aVJHRjRNOHNZOGFlWmRXMzdJVGdGTUJaM29iUjVoSUxyVjF6bmRqSHlZbW9DNGZ3U2o2NlcyZGJwTXVUNklFTE94R3h6SDRhbXExczVhTGJhT2pZMl9lcFZvUDhvbw?oc=5",
-     "source": "chosun.com",
+     "source": "조선일보",
      "cat": "산업경제"
     },
     {
@@ -240,9 +219,16 @@
      "cat": "행정"
     },
     {
+     "title": "“집값 오르니 세금도 뛰었다 … 용인시 재산세 3489억 부과",
+     "date": "2026-09-21",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9KWlVmTUNkTFhCR1FidnVOdFJ5U2NNNm9UR21Ubmd2UzJka0RKanFNdkMwdmtEY3JFMThXWjlBR1BBczRnTEJmX19XYlkxUGVsUU9Ra05WY2dpcDA5SXN2cVdHVnM?oc=5",
+     "source": "용인신문",
+     "cat": "산업경제"
+    },
+    {
      "title": "용인시 산하기관장 4곳 공석…2곳 두 달째 후임자 계획 無",
      "date": "2026-09-20",
-     "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9JWk1xS282RWlwcDFNamlOU3JXR2ZVaFpvdUtELThVNVFlR05qZXM2WXIyUVp6MUM2T2VIZ2ZsSDlaZzJSMVE?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1hNzIyQl8zeEI5dFZ1c2l3bGt6dWFISnNaTEpGX3ByZE9HU3EyZWo3QjhBSFZCY1FFYS14YlhzcGF5S09JVC0tek9yOXZZS1VhTlJnWQ?oc=5",
      "source": "v.daum.net",
      "cat": "행정"
     },
@@ -258,32 +244,32 @@
   {
    "name": "고양시",
    "pop": 1080000,
-   "count": 87,
-   "neg": 2,
-   "ratio": 2.3,
+   "count": 83,
+   "neg": 3,
+   "ratio": 3.6,
    "cats": {
-    "교통": {
-     "count": 17,
-     "neg": 0
-    },
     "산업경제": {
-     "count": 21,
-     "neg": 2
-    },
-    "행정": {
-     "count": 26,
-     "neg": 0
-    },
-    "문화관광": {
-     "count": 7,
-     "neg": 0
+     "count": 19,
+     "neg": 3
     },
     "환경": {
      "count": 4,
      "neg": 0
     },
-    "복지": {
+    "행정": {
+     "count": 36,
+     "neg": 0
+    },
+    "교통": {
+     "count": 7,
+     "neg": 0
+    },
+    "문화관광": {
      "count": 8,
+     "neg": 0
+    },
+    "복지": {
+     "count": 5,
      "neg": 0
     },
     "안전": {
@@ -293,15 +279,22 @@
    },
    "neg_items": [
     {
+     "title": "동탄은 반도체 단지, 일산엔 5만가구 폭탄…'베드타운' 고양시의 눈물",
+     "date": "2026-09-23",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSU083NXZCaEhSenNQWDVISDBTY3hGVUhkOXc4QnJ3RWxacmJybWZWV0F1bGFSTG03VjNZLU8zbnFDYngteHgwTkM0eVluSVRmejktTDk4TWowNER2WWJVTURMaW5hdG9ncGd6RGV6cDhsbEZ0cXdfZjNmSm1JaEnSAXNBVV95cUxPSmlUUW9VUnNIMkNjVVRLYXpMd2ZJVHNGTVZjdThuU0gzTVpJQzEtR0pfZHRuNjVUaVpZa05saklLQ2ExekJKR1VGVE51d0gtZzAxZkh1a0pYZUdBMHhVWWtyaFBMZVl5MGJEclFRVzM5Qjhv?oc=5",
+     "source": "땅집고",
+     "cat": "산업경제"
+    },
+    {
      "title": "고양시 대곡 9천400호 지구지정…국힘 시의원들 “추가 주택 안 돼”",
      "date": "2026-09-21",
-     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4tY3pnQ1pOR09vRkE4bWsyMlIzQlcyVjVEVm03c0VES3JILUlqZ0tZWnRhY0doa0NKbzk4LW5XWmVWbGhESGJMOENPaDJPUFU?oc=5",
-     "source": "v.daum.net",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE54cTZTZkZ2eGltSDI5aTlxMzFWVmFmMzVPT3Nrc1VzaXZKTjhxVVdkWkdHdVVpaU9QZzM0OW4yTXNrTkdYTWtvLWttMDJHWllycnlLMERTNUo1dzNYU0ZITlVNWmtKZDNLcDJuXzJrOA?oc=5",
+     "source": "중부일보",
      "cat": "산업경제"
     },
     {
      "title": "경기도 공장 40% 늘었는데…고양 제조업 15년째 ‘역주행’",
-     "date": "2026-09-19",
+     "date": "2026-09-17",
      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE15RVRyXzdZZTUzREp3Z09WUWp5QlZIWFRQZTJNRmJIcGxpNHhuZVBlakQ1Tk4tb0ZlMndlc1VmUDRCRnpnOTdTM21WYThtdG5uNEFvSWE3NW1PbTdjNk1lX2dvLTVma2pZTGc?oc=5",
      "source": "고양신문",
      "cat": "산업경제"
@@ -311,49 +304,42 @@
   {
    "name": "성남시",
    "pop": 920000,
-   "count": 88,
-   "neg": 2,
-   "ratio": 2.3,
+   "count": 87,
+   "neg": 1,
+   "ratio": 1.1,
    "cats": {
-    "교통": {
-     "count": 5,
-     "neg": 0
-    },
-    "복지": {
-     "count": 22,
-     "neg": 1
-    },
     "행정": {
-     "count": 24,
+     "count": 23,
      "neg": 1
+    },
+    "안전": {
+     "count": 1,
+     "neg": 0
     },
     "문화관광": {
-     "count": 26,
-     "neg": 0
-    },
-    "환경": {
-     "count": 3,
+     "count": 19,
      "neg": 0
     },
     "산업경제": {
-     "count": 8,
+     "count": 18,
+     "neg": 0
+    },
+    "교통": {
+     "count": 3,
+     "neg": 0
+    },
+    "복지": {
+     "count": 23,
      "neg": 0
     }
    },
    "neg_items": [
     {
-     "title": "성남시 고도제한 완화 촉구 … 성남고도제한범대위, 217차 1인 시위",
+     "title": "최만식 도의원, “예타 통과한 성남 원도심 지역난방 또 제동”",
      "date": "2026-09-22",
-     "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1ESWVGeWdROWZrOWstMmkzcjluXzh2Rk9EeXNyaWJLRW5hSGJOb3RxRnJMVzQ5MGliOVYtN2NfWTl6WlNB?oc=5",
-     "source": "성남일보",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBTTkVMakoyQTU5MjNuWjc2eUQ1OUt5X19mXzJOVzFOMUFLSko3b3BMcHdLcUhPUGRfaHE3QlpJNHpLb2hxd1BidjFmNjYwOHZnUHdzVEowSkR2VzJCWW9lMTlRYTlZLWPSAWtBVV95cUxOT0JLWHVMd28xYTdROEY1eEFKOTlUNERXMXFCanNaYTg5cVgzVnVIcWFWMUlRMzNsT3lKcXJqUE00V05IZTdmTzBkNUxiUjI3aHo3dFprRXlKR2NURk15MG00b1pIQ2dweHJSQQ?oc=5",
+     "source": "의회신문",
      "cat": "행정"
-    },
-    {
-     "title": "청년기본소득 수혜율 90% 넘는데…성남시만 ‘부정적’",
-     "date": "2026-09-21",
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA2T2JfaS1ha19SVnhzY0pQTHIzZGhxX0IxLTFZV28zcGtPUmxoWTllOU54eDBubHJXSDVyN3ZNNVMtU0NsVGpMeFNWWS1hVHNqenpTMHFpaHRleDJlM2htYzl3?oc=5",
-     "source": "경기신문",
-     "cat": "복지"
     }
    ]
   }
