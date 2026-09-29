@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-29 09:58",
+  "updated": "2026-09-29 11:32",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 4407,
+  "count": 4445,
   "items": [
     {
       "date": "2026-08-02",
@@ -60193,6 +60193,21 @@
       "source": "nanamcom.co.kr"
     },
     {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "몽탄",
+        "초원",
+        "넘어"
+      ],
+      "conf": "low",
+      "date": "2026-09-27",
+      "title": "몽탄, 초원 넘어 화성-울란바토르 잇는다",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5uNXd5SG5rcjg5QTN0NW9rVTJBVVI3SmpndkdOanlwNTljX2lkYnF1NW1OOHN0NS1MWjUtazFkR21CanRzWmFCVkwtVjI0X1VTUDVXNVhTeFowcFozMnZEcHl1Mmx2SWNO?oc=5",
+      "source": "theonetv.kr"
+    },
+    {
       "date": "2026-09-28",
       "cat": "행정",
       "senti": "부정",
@@ -61425,6 +61440,64 @@
       "source": "프레시안"
     },
     {
+      "cat": "복지",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "동탄시티병원",
+        "화성특례시",
+        "찾아가는"
+      ],
+      "date": "2026-09-28",
+      "title": "동탄시티병원, 화성특례시 ‘찾아가는 AI 건강관리’ 사업에 전문인력 지원",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE80U0xFUFQxQmtwTHZXVHp4YW1YdVN2NmNkSUpHUHA2d0tyUjBjcVMyOWdiTXh6UTBtWFhYY1hsb21NMzBWZXJFalpTNjlwYTI1NUx6ZG5jdk5rSERaTUZTN0l1Um5rTnBXSDU1ajJTOXY2Qi13QkHSAXZBVV95cUxPNFNMRVBUMUJrcEx2V1R6eGFtWHVTdjZjZElKR1BwNndLclIwY3FTMjlnYk14elEwbVhYWGNYbG9tTTMwVmVyRWpaUzY5cGEyNTVMemRuY3ZOa0hEWk1GUzdJdVJua05wV0g1NWoyUzl2NkItd0JB?oc=5",
+      "source": "medisobizanews.com"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "10월",
+        "수도권",
+        "2만4600가구"
+      ],
+      "date": "2026-09-28",
+      "title": "10월 수도권 2만4600가구 분양…화성·광주·인천 대단지 줄줄이 출격",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5JbktmVS00OXVKVjI3eEMwWVd1ZlFrMnRkRzFyZWxWWnE1RkIwbDVjWjd3ZjZWUExVQUZIbGZzZ01WamFBazBxbVhmYw?oc=5",
+      "source": "v.daum.net"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "삼성전자와",
+        "전방위"
+      ],
+      "conf": "low",
+      "date": "2026-09-28",
+      "title": "화성시, 삼성전자와 전방위 협력체계 가동",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9zc210cklIQ3d0TE0tdmlmUkhuYXRHN3pkb3lVODU4Q0lsbW9pOVhVZzhuYV8tOGpqN3ZldW1WLXhFMEhFMVdrN2pfcDg1ak9mTWVidEZrcENpR2dGYlJrdE5ELWZtTm1HYVE?oc=5",
+      "source": "경기도민일보 미디어"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "박연숙",
+        "화성시의원",
+        "앨라배마"
+      ],
+      "conf": "low",
+      "date": "2026-09-28",
+      "title": "박연숙 전 화성시의원, 앨라배마 하원의원 6년 인연 이어가",
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5yS1lpR0NYN3JpdUdEa0thQmx4dU1GZThrLXJxM3FuT0YzcmpKMmR1ZGNtY1JhS0YzTEhxZEtERTRjZw?oc=5",
+      "source": "화성인터넷신문"
+    },
+    {
       "date": "2026-09-29",
       "cat": "복지",
       "senti": "긍정",
@@ -61703,34 +61776,514 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vYnVHVTFId211a0x1SkJRcnpLUFJkSnBKZ0hhR2R4UVEzaU5NclZpZm9vcFphanB6QktzVFh5cVU4MTFjaElhV3lRRlBsQ0Iydi1kZGNrUjJwMHJ6bkxCd0RBTUhueFdGbUhYYmVwTzbSAXRBVV95cUxNRkJPb1JjSGtyNnRnZEIzTUZncmIxTXNFdDFxN0lwZm5RYW04TWVzRl9qeTMwcXhtM2ZOMHppQ1gyMFN6bF84Q2dnTHVXRy1EV0tMTzIxQnRVc2lQVW5EWTBzUFgzM2lYdERveXIzOTdLamQ5dA?oc=5",
       "source": "이뉴스투데이"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "병점구",
+        "어린이집연합회"
+      ],
+      "date": "2026-09-29",
+      "title": "화성특례시 병점구·어린이집연합회 간담회 개최",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1VTHY2eWRSb1NhWU5xa1VobmMwOUlGQXZLX3p5QnE2N000TkJ1X09WVHNYenJJVTFoNVZ0enJBdTFhcy15Sko3b3ZGLWdRcXBINnBzSVJHSTVhcVludHh6UnRRN1A0dHFhV2E1YktQVHI?oc=5",
+      "source": "산경일보"
+    },
+    {
+      "cat": "행정",
+      "senti": "부정",
+      "summary": "",
+      "kw": [
+        "8년",
+        "향남오토캠핑장",
+        "화성FC"
+      ],
+      "date": "2026-09-29",
+      "title": "“8년 된 향남오토캠핑장, 화성FC 연습구장에 밀려 폐쇄”…‘불통시장’에 캠핑족 ‘뿔’났다.",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1jZzN3Vzl6T181a1habVdNSDFIREoyU204bVduMXI2Mkl4UWo0V3hmdWVaYl9jWm8zczhxbXhTVS1kbkZPblh4dDZQbWo?oc=5",
+      "source": "아이뉴스24"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "두만강변",
+        "남양",
+        "사람들이"
+      ],
+      "conf": "low",
+      "date": "2026-09-29",
+      "title": "두만강변, 남양 사람들이 남산으로 가는 날",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5zb2dUT2d0TUNNWXdVM1N0RHRNZmNpbmVGMGMxRDg3MGhvZUhDUlNQdG9uM3QwRzBhSG4zbm9acGZiOGlodHE1SjVOSGUwY3k4Nl92c0lpRC1tNXB3UzdVWDNaV213RnBfZ0l5TjNn?oc=5",
+      "source": "tongilnews.com"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "하이엔드",
+        "주거",
+        "정조준"
+      ],
+      "conf": "low",
+      "date": "2026-09-29",
+      "title": "하이엔드 주거 정조준 '아크메르 동탄', 10월 견본주택 개관",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1OV282WXJfOVZaVFp0TEd0dFQ1cTYzcG9TbUlVbHNadncybkV0MjY4ZXBRZW1fNXVmNEROS0ZLaHBiSWFRVnBFMTI1SDRBdDRVTDN4cWQ1OExNM2Vi?oc=5",
+      "source": "newspim.com"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성소식",
+        "병점구",
+        "어린이집연합회와"
+      ],
+      "date": "2026-09-29",
+      "title": "[화성소식]병점구, 어린이집연합회와 행정 부담 완화 논의 등",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TcGJ4TXBOWW5LMXpYZTVPZEwtSGcyNHk3Snpad1FMaDNLbzZWTFFsX3hzMkV6al9vTjdJSDRjSE1HWWpBSDBadDQxTEZTTGs5ZWxyTFdlNDVqaDZwYmpzWdIBeEFVX3lxTE9uSFM0MTZaQnZDU3VqOGs1Qnk2LWhNX2kwYlAxczlfWW8wRWVNc3BHb1dkSGZJS3hEdGZSQlp6cmxyTWlqV1V6bWtOR29hZW9xaGxhSXJ5Qm1vZ1J2YjZFVElEYkFxUGlWYlhuOWdmTVJUN3c3MGNzNg?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "경기",
+        "양주",
+        "화성"
+      ],
+      "conf": "low",
+      "date": "2026-09-29",
+      "title": "경기 양주·화성, 생활여건 개조사업 선정…국비 42억 투입",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9DWEN5V1FWSC1GWWt2NnFjZVEzeThYZUk5UjItdlhDNHZlSEVtRE9jbGowNFJId2FlYVdLdUlKaGRyTFRmTy00eUJWTTdBWWtwNEd0eEdXbkJZcG43Und2U9IBYEFVX3lxTE9DWEN5V1FWSC1GWWt2NnFjZVEzeThYZUk5UjItdlhDNHZlSEVtRE9jbGowNFJId2FlYVdLdUlKaGRyTFRmTy00eUJWTTdBWWtwNEd0eEdXbkJZcG43Und2Uw?oc=5",
+      "source": "연합뉴스"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "아크메르",
+        "동탄",
+        "모든"
+      ],
+      "conf": "low",
+      "date": "2026-09-29",
+      "title": "아크메르 동탄, 모든 가구에 2.5m 천장고 적용…프리미엄 주거에 집중",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB0ZkZqenozZVBqSWVqQXpZdXhtdHBVXzBkMUthdUJtbFB1YnF2TGp2SUpKaEt3Z2FoZXBKNUU4WktZbi1rMVVINlo2SVg2SWlnRDJ4MGdPUzFmekdlWTRJeHQ3WEdLelVtVG5BZGZB?oc=5",
+      "source": "아시아투데이"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "삼성전자",
+        "화성캠퍼스에",
+        "1조7000억원"
+      ],
+      "date": "2026-09-29",
+      "title": "삼성전자, 화성캠퍼스에 1조7000억원 투자…반도체 연구동 짓는다",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1yRWVVY1dOdHZ4QW14TFA4dXk1a09lY3dnamtlU0U2czVPbEVvTXd4Y3ZSX1l2X1Y0WUhCV281d1RqUms1cHdXN29RMUd2ZmpTRmpUaHFNeUV2QUNBQ2FqUURhcVh5YkZLSVQw?oc=5",
+      "source": "뉴스저널리즘"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시어린이문화센터",
+        "영아",
+        "감각음악인형극"
+      ],
+      "date": "2026-09-29",
+      "title": "화성시어린이문화센터, 영아 감각음악인형극 '바다 품에 포옥' 공연",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9KM3lSUWZLYUN2YmZoRlJWa3dnSUxJYVNKR1hSc0o5MFVNQWRGVjB2anRnWTVmcGtDc3JzWFNkMmVVY1dSVXhwR0xQY0d3LUZYWVNORFctLVZyam1SSWtGcHZNUS1qQUdLSU1Z?oc=5",
+      "source": "프레시안"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "아크메르",
+        "동탄",
+        "1808가구에"
+      ],
+      "conf": "low",
+      "date": "2026-09-29",
+      "title": "아크메르 동탄, 1808가구에 2.5m 천장고 선보인다",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8zbktyS0VFQndRZmdUUG51R2llS00tV3pJN3oyamY1WmcwN1A1clctSHNvVEpJVXBaTWlfcHFUengyLXZIclZNODk4MVJBV1ZkWkk5Vk9VY2c?oc=5",
+      "source": "아시아타임즈"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "아이의",
+        "공연부터",
+        "AI"
+      ],
+      "date": "2026-09-29",
+      "title": "아이의 첫 공연부터 AI 공부까지…화성시, 생애주기 맞춤형 배움 넓힌다",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1GaGdOQnRqV2ZqamhlOUQ0WEljSnJIdXpodG9PT0hXbTdxbDgxZ3NqbmJYOHFUeW1TbjJlOFZ2a2J2ci1nOEhlYm5DdVQ0Unh4eWkzcnBnVjNsOHBPR05EbEhhZmstVC1IVDl0Ng?oc=5",
+      "source": "중도일보"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "카드",
+        "아크메르",
+        "동탄"
+      ],
+      "conf": "low",
+      "date": "2026-09-29",
+      "title": "[카드] 아크메르 동탄 천장고 \"20㎝ 더 높였다\" 개방감·고급감 극대화",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ybVhiMkpXRnVHMDNINkVyUkZfaWlxT1BiMGNUYkk1LXg4RHdaTDgyOWxQZnoycUFyeU5ZODJKX202TzRKdjN1NHhvYU5LZ045ellmUEZoWnVoNkFDbWg1bA?oc=5",
+      "source": "프라임경제"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "양주시",
+        "덕계동",
+        "화성시"
+      ],
+      "conf": "low",
+      "date": "2026-09-29",
+      "title": "양주시 덕계동·화성시 안녕동, ‘도시 취약지역 개조사업’ 선정 국비 42억 확보",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE93VzYwMWNyOFBOZmJpSUVidDBqMXdCMXRLSWhjNnZ3ZVJhMENpM1JVcU1YNm5RT2xVb3FGZHBqWDUzamJHcXhaMXpkM2QxQXRYWi0ybzdndkRFX3VqODNOSWZWTkR0SHM?oc=5",
+      "source": "경기도정신문"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "아크메르",
+        "동탄",
+        "세대"
+      ],
+      "conf": "low",
+      "date": "2026-09-29",
+      "title": "아크메르 동탄, 전 세대 2.5m 천장고 적용",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vc1lGX3ZOeGd3SkJtb2dxMVBlRGdpcXl4OHlvdktPQmlxMUhvMFFvNXI3LXA3X1Fvanl4b3NrYlFqdzB3bnZaUEFPdFFLM0V6RmdVSU9sZ3EtZw?oc=5",
+      "source": "브릿지경제"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "경기도",
+        "양주시",
+        "덕계동"
+      ],
+      "conf": "low",
+      "date": "2026-09-29",
+      "title": "경기도, 양주시 덕계동·화성시 안녕동 '노후마을' 정비…국비 42억 확보 - 머니투데이",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBCMEI0bHd4LUVVeDgxREZHSU0yU2ZxYmxRQ2lOTGVuWGdOTDhIUG4ya2xUcUJBSlptcEk5UVFJSzJ1dXhsdVVzRUJqWVVSMmRJdFR6cXd6dEc4TmRXX2t6Z1JUZjhOMHBRTkHSAW9BVV95cUxQdS1pY0p1MktCVGxCU21NUldsREd5U3NHeThuZUVLSXB4SFMxSWJIeGhyTXYtNWx5QTRCRGFPMmVEUkwxZW9QTkYzdTQ2V3I4VzRHMGNlVEQ5RS1IdGJMWS1iR1I1MlJXUU9FMUctQjQ?oc=5",
+      "source": "머니투데이"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "용산부터",
+        "동탄까지",
+        "도시"
+      ],
+      "conf": "low",
+      "date": "2026-09-29",
+      "title": "용산부터 동탄까지…도시 ‘중심 생활권’에 몰리는 주거 수요",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5KUWRXMU9XNTVCTXZORDl1WEpGQUJJLXJ3TzlfQzNsQzJsYUloZzVHM1hPSTUyeUYwWXlEZGdydlEyanh2c2VqZ2h6TjBoNmEwSDZqMDhkSlREN0Voei1PUUJ1dFE4V0k4RHNHdg?oc=5",
+      "source": "뉴스락"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시문화관광재단",
+        "2026",
+        "지역전시"
+      ],
+      "date": "2026-09-29",
+      "title": "화성시문화관광재단, '2026 지역전시 활성화 사업' 선정, 태우 개인전 'HOHO GARDEN : 好虎家燈 호호가등' 개최",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1NWFdua285WHZJSmlGQjA4amlkdjVVRC1rRF9pbEJRZ3B4bkUxbjY0dmJuNW50V2lvNUtYMmwxRmVCd0duSmxISFZ0eXhSZnh1OVVOSF9rN0M0d19oS3NVWA?oc=5",
+      "source": "kgfnews.com"
+    },
+    {
+      "cat": "복지",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화제",
+        "춘천",
+        "동탄서"
+      ],
+      "date": "2026-09-29",
+      "title": "[화제] 춘천·동탄서 온 고위험 산모… 세종충남대병원, 잇따라 살려",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9Xbmd0VXhmdkFpOW1lRzF3eExEMFN0MWVtOS01Y0xrcU5Hd2JfNTdVSVduZ2VRMlFvaDdESFBhTS11Nk9QRmFvS3U0dHNLUTJERWlLUFF0c3lOOEJFdVhJTjViMnhOMFk0MkpLWnlR?oc=5",
+      "source": "간호사신문"
+    },
+    {
+      "cat": "환경",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "경기도",
+        "양주",
+        "덕계"
+      ],
+      "date": "2026-09-29",
+      "title": "경기도, 양주 덕계·화성 안녕동 주거환경 바뀐다…5년간 국비 42억원 확보",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTU1IOFljYkhDSlQ2d2N0UUZKMDVTbU1xV2xyOWJGRmZYWXdjaWloYWhUdjlQZXhXUjB3TDNRMC1WNFdxYzB0TFJtVVFhaXR6cElMYnJsbVM1dFBEVWFta2taSHdpOFZMS0ZuMy1VRUNoeGU2N2FyTUkwWndjeDhUYnNXRkVDY0dfSHhV?oc=5",
+      "source": "글로벌이코노믹"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "아크메르",
+        "동탄",
+        "가구"
+      ],
+      "date": "2026-09-29",
+      "title": "아크메르 동탄, 전 가구 천장고 2.5m 적용…10월 분양 나서",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBuNkpTM2NxelpsME1aVkR6TC1jb0RXZkJpWjV3aExYV3AyY0ZCRWtxdzRhejNUZmZwQjdoeUJTYnhKNjhKaFZkbUFraTl1YVdlamVGbDYweS1TeDZGOTdwUzNodGJkTHpiQXlINGxYQ1lfQnpZLUJ0VGFKUnA?oc=5",
+      "source": "fntimes.com"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "경기도",
+        "양주",
+        "화성"
+      ],
+      "conf": "low",
+      "date": "2026-09-29",
+      "title": "경기도, 양주·화성 도시취약지역 개선에 국비 42억 확보",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBBMWl2LVBoUEZ3VkJ5Ri1GSXZRUk9BR25CVnlJd3FaNnVZUFU1V3Rpcll3VmZ4TFl0dGFOQmxQTzl2eGw2OVlIMlhfX2FsTDFYLVN0Q2FsMzBNN3I1ZUlKenhlcUY2Q0NJ?oc=5",
+      "source": "일간경기"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "경기도",
+        "양주",
+        "덕계동"
+      ],
+      "conf": "low",
+      "date": "2026-09-29",
+      "title": "경기도, 양주 덕계동·화성 안녕동 도시취약지역 개선…5년간 국비 42억 확보",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBXanFTTjBWeVlzc1JjY1ZsQ2xETmVYSUVLV3I3ZWNlbGxyaUdfUTFjRG9JSU8wMmRXWEkwRGppOFhpM3lvLWI1aThFTmY2ekdIZ3RWYTdsOXI5ZmJPNEVuRWhoZEZoQmU3SVJ0UC1qdw?oc=5",
+      "source": "youcandonews.com"
+    },
+    {
+      "cat": "안전",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "응급분만",
+        "대응역량",
+        "빛났다"
+      ],
+      "date": "2026-09-29",
+      "title": "\"응급분만 대응역량 빛났다\"…세종충남대병원, 동탄·창원·춘천서 긴급이송 잇따라",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ucXpMcjBlWWxGV0R1OVdiS3pXc1RzYjctNHZTQkVFZUpSUUlKSTRZUjlTZkVZOHJ2VFBDclZhbWRoRVBYQThSMmU2MUktbTdyNUFNQXRacWlUMUxRUnV5UDIxZnl6MHNmNGpCUA?oc=5",
+      "source": "ER 이코노믹리뷰"
+    },
+    {
+      "cat": "교통",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "경기도",
+        "노후주택",
+        "침수"
+      ],
+      "date": "2026-09-29",
+      "title": "경기도, 노후주택·침수·불량도로 손본다...양주·화성 주거환경 개선 국비 42억 확보",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBFWFZMT1YwVU9Da0FOcjJORVNiSlhpczFsZERJb1dOc3dJcFFjM2V5eEZZMGJHR281OUdqeFVhRDVYWUd5QkM0c0ZqNFYtTGNpNDFqMDdVVFNzd9IBWEFVX3lxTE96elZZYS1udVRiM2NrNzBwRHdBNHhsZi1iZ1pXYTFPQ2cwQWZra1h4LXVGbnZBUmNOYkpKaEljNFhLQ25qSS1veDEwZkg2by1uaXc4UjMtS00?oc=5",
+      "source": "아주경제"
+    },
+    {
+      "cat": "교통",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "병점역",
+        "교통망",
+        "개발"
+      ],
+      "date": "2026-09-29",
+      "title": "병점역 교통망 개발 속도…1783가구 ‘오산헤리티지자이’ 공급",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9mamtETnJnelpkZW15WDFWVENsOE1TaWU5c2FPelRUV1Z0N1RvX0RCVTBZR21hT241cUdKZGN4V25HbVZrQXhTWHZDTEtibXRSTHU0WG9PdHY1MV9lNHYzZmdIVlltUmFQZ25LTU1ReEgyZEE?oc=5",
+      "source": "sports.donga.com"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "위클리오늘",
+        "화성시",
+        "2026년"
+      ],
+      "conf": "low",
+      "date": "2026-09-29",
+      "title": "[위클리오늘] 화성시, 「2026년 하반기 평생학습 프로그램」 수강생 모집",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE01cHJJU013NDlVajRtUU5xcXJTbEhpY2ZxeXViRHdBZkxyRHpxcEN2NzE0c0pQVzk5cVZSOHFWTHpVOVFFYTEwS2trXzBxRGFlOHhwdklXV0JBNllUWG9EWW9ZUVhZTEZha18xRHd3?oc=5",
+      "source": "위클리오늘"
+    },
+    {
+      "cat": "복지",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "병점구보건소",
+        "치매가족교실"
+      ],
+      "date": "2026-09-29",
+      "title": "화성시 병점구보건소, ‘치매가족교실’ 4회 운영 마쳐",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBNYndRNGViRndVNVFlQ3lXXzdtTHE5dVV6MlJ1a3pjOWRnUHdNdDlETExJLTA4QnprRThQWEpHTWViWmFKdkRQVlpWMHROcmZMUXhLVktfQjVzMEk3ZmhaUFRNeFI0WlhSelE?oc=5",
+      "source": "경기도민일보 미디어"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성소식",
+        "화성시어린이문화센터",
+        "감각음악인형극"
+      ],
+      "date": "2026-09-29",
+      "title": "[화성소식]화성시어린이문화센터, 감각음악인형극 '바다 품에 포옥' 선보여",
+      "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxONkZVdVdsMlhMTmVXZ1dVbjVLaUZ3eF9TZHF4MUExNV9HaGZRMEhBX05hdXV3U01HRndvNFIxdG9SUW81WEgyWkVCbDhTZGo5aEFmOVJ3RG9ENDlJMnBJRjZ2Z1B1cnhsTWpiUHQ2bmVRazg5dEZRTTV2YlJ5bkpKTmZjMjFISllZZHdBeE03Y05PRThLV3lEN3YyblJ2UHpVeVl6eXdyUWZTRVpZUEZWZlRMakRuWUl5djVsZ0ctZFlZOXRHREw0VjNmYjU3akpWd2dkcjd6UVh4MHhBYWF4TnRwaUZ6dEF0VGpXdmJ1QzVxWTlicl9IVHYwZm9WUUxocExLVVAwUjBRaWRzM0ZHdG9UVkwzbDlwT19vZkc1VDF6TjBHUjAwdVdDblBRQ3VlRnNtUElLNG5iUS1INXFYR2pJUQ?oc=5",
+      "source": "데일리안"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "경기도",
+        "양주",
+        "화성"
+      ],
+      "conf": "low",
+      "date": "2026-09-29",
+      "title": "경기도, 양주·화성 도시취약지역 개선 나선다",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1BZEVfTnZ6YzVRMEpiWXVTZVlRSGZLVTVEU3B5eXlENURmRExDaVo2Q1hobHQ5Q0paakw4ajJWRmhSeUg4bkhBb3gydnBmclROVU1mTVdLeDhVeWx6ZTRNStIBeEFVX3lxTE53MEpNeFJkdm1KS0pZWVJ6UTJIZHVfU2Rzc2FpZXQ1TlB1ck4wOUdrR09FWEU2TEhIdXN4V29NXzljaGUwZmttSDAyVUkzTElyRXFEcmdnM2Z1RFlrV1FGZWRjb3l3aVBZQ2NtOTRaOW9YSl9uQzNwVA?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성에서",
+        "빛과",
+        "소리로"
+      ],
+      "conf": "low",
+      "date": "2026-09-29",
+      "title": "“화성에서 빛과 소리로 바다를 만나요!”",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1fRWFDN0xZTmh0TVJqTmZ6ZlQ1Qml6NHBHZjRHUjlXQzdwZUwxNVpJZEJ3UUlnUlNVMFZHQUtjS1g5eTFzZHNpeUlqOU8xQTFmUzc0MnNQMVdnT0FpYXE1TEtqY0ZPNHl4dlU5SVlObW4?oc=5",
+      "source": "데일리경기신문"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "경기도",
+        "양주",
+        "덕계동"
+      ],
+      "conf": "low",
+      "date": "2026-09-29",
+      "title": "경기도, 양주 덕계동·화성 안녕동 생활여건 개선…5년간 국비 42억 지원",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ESE55R1VKQlhMNXRiVTRxTnN4NHNGOTdIeTU4ZUNrQnJ4NUMzRmRTSjYtZlRITm9HUE9MRnBibE16azRMWmNlRktVcHBoSnpmaWJYdk5ZZnBrVkw0a0NZSFRibVVnRlNqMEtz?oc=5",
+      "source": "프레시안"
+    },
+    {
+      "cat": "환경",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "양주",
+        "화성",
+        "노후"
+      ],
+      "date": "2026-09-29",
+      "title": "양주·화성 노후 주거환경 개선…경기도, 국가공모 선정",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE02Ql9ObFp4MmpiNE41Zjh1dWh4VmxON2JVMGgyc25ici1DMWVHSUwzSE14ZDIwemkyYWI5UXNjMkQ5VTNBTHpBY3QtU2hqR0U?oc=5",
+      "source": "v.daum.net"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "경기도",
+        "낡은",
+        "위험한"
+      ],
+      "conf": "low",
+      "date": "2026-09-29",
+      "title": "경기도, 낡은 집·위험한 골목 손본다…양주·화성에 국비 42억",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5RV9HTFE4ZTBNakNvRFI0OFQ4T3JYbThJdjhKWTd0MTRMME1tdW93eDFHdE5BSHhZbnVJOVhoeHlLVU9XQlpiblpFZGtNeFBycHBnRDFrVmx0Zw?oc=5",
+      "source": "데일리엔뉴스"
     }
   ],
   "dropped": {
-    "count": 70,
+    "count": 51,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
       "“108만 특례시 성장, 시민들이 체감할 수 있는 변화 이끌겠습니다”",
       "'전철·아파트 있어도 농어촌?'…2028 대입, 대학마다 다르게 뽑는다",
-      "“러닝 처음이라면”…남양유업 '테이크핏', 초보 러너 모집",
       "[기획] 철도 100조 시대, 경기남부광역철도가 여는 수도권 철도망의 새로운 변화",
-      "프렌치카페에 가려졌던 남양유업 '루카스나인'···K-커피 타고 해외로",
+      "“러닝 처음이라면”…남양유업 '테이크핏', 초보 러너 모집",
       "강남구 주민센터 > 삼성2동 > 우리동이야기 > 새소식",
+      "프렌치카페에 가려졌던 남양유업 '루카스나인'···K-커피 타고 해외로",
+      "[IB토마토]영진약품, 신공장 2년째 멈췄다…적자 속 200억 만기도 임박",
       "[이문호 칼럼](241) 세계를 이끄는 2020년대의 두 천재: 젠슨 황과 일론 머스크",
       "“한 해 농사의 결실, 이웃과 함께 나눠요”",
-      "양주시 덕계동, 국가 도시취약지역 생활 여건 개조 사업에 선정",
-      "경찰차 전용주차구획 설치로 치안 골든타임 확보",
       "내달 전국 3만8032가구 나온다",
-      "“하루 한끼 먹고 비행기장 일…어디 배고파서 살 겄냐”",
+      "경찰차 전용주차구획 설치로 치안 골든타임 확보",
       "10월 수도권 1.8만가구 봇물…경기권 대단지 집중",
-      "가을 입맛부터 달콤함까지 디저트로 가득 채운다[이거 먹어볼까]",
-      "서울 용산·부산 연제 등 도시 중심 생활권 신규 분양 이어진다",
+      "“하루 한끼 먹고 비행기장 일…어디 배고파서 살 겄냐”",
       "추석 끝나고 가을 분양시장 열린다…10월 3만8천가구 분양",
       "조선대 광주충장귀금속특화지원센터, ‘홍콩 국제 주얼리 전시회’서 해외 네트워크 확대 > 뉴스",
-      "10월 전국 분양 3만8천세대·전년比 61%↑…수도권 비중 65% |",
+      "만세사랑위원회, ‘그냥드림’에 300만 원 기부",
       "주민참여예산사업에 ‘청년참여예산사업’ 신규 도입",
-      "만세사랑위원회, ‘그냥드림’에 300만 원 기부"
+      "도서관에 가면 치매 예방에 도움?",
+      "비비테크·그리코·정안, 지역 기업 3사 방문",
+      "서울 용산·부산 연제 등 도시 중심 생활권 신규 분양 이어진다"
     ]
   },
+  "low_confidence": 20,
   "briefs": {
     "all": "수집 기간 전체 [[w]]부정기사 380건(7%)[[/w]] 중 안전 분야가 187건으로 절반 가까이 차지하고 있으며, 행정 98건, 산업경제 45건으로 분산되어 있습니다. [[b]]2026-09-16에 22건이 집중[[/b]]되었으므로 해당 날짜의 안전 관련 이슈를 먼저 확인하시기 바랍니다.",
     "7": "최근 7일간 [[w]]부정기사는 37건(9%)[[/w]]으로, 안전 분야 32건이 대부분을 차지합니다. [[b]]9월 23일에만 21건이 모두 안전 분야[[/b]]로 집중되었으므로, 해당일 보도 내용을 우선 검토하실 필요가 있습니다.",
@@ -61738,7 +62291,7 @@
   },
   "briefs_updated": "2026-09-29 09:57",
   "issues": {
-    "updated": "2026-09-29 09:57",
+    "updated": "2026-09-29 11:32",
     "items": [
       {
         "label": "3명 사상 화성 마사지업소 화재…합동감식서 “전기적 요인 추정”",
@@ -61855,7 +62408,7 @@
     ]
   },
   "today": {
-    "updated": "2026-09-29 09:58",
+    "updated": "2026-09-29 11:32",
     "items": [
       {
         "label": "업무 미루고 세금 날려도 괜찮았나, 화성시 공무원 징계 강화 ‘칼날’",
@@ -61866,6 +62419,19 @@
         "cat": "행정",
         "titles": [
           "업무 미루고 세금 날려도 괜찮았나, 화성시 공무원 징계 강화 ‘칼날’"
+        ],
+        "score": 60,
+        "state": "신규"
+      },
+      {
+        "label": "“8년 된 향남오토캠핑장, 화성FC 연습구장에 밀려 폐쇄”…‘불통시장’에 캠핑족 ‘뿔’났다.",
+        "count": 1,
+        "sources": 1,
+        "first": "2026-09-29",
+        "last": "2026-09-29",
+        "cat": "행정",
+        "titles": [
+          "“8년 된 향남오토캠핑장, 화성FC 연습구장에 밀려 폐쇄”…‘불통시장’에 캠핑족 ‘뿔’났다."
         ],
         "score": 60,
         "state": "신규"
@@ -61903,25 +62469,12 @@
         ],
         "score": 55,
         "state": "종결"
-      },
-      {
-        "label": "【발행인논설】 화성시의회, 사슴을 말이라 부르는 의회?",
-        "count": 1,
-        "sources": 1,
-        "first": "2026-09-28",
-        "last": "2026-09-28",
-        "cat": "행정",
-        "titles": [
-          "【발행인논설】 화성시의회, 사슴을 말이라 부르는 의회?"
-        ],
-        "score": 53,
-        "state": "신규"
       }
     ],
     "surge": []
   },
   "ops": {
-    "runs": 94,
+    "runs": 96,
     "days": 34,
     "since": "2026-08-26",
     "last": "2026-09-29",
