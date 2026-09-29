@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-28 10:31",
+  "updated": "2026-09-29 09:58",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 4317,
+  "count": 4407,
   "items": [
     {
       "date": "2026-08-02",
@@ -60443,42 +60443,1302 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5wMWZ0VWoxMFdaQlc4R2l4T2tJUEFpS2NYR1JERExoWVoxblZtLVBOSDZOQ24yTlFQclZKOWc4SzdibjUwY3FkTDlCQ1dLV2htcDhDQkRtSmFyR2s?oc=5",
       "source": "에너지경제신문"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "출산율 증가에 돌봄 서비스 갖춘, ‘향남역 그로브 스위첸‘ 10월 분양 예고",
+      "summary": "향남역 일대에 돌봄 서비스가 갖춰진 '향남역 그로브 스위첸'이 10월 분양 예정이다.",
+      "kw": [
+        "향남역",
+        "그로브스위첸",
+        "분양"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1RRnVXVmRqV01kTndOZkwyT0I2NFdmLWdhalZaSFhKcGpNdVlwNm14Q0tjM3JueFpCRnpLeVpRQkpYblNIOXQ3clI0YTRDejBLOHFsZEh0NVBVVFAtUjN6ZjBJa21PTGI2WGtPNXMtWELSAXBBVV95cUxNUUZ1V1ZkaldNZE53TmZMMk9CNjRXZi1nYWpWWkhYSnBqTXVZcDZteENLYzNybnhaQkZ6S3laUUJKWG5TSDl0N3JSNGE0Q3owSzhxbGRIdDVQVVRQLVIzemYwSWttT0xiNlhrTzVzLVhC?oc=5",
+      "source": "글로벌경제신문"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "향남포도원 등 4개 농가 화성시 최고 샤인머스캣 선정",
+      "summary": "향남포도원 등 4개 농가가 화성시 최고 샤인머스캣으로 선정되었다.",
+      "kw": [
+        "향남포도원",
+        "샤인머스캣",
+        "농가"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1Udk5BYU1VVUVORHBwOUgyNFFmYTVjUVNnZmhzbnVvS1hwSXNmR2M2M0JMcThmbXowYWlvaE02Tl93Nkln?oc=5",
+      "source": "화성 투데이"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "삼성전자 화성캠퍼스에 1조7천억 신규 투자하기로, 연구동 신설하고 화성시와 협업",
+      "summary": "삼성전자가 화성캠퍼스에 1조7천억 규모 신규 투자를 단행한다.",
+      "kw": [
+        "삼성전자",
+        "신규투자",
+        "화성캠퍼스"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBKb1NaSHpIOU5UX3RicXZacXU4cmNKOVRvVnY0MFpZUkRDWm8xaXpLeHVDcFZ1UE5jUDlsMW1Scm5IRjhZeXpDcEdjUXFFUUZ3emRTbzliVTRRdV83MWRPMTJjdWdMVDhlZnBLRUYzMmRuMkk?oc=5",
+      "source": "비즈니스포스트"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "HLB제약, 608억 유상증자 완료…경영진 참여 확대 속 향남 신공장 승부수",
+      "summary": "HLB제약이 608억 유상증자를 완료하고 향남 신공장 건설에 착수했다.",
+      "kw": [
+        "HLB제약",
+        "향남",
+        "신공장"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5EUzFhQkZOLThXSWJDVzg1LXN2VERsNGQ4UnZWU09FdWhJLTJONFYzMEJoYjk0a3ZySzVaeXI5anltYUtkMTV4TU9yc09DVDBlcld4Zg?oc=5",
+      "source": "바이오북미디어"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "삼천리이에스, 그린텍남양을 위해 96억원 채무보증 결정",
+      "summary": "삼천리이에스가 그린텍남양을 위해 96억원의 채무보증을 결정했다.",
+      "kw": [
+        "삼천리이에스",
+        "그린텍남양",
+        "채무보증"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBqVm9vb3A0VGg0TjVlVC1GVW5EN1F1S04zRm5oM1lEOXRBcDBYSmVaN1hZc0lZT0JQRkhjUW9JWFp0VW5ZUnlCQ1Rma3g4bDA?oc=5",
+      "source": "v.daum.net"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "삼성전자, 화성에 1.7조원 투자 추진…미래성장 협약",
+      "summary": "삼성전자가 화성에 1.7조원을 투자하는 미래성장 협약을 추진한다.",
+      "kw": [
+        "삼성전자",
+        "투자",
+        "협약"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZklZejdlWDlQNS1WV2NEMTJEWFNnbTNaSlVsemRnbzZ6czk1cUhpYzdTUGFlNXNaQ2NFOWJ0U3FyRmZmMFVlX2JKWGNQS3I2VHVQUjlnM2ItNjBmS1Z5NExac1QzN0pLNWVjdl9kNHpFT3BUWllndHJlanIxalBMc01UalRSUQ?oc=5",
+      "source": "글로벌이코노믹"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "[병점중] 병점중학교 [성기준 교장선생님 인터뷰]",
+      "summary": "병점중학교 성기준 교장선생님의 인터뷰가 게재되었다.",
+      "kw": [
+        "병점중학교",
+        "교장",
+        "인터뷰"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE94ZHR1SzV0ZkxJaUFCc1c4WWc5bHh4MUl6N3B5S1hfbzc4MUszRndxaTF3TFR5clFDSHpFX3BtMC1OTjJ4MlVvWFlLSk1sZk5q?oc=5",
+      "source": "우리학교신문"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "교통",
+      "senti": "긍정",
+      "title": "\"수서까지 21분\" GTX 역세권…'e편한세상 동탄역 어반원' 분양 - 머니투데이",
+      "summary": "GTX 역세권 동탄역의 e편한세상 동탄역 어반원이 분양된다.",
+      "kw": [
+        "GTX",
+        "동탄역",
+        "분양"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1OQkhNdEF6c200ZExSRmU1alV5M1ZYTVl4b2JXUS13TlZFejc2UkNwUHMtWXJ6WkFmMWVSVzF4UDQzY2tMakxXQlBkSEJJYlo4NkRLUDdXbEJ0NzRmYzg3b3J1UmQySDhqUUpiVktfTdIBb0FVX3lxTE1OQkhNdEF6c200ZExSRmU1alV5M1ZYTVl4b2JXUS13TlZFejc2UkNwUHMtWXJ6WkFmMWVSVzF4UDQzY2tMakxXQlBkSEJJYlo4NkRLUDdXbEJ0NzRmYzg3b3J1UmQySDhqUUpiVktfTQ?oc=5",
+      "source": "머니투데이"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "정명근 화성시장, 삼성전자와 '미래성장 동맹'…1조 7천억 투자 뒷받침",
+      "summary": "정명근 화성시장이 삼성전자와 미래성장 동맹을 체결하고 1조 7천억 투자를 뒷받침한다.",
+      "kw": [
+        "시장",
+        "삼성전자",
+        "투자"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB6YjNyNnpLOTZQZ2h5X1ZoRWt1eDl3bnpnQlNITExHTVFhUVFiNE5sOVpYZndyMFA2aFJCYUxYdnRpcFFXaTBmRHktV0ZxZGM?oc=5",
+      "source": "v.daum.net"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "학교·돌봄에 대입전략까지…향남읍 ‘그로브 스위첸’ 10월 분양",
+      "summary": "향남읍 그로브 스위첸이 학교·돌봄시설을 갖추고 10월에 분양된다.",
+      "kw": [
+        "향남읍",
+        "분양",
+        "교육시설"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBDR3VZM2I5ZDA3dkotMld4X1FQZzRjSmFPZkxFNE1zTmg0bl9vYUY2Y3JSZ2FFYndPbXR3NVFfdHY3ZnFvMzlyRjJWQUR6cGc1bmJIWlgxc2c?oc=5",
+      "source": "뷰어스"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시-삼성전자 미래성장 상생협력 위한 업무협약 체결",
+      "summary": "화성시와 삼성전자가 미래성장 상생협력을 위한 업무협약을 체결했다.",
+      "kw": [
+        "삼성전자",
+        "협약",
+        "상생협력"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9XSldMQ1l4cFhYTGhxZVZXQlh6Tm9DT2VzclB4V3JKNUdlUFRwM0Y0QmZ4WDlsc3E4Qm9RemF6X1ZRS3lkb1pubVgtaXJNWWo4RTJ5NFNuYzJKaHVTaUgxYi1n?oc=5",
+      "source": "경인뷰"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "‘영앤리치’ 몰리는 동탄…하이퍼엔드 단지 ‘아크메르 동탄’ 10월 중순 분양나서",
+      "summary": "동탄의 하이퍼엔드 단지 아크메르 동탄이 10월 중순에 분양을 시작한다.",
+      "kw": [
+        "동탄",
+        "아크메르",
+        "분양"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBzM3VyMEFTU2lXUW5RQ1lobmE5Q0Ita0N1VXItRy0xTjAyM1FWOGYyWXhvWTR2ZHlzOENxRkNndUQtOEJKUmlxWEM0TDZfZnI4SUJrZQ?oc=5",
+      "source": "v.daum.net"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시, 삼성전자와 '성장 동맹'…1조7000억원 투자계획 본격 추진",
+      "summary": "화성시가 삼성전자와 성장 동맹을 체결하고 1조 7천억 원 투자를 본격 추진한다.",
+      "kw": [
+        "삼성전자",
+        "투자",
+        "성장동맹"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBrYUc4WU4xQVZ2XzhWbHNyR3hNLVVQT1JGVzdGSmRSb2F3OFItNE9JLXdZUWoyQVlPM1dqSFlRbWp0bzZTWDN2eVVzRDRsUQ?oc=5",
+      "source": "전자신문"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "태안라이온스클럽, 병점1동에 사랑의 후원물품 전달",
+      "summary": "태안라이온스클럽이 병점1동에 사랑의 후원물품을 전달했다.",
+      "kw": [
+        "병점1동",
+        "사랑나눔",
+        "후원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPLVlrYVBqUGJ4NkNFU2x0ZnpHc0oyN1h0V2pWZ3RVSWVYREFkVEdjcDZpRThXMUFuMW9HeVgtOEMyeHlMbW5ZRnpjMm9wQlI1cWJuMmVPdEpqZTNFRU5adEcwOEVTbVlhN0ZHV3hlZ0JDdGxTMDdSVFNqSDIydEh0UkVaZzVwclFZbHA3QmhaeEFaMUhLay1mVzV4ZGRMQQ?oc=5",
+      "source": "화성 투데이"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "동탄에 최고 49층·1808가구 ‘아크메르(ACMER)’…10월 중순 분양",
+      "summary": "동탄에 최고 49층·1808가구 규모의 아크메르가 10월 중순에 분양된다.",
+      "kw": [
+        "동탄",
+        "아크메르",
+        "분양"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1heXJNNVVaV0dCaHhyZ1NIckRFQndRWk5LcVBBZnZGbGdYa3FBOXAxcFVwT2FQSkdXcUlSaUdSdU15aUE5YnIyYTVzY2FkQUpTanZ5aE1OanE?oc=5",
+      "source": "뷰어스"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "삼성전자·화성시, 사업경쟁력 강화 '맞손'…1.7조 투자",
+      "summary": "삼성전자가 화성시에 1.7조 원을 투자하며 사업경쟁력 강화를 위해 협력한다.",
+      "kw": [
+        "삼성전자",
+        "투자",
+        "산업협력"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1UT2VqZzl2SlNDNXFCb2RhRW5McjRDbkhyNVdYM013Y3VlSzZzVHdxSUNjLW91ckNtSnJQV3B1WG9BSE9LNVRjNmJfUUVNNW8yR3NDQ3BRSXZVQnd1elpkV01nZ1pXTThIaEhHc2tnOGY1am_SAXNBVV95cUxNVE9lamc5dkpTQzVxQm9kYUVuTHI0Q25IcjVXWDNNd2N1ZUs2c1R3cUlDYy1vdXJDbUpyUFdwdVhvQUhPSzVUYzZiX1FFTTVvMkdzQ0NwUUl2VUJ3dXpaZFdNZ2daV004SGhIR3NrZzhmNWpv?oc=5",
+      "source": "뉴스웍스"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성에 삼성전자 1조7천억 더 들어온다…시는 ‘재투자 도시’로",
+      "summary": "삼성전자가 화성에 1조 7천억 원을 추가 투자하여 재투자 도시로의 위상을 강화한다.",
+      "kw": [
+        "삼성전자",
+        "재투자",
+        "경제성장"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE50djRabjBtVkR4TkloTXo1U0V2UFpzdUJlQlpmR29mQmVqWUtSWHdJS01XSWFhX3JYX1A5b1ZUWkhWUE44ZHRIcmFPMnFQczBaRDhNNW1xeVJIbFlFR21EWVI4d00?oc=5",
+      "source": "서울경제TV"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시-삼성전자 '미래성장' 동행",
+      "summary": "화성시와 삼성전자가 미래성장을 위해 동행한다.",
+      "kw": [
+        "삼성전자",
+        "협력",
+        "성장"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9EdVZWOUxicGRta2JoLXBfUHI4U29TcThLOGduUGVPZXRITXY1M0hYVERld2xKWGxqS0ZCby1CdmE1MElXSUt0Q1kyMURHdVRQQS1fcU9zUlpITHhESGhkdHBUd29MMmxjN0t1Q3dDX0w?oc=5",
+      "source": "인천일보"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "동탄1신도시, ‘낡은 신도시’가 아니라 ‘좋은 집이 부족한 도시’다",
+      "summary": "동탄1신도시가 낡음보다는 좋은 집 부족 문제를 안고 있다는 분석이 제시된다.",
+      "kw": [
+        "동탄",
+        "신도시",
+        "주거"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5qdTRkNjNlSmd4Zl9QMkFVYkRMaERUSGZLQ2ZTQVVrX09IVGRGSkJpVkNqaDJzVGM0NWhNVUQ5SHZwcnd1dUhpbS1sc0VhaE1mS0NJbWZwNE1OS3lQcmNXMC16clJ4Q0NfZVBsMlFiMGtWaFlE?oc=5",
+      "source": "비즈한국"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시-삼성전자 '기업성장·도시발전 상생협약' 체결",
+      "summary": "화성시와 삼성전자가 기업성장과 도시발전 상생협약을 체결했다.",
+      "kw": [
+        "상생협약",
+        "삼성전자",
+        "도시발전"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5OOXBHcGdsdm1ycTJON1JQQVctQ05ZZDRrRHhvU3NYM1MtQ3VmaDNyLWd2OV9vVnU2MlBOeWMzQkVDTWk5NDZuVGc2WHA2QWZLZkVaZXNfdTFSZENjeFlBVnJTWDFMdw?oc=5",
+      "source": "열린뉴스통신"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "삼성전자, 화성에 1조7천억 신규 투자…연구동 짓는다",
+      "summary": "삼성전자가 화성에 1조 7천억 원을 신규 투자하여 연구동을 건설한다.",
+      "kw": [
+        "삼성전자",
+        "신규투자",
+        "연구시설"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBKdG5JakE0YzJpREtnbnk4eGR4b0UxMk9Id00ybEUtOTgzVWg4SzlDNVlvT0dtWTc0RHdXNVMtcmRvZV80Y3NrZkZHMVpvaDVNRGtSdFRsTFpHaEMwdnQ1clRIQi1sSFluTkhZ0gFUQVVfeXFMT3pMaThHLUNNaGpCclVJZTR5THV6QkE5alRYZTM1QXVSWUhOM21DWEFhbWcya3g5T1BiMzYxREx3TGNodkxfVFJOdFVQR1h3YzVPLUoy?oc=5",
+      "source": "segye.com"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "삼성전자, 화성시에 1조7000억 투자",
+      "summary": "삼성전자가 화성시에 1조 7000억 원을 투자한다.",
+      "kw": [
+        "삼성전자",
+        "투자",
+        "산업"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9KYUxJdnF1Tk1JcTVQR1VpbTZfSlhPbFJTUmJmNXo2LTdnSVQ5X01HSUVhN1hqd1VRNU96YjBVQi04dlZYYnNROEh0U3NhWFBuRm00QU9UNkVMcFRrcElUaXRlcG1HQVNyWjRLOWU4UEc3dzVFcHZOdlVR0gF_QVVfeXFMTnVVYjRDMjVHQjNPMUVVTE5FU0J4SDFOTUV1NG1LT21kUGFQVnp0Z3NicnZfT0FLUzFTS3lMNzNtRjhtS3FjQnJCVmRuMEFtZWk5UmsyWmRaRjhxY2VnajVvRFVUcmdCY2tWQng0QWlLcXJ6RldMQmUxVE8yanR4TQ?oc=5",
+      "source": "뉴데일리 경기"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "삼성전자, 화성에 1조 7천억 투자…시와 상생협약 체결",
+      "summary": "삼성전자가 화성에 1조 7천억 투자하며 시와 상생협약을 체결한다.",
+      "kw": [
+        "삼성전자",
+        "투자",
+        "협약"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9DQkV2SlROZ2t1U0xXOEdjbEVWX0xzVWRaVGFZQ1lmQ3ZCOTlXTUhRdGZoX2ZGRkxZSTEwREhhMmVvUW1xejE4ZFVOQ2FNbDM2akNMc1cwbjFHYVhyY3pRT0dKYVZPUQ?oc=5",
+      "source": "수원일보"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성시와 몽골 울란바타르시 교류",
+      "summary": "화성시와 몽골 울란바타르시가 교류한다.",
+      "kw": [
+        "국제교류",
+        "울란바타르",
+        "협력"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRzNsa3VGTDNIc3lmNl9tTTNsYW5vekxSSDNiYXo1QTk4dFJyTDVyeVNiMWhxbEdQYzYtdXV1M2czUHVQbTJtazlRNWlwTFJnU051MFFoM1NNQ0d5ZHIzbXUxVUlkTC1NMWQ3dmcydVFZSkxvTVEzRi1oNnp5MkdBWk5GQThHQTZvREZ4V3ZmTnN4dw?oc=5",
+      "source": "화성 투데이"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "정명근 화성시장, 삼성전자와 미래성장 협약…1조7000억 투자 지원체계 구축",
+      "summary": "정명근 화성시장이 삼성전자와 1조7000억원 투자 지원체계 구축을 위한 미래성장 협약을 체결했다.",
+      "kw": [
+        "삼성전자",
+        "투자협약",
+        "산업육성"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5GLWNRMFpDS2gzb0hpbmdVelVTV3FNcjJ5Z1NwU2x4YmVzSGl3VWpBUmM3YXd2RmFodU1iaER6X2tVS1BZNkIyald4Qy1pT3lwamppRUZfbVhOTU1BaFFDWmRxbUc0UVRObmfSAWxBVV95cUxPdGRQemtxOUV5T09GM2VrZkEyVzJrcVZFQS1tVk9SQjBmUkItZ2F6MWZhaGhyd0l1TDNXZlQzbnRjREkxRDRYa0Z1YklVTk5xV1lNS2hQU1lRWXZKcm5GdVo1cDJTR3dBbkhYV0g?oc=5",
+      "source": "필드뉴스"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "삼성, 화성에 1조7000억 투자… 도시와 함께 크는 롤 모델 선언",
+      "summary": "삼성전자가 화성에 1조7000억원을 투자하며 도시와 함께 성장하는 롤모델을 선언했다.",
+      "kw": [
+        "삼성전자",
+        "투자",
+        "지역발전"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9wTkt0SmdZSk1yTlBVaTltdldsYUNGREZHcnNzVnRvSkxQTUVpNWFGZ0x1bVZIdGdTVktsSWZUN2pPcVoxWlppVDNVSkJXb2VnS29DOElNZW1zQURid2ZkaWlVX0d3a1NLVnVKckZGbw?oc=5",
+      "source": "kihoilbo.co.kr"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시, 삼성 1.7조 투자로 첨단산업 벨트 완성 기대",
+      "summary": "화성시가 삼성의 1조7000억원 투자로 첨단산업 벨트 완성을 기대하고 있다.",
+      "kw": [
+        "첨단산업",
+        "투자",
+        "산업벨트"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1nYUU3Uy1hZkhjeTFvaVAyM21LMFJhYzM0c2lBSlJpNDV1VXI1cmhIeEdLS01vUnJpNXcycUV4U1I5and6b3EtX3RtbVo0N2pPNURjWGZXUDJaMTM0SUVQc1V0X2JSZl9VS1Z6TtIBb0FVX3lxTE1JemhTT3dVZkFLcmV3MmFTOGpHazIybVhWWkFsQnRnMVBsTGRISHBuU2ItdVJsRjFsX3lmYUJQSkZYM0Npb2dVc2dfU2RqenFVQUtzcENOM29uZkdFLW9rU3hwZVMxWjhIRDlWdWpKTQ?oc=5",
+      "source": "뉴스로드"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성특례시-삼성전자, 첨단산업 상생 협력 ‘미래성장 동맹’ 구축",
+      "summary": "화성특례시와 삼성전자가 첨단산업 상생협력을 위한 미래성장 동맹을 구축했다.",
+      "kw": [
+        "상생협력",
+        "미래성장",
+        "첨단산업"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8zNE5VU2dKUWp1VTl0N3FBbjFVR3g1S2ZKbWI3Qkd2a0l3R3otdVZ5bjFMZ0NUTzZBdVZ3LXNIREtPaGc1M0puMlZoRjRjV0VFWXVV?oc=5",
+      "source": "서울신문"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "화성시청소년상담복지센터-화성시여성단체협의회, 위기청소년 발굴 및 통합 지원 위한 업무협약 체결",
+      "summary": "화성시청소년상담복지센터와 여성단체협의회가 위기청소년 발굴 및 통합 지원을 위한 업무협약을 체결했다.",
+      "kw": [
+        "청소년복지",
+        "위기청소년",
+        "상담지원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5HVy1zcDU0cTVURDE4aVhFa0hOVUthUkZ6MEljbWVTZmRMa003RDRDTXBMTWRaLVdoTFU0YzdhNk9kNlIyV2Y5N1N3eklwdlJzYzd0TjF3dGhheDdra3BZNUQ5UDMtY2JVZDF0aUtpSjBFZ9IBckFVX3lxTE5HVy1zcDU0cTVURDE4aVhFa0hOVUthUkZ6MEljbWVTZmRMa003RDRDTXBMTWRaLVdoTFU0YzdhNk9kNlIyV2Y5N1N3eklwdlJzYzd0TjF3dGhheDdra3BZNUQ5UDMtY2JVZDF0aUtpSjBFZw?oc=5",
+      "source": "뉴스 따옴"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "정명근 화성시장 동탄노인복지관 방문 '추석 안부 인사'",
+      "summary": "정명근 화성시장이 동탄노인복지관을 방문하여 추석 안부 인사를 나눴다.",
+      "kw": [
+        "시장방문",
+        "노인복지",
+        "추석"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBtUFk5TU53STBrckw2bVo4QmZuRnpZYnRVZVItNWYxYWREUVBNTkQtdVVvYU8yNlR5ZDlQM1RZS1ZZV1dzWlZsZVFSYnh0aUNpOFAwX3dscS15MnQyMkhIS1hkRDY?oc=5",
+      "source": "열린뉴스통신"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성특례시, 삼성전자와 첨단산업 상생협력 체계 구축",
+      "summary": "화성특례시와 삼성전자가 첨단산업 상생협력 체계를 구축했다.",
+      "kw": [
+        "상생협력",
+        "첨단산업",
+        "협력체계"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1XVGZuaWkzeEFITnhSMkRpYko0M0FQTzFPdXoxNzJoOTd1NTNrTk1EX0h4TTQ3Vzg5VW93NlhxNlhCWmxSLWlpTWkzSzJtQ3B0cWFLVHd6dExjSjFrdjJhd21TVVZGRkZGWlJlb1ZiQdIBb0FVX3lxTE1XVGZuaWkzeEFITnhSMkRpYko0M0FQTzFPdXoxNzJoOTd1NTNrTk1EX0h4TTQ3Vzg5VW93NlhxNlhCWmxSLWlpTWkzSzJtQ3B0cWFLVHd6dExjSjFrdjJhd21TVVZGRkZGWlJlb1ZiQQ?oc=5",
+      "source": "한스경제"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시·삼성전자, 상생협약 체결…1조7천억원 투자 추진",
+      "summary": "화성시와 삼성전자가 1조7000억원 투자를 추진하는 상생협약을 체결했다.",
+      "kw": [
+        "상생협약",
+        "삼성전자",
+        "투자"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1uazFfbXVCSTlVd2dVR0wxQTdjYlZuOFJLLUxSUnFBdmFnNXpPd1lMWTFkdHdtUmpzTkFyUHdrVXhwSnJhNXo5clJKdXAyTFNJTk9mZTc1cHdZMzQ?oc=5",
+      "source": "경기일보"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성특례시, 30일 ‘제3회 샤인머스캣 품평전시회’ 개최",
+      "summary": "화성특례시가 30일 제3회 샤인머스캣 품평전시회를 개최한다.",
+      "kw": [
+        "샤인머스캣",
+        "농산물",
+        "전시회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB1YWJmS2V3Tko4c3c4WGY5bV9kUWtETDdfMnhKX0lWcDFuRmhKSXdhNDY4V0s4OTZHN1JuSXZwSUlUMGI3bU41U25FeUEzemNWRjJnU1JzOWJGZHk0SzVyNEdhM3h6dlF1SndHaEticlpRdw?oc=5",
+      "source": "sports.donga.com"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "동화성지역세무사회, 화성시동탄아르딤복지관에 후원금 200만원 전달",
+      "summary": "동화성지역세무사회가 화성시동탄아르딤복지관에 후원금 200만원을 전달했다.",
+      "kw": [
+        "후원",
+        "복지관",
+        "지역사회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8tVktyN2Q0SG40TlhNZi1wYjl6bWZpV1dGNHRVWmU0bG5aU0tRZF9NQTFjM0VKVm9mYmVqV0RRWmI5WlZNTFlRakVRaTV1RnBISDBNZTFyZ0k0bjhVR2tqeXhUcmlYbFEyQ1FrMjBqTG94UXp2U0HSAXhBVV95cUxNa1JSN1FaTDkxMi03WXJ4b0haRENfdG5qQTl1cnBLcFJJeEt5SzNWdm9fUndjVTFSTGZ0QndIeFVQMk9aOTRBYlMxMHdlU2dqcDhCRFVCQzF1aENIR0kzaVVTVWJMM3VqeTcyVFlkMEtQbmFidFNCcFM?oc=5",
+      "source": "한국장애인신문"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시,삼성전자와 맞손…1조7000억 투자 기반 미래성장 동맹",
+      "summary": "화성시가 삼성전자와 1조7000억원 투자를 기반으로 미래성장 동맹을 구축했다.",
+      "kw": [
+        "미래성장",
+        "투자",
+        "삼성전자"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9mVFVtQ0FxZUkxTnpnOUR4cU5lb2F3VVc3V0lpdWQ4TXlmLVJySzh6WDRxbXZZTHJQWjB3OTFFTkd5VUZFeEZIcm55N3l2SVJWTzBGRy13cEJNQTUxejRsTVdybkNwaS1L?oc=5",
+      "source": "팍스경제TV"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시 신청사, 누구를 위한 청사인가",
+      "summary": "화성시 신청사의 역할과 필요성에 대한 질문을 제기하는 기사다.",
+      "kw": [
+        "신청사",
+        "행정청사",
+        "도시계획"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBRckpBTVJxZGNhQUtJQ2tkeGdBQjdSY2pGTGNPeVVaMnl4eFo4ckxBb19xMjkyMFZDT3paT3JxSlF6OU54WDNGeHYwa0E?oc=5",
+      "source": "브런치"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시-삼성전자 '미래성장 동맹'…1조7000억원 또 푼다",
+      "summary": "화성시와 삼성전자가 미래성장 동맹으로 1조7000억원 투자를 추진한다.",
+      "kw": [
+        "투자",
+        "미래성장",
+        "산업협력"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Tbk94akJzWE9xSkIzYkFOT08xZTRIVm9acndPZ3pucGdnWENzdkpRUFJ1QWd1RTJibWRxaFJmNVZMdmg1aFlHTVczSllhZldlSjFpVVpCUV9uUDZ4ckp4bA?oc=5",
+      "source": "아시아경제"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성특례시·삼성전자, 첨단산업 협력 협약…1조7000억원 투자 계획",
+      "summary": "화성특례시와 삼성전자가 첨단산업 협력 협약을 통해 1조7000억원 투자를 계획했다.",
+      "kw": [
+        "첨단산업",
+        "협력협약",
+        "투자계획"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wYnh0WXFkVlZKNW16VWxpU2c5bW1kUWVBX0c2ZHc3M3BMT2M1N2doRDc0WktlclpaeGVTUE8yOXhrTS13ZlRaZ1FaS2RsS2V4eUlyZjdscHhmOHJkZ1c0LXYyOUwxY04z0gFoQVVfeXFMT3BieHRZcWRWVko1bXpVbGlTZzltbWRRZUFfRzZkdzczcExPYzU3Z2hENzRaS2VyWlp4ZVNQTzI5eGtNLXdmVFpnUVpLZGxLZXh5SXJmN2xweGY4cmRnVzQtdjI5TDFjTjM?oc=5",
+      "source": "매일일보"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "삼성전자 1조 7000억원 투자…화성의 산업 지형도 달라진다",
+      "summary": "삼성전자가 화성에 1조 7000억원을 투자하며 지역 산업 지형 변화를 주도한다.",
+      "kw": [
+        "삼성전자",
+        "투자",
+        "산업발전"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBvRG9oZ3g5MG9uTG9WZWJkY1BMWU55NGxDUHZZOGgwUnVPcFgycG93ODJpVEQzeUd2SW9KRnBwQWVpQjlvSXQxaVZYRmx1X1AwM09oR3U3OHpVeDBibHBGWVFjVmFjWUhqZUtWWmIxeGbSAXRBVV95cUxQNGFUbzRzemZDQkNyOXdiMFo3Tkt0dnJEREZDZlY0cE9mY0d4aVdlLTdsWVR5N3ZwTkR5TTN6TXJNdEZ6NkJNaXhIaXh4cWRrX0VTeEwtQUxOTTNPRW9pSDBfOF92ZGxNMkI4dTJQbmpiOTJkaA?oc=5",
+      "source": "주간한국"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "화성시, 승마체험 참여자 41명 모집…취약계층·청소년 대상",
+      "summary": "화성시가 취약계층과 청소년을 대상으로 승마체험 참여자 41명을 모집한다.",
+      "kw": [
+        "승마체험",
+        "취약계층",
+        "청소년"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0zZnpILUtDcUpfSUd4NE1CSDVuUU9XUm9hWVZJRkR3T2d0UHR1TVEtbVd1Z2w1R1J3aW9tbmhlbHdiQnN6WnpRVGs3V1E5Qnd0N000ZEFNYmh1TFZu?oc=5",
+      "source": "뉴스핌"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "요리로 가족 유대감 키워 ‘화성시 쿡쿡패밀리’ 4차 참가자 모집",
+      "summary": "화성시 쿡쿡패밀리 4차 프로그램이 요리를 통한 가족 유대감 강화를 목표로 참가자를 모집한다.",
+      "kw": [
+        "쿡쿡패밀리",
+        "요리",
+        "가족"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE4xVWxMQ3ZWdTRHbW9XUVJWVEdwS0M2SGJHR0l0UW5UNkpTT0VzeE5pdVoxeHdQYzVxWDVoNzEwUGl3Zw?oc=5",
+      "source": "화성신문"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시-삼성전자 ‘1조7천억 투자 동맹’…미래성장 맞손",
+      "summary": "화성시와 삼성전자가 1조 7천억원 투자 동맹을 체결해 미래성장을 추진한다.",
+      "kw": [
+        "삼성전자",
+        "투자동맹",
+        "미래성장"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9BbFVYQzR0OE9heDBfdEZOU2lwdU9LeFkzcmZWUV9Bai0zZkZTMnNJcDRqSHdNbkxWUzlzMnBoZWlMS05kMThQOTc3LUdGXy16RHhxYUpaWGp4eDZzOUxaR0dLVXloTHVMSTJUaw?oc=5",
+      "source": "아시아투데이"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "1.7조 투자…화성시·삼성전자, 산업경쟁력 강화 맞손",
+      "summary": "화성시와 삼성전자가 1.7조원 투자로 산업경쟁력 강화를 위해 맞손을 맞춘다.",
+      "kw": [
+        "산업경쟁력",
+        "투자",
+        "협력"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE92eXRwRkt5RkdDVnBhVlRpUkRkakdLOWNxeElTclJZQldfdVltU2xhTnFXOG9pcjFQc0pJU05LMUoyeWIzeGNwRUtROGdBMmc3cDJGU3ZDcUpnNk3SAVtBVV95cUxPdnl0cEZLeUZHQ1ZwYVZUaVJEZGpHSzljcXhJU3JSWUJXX3VZbVNsYU5xVzhvaXIxUHNKSVNOSzFKMnliM3hjcEVLUThnQTJnN3AyRlN2Q3FKZzZN?oc=5",
+      "source": "뉴스1"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "㈜이에듀, 화성시 아동 위해 1200만 원 상당 영어교재 기탁",
+      "summary": "이에듀가 화성시 아동을 위해 1200만원 상당의 영어교재를 기탁한다.",
+      "kw": [
+        "영어교재",
+        "기탁",
+        "아동"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9jeTV6c0hWdDZZZzY5cGZCQnhQNF8xcVY3dVA3RFVqcWdXOWh5YTdsUmNDYXFwTEFwQnloc053QmhIQnNmckY1MDhNTDdpR3JhTk5UU3lfajQxck45emM3enFuZ0s?oc=5",
+      "source": "중앙뉴스타임스"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "이에듀, 화성시 아동에 영어교재 3000세트 기탁",
+      "summary": "이에듀가 화성시 아동을 위해 3000세트의 영어교재를 기탁한다.",
+      "kw": [
+        "영어교재",
+        "기탁",
+        "아동"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xR1VTbFhvcGVpT0lZTVMxdlNyYzQ5dXBkbEJzdWVERWMzeDZrRFVKOHpzdXlsaTZUZmRURUszbk5lbHplVm1jTy13WWhnTlFMQ01uRUh5YlExT0tNbGswcDdFWmpZci1WVWdtZjQ4eHk?oc=5",
+      "source": "신아일보"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "삼성전자, 화성에 1.7조 투자…화성시와 미래첨단산업 상생협력",
+      "summary": "삼성전자가 화성에 1.7조원을 투자해 미래첨단산업 상생협력을 추진한다.",
+      "kw": [
+        "삼성전자",
+        "투자",
+        "첨단산업"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE83NTVZb2RKUnJhaHRfQzVIM3BMQTlXV2RfdW93QlZsQjNVODNOYU5GUEE1TV95TVBOS05wRGd6T2dJcDdicFNOZnJFRTBBYWRacm9XRmZfSlh0dkcxdlZidjBaejluM2dQ?oc=5",
+      "source": "ebn.co.kr"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "삼성전자, 화성에 1.7조 쏜다… 화성시와 '미래성장 동맹' 체결",
+      "summary": "삼성전자와 화성시가 1.7조원 투자로 미래성장 동맹을 체결한다.",
+      "kw": [
+        "삼성전자",
+        "미래성장동맹",
+        "투자"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ZZVBxX0pSemdDdFVRb3dtaTJzZVdCV1l3ZGpCWHI1UFlYUUVtMUZua3FnNVl3TDRGSGFoZWY5NXZrR1FoOGdrbWVIbWpNeDh3OGtMZkNEYjZ6Zw?oc=5",
+      "source": "파이낸셜뉴스"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시-삼성전자 '맞손'…1조 7000억 원 투자 '미래성장 동맹' - 보도자료 | 기사",
+      "summary": "화성시와 삼성전자가 1조 7000억원 투자 미래성장 동맹을 체결한다.",
+      "kw": [
+        "삼성전자",
+        "투자",
+        "동맹"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBqUlFndjlIdzBjc1RCZnQtVlJ4ZFBwVHFIMVR5aGE5SWhIcG1NWkNvZmtCS3h4SzYydW9tWGVsWmJ1Y0hEWUJBM3BpeEIwMHpBR2ZWWEFaVm9mb3dyX3Fn?oc=5",
+      "source": "더팩트"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "삼성전자, 화성에 1.7조 투자…미래첨단산업 경쟁력 강화",
+      "summary": "삼성전자가 화성에 1.7조원을 투자해 미래첨단산업 경쟁력을 강화한다.",
+      "kw": [
+        "삼성전자",
+        "투자",
+        "첨단산업"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBVdlJWZmd0SEc5czdYZEhHSVFDVUxRQ1QzbUVHa2VTeW9HRXRkLVotbkFaaloyYWUtalFTODBERHhrQmVLTWtJQ0IwRWNYU1ZnaDFucUxYYWs5aERqb091QU5RbWlfWHcyVUhINzRNX2Y5em1XcUYxVdIBeEFVX3lxTFBVdlJWZmd0SEc5czdYZEhHSVFDVUxRQ1QzbUVHa2VTeW9HRXRkLVotbkFaaloyYWUtalFTODBERHhrQmVLTWtJQ0IwRWNYU1ZnaDFucUxYYWs5aERqb091QU5RbWlfWHcyVUhINzRNX2Y5em1XcUYxVQ?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시아르딤복지관, “옷을 덜 사고, 오래 입는 삶” 이소연 작가 초청 인문학특강 개최",
+      "summary": "화성시아르딤복지관이 지속가능한 소비문화를 주제로 인문학특강을 개최한다.",
+      "kw": [
+        "복지관",
+        "인문학특강",
+        "소비문화"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9jQkxYUVBFLTZyVHBtaXhKZ3h3NDQzVFcxeVJBYWJac3Fza0NWaVlPMWk5UklvcGp6TXMyakdMZmhhLTkzaEYzdUFtNmYtR0VpNWdKLTdLTWpHUzRrRjlINV9hQzEzTFJ0NURJeXl30gFyQVVfeXFMUDBxcFZnN2YweElJUVF0QmZ0MEM2VkpleFZ1elZTU2Y4ejZjMlFNM29VNGZNSk1qU3I1dGVjdGU4ZG9XVUVKaUR3ak5GYWVPTEowX0tVbUFLc1NKUkJWeDhDMnprZEgxbFhsbTUyX0pHZXJB?oc=5",
+      "source": "뉴스 따옴"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시, 샤인머스캣 품평전시회 개최…우수 농가 5곳 뽑는다",
+      "summary": "화성시가 샤인머스캣 품평전시회를 개최하여 우수 농가를 선정한다.",
+      "kw": [
+        "샤인머스캣",
+        "품평전시회",
+        "농가"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QXzZNSVRZdHRpSjcyUGhlWERjcXVhOGtFT3QzSFhJMDBGeWZuc0hiOUNlcjJhVkVtYjJaMzBldXNaRkY2eHJYXzhEU3JpQW9kTGlQbEpGSHZVdzlPZzdadnFKc1lpU1Rt0gFoQVVfeXFMTlBfNk1JVFl0dGlKNzJQaGVYRGNxdWE4a0VPdDNIWEkwMEZ5Zm5zSGI5Q2VyMmFWRW1iMlozMGV1c1pGRjZ4clhfOERTcmlBb2RMaVBsSkZIdlV3OU9nN1p2cUpzWWlTVG0?oc=5",
+      "source": "매일일보"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "환경",
+      "senti": "긍정",
+      "title": "화성시자원봉사센터, ㈜주영메카트로닉스, 제부도 ‘ESG 플로깅(Plogging) 캠페인’으로 깨끗한 지역사회 만들기에 동참",
+      "summary": "화성시자원봉사센터와 주영메카트로닉스가 제부도에서 ESG 플로깅 캠페인을 실시한다.",
+      "kw": [
+        "자원봉사",
+        "플로깅",
+        "제부도"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE10eTFfSElwb1VPb21DNjhya29BZGVRazhxV2Y1cjZ0dy1EYzkzR1FQYlo5c3FyZjJ5ak1fTzNvVHZ6bjFXSGtaVjBTVDdjTzNCT01vX0ZDUFRoMUh0OHl2bmJHQ3E1WGhoTExWRVFB0gFyQVVfeXFMTUxpZk9MVHVvTk5nd0xhSUJVM1Q3TXhJVXBIU3U1cXZZWkszVWM3UVMxQ0tFVi1oNHAta1JybmlZaWlGRkZMUmx4MXRsTnpsa3pxNnJKcEt4UXJfS19zeFUtSFdsN3BtcklhbmR4WnZ1QmFB?oc=5",
+      "source": "뉴스 따옴"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시, 삼성전자 1.7조 투자 발맞춰 지역경제 키운다 - 머니투데이",
+      "summary": "화성시가 삼성전자의 1.7조 투자에 발맞춰 지역경제 활성화 계획을 추진한다.",
+      "kw": [
+        "삼성전자",
+        "투자",
+        "지역경제"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBMeG03N1RxYUpERHYyeEJZTWFsQWJLcGp0VE1ZWFdYRTdJZ0FNTUhTa1N3UlpVSFRnWVp6R1lyTS1jeTdWaVIwYzdkY1BnWlBCMWM3QTFqYkxxQklFbkdBcjExdWpfQThheV9sTkE2bXlueXlDdnFZ0gF8QVVfeXFMTTRQR0NtdGc2dmdtYU5aVEJycUJTcndBUUZhWm5DNC1ULUV0RjhMc0pPazR6RkFob3VLLXI4eC1nV2dXSVdMeGVmMU00cjc0Z01IZDdLTFdXeTcyQUxCOGVsa2U4WXpwc1R5aGdNaVFQeVdmZEhGd1E4b0R1Mg?oc=5",
+      "source": "머니투데이"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성특례시, ‘제3회 샤인머스캣 품평전시회’ 개최… 최고 농가 TOP 5 발표",
+      "summary": "화성특례시가 제3회 샤인머스캣 품평전시회를 개최하여 최고 농가 5곳을 선정한다.",
+      "kw": [
+        "샤인머스캣",
+        "품평전시회",
+        "농가"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBSSUpIWk9Qbjl5ekdtMm1kQ3NHbmxHbk9EVUFUZ0gtU3V2Zmh1SnJyLUxFdHRqbTU1MFhHNkpDaGhYVm90X01FT0ZrX2VZNVp5N3ZYazBQeUsxQnVRN3ZWdUUxY2Q?oc=5",
+      "source": "경기신문"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시, 삼성전자와 1조7000억원 투자 협력⋯ 미래첨단산업 경쟁력 강화",
+      "summary": "화성시와 삼성전자가 1조7000억원 투자 협력으로 미래첨단산업 경쟁력을 강화한다.",
+      "kw": [
+        "삼성전자",
+        "투자협약",
+        "첨단산업"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE00RnR5TzhQVmRsUEZCSi1TVlFFc2piRUlMS0RMVlk0VEFQeTF6LTlwVjFzQkhESkxXM1Zoei01YTVvdGxQTWxpM2lqanEwRmZwR3A2QlhYTV8zTXBXOEE?oc=5",
+      "source": "아시아타임즈"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "정명근 화성시장, 삼성전자와 미래성장 동맹...1조7000억 투자계획 추진",
+      "summary": "정명근 화성시장이 삼성전자와 1조7000억원 신규 투자계획 추진을 체결한다.",
+      "kw": [
+        "시장",
+        "삼성전자",
+        "투자"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0xVWRnNWR6R1RtT2Y2LWlTSDN2WUl0d3E3d2JFQTRyUDkzTE5FeEVVWVU1a3BDaHVSM3RZQVNvQ3JhSGZYd2tySkN3VTd4SWtZTGk4b1JHOTbSAVhBVV95cUxNMVVkZzVkekdUbU9mNi1pU0gzdllJdHdxN3diRUE0clA5M0xORXhFVVlVNWtwQ2h1UjN0WUFTb0NyYUhmWHdrckpDd1U3eElrWUxpOG9SRzk2?oc=5",
+      "source": "아주경제"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "삼성전자, 화성시에 1.7조 신규 투자 '미래성장 동맹' 체결",
+      "summary": "삼성전자가 화성시에 1.7조원 신규 투자로 미래성장 동맹을 체결한다.",
+      "kw": [
+        "삼성전자",
+        "신규투자",
+        "동맹"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOelpjdEdmcklKaHJfZ0VfQkxRNFFPMDdOWVV2d2pITEJKaUxITjNEajFqUVZ0djZRa3AyVXFFeklMYVNRMEhlVENPczBFZDU5U1hCdGpfLWl4bk43dkJIMGRFbk1ib3NZdGY3bXNvSW9DNDNleHZrS2NiNVBTXzVCQQ?oc=5",
+      "source": "edaily.co.kr"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시, 삼성전자와 '미래성장 상생협력 업무협약' 체결",
+      "summary": "화성시와 삼성전자가 미래성장 상생협력 업무협약을 체결한다.",
+      "kw": [
+        "삼성전자",
+        "업무협약",
+        "상생협력"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNbm1HVEE4cXlzRDdvM01CZ0VZcWwtM1dSUlBJdXJsVUhZYVB6M2V2ak5LbGN5VWhMbDZ0VXJrVGJ2TmlBOWFqbzY4VWRNUkFfY0REMlY5b0IzSk9nRTI2aTZibXB6V285a0dUVzJJLUhRSW01Z0tKaktaMm95bEhqOV9NaFpNNExBUjJMLTdvTGZuMVJzMzJKekswVUZRWG5yeWM5V3VqQ2xkNkRfZGl1TXJTeXdTTldYMXJZYTlMR0FaMmprRzljcnZMTjRYVHozaEtkanhEQkl4X1dlQy1lNUx1UWVSa2hHV191clQ3elZoR1BqZlhtSE55a3NSWUtoRURCd2hseXpScGVrQVJoekhYc2JNUVlmOFlsNWNaY3BCdTA?oc=5",
+      "source": "데일리안"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "경기농협 시너지협의회, 화성시 포도농장서 수확기 농촌일손돕기 실시",
+      "summary": "경기농협 시너지협의회가 화성시 포도농장에서 수확기 농촌일손돕기를 실시한다.",
+      "kw": [
+        "경기농협",
+        "포도농장",
+        "일손지원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAwRDAtRWo4WXZwUHhiNnBINk52Z2U0SHhTamxkQ25td3JvWnJFeUNURmNBd243cEtLWFJJSTgwejB6YUlMdlZDTkJuSTdqemltVFpLcU1SRzNyMkJnNXp0dUF6NV82Mnp0eWkwbGx2NDZ4Z9IBckFVX3lxTFAwRDAtRWo4WXZwUHhiNnBINk52Z2U0SHhTamxkQ25td3JvWnJFeUNURmNBd243cEtLWFJJSTgwejB6YUlMdlZDTkJuSTdqemltVFpLcU1SRzNyMkJnNXp0dUF6NV82Mnp0eWkwbGx2NDZ4Zw?oc=5",
+      "source": "경인종합일보"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시 달빛나래어린이도서관, 초등학교 1학년 맞춤형 독서코칭 운영",
+      "summary": "화성시 달빛나래어린이도서관이 초등학교 1학년 맞춤형 독서코칭을 운영한다.",
+      "kw": [
+        "도서관",
+        "독서코칭",
+        "초등학교"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1QdkdKMHdlTGZoZTdhaUt5bWVTNS1OQmlNOXl1U29udDdFMkc0amw2Vkw1WXQzUk9fUnUxNTIwWVFGdkVCUWdKMWhhbGY5akdkVklGMGV5Z0JpSWlwYjBZ?oc=5",
+      "source": "뉴스와이어"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "삼성전자, 화성캠퍼스에 1조7천억 신규 투자…연구동 짓는다",
+      "summary": "삼성전자가 화성캠퍼스에 1조7000억원을 신규 투자하여 연구동을 건설한다.",
+      "kw": [
+        "삼성전자",
+        "신규투자",
+        "연구동"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBYR3Znd2VSUk4yZlZJOHFnMTRFaGRHSEM4dmV4OExXU2M0N01rWHNlSEdhNWdFVDV5TmxldDVFbC1CVFVnSXpwblVkUS01Q29wdWtxTkxRYl9yV2RrS1hHRUlndWpaSHpq?oc=5",
+      "source": "중앙신문"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "삼성전자, 화성에 1조7000억 신규 투자…연구동 짓고 ‘첨단산업 거점’ 키운다",
+      "summary": "삼성전자가 화성에 1조7000억원을 신규 투자하여 연구동을 건설하고 첨단산업 거점을 조성한다.",
+      "kw": [
+        "삼성전자",
+        "신규투자",
+        "첨단산업"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBMblV6RkFjUk1XVTlpbmVPaHZTNGtvWi1SUEl4WUJpbU92T25LZFhrMVJ4d3pycERFMlVZMEY5VmdwOTl6d1hPdHJ1TmNnX3lqMXVLcg?oc=5",
+      "source": "이투데이"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시, '최고 샤인머스캣 5개 농가' 선정",
+      "summary": "화성시가 최고 품질의 샤인머스캣 5개 농가를 대표 농가로 선정했다.",
+      "kw": [
+        "샤인머스캣",
+        "우수농가",
+        "선정"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9qM1kyY09Kd1lWUUFxNmdoSXc3d0ljYnhockdDeUhmdEViNV9NcmQ3cjRHWlBIM1loRndFN3ppS1RfUWZQXzIzdGR0Tjk3LUhpUUcwSlBOZDBGWkpCeDR4dl9CcHFUQk9hUGNlcQ?oc=5",
+      "source": "중도일보"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시 대표 샤인머스캣 TOP 5 선정…30일 품평전시회 개최",
+      "summary": "화성시 대표 샤인머스캣 TOP 5를 선정하여 30일 품평전시회를 개최한다.",
+      "kw": [
+        "샤인머스캣",
+        "품평전시회",
+        "농산물"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBiRGoxbnU1T0hSQk83Y3FwOFV2aDNLRnF5UEJjMXFxRC0wMjJXY19uTDM3ZFluT3QyRVZTbGtHYmlLTHVvaGZSbGdlVTE?oc=5",
+      "source": "아이뉴스24"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "삼성전자, 화성에 1조7000억원 신규 투자",
+      "summary": "삼성전자가 화성에 1조7000억원의 신규 투자를 단행한다.",
+      "kw": [
+        "삼성전자",
+        "투자",
+        "화성"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hajgyc2R3cVcySjhOT3JfbzdoUmdBWHR3TjV5VUFaMmpyQVV1UmdldnRLd3VRMzlVblQxRTJTdVFoemoyM1FDSHNKdm5GV1ZWT0swSjV3?oc=5",
+      "source": "매일경제"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시 무료 승마체험 41명 모집…10월 8일부터 분야별 접수",
+      "summary": "화성시가 무료 승마체험 사업 참가자 41명을 모집하며 10월 8일부터 접수한다.",
+      "kw": [
+        "승마체험",
+        "무료프로그램",
+        "모집"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1iZHlLME9mamUyRDBlNUtLZFhDZWRWYTY4U0UweWx3RVM3bzBvYnFKXzdaQ1NDamVpQThGeTFHV3ZjQzdteUFxbXRLbnJaVTNyUDVhMVgxZEZaNk9qY0pSQmh3?oc=5",
+      "source": "경인미래신문"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "경기 화성시, 제3회 화성특례시 샤인머스캣 품평전시회 개최",
+      "summary": "화성특례시가 제3회 샤인머스캣 품평전시회를 개최한다.",
+      "kw": [
+        "샤인머스캣",
+        "품평전시회",
+        "특례시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5SenotaEhJYVoxYnkyZ2otb0FRbFRBTUZ1Wk9SQUxCVlFWU2IwNllSUGNOUFVtOGJTOFhnTnhVUnVrM3MyeUU1UEhOMG4zYnFyYXVXeFFLTFNTOTdoVVl0Z0tNQdIBZ0FVX3lxTFBZX2NublMtSGxEenZfbE9NOTEzOGVtcEJFT09kQnpxajA2YWNBdEtJaVN2WFVuaklzZGt5ckJ5WjN4V0lCNmUwNnBUVF9JYUswSExlTU4wXy16ZVByZ0JMa21UMjdPcEU?oc=5",
+      "source": "국민기자뉴스"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시, 취약계층·청소년 ‘승마체험 지원사업’ 41명 모집",
+      "summary": "화성시가 취약계층과 청소년을 대상으로 승마체험 지원사업 41명을 모집한다.",
+      "kw": [
+        "승마체험",
+        "취약계층",
+        "청소년"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5YeWxtLWp3M2M5UFNBVXFPbldISnBpdXlDU0NDRzBSRjUwdnhYRXFCYTFCUFRNVlBPVmp2RDYxeVpqZkFJV0RjQjM4bWRtZWl6SllkUEVDb2w1RE05U1hrT1pVOXVlR1E0YkhFMGhzTFnSAXRBVV95cUxQQW01VTR1UnBxLUdmbllwbmhYSDdBRUFCaXk1RDVHMmpZdF9oYmtIWGFfLTU3dURmWnE5bGE4Nkp1ZXFqT0o0Q3Vkb05GSWNqczE0WkE5M3hiWnJMWkhwMWxCYzdCdkVaeVN1TUNQVlNJeklZMw?oc=5",
+      "source": "thefairnews.co.kr"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "정명근 “삼성전자는 화성시 미래첨단산업 생태계 조성 핵심 파트너”",
+      "summary": "정명근 시장이 삼성전자를 화성시의 미래첨단산업 생태계 조성 핵심 파트너로 평가했다.",
+      "kw": [
+        "삼성전자",
+        "첨단산업",
+        "파트너"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAyTmY1NHpweUhGWnJIRllCMDFtNUhOWlBKWERQMlE4NWFmNFI3SGhyaXdKdWNXa29vcFdoZDdFbDJyR1kzRVZTRERmTnZ0WU5lMWE0NUo2THY?oc=5",
+      "source": "sportsseoul.com"
+    },
+    {
+      "date": "2026-09-28",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성특례시·삼성전자, 미래성장 상생협력 협약…1.7조 투자 추진",
+      "summary": "화성특례시와 삼성전자가 미래성장 상생협력 협약을 체결하고 1.7조 투자를 추진한다.",
+      "kw": [
+        "상생협력",
+        "삼성전자",
+        "투자협약"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8ySWtuZEpzQ0hfMGl5LXdMLUJlMVdmQWxKYTduRnBfZ3JvazRxU01ZVUczYnVRZ1hQOHkxaGxUOUN0RkhfbWpMZEdlSmNNQlZhV0FSZEpvXzdZZHpoRjFmVEh5MkRwbTNyTXF3?oc=5",
+      "source": "프레시안"
+    },
+    {
+      "date": "2026-09-29",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시, 직장인·자영업자 등 계층별 맞춤 평생교육 프로그램 마련",
+      "summary": "화성시가 직장인·자영업자 등을 대상으로 계층별 맞춤형 평생교육 프로그램을 마련했다.",
+      "kw": [
+        "평생교육",
+        "맞춤프로그램",
+        "직장인"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1aOTFZWnFMMm9MVTFZWWRwOTRFcjZJRlc0cmNYbG00ZnhuXzcwY3hSXzc3WXJvVGNVY09sV1dzaXh3eC01MThDWnV0alhKbVNp?oc=5",
+      "source": "문화일보"
+    },
+    {
+      "date": "2026-09-29",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "‘아크메르 동탄’, 전 세대 2.5m 천장고 적용… 1808가구 규모 - 조선비즈",
+      "summary": "동탄의 아크메르 프로젝트가 전 세대 2.5m 천장고를 적용해 1808가구 규모로 개발된다.",
+      "kw": [
+        "아크메르",
+        "동탄",
+        "천장고"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaE9lX0FPd3BudUs2eWFpSGZzcFNNQ2l3bGYwRXpyNWU4TWM1eFpaMHVNOVZqZWZIV2xsWHREOFNBUzh1QzhXWHpvcHlXTVJGQWh6V2FTUzI3RFd0bjFkeVgyWmZOR1pTR0dKMUwtNE9mbER0c3M5dVNnV1pRd2gtVUF0aFdZZ1NzNjVJazBrQV9sVExDQ05OX9IBrAFBVV95cUxOOGNYbk8zVHNTYmwzQ0l3QlFDZjZkbXFGMTVfc3R0N3NnaXhoTlVreGZFWmNaSTd1MjJoaG9kY3ZUa1ppTmdDZjc3Nk1qemFjZll4dDVoOWp5QWRTNS1qRW1BYWJxc0hvNVlyZHNiaE5vNERXS1hDSG11ZXY4MmIzaHNPMFdtTkd2djBlVE8tRngzWXY3MWFSTVgyd3hnVm00OEhMYWdhdWhmLTND?oc=5",
+      "source": "Chosunbiz"
+    },
+    {
+      "date": "2026-09-29",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성특례시 병점구보건소, `치매가족교실` 운영 완료...돌봄 역량 강화 및 심리적 지지 도모",
+      "summary": "병점구보건소가 치매가족교실을 운영해 돌봄 역량 강화와 심리적 지지를 도모했다.",
+      "kw": [
+        "치매가족교실",
+        "병점구보건소",
+        "돌봄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5ORW9XMHFsU2c2b1preGFxS0t2LTcwdVhTWW9JNWxTV1EyV0otTWFBeEw5aUlCbTlZWXk3YlpTeGNybmQzdk1Tc1B3?oc=5",
+      "source": "경기평화신문"
+    },
+    {
+      "date": "2026-09-29",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "1조7천억 투자와 상생...화성시·삼성전자, 동반성장 협약",
+      "summary": "화성시와 삼성전자가 1조7천억 규모의 동반성장 협약을 체결했다.",
+      "kw": [
+        "삼성전자",
+        "동반성장",
+        "협약"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTVRUTVRVaEphRFhGSXhGbUxRSGlqWWFGTTZSMlFpbldwTExVXzVvUVBaREZYdWhhZ2NySlBpbm1Fc1pVb2ZEa0NNRzZFMkQxR2lZcS1NU09GalNFb0Fqc2NHMGJIM184NG1hblFsREVwN3FwOV9QT0VDeHV0RjVhZDFOUk9ESnpoRG04?oc=5",
+      "source": "글로벌이코노믹"
+    },
+    {
+      "date": "2026-09-29",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "\"GTX 타고 수서까지 21분\"…'e편한세상 동탄역어반원' 분양",
+      "summary": "동탄역 인근 'e편한세상 동탄역어반원'이 GTX를 통해 수서까지 21분에 연결되며 분양된다.",
+      "kw": [
+        "동탄역",
+        "e편한세상",
+        "GTX"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBQOWF2WkxPR3R4di1lN2FKeVA0a0ItQnFxa0FLTTg2WTBLd1d6cjY0ckNUSWpMUWgyUU8xalV0c0dyTmpMa255WV94cWNoVXpnSk1hYUdMSTNGdFZIbjlHXw?oc=5",
+      "source": "아시아경제"
+    },
+    {
+      "date": "2026-09-29",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "삼성전자-화성시, 1조7000억원 규모 '미래성장 상생협력' 협약",
+      "summary": "삼성전자와 화성시가 1조7000억원 규모의 미래성장 상생협력 협약을 체결했다.",
+      "kw": [
+        "삼성전자",
+        "협약",
+        "투자"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9rV0tXZEppSmY5ZzdySk9SUlZSMHp3TzBRWVdENklqazhncXdxRTlEcEcycXRaOWlsd0Q5dm5HMlFnYmRFQjJkRmhidjBaaGVZWncxWng1cHZPTmdiQUpWZ2JXa3N6aUFRcU40MVBIRzNLeVh1?oc=5",
+      "source": "파이낸셜포스트"
+    },
+    {
+      "date": "2026-09-29",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시 병점구, 화성시어린이집연합회와 간담회 개최",
+      "summary": "화성특례시 병점구가 어린이집연합회와 간담회를 개최했다.",
+      "kw": [
+        "병점구",
+        "어린이집",
+        "간담회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1oX0hfVEdqdWpFbk14RjJWbGI5dVYyMVhGcFdVU2lTckVqc2JGTzExRjBxd1lySmdKSDZnZEtxZVhHODJMemNzTmVKZ2hKSG00NVVTNXpEaUJwU0pqWlltUGVxV2VEREp6?oc=5",
+      "source": "newspeak.kr"
+    },
+    {
+      "date": "2026-09-29",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "업무 미루고 세금 날려도 괜찮았나, 화성시 공무원 징계 강화 ‘칼날’",
+      "summary": "화성시 공무원의 업무 해태에 대한 징계가 강화되고 있다.",
+      "kw": [
+        "공무원",
+        "징계",
+        "업무"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc0VraVQ5bnE0SUpWeEltaDJuSGd6SkVUOTktTTlKS2F6LXI1M0FaNEJrLVJSMW1yTEFmcmJYN2lHcTlsa19aaU1CVHZwMV9WVHJacjF0OExCODJUVlZRRzV6OEJpV2FBYU5mZF9IbFhQTFM0ZlB5UlY0X3hucDBNazdzNUg?oc=5",
+      "source": "화성 투데이"
+    },
+    {
+      "date": "2026-09-29",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "'아크메르 동탄', 전 세대 천장고 2.5m로 높인다",
+      "summary": "동탄 아크메르 프로젝트의 전 세대에 2.5m 천장고가 적용된다.",
+      "kw": [
+        "아크메르",
+        "동탄",
+        "천장고"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5hQ2tJTTQ1QW12eDNoZ2M4ZHNuNWZ5aTd3aTZxZVpsVHpnZUxwRkw2OW9YYXZBQ2h2S0dOYlBqUlZvanVpdVRCM18tRXNDRFYyZEE1SDRoNVhxS3cxaVNj?oc=5",
+      "source": "스마트투데이"
+    },
+    {
+      "date": "2026-09-29",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시 병점구, 어린이집연합회와 보육환경 개선 간담회 개최",
+      "summary": "병점구가 어린이집연합회와 보육환경 개선 간담회를 개최했다.",
+      "kw": [
+        "병점구",
+        "보육환경",
+        "어린이집"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1qNDRPUWl0RHpMd1p3QzdSZ1lZYXZ0cnEzaF9YbnpNeE9ZTHZhdTBlX0FvYlpzUVhUWDI3NkgzSVk3S0ZPS29Bb0w3eFJQV2NtZGNpOWFnMThTUnllTVJ1NGF3US0xYVk5NDRpaGxjTUd2dw?oc=5",
+      "source": "웹이코노미"
+    },
+    {
+      "date": "2026-09-29",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시-삼성전자, ‘미래성장’ 협력…1조 7천억 원 투자",
+      "summary": "화성시와 삼성전자가 미래성장 협력을 위해 1조 7천억 원 투자에 합의했다.",
+      "kw": [
+        "삼성전자",
+        "투자",
+        "미래성장"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FaFY2aFRpN1JmcGwyNGVTanhpZ0hPVzlIRzhuZkhMTE1nTERhc0NmSE5WemdqLVZFb21vV21OZVhYVW9CbzFsWVZkcmlub3VMN0dYZnBLbG9pQmc?oc=5",
+      "source": "KBS 뉴스"
+    },
+    {
+      "date": "2026-09-29",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "김영훈·경기의회, 전국 최고 수준 동탄 과밀학급 해소 요청 과밀학급·교원 배치·화성오산교육지원청 분리 등 지역 현안 전달",
+      "summary": "동탄 과밀학급 해소와 교원 배치 등 지역 현안이 경기의회에 전달됐다.",
+      "kw": [
+        "동탄",
+        "과밀학급",
+        "교육"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBEUW9qUko1OUtyVmJ1T0tYc05Tc2NBNGtiV2lYWUhUWVpNWkdaWk9kUFFQMFh3dVJMUnZVZXg1dVhsbHM0RVdzWXl2Z3R0TUZ2VFFaZmZoR0IyWmd4Wl84UFZ4QklvUTA2TnotRkt4Yw?oc=5",
+      "source": "오토투데이"
+    },
+    {
+      "date": "2026-09-29",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성시어린이문화센터, 영아 감각음악인형극 ‘바다 품에 포옥’ 개최",
+      "summary": "화성시어린이문화센터에서 영아 감각음악인형극 '바다 품에 포옥'을 개최한다.",
+      "kw": [
+        "어린이문화센터",
+        "공연",
+        "문화활동"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBzSXRJcTJKam5ZRFVGYjdrRmdsR2o3R0tKZjBqajdvbFF4VkVnUG1vN3lhbkZrbDNKalFYQkJmd2hHS29abzhESjd2R1A5VTlOdEtrUFIxTzdkemRmQzRlSmZ4N3lOMnJf?oc=5",
+      "source": "경기시사투데이"
+    },
+    {
+      "date": "2026-09-29",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성시, 화성시민대학·달빛학교 등 98개 강좌 선착순 모집",
+      "summary": "화성시가 시민대학·달빛학교 등 98개 강좌를 선착순으로 모집한다.",
+      "kw": [
+        "시민대학",
+        "교육",
+        "평생학습"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Sc2U5UWtsRWpuVkRsMG5JdHFaM3JBWjlnaHBEMFdkckgtbHl3aFpvdWxicXZib3hBNXYtUnpoU0EtSll4SWhSSGp3WHlncGZiNkZRT0NaZDNZQ1BQZnczWG5B?oc=5",
+      "source": "경인미래신문"
+    },
+    {
+      "date": "2026-09-29",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "주식회사 이에듀, 화성시 아동교육 지원을 위해, 1,200만 원 상당 영어교재 기탁",
+      "summary": "주식회사 이에듀가 화성시 아동교육 지원을 위해 1,200만 원 상당의 영어교재를 기탁했다.",
+      "kw": [
+        "아동교육",
+        "기부",
+        "영어교재"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB6bXBaa0pmV0MyVjVDc0lYYjRLeDB2R0RtbER4RkNyb2s2VzVsRm9PdzY1UVh4N3ZVeUF2NGNXd1NqNXFQOUJiZjQ3NjlsemRzc1lkanJOakJwOFkyQUxoN2xkdDR4ZWJYUVgyZlNjM09WLWs?oc=5",
+      "source": "동방일보"
+    },
+    {
+      "date": "2026-09-29",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "화성특례시 병점구보건소, 치매가족교실 운영 완료",
+      "summary": "화성특례시 병점구보건소가 치매가족교실 운영을 완료했다.",
+      "kw": [
+        "보건소",
+        "치매",
+        "복지사업"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9PZXlESHM3OVdRSFplejhoMWRMNGR5d3lUNUxCd2ZzUXpSLW9WamZVRFRRWktVN3ZnQmZEQzJDQW55Vkd1S05HNWZtYlNmR0NhSzRHeVQteG9yTkp0Z3NPdzVvcTZEUG1OUnNoeXNmSTJvUQ?oc=5",
+      "source": "웹이코노미"
+    },
+    {
+      "date": "2026-09-29",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "화성특례시 효행구보건소, 생활터로 찾아가는 구강보건사업 추진",
+      "summary": "화성특례시 효행구보건소가 생활터로 찾아가는 구강보건사업을 추진한다.",
+      "kw": [
+        "구강보건",
+        "보건사업",
+        "지역보건"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE50dWUzS3UzMVdKWDk2cjRReDdGamVDOEdMd0paNl94WElGUWNmRGxoZWhNWGZrbllGdG9jYnlRX3BpcFdJRjA0ZXNvcENSQkNRYlU2RXNkM3VBVi1SZno4X1hxZ3Zra0NO?oc=5",
+      "source": "경기시사투데이"
+    },
+    {
+      "date": "2026-09-29",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "경기도 양주·화성 '도시취약지역 개조' 공모 선정...국비 42억원 확보",
+      "summary": "화성시가 도시취약지역 개조 공모에 선정되어 국비 42억원을 확보한다.",
+      "kw": [
+        "도시취약지역",
+        "개조",
+        "국비"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE85Rng4amhHNFRxTkZfTWVjdVlwR21McjR4U0xVR2R6bVJ2N1gzOG55TUE0RjlRNmtHUVJ2TGdJRmhOeGY0VXNZQTY1LVhsOEg3TEM5eWJOQUE1dkpy?oc=5",
+      "source": "뉴스핌"
+    },
+    {
+      "date": "2026-09-29",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "양주와 화성 낙후마을에 국비 42억 투입 > 뉴스",
+      "summary": "화성의 낙후마을 개선을 위해 국비 42억원이 투입될 예정이다.",
+      "kw": [
+        "낙후마을",
+        "국비",
+        "개선"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYWjNsd3BHTXVaNE1rUHNBUUpYbGFyalZKNklKZzNydHdBTXlQbjV6d3Fma0xVYjdFaEhtamNMby0yWUFNV0RYcHNvXzhQdlVVWEc5UGUwc3YtM3NwWDNmc2dwbWxXU1dTeWZYcUItMEg?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-09-29",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "경기농협 시너지협의회, 화성 포도농가 일손 도와",
+      "summary": "경기농협 시너지협의회가 화성 포도농가의 수확기 일손을 돕는다.",
+      "kw": [
+        "경기농협",
+        "포도농가",
+        "일손지원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vYnVHVTFId211a0x1SkJRcnpLUFJkSnBKZ0hhR2R4UVEzaU5NclZpZm9vcFphanB6QktzVFh5cVU4MTFjaElhV3lRRlBsQ0Iydi1kZGNrUjJwMHJ6bkxCd0RBTUhueFdGbUhYYmVwTzbSAXRBVV95cUxNRkJPb1JjSGtyNnRnZEIzTUZncmIxTXNFdDFxN0lwZm5RYW04TWVzRl9qeTMwcXhtM2ZOMHppQ1gyMFN6bF84Q2dnTHVXRy1EV0tMTzIxQnRVc2lQVW5EWTBzUFgzM2lYdERveXIzOTdLamQ5dA?oc=5",
+      "source": "이뉴스투데이"
     }
   ],
   "dropped": {
-    "count": 69,
+    "count": 70,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
-      "KB 상위 50위권 고가 아파트 가격 4개월만에 하락 전환",
-      "10월 전국 분양 3만8천세대·전년比 61%↑…수도권 비중 65% |",
+      "“108만 특례시 성장, 시민들이 체감할 수 있는 변화 이끌겠습니다”",
+      "'전철·아파트 있어도 농어촌?'…2028 대입, 대학마다 다르게 뽑는다",
+      "“러닝 처음이라면”…남양유업 '테이크핏', 초보 러너 모집",
       "[기획] 철도 100조 시대, 경기남부광역철도가 여는 수도권 철도망의 새로운 변화",
-      "남양유업 테이크핏, 무신사 스탠다드 스포츠와 ‘러닝 스타터 크루’ 모집",
-      "남양유업 테이크핏, 무신사 스탠다드 스포츠와 초보 러너 20명 모집",
-      "동탄 묶자 병점·권선·남양주 들썩…규",
-      "추석 뒤 분양 큰 장…'경희궁에피트·고덕강일' 등 3.8만가구",
+      "프렌치카페에 가려졌던 남양유업 '루카스나인'···K-커피 타고 해외로",
+      "강남구 주민센터 > 삼성2동 > 우리동이야기 > 새소식",
+      "[이문호 칼럼](241) 세계를 이끄는 2020년대의 두 천재: 젠슨 황과 일론 머스크",
+      "“한 해 농사의 결실, 이웃과 함께 나눠요”",
+      "양주시 덕계동, 국가 도시취약지역 생활 여건 개조 사업에 선정",
+      "경찰차 전용주차구획 설치로 치안 골든타임 확보",
+      "내달 전국 3만8032가구 나온다",
       "“하루 한끼 먹고 비행기장 일…어디 배고파서 살 겄냐”",
+      "10월 수도권 1.8만가구 봇물…경기권 대단지 집중",
       "가을 입맛부터 달콤함까지 디저트로 가득 채운다[이거 먹어볼까]",
-      "구리시상권활성화재단, 와구리 페스타 개막 > 뉴스",
-      "다이소에서 배운 ‘천원의 성공’… 초저가 제품 기획하는 식품업계 - 조선비즈",
-      "교통인프라 지하화, 단절된 도시 잇는다…제도·사업 연계는 과제",
-      "\"백두산 천지에서 한민족의 기운을 누리다\"",
-      "추석 지나자 분양 시동…10월 본격 분양 나서는 건설사들",
-      "포토뉴스",
-      "광명시 일직동, 추석맞이 대청소로 쾌적한 마을환경 조성",
-      "추석 지나자마자 '분양대전'...10월 전국 곳곳서 동시다발 공급",
-      "[포토]인제 서화면 최현성씨 이웃돕기 쌀 기탁",
-      "10월, 50개 단지 3만8032가구 분양 예정 - 조선비즈",
-      "[제20회 아이치·나고야 아시안게임] 경기도 선수단, 금1·은1·동11 확보하며 선전"
+      "서울 용산·부산 연제 등 도시 중심 생활권 신규 분양 이어진다",
+      "추석 끝나고 가을 분양시장 열린다…10월 3만8천가구 분양",
+      "조선대 광주충장귀금속특화지원센터, ‘홍콩 국제 주얼리 전시회’서 해외 네트워크 확대 > 뉴스",
+      "10월 전국 분양 3만8천세대·전년比 61%↑…수도권 비중 65% |",
+      "주민참여예산사업에 ‘청년참여예산사업’ 신규 도입",
+      "만세사랑위원회, ‘그냥드림’에 300만 원 기부"
     ]
   },
   "briefs": {
-    "all": "수집 기간 전체 [[w]]부정 기사 379건(7%)[[/w]] 중 안전 분야가 187건으로 절반을 차지하며, 행정(97건)과 산업경제(45건)에 비해 [[b]]압도적으로 집중[[/b]]되어 있습니다. 9월 16일에 22건이 몰렸던 만큼, 해당 날짜의 안전 관련 보도를 우선 검토하실 것을 권장합니다.",
-    "7": "최근 7일간 [[w]]부정 기사가 43건(10%)[[/w]]으로 전체 평균보다 높으며, 특히 9월 23일 하루에만 21건이 집중되었습니다. 안전 분야에서 32건의 대부분이 발생했고 환경·행정 분야는 미미한 수준이므로, [[b]]23일자 안전 이슈를 먼저 확인[[/b]]하시기 바랍니다.",
-    "30": "최근 30일 [[w]]부정 기사는 206건(7%)[[/w]]으로, 안전 분야(108건)가 절대다수를 차지하는 가운데 행정(52건)이 그 뒤를 따르고 있습니다. [[b]]안전과 행정 두 분야에서 전체 부정 보도의 78%가 발생[[/b]]한 만큼, 이 두 분야의 현황을 집중 점검하시기 바랍니다."
+    "all": "수집 기간 전체 [[w]]부정기사 380건(7%)[[/w]] 중 안전 분야가 187건으로 절반 가까이 차지하고 있으며, 행정 98건, 산업경제 45건으로 분산되어 있습니다. [[b]]2026-09-16에 22건이 집중[[/b]]되었으므로 해당 날짜의 안전 관련 이슈를 먼저 확인하시기 바랍니다.",
+    "7": "최근 7일간 [[w]]부정기사는 37건(9%)[[/w]]으로, 안전 분야 32건이 대부분을 차지합니다. [[b]]9월 23일에만 21건이 모두 안전 분야[[/b]]로 집중되었으므로, 해당일 보도 내용을 우선 검토하실 필요가 있습니다.",
+    "30": "최근 30일 [[w]]부정기사 205건(7%)[[/w]] 중 안전이 108건으로 절대 다수이며, 행정 52건이 뒤따릅니다. 부정 보도가 특정 분야에 매우 집중된 양상이므로 [[b]]안전 분야 이슈에 대한 집중적인 대응[[/b]]이 필요합니다."
   },
-  "briefs_updated": "2026-09-28 10:31",
+  "briefs_updated": "2026-09-29 09:57",
   "issues": {
-    "updated": "2026-09-28 10:31",
+    "updated": "2026-09-29 09:57",
     "items": [
       {
         "label": "3명 사상 화성 마사지업소 화재…합동감식서 “전기적 요인 추정”",
@@ -60595,8 +61855,21 @@
     ]
   },
   "today": {
-    "updated": "2026-09-28 10:31",
+    "updated": "2026-09-29 09:58",
     "items": [
+      {
+        "label": "업무 미루고 세금 날려도 괜찮았나, 화성시 공무원 징계 강화 ‘칼날’",
+        "count": 1,
+        "sources": 1,
+        "first": "2026-09-29",
+        "last": "2026-09-29",
+        "cat": "행정",
+        "titles": [
+          "업무 미루고 세금 날려도 괜찮았나, 화성시 공무원 징계 강화 ‘칼날’"
+        ],
+        "score": 60,
+        "state": "신규"
+      },
       {
         "label": "3명 사상 화성 마사지업소 화재…합동감식서 “전기적 요인 추정”",
         "count": 22,
@@ -60628,7 +61901,7 @@
           "화성 마사지업소 화재 원인은 ‘전기적 요인’ 추정",
           "3명 사상 화성 마사지업소 화재…합동감식서 “전기적 요인 추정”"
         ],
-        "score": 62,
+        "score": 55,
         "state": "종결"
       },
       {
@@ -60641,32 +61914,19 @@
         "titles": [
           "【발행인논설】 화성시의회, 사슴을 말이라 부르는 의회?"
         ],
-        "score": 60,
-        "state": "신규"
-      },
-      {
-        "label": "[특례시 화성의 딜레마下] 서울보다 면적 넓은데 경찰서는 고작 2곳",
-        "count": 1,
-        "sources": 1,
-        "first": "2026-09-28",
-        "last": "2026-09-28",
-        "cat": "행정",
-        "titles": [
-          "[특례시 화성의 딜레마下] 서울보다 면적 넓은데 경찰서는 고작 2곳"
-        ],
-        "score": 60,
+        "score": 53,
         "state": "신규"
       }
     ],
     "surge": []
   },
   "ops": {
-    "runs": 93,
-    "days": 33,
+    "runs": 94,
+    "days": 34,
     "since": "2026-08-26",
-    "last": "2026-09-28",
+    "last": "2026-09-29",
     "failures": 1,
-    "span": 34,
+    "span": 35,
     "skipped": 1
   },
   "quality": {
@@ -60682,19 +61942,19 @@
     "note": "팀원 다섯 명이 기사 100건을 나눠 검수한 결과. 겹친 구간에서 한 사람이라도 「틀림」이라 했으면 틀린 것으로 셌다. 너그럽게 세면 분야 95%·긍부정 87%가 된다."
   },
   "keyword_notes": {
-    "updated": "2026-09-28 10:31",
+    "updated": "2026-09-29 09:58",
     "window": "최근 30일",
     "items": {
-      "동탄": "323건의 압도적 기사량 중 긍정 기사가 146건으로 주도적이나, [[w]]11건의 부정 기사[[/w]]에서 공공임대 허점, 규제에 따른 부작용 등이 지적되고 있어 주의 깊은 모니터링이 필요합니다.",
-      "추석": "복지 분야 56건을 포함한 108건의 기사 중 [[b]]부정 기사가 없고 긍정 기사 81건[[/b]]으로 추석 시즌 관련 홍보가 긍정적으로 진행되었습니다.",
-      "복지": "72건 전수에서 [[b]]부정 기사 0건, 긍정 기사 61건[[/b]]을 기록해 화성시 복지 정책이 언론에서 좋은 평가를 받고 있습니다.",
-      "분양": "69건 모두 부정 보도 없이 진행되었으나, 긍정 기사가 28건에 그쳐 분양 관련 [[b]]중립적 톤의 기사가 대부분[[/b]]임을 인지할 필요가 있습니다.",
-      "문화행사": "68건 중 [[b]]부정 기사 0건, 긍정 기사 60건[[/b]]으로 문화관광 분야의 각종 행사가 언론에서 긍정적으로 조명되고 있습니다.",
-      "부동산": "68건 중 [[w]]2건의 부정 기사[[/w]]가 있으나 긍정 기사 17건에 불과해, 삼성전자와 연계된 동탄 지역 집값 급등이 [[b]]주요 보도 이슈[[/b]]임을 파악할 수 있습니다.",
-      "화성시": "67건 중 [[w]]5건의 부정 기사[[/w]]가 발생했으며, 옹벽 붕괴, 경찰서 부족 등 [[b]]행정 인프라 부실 문제[[/b]]가 보도되고 있습니다.",
-      "화재": "57건이 모두 안전 분야로, [[w]]46건이 부정 기사[[/b]]로 집계되어 시설물 화재 사고의 [[b]]빈번한 발생[[/b]]이 가장 심각한 이슈입니다.",
-      "의회": "53건 중 [[w]]2건의 부정 기사[[/w]]에서 의회 규칙 위반, 예산 집행의 투명성 문제 등이 지적되고 있어 신뢰도 개선에 유의해야 합니다.",
-      "향남": "53건 중 [[w]]4건의 부정 기사[[/w]]에서 행정수요 대비 실질 혜택 부족, 도로 안전 문제, 의원 부지 관련 논란 등 [[b]]다층적 민원 사항[[/b]]이 보도되고 있습니다."
+      "동탄": "325건으로 가장 많은 언론 노출을 기록했으며 긍정 기사(146건)가 대다수이나, [[w]]부정 기사 11건[[/w]]에서 공공임대, 규제, 물가 문제 등이 지적되고 있습니다.",
+      "추석": "109건 중 [[b]]부정 기사가 0건[[/b]]으로 순수 긍정적 보도만 이루어졌으며, 복지 분야 중심의 추석 관련 정책 홍보가 효과적으로 진행된 것으로 보입니다.",
+      "분양": "73건 모두 산업경제 분야이며 [[b]]부정 기사가 없는[[/b]] 가운데 긍정 기사는 29건으로, 분양 관련 중립적 보도가 대부분인 것으로 파악됩니다.",
+      "복지": "72건 중 [[b]]부정 기사 0건, 긍정 기사 61건[[/b]]으로 복지 정책 홍보의 언론 호응도가 매우 높은 상태입니다.",
+      "화성시": "67건의 기사 중 [[w]]부정 5건[[/w]]에서 옹벽 붕괴, 경찰서 부족 등 인프라 관련 민원이 제기되고 있어 관심이 필요합니다.",
+      "부동산": "66건 중 대부분 산업경제 분야이나 [[w]]부정 2건[[/w]]에서 동탄 집값 변동성과 관련 지역 냉각 현상이 보도되고 있습니다.",
+      "화재": "57건 중 [[w]]46건이 부정 기사[[/w]]로 시설 화재 사건이 반복 보도되면서 안전 관리에 대한 시민 관심이 높은 상태입니다.",
+      "문화행사": "56건 중 [[b]]부정 기사 0건, 긍정 기사 48건[[/b]]으로 문화관광 분야의 홍보 성과가 가장 우수한 것으로 평가됩니다.",
+      "향남": "53건 중 [[w]]부정 4건[[/w]]에서 동 전환 갈등, 옹벽 안전, 행정 투명성 문제 등이 누적되고 있어 지역 민원 관리가 중요합니다.",
+      "의회": "52건 중 [[w]]부정 2건[[/w]]에서 의회 절차 준수 및 예산 집행 투명성과 관련된 지적이 있으며 개선이 필요해 보입니다."
     }
   }
 }
