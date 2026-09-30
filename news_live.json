@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-30 09:18",
+  "updated": "2026-09-30 10:59",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 4526,
+  "count": 4543,
   "items": [
     {
       "date": "2026-08-02",
@@ -63279,6 +63279,21 @@
       "source": "중소벤처기업신문"
     },
     {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "하반기",
+        "평생학습"
+      ],
+      "conf": "low",
+      "date": "2026-09-29",
+      "title": "화성시, 올 하반기 평생학습 프로그램 수강생 모집",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9OQXFTVlNpbjNIb1FEaVE5MTdOWFFEejFkTk92clhBN2kwb1prbWN0dnRhT3YxR2tnRWdXeW5TRFRhaXpfZ1FNQmVDSWZEWU1HR3EwY21FNTNZS3pYM1dSdVVST3dCSlVmckHSAW5BVV95cUxOOTA0MjJjZ1psck8zRmg0WllVYTgwSmFDd2stV29pQ04zejVDaUdPWkNCTUk0NHJRRnZjQ1dGYjFNWnZlYko1TEdoQzI2bkZ2REJNa2FOS0dHWVZ1b1Q0R2Z1S0h0ODZ0VEJSNmtQZw?oc=5",
+      "source": "mediawhy.com"
+    },
+    {
       "cat": "산업경제",
       "senti": "중립",
       "summary": "",
@@ -63417,35 +63432,264 @@
       "title": "화성특례시, 서해안 관광의 새 시대를 열다,'걷고 머무는 해양도시 화성",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9GZDd4V3d5OGpzVTZ0LTZJUUFveUlRNHIyZWh6YUx3WmJoaXZqaWo0UEtFZ2t3V1RUQkNDWm8wRmZhWUx4ekVJMW9RLVV2bC0xeXl0Z1B6djkyVVNaSWhaNXZjeDE0TExhcTBJ0gFrQVVfeXFMT0ZkN3hXd3k4anNVNnQtNklRQW95SVE0cjJlaHphTHdaYmhpdmppajRQS0Vna3dXVFRCQ0NabzBGZmFZTHh6RUkxb1EtVXZsLTF5eXRnUHp2OTJVU1pJaFo1dmN4MTRMTGFxMEk?oc=5",
       "source": "서울매일"
+    },
+    {
+      "cat": "안전",
+      "senti": "부정",
+      "summary": "",
+      "kw": [
+        "경기",
+        "화성시",
+        "빌라"
+      ],
+      "date": "2026-09-30",
+      "title": "경기 화성시 빌라 화재… 1명 전신 화상, 5명 경상",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFB2M0RjYml4YkhTQUhZeHRYNDZiXzV0aWJVV3dDTFhaSUZ5cGY1R0lidjlfQ1NCTm1yVTNvWjZpcXhqRFZH?oc=5",
+      "source": "FPN-소방방재신문"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "최재붕",
+        "교수"
+      ],
+      "date": "2026-09-30",
+      "title": "화성특례시, 최재붕 교수 초청 ‘글로벌 AI 트렌드’ 시민 디지털 특강 개최",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1sSmJicWswVnExR1FZQXVXV003cjZZNi1mMGFldVhJa3lRSEQwMUZpTjR6Ty1NQmgtZktqczhPWmRad3dsM3VvSlIzSjBQNXZrc0JnRFRXM3RCdEhNNTFmLUR4UjNlOVZ6ZUxJTDE5RGlvQQ?oc=5",
+      "source": "sports.donga.com"
+    },
+    {
+      "cat": "복지",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "만세구보건소",
+        "정신질환자"
+      ],
+      "date": "2026-09-30",
+      "title": "화성시 만세구보건소, 정신질환자 지역사회 정착 위한 주거지원 협력 논의",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBfNjBlUkNPTnFTZFVabm9LdVJ5WnNTZFhFMnVoYWNKSXlWRTdFekRKRHhmOHYwdGFKVjJmUnlNYWVKRm8tbHYwMDhoZFppZ1pKbFN5MEFaTWRSWVFxdmdndFNR?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "최재붕",
+        "교수"
+      ],
+      "conf": "low",
+      "date": "2026-09-30",
+      "title": "화성시, 최재붕 교수 초청 ‘AI 시민 디지털 특강’ 개최",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00TW95M0VXb1NtMnZhMEl3TzRaVEs2dTJjbHRWbEY0dTJxUW9GWU5PcmtfS2g3cE40LUF2amhRdTU2YWRuazhpQ0dKbHZ2a0FxTWVOTU1vVFFDcHJKaTdmakZWVEhjVldMQ2dFNTMycTE?oc=5",
+      "source": "데일리경기신문"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시인재유성재단",
+        "신임",
+        "대표이사"
+      ],
+      "conf": "low",
+      "date": "2026-09-30",
+      "title": "화성시인재유성재단 신임 대표이사, 순위까지 뒤바꿔 선임",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA5anZjVllvUEMySlYydFNENElRMGhvVVphNERCVFlqalI0LWZndThrMURLOWRmcngyOTBrUURMaWZPTS1OejBnLXpLTGxOM1ZxSVZSREc1cklVVXgzMmlEbXdDYkozbHBuSk5zYklXSdIBb0FVX3lxTFA5anZjVllvUEMySlYydFNENElRMGhvVVphNERCVFlqalI0LWZndThrMURLOWRmcngyOTBrUURMaWZPTS1OejBnLXpLTGxOM1ZxSVZSREc1cklVVXgzMmlEbXdDYkozbHBuSk5zYklXSQ?oc=5",
+      "source": "뉴스로드"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "가을",
+        "분양시장",
+        "아크메르"
+      ],
+      "date": "2026-09-30",
+      "title": "가을 분양시장 큰 장…아크메르 동탄 등 10월 4.6만가구",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9xc0w5Umlrci1NRUVhR0Y2UnF1UGJ4RjBMd0FjOEw4UnNCdy13b3R4TlhQV1NnV3hXalFqUnl5aEFoY3ZRVFNJV3BQTUdudEQyQXVZVFp0S3RLc04tQVN2Y1JVVGdjNFdLcGpfNzFYNUZXb3lsNWfSAWZBVV95cUxQUXJiOXJhNzItdVh2d3pyOW9TQjQyM0h2Uy1ueHcyMU9Fb2ZJYzR0Z0NMeHg0NnpoNThfRmJvTFR6aFR4WGVhb1VWTzUyanB4WmtXbGtycnVjMmpNcmt6bWxrV3Jfc2c?oc=5",
+      "source": "donga.com"
+    },
+    {
+      "cat": "교통",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "자연",
+        "교통",
+        "직장"
+      ],
+      "date": "2026-09-30",
+      "title": "“자연·교통·직장 3박자”…아크메르 동탄 10월 공급",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1IS0t3QmpXamYxYzVjQjMwaFRoUENjYVJOOTk4RVcweld3cTg0anVKUGRfVXM4bnlBNFBSenJUOHFNYlpSQ2VoRm5FdTg2YVozcUY1SFhSVS0?oc=5",
+      "source": "매일경제"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시문화관광재단",
+        "10월",
+        "3일"
+      ],
+      "date": "2026-09-30",
+      "title": "화성시문화관광재단, 10월 3일 제부도서 '2026 화성 서해안 선셋 콘서트 & 바다빛 불꽃쇼' 개최",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1HWjhZOVZzd3BIYUdwME9MT3lxU0hLdXYwYUJXbk83azJaN0prYmthVWhkUmlTN1hJWDMydHJVa3N0c05lZWdlMHF3?oc=5",
+      "source": "mediatoday.asia"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "동탄",
+        "18",
+        "파주"
+      ],
+      "conf": "low",
+      "date": "2026-09-30",
+      "title": "동탄 18% 뛸 때 파주 운정은 최고가 반값… 경기 집값 온도차",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1NM2xDYUZkcnBsZ0F1VEh2OFd5bzBwRmRSWUM0eG90NGUxWnphLXY2UDJ1RVExX0JiXzJvWWFxTFd2TG93RW96RWplNndLczNtOE8xWnRsZmZTVzB3M3JQS2lMMHRnZXRoV3RHX9IBbEFVX3lxTE1NM2xDYUZkcnBsZ0F1VEh2OFd5bzBwRmRSWUM0eG90NGUxWnphLXY2UDJ1RVExX0JiXzJvWWFxTFd2TG93RW96RWplNndLczNtOE8xWnRsZmZTVzB3M3JQS2lMMHRnZXRoV3RHXw?oc=5",
+      "source": "리얼캐스트"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "남동탄",
+        "주민들",
+        "복합문화시설"
+      ],
+      "date": "2026-09-30",
+      "title": "남동탄 주민들, 복합문화시설 건립 촉구…주민추진위 서명운동 이어가",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91Qms5bVZNUW5NcUhGd01IZGFxUUxYRkxrTkx2ak1GQnZHWTk2ZU5Ub2tVMFFPekRkSC1SUWxUT3lQNlJpZG85cnc2OWNXTDlsX01FMFNoeGJENkktUHhJMFBEbmM2Y2dqRlZDLQ?oc=5",
+      "source": "journal25.com"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "한신대",
+        "학생팀",
+        "화성특례시"
+      ],
+      "date": "2026-09-30",
+      "title": "한신대 학생팀, 화성특례시 ‘AI 화성 챌린지’ 시민 부문 대상 수상",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9JV2xCbmpCb2phY2hTYjllY0FFN3phMHhPRnZzVXMtQWphaDVuTHBfTXZiMXBFMU1McDdrNkw5Y1UxOUdCTjlKY2oyOHZOTzV1LXliRWdXNWZuRXdHM2lfb0RHV2dPWEw3Z19oQnE3WGdlQdIBckFVX3lxTE9JV2xCbmpCb2phY2hTYjllY0FFN3phMHhPRnZzVXMtQWphaDVuTHBfTXZiMXBFMU1McDdrNkw5Y1UxOUdCTjlKY2oyOHZOTzV1LXliRWdXNWZuRXdHM2lfb0RHV2dPWEw3Z19oQnE3WGdlQQ?oc=5",
+      "source": "팝콘뉴스"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "최재붕",
+        "교수"
+      ],
+      "conf": "low",
+      "date": "2026-09-30",
+      "title": "화성시, 최재붕 교수 초청 ‘글로벌 AI 트렌드’ 시민 디지털 특강 개최",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBQS1BzU3B2N1ZpTFdXaFBOVGRHVFdBb1p5RU92QTBsRkQ5Zzh3bUFMUkMtZVZkcFlXa21jOXBvTlZEMkNCaWFTdDNWNEtidUgyN1FxQkh0TkRabjh1ZFNVTC13?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "AI",
+        "시민"
+      ],
+      "date": "2026-09-30",
+      "title": "화성특례시, 'AI 시민 디지털 특강' 마련…최재붕 교수 강연",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA2TVk4Q0ZwMTFrT3NkbVY1T0xJaWdQcG5BaFk2aWY0ODl4bGVKMTAwNkZtLTg2MFM5akJrUmdZOEJqTVh1UjJ3WXNUUk1RdXZLaENOU2tuWmlJWjB3MTBabFZBM1dsdXBMTHFn?oc=5",
+      "source": "pressian.com"
+    },
+    {
+      "cat": "안전",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "경기도",
+        "경기도의회와",
+        "재난취약시설"
+      ],
+      "date": "2026-09-30",
+      "title": "경기도, 경기도의회와 ‘재난취약시설’ 제부도 제비꼬리길 안전관리 실태점검",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5jaTZaVUM3aF9xdFJ1d0s3TlVKWVpkTlJnR1huSjRCQmliQ1J1bTAzdGV6RVU2UUtXUUxVY1BxdWNVeFZVUmpqUzE1T05hckpGZG5FcHhqZ2lqVE1ucENYa3pR?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "경기",
+        "집값",
+        "맞아"
+      ],
+      "date": "2026-09-30",
+      "title": "‘경기 집값 맞아?’ 화성·광명·의왕 평균가격, 구로·도봉 추월했다[부동산360]",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB3ajU4b2NKRGpVN2lseUNNM1N1alJqdm1oZFQyOC1tNUJycWpuMzRzOHM0clVyRGNHSmxkeVV5LVlkcW9RWnYzZUlTR3hMSDdSYWtjbnFB?oc=5",
+      "source": "biz.heraldcorp.com"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "매향리",
+        "현장",
+        "찾은"
+      ],
+      "conf": "low",
+      "date": "2026-09-30",
+      "title": "매향리 현장 찾은 화성 시민들…“수원군공항 이전, 우리 삶의 문제”",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9iejBIV09FWmhMajN6SnBiS1RJOEJJNlJHU3RNNUQ5alg3Y2pLaGVmN0VEV2RnbFBrTW81RzVpQVRnY05OdTRqd2FQWmlDS2ZnUDhlbHpmcVRaSGlELWU5SjFR?oc=5",
+      "source": "경기뉴스광장"
     }
   ],
   "dropped": {
-    "count": 64,
+    "count": 71,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
-      "[오늘의신상]\"한 번 먹기에 딱\"…남양유업 '불가리스 그릭' 80g",
+      "남양유업, '불가리스 80g' 출시…소용량 요거트 시장 공략",
       "[2027수시] 수원대 연기·미술·체육·영화 실기고사 안내.. 수험번호별 시간·장소 공개",
-      "남양유업, ‘불가리스 80g’으로 소용량 요거트 시장 공략",
       "\"그릭요거트 한 입에\"…남양유업, 소용량 '불가리스 80g' 선봬",
-      "[건설&부동산] 역세권 입지에 GTX-A 등 개발호재 풍부",
+      "[똑똑한신상] 대상 청정원, 이그니스 클룹, 서울우유, 동원F&B, 남양유업, 농심 ‘너구링’",
+      "요거트도 '소용량' 시대…남양유업, 불가리스 '80g' 출격",
       "\"한 번에 가볍게 즐긴다\" 남양유업, 불가리스 그릭 80g 4종 출시",
-      "[오늘의 먹거리] 불가리스 그릭 남양유업·아침에주스 클렌즈 서울우유",
-      "\"소용량 요거트 시장 공략\"…남양유업, '불가리스 80g' 선봬",
-      "강남구 주민센터 > 삼성2동 > 우리동이야기 > 새소식",
-      "[유업계소식] 매일유업·서울우유·남양유업·빙그레, 체험·ESG·수출로 소비자 접점 확대",
-      "내달 전국 3만8032가구 나온다",
-      "한 번 먹기 딱 좋게…남양유업, 80g 그릭요거트 출시",
-      "10월 수도권 1.8만가구 봇물…경기권 대단지 집중",
-      "'세계 7대 공포 성지' 곤지암정신병원, 쿠팡 물류센터로 바뀐다고?",
-      "[유통갤러리] 신세계푸드, 즉석 과일 스무디 팝업 ‘스꾸하우스’ 오픈 外",
-      "2026년 어린이집 영유아 동요제 성황리 개최",
-      "비비테크·그리코·정안, 지역 기업 3사 방문",
+      "[오늘의신상]\"한 번 먹기에 딱\"…남양유업 '불가리스 그릭' 80g",
+      "파리바게뜨·서울우유·농심·남양유업, 취향 따른 신제품 출시",
+      "[건설&부동산] 역세권 입지에 GTX-A 등 개발호재 풍부",
+      "남양유업, 커지는 소용량 그릭요거트 시장 공략…‘불가리스 그릭’ 80g 출시",
+      "남양유업, 불가리스 그릭에 80g 제품 4종 추가",
       "경찰차 전용주차구획 설치로 치안 골든타임 확보",
-      "“러닝 처음이라면”…남양유업 '테이크핏', 초보 러너 모집",
-      "[HARFKO 2026 프리뷰] 케이에이치엔지니어링, 일체형 공조 솔루션 ‘RTU’"
+      "고물가에 커지는 ‘소용량’…남양유업, 불가리스 80g 시장 공략",
+      "10월 아파트 4만6000가구 분양 대기…작년의 2.7배",
+      "2년 만에 3배 커진 그릭요거트…남양유업, '불가리스'로 시장 공략 고삐",
+      "2026년 어린이집 영유아 동요제 성황리 개최",
+      "강남구 주민센터 > 삼성2동 > 우리동이야기 > 새소식",
+      "[오늘의 먹거리] 불가리스 그릭 남양유업·아침에주스 클렌즈 서울우유",
+      "[HARFKO 2026 프리뷰] 케이에이치엔지니어링, 일체형 공조 솔루션 ‘RTU’",
+      "한 번 먹기 딱 좋게…남양유업, 80g 그릭요거트 출시"
     ]
   },
-  "low_confidence": 28,
+  "low_confidence": 6,
   "briefs": {
     "all": "수집 기간 전체 [[w]]부정기사 380건(7%)[[/w]] 중 안전 분야가 187건으로 절반 가까이 차지하고 있으며, 행정 98건, 산업경제 45건으로 분산되어 있습니다. [[b]]2026-09-16에 22건이 집중[[/b]]되었으므로 해당 날짜의 안전 관련 이슈를 먼저 확인하시기 바랍니다.",
     "7": "최근 7일간 [[w]]부정기사는 37건(9%)[[/w]]으로, 안전 분야 32건이 대부분을 차지합니다. [[b]]9월 23일에만 21건이 모두 안전 분야[[/b]]로 집중되었으므로, 해당일 보도 내용을 우선 검토하실 필요가 있습니다.",
@@ -63453,7 +63697,7 @@
   },
   "briefs_updated": "2026-09-29 09:57",
   "issues": {
-    "updated": "2026-09-30 09:18",
+    "updated": "2026-09-30 10:59",
     "items": [
       {
         "label": "3명 사상 화성 마사지업소 화재…합동감식서 “전기적 요인 추정”",
@@ -63570,8 +63814,21 @@
     ]
   },
   "today": {
-    "updated": "2026-09-30 09:18",
+    "updated": "2026-09-30 10:59",
     "items": [
+      {
+        "label": "경기 화성시 빌라 화재… 1명 전신 화상, 5명 경상",
+        "count": 1,
+        "sources": 1,
+        "first": "2026-09-30",
+        "last": "2026-09-30",
+        "cat": "안전",
+        "titles": [
+          "경기 화성시 빌라 화재… 1명 전신 화상, 5명 경상"
+        ],
+        "score": 60,
+        "state": "신규"
+      },
       {
         "label": "업무 미루고 세금 날려도 괜찮았나, 화성시 공무원 징계 강화 ‘칼날’",
         "count": 1,
@@ -63597,25 +63854,12 @@
         ],
         "score": 53,
         "state": "신규"
-      },
-      {
-        "label": "화성시 황금해안길 '녹물 논란'... 시민 \"부식\" vs 시 \"오일스텐\"",
-        "count": 1,
-        "sources": 1,
-        "first": "2026-09-29",
-        "last": "2026-09-29",
-        "cat": "행정",
-        "titles": [
-          "화성시 황금해안길 '녹물 논란'... 시민 \"부식\" vs 시 \"오일스텐\""
-        ],
-        "score": 53,
-        "state": "신규"
       }
     ],
     "surge": []
   },
   "ops": {
-    "runs": 96,
+    "runs": 98,
     "days": 34,
     "since": "2026-08-28",
     "last": "2026-09-30",
