@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-01 09:29",
+  "updated": "2026-10-01 10:59",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 4656,
+  "count": 4669,
   "items": [
     {
       "date": "2026-08-02",
@@ -65014,6 +65014,48 @@
     },
     {
       "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "범시민대책위원회",
+        "4차"
+      ],
+      "date": "2026-09-30",
+      "title": "화성시 범시민대책위원회, 4차 시민교육,수원군공항 화성이전 반대 공감대 확산",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE92VXBXZjlPZnF2S252RmNFbUNtSVVwUFJSX2Q1U2xSSWZyczduUEZPazNaNm82QkZQLVNoOElxZWh6VUVhY1I4UGs2eFJQV3hneHhaZDVENGJPcXdBbnBqNDRZZVZCQmxZTFhJ0gFrQVVfeXFMT3ZVcFdmOU9mcXZLbnZGY0VtQ21JVXBQUlJfZDVTbFJJZnJzN25QRk9rM1o2bzZCRlAtU2g4SXFlaHpVRWFjUjhQazZ4UlBXeGd4eFpkNUQ0Yk9xd0FucGo0NFllVkJCbFlMWEk?oc=5",
+      "source": "뉴스잡"
+    },
+    {
+      "cat": "교통",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "정명근",
+        "화성시장",
+        "광역교통망"
+      ],
+      "date": "2026-09-30",
+      "title": "정명근 화성시장, 광역교통망 확충 위해 내년 국비 3,354억 건의",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1RcXdNOEhVaURaNWxLRVdlWE9QQlpDRXViQkN1ZHVUVWF5dGV1SlJEdTBMVl9lcktfTHZyU1B3d3VsczNCbzIydFFvcjVRc2tqVUNOR0lCRkpJUE5mdEp3b3ZwVVVCbGtrTkRWNmJsSHhoRnZn?oc=5",
+      "source": "OhmyNews"
+    },
+    {
+      "cat": "복지",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "한신대학교",
+        "AI",
+        "화성챌린지"
+      ],
+      "date": "2026-09-30",
+      "title": "한신대학교, ‘AI 화성챌린지’ 시민부문 대상 수상",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaZTIxTVVFamliVUFXOWtDelJaUW1qWHktZ3dSVGpVeXFyc3cxYmZheXVGN0tLMTZHTThLQXBYbWR2TjB0cDNWVHlCcmQxMGc1cERrenJabXpWM0k?oc=5",
+      "source": "경기일보"
+    },
+    {
+      "cat": "행정",
       "senti": "긍정",
       "summary": "",
       "kw": [
@@ -65264,35 +65306,177 @@
       "title": "“소비자가 선택하는 포도 생산해야....”화성특례시 최고 샤인머스캣 TOP5 선정…",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA1YWFRakpaTEtYS1A4dDJSZ3YzbUFSX1d0NVFRUVlmeUpNWXpxX1NobFM4Z2x5NE8wQ0d0Wi1ORHFIaHM5ZkptNGpjb2xzVTBqLUgybDhoUmhQQ0xkVXZYU1pZcm44QkhIS3kzWnNBWnYySW8?oc=5",
       "source": "dongbangilbo.co.kr"
+    },
+    {
+      "cat": "복지",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시어린이집연합회",
+        "동탄구",
+        "어린이집"
+      ],
+      "date": "2026-10-01",
+      "title": "화성시어린이집연합회, 동탄구 어린이집 현장 목소리 청취",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBuRTJTV091Z3h1Sk94RHg1STJjUEFBRlVhVXJLUjcwczh1bTA4d0ZvZzVqc3lpT082cXdKX0hSendwX0lSUnR1VUEwczRrVnBZRnlnLV9jazhfS18wRzNWUEhGY0VrYVVlOXJjdTN6VQ?oc=5",
+      "source": "인천일보"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "향남초",
+        "학부모회와",
+        "함께하는"
+      ],
+      "date": "2026-10-01",
+      "title": "향남초, 학부모회와 함께하는 등굣길 상호존중 캠페인 운영 “서로 존중, 함께 성장”을 실천하는 교육공동체 문화 확산",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5veTRZbGFDNjlNaVFhZGEzcTVxZzZiWHhlRk1kUzVEcXhhRG91aXVVUVNwejhsMG40RlY2djY4QVRCM3hLTDBpRERYNE02bFg5aVZjeTRjUWNINzRTN2ttdk5JSHF6QQ?oc=5",
+      "source": "화성저널"
+    },
+    {
+      "cat": "교통",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "DL이앤씨",
+        "집코노미",
+        "박람회서"
+      ],
+      "date": "2026-10-01",
+      "title": "DL이앤씨, 집코노미 박람회서 ‘동탄역세권 단지’ 선보여 [집코노미 박람회 2026]",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9BU1BJYjhPd2Frems3YjllT2lLUlNoWURMWWhtVVplUkdndERhdkNjSV9ya3pvLXRzMUwzVmNVVTlQemFtelBOUjYxZ2VWSHBhQW1DY0d1X2pqdw?oc=5",
+      "source": "한국경제"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성FC",
+        "개천절",
+        "연휴"
+      ],
+      "date": "2026-10-01",
+      "title": "화성FC, 개천절 연휴 동탄서 팬 팝업 행사",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1jTXlUcHc3MUlTaDZNQzFiYk1LcVFHQ2xrcVkwZlVVTzdVNE9TVElfb1JIYnMwcExoNTdvLTk3emNhYjUyZHdEejVLY2RVa3ZTMXdONVN6ZE1rcGdld1lCODgzNVQySEVWMmVBa0M3WlA?oc=5",
+      "source": "데일리경기신문"
+    },
+    {
+      "cat": "교통",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "GTX",
+        "인동선"
+      ],
+      "date": "2026-10-01",
+      "title": "화성시, GTX·인동선 국비 3354억 SOS",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlZFNTSERnUU5kaFVkRDZvNlphWFpXSUJzNGNROFRqVGpZenAzLWtWdTdlck9YY0hBdk9KSV9GQUVQcDYwcGZBQ2t3d1dwUDduZmV5TFo2X2FXbWYyT1FnMkQ0ME5CMXFs?oc=5",
+      "source": "일간경기"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성소식",
+        "화성FC",
+        "동탄"
+      ],
+      "date": "2026-10-01",
+      "title": "[화성소식]화성FC, 동탄 메타폴리스몰서 팬 팝업 행사 등",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1jMTlzU3loVDAydHZ4cmZINmZMMjV4VmVWSTloVWwwQWNTMExLcWFpZEdTNXN0X0w0V3F6WHNkV2k4TmpYRzlmS21EZEllZVdwWVFwQWxfYTh6RTVEQUl2cNIBeEFVX3lxTFBjb25vS3RrRU5OLUxsSE85aWNEZmNYMkFBR3N0eHAycDhzQUVMdWtOZ2JZVEg5YjdIX1NyejRzVmhzOWtFeU1ESlNENFdOMWZwbHZxX2tqWEx3NE4tWXdUSnFzblU4VjYwN2U5eWM2S3FPaEFNdDdjTA?oc=5",
+      "source": "newsis.com"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시인재육성재단",
+        "대표",
+        "후보"
+      ],
+      "conf": "low",
+      "date": "2026-10-01",
+      "title": "화성시인재육성재단 대표 후보 선임안, 이사회 통과 못해",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1jekVMN1Jkbm9xTEN4TTdxQ0RNczVYQnBKN0FDTXJrQ3B2TFZ1REZHdzBheXFvZDVWRzlyWEJaTktpNzJaNzBybW94YTJSM1FXSTBmY0pqcjFHal9YMFJrenBMUDhJM2dWTEhhc0NMOTg?oc=5",
+      "source": "화성시민신문"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "AI",
+        "행정서비스"
+      ],
+      "date": "2026-10-01",
+      "title": "화성시, AI 행정서비스 성과 인정…경기도 지능정보화 우수사례 우수상 수상",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBMZy1UVi02STFkYXdXXzBacnFIU1RhWm4zZDVaMkh3MW9ONUxwUkxzTUlGdDJlZmhGNnQxeTJ0Smd6RExaaVJxZ0puMnR3bDdfSjBlUGl5UzVWZlc1clFtcnVR?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성in",
+        "HAI",
+        "MATE"
+      ],
+      "conf": "low",
+      "date": "2026-10-01",
+      "title": "‘화성in·HAI-MATE’ 성과 '우수상' 쾌거",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5wcFYxbGdHUzRqYU1Qa0hhd0JaaHF1cTJkU0xwV05lWW1KbWY1M2llNjl1ZjJJeEJRdHkwYzdQZ3BOVFdQNHVIWGJubldia3BFUGFYOVhpa3lvU3JjdzdIRURaZ2VwQTlmMGNfaXFBUHM?oc=5",
+      "source": "데일리경기신문"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "성수석",
+        "이천시장",
+        "롯데백화점"
+      ],
+      "date": "2026-10-01",
+      "title": "성수석 이천시장, 롯데백화점 동탄점 이천도자기 팝업 현장 방문",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YNFRTbzFGZ2duVkYxREhRaTl6NlZ6MFRPS0VOczlwOFpoalMwUGlQdERNaGNERmVxVnY0Ml9UTHROR1FMdUtZWnY0cjJ0bkdlOENF?oc=5",
+      "source": "하나로신문/일보"
     }
   ],
   "dropped": {
-    "count": 80,
+    "count": 83,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
       "용인·성남시, 경기남부광역철도 5차 국가철도망 반영 촉구 공동결의",
+      "우유 비중 50% 밑으로…남양유업 바꾼 건 '주력' 분유 아닌 테이크핏",
+      "이상일 용인시장, 경기남부광역철도 4개 도시 공동대응…반도체·AI 교통망 강조",
+      "서울우유·매일·남양유업, 상반기 실적 개선 이유…\"비용절감·분유·수출\"",
+      "이상일·신상진 시장, 경기남부광역철도 국가철도망 반영 공동 촉구",
       "남양유업, 80g 요거트 확대",
       "화성시 정조대왕능행차에 로봇행렬 첫 등장…역사와 미래 만난다",
-      "이상일 용인시장, 경기남부광역철도 4개 도시 공동대응…반도체·AI 교통망 강조",
-      "남양유업, '불가리스 80g' 소용량 요거트 시장 공략",
-      "\"3억원대 분양했는데 19억 육박\"…서울 뺨치는 동네",
-      "이상일·신상진 시장, 경기남부광역철도 국가철도망 반영 공동 촉구",
-      "남양유업, ‘불가리스 그릭’ 80g 출시…소용량 요거트 수요 겨냥",
       "이상일·신상진, 경기남부광역철도 국가철도망 반영 촉구",
-      "그릭요거트 시장 3년 새 223% 성장…남양유업, 80g 라인업 확대",
-      "요거트도 '소용량' 시대…남양유업, 불가리스 '80g' 출격",
+      "남양유업, '불가리스 80g' 소용량 요거트 시장 공략",
+      "남양유업, ‘불가리스 그릭’ 80g 출시…소용량 요거트 수요 겨냥",
       "[2027수시] 수원대 연기·미술·체육·영화 실기고사 안내.. 수험번호별 시간·장소 공개",
-      "남양유업, '불가리스 그릭' 80g 4종 선봬…그릭요거트 시장 3년 새 223%↑",
-      "“로봇과 함께한 정조효문화제·정조대왕능행차”…화성시, 3·4일 이틀간 정조효공원·융릉 일원 개최",
-      "CJ웰케어·남양유업 ‘맥플랜 뉴트리션 드링크’ 3종 출시·‘불가리스 80g’ 4종 선보여",
       "한 번 먹기 딱 좋게…남양유업, 80g 그릭요거트 출시",
+      "요거트도 '소용량' 시대…남양유업, 불가리스 '80g' 출격",
+      "성남·용인시, '경기남부광역철도' 국가철도망 반영 촉구 결의",
+      "CJ웰케어·남양유업 ‘맥플랜 뉴트리션 드링크’ 3종 출시·‘불가리스 80g’ 4종 선보여",
+      "\"그릭요거트 한 입에\"…남양유업, 소용량 '불가리스 80g' 선봬",
+      "“로봇과 함께한 정조효문화제·정조대왕능행차”…화성시, 3·4일 이틀간 정조효공원·융릉 일원 개최",
       "[오늘의 신상품] 파리바게뜨, '파란라벨' 신상품 5종 출시 外 서울우유협동조합·남양유업·LF",
-      "파리바게뜨·서울우유·농심·남양유업, 취향 따른 신제품 출시",
-      "[오늘의신상]\"한 번 먹기에 딱\"…남양유업 '불가리스 그릭' 80g",
-      "\"그릭요거트 한 입에\"…남양유업, 소용량 '불가리스 80g' 선봬"
+      "[똑똑한신상] 대상 청정원, 이그니스 클룹, 서울우유, 동원F&B, 남양유업, 농심 ‘너구링’",
+      "남양유업, '불가리스 그릭' 80g 4종 선봬…그릭요거트 시장 3년 새 223%↑"
     ]
   },
-  "low_confidence": 21,
+  "low_confidence": 2,
   "briefs": {
     "all": "수집 기간 전체 [[w]]부정기사 380건(7%)[[/w]] 중 안전 분야가 187건으로 절반 가까이 차지하고 있으며, 행정 98건, 산업경제 45건으로 분산되어 있습니다. [[b]]2026-09-16에 22건이 집중[[/b]]되었으므로 해당 날짜의 안전 관련 이슈를 먼저 확인하시기 바랍니다.",
     "7": "최근 7일간 [[w]]부정기사는 37건(9%)[[/w]]으로, 안전 분야 32건이 대부분을 차지합니다. [[b]]9월 23일에만 21건이 모두 안전 분야[[/b]]로 집중되었으므로, 해당일 보도 내용을 우선 검토하실 필요가 있습니다.",
@@ -65300,7 +65484,7 @@
   },
   "briefs_updated": "2026-09-29 09:57",
   "issues": {
-    "updated": "2026-10-01 09:29",
+    "updated": "2026-10-01 10:59",
     "items": [
       {
         "label": "화성동탄경찰서, 위기 상황 해결한 정신건강전문요원에 감사장 수여",
@@ -65418,7 +65602,7 @@
     ]
   },
   "today": {
-    "updated": "2026-10-01 09:29",
+    "updated": "2026-10-01 10:59",
     "items": [
       {
         "label": "화성동탄경찰서, 위기 상황 해결한 정신건강전문요원에 감사장 수여",
@@ -65466,11 +65650,11 @@
   },
   "ops": {
     "runs": 98,
-    "days": 34,
-    "since": "2026-08-29",
+    "days": 33,
+    "since": "2026-08-30",
     "last": "2026-10-01",
     "failures": 1,
-    "span": 34,
+    "span": 33,
     "skipped": 0
   },
   "quality": {
