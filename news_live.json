@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-02 09:40",
+  "updated": "2026-10-02 11:06",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 4752,
+  "count": 4766,
   "items": [
     {
       "date": "2026-08-02",
@@ -65129,6 +65129,21 @@
     },
     {
       "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "11",
+        "치안",
+        "거리"
+      ],
+      "conf": "low",
+      "date": "2026-09-30",
+      "title": "11㎞ '치안 거리' 좁혔다…화성 새솔파출소 본격 가동",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9KcC1VUHlINXd1SzBYR3hoZjl4bGQ4b3RhSlplejBTUGtaYTNpaHNoWnRYc0xLM3ptdkl2ak9KbUg2S1pXNVJrS0ZwblJOR3J6ZVNvTHFSbkxidjTSAVtBVV95cUxPSnAtVVB5SDV3dUswWEd4aGY5eGxkOG90YUpaZXowU1BrWmEzaWhzaFp0WHNMSzN6bXZJdmpPSm1INktaVzVSa0tGcG5STkdyemVTb0xxUm5MYnY0?oc=5",
+      "source": "뉴스1"
+    },
+    {
+      "cat": "행정",
       "senti": "긍정",
       "summary": "",
       "kw": [
@@ -66636,35 +66651,222 @@
       "title": "'대한민국 대표 AI 도시’ 화성특례시, 'MARS 2026' 앞두고 '별별화성 Awards’ 사전접수 243명 흥행 청신호",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5qUC10VDFZNGl5NWRGdU03Z21BT3FsWDk4OFFiWVBVT09UZy1rWFFTX3p0bWpZcW1KbHlPVHpESVZBRnFEemNidUVsN3dHWG1oRnhlSmZzMlk0R2FXNXlqNklycEZOdw?oc=5",
       "source": "경기탑뉴스"
+    },
+    {
+      "cat": "교통",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "동탄",
+        "병점서"
+      ],
+      "date": "2026-10-02",
+      "title": "화성시, 동탄·병점서 판교 잇는 '편하G버스' 2개 노선 개통",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1JV0hfTjY1Y0tHVi1haG0ySGFVbi11aDdLMTlvZWRCTnA5WGcwVzlLb1M0R3JIMkJ1cWFyX28xbVhTYjM4SHZBTEV2TzdEOS1EaTdIc3hhNVJFZGvSAWBBVV95cUxPVDdTbTNEV2tGMG13LVVnRmFOclpyeHJ0dXNHT3RORDRHTzI3QmFpbUZIZnRldFlNQktDNEJMbk5MRnV1TXc1OHl0RkpzNmpGSGtGWXVuby02REZ6ZlpDRDE?oc=5",
+      "source": "yna.co.kr"
+    },
+    {
+      "cat": "교통",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "경기화성시",
+        "동탄",
+        "병점"
+      ],
+      "date": "2026-10-02",
+      "title": "경기화성시, 동탄·병점 2개 노선 개통~판교 출퇴근 개선",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE15NVgxdzJUTkphOEtjeFhkWWJBQlhKdHBzaEdHdkNSMWlDOUhnRHkxU0ZxT1B6S3ZjUHkwRlVSb2Y1aVFTbk1VWENuUnhyWXc4UWR4TmFXVHVJN1k5RF93T9IBeEFVX3lxTE9VN08wcHhURU1kc3NLTG4wUjRsNkZ3OGp2OWE3NGk1Q200dFN3eWpGbVMtWGhuUnprUjNGZW9sNG04Wl9wLTZKTEtfaVNXZjg1VWg4dHl4MzBPWnlIa3Y3TWttWTNQQ3ZVUm9qelB5WFBkRm5uV3N0Rg?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성",
+        "동탄",
+        "병점서"
+      ],
+      "conf": "low",
+      "date": "2026-10-02",
+      "title": "화성 동탄·병점서 판교 바로 간다",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE85NmxtSFI0bmQtSnhJX1RJV3Izd3h5aXBYdmtxSFRzWllYWl9IR05tZ21xTHRJaFhwQ0ZSdnUyVEhicHBmY2tHb2M1OWpIcm1FcHRHZk9Ndm42blFQZTRDeWplSElYWm5l?oc=5",
+      "source": "일간경기"
+    },
+    {
+      "cat": "교통",
+      "senti": "부정",
+      "summary": "",
+      "kw": [
+        "경기도",
+        "화성시",
+        "효행구"
+      ],
+      "date": "2026-10-02",
+      "title": "경기도 화성시 효행구 정남면 10월 2일 09:08경 효행구 정남면 용수리 16-9에서 교통사고로 인하여 도로 전면통제 중",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5TQVU0ZGpJdUszZFl5X2tjU0VwR3hmR3JBaHRzY1gySWZRZkQxRmZFeUhiQy1KaGRWaUZZenJvYkhyX3V1Y0VuejZNNklYWEpjbEdqNmN1RUl3M1lOWlJkMXpJS2owTEN3a0liV3k4VkJEdw?oc=5",
+      "source": "스페셜타임스"
+    },
+    {
+      "cat": "행정",
+      "senti": "부정",
+      "summary": "",
+      "kw": [
+        "의혹과",
+        "의문",
+        "비빔밥"
+      ],
+      "date": "2026-10-02",
+      "title": "의혹과 의문 비빔밥 된 화성시의회 도쿄 공무출장 ①",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1DbU9GNVFtOVJBVF9DYnhGN3pHZ3MxWFJ4WkJpVDIzWlVSbFR1b0xIYzFaOGVfZXRIX1diTmtBNWdQS2JIV1lWRUxOWGhrVHlnS0lsMDVkckx6bW5Xc2ZTbW5n?oc=5",
+      "source": "경인뷰"
+    },
+    {
+      "cat": "교통",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "동탄",
+        "병점"
+      ],
+      "date": "2026-10-02",
+      "title": "화성시, 동탄·병점~판교 ‘편하G버스’ 2개 노선 개통…출퇴근 편의 개선",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9SVjNmNzZ4WDlCbDBpUGJXYldCRjhiUXFvSllSNEFJTEdKZ2xMWWJhRUpEYVNnTFluODROUVkteTd3eDRDZ3hwYVo0SUo5NGhlOTFURDIwNVJidWZSMDk1dEN6dWVMY3Byb0lreQ?oc=5",
+      "source": "와이드경제"
+    },
+    {
+      "cat": "복지",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "남양읍",
+        "어린이집과",
+        "화성시서부종합사회복지관"
+      ],
+      "date": "2026-10-02",
+      "title": "남양읍 내 어린이집과 화성시서부종합사회복지관, 아이들을 위한 특별한 가을축제 마련",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5iZEJOV3BDa0h5TENUeHAtZjk0RDRoTGNiU0dMdlFlR2NMVXFJRkFaRG1BcnZIaVd5NmNRTHR5NVJZN0FFaDZjWFVXVk8xLUF2NndZTk9KbXlaQmk1clVoNUJFQzRsQQ?oc=5",
+      "source": "화성저널"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "백미당",
+        "경기권",
+        "출점"
+      ],
+      "conf": "low",
+      "date": "2026-10-02",
+      "title": "백미당, 경기권 출점 속도…일산∙화정∙동탄 출점",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5pQ0RtRFpSejFvcjNTUG5OeU4zQV9EbklrLVRBUWNVODdteUZiZDA4WVRmUDJBYWhnNnF2N2JNWDBFc1RFM0N3Si1pR1J0WTI5N0pMX3cyVDlUdjFHNFI0R3paWUpTcmI4R3k0SlZxd2FfZjJEVGp3MXNKQ2k?oc=5",
+      "source": "한국금융신문"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "AI",
+        "공모전"
+      ],
+      "conf": "low",
+      "date": "2026-10-02",
+      "title": "화성시, AI 공모전 ‘별별화성 Awards’ 사전접수 243명",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9rNnVNM0x2amsyb09ZQThHTU02dExSckg5SkR1YzhJajZWVGlxSm11TGZ1Z0RqWk5zaTlSZk9HUE91V3c0VjVETU5CbkRFcll2YmhxdjVZbURhNFk0bThLaXpR?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "cat": "교통",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성",
+        "판교",
+        "출퇴근길"
+      ],
+      "date": "2026-10-02",
+      "title": "화성~판교 출퇴근길 빨라진다…화성시, ‘경기 편하G버스’ 2개 노선 8일 개통",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE10VW9DdWhTSlltek81dnFTcFVPVmlkbkttTUI3ckZLS1lNU21GZVd2b0ZvQmpmSE5DclppTUdFanA3NERLQXpCbnJPeVJ2c2xxY1pxR2NZbTJlbm5NelRVQU9R?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "AI공모전",
+        "별별화성"
+      ],
+      "conf": "low",
+      "date": "2026-10-02",
+      "title": "화성시, AI공모전 '별별화성 Awards'…총상금은 6천만원",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE93cFBWYm1UZFppbVBxRzBZQnZ4bTdNSGlCOHZlcFJIaXFFa1RJZ3FVZkhyYU1NanBzZ01rN3I5YjFFUmFadHVJZTJRdEU1SElVOGl0OHFabUVjam00cHJTatIBeEFVX3lxTFByM1VrVW9ObmdPNnR3UE04VkRKN1lkLWM0cEwyZExlV0RkdTV0WmVzOEFyZmpNbHNfQ1FNNjdGYXpTa3RoZmh1SWhHTXFvUFFubUI5aU9vMl9RNEVQVW5OdTQ3WnVodDBJXzNpb0RsVktZa2tNemFKNQ?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "cat": "안전",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "오진택",
+        "의원",
+        "제부도"
+      ],
+      "date": "2026-10-02",
+      "title": "오진택 의원, 제부도 제비꼬리길 현장 점검 “철저한 안전관리 당부”",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1UalBST3VkaTZEYzFZYmdzWHhKSVBTQ2dBckhwZW1WMFdyaDZHaFJDbEZDWmlETTBGdjJuRXBndlA4MkNGYjI1U2w5QnhfUGhZNDIwai1kZDV4bHRQZkl2T296dUpDWWkzZ1Y4QzVwUQ?oc=5",
+      "source": "뉴스파이어"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "흑자",
+        "전환한",
+        "백미당"
+      ],
+      "conf": "low",
+      "date": "2026-10-02",
+      "title": "흑자 전환한 백미당, 경기권 매장 늘린다... 일산·화정·동탄에 잇따라 출점",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB0RzhFbmhxazRXRlZmamNOV3JIOWxBOTQ4cWpWNkFCYVFhNDlFZGFCX0dxVmZoLTMtQk1ERjVFTWtFd29GeFlKazBSaGNyUQ?oc=5",
+      "source": "insight.co.kr"
     }
   ],
   "dropped": {
     "count": 145,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
-      "남양유업 백미당, 일산∙화정∙동탄 출점…경기권 매장 확대",
       "남양유업 백미당, 경기권 출점 속도…10월 일산∙화정∙동탄 3곳 문 연다",
-      "남양유업 백미당, 10월 일산·화정·동탄에 신규 매장 3곳 오픈",
+      "남양유업 백미당, 일산·화정·동탄 잇따라 출점",
+      "남양유업 백미당, 일산∙화정∙동탄 출점…경기권 매장 확대",
       "\"첨단산업 혈맥 뚫자\"…경기남부 5조 광역철도 추진",
       "이상일 용인시장, 경기남부광역철도 4개 도시 공동대응 이끌어…국토부 공동건의",
-      "남양유업 백미당, 경기권 출점 속도…10월 일산∙화정∙동탄 3곳 오픈",
-      "경기남부광역철도 국가철도망 반영 촉구…성남·용인 등 4개 시 공동 결의",
-      "요거트도 '소용량' 시대…남양유업, 불가리스 '80g' 출격",
       "용인·성남시, 경기남부광역철도 5차 국가철도망 반영 촉구 공동결의",
-      "파리바게뜨·서울우유·농심·남양유업, 취향 따른 신제품 출시",
-      "KB부동산 \"강남 내리고 서초는 보합…서울 아파트값 상승률 전주와 같아\" |",
+      "남양유업 백미당, 10월 일산·화정·동탄에 신규 매장 3곳 오픈",
+      "경기남부광역철도 국가철도망 반영 촉구…성남·용인 등 4개 시 공동 결의",
+      "남양유업 백미당, 경기권 출점 속도…10월 일산∙화정∙동탄 3곳 연다",
       "이상일 용인특례시장 \"B/C 1.2 경기남부광역철도, 빠를수록 좋다\"",
-      "그릭요거트 소용량 시장 두 배로... 남양유업 80g 4종 출시",
+      "[오늘의 식탁] CJ제일제당ㆍ오뚜기ㆍ삼립ㆍCJ프레시웨이ㆍ아워홈ㆍ남양유업ㆍ파리바게뜨ㆍ파스쿠찌ㆍ더본코리아",
       "남양유업, '불가리스 80g' 소용량 요거트 시장 공략",
-      "용인시 정하은, 아시안게임 태권도 품새 女 개인전 금메달",
+      "KB부동산 \"강남 내리고 서초는 보합…서울 아파트값 상승률 전주와 같아\" |",
       "이상일 용인시장, 경기남부광역철도 4개 도시 공동대응…반도체·AI 교통망 강조",
       "남양유업, 80g 요거트 확대",
-      "화성시, 정조대왕의 효심과 미래 만나",
-      "화성특례시, 10월3~4일 ‘정조효문화제·정조대왕능행차’ 개최",
-      "[오늘의신상]\"한 번 먹기에 딱\"…남양유업 '불가리스 그릭' 80g"
+      "[오늘의신상]\"한 번 먹기에 딱\"…남양유업 '불가리스 그릭' 80g",
+      "성남·용인시장, 시민들과 '경기남부광역철도' 국가철도망 반영 촉구",
+      "그릭요거트 시장 3년 새 223% 성장…남양유업, 80g 라인업 확대",
+      "성남·용인시, '경기남부광역철도' 국가철도망 반영 촉구 결의",
+      "남양유업, ‘불가리스 그릭’ 80g 출시…소용량 요거트 수요 겨냥"
     ]
   },
-  "low_confidence": 26,
+  "low_confidence": 6,
   "briefs": {
     "all": "수집 기간 전체 [[w]]부정기사 380건(7%)[[/w]] 중 안전 분야가 187건으로 절반 가까이 차지하고 있으며, 행정 98건, 산업경제 45건으로 분산되어 있습니다. [[b]]2026-09-16에 22건이 집중[[/b]]되었으므로 해당 날짜의 안전 관련 이슈를 먼저 확인하시기 바랍니다.",
     "7": "최근 7일간 [[w]]부정기사는 37건(9%)[[/w]]으로, 안전 분야 32건이 대부분을 차지합니다. [[b]]9월 23일에만 21건이 모두 안전 분야[[/b]]로 집중되었으므로, 해당일 보도 내용을 우선 검토하실 필요가 있습니다.",
@@ -66672,7 +66874,7 @@
   },
   "briefs_updated": "2026-09-29 09:57",
   "issues": {
-    "updated": "2026-10-02 09:40",
+    "updated": "2026-10-02 11:06",
     "items": [
       {
         "label": "화성동탄경찰서, 위기 상황 해결한 정신건강전문요원에 감사장 수여",
@@ -66790,7 +66992,7 @@
     ]
   },
   "today": {
-    "updated": "2026-10-02 09:40",
+    "updated": "2026-10-02 11:06",
     "items": [
       {
         "label": "화성동탄경찰서, 위기 상황 해결한 정신건강전문요원에 감사장 수여",
@@ -66821,28 +67023,28 @@
         "state": "신규"
       },
       {
-        "label": "“왜 꼭 洞으로?”…향남읍 주민들, 화성시 행정구역 개편에 정면 반발",
+        "label": "경기도 화성시 효행구 정남면 10월 2일 09:08경 효행구 정남면 용수리 16-9에서 교통사고로 인하여 도로 전면통제 중",
         "count": 1,
         "sources": 1,
-        "first": "2026-10-01",
-        "last": "2026-10-01",
-        "cat": "행정",
+        "first": "2026-10-02",
+        "last": "2026-10-02",
+        "cat": "교통",
         "titles": [
-          "“왜 꼭 洞으로?”…향남읍 주민들, 화성시 행정구역 개편에 정면 반발"
+          "경기도 화성시 효행구 정남면 10월 2일 09:08경 효행구 정남면 용수리 16-9에서 교통사고로 인하여 도로 전면통제 중"
         ],
-        "score": 53,
+        "score": 60,
         "state": "신규"
       }
     ],
     "surge": []
   },
   "ops": {
-    "runs": 98,
-    "days": 34,
-    "since": "2026-08-30",
+    "runs": 99,
+    "days": 33,
+    "since": "2026-08-31",
     "last": "2026-10-02",
     "failures": 1,
-    "span": 34,
+    "span": 33,
     "skipped": 0
   },
   "quality": {
