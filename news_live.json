@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-03 09:23",
+  "updated": "2026-10-03 10:51",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 4850,
+  "count": 4854,
   "items": [
     {
       "date": "2026-08-02",
@@ -67928,6 +67928,20 @@
       "senti": "긍정",
       "summary": "",
       "kw": [
+        "화성",
+        "궁평오솔로캠핑장",
+        "임시"
+      ],
+      "date": "2026-10-02",
+      "title": "화성 궁평오솔로캠핑장 임시 개장… 10월 무료 운영",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9haGk5cDNPN3dyN21fTVgwQTQwLXBHM1Z2N2JMckJQdWVWcmxpZzJsdjBtbGNLMXZDOWczajZIZS0xM1BmbGdTMHNLZGRuUnpvWE5zZ1ppN1dINXlQb3FuYmpkOElZRVhMVVlwNmpR0gFuQVVfeXFMT2FoaTlwM083d3I3bV9NWDBBNDAtcEczVnY3YkxyQlB1ZVZybGlnMmx2MG1sY0sxdkM5ZzNqNkhlLTEzUGZsZ1Mwc0tkZG5Sem9YTnNnWmk3V0g1eVBvcW5iamQ4SVlFWExVWXA2alE?oc=5",
+      "source": "미디어와이"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
         "화성시",
         "궁평오솔로캠핑장",
         "임시개장"
@@ -68036,35 +68050,76 @@
       "title": "화성 선셋 콘서트 3일 개최…불꽃쇼는 오후 8시",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE93QU9XR2J0X0ZadlZzWTBKME0zQXVScnNBS203T3J1My15ZWxqaE4zNE1Lc0VEem5IU3hiM0k0cTRFUDhNeXprM2ZER0s3NEpMY1R5dmtabUJ6dzF2em94dXUtX05fUQ?oc=5",
       "source": "비건뉴스"
+    },
+    {
+      "cat": "교통",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "경기",
+        "편하G버스"
+      ],
+      "date": "2026-10-03",
+      "title": "화성특례시 경기 편하G버스 신규 노선 2개 개통 > 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5kd0lNaHI5NC10T1hSdEVYSnNoUElVVGJjMTJvdktBNEZaelBkMG5uUWk1NHN2ZE56eDU2MEFBTjdBcHRzYkxMM2g0VEZSTWctRHZuU0Joc19xNl80SDVfc19DSXRXZ3p5VTVNNnhtXzY?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "cat": "교통",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "동탄",
+        "병점서"
+      ],
+      "date": "2026-10-03",
+      "title": "화성시, 동탄·병점서 판교 잇 ‘편하G버스’ 2개 노선 8일 개통",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5DeS1BLXE2X2d4eURhWnhSV29LRDh5VWZOcUtzVkRUZHcyQkVvS055eVNsTnl0VTZmTU5GN3AyQS1YazBkUzZ0YkVSN2tMT201Q1Y5aGlPS1V5YzJQWW5GWFRkX1llWEFjMmVCX1I1OVgyT1hi?oc=5",
+      "source": "아시아경제"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "궁평오솔로캠핑장",
+        "임시개장"
+      ],
+      "date": "2026-10-03",
+      "title": "화성특례시, 궁평오솔로캠핑장 임시개장",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1nOVpjMmVQME9Na20ySUFXdGVEM1E4RC1HWVN6YjdnczNpYjIzcFJTbmtIY0VtMnUtRnQ5dFEzRXU1Qjl4WXVETGx1ZzZmMFhYQjFuR0sxSDFMMmdidHB3cWJSQzlFS2xW?oc=5",
+      "source": "yitoday.com"
     }
   ],
   "dropped": {
-    "count": 127,
+    "count": 122,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
       "“서울보다 더 뜨겁다”…수원 팔달·영통, 용인 수지까지 ‘핵심지 행진’",
       "[부동산캘린더] 내주 부산 '서면 지원 더뷰 드림' 아파트 등 185가구 분양",
       "남양유업 백미당, ‘경기 주요 상권’ 공략 가속",
       "\"바다 위에 뜬 섬이 걸어서 닿는 육지가 됐다니\"... 1억 년 전 공룡 둥지가 12곳이나 나온 갈대 평원",
+      "고용노동부 천안지청·안전보건공단 충남지역본부·남양유업(주) 천안신공장 안전문화 확산 위한 업무협약 체결",
       "[10월 둘째주 분양] 분양시장 ‘숨고르기’… 서울·부산서 185가구 청약",
       "고양대곡지식융합·의왕오전왕곡 지구계획 착수…2029년 착공",
-      "고용노동부 천안지청·안전보건공단 충남지역본부·남양유업(주) 천안신공장 안전문화 확산 위한 업무협약 체결",
       "남양유업 백미당, 경기권 출점 가속화…10월 일산·화정·동탄 3곳 개점",
       "\"첨단산업 혈맥 뚫자\"…경기남부 5조 광역철도 추진",
       "남양유업 백미당, 경기권 신규 매장 3곳 오픈",
       "이상일 용인시장, 경기남부광역철도 4개 도시 공동대응 이끌어…국토부 공동건의",
       "성남·용인시장, 시민들과 '경기남부광역철도' 국가철도망 반영 촉구",
       "남양유업 백미당, 10월 일산·화정·동탄에 잇달아 매장 오픈",
-      "결핵 관리 체계 구축, 민간·공공협력 강화",
+      "[분양 캘린더] 10월 둘째주 서울·부산 185가구 청약",
       "경기남부광역철도 국가철도망 반영 촉구…성남·용인 등 4개 시 공동 결의",
       "남양유업 '백미당', 10월 일산·화정·동탄 3곳 신규 매장 오픈",
-      "[분양 캘린더] 10월 둘째주 서울·부산 185가구 청약",
+      "결핵 관리 체계 구축, 민간·공공협력 강화",
       "수현유치원, '2026 수현 가족 어울림 운동회' 개최",
       "고용노동부 천안지청, 남양유업과 안전문화 확산 협약…우유 105만 봉에 안전문구",
       "성남·용인, 경기남부광역철도 국가철도망 반영 공동 건의"
     ]
   },
-  "low_confidence": 22,
   "briefs": {
     "all": "수집 기간 전체 [[w]]부정기사 380건(7%)[[/w]] 중 안전 분야가 187건으로 절반 가까이 차지하고 있으며, 행정 98건, 산업경제 45건으로 분산되어 있습니다. [[b]]2026-09-16에 22건이 집중[[/b]]되었으므로 해당 날짜의 안전 관련 이슈를 먼저 확인하시기 바랍니다.",
     "7": "최근 7일간 [[w]]부정기사는 37건(9%)[[/w]]으로, 안전 분야 32건이 대부분을 차지합니다. [[b]]9월 23일에만 21건이 모두 안전 분야[[/b]]로 집중되었으므로, 해당일 보도 내용을 우선 검토하실 필요가 있습니다.",
@@ -68072,7 +68127,7 @@
   },
   "briefs_updated": "2026-09-29 09:57",
   "issues": {
-    "updated": "2026-10-03 09:23",
+    "updated": "2026-10-03 10:51",
     "items": [
       {
         "label": "화성동탄경찰서 위기 상황 해결한 정신건강전문요원에 감사장",
@@ -68191,7 +68246,7 @@
     ]
   },
   "today": {
-    "updated": "2026-10-03 09:23",
+    "updated": "2026-10-03 10:51",
     "items": [
       {
         "label": "화성동탄경찰서 위기 상황 해결한 정신건강전문요원에 감사장",
@@ -68240,11 +68295,11 @@
   },
   "ops": {
     "runs": 99,
-    "days": 34,
-    "since": "2026-08-31",
+    "days": 33,
+    "since": "2026-09-01",
     "last": "2026-10-03",
     "failures": 1,
-    "span": 34,
+    "span": 33,
     "skipped": 0
   },
   "quality": {
