@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-02 11:06",
+  "updated": "2026-10-03 09:23",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 4766,
+  "count": 4850,
   "items": [
     {
       "date": "2026-08-02",
@@ -66395,6 +66395,48 @@
       "source": "SK브로드밴드 회사소개"
     },
     {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "민간",
+        "공공협력"
+      ],
+      "date": "2026-10-01",
+      "title": "화성특례시, 민간ㆍ공공협력 강화로 결핵 관리체계 구축",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE43U1pESjlCY05LTXVNRjhQUldPc2tzbldhd0pLZGFFNWZrZHhoLWpWeFVfVnRJcUVHYkNhQ0ZRU3FmTi1abXA1cDFNSDRrTnZt?oc=5",
+      "source": "동네정치"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성특례시의회",
+        "제30회",
+        "노인의"
+      ],
+      "date": "2026-10-01",
+      "title": "화성특례시의회, ‘제30회 노인의 날’ 기념식 참석…행복한 노후 응원",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9USGRzQUZKMnFyYzFNT3pLUGg5VWZ2YUdCemhHcW4wOVZrNWFwYnI3ZGMyTWVzVzM1RGVaN1ZCQV9xOGlsR3oxT190YUhlQTRwOGVUc1FHd09rckJfQ1dlOE1n?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "동탄구",
+        "어린이집연합회와"
+      ],
+      "date": "2026-10-01",
+      "title": "화성특례시 동탄구, 어린이집연합회와 간담회...현장 목소리 반영한 보육지원책 논의",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5TenNmZGlGSGhjc01OaVpESlFpVnBkRDFydXFmTW95QUZONDZ4U0VfdEVVTTM4UHdPUnFXcmc4a2xiR1RVRDdyLUNDUVZ1UUJKOGVhOUdUX0Z5dHpYUE9QUzREZW9iY0w5clNv0gFrQVVfeXFMTlN6c2ZkaUZIaGNzTU5pWkRKUWlWcGREMXJ1cWZNb3lBRk40NnhTRV90RVVNMzhQd09ScVdyZzhrbGJHVFVEN3ItQ0NRVnVRQko4ZWE5R1RfRnl0elhQT1BTNERlb2JjTDlyU28?oc=5",
+      "source": "뉴스잡"
+    },
+    {
       "cat": "교통",
       "senti": "중립",
       "summary": "",
@@ -66838,35 +66880,1191 @@
       "title": "흑자 전환한 백미당, 경기권 매장 늘린다... 일산·화정·동탄에 잇따라 출점",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB0RzhFbmhxazRXRlZmamNOV3JIOWxBOTQ4cWpWNkFCYVFhNDlFZGFCX0dxVmZoLTMtQk1ERjVFTWtFd29GeFlKazBSaGNyUQ?oc=5",
       "source": "insight.co.kr"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "몽골과",
+        "기업교류"
+      ],
+      "date": "2026-10-02",
+      "title": "화성시, 몽골과 기업교류 확대…정명근 시장 '투자유치 전략' 해외로",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1SRUFtcWU0RWF1eWxfQjBJeXJtUzA2TWgwUURHZG9QYkJfekNBM21sN2V3M2NZeWtlS3YySE16dW5ZVEV4d0ZDenZVYWZQQW9LRzhVYmtDLVhjRDY1UFp2b25hdk5PVWJTS2xVLUdHVVZVVzjSAXNBVV95cUxNUkVBbXFlNEVhdXlsX0IwSXlybVMwNk1oMFFER2RvUGJCX3pDQTNtbDdldzNjWXlrZUt2MkhNenVuWVRFeHdGQ3p2VWFmUEFvS0c4VWJrQy1YY0Q2NVBadm9uYXZOT1ViU0tsVS1HR1VWVVc4?oc=5",
+      "source": "시사저널"
+    },
+    {
+      "cat": "환경",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "향남역",
+        "그로브",
+        "스위첸"
+      ],
+      "date": "2026-10-02",
+      "title": "‘향남역 그로브 스위첸’ 홍보단, 향남 일대 환경정화·거리 홍보 전개",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1tUGk0T1lzV0pXcHVOallyRnprWGZETVBwTlRYYW5qczE1VUpvMUlUd094N0xFQTM0VXFvUWkxWldsTm5hN0NsVmo3NGNlQU9wRVNPXzh4QW5RWHlDOXUxMElR?oc=5",
+      "source": "이코노미스트"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "호수",
+        "품은",
+        "아파트"
+      ],
+      "date": "2026-10-02",
+      "title": "호수 품은 아파트, 주거 가치에 반영…동탄·광교서 차이",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5lUHhaTTJxSF96N1duejFMd0tEYnd1aTNqNFNhb2ZodU9DbEFQb3BHY2EySDdjMC0ybi1aaUhFeUpLbnZHYXROM2h2QXBIX2ctN2pvTk5Ddnpsc2tHd3A4UHJZZ0licmd1VHE1VlhR?oc=5",
+      "source": "폴리뉴스 Polinews"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "2026",
+        "별별화성"
+      ],
+      "date": "2026-10-02",
+      "title": "화성특례시, ‘2026 별별화성 Awards’ AI 공모전 사전접수 243명… 열기 후끈",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9BaU9ndFItaGFkcW1uMFpCakVLcFNYdWFnMjVwMWhvSWRnNWlFY2V5TU1TRzJpcUEwZVRIcUlQTmkycHFIUTJjWWRlbU44MWJhck5XYVg3bGhRMkpMallPT2t3bkFGcDh5Tm9IUA?oc=5",
+      "source": "파이낸스투데이"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "궁평오솔로캠핑장",
+        "임시"
+      ],
+      "date": "2026-10-02",
+      "title": "화성시, 궁평오솔로캠핑장 임시 개장… 54개 사이트 갖춰",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9uU2lBR2FsSVJKQ295ZmZ6d19DdDFheHVkeFZmdWQwSDl2WDdiUUE0MjQwaTNpcWNVQ2MtbVZnRWtVY0hWQ2tLUXRyNlowNFhTOW91R3gyU2RNbnA2akU1dHA4TnJob29Bak9ZSl9DYkZlRVhiaHVOUXJR0gF_QVVfeXFMT2ZTYl9rb1BNdWpuSzNsTDNpdUw5R3N0OG5aMjM3eUlxNm14b2oxLVZ5aHNndjhzZXRLbHZjTlZqVXBVUFR4dTBERVl1TVJ0T181QlVockRtRC1RUFM0aWpUNjZJVVNBVG9TVjZzLU5DNzVabXlINFlhckhVOTlyVQ?oc=5",
+      "source": "뉴데일리 경기"
+    },
+    {
+      "cat": "환경",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "지역",
+        "상생",
+        "나선"
+      ],
+      "date": "2026-10-02",
+      "title": "지역 상생 나선 ‘향남역그로브스위첸’ 홍보단…거리 홍보 및 환경정화 활동 전개",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5CbWZJOU5JZlNCZWx4YTNqaVdyWF9abC0yMjZ5LWVMcWhESGpBQ3lQd2hiRTdjYlduMXdOb0FGU21ZemR1ZnNxMlZQNHc3NDQ?oc=5",
+      "source": "v.daum.net"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "AI가",
+        "시민을",
+        "창작자로"
+      ],
+      "conf": "low",
+      "date": "2026-10-02",
+      "title": "AI가 시민을 창작자로…화성시 공모전에 243명 몰렸다",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAxc1Q1Q1V3Nmo3dzhUTVM1d0VVcXBJakhDd2NLUEw2Mm9Md0JFbDVMNmNPelhLbGphOVdPV1BqcGxDVFdYMXhhTHZKZlRhdDlYMTZSRWEtcS0yTThKUklxMWRJdjZJYk1TMVl3TVVR?oc=5",
+      "source": "아시아투데이"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "그때",
+        "분양받을걸",
+        "동탄"
+      ],
+      "date": "2026-10-02",
+      "title": "\"그때 분양받을걸\"…동탄·판교 초기 분양단지 몸값 5배 뛰었다",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtRk9LNE5ib3ZsTUlvSUQxb3pPQlpRUnpVSXNVRk5Hd1ljYXllU1ZhZTJ4WFhHU2tROXhEME1TRVB6Qk5CZmNjM0RMNVN5RWZ0bm1lb2F4dUJfOWppbzRQc3d4ZE5sVUxf?oc=5",
+      "source": "ebn.co.kr"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "포토뉴스",
+        "화성시장애인합창단",
+        "도지사배"
+      ],
+      "date": "2026-10-02",
+      "title": "[포토뉴스] 화성시장애인합창단, 도지사배 장애인합창대회 ‘최우수상’… 상금 700만 원 쾌거",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE84Ny1SQXB4T2ZuUlFGN0VrWGFudHAzRGxZc29UN2I3Qkhfd1d3aWxkSTloNlNmdjRwWkRCNkF2cW0yTC1EWV9wVGw2d3pneE5EUTMwRHBIc0tmSkRPVkV5cFpR?oc=5",
+      "source": "미담플러스"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "백미당",
+        "경기권",
+        "출점"
+      ],
+      "conf": "low",
+      "date": "2026-10-02",
+      "title": "백미당, 경기권 출점 확대…일산 이어 화정·동탄에 매장 연다",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBRMTJFbi1rMnJvZGlZaDBoY195Slk0RGNUNHNJU0Rncmt0dEFDem50eFdJbXFkSFg4MjlzYnJONjBCYkRETUJHbHpONjdzcFAtbV9tb0RhdXJoZ0FneFhz?oc=5",
+      "source": "datanews.co.kr"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "공생",
+        "공감",
+        "공존의"
+      ],
+      "date": "2026-10-02",
+      "title": "“공생·공감·공존의 연결고리, 향남”… 제4회 발안만세축제 10월 17일 열린다",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBsY1AxX2Y5cnh3dzU4bnoyck1QS1pWYnZ4Vl9GcndCUmpXVHRFR1dSVGdiMW5wOWI0Z2FpcG9fMVRVYlduczM2YWZwNlVfZW9zc25kMHN2c2c3dkVBQ2RseVR3eVRhUQ?oc=5",
+      "source": "화성저널"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "보도기사",
+        "화성시장애인합창단",
+        "제23회"
+      ],
+      "date": "2026-10-02",
+      "title": "[보도기사] 화성시장애인합창단, ‘제23회 경기도지사배 장애인 합창대회’ 최우수상 영예",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5vbFNhc2htcGhfbE1wcy1BaVhUMXAzaVdQUExyNUdaSnZfVmJxUEJwMkJpWWtjVFpWbW5EN0RMRF9GS1czVUQyUGV2NjJYM3FUVHZZQU5zS3FYTVV3eXdBaDMxVzU0R2RWOG0wYUNhR0lrd9IBckFVX3lxTE5vbFNhc2htcGhfbE1wcy1BaVhUMXAzaVdQUExyNUdaSnZfVmJxUEJwMkJpWWtjVFpWbW5EN0RMRF9GS1czVUQyUGV2NjJYM3FUVHZZQU5zS3FYTVV3eXdBaDMxVzU0R2RWOG0wYUNhR0lrdw?oc=5",
+      "source": "newsttaom.co.kr"
+    },
+    {
+      "cat": "교통",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "신동",
+        "태안3지구"
+      ],
+      "date": "2026-10-02",
+      "title": "화성시, '신동·태안3지구~판교' 잇는 광역버스 신설",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5HZ3hjTW9DNHVEZC1TOU5FZGpXTmtzLXNhelF1dXZxRF9EaXBWMGV5aGlIWkJIZFhpRDl6LUVoQThWQ1hWVjVYVTVBV0pjT2Nkb2VxYXI0UGM0MXpmaTkxMVpYZWxjYXR6ZllxcWtacXUzdw?oc=5",
+      "source": "중앙이코노미뉴스"
+    },
+    {
+      "cat": "교통",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "판교행",
+        "경기"
+      ],
+      "date": "2026-10-02",
+      "title": "화성시, 판교행 '경기 편하G버스' 2개 노선 8일 개통",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9DeVdvTy1sTU0wNkJ2Z0FQVE5KOVNZMmZsN3ZhTHQ3R3VURTZaSmV4NXNwS0hYdWY4d2VCS0RQZ2EwaE5tREZ3RTlnaHRHRWxGTG43WGFNai1QUmlv?oc=5",
+      "source": "뉴스핌"
+    },
+    {
+      "cat": "교통",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "정명근",
+        "화성시장",
+        "출퇴근"
+      ],
+      "date": "2026-10-02",
+      "title": "정명근 화성시장 “출퇴근 이동권 강화”…동탄·병점~판교 직행버스 2개 노선 신설",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBIc2xiX0hfWkNWYjdVVDJEZzNNTlRqOGx5M1Y4dUNlMkFxR2poYUlPczVmUFRKRGY4RjZnQl9BeW9rVGhXQ0Q2dXNHZXRXNE9XTlRuakFhNEVMV095Y0lnRllDQUctZkpa0gFsQVVfeXFMT1dyejdDUXM5Z3l1cFd2N2xKSzV2SkFwM3ZteUZ3UHBBMGwwTG12bVFLX2FMajZMQ1Rucm5xeE5HbUVRNDVUOTBNYUdUbnNXSDgwLUZNckxJME9tcWNpZFRfTmJ0QXZMZUxDVUZl?oc=5",
+      "source": "필드뉴스"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "어린이들의",
+        "그림으로"
+      ],
+      "date": "2026-10-02",
+      "title": "화성시 어린이들의 그림으로 드론쇼 선보인다…'2026 화성 루나빛축제 어린이 드론 그림 공모전' 개최",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1LZFdXWE5pVTBXWWRvbWdkRWxsWDVyQ3RZd3FXMW04UjVoV2p6ODl1bUZmeUhxS2RabTN3THZELVFLVG5aM0x1bXdB?oc=5",
+      "source": "경기평화신문"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "서울",
+        "잠잠한데",
+        "다시"
+      ],
+      "conf": "low",
+      "date": "2026-10-02",
+      "title": "서울 잠잠한데 다시 상승 폭 키우는 동탄... '서울 사람' 매수세도 확대",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5vbFVOWDM5RkNmQTRjZGdub1Q3dGJXTGhIeXoyVVVoTmRoMkhJV1FqM04zQXhVa3pZc2JtU1NiQVExMjhOM0MwNUtMUWtOelhDVjVMQVF3bTdsTmhxak1feWJVSUx2SVdXY1l5WUJyRmJWb2fSAXNBVV95cUxOb2xVTlgzOUZDZkE0Y2Rnbm9UN3RiV0xoSHl6MlVVaE5kaDJISVdRajNOM0F4VWt6WXNibVNTYkFRMTI4TjNDMDVLTFFrTnpYQ1Y1TEFRd203bE5ocWpNX3liVUlMdklXV2NZeVlCckZiVm9n?oc=5",
+      "source": "한국일보"
+    },
+    {
+      "cat": "교통",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "판교행",
+        "편하G버스"
+      ],
+      "date": "2026-10-02",
+      "title": "화성시, 판교행 '편하G버스' 2개 노선 8일 개통",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBqWjlpTFg2d1JUNWl6d3pQOXBZX2VuN0pYaHRhY2tETjJTWm9IQU5xM1hXWU9hb1gxNEhTaEdvN0ZQamFUMDE2Y2lFSkRoWmtyWi1oaXdMN3JNbzhKOWl6ZV9ieWdrWG1sX2c?oc=5",
+      "source": "뉴스티앤티"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "떡의작품",
+        "병점복합타운점",
+        "파주운정점"
+      ],
+      "conf": "low",
+      "date": "2026-10-02",
+      "title": "떡의작품, 병점복합타운점·파주운정점 오픈···신세계백화점 강남점 팝업 예정",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5JbHZCYzU5R2U4QWxTeENnV1hPV2tYdEI2OUFvMDRHeUM2cTJVb3ltRmxaRk1jV1pTajJITGV4b1luM05qSU5mOXdtZmlMTW5KLThNUkpjNFZwMVAyenlxMVVfUGQxWUx6MGdUSdIBcEFVX3lxTFB3ZDJwbXNHdUlESC1jRHdsT3poYXJpWEZfa2hnMGE1aXZ5TDU0R2tjellteVJKXy00WXA4VFptQnpSaDhqdk1nVy13SFlqcDJDUXpzbXpNMFplem5vWFhsU21sMkU0N0l4d3NLbWlTcHM?oc=5",
+      "source": "이넷뉴스"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "HLB제약",
+        "향남공장",
+        "550억"
+      ],
+      "date": "2026-10-02",
+      "title": "HLB제약, 향남공장 550억 투자…생산능력 '두 배'로",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1pWVhqM2hNVXg1WXdmOHFhQ2J3b3VEc3JWSXVpWHNvZG9lbUw3T09aUkdaaHQ5NDRIbngzR0Rab0lhS3RqN0xVRld0dXpfRkNYVlN4djBtalRvWTlnMGQ4Q3Y4aVBvQ1JrMnJSYUx4cnk?oc=5",
+      "source": "리드경제"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "이계철",
+        "화성시의회",
+        "의장"
+      ],
+      "date": "2026-10-02",
+      "title": "이계철 화성시의회 의장 “어르신 가까이서 배우고 즐길 기회 늘리겠다”",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1DZjZEaEw5Ti1yTkVGdDlqYk85MGxoNTd4ZV9ydFJoX3ZmS3J5TTBaeE1ZYTJUVFloLXlBNXRzQm5vOFoxLUV6RkNnTmFlUDdZd2hPX282RmNrSUxOOEo5Mw?oc=5",
+      "source": "아시아경제"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "백미당",
+        "경기권",
+        "넓힌다"
+      ],
+      "conf": "low",
+      "date": "2026-10-02",
+      "title": "백미당, 경기권 넓힌다···일산·화정·동탄 3곳 출점",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SSFZKelcxMDk4S2lmOHcwZmZMSVVLLTUzTTA2R2J2THlPemFPREI0SWVtdjcwbDU1X2FsQUpyc2hyWlVkdUp2WGtweVJFQ0dtcTBSc2dwM2I5akZBVkY0Q1Q5SU5aaVXSAWtBVV95cUxPaXRjWW85TGE5VlBqdXh6T09VeWtlUG1BeWZlMnQ2OERTY3hvQ1hPc2N4dGpEZC0tUDBIU1AtV29LNDg4UkJ3SWQ1amd3d21SRlFTMVE5aDczWTRsc2JPcnFKazlWV1l0R2ZiMA?oc=5",
+      "source": "현대경제신문"
+    },
+    {
+      "cat": "복지",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시청소년상담복지센터",
+        "온라인",
+        "아웃리치"
+      ],
+      "date": "2026-10-02",
+      "title": "화성시청소년상담복지센터, 온라인 아웃리치‘오늘도 토닥토닥’ 성황리 마무리",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5icW1SeU43dG9SMjhHVVhEN1V2TTNVMWlEWU1aWHVxekREY1ZGVG9BbVZpalhIbUxyWUR0V2NiMzladFJIcW5kZ2t1SGtqLWFvTjRITnlMQUk3WTJTREl1NmlhTGxGUUc0Xy16eVZLY191d9IBckFVX3lxTE5icW1SeU43dG9SMjhHVVhEN1V2TTNVMWlEWU1aWHVxekREY1ZGVG9BbVZpalhIbUxyWUR0V2NiMzladFJIcW5kZ2t1SGtqLWFvTjRITnlMQUk3WTJTREl1NmlhTGxGUUc0Xy16eVZLY191dw?oc=5",
+      "source": "newsttaom.co.kr"
+    },
+    {
+      "cat": "안전",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "김상균",
+        "도시건설위원장",
+        "동탄"
+      ],
+      "date": "2026-10-02",
+      "title": "김상균 도시건설위원장, 동탄 신축공사 현장 점검 통해 학생 안전 챙겨",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9fVTdyeVgtSEJBUEhpcHRsdXJqQW9VOWFSVW5ldEpxb0gteUJqY3JwbzItbGVObkVkeUpDT3FrdnhDRDg?oc=5",
+      "source": "화성신문"
+    },
+    {
+      "cat": "교통",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "성남",
+        "용인",
+        "5조원대"
+      ],
+      "date": "2026-10-02",
+      "title": "성남·용인, 5조원대 경기남부광역철도 재촉…수원·화성도 공동 대응",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1lRm1LTGd2RzlBU0ktUE9oZnU4a1NDSzZWTElfdlFaNVU0cUhQXzdCcDVOODFBUXlpeDJwMkF5dGNGbHpGejhGZ2JhUmpqWDVBUzlyUmJTcm5VTDF5MmgtVFVjVl8?oc=5",
+      "source": "서울경제TV"
+    },
+    {
+      "cat": "교통",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "판교",
+        "출퇴근길",
+        "넓어진다"
+      ],
+      "date": "2026-10-02",
+      "title": "판교 출퇴근길 넓어진다·…화성시, '편하G버스' 2개 노선 신설",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBMRUR6MHlUc0JueVhDTEM3c3VKZE9HTFFWank2aEU1bk1pVWNFcUl6QmdwcmJLSmFSUkd0YzFZNUdLcGp4WGhWdFZnMlJRaHhOV1dEem1icFpGbDTSAVtBVV95cUxQTEVEejB5VHNCbnlYQ0xDN3N1SmRPR0xRVmp5NmhFNW5NaVVjRXFJekJncHJiS0phUlJHdGMxWTVHS3BqeFhoVnRWZzJSUWh4TldXRHptYnBaRmw0?oc=5",
+      "source": "뉴스1"
+    },
+    {
+      "cat": "복지",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시정조효노인복지관",
+        "노인의",
+        "기념행사"
+      ],
+      "date": "2026-10-02",
+      "title": "화성시정조효노인복지관, 노인의 날 기념행사 성황리 개최",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8tRVlSbFlUVkZEamNTOEh3WGktMXJYTGFIT244MUJkSWpPVFFzNmI3V0VGQ2x0Q1BTV0YxdVVPcUxvQk94MFJFa0JBQ2pYTXVLdGVBNGhlTUpHXzQyU2d6b2h1ZGc2RVNOUWJtWkllcFZGQdIBckFVX3lxTE8tRVlSbFlUVkZEamNTOEh3WGktMXJYTGFIT244MUJkSWpPVFFzNmI3V0VGQ2x0Q1BTV0YxdVVPcUxvQk94MFJFa0JBQ2pYTXVLdGVBNGhlTUpHXzQyU2d6b2h1ZGc2RVNOUWJtWkllcFZGQQ?oc=5",
+      "source": "newsttaom.co.kr"
+    },
+    {
+      "cat": "교통",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "판교",
+        "출퇴근"
+      ],
+      "date": "2026-10-02",
+      "title": "화성시, 판교 출퇴근 ‘편하G버스’ 2개 노선 8일 개통",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1EN0FSXzZNRlI1akhwYnI5alhRN3RyWWFOQkZwbEkxZFZFcm5RVnE4cnl4Tlo0c09zQ1E5X2hKSnJ6aDNkaEtrNGpyaDE4N1dDNHRZS1VSazRrQzZ0d3ZocnhDOFZYMzc1c3lpOEZXN0NLb0R6My1CZ2RiSGFvNVnSAX9BVV95cUxNRDdBUl82TUZSNWpIcGJyOWpYUTd0cllhTkJGcGxJMWRWRXJuUVZxOHJ5eE5aNHNPc0NROV9oSkpyemgzZGhLazRqcmgxODdXQzR0WUtVUms0a0M2dHd2aHJ4QzhWWDM3NXN5aThGVzdDS29EejMtQmdkYkhhbzVZ?oc=5",
+      "source": "뉴데일리 경기"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "김상균",
+        "화성시의회",
+        "도시건설위원장"
+      ],
+      "date": "2026-10-02",
+      "title": "김상균 화성시의회 도시건설위원장, \"동탄2 C18블록 ‘대방엘리움 더 시그니처’ 공사현장 점검\"",
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1VcWlxc3Mtb3BuYTVHNzR0M0pHR1BIRlZuMjllMTJtc1hONUExbjloODJVdGNfVWNYNFlaenM5N0F6Zw?oc=5",
+      "source": "화성인터넷신문"
+    },
+    {
+      "cat": "환경",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시아동보호전문기관",
+        "미래꿈하우스",
+        "아동의"
+      ],
+      "date": "2026-10-02",
+      "title": "화성시아동보호전문기관-미래꿈하우스, 아동의 안전한 보호환경 조성을 위한 업무협약 체결",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9TOTNoNHNCMzF2SDExLTJSOWpjZ0xhbkNjVkZpMkRRZTd5WFoyeldlczI5WEdaS25qSkIzdHlsc25MY3B0N3VVZ3BLZnlKLWljWDU3cmIyc2xiemluTWxEY09BUXlLZw?oc=5",
+      "source": "화성저널"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "이계철",
+        "화성시의회",
+        "의장"
+      ],
+      "date": "2026-10-02",
+      "title": "이계철 화성시의회 의장, 노인의 날 맞아 “배우고 즐기는 일상 늘릴 것”",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1YdmZCQXZ3M0ZHMDFhWTZ4NVA1Vlo2UFUtXzVKdkFJLWg5elNOaS1tOWNINjNPXzlPX291NjdXQnB1WUNvVldJN1kxSFRvaHowa1ZLbEJjaVAwV1AxNTVNYU5wcjZ0Rl84ZjlEMnpmSkxfaWVaWmxzSjFWUU0?oc=5",
+      "source": "비욘드포스트"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "현장",
+        "다름을",
+        "넘어"
+      ],
+      "date": "2026-10-02",
+      "title": "[현장.단독] \"다름을 넘어 존중으로\"… 화성시장애인누릴인권센터, '인권전문강사 양성과정(심화)' 성황리 수료식 개최",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9oNk9ZUUZhbUxTeFRrQnRBb3RPY20zVmowUlVIUTE5SGFxTmxVVENaOGhOcE5xUS1EYU9vd0RaLS1jV0R6Z090T1E2dUM5UUJ4dW9TNGJUT0tTYTRCNy1nbzN4RDAyTjlmeTE2MzF3?oc=5",
+      "source": "newsttaom.co.kr"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "백미당",
+        "경기권",
+        "출점"
+      ],
+      "conf": "low",
+      "date": "2026-10-02",
+      "title": "백미당, 경기권 출점 확대…10월 일산·화정·동탄 3곳 오픈",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1qb0hBUzR3OTFRdFh0bW1KM2RPR3lSUld6MjVnTFFNS3JJb1RWOEdqZGt3VER1ZWUtR2diM3ZNMGhBc2UyTXhlMnFLMXhJMXRFQVFWUVNrUDJaZHg5Zi1DZ0NfTElQMGs?oc=5",
+      "source": "한국식품의약신문"
+    },
+    {
+      "cat": "교통",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "경기",
+        "편하G버스"
+      ],
+      "date": "2026-10-02",
+      "title": "화성특례시, '경기 편하G버스' 2개 판교 노선 8일 개통",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5Iaml4cjYtQ0lLWDlEeHhqamM2LWwwNnJhNHhORHFJZmE2c29Zdkw5OHpROE1lX2tTNldpMlZ6UzlCQjFJUENNdm1LOEY3Xzl1RVJvOWxHckhlYUxPY3FPc1diWjY5aUViU3dv?oc=5",
+      "source": "프레시안"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "백미당",
+        "경기권",
+        "매장"
+      ],
+      "conf": "low",
+      "date": "2026-10-02",
+      "title": "백미당, 경기권 매장 확대…일산·화정·동탄 신규점 오픈",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zZmtVQTlWYjZsYlJyeS1uVXJvc3ZNNlVSZUhaaXNyN2huVld0N1hIVTcxRVNXTXYzQWJ0ZWtwOUVuclVMeEd1d0JzYWcyc05XbE1rOTJhaFgxdnZqTXluOHFPX1ZTOFli0gFsQVVfeXFMT2ZQOFpsTFcyQkdxZmQ5NDZPWWFqb1pXbkJWXzZHQVQxWlpPbFA0WV9vdzBPVks3Y3RXQWQyZGgxdEIyR0c4MkdXOUdOOGhpUS11YVY3bG9mX3ZHOTRvdFJDREhKLUViMF9DQU90?oc=5",
+      "source": "직썰"
+    },
+    {
+      "cat": "복지",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "기아일반직노동자회",
+        "화성시",
+        "청소년"
+      ],
+      "date": "2026-10-02",
+      "title": "기아일반직노동자회, 화성시 청소년 위해 장학후원금 100만원 기탁",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBJQUo4TE1mTlBjMVMzajVLTC1sVnVfakdCdnRHUTlUbXdiUHBCQXVRdTZrWXVFRlYzSE1Gb2tRLWo3aWJCZFp6V2VuWEhCQlNwejJqTzczdnV3ZjlkOVR6WW51U01YZ0x1VkhkWGxsOS0?oc=5",
+      "source": "신아일보"
+    },
+    {
+      "cat": "교통",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "8일",
+        "경기"
+      ],
+      "date": "2026-10-02",
+      "title": "화성시, 8일 ‘경기 편하G버스’ 신규 노선 2개 개통",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ocFJFdjZmMXBKU2JJZmNtV2hUSlBfTjVfN25OMDNIY2NyYk43RnJjSlJrOG5OWTN4N0dESVpQTzZFSTEwOVU2NGJYcDl2ZnBWN0dxVkppYjU?oc=5",
+      "source": "스포츠서울"
+    },
+    {
+      "cat": "복지",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시서부노인복지관",
+        "어르신께",
+        "존경과"
+      ],
+      "date": "2026-10-02",
+      "title": "화성시서부노인복지관, 어르신께 존경과 감사의 마음 전하는 노인의 날 기념행사 ‘사랑드림’ 개최",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0xeXJrS1gwaUQwN0V3bjcxYkNETTN2dkU4QTFiSHJCWDBUdGxMSGFWZ3dTVU1kZ0djYnkwNElBNHFaeV9HQVlJZXAwWWZYa0g4MGF2NVJhSmpadjh3NXVYNmhSTi1uQQ?oc=5",
+      "source": "화성저널"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "AI",
+        "공모전"
+      ],
+      "conf": "low",
+      "date": "2026-10-02",
+      "title": "화성시 AI 공모전 사전접수 243명… 정명근, 시민 창작 콘텐츠로 'AI 도시' 확장",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1EbGJ1RjNCSHhsMnBHcFVhMU1MRVNRX0NKaUdlX3lIX21zTUhoakZNZGt5MTVrVHRwQU1Lc01uSWxoY0dZczBhbVVaRHNmSmpLMTBDQg?oc=5",
+      "source": "v.daum.net"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "궁평오솔로캠핑장",
+        "임시"
+      ],
+      "date": "2026-10-02",
+      "title": "화성시, 궁평오솔로캠핑장 임시 개장…10월 한 달 무료",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8wT2RBRDNnMENLVzV4UWNHcjBvd09vTElmTGlzWVA0Y0ZIa0VJcEVzblEtMDVsb1lsTmtIUDNoaTZ6b2dCRF9Qamw0Ylhhd3MtLXlrRFBFM3hIQQ?oc=5",
+      "source": "데일리엔뉴스"
+    },
+    {
+      "cat": "교통",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "판교",
+        "연결하는"
+      ],
+      "date": "2026-10-02",
+      "title": "화성시, 판교 연결하는 '경기 편하G버스' 2개 노선 8일 개통",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNaVZzZGwyNDB3eEI0VzB3eGhYUU95OHJ6QWdFWEtVS1V6emExQ1Nyc3pjZ0hzNEhURm85aTdtZ2JuMngyMHhZcnh3S3hZNnR6dldhT09WZ2wwX0N3WXJsYWdpczIyWkJOeWh6ZkV1eTNmVTBTRXNUR0JGZFV4eXdPSmdXX2Q2WU1lWlZfR0VrYU5VdjBQUXJZckVhQWl5LXFlOVlxMF83MWN0andEdjk4YjlNV18xLUtKX1d2OHg2SkRfNW85LTNkMWdMamNiaEhydVpuZ2FSQS1qSmhPaTIzSlUzSGNZdXE4TnNJWlEzalRXNlpnZmRlY192blhaNW5DRm1rME85akhmRnBQS1VEX2poLWtqVFVJ?oc=5",
+      "source": "데일리안"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "백미당",
+        "일산",
+        "화정"
+      ],
+      "conf": "low",
+      "date": "2026-10-02",
+      "title": "백미당, 일산·화정·동탄 등 경기권 출점 확대",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5wMzVCRFNSbDhHNmxUS18wdUw2ZmtveWFzNHc3NUFxbGlRWXZFMWFIM2dySG9tLWRva0dPOGo4Z25NbDlyTHpBYk96QkZSd2hCd1U2UWYwcFVyU0tpdXpGVW5adHhCRzVnVXduUjUzYWJxQQ?oc=5",
+      "source": "discoverynews.kr"
+    },
+    {
+      "cat": "복지",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성제관",
+        "아산시",
+        "취약계층"
+      ],
+      "date": "2026-10-02",
+      "title": "화성제관㈜, 아산시 취약계층 위해 1천만 원 후원",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE52WDc5UllYb04ybG9wbDE5STgzcTdaQ2l4TGsyaTdmeTBhdmlNTFpQT0djNU1na1AwRDdQRUJJbE8yRWN1c0pXN3dPamFJYzd6ZnNvNEZxa2g5cGNSWlI4VHlYYlE1WUtRaFNUWdIBbEFVX3lxTE52WDc5UllYb04ybG9wbDE5STgzcTdaQ2l4TGsyaTdmeTBhdmlNTFpQT0djNU1na1AwRDdQRUJJbE8yRWN1c0pXN3dPamFJYzd6ZnNvNEZxa2g5cGNSWlI4VHlYYlE1WUtRaFNUWQ?oc=5",
+      "source": "충남문화신문"
+    },
+    {
+      "cat": "행정",
+      "senti": "부정",
+      "summary": "",
+      "kw": [
+        "화성시인재육성재단",
+        "대표",
+        "선임"
+      ],
+      "conf": "low",
+      "date": "2026-10-02",
+      "title": "화성시인재육성재단 대표 선임 갈등, 직무대행 고발로 이어져",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBiUGRiMWpfNXRWZ1VDdFRERjk4NHh3VHhrRmR4aEVCX1lULTk3Tkd2c3Fhb0FCbUFyQ2lBTnRJY2RHUzBXUzhSbUI4ZFpGZjVzSDNOTGJVeklUa0F2RDduSzllMDlpOTU5ZU94U0EzZ2lNTFHSAXdBVV95cUxPUmNvZEFCcllBRU8xcjRGOWhKSWg0c0I3OHNfX0xKaG9zVXRNZU9CcHY5T1ZzcGFYb2NuOU0wcV82UGp1M1BRQm4tSGtERzhicF90bDc2Y0NpNW9LcHBfd1ZVZXF6Qk1pV1dYY3pVbmJEYlVXYlZiTQ?oc=5",
+      "source": "뉴스프리존"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성제관",
+        "아산시에",
+        "이웃돕기"
+      ],
+      "conf": "low",
+      "date": "2026-10-02",
+      "title": "화성제관, 아산시에 이웃돕기 성금 1천만 원 기탁",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE93X1JkTFRZdkNNZEJqcTAtUmVhcnBZRW16MjUtTnhmcXdMSTZiS1FIM05vbUZ6dFotbDlmVERZNTEzcFRacXc?oc=5",
+      "source": "asannews.co.kr"
+    },
+    {
+      "cat": "복지",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "위클리오늘",
+        "화성시의회",
+        "서부노인복지관"
+      ],
+      "date": "2026-10-02",
+      "title": "[위클리오늘] 화성시의회, 서부노인복지관 제30회 노인의 날 기념행사 참석",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE03bVJOSEtoTGpac1VxejBmb3VIc0FWTkh2dHFzZDFlSTZld2hhYnFxZGJWeEVoMGZUcV9VV0U0eFZMc1dBcXJQeGgxUlk4LXlCbTVYcDQtczlNdlQtUURQbmI5SjlHRUQyWXFlZ0xVcw?oc=5",
+      "source": "위클리오늘"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "뭉텅",
+        "동탄산척점",
+        "10월"
+      ],
+      "conf": "low",
+      "date": "2026-10-02",
+      "title": "뭉텅, ‘동탄산척점’ 10월 초 오픈···가족 외식 겨냥한 ‘뭉텃밭’ 선보여",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1PV1VtaWlrZ3JrTl9VMjM0RURKRlRKX1M4QzFPWlBxMzRUZEc5RHpMQ2pqQ2d5TmdzaEpvenBUT1BoNnFjeTd5Y29wRHN0MDNSeVBuRDkwOHZ5dnhXQVExRE5vWUJlYjIzQkFrdNIBcEFVX3lxTFBUclROeFVfVlgzMFRqMXAxbWE4YmlGMU1HdHpyeXFsTktIdk5DM2k4dlctVzNyZUpDekUxY01URUg2RGI5cUZUamFXZ2JqZHEzWkpFMmd0eTFYWlJwX3pXU3pmVHMwQkNOYWhsdzBuMXk?oc=5",
+      "source": "이넷뉴스"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "김상균",
+        "화성시의회",
+        "도시건설위원장"
+      ],
+      "date": "2026-10-02",
+      "title": "김상균 화성시의회 도시건설위원장, 동탄2 C18블록 공사현장 안전 점검",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1JSm9seUR1cW0yck04djR2cmR6M0wydi1kOURiT3JFa3lVbjRWekVJV0Jsb3Y5Zm8yOEtVbXpzcjNCdUNEREhfMlJDTEV2Wk0za1ppZ2pIcmVYazNfejhlLWtSdzBqM1QzcW9fQm9ZeGxtQQ?oc=5",
+      "source": "웹이코노미"
+    },
+    {
+      "cat": "교통",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "김상균",
+        "화성시의원",
+        "동탄2"
+      ],
+      "date": "2026-10-02",
+      "title": "김상균 화성시의원, 동탄2 C18블록 공사현장 점검…“통학시간 공사차량 관리 강화해야”",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9YUmZ1OFJRZTg5eWFUMldkOHI2WFp3MGpDVDdybXA2QkZqTXg2TkpaS1EyYWpEYkNFdEdfTnpWMnFEaUhyanNUTWlONi1iNmQ5Qk5zdFB1N29aYnZaNG9MM19R?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "궁평오솔로캠핑장",
+        "임시개장"
+      ],
+      "date": "2026-10-02",
+      "title": "화성시, 궁평오솔로캠핑장 임시개장…체류형 관광 기반 확대",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBiVGZsZE1tOFBzYTQzSDE3VXY5N0JrUVlWN0dxWU05TDE1R0VHMkRzLTgzWS1qUkVrWXAybFA2dFJDcllXSm56WlZ3Qmh0eXpWSmNKOERnd1NjeEd5bGIxYWFB?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "궁평오솔로캠핑장",
+        "임시"
+      ],
+      "date": "2026-10-02",
+      "title": "화성시, 궁평오솔로캠핑장 임시 개장...10월 한달간 무료 운영",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPMURpWjB5NDg4U3BfbGVsd3VJOVJNTWNNeEM5OTlwQWMwRm9tUGxfQW5UZUlTZ1hIdDJQZzRTR0xMNWdmcXVMeWxIRHpBeVpoMmhiMm9tY09FWC1TUl9nbmNURi1mdl9DbzJ3MFdJS2NXV3VNVG5EYzFEZExBd2N3UWRUX2ZPeXZLY3FXWUZJZU9lYkxnaVd6c0dackR4Z21LVklhMC10WEpzdWxFdHhmamVYN0dvNFRJbnZ4QVNsYUpIQ011eG1PcFpwS21fQmUzMjVRTXZ2Qkl3T05MT2FfbndXUmlpM1JoeVlNd0w1ZE9RVEYxaEFXRDJOeVRrdzBOLTFQbWxGRWxSM2xZeXpTT0Rxb2hoNGFI?oc=5",
+      "source": "데일리안"
+    },
+    {
+      "cat": "교통",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성",
+        "판교",
+        "출퇴근길"
+      ],
+      "date": "2026-10-02",
+      "title": "화성~판교 출퇴근길 빨라진다…편하G버스 2개 노선 8일 개통",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1GdmhlY0hzbk95N2xvaGYzczlFWE1pOGZDclNkYXlUcllzWmIwdVB0Wnp6RFVUbWZNZUpJemo3d3RneV9weDkwN3AyaDRia3V6aUlqTkdEQktGaGNnSmdxazFTVDZ3S3BFemNJcTItQmNvNEFn?oc=5",
+      "source": "아시아뉴스통신"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "백미당",
+        "경기권",
+        "매장"
+      ],
+      "conf": "low",
+      "date": "2026-10-02",
+      "title": "백미당, 경기권 매장 확대 속도…10월 일산·화정·동탄 3곳 오픈",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1mZ19pT2pxdG14T3hZNE1nakJjeC1HaEhnN1pSck5RR1B5YXZBU1A4UjlrdEJ1WFc1eExBRllvbUhYNEl4X3ZCbWszWE1PSDZHOEFvN1Y2QkFXMF9uWDdaRFFUNkVnTWhIejVyOWJiNWN5SldJ0gF0QVVfeXFMTWZnX2lPanF0bXhPeFk0TWdqQmN4LUdoSGc3WlJyTlFHUHlhdkFTUDhSOWt0QnVYVzV4TEFGWW9tSFg0SXhfdkJtazNYTU9INkc4QW83VjZCQVcwX25YN1pEUVQ2RWdNaEh6NXI5YmI1Y3lKV0k?oc=5",
+      "source": "포인트데일리"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "갤러리티",
+        "동탄점",
+        "최윤정"
+      ],
+      "conf": "low",
+      "date": "2026-10-02",
+      "title": "갤러리티 동탄점 최윤정 개인전 ‘빛을 닮아가는 시간’ 개최",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53T2xnM05HUnh3LWZqT0swb0NMZVVicUJVTHVNeDBCU2xqNzhmbnA5QWlWV19CdnVNZlVKdERYVjRmWnRyRGt5OUZPUVFMVnYxamp3V2lTRmNrME5XUGFSc2diSjlLTzEx?oc=5",
+      "source": "공감신문"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "백미당",
+        "일산",
+        "화정"
+      ],
+      "date": "2026-10-02",
+      "title": "백미당, 일산·화정·동탄 3곳 출점…경기 상권 공략",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1McjdidS1CSnRDQmVCLW1hLTA3SktkUXdsdjVGUFBIUUc0UGpRaFQtMXpOdmdKWkYyVXNoUnVvR2dSZWJQdV9LYzRoejRVQUZEaThUMkNxSDFIdjJzSkxJa1c0RVBFVlI1cnU40gFuQVVfeXFMTkk0TVhVMkJONjdmNjJZOHpqWDZaN3dVY3M5enkzX3ZFdTlmZ0Y4dUJmLXM0U2dJYmNQZ0llM2toVXpwb3F1VG1kVUpKTk5INjBzaGQxQzFucnJRV0RTVC1kR2l5QjI5VTNrb3B1amc?oc=5",
+      "source": "newsdream.kr"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "어린이",
+        "그림"
+      ],
+      "date": "2026-10-02",
+      "title": "화성시 어린이 그림, 드론쇼로 밤하늘 수놓는다…'2026 화성 루나빛축제 어린이 드론 그림 공모전' 개최",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5rQU1SSTNxd2FpOEQ5M1RrdGZYWTNrWmVYLVJtQzFOYnB5MWtLRWZ4VzRyZllENVh6N1ZRbkVmbWdYVHNqQWhWN0JrTkVZMUJubXp0TGgtbmVzSXp0MGlxTkdCcUdSSUk1YnNpZFk0WjVkdw?oc=5",
+      "source": "웹이코노미"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "신도시",
+        "초기",
+        "분양단지"
+      ],
+      "date": "2026-10-02",
+      "title": "신도시 초기 분양단지 몸값 '껑충'⋯동탄·판교 5배 뛰었다",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1CU1dyekRXZldJcFByU3Z2eWNZS09wdHNWOThHWnloUE1zSkZMTDM2Y3BzckVqaDNGTEJfRVNzRFktZUtSMVNGVHZEdm9OV05uQ0hwSWhZWjN6OXJuM19TTW5Ia3UzMUUtSldrN0lSM3luN3dD?oc=5",
+      "source": "이투데이"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "수노을유치원",
+        "RAS"
+      ],
+      "date": "2026-10-02",
+      "title": "화성시 수노을유치원, RAS(라스 경기문예체교육)와 함께하는‘인성 쑥쑥 운동회’ 운영",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1VbnZ3ZWZIOWRZQ3hkWTVLZ1Y0MWxuNXM5ajJDcFNITTQ4b0dnbkxNczdFODNjOGxaRzM1dlBOQ3U2aXdLNzRtcFNDRXdlalBmc1BuMTBRblgwckdweWthaGc1c0FDZw?oc=5",
+      "source": "newsv.kr"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "백미당",
+        "경기권",
+        "매장"
+      ],
+      "conf": "low",
+      "date": "2026-10-02",
+      "title": "백미당, 경기권 매장 확대…일산·화정·동탄 3곳 연다",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1GWEVJZ3Zfc2hRcV9vWm5vM1lzUmU0TV9hbENkRnlWTnRtSW5vZGlfbWFBbUFCUmYzUkxOYTNfaXQ4Y2pxYjltcWhmVTViS1dyVTE5N3JZQjZ3ajVTdkNydDJqS3M?oc=5",
+      "source": "인더뉴스"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "기획",
+        "AI",
+        "도시"
+      ],
+      "conf": "low",
+      "date": "2026-10-02",
+      "title": "[기획] 'AI 도시' 화성시, ‘별별화성 Awards’ 흥행…『MARS 2026』 출전",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9DakUwd2w1dzR1YW55cnJFZUY2THBhaGpwQk5iaExkM3lraGtsdEwwMUNPOWYxTjU5N292WUVfYVQ0YTJmY2VaTU1OVXdvb3lhZm5WN0lpUzFKWTVvV3JYMlhSWGhZS0tGdkE?oc=5",
+      "source": "수원일보"
+    },
+    {
+      "cat": "행정",
+      "senti": "부정",
+      "summary": "",
+      "kw": [
+        "화성동탄경찰서",
+        "위기",
+        "상황"
+      ],
+      "date": "2026-10-02",
+      "title": "화성동탄경찰서 위기 상황 해결한 정신건강전문요원에 감사장",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBjSHFBQThVNVcyWlNEenNNeXR6ZW84ZzNsVUMzWXpiOERDX3hvX2s1bkhPMnRTLVcxVjdPenNDZ1ZRSVVERFl4VXV0bDhlWmJ6T3FXWGpfVXFpam1iOGc?oc=5",
+      "source": "와이뉴스"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "2026",
+        "별별화성",
+        "Awards"
+      ],
+      "conf": "low",
+      "date": "2026-10-02",
+      "title": "‘2026 별별화성 Awards’ 사전접수 243명…AI 창작 열기 뜨겁다",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5LZFpaNGlRRTd4MHVDVnlyRWtodmVSemlwNG9aVFhKV19lYmE5c2UwTlZaTnVhTTBEeG16RnBDRkRQVUhyNjQ4bF9XQzBvd0VSdHM3UmdmMmNuNXFpWF9iQVF5TVE5bnVCYXFjVElGaDVlR1N3Q1dvZG5ia1dsNzDSAX9BVV95cUxOS2RaWjRpUUU3eDB1Q1Z5ckVraHZlUnppcDRvWlRYSldfZWJhOXNlME5WWk51YU0wRHhtekZwQ0ZEUFVIcjY0OGxfV0Mwb3dFUnRzN1JnZjJjbjVxaVhfYkFReU1ROW51QmFxY1RJRmg1ZUdTd0NXb2RuYmtXbDcw?oc=5",
+      "source": "뉴데일리 경기"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성",
+        "어린이",
+        "그림이"
+      ],
+      "date": "2026-10-02",
+      "title": "화성 어린이 그림이 밤하늘 드론쇼로…‘2026 루나빛축제’ 공모전 개최",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9yYklJVVRnbnRZb0pMYmtseFo5TnZNaFhfVVYxa3pzckVOLU9SdkFuRkdTeS1nY194d3hRbTdUV0FpQjM5aHJqOHRFMzE0OWpWMVEyWDAwcGhOcUpkQnV1R2tzcjFlbDJ1alpVaWlqdFQxOVVT0gF0QVVfeXFMT3JiSUlVVGdudFlvSkxia2x4WjlOdk1oWF9VVjFrenNyRU4tT1J2QW5GR1N5LWdjX3h3eFFtN1RXQWlCMzlocmo4dEUzMTQ5alYxUTJYMDBwaE5xSmRCdXVHa3NyMWVsMnVqWlVpaWp0VDE5VVM?oc=5",
+      "source": "이뉴스투데이"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "243명",
+        "몰린",
+        "화성"
+      ],
+      "conf": "low",
+      "date": "2026-10-02",
+      "title": "243명 몰린 화성 AI 공모전…‘별별화성 Awards’ 본접수 돌입",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5XVHJwcFh0Q21zQ0hIV3VGNWNrUnNqZDZoSUx0OFc1R1ZSb2NDcURiR3lzcmk1VUVNNmdPR1NnMS00d1Aya2lYZUc5YzZuM3FEWmRTQUZjZTNJNlZvSzNkS1Jma3hqbnAwdGdyakphcjdpNEhX0gF0QVVfeXFMTldUcnBwWHRDbXNDSEhXdUY1Y2tSc2pkNmhJTHQ4VzVHVlJvY0NxRGJHeXNyaTVVRU02Z09HU2cxLTR3UDJraVhlRzljNm4zcURaZFNBRmNlM0k2Vm9LM2RLUmZreGpucDB0Z3JqSmFyN2k0SFc?oc=5",
+      "source": "주간한국"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "채용",
+        "소식",
+        "한국농수산식품유통공사"
+      ],
+      "date": "2026-10-02",
+      "title": "[채용 소식] 한국농수산식품유통공사·서울주택도시개발공사·화성시·인천공항시설관리·농림식품기술기획평가원·스포츠윤리센터",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ndHdETmh2THFkWE10QVdqeU5UTS1zVGtMOU00NmdBY0syRjVYWVdyZG5HbE1SRndwVkVfYklLQWw5ZmFFNi1RMHdURFFaQ2hrWG5FSmVBT3Azc3ZJZkI5RVhmTGt1LXl6UGFudw?oc=5",
+      "source": "도농라이프타임즈"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "다함께돌봄",
+        "새솔센터",
+        "화성시장"
+      ],
+      "date": "2026-10-02",
+      "title": "다함께돌봄 새솔센터, 화성시장 단체상 수상",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1RWDBlSk5INjN2Tlg3SzNNRkxMSVFXZnhNem5vSWtSTWdMa2ZYOFJkdVpnRTdETWdfbnhyQ1AwVHZhSEU?oc=5",
+      "source": "화성신문"
+    },
+    {
+      "cat": "복지",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시가족센터",
+        "중장년",
+        "1인가구"
+      ],
+      "date": "2026-10-02",
+      "title": "화성시가족센터, 중장년 1인가구 위한 ‘향기로운 자기돌봄’ 운영...꽃·차·향으로 일상 속 쉼과 회복 경험",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE81Tk9wMVM5WDQ3RjlkaUdwaXhVcWxhZWJtaHVFRm12RTNBQTIybUV5MVZtX25KWVBsbEdiY3VPbWVYLUhVNVFZeFZfci02TXFld3UxWXVDNmxOQ0JPVFJaZlU4UlZMZDhXRnBCSEdRU1g?oc=5",
+      "source": "한국강사신문"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "이계철",
+        "화성특례시의회",
+        "의장"
+      ],
+      "date": "2026-10-02",
+      "title": "이계철 화성특례시의회 의장 \"축사는 짧게, 즐거움은 길게\"…노인의 날 어르신 응원",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBPU2xjenRPOWstbXgyLTV5YndBQ2t2bDBFQWV0dmFiSjBZYWdxTkI0S1BSVmZiRW4yTW14RlVnUzN0YWVUWV9BNFdhVElGU0RzclByb3JiV0ZHeHZvUkpDa2F0dXlsd0kxem5DQw?oc=5",
+      "source": "경기타임스 e"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "바다와",
+        "해송",
+        "품은"
+      ],
+      "date": "2026-10-02",
+      "title": "바다와 해송 숲 품은 화성 새 캠핑장…10월 한 달 무료로 연다",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBLS3lsRTh1enNhM1hGRTBFOFhDeEZKUHZqQ2Ezc2N0ZVUzLTRJNGVEYm16MU83NURQMkhaY05wTlZZYWNpOW9YMVMyb3V5cnVoMk5ZcXZ4TklSN0Zsbi0tVjNRVTNmUQ?oc=5",
+      "source": "kgdm.kr"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "누구나",
+        "AI",
+        "크리에이터"
+      ],
+      "conf": "low",
+      "date": "2026-10-02",
+      "title": "누구나 AI 크리에이터…화성시, ‘2026 별별화성 Awards’ 본접수 순항",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9Pd2VDUDFJSWZLSFZ5VGhOdjNWbjNmNmRhdDd2VWtvZzZZaW01a0JHTDFkLUhpblFuVnZhZDBNSnJFZ3lZaG1pUFloMHJKWHgzZnZUbE5RS2FsRWt1QTRNbkJaWmtJQk95UDFHck52WmnSAXRBVV95cUxQTW9VUTBxVlYzLVVEYTktbVV6TnZKNHladEZYWFIwZWNVNEYwOUp2bmZCNVk5NklET244RVpIWG5WV3Y0YUVoUm15elpGWE5HaXJHUzYyYXBNUXFZWk5fVmlWV3kzWGpmZHFrYjZ6VWpoN3pJOA?oc=5",
+      "source": "thefairnews.co.kr"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "2026",
+        "별별화성"
+      ],
+      "date": "2026-10-02",
+      "title": "화성특례시, ‘2026 별별화성 Awards’ AI 공모전 개최…수상작 ‘MARS 2026’ 엑스포에서 전시",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE01YVNJVTFJTFM5eTlaVVhDdS0yOC1zTjhUVkdDUXp1cldKb3dmWHlPQlN6SS1MZkhPdTRVNW1sUm5fanJEakQ3SDgtdnBvSXdFMFlhYUpNZ3o0VjdkLWswMFdENU1BV0xjblhpczNOUXRCbXUydFE?oc=5",
+      "source": "대한경제"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "정조의",
+        "효심",
+        "깃든"
+      ],
+      "conf": "low",
+      "date": "2026-10-02",
+      "title": "정조의 효심 깃든 용주사…화성서 만나는 '가을 역사' 산책",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQb0lPMmF6c2ZUWnIzQmZXUnk0Qk56WkVXb25NVHhQVXlPZzcybjVUeUJQWnRQNjJXem1QaVdUaFNid3BLNFdyUWtIQ1RMWm9LZXB4YW41dDkxeEpKYzQ4RkJ4S2xMTFNNX0ZYT1Y2Ni1mRFZiOGpPSlFjYTZ0NU04d0tR?oc=5",
+      "source": "아시아경제"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "정명근",
+        "화성시장",
+        "AI"
+      ],
+      "date": "2026-10-02",
+      "title": "정명근 화성시장, AI 공모전 사전접수 243명...별별화성 Awards 본접수 돌입",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5TVG40ZkpqbHIzOV90OFlkWWtuUXhMVTlVUFhTZWprVVU2Z0o5TGNpbHNOMkl0cnhiVkZUdTRHbV9oclA2dGRuTlg4LXRMTlVrcmxoYTlBN1DSAVhBVV95cUxOU1RuNGZKamxyMzlfdDhZZFlrblF4TFU5VVBYU2Vqa1VVNmdKOUxjaWxzTjJJdHJ4YlZGVHU0R21faHJQNnRkbk5YOC10TE5Va3JsaGE5QTdQ?oc=5",
+      "source": "아주경제"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "궁평오솔로캠핑장",
+        "임시개장"
+      ],
+      "date": "2026-10-03",
+      "title": "화성시, 궁평오솔로캠핑장 임시개장…10월 한 달 무료 운영",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1CLXh0dFZIZjJYNkNkWU9hZU1lbDhub3dKcXVCdWVtb2xFQkdIRkFoOWpvaU80clFYQjhlZXNPZmktSGNHZU1qbjBMeGhYT2hDY2ZUeWJqZi1RZWtPS2VscQ?oc=5",
+      "source": "아시아경제"
+    },
+    {
+      "cat": "복지",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "한림대동탄성심병원",
+        "취약계층",
+        "90가정에"
+      ],
+      "date": "2026-10-03",
+      "title": "[한림대동탄성심병원] 취약계층 90가정에 추석 나눔",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ERGI5bUlFOXpieWxKZEZVUDJXMDRnbHZrTVVYNlZBQ1lqMkxabjVwNGpJY1VVWHAwX0VGdHhWS2s5SnRYeWw4NnUybC1ENU1fU1VabGliNjB0OVBjNVFnVDdVdlFGaTdEZ0E?oc=5",
+      "source": "병원신문"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "동탄",
+        "4억",
+        "18"
+      ],
+      "conf": "low",
+      "date": "2026-10-03",
+      "title": "동탄 3.4억→18.6억, 판교 3.9억→20.9억…2기 신도시 집값 5배",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNLXdvcUY1R0s3MkZUSThmR2pwdUFsRFFOaGRSWlhta0hSMC1UdXl2ODUzd0JhdzFwU2Y4QmkxZkhueTBEaURPbmI3bER6d1VYd1dFVFJ0YVNSeFh6MWtWYjNNMzFZUzdHZDMtQ1BpSnVUdXRNU0VzMXllZEcxaksxd0hzakdoX21XVnJaQkJlX2JzY0ZVM2tDMVo0ZnFFQ182NXFONGh4V0RaaktwczR3TUpBMDlhNVg4WFlyTEx5czNvYWs?oc=5",
+      "source": "데일리안"
+    },
+    {
+      "cat": "교통",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "GTX",
+        "수혜",
+        "병점역"
+      ],
+      "date": "2026-10-03",
+      "title": "GTX-C 수혜! 병점역 생활권 ‘오산헤리티지자이’ 아파트 선착순 동·호 지정 계약 진행",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAyQUhGcGktMGFTcXNkMUNvaG54RVBWdk1QSGM5LUpyY2wzeDVnN2ZDWl85VUp6NDJLeVpNVV9hSWkyb3FCSDdUVExqSkViaXU4Zm9HbmtUSjltWGY5SWI2NUdMZ2RmcU9tZ1BuVg?oc=5",
+      "source": "경상일보"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "한국농수산식품유통공사",
+        "서울주택도시개발공사",
+        "화성시"
+      ],
+      "date": "2026-10-03",
+      "title": "한국농수산식품유통공사·서울주택도시개발공사·화성시 등 채용 소식 발표",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5nVkNZOFg4eDF1eTVrMEpSZjYtSDFld2tqbkZIdU1mZmlmcmdBNy01RUo1YVlLcDRjMXJVTHVYTjN2ZHBOM0dPVUYzVXdjTzNlYVR6NmpnbUFlWWVIT1NpWTZ5Mm1xM2tqWWZV?oc=5",
+      "source": "미디어데일"
+    },
+    {
+      "cat": "교통",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "동탄",
+        "병점서",
+        "판교"
+      ],
+      "date": "2026-10-03",
+      "title": "동탄·병점서 판교 간다… ‘편하G버스’ 2개 노선 8일 개통",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1aUjl1VFJPYlZUMUNnSWJ2cWFaN3NKLUxteHR1T2NfM1FaejE4WnpXTkpic1g3Q2g4a0RVS1VZeGdpamY1bUZkdnI1Mmw4YzN1QkpvZlZGd3FfYXdndEJLWTQ1YkdmaEFxS3oyY1VhcXDSAXRBVV95cUxOT0Z1QnVsdkQ0UDV6RXBEMEliWkx2MkViZm1CUmFwSUJieWtjc3VFdkU3N19sX2lNTm1MSGZnc2V5aFlFeDZZQWpSSGlMN2thQml1bWUwZ1FqU1UzaDV1MGZVRzd5aFQ2SW1ZVnZROFpXWTVJXw?oc=5",
+      "source": "뉴스클레임"
+    },
+    {
+      "cat": "교통",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "권칠승",
+        "국토부",
+        "장관"
+      ],
+      "date": "2026-10-03",
+      "title": "권칠승, 국토부 장관 만나 경기남부 교통망 확충 건의…“GTX-C 병점 조기 연장 필요”",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1DamRXYjJXOW9mQnlMMTMzajBhck1PN2E1RVpyVjJMYlVteVA3X1dUVGpYMmw0dWxQelpITTA5THpYUjNGV3RlY3Z3aDNrZm1sYU5wck1veHVfSkVWSFF1TU5tMm5jODAwV2ZObkRLdG13OUk0?oc=5",
+      "source": "세계뉴스통신"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성",
+        "선셋",
+        "콘서트"
+      ],
+      "conf": "low",
+      "date": "2026-10-03",
+      "title": "화성 선셋 콘서트 3일 개최…불꽃쇼는 오후 8시",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE93QU9XR2J0X0ZadlZzWTBKME0zQXVScnNBS203T3J1My15ZWxqaE4zNE1Lc0VEem5IU3hiM0k0cTRFUDhNeXprM2ZER0s3NEpMY1R5dmtabUJ6dzF2em94dXUtX05fUQ?oc=5",
+      "source": "비건뉴스"
     }
   ],
   "dropped": {
-    "count": 145,
+    "count": 127,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
-      "남양유업 백미당, 경기권 출점 속도…10월 일산∙화정∙동탄 3곳 문 연다",
-      "남양유업 백미당, 일산·화정·동탄 잇따라 출점",
-      "남양유업 백미당, 일산∙화정∙동탄 출점…경기권 매장 확대",
+      "“서울보다 더 뜨겁다”…수원 팔달·영통, 용인 수지까지 ‘핵심지 행진’",
+      "[부동산캘린더] 내주 부산 '서면 지원 더뷰 드림' 아파트 등 185가구 분양",
+      "남양유업 백미당, ‘경기 주요 상권’ 공략 가속",
+      "\"바다 위에 뜬 섬이 걸어서 닿는 육지가 됐다니\"... 1억 년 전 공룡 둥지가 12곳이나 나온 갈대 평원",
+      "[10월 둘째주 분양] 분양시장 ‘숨고르기’… 서울·부산서 185가구 청약",
+      "고양대곡지식융합·의왕오전왕곡 지구계획 착수…2029년 착공",
+      "고용노동부 천안지청·안전보건공단 충남지역본부·남양유업(주) 천안신공장 안전문화 확산 위한 업무협약 체결",
+      "남양유업 백미당, 경기권 출점 가속화…10월 일산·화정·동탄 3곳 개점",
       "\"첨단산업 혈맥 뚫자\"…경기남부 5조 광역철도 추진",
+      "남양유업 백미당, 경기권 신규 매장 3곳 오픈",
       "이상일 용인시장, 경기남부광역철도 4개 도시 공동대응 이끌어…국토부 공동건의",
-      "용인·성남시, 경기남부광역철도 5차 국가철도망 반영 촉구 공동결의",
-      "남양유업 백미당, 10월 일산·화정·동탄에 신규 매장 3곳 오픈",
-      "경기남부광역철도 국가철도망 반영 촉구…성남·용인 등 4개 시 공동 결의",
-      "남양유업 백미당, 경기권 출점 속도…10월 일산∙화정∙동탄 3곳 연다",
-      "이상일 용인특례시장 \"B/C 1.2 경기남부광역철도, 빠를수록 좋다\"",
-      "[오늘의 식탁] CJ제일제당ㆍ오뚜기ㆍ삼립ㆍCJ프레시웨이ㆍ아워홈ㆍ남양유업ㆍ파리바게뜨ㆍ파스쿠찌ㆍ더본코리아",
-      "남양유업, '불가리스 80g' 소용량 요거트 시장 공략",
-      "KB부동산 \"강남 내리고 서초는 보합…서울 아파트값 상승률 전주와 같아\" |",
-      "이상일 용인시장, 경기남부광역철도 4개 도시 공동대응…반도체·AI 교통망 강조",
-      "남양유업, 80g 요거트 확대",
-      "[오늘의신상]\"한 번 먹기에 딱\"…남양유업 '불가리스 그릭' 80g",
       "성남·용인시장, 시민들과 '경기남부광역철도' 국가철도망 반영 촉구",
-      "그릭요거트 시장 3년 새 223% 성장…남양유업, 80g 라인업 확대",
-      "성남·용인시, '경기남부광역철도' 국가철도망 반영 촉구 결의",
-      "남양유업, ‘불가리스 그릭’ 80g 출시…소용량 요거트 수요 겨냥"
+      "남양유업 백미당, 10월 일산·화정·동탄에 잇달아 매장 오픈",
+      "결핵 관리 체계 구축, 민간·공공협력 강화",
+      "경기남부광역철도 국가철도망 반영 촉구…성남·용인 등 4개 시 공동 결의",
+      "남양유업 '백미당', 10월 일산·화정·동탄 3곳 신규 매장 오픈",
+      "[분양 캘린더] 10월 둘째주 서울·부산 185가구 청약",
+      "수현유치원, '2026 수현 가족 어울림 운동회' 개최",
+      "고용노동부 천안지청, 남양유업과 안전문화 확산 협약…우유 105만 봉에 안전문구",
+      "성남·용인, 경기남부광역철도 국가철도망 반영 공동 건의"
     ]
   },
-  "low_confidence": 6,
+  "low_confidence": 22,
   "briefs": {
     "all": "수집 기간 전체 [[w]]부정기사 380건(7%)[[/w]] 중 안전 분야가 187건으로 절반 가까이 차지하고 있으며, 행정 98건, 산업경제 45건으로 분산되어 있습니다. [[b]]2026-09-16에 22건이 집중[[/b]]되었으므로 해당 날짜의 안전 관련 이슈를 먼저 확인하시기 바랍니다.",
     "7": "최근 7일간 [[w]]부정기사는 37건(9%)[[/w]]으로, 안전 분야 32건이 대부분을 차지합니다. [[b]]9월 23일에만 21건이 모두 안전 분야[[/b]]로 집중되었으므로, 해당일 보도 내용을 우선 검토하실 필요가 있습니다.",
@@ -66874,19 +68072,20 @@
   },
   "briefs_updated": "2026-09-29 09:57",
   "issues": {
-    "updated": "2026-10-02 11:06",
+    "updated": "2026-10-03 09:23",
     "items": [
       {
-        "label": "화성동탄경찰서, 위기 상황 해결한 정신건강전문요원에 감사장 수여",
-        "count": 3,
-        "sources": 3,
+        "label": "화성동탄경찰서 위기 상황 해결한 정신건강전문요원에 감사장",
+        "count": 4,
+        "sources": 4,
         "first": "2026-09-30",
-        "last": "2026-09-30",
+        "last": "2026-10-02",
         "cat": "행정",
         "titles": [
           "화성동탄경찰서, 반복 스토킹 신고자 위기 차단… 정신건강전문요원에 감사장",
           "화성동탄경찰서, 스토킹 반복 허위 신고자 위기 확인 보호조치",
-          "화성동탄경찰서, 위기 상황 해결한 정신건강전문요원에 감사장 수여"
+          "화성동탄경찰서, 위기 상황 해결한 정신건강전문요원에 감사장 수여",
+          "화성동탄경찰서 위기 상황 해결한 정신건강전문요원에 감사장"
         ]
       },
       {
@@ -66992,22 +68191,23 @@
     ]
   },
   "today": {
-    "updated": "2026-10-02 11:06",
+    "updated": "2026-10-03 09:23",
     "items": [
       {
-        "label": "화성동탄경찰서, 위기 상황 해결한 정신건강전문요원에 감사장 수여",
-        "count": 3,
-        "sources": 3,
+        "label": "화성동탄경찰서 위기 상황 해결한 정신건강전문요원에 감사장",
+        "count": 4,
+        "sources": 4,
         "first": "2026-09-30",
-        "last": "2026-09-30",
+        "last": "2026-10-02",
         "cat": "행정",
         "titles": [
           "화성동탄경찰서, 반복 스토킹 신고자 위기 차단… 정신건강전문요원에 감사장",
           "화성동탄경찰서, 스토킹 반복 허위 신고자 위기 확인 보호조치",
-          "화성동탄경찰서, 위기 상황 해결한 정신건강전문요원에 감사장 수여"
+          "화성동탄경찰서, 위기 상황 해결한 정신건강전문요원에 감사장 수여",
+          "화성동탄경찰서 위기 상황 해결한 정신건강전문요원에 감사장"
         ],
-        "score": 76,
-        "state": "진행 중"
+        "score": 83,
+        "state": "확산 중"
       },
       {
         "label": "화성 식품포장지 화재...1명 중상",
@@ -67019,7 +68219,7 @@
         "titles": [
           "화성 식품포장지 화재...1명 중상"
         ],
-        "score": 60,
+        "score": 53,
         "state": "신규"
       },
       {
@@ -67032,7 +68232,7 @@
         "titles": [
           "경기도 화성시 효행구 정남면 10월 2일 09:08경 효행구 정남면 용수리 16-9에서 교통사고로 인하여 도로 전면통제 중"
         ],
-        "score": 60,
+        "score": 53,
         "state": "신규"
       }
     ],
@@ -67040,11 +68240,11 @@
   },
   "ops": {
     "runs": 99,
-    "days": 33,
+    "days": 34,
     "since": "2026-08-31",
-    "last": "2026-10-02",
+    "last": "2026-10-03",
     "failures": 1,
-    "span": 33,
+    "span": 34,
     "skipped": 0
   },
   "quality": {
