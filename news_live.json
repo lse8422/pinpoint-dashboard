@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-04 08:44",
+  "updated": "2026-10-04 11:30",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 4885,
+  "count": 4897,
   "items": [
     {
       "date": "2026-08-02",
@@ -68533,35 +68533,204 @@
       "title": "화성특례시,‘시민의 행복을 만드는 민원해결 혁신’성과 발표",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5CMGZDUnEtc25JWXFDZ0M0MmVQVFVJTzR1akJFekE0TU8tMTRmeDk0Q1hlMEpQTUR5VWl2NjhTRzJCaV9XNFNqbkc4UlZJUlQxUk1KS21RSjdEUkcxS0dIOFZiY0duZw?oc=5",
       "source": "화성저널"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "패트롤",
+        "화성시",
+        "화성시의회"
+      ],
+      "date": "2026-10-04",
+      "title": "[패트롤] 화성시-화성시의회",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1weVhxRWJNbThDdHZ3MWtabmxFWGtiRlFGbG5jall5YlhBNmdDNEJWV1k2Rjk2d2VCZThRV0tFb3kyOFAxR2dJcHV2azlYVVlnSkQ0SEZaMGJlMm8?oc=5",
+      "source": "에너지경제신문"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "시민의",
+        "행복을"
+      ],
+      "date": "2026-10-04",
+      "title": "화성시, ‘시민의 행복을 만드는 민원해결 혁신’ 성과 두각",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE54WU10aTg2T2hya05FN0Q0Wlp4VW1ETlN1bWItUUJCYXY2ZTI2N1RKSkhEYWphM3NGQXJqc1JDZ19iQjh2bmdJa1hJMUd0Y1FaNi1tTV9hY3ZUZThHRlpCYVByOA?oc=5",
+      "source": "에너지경제신문"
+    },
+    {
+      "cat": "환경",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "동탄2",
+        "수질복원센터서"
+      ],
+      "date": "2026-10-04",
+      "title": "화성시, 동탄2 수질복원센터서 시장배 파크골프대회 개최",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBCOHNRcjM0YTB6Z3kzTkVwX0RJQ3J5eFN4WDB5djBDZURRUTRfYV9ZOVAtZGFNNHl5M2xYUUtiNy1Uem9QXzRNOHJtMHFxN2xUUDhUUGJUMXBsMzZXYWcxX0xn?oc=5",
+      "source": "경인미래신문"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시의회",
+        "의장",
+        "효행상"
+      ],
+      "date": "2026-10-04",
+      "title": "화성시의회 의장, 효행상 수상 축하…\"고맙다\" 전해보길",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Ob3pSSzNBa3VkdXVzRTBHTkctXzZFLW11MDB2TURlVlRtbmdnZUhmdUlsRVlnbVNWTUMzNlNRWDZqRnRwX2JFZWtBT3BGeVUyT0ZkQTZUOS1ycXh4X19CZWxhX2drTTl5R0dWVDlsLXJOaUV0OU92YtIBeEFVX3lxTE5Ob3pSSzNBa3VkdXVzRTBHTkctXzZFLW11MDB2TURlVlRtbmdnZUhmdUlsRVlnbVNWTUMzNlNRWDZqRnRwX2JFZWtBT3BGeVUyT0ZkQTZUOS1ycXh4X19CZWxhX2drTTl5R0dWVDlsLXJOaUV0OU92Yg?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "슬렙트",
+        "롯데백화점",
+        "동탄점"
+      ],
+      "conf": "low",
+      "date": "2026-10-04",
+      "title": "슬렙트, 롯데백화점 동탄점 팝업스토어 오픈… 신제품 ‘단테 가죽프레임’ 선봬",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1SV0t1N0VITDlrTnhwTF8xaTh1Q3BVMnJYMEg3T1NsMWROTkN0NXdlZnpKSmoxRXFzYTZOUURaSkxtdGNBOGpzOEpHWGRjREloZllVYmhudmhua3J4WS03Wkx1c2R6QmZBY0QxbA?oc=5",
+      "source": "파이낸스투데이"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "이계철",
+        "화성특례시의회",
+        "의장"
+      ],
+      "date": "2026-10-04",
+      "title": "이계철 화성특례시의회 의장 “효는 거창하지 않아…작은 행동에서 시작”",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE00VFJuZmdSYTlqZUdObkg4UXpWejl6Zk5ZcldQdWVMQWVRVWdLZzVaS2hKWVdrYVQyS0xVYVZrZFN3OV8taEJCWWR0eVl1WVdNajg4M3hGYW5RczBibGJaeU5VWTBtWWtWeTZsa0J1NA?oc=5",
+      "source": "서프라이즈뉴스"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "민원",
+        "혁신"
+      ],
+      "date": "2026-10-04",
+      "title": "화성시, '민원 혁신 사례보고회'서 성과 발표…김정환 팀장 대통령상 수상",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5nd2k5TVl0SFJnWkNUV0lNZkVnTGN4aklNbjBmd081XzNQU2VUcTY3VjFtNjVBZHJwVGZaMEVObzBDbEgxVnFmUlAtMTNXNUNOSWFpNjdhUUlDN1JDOUZrYWJ3?oc=5",
+      "source": "경인미래신문"
+    },
+    {
+      "cat": "환경",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "악취",
+        "민원",
+        "해결"
+      ],
+      "date": "2026-10-04",
+      "title": "\"악취 민원 해결\"…화성시 김정환 팀장, '대통령상' 수상",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBCSXZ4NEhuSzRDczhQTm9QRDQ5ZE9lN1RudnZBS19lNTF5ZVU3Z3VzTGk3b01nOS1VWVdLT3liOHVIS2thV3NtWHdEaTNaYkFlUXpXVUE4d196Z1BCS2Vja9IBeEFVX3lxTE4yN2ZsNHhsWGdBUG1Oa3hFSXNobDlJc1QydTFCZG9GbHVZUFRRN2hFa3V0RzZkS3lNbGFSNmNHVGJDN092NWlLX2t1cC1KclJFd1Y2NEgtbjFrVDAwN3hlVzNXTXYxZGtBbHNmWGRwa1puWFIzVDZzZg?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "정명근",
+        "화성시장",
+        "바둑"
+      ],
+      "date": "2026-10-04",
+      "title": "정명근 화성시장, 바둑·파크골프로 세대 잇는다...생활체육 참여와 지역 공동체 교류 확대",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5kR2RpeHJheE4wN2JCTjFMU3NHQW9waDdsaTROYlo0ZnVIOTVBOW1jV0tKa09sbjZqaFhWYVZvLW5JV21Ud29vNjN5dzFCZlJoTmJ0RnJULWx2Z9IBWEFVX3lxTFAzSE8yeDVhWWVmaEFSNGwxaVBJb1RNQkxEd09oWnJXVU52Y1NFQzlJWWNyd3JMZ0Z5RUVwQXZRRzlDUjRaYVdKd3F5cFBIS21uVEUzeWU4WU8?oc=5",
+      "source": "아주경제"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "지방의회",
+        "24",
+        "화성특례시의회"
+      ],
+      "date": "2026-10-04",
+      "title": "[지방의회 24時] 화성특례시의회, '2026 정조효문화제' 개막 참석…\"생활 속 돌봄·문화환경 꼼꼼히 챙길 것\"",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9SdTFuczhhY19fczJYUER6YnExS3dTNU1wV3RXTGdpamJ3Wm90bnRaUFRFVWFWZDBpR2pKUHYzdXNoc0Qwd3gtWFBKVDBXU0dXMjVfREVYQnhQZ3ZiMGM3OTludDdKRkphNmxSLVU1TF95QQ?oc=5",
+      "source": "중앙이코노미뉴스"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "정명근",
+        "시장",
+        "바둑으로"
+      ],
+      "date": "2026-10-04",
+      "title": "정명근 시장 “바둑으로 세대가 소통하고 가족이 함께 추억 만들길”",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB5Rkl5VzdUbklKQ2ZTY1Noazl1LWVMUHRvSnAtVVBubHZUZm1kWlY0S1ZnT2lfVG1Temd5ZFU2VjVXWWRMSm15M1BIbHFaU2ZPVHRVN3k5ZkFOWWJuc2pCVmozVXJrX0dlekt3NUZn?oc=5",
+      "source": "투어코리아"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "정명근",
+        "화성시장",
+        "민원은"
+      ],
+      "date": "2026-10-04",
+      "title": "정명근 화성시장, \"민원은 부담이 아니라 행정을 바꾸는 기회\"…시민 체감형 민원해결 행정 속도",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBjWW42MmFjNVZVSHY2aVdvRUJrTmU4dHplWmM2TEhiZGFUeU5kb09rNTVTV1d0MWYyRDU5VHdOTVo1LVBjQndfX214NUVIeERrY3d0TjE5Z2RTZnFBTGJxUmpKbmhQc3hDZFVTTWlB?oc=5",
+      "source": "투어코리아"
     }
   ],
   "dropped": {
-    "count": 99,
+    "count": 87,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
-      "화성서 바둑으로 세대 잇다… ‘정조대왕 효 전국바둑축제’ 950명 참여",
-      "고양대곡지식융합·의왕오전왕곡 지구계획 착수…2029년 착공",
+      "수현유치원, '2026 수현 가족 어울림 운동회' 개최",
       "포토뉴스",
+      "화성특례시, '2026 정조대왕 효 전국 바둑축제' 성황리 개최",
       "LH, 의왕 오전·왕곡 지구계획 수립 착수…\"2029년 첫 삽\"",
       "남양유업 백미당, ‘경기 주요 상권’ 공략 가속",
+      "화성서 바둑으로 세대 잇다… ‘정조대왕 효 전국바둑축제’ 950명 참여",
       "[부동산캘린더] 내주 부산 '서면 지원 더뷰 드림' 아파트 등 185가구 분양",
-      "수현유치원, '2026 수현 가족 어울림 운동회' 개최",
       "남양유업 백미당, 경기권 신규 매장 3곳 오픈",
-      "고양대곡·의왕오전왕곡 2.3만가구 지구지정…LH \"2029년 착공\"",
-      "남양유업 ‘백미당’, 경기권 핵심 상권에 매장 3곳 연속 개점",
-      "화성특례시, 바둑으로 잇는 ‘효’ 와 ‘소통’... ‘2026 정조대왕 효 전국 바둑축제’ 성황리 개최",
-      "분양시장 '숨고르기'…내주 전국 청약 접수 2곳 뿐",
       "기능 이름을 몰라도 찾아볼 수 있는 더홀릭보드게임카페",
-      "고용노동부 천안지청·안전보건공단 충남지역본부·남양유업(주) 천안신공장 안전문화 확산 위한 업무협약 체결",
-      "\"바다 위에 뜬 섬이 걸어서 닿는 육지가 됐다니\"... 1억 년 전 공룡 둥지가 12곳이나 나온 갈대 평원",
+      "분양시장 '숨고르기'…내주 전국 청약 접수 2곳 뿐",
+      "남양유업 ‘백미당’, 경기권 핵심 상권에 매장 3곳 연속 개점",
       "[부동산캘린더] 추석 여파에 쉬어가는 분양시장…전국 185가구 청약",
-      "LH \"고양대곡·의왕오전왕곡 조성 속도…2029년 착공 목표\"",
-      "남양유업 백미당, 일산·화정·동탄 잇따라 출점",
-      "\"걷다 지치면 차로 옮겨 타도 되는 길이라고요?\"… 데크와 경관도로가 이어진 임시 개통 해안길",
-      "“서울보다 더 뜨겁다”…수원 팔달·영통, 용인 수지까지 ‘핵심지 행진’"
+      "고용노동부 천안지청·안전보건공단 충남지역본부·남양유업(주) 천안신공장 안전문화 확산 위한 업무협약 체결",
+      "재난문자",
+      "“서울보다 더 뜨겁다”…수원 팔달·영통, 용인 수지까지 ‘핵심지 행진’",
+      "[10월 둘째주 분양] 분양시장 ‘숨고르기’… 서울·부산서 185가구 청약",
+      "남양유업 백미당, 10월 일산·화정·동탄에 잇달아 매장 오픈",
+      "\"바다 위에 뜬 섬이 걸어서 닿는 육지가 됐다니\"... 1억 년 전 공룡 둥지가 12곳이나 나온 갈대 평원",
+      "남양유업 백미당, 경기권 출점 가속화…10월 일산·화정·동탄 3곳 개점",
+      "결핵 관리 체계 구축, 민간·공공협력 강화"
     ]
   },
-  "low_confidence": 7,
+  "low_confidence": 1,
   "briefs": {
     "all": "수집 기간 전체 [[w]]부정기사 380건(7%)[[/w]] 중 안전 분야가 187건으로 절반 가까이 차지하고 있으며, 행정 98건, 산업경제 45건으로 분산되어 있습니다. [[b]]2026-09-16에 22건이 집중[[/b]]되었으므로 해당 날짜의 안전 관련 이슈를 먼저 확인하시기 바랍니다.",
     "7": "최근 7일간 [[w]]부정기사는 37건(9%)[[/w]]으로, 안전 분야 32건이 대부분을 차지합니다. [[b]]9월 23일에만 21건이 모두 안전 분야[[/b]]로 집중되었으므로, 해당일 보도 내용을 우선 검토하실 필요가 있습니다.",
@@ -68569,7 +68738,7 @@
   },
   "briefs_updated": "2026-09-29 09:57",
   "issues": {
-    "updated": "2026-10-04 08:44",
+    "updated": "2026-10-04 11:30",
     "items": [
       {
         "label": "화성동탄경찰서 위기 상황 해결한 정신건강전문요원에 감사장",
@@ -68688,7 +68857,7 @@
     ]
   },
   "today": {
-    "updated": "2026-10-04 08:44",
+    "updated": "2026-10-04 11:30",
     "items": [
       {
         "label": "화성동탄경찰서 위기 상황 해결한 정신건강전문요원에 감사장",
