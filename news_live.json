@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-04 11:30",
+  "updated": "2026-10-05 08:55",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 4897,
+  "count": 4919,
   "items": [
     {
       "date": "2026-08-02",
@@ -68399,6 +68399,49 @@
       "senti": "중립",
       "summary": "",
       "kw": [
+        "커리어넷",
+        "한국농수산식품유통공사",
+        "서울주택도시개발공사"
+      ],
+      "date": "2026-10-03",
+      "title": "커리어넷, 한국농수산식품유통공사·서울주택도시개발공사·화성시·인천공항시설관리·농림식품기술기획평가원·스포츠윤리센터 채용 소식 발표",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5RVzQzTjl1d3lHMzNFT0o5aDZhZXdQaXpEWG1Lbk85TDZjSFMxQjdrVjhURTBLLTVKT0JXdjFmbVBIZVBNQ3JmQ1IyOWhBVE5vbEJaX3N3?oc=5",
+      "source": "머스트 뉴스"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "월드옥타",
+        "대표자대회",
+        "수출상담회"
+      ],
+      "date": "2026-10-03",
+      "title": "월드옥타 대표자대회·수출상담회 경기도 화성에서 개막",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNRkdCUUVQdmZ6UVMtRWxkZ3BzR25KSUFSc08yLWNGdjZJWE12SDVCQ0tMNDRNV2d2TVY4Y004UEE4SDdxZXBFSXhyTzlrTFlCbHhfa3lQREtleTFlRDAyMEIxMGxOZ2xNcUt2alVHak93dVhlTUdsX05Iak9haEkxdDZyZjVSQ2p1UnBmbmJ4ZVp2SDRtQV9zY0pPVTNfcTI3d2Y5eHRIOXNldjJ3SzVjdnlBdmlXVTBkRHhOTTZKb2xyU0JSZEV2LVhwNDJ4QTRxN2NFSE12dFdraWVXSXc?oc=5",
+      "source": "chosundaily.com"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "바다의",
+        "평안과"
+      ],
+      "conf": "low",
+      "date": "2026-10-03",
+      "title": "화성시, 바다의 평안과 만선 기원 ‘제13회 궁평항 풍어제’ 성대히 개최",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5HTUlfVi1nbHh3bDdVcEltaGpvT1liX3pFbEdXVmY4SEZ4OXZic1lEcGF6WTlMT3Q5TG1SWUgxOUJNRHRfM29vNVlRUURmM3VWR3pZNmJMS0dqMXRzODlwMnZRd04?oc=5",
+      "source": "경기핫타임뉴스"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
         "이계철",
         "화성시의장",
         "효는"
@@ -68702,35 +68745,303 @@
       "title": "정명근 화성시장, \"민원은 부담이 아니라 행정을 바꾸는 기회\"…시민 체감형 민원해결 행정 속도",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBjWW42MmFjNVZVSHY2aVdvRUJrTmU4dHplWmM2TEhiZGFUeU5kb09rNTVTV1d0MWYyRDU5VHdOTVo1LVBjQndfX214NUVIeERrY3d0TjE5Z2RTZnFBTGJxUmpKbmhQc3hDZFVTTWlB?oc=5",
       "source": "투어코리아"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "병점구보건소",
+        "자동심장충격기"
+      ],
+      "date": "2026-10-04",
+      "title": "화성특례시 병점구보건소, 자동심장충격기 집중점검으로 골든타임 확보 > 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9mMDdLNTZhdWsybmtQWVpOSS1mejVuSk1GckxzTDRzVHlwdVhibmdnUG1QYVN6S19mTDhkb0lsZGtMSTRaWG5tY3FTSXBPOHc1TlBRb1JJSDlRNWtuNFhtVk55a1BOVkthYk9QUFBEaWs?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "동탄5동",
+        "선납숲공원에서"
+      ],
+      "date": "2026-10-04",
+      "title": "화성특례시 동탄5동, 선납숲공원에서 만나는 가을 밤 작은 음악회 개최 > 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9maE54SzNBMERnQmkwSm13Q1BIbkhSMjA3UzFhNUVmZ0MtQmg3VXJGMTc0ZUthVngzZEF3N01xMVA0azBiLTE3T3ZpcWtjN1cwamQyZHFHSEVra2lHVEFiOF9WdGMxZEY3dHZ4WEJ4R1g?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "동탄5동",
+        "주민자치회",
+        "공원에서"
+      ],
+      "date": "2026-10-04",
+      "title": "동탄5동 주민자치회, 공원에서 만나는 작은음악회 개최",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1jb0xFUUZIZGNLTXlrQjNheXNLR3I2LVAxZ1JCX2R2TTQxWVRhaHRaMC1SeVltcnFfMmo0MXpjYlB0NFhlLVg4NGh1QWhJenQ5MTlCazNNUEdYT0NySmdPa2tOMkdGRUNo?oc=5",
+      "source": "중앙신문"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "병점구보건소",
+        "심정지"
+      ],
+      "date": "2026-10-04",
+      "title": "화성특례시 병점구보건소, 심정지 '골든타임' 지킨다… 자동심장충격기 166대 집중점검",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5TcVRMZEstMUFKMDZWanFKSmhGNHlKdVc3NmR0Tlc3Wmc1Tld2a1Nwakc5TmRrU2pOOFgxVDA4ajhoUVVxN1U3TDdpOUk5cWdaSEsyeE9QenZ0X0t2R28xNDRJa3pCdEdsa253?oc=5",
+      "source": "경기타임스 e"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "이계철",
+        "화성시의장",
+        "시민"
+      ],
+      "date": "2026-10-04",
+      "title": "이계철 화성시의장 “시민 목소리, 조례·예산으로 답하겠다”",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBSNEpETFVpZV92bTBlN0Q1QWZ0dW5tOHZSN0FwbkJIY0JTeWRqdVBvcWU0YkNITnBLQW9QNTR1Q1lYUmNZZmVReGY2ckxwM1lmMzh6OFZrOWxQQUhtS1ZtY0p2cVFPU2MyUzZ2cWRxMVdQVmRq?oc=5",
+      "source": "아시아경제"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "시민의",
+        "행복을"
+      ],
+      "date": "2026-10-04",
+      "title": "화성시, ‘시민의 행복을 만드는 민원해결 혁신’ 성과 발표",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1yU1dBM1haLXBkOS0wS2JHR05YX1plRmJTNFh4SEl0b0xMZzZrdE5WLUpBNVc3VUpfUXdHcERreHlXUHY2UHF0cTFPU2hlNEVmcHFZeXdoNXpoVWZ5eXduRmN6RmVIdWtB?oc=5",
+      "source": "중앙신문"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "표결",
+        "끝났는데",
+        "의사봉"
+      ],
+      "conf": "low",
+      "date": "2026-10-04",
+      "title": "\"표결 끝났는데 의사봉 안 쳤다\"...파행 겪은 화성시인재육성재단 이사회",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9UUlpKd3pJcU1nSml4ZnBPbEhVMjFEWUxBX18tZkRKSUtrZWNSTVNTTTFROGRwRF81bFZELWR5b09jQVQ0R0N2ZEVfTktXM2hjR2FRVTFBamRSN0U0SkJlTVJqeFo?oc=5",
+      "source": "경기신문"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "동탄구",
+        "동탄5동"
+      ],
+      "date": "2026-10-04",
+      "title": "화성특례시 동탄구 동탄5동, 호숫가 데크에 울린 가을 선율… '선납숲공원 작은음악회'",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE50RVc2eXZCaW9RUjdxczhTZDFLcGhPVnMxS0tqNW5DaGhJTEw3NUlnVDh4M1IwbmFkTnFPUlVTNHp2UGJpeVpsQl9zcjJQTzh2OHVESFlxamVDRzJXY0Q3MWtuX3FWb0dfUVh3?oc=5",
+      "source": "경기타임스 e"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "초보자가",
+        "알아둘",
+        "고마워"
+      ],
+      "conf": "low",
+      "date": "2026-10-04",
+      "title": "초보자가 알아둘 고마워 토토 동탄 진행 중 잠금 표시",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBTbTdNc19IaEtabzk2OVpsU2VFVUh1ajFPRHJZbWJ6SGQzLVZqa2lFaV93QTJHeTY5aUJMc3EtQ2VKNjZUdFkzTzlPcDMwWUdsakozZlVRVGdDM1ZpWmplMWNldVN6SmM?oc=5",
+      "source": "Calgary Roughnecks"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성특례시의회",
+        "2026",
+        "정조효문화제"
+      ],
+      "date": "2026-10-04",
+      "title": "화성특례시의회, ‘2026 정조효문화제’ 개막 함께…효행상 수상자 축하",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBjVU53b1VkZ0VUOEVNZkNpcml4YVlxSVRHb0FyYmY5WTBaYjhRMThtalpLQkRIU1VZQlE2Sng4US0zWkNYQms3S3hzRUlHeHVOVEttbTh5dWpMTVhJYndwb2xETGlDNjZaYWVrWkhEcmtOS09Y0gF0QVVfeXFMUGNVTndvVWRnRVQ4RU1mQ2lyaXhhWXFJVEdvQXJiZjlZMFpiOFExOG1qWktCREhTVVlCUTZKeDhRLTNaQ1hCazdLeHNFSUd4dU5US21tOHl1akxNWElid3BvbERMaUM2NlphZWtaSERya05LT1g?oc=5",
+      "source": "이뉴스투데이"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "2026",
+        "시장배"
+      ],
+      "date": "2026-10-04",
+      "title": "화성특례시, 2026 시장배 파크골프대회 개최로 생활체육 활성화 도모 > 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9CdjVIM0hVQWNYQUdMQTFLay1taFFiY0FTTjNtcmMyQ3R3blNCYU85SFNDYU1aeGJoRWFOQ1Jlb1JuSEk4TEY2WVdWTnRXdEJLenlxTWVuaDQ3LVo2QmdsdFJHX0JnQkR4LTh2bURVdm0?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "동호인",
+        "300명"
+      ],
+      "date": "2026-10-04",
+      "title": "화성특례시, 동호인 300명 '그린 위 18홀 승부'… 시장배 파크골프대회",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBnaTBpd1R0RDFwenFHTWkzeTBFS3NkZmtKQUhfTmZCLXVtamd2dDlNUzVLS0lIX1BGQ3c5TnktUVY1eWp1OUl6c09Wd1djUmNZeW1xcndJZHl0MDZNeks5OWs3NHQ2eGFtZVQw?oc=5",
+      "source": "경기타임스 e"
+    },
+    {
+      "cat": "환경",
+      "senti": "부정",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "하천",
+        "악취"
+      ],
+      "date": "2026-10-04",
+      "title": "화성특례시, '하천 악취' 민관 협업으로 풀었다… 김정환 팀장 대통령상",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA3RmdacUtDSUlxMUNsWHlpaWRCeHQ0aF9GYTIyc2IzNTZPTmxQaWhxYWlkWl9jenZENVdLRFJlSk1DYnpObTk3SXp4MWdHUXo3LWpSUF8tbTJSTlEwNlZoR3M4NUlCaDFCQmlZRQ?oc=5",
+      "source": "경기타임스 e"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "효는",
+        "거창하지",
+        "않아도"
+      ],
+      "date": "2026-10-04",
+      "title": "\"효는 거창하지 않아도 된다\"… 화성특례시의회, 정조효문화제 개막 함께해",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5jeTlPNzgwR2F0dDItSFBybXJrLTI5YTVMVWp0YW9UaktrWjRvVzYweXp2c1YySC1rLTR5cVBkRms0WjFYNzhGbmhodzRXTklyZm1HQWlBNkhXbjVLd3dtSDZpM01UNUhiU1RV?oc=5",
+      "source": "경기타임스 e"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "정명근",
+        "시장",
+        "시민"
+      ],
+      "date": "2026-10-04",
+      "title": "정명근 시장 “시민 누구나 가까운 곳에서 운동하도록”…화성, 생활체육 도시로",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE44cEhWRVJUbV9Cd25zYkI4dlN0Si03TWI2MWhidWlaRHNuNDZld2Z0V2gwRjZUYi1PcVZoYWlXNnRyME5LbUNveUthN3lqUU81bXR5Vkw0N21PRUZQMFAzeC11NklwVzBseDR0TTNn?oc=5",
+      "source": "투어코리아"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "정명근",
+        "화성시장",
+        "백성을"
+      ],
+      "date": "2026-10-05",
+      "title": "정명근 화성시장 “백성을 위한 마음, 시민 위한 행정으로”…정조효문화제 폐막",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9nRVJheUdKV0JKOEhMaUx4R3laYjlPb3Vuc1lFS2dEOFQ0aUhxY3NlUUZ1M3hwR0FEcUhscWJPZk1ZRlhpSGdzTlVsbTNiY1pUQzYwNGdLelh1MFp1U3lXLVMzYUV1T2NJ0gFsQVVfeXFMTWZoYzZEZ290NEVWS0NnSlpObnlIYzAxR19FNU1mQjlzQlZoeUNoVkdndlpLcXEyNWRQTjlGUTMxU1ZsLXNoRldZREZqT3ZkWF9KSGR5Y2J1MThudXJweWZDYU9fb2dGbzAxeFh6?oc=5",
+      "source": "광교신문"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "정명근",
+        "화성시장",
+        "정조의"
+      ],
+      "date": "2026-10-05",
+      "title": "정명근 화성시장 “정조의 소통·혁신 계승”…효문화제 성료",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9FM3dyUVAyaHQ2WllrVmdqSnQyYWo4dFFqRW9wTG5DbTNSRjVXTVhOZ1NVa2tRRGxHUTlBQlhmRWtlcVhpRUs0b01GVmp6b3dnWk5aRTh6bHo5QWhJU0NGWWtkSmtwWUpVSkNwZTRtRTNaX3daZmFFX1NWMA?oc=5",
+      "source": "beyondpost.co.kr"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "정명근",
+        "화성시장",
+        "정조의"
+      ],
+      "date": "2026-10-05",
+      "title": "정명근 화성시장 “정조의 소통·혁신 정신 잇는 축제로 발전시킬 것”",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGNDc1bDRadjdRNnd0djg0UGVfYkpLY0Ewa0RfZHNYdk45eERWM0VJbklabXhVWU01elNGUDdNaTVkd1VvSVVwMVdkRmFQQzNoc3F4ZXNiak82c1d2NmNFTA?oc=5",
+      "source": "아시아경제"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성",
+        "누빈",
+        "로봇"
+      ],
+      "date": "2026-10-05",
+      "title": "화성 누빈 ‘로봇 능행차’…2026 정조효문화제 이색 행렬",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1UTHNqS3lpRGhwNnZwandHM1BTS2x5QzBXZzhLY19sc2tHM0s3eU1Ja19mMkRSalphaTZObDZES0puZzRIc1M1YzJWMTBVcndsWW9jS08wb2JIOUU?oc=5",
+      "source": "경기일보"
     }
   ],
   "dropped": {
-    "count": 87,
+    "count": 66,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
-      "수현유치원, '2026 수현 가족 어울림 운동회' 개최",
-      "포토뉴스",
+      "[금주의 화성시] 화성 동탄여울공원서 '정조대왕 효 전국바둑축제'… 950여 명 대국外",
+      "[이번 주 분양일정] '잠실 에떼르넬 비욘드' 등 185가구 청약 접수",
+      "오목천역 에서의 위험 요소와 예방 전략 (2026년 최신판)",
+      "남양유업, ‘불가리스 그릭’ 80g 4종 출시…소용량 요거트 선택지 확대",
+      "블록체인채굴 잭팟 기능 유무와 적용 조건",
       "화성특례시, '2026 정조대왕 효 전국 바둑축제' 성황리 개최",
+      "[이번주 청약 길잡이] 쉬어가는 분양 시장… 전국 2곳 185가구 청약",
       "LH, 의왕 오전·왕곡 지구계획 수립 착수…\"2029년 첫 삽\"",
-      "남양유업 백미당, ‘경기 주요 상권’ 공략 가속",
-      "화성서 바둑으로 세대 잇다… ‘정조대왕 효 전국바둑축제’ 950명 참여",
-      "[부동산캘린더] 내주 부산 '서면 지원 더뷰 드림' 아파트 등 185가구 분양",
-      "남양유업 백미당, 경기권 신규 매장 3곳 오픈",
-      "기능 이름을 몰라도 찾아볼 수 있는 더홀릭보드게임카페",
+      "플레이 순서를 놓쳤을 때 보는 같이 하면 재밌는 모바일 게임 단계 안내",
+      "화성특례시의회, '2026 정조대왕능행차' 화성구간 행사 참석",
       "분양시장 '숨고르기'…내주 전국 청약 접수 2곳 뿐",
-      "남양유업 ‘백미당’, 경기권 핵심 상권에 매장 3곳 연속 개점",
+      "포토뉴스",
+      "\"걷다 지치면 차로 옮겨 타도 되는 길이라고요?\"… 데크와 경관도로가 이어진 임시 개통 해안길",
       "[부동산캘린더] 추석 여파에 쉬어가는 분양시장…전국 185가구 청약",
-      "고용노동부 천안지청·안전보건공단 충남지역본부·남양유업(주) 천안신공장 안전문화 확산 위한 업무협약 체결",
-      "재난문자",
-      "“서울보다 더 뜨겁다”…수원 팔달·영통, 용인 수지까지 ‘핵심지 행진’",
+      "[이문호 칼럼](245) 반시계방향의 태풍: 제주에는 왜 태풍 바람이 많을까?",
       "[10월 둘째주 분양] 분양시장 ‘숨고르기’… 서울·부산서 185가구 청약",
-      "남양유업 백미당, 10월 일산·화정·동탄에 잇달아 매장 오픈",
-      "\"바다 위에 뜬 섬이 걸어서 닿는 육지가 됐다니\"... 1억 년 전 공룡 둥지가 12곳이나 나온 갈대 평원",
-      "남양유업 백미당, 경기권 출점 가속화…10월 일산·화정·동탄 3곳 개점",
-      "결핵 관리 체계 구축, 민간·공공협력 강화"
+      "[비즈앤피플] 커진 ‘아기 울음소리’… 분유·영유아용품 ‘훈풍’",
+      "[속보] 한국 축구, 일본 1-0 제압…아시안게임 사상 첫 '4연패' 위업",
+      "“서울보다 더 뜨겁다”…수원 팔달·영통, 용인 수지까지 ‘핵심지 행진’",
+      "[기자의 눈] 비대면 진료, 산업 논리 보다 공공성이 먼저다"
     ]
   },
-  "low_confidence": 1,
+  "low_confidence": 3,
   "briefs": {
     "all": "수집 기간 전체 [[w]]부정기사 380건(7%)[[/w]] 중 안전 분야가 187건으로 절반 가까이 차지하고 있으며, 행정 98건, 산업경제 45건으로 분산되어 있습니다. [[b]]2026-09-16에 22건이 집중[[/b]]되었으므로 해당 날짜의 안전 관련 이슈를 먼저 확인하시기 바랍니다.",
     "7": "최근 7일간 [[w]]부정기사는 37건(9%)[[/w]]으로, 안전 분야 32건이 대부분을 차지합니다. [[b]]9월 23일에만 21건이 모두 안전 분야[[/b]]로 집중되었으므로, 해당일 보도 내용을 우선 검토하실 필요가 있습니다.",
@@ -68738,7 +69049,7 @@
   },
   "briefs_updated": "2026-09-29 09:57",
   "issues": {
-    "updated": "2026-10-04 11:30",
+    "updated": "2026-10-05 08:55",
     "items": [
       {
         "label": "화성동탄경찰서 위기 상황 해결한 정신건강전문요원에 감사장",
@@ -68857,7 +69168,7 @@
     ]
   },
   "today": {
-    "updated": "2026-10-04 11:30",
+    "updated": "2026-10-05 08:55",
     "items": [
       {
         "label": "화성동탄경찰서 위기 상황 해결한 정신건강전문요원에 감사장",
@@ -68872,34 +69183,55 @@
           "화성동탄경찰서, 위기 상황 해결한 정신건강전문요원에 감사장 수여",
           "화성동탄경찰서 위기 상황 해결한 정신건강전문요원에 감사장"
         ],
-        "score": 76,
+        "score": 69,
         "state": "진행 중"
       },
       {
-        "label": "화성 식품포장지 화재...1명 중상",
+        "label": "화성특례시, '하천 악취' 민관 협업으로 풀었다… 김정환 팀장 대통령상",
         "count": 1,
         "sources": 1,
-        "first": "2026-10-02",
-        "last": "2026-10-02",
+        "first": "2026-10-04",
+        "last": "2026-10-04",
+        "cat": "환경",
+        "titles": [
+          "화성특례시, '하천 악취' 민관 협업으로 풀었다… 김정환 팀장 대통령상"
+        ],
+        "score": 53,
+        "state": "신규"
+      },
+      {
+        "label": "3명 사상 화성 마사지업소 화재…합동감식서 “전기적 요인 추정”",
+        "count": 22,
+        "sources": 19,
+        "first": "2026-09-23",
+        "last": "2026-09-24",
         "cat": "안전",
         "titles": [
-          "화성 식품포장지 화재...1명 중상"
+          "화성 마사지업소서 불…1명 사망·2명 부상",
+          "화성 상가건물 마사지업소 화재… 1명 사망·1명 심정지",
+          "화성 마사지업소 화재로 50대 여성 근무자 3명 사상(종합2보)",
+          "화성 마사지 업소 화재, 50대 여성 1명 사망·1명 심정지",
+          "화성 마사지 업소서 화재…50대 여성들 1명 사망·1명 심정지",
+          "화성 마사지업소 불나 1명 사망·2명 중경상",
+          "화성 근린생활시설서 불…1명 숨지고 2명 부상",
+          "화성 마사지업소 화재로 3명 사상…큰 불길 잡혀(종합)",
+          "화성 근린생활시설서 화재…1명 사망·1명 심정지",
+          "화성 한 마사지 업소서 불 나 1명 사망, 1명 심정지",
+          "경기 화성시 양감면 마사지업소 화재…1명 숨지고 1명 심정지·1명 경상",
+          "화성 마사지 업소서 화재…1명 사망·1명 심정지 등 3명 사상",
+          "화성 마사지업소 화재로 50대 여성 근무자 3명 사상",
+          "[속보] 화성 마사지업소 화재 발생⋯50대 여성 1명 사망·1명 심정지",
+          "화성 마사지업소 화재로 50대 여성 1명 사망…2명 부상",
+          "화성 마사지업소 화재... 50대 여성 1명 숨지고 2명 부상",
+          "화성 마사지업소 화재, 1명 숨지고 2명 부상",
+          "3명 사상 화성 마사지업소 화재…\"전기적 요인 가능성\"",
+          "'3명 사상' 화성 마사지업소 화재…경찰 \"천장서 전기적 요인 발화 추정\"",
+          "화성 마사지업소 화재, 전기적 요인 가능성…1명 사망",
+          "화성 마사지업소 화재 원인은 ‘전기적 요인’ 추정",
+          "3명 사상 화성 마사지업소 화재…합동감식서 “전기적 요인 추정”"
         ],
-        "score": 46,
-        "state": "진행 중"
-      },
-      {
-        "label": "경기도 화성시 효행구 정남면 10월 2일 09:08경 효행구 정남면 용수리 16-9에서 교통사고로 인하여 도로 전면통제 중",
-        "count": 1,
-        "sources": 1,
-        "first": "2026-10-02",
-        "last": "2026-10-02",
-        "cat": "교통",
-        "titles": [
-          "경기도 화성시 효행구 정남면 10월 2일 09:08경 효행구 정남면 용수리 16-9에서 교통사고로 인하여 도로 전면통제 중"
-        ],
-        "score": 46,
-        "state": "진행 중"
+        "score": 45,
+        "state": "종결"
       }
     ],
     "surge": []
@@ -68907,8 +69239,8 @@
   "ops": {
     "runs": 100,
     "days": 34,
-    "since": "2026-09-01",
-    "last": "2026-10-04",
+    "since": "2026-09-02",
+    "last": "2026-10-05",
     "failures": 1,
     "span": 34,
     "skipped": 0
