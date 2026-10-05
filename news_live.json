@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-05 08:55",
+  "updated": "2026-10-05 10:47",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 4919,
+  "count": 4923,
   "items": [
     {
       "date": "2026-08-02",
@@ -68960,6 +68960,34 @@
     },
     {
       "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "2026",
+        "시장배"
+      ],
+      "date": "2026-10-04",
+      "title": "화성특례시,'2026 시장배 파크골프대회' 개최",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE90UGVUYkk5NFptWURya0lKb1FCVU1ucHdkMlRkZnNaMkNDT0FURlU3dGxJRkMzU182emJTb3Y2NGw1TVJWM2N3X29jX2xvZEsxRUM0eHA4NkR6R1pCNHVqNGdpV2tGUlhVWnVZ0gFrQVVfeXFMT3RQZVRiSTk0Wm1ZRHJrSUpvUUJVTW5wd2QyVGRmc1oyQ0NPQVRGVTd0bElGQzNTXzZ6YlNvdjY0bDVNUlYzY3dfb2NfbG9kSzFFQzR4cDg2RHpHWkI0dWo0Z2lXa0ZSWFVadVk?oc=5",
+      "source": "뉴스잡"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "지자체가",
+        "보인다",
+        "녹빛"
+      ],
+      "date": "2026-10-04",
+      "title": "지자체가 보인다! - 녹빛 필드 위에서 하나 된 화성 '2026 시장배 파크골프대회' 개최",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ndVBiTDllbWtmMEZmS3lvRVg0Z0F2Y1hpSEN2V0pNX3llZXR3MDViN0h1VDIzRmZIcTBIQVpzeWVzWjJuQ3Q5UjhIdkM3S1k?oc=5",
+      "source": "newsro.kr"
+    },
+    {
+      "cat": "행정",
       "senti": "중립",
       "summary": "",
       "kw": [
@@ -69013,35 +69041,64 @@
       "title": "화성 누빈 ‘로봇 능행차’…2026 정조효문화제 이색 행렬",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1UTHNqS3lpRGhwNnZwandHM1BTS2x5QzBXZzhLY19sc2tHM0s3eU1Ja19mMkRSalphaTZObDZES0puZzRIc1M1YzJWMTBVcndsWW9jS08wb2JIOUU?oc=5",
       "source": "경기일보"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "태안초",
+        "AI"
+      ],
+      "conf": "low",
+      "date": "2026-10-05",
+      "title": "화성시 태안초, ‘AI-DREAM Lab’ 개관",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ZU1loTGdBbXNEVHRUYjlWN3VpVUUzQUplZXNlLU15TXR6U3hJNUlFclhVX1ItYkdTSm1tUldYNkJ6MEJGUkdieU83OENyUklCRHVWd1ZqaE5HNURKVmR3NGJ4REZfMENDYnRRd29LOA?oc=5",
+      "source": "인천일보"
+    },
+    {
+      "cat": "복지",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "병점구보건소",
+        "자동심장충격기"
+      ],
+      "date": "2026-10-05",
+      "title": "화성시 병점구보건소, 자동심장충격기 대대적 점검",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5UNDR1dm9mOFN5eDBROG94akQ4SUF2d1hqeHV1NzE5VkVSY2pEdk13dG13NGV3SHluRUt4b2pfMVlGVEwxVWE3bHVrRWJueGFnZlJ0Y05lSHJ1Q3U5Q3p5QUduY2pnNWFWalJ2VGxvMA?oc=5",
+      "source": "인천일보"
     }
   ],
   "dropped": {
-    "count": 66,
+    "count": 62,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
       "[금주의 화성시] 화성 동탄여울공원서 '정조대왕 효 전국바둑축제'… 950여 명 대국外",
+      "서울 민간아파트 분양가 1년 새 34%↑…공사비 오르자 청약 수요도 ‘선점’",
+      "LH, 의왕 오전·왕곡 지구계획 수립 착수…\"2029년 첫 삽\"",
+      "남양유업, ‘불가리스 그릭’ 80g 4종 출시…소용량 요거트 선택지 확대",
+      "화성시, 정조효문화제 및 정조대왕능행차 성황리에 개최 > 뉴스",
+      "정조대왕능행차 선두에 ‘로봇’ 첫 등장… 화성서 전통·미래 잇다",
       "[이번 주 분양일정] '잠실 에떼르넬 비욘드' 등 185가구 청약 접수",
       "오목천역 에서의 위험 요소와 예방 전략 (2026년 최신판)",
-      "남양유업, ‘불가리스 그릭’ 80g 4종 출시…소용량 요거트 선택지 확대",
-      "블록체인채굴 잭팟 기능 유무와 적용 조건",
-      "화성특례시, '2026 정조대왕 효 전국 바둑축제' 성황리 개최",
-      "[이번주 청약 길잡이] 쉬어가는 분양 시장… 전국 2곳 185가구 청약",
-      "LH, 의왕 오전·왕곡 지구계획 수립 착수…\"2029년 첫 삽\"",
       "플레이 순서를 놓쳤을 때 보는 같이 하면 재밌는 모바일 게임 단계 안내",
-      "화성특례시의회, '2026 정조대왕능행차' 화성구간 행사 참석",
-      "분양시장 '숨고르기'…내주 전국 청약 접수 2곳 뿐",
+      "화성특례시, '2026 정조대왕 효 전국 바둑축제' 성황리 개최",
+      "서울 외곽·경기 남부 아파트값 강세…서울 매수심리는 '주춤' - 머니투데이",
+      "[이번주 청약 길잡이] 쉬어가는 분양 시장… 전국 2곳 185가구 청약",
       "포토뉴스",
+      "옷을 살수록 지구는 뜨거워진다...“우리는 왜 계속 옷을 살까?”",
+      "처음 진입한 보너스 화면을 읽는 도박 친구 조작 안내",
+      "[이문호 칼럼](245) 반시계방향의 태풍: 제주에는 왜 태풍 바람이 많을까?",
+      "화성특례시, 바둑으로 잇는 '효'와 '소통' '2026 정조대왕 효 전국 바둑축제' 성황리 개최",
       "\"걷다 지치면 차로 옮겨 타도 되는 길이라고요?\"… 데크와 경관도로가 이어진 임시 개통 해안길",
       "[부동산캘린더] 추석 여파에 쉬어가는 분양시장…전국 185가구 청약",
-      "[이문호 칼럼](245) 반시계방향의 태풍: 제주에는 왜 태풍 바람이 많을까?",
-      "[10월 둘째주 분양] 분양시장 ‘숨고르기’… 서울·부산서 185가구 청약",
-      "[비즈앤피플] 커진 ‘아기 울음소리’… 분유·영유아용품 ‘훈풍’",
-      "[속보] 한국 축구, 일본 1-0 제압…아시안게임 사상 첫 '4연패' 위업",
-      "“서울보다 더 뜨겁다”…수원 팔달·영통, 용인 수지까지 ‘핵심지 행진’",
-      "[기자의 눈] 비대면 진료, 산업 논리 보다 공공성이 먼저다"
+      "대전·청주원정 이제 그만… 세종 ‘1호 맥도날드’ 11월13일 드디어 오픈 [100투더세종-13]"
     ]
   },
-  "low_confidence": 3,
+  "low_confidence": 1,
   "briefs": {
     "all": "수집 기간 전체 [[w]]부정기사 380건(7%)[[/w]] 중 안전 분야가 187건으로 절반 가까이 차지하고 있으며, 행정 98건, 산업경제 45건으로 분산되어 있습니다. [[b]]2026-09-16에 22건이 집중[[/b]]되었으므로 해당 날짜의 안전 관련 이슈를 먼저 확인하시기 바랍니다.",
     "7": "최근 7일간 [[w]]부정기사는 37건(9%)[[/w]]으로, 안전 분야 32건이 대부분을 차지합니다. [[b]]9월 23일에만 21건이 모두 안전 분야[[/b]]로 집중되었으므로, 해당일 보도 내용을 우선 검토하실 필요가 있습니다.",
@@ -69049,7 +69106,7 @@
   },
   "briefs_updated": "2026-09-29 09:57",
   "issues": {
-    "updated": "2026-10-05 08:55",
+    "updated": "2026-10-05 10:47",
     "items": [
       {
         "label": "화성동탄경찰서 위기 상황 해결한 정신건강전문요원에 감사장",
@@ -69168,7 +69225,7 @@
     ]
   },
   "today": {
-    "updated": "2026-10-05 08:55",
+    "updated": "2026-10-05 10:47",
     "items": [
       {
         "label": "화성동탄경찰서 위기 상황 해결한 정신건강전문요원에 감사장",
