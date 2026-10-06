@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-06 10:43",
+  "updated": "2026-10-06 11:52",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 4987,
+  "count": 5002,
   "items": [
     {
       "date": "2026-08-02",
@@ -69001,6 +69001,20 @@
       "source": "미주조선일보"
     },
     {
+      "cat": "복지",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "20년간",
+        "이어온",
+        "장애"
+      ],
+      "date": "2026-10-04",
+      "title": "\"20년간 이어온 장애/비장애학생 통합형 과학 축제\" 대구대, 대구남양학교서 '희망의 과학싹잔치' 개최",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6QWtfdVFodjJhNVZ2YkxZUlRMTms1VnlyWXo4NmlVY0VMdldGcVpiT0g1Zlh2OEpsV2x4UnJZWGp6ckNjMjdUX3plcWJqOFRYdzlRcUIydWxEdmlFWjhXVkNVcUZjZUtCTXlEQg?oc=5",
+      "source": "베리타스알파"
+    },
+    {
       "cat": "행정",
       "senti": "중립",
       "summary": "",
@@ -69984,35 +69998,234 @@
       "title": "화성특례시, 시민 목소리 모아 ‘화성형 기본사회’ 그린다",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBIeG01YTFha0JYdHVxaDNDLUhIWkdXUzVtZGJhcjFTbTZjcFZVYlhVd1VuZ2RLbnd3bXA1OU54VU00QnFJaEViemVjZ0VobE4tQnhodHpSOU0zYUI5WHVaRW9paTJ1VlRKYUowbGxR?oc=5",
       "source": "투어코리아"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "시민이",
+        "꿈꾸는",
+        "기본사회는"
+      ],
+      "conf": "low",
+      "date": "2026-10-06",
+      "title": "'시민이 꿈꾸는 기본사회는'…화성시, 8~29일 권역별 토크콘서트",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE84NldMRVVHXzZ2dUsycVdZcXB4bTlrY015SkZtTElVaVQ2ZVhiVWtjWGRJQXRpVTZfVnNlUUFCUHpLejJlMkx6dmRaTXp6ckwwdlZrNHhKM0xtRXFIMkJUSdIBYEFVX3lxTE84NldMRVVHXzZ2dUsycVdZcXB4bTlrY015SkZtTElVaVQ2ZVhiVWtjWGRJQXRpVTZfVnNlUUFCUHpLejJlMkx6dmRaTXp6ckwwdlZrNHhKM0xtRXFIMkJUSQ?oc=5",
+      "source": "연합뉴스"
+    },
+    {
+      "cat": "행정",
+      "senti": "부정",
+      "summary": "",
+      "kw": [
+        "한신아파트",
+        "선거개입",
+        "경찰"
+      ],
+      "date": "2026-10-06",
+      "title": "한신아파트 선거개입, 경찰 송치에도 “할 일 없다”.. 병점구청 민원 논란",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1PQ2NwWjJxb0ZWWUM1TUEzR2RHRXpNdmxLcFdncWdUX09PVnF5S1VQaHpxX0g0aXVlbWpvbTYwTzFyZHpO?oc=5",
+      "source": "화성 투데이"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "4개",
+        "권역"
+      ],
+      "conf": "low",
+      "date": "2026-10-06",
+      "title": "화성시, 4개 권역 돌며 '기본사회' 시민 의견 듣는다",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBBWkliOVBjQTk5Y0J0cEs1SWhBV0s2R093T2xWdUtUUzBGd1RuMTRFaWxsLURXQ3AweFlmQVEyMFJPOGdDUGtxRUMtSTNGc25fZjAyMWNSRXFxem5iTU5ob0QyX0ljcjUt?oc=5",
+      "source": "일간경기"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "제9대",
+        "화성시"
+      ],
+      "date": "2026-10-06",
+      "title": "화성특례시, 제9대 화성시 어린이·청소년의회 정례회 개최",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAtZzEwQmp4YndhT015RldBZUVwcS1hbU5ieHluSG9XOG5rbVN5TlhPbHdHcTZsODBiMFJBUVBybjVxTlBlWWRNU2tJYlhPWEdKY1l0bjJTOEhBbjBIU2xVYWgxR1g1M21TSGc?oc=5",
+      "source": "newspeak.kr"
+    },
+    {
+      "cat": "복지",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시아름장애인보호작업장",
+        "양감점",
+        "마술쇼로"
+      ],
+      "date": "2026-10-06",
+      "title": "화성시아름장애인보호작업장 양감점, 마술쇼로 웃음 키운 행복한 한가위",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4ta0djd0Vhb2l4VjVGSmZZbGllRWV6b01LZ3ZLdXQ2bDJ5MndyYlJNSnFNTHlTVy1EN3g3RzN2QU1kQnFBczJEWDZ0TUwwTFVHZmkxSGF4RkxVR0JPeWx2ZC1BYVlQY09vX2dPV2o2elk?oc=5",
+      "source": "화성시민신문"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성특례시의회",
+        "신청사",
+        "1층"
+      ],
+      "date": "2026-10-06",
+      "title": "화성특례시의회 신청사 1층 복도서 10월 6~16일 입주작가 9명 작품 16점 전시",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE94NFlXY2lMM3lGeFVVd2RrSG1KX0ZVbjc5U1NGRE9iNmQ2MDVQZkwtckptOG45c3VoZGdKOGt0R3U4dFZiRUQyVEF3Z1UtTEtyZTJBRTVFMnlqN2xxdWRwSlFISXdGYlJoN3Z0cFIxb0dsdw?oc=5",
+      "source": "specialtimes.co.kr"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시인재육성재단",
+        "제3회",
+        "이음터"
+      ],
+      "date": "2026-10-06",
+      "title": "화성시인재육성재단, 제3회 이음터 마을동아리 연합축제 개최",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB0ZzJDb0Nza2VSY2N5Y21DRHFmRGpvaVBpQXJuRHBpdjJsRXBRdkR0VXV6YjhXdEhLTGNxSWhzSlJNekJNUVBLV3JlYW1nNklaRHlsQVVWdVo2RFRLeURXcENyT2xaV0k?oc=5",
+      "source": "경인신문"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "어린이",
+        "청소년의회"
+      ],
+      "date": "2026-10-06",
+      "title": "화성시, 어린이·청소년의회 정례회서 정책 안건 7건 심의",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1PM09oZm1VS1I1U3MtbE1xNzJvZGJUVm1YWWd5SWJvMGtxQTllYnBIOE1KTXFrUlA5V3lVQ3Y5R2xVbHViazd5YldKT05PRXp1cldPR3pvdGxJWDBpN1Ewb2d3?oc=5",
+      "source": "경인미래신문"
+    },
+    {
+      "cat": "복지",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "효행구보건소",
+        "사업장"
+      ],
+      "date": "2026-10-06",
+      "title": "화성시 효행구보건소, 사업장 찾아가는 ‘건강한 일터 만들기’ 운영",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE05V0ttSWlSYm9vS2pCZ04tbEhjQXZ4clhtbHZab0Jya3M3T1ZwWDF1dUM1eTgycm44MjQ2SDlZbG56ZXVwSHNvVW9pYy0zZkNINFRDNURmT2pvdGNydEwwcmtn?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "cat": "복지",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "제9대",
+        "어린이"
+      ],
+      "date": "2026-10-06",
+      "title": "화성시, 제9대 어린이·청소년의회 정례회 개최",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9iNXpzVEp0QktmUnRFU19KY09UZFppb2ZiUnp4LXFXQ1B5NlJuRGIwS3VweW50bU5rSzRhc1p3bXBvV1pmZjk4VW93MFNHejlYOVJidnI5ak5YLW1SdHhnMHBR?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "정조의",
+        "효심과",
+        "애민정신"
+      ],
+      "conf": "low",
+      "date": "2026-10-06",
+      "title": "정조의 효심과 애민정신, 무대서 부활… 화성시 창작뮤지컬 ‘만천명월 격쟁을 허하라’ 17일 개막",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5RWE9TX3NuYmtVNHFYekUyRUdTR3F1YnR4ajY5cFVKcTRpMnpjbjE5X2lqUG5JSk5fZUV6Z3JhemluOTBhbS1oZFB4ZF9wa3RYOWlET2FpRlVOZFRRRmpFaXhnZw?oc=5",
+      "source": "뉴스팍"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "권역별",
+        "기본사회"
+      ],
+      "date": "2026-10-06",
+      "title": "화성특례시, 권역별 기본사회 토크콘서트 8일~29일 개최",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB5dmdvdmZZQ3RQZGpJQmJvVjBXdkJER1UtUFBfWThOUElyc052WkxPMC0xckJhemQ3X3ZoazdoRzh5UDkwQ1JabjN5TV9LWVh4UGxCUGVkN19SbnlNODhqMnp5dFhXWDgtMlFZ?oc=5",
+      "source": "프레시안"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "우리가",
+        "바꾸는"
+      ],
+      "date": "2026-10-06",
+      "title": "화성특례시, \"우리가 바꾸는 우리 동네\"… 어린이·청소년 의원 86명, 정책 7건 의결",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBIZmg3ekhTa3o4bU1GMHlLSVkzay1ReklTampaWFM3bEdRenpLZWtwQXlBb2p4c0hTOHdnbzBsVDZObnUxOEF1Wk5VdGxSd3Bwa0NmNTlwYklJQzRKZGkxMTBtNkViQTZlRFEw?oc=5",
+      "source": "경기타임스 e"
+    },
+    {
+      "cat": "안전",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "정조와",
+        "백성의",
+        "이야기를"
+      ],
+      "date": "2026-10-06",
+      "title": "정조와 백성의 이야기를 담다…'만천명월 격쟁을 허하라' 화성서 오는 17일 선보여:경찰연합신문",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1mMldobkl6bUVvaUl6QTl3TWRuUXk2LUtORWpiX0lJb1RVa0xuUEVidWFvWXZmeFA2Q3hWeG1XdDBTSGZUa3hwRmZqSU8wZTJtT2g3enNhYlRjZ1BWZFd1QndfUkNTM2dhQ3V6LVFHSURyTWdYTF9uatIBbEFVX3lxTFB0NE83ZmE5WWZKOHVmZHFabnk4Q0RZbWtfVU1rbUlQSnBUd2FFU2NNdS1uWUJpQWVzQWxZb1RjRTRlY1A4TjhsMmpBZWZhRkROUDcydFRSdFloVzhIclV5ei1lekFsRktYdEpwTg?oc=5",
+      "source": "koreapolicenews.com"
     }
   ],
   "dropped": {
-    "count": 65,
+    "count": 67,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
+      "남양유업 천안공장, 우유 패키지에 ‘안전 슬로건’ 담는다",
+      "녹십자, 자체 개발 아젤라산 여드름약 '아젤라힐크림' 출시",
       "\"우유 105만봉에 안전 메시지\" 남양유업 천안공장, 안전문화 확산",
-      "'CSO영업소 증빙 의무' 입법에 복지부 \"실익 없다\" 제동",
-      "남양유업, 노동부 손잡고 우유 패키지에 산재 예방 슬로건 새겨",
+      "[똑똑한한끼] 대상 종가, 오리온, 풀무원, 남양유업, 삼양식품 ‘삼양1963’, 면사랑 ‘캠핑 한끼’",
       "경기도 태극전사 빛났다...한국 체육 든든한 버팀목 입증 [아시안게임]",
-      "남양유업 천안공장, 우유 패키지로 안전문화 확산",
       "\"4만5691가구 쏟아진다\"…예비 청약자 주목할 곳은 [이송렬의 부동산한입]",
-      "남양유업 천안공장, 우유 105만 봉으로 ‘안전문화’ 알린다",
+      "남양유업, 노동부 손잡고 우유 패키지에 산재 예방 슬로건 새겨",
       "서울 민간아파트 분양가 1년 새 34%↑…공사비 오르자 청약 수요도 ‘선점’",
-      "남양유업 천안공장, 우유 패키지 활용한 안전문화 확산 협력 추진",
-      "화성특례시, 정조효문화제·정조대왕능행차 성료",
+      "남양유업 천안공장, 우유 패키지로 안전문화 확산",
       "등잔 밑이 어두운 ‘경찰 지구대’… 카페 간판 달고 ‘외국인 성매매’",
-      "우유 패키지에 안전을 담다… 고용노동부 천안지청·남양유업 천안신공장, 안전문화 확산 맞손",
+      "우유 포장에 ‘일터 안전’…남양유업, 105만봉으로 안전문화 알린다",
+      "통일경제뉴스",
+      "KCC건설 스위첸 ‘위대한 집안일’, 일상의 가치 다시 묻다",
+      "남양유업 천안공장, 우유 패키지 활용한 안전문화 확산 협력 추진",
       "[인터뷰] “말 잘하는 의원보다 시민의 삶을 끝까지 책임지는 의원”... 90년생 청년 정치인",
-      "자동 진행과 수동 진행, 무료 슬롯 게임 버팔로 게임 지원 기능 구분",
-      "‘아침에 우유’에 안전 메시지⋯천안지청·남양유업 안전문화 확산 맞손",
-      "슬롯 미지의바다|레고 닌자 고 어둠의 크리스탈 제품",
+      "화성특례시, 정조효문화제·정조대왕능행차 성료",
+      "JW중외, 리바로젯+SGLT2 당뇨 3제 복합제 개발 시동",
       "[이번주 청약 길잡이] 쉬어가는 분양 시장… 전국 2곳 185가구 청약",
-      "서울 외곽·경기 남부 아파트값 강세…서울 매수심리는 '주춤' - 머니투데이",
-      "[이번 주 분양일정] '잠실 에떼르넬 비욘드' 등 185가구 청약 접수",
-      "어떤 페이지를 먼저 볼지 알려주는 토토 개인정보 길잡이"
+      "남양유업 천안공장, 우유 105만봉에 안전 메시지 담는다",
+      "슬롯 미지의바다|레고 닌자 고 어둠의 크리스탈 제품"
     ]
   },
-  "low_confidence": 19,
+  "low_confidence": 3,
   "briefs": {
     "all": "수집 기간 전체 [[w]]부정기사 380건(7%)[[/w]] 중 안전 분야가 187건으로 절반 가까이 차지하고 있으며, 행정 98건, 산업경제 45건으로 분산되어 있습니다. [[b]]2026-09-16에 22건이 집중[[/b]]되었으므로 해당 날짜의 안전 관련 이슈를 먼저 확인하시기 바랍니다.",
     "7": "최근 7일간 [[w]]부정기사는 37건(9%)[[/w]]으로, 안전 분야 32건이 대부분을 차지합니다. [[b]]9월 23일에만 21건이 모두 안전 분야[[/b]]로 집중되었으므로, 해당일 보도 내용을 우선 검토하실 필요가 있습니다.",
@@ -70020,7 +70233,7 @@
   },
   "briefs_updated": "2026-09-29 09:57",
   "issues": {
-    "updated": "2026-10-06 10:43",
+    "updated": "2026-10-06 11:52",
     "items": [
       {
         "label": "화성동탄경찰서 위기 상황 해결한 정신건강전문요원에 감사장",
@@ -70139,7 +70352,7 @@
     ]
   },
   "today": {
-    "updated": "2026-10-06 10:43",
+    "updated": "2026-10-06 11:52",
     "items": [
       {
         "label": "화성동탄경찰서 위기 상황 해결한 정신건강전문요원에 감사장",
@@ -70171,16 +70384,16 @@
         "state": "신규"
       },
       {
-        "label": "“폐기물 걷어낸다고 끝 아니다”…송산그린시티 형도 “지하 매립 의혹”!",
+        "label": "한신아파트 선거개입, 경찰 송치에도 “할 일 없다”.. 병점구청 민원 논란",
         "count": 1,
         "sources": 1,
-        "first": "2026-10-05",
-        "last": "2026-10-05",
-        "cat": "환경",
+        "first": "2026-10-06",
+        "last": "2026-10-06",
+        "cat": "행정",
         "titles": [
-          "“폐기물 걷어낸다고 끝 아니다”…송산그린시티 형도 “지하 매립 의혹”!"
+          "한신아파트 선거개입, 경찰 송치에도 “할 일 없다”.. 병점구청 민원 논란"
         ],
-        "score": 53,
+        "score": 60,
         "state": "신규"
       }
     ],
