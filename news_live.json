@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-07 09:35",
+  "updated": "2026-10-07 11:13",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 5117,
+  "count": 5133,
   "items": [
     {
       "date": "2026-08-02",
@@ -71534,6 +71534,34 @@
       "source": "경기뉴스광장"
     },
     {
+      "cat": "복지",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "경기도장애인재활협회",
+        "10일",
+        "동탄호수공원서"
+      ],
+      "date": "2026-10-06",
+      "title": "경기도장애인재활협회, 10일 동탄호수공원서 장애이해 캠페인 ‘ONE하는 세상’ 개최",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1UdDZycmNrbjVJU2JBNk9EOGJ6bk1xWHB2OFlUdFJmLUxDdzhwaVVmcWVBMm1fQWFTS3BDUnpqYXBXQzRpSFZKMzdKOGV3WVVZWGpGdU0xQm9RX2FjRndoY005Sm1qbHlrTnJPMHdBYw?oc=5",
+      "source": "월드장애인사랑뉴스"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "연천",
+        "미라클",
+        "독립야구단"
+      ],
+      "date": "2026-10-06",
+      "title": "연천 미라클, 독립야구단 경기도리그 챔프전 2차전 화성시 코리요에 5-4 승리...1승1패 승부 원점",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9XQ0VfWDB0LUlvYTB3M3FfakswbWY5TEhGd0lnM2UtbEh3aVpSSmNsT1plTXVWZkg2YVNocWp3WFI1djZJcVZkNDBlS3hwT0p3TExzaXU2YjZVbTI1SXFvcEJrSmt4R1JFMG5SUDJtNA?oc=5",
+      "source": "중부일보"
+    },
+    {
       "cat": "행정",
       "senti": "중립",
       "summary": "",
@@ -71834,35 +71862,235 @@
       "title": "화성예술의전당 창작오페라 '왕의 별', 10월 24일 전석 무료 관람",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5MMUdqd19xNGt0d3BLLTNEa0lJbnFYV1dYSHdpcGlDSGlNWS03T2RHblZEeHZRS2s0WkRjZ0VjV016SDNLZk9DbUN2ekhDVU5tcF9zbHprOFFkclRkVTdhRkZVQ0VJb2RWc3JaWjloQXA4Zw?oc=5",
       "source": "스페셜타임스"
+    },
+    {
+      "cat": "교통",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "삼성전자",
+        "DS"
+      ],
+      "date": "2026-10-07",
+      "title": "화성시-삼성전자 DS, 복지시설에 친환경 차량 4대 전달",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1JS3NRQUJHSlBZRC1OYTRDbkZTRlJUZXRrMV9KejZ1ZVYxeEp6Zmt6Nms5OGxlUmFEMTctZnpZaVBOWnpKYXpEWk1VRHhvMGY1MGlrdnlnU19XUXNsYWVVa1RLUXJsaDFz?oc=5",
+      "source": "일간경기"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "경기도",
+        "청약",
+        "시장"
+      ],
+      "date": "2026-10-07",
+      "title": "경기도 청약 시장 양극화 뚜렷…성남·과천·동탄 쏠림 현상",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mZDlBeXRPN1RNTjQ5TmNybU41OVFfbzJtU1plM1Z1RnZ6NnBsY0I5czlnZU9vSFhZMWJlWUdSUkx2UERYTmc1SHFWZ1g3SFFRNzUzS1NrTnRnQQ?oc=5",
+      "source": "브릿지경제"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시문화관광재단",
+        "정조의",
+        "화성"
+      ],
+      "date": "2026-10-07",
+      "title": "화성시문화관광재단, 정조의 화성 원행을 오페라로...'왕의 별' 쇼케이스 10월 24일 개최",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE52M3MxZVVIcWtyYzdjRzRtSEQ3VWl6VlRaMGRjSTFFZ0d5dzlvMWFrVHRoMU9VdlVvc04wMUU3TXgtemVURG5XZ1RKeU9DYWRzeVNDbnlMSU5RVm5neXdvZw?oc=5",
+      "source": "한국글로벌뉴스"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "유럽",
+        "정상급",
+        "마감재에"
+      ],
+      "date": "2026-10-07",
+      "title": "유럽 정상급 마감재에 예술적 디자인은 덤…아크메르 동탄 “최상위 평형 전유 상품 전 가구로 확장”",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9kSkNmY2dDTnM0NE1xYlZrSGRDWVJDc0R2bUlCVXd4eV9paHVBRW1lQkhfZkZrRXBIUHlhOENCazgwalhiY2gwLVBIWTNUMzg?oc=5",
+      "source": "Daum"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "김경일",
+        "교수"
+      ],
+      "conf": "low",
+      "date": "2026-10-07",
+      "title": "화성시, 김경일 교수 초청 인문학 특강…'AI 시대 인간의 힘'",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5WOWZZNEJ2WFhnYXJLM3pETjNfd3hDZVE4NVF6Q3hBdHlRR2l6T2R5MWttYzktQ2RMQlBibUhSMUF2bU9yMUg2blpJcWszdGN4cTJJMXlR0gFbQVVfeXFMTW83NnNMYVV3c3BmMTlGWW9CWlpHbUxJWWg4aE56dGI5ZkJwZk82LUx5a2VuMHByZVVYME5qdUpSU05keGZxa3QzV0lodEpsZjdfOERTM2lBdlBkQQ?oc=5",
+      "source": "뉴스1"
+    },
+    {
+      "cat": "환경",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시연구원",
+        "탄소중립지원센터",
+        "화성시지속가능발전협의회"
+      ],
+      "date": "2026-10-07",
+      "title": "화성시연구원 탄소중립지원센터–화성시지속가능발전협의회, 탄소중립·지속가능발전 위해 ‘맞손’",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0tejhBaVdOSk9TQkNocVBDX0VNVURZRHhyZDgwSDBETXVwR0xtWUhzcjFmT2ljc1NfZWVJZjJxYndNZ0NDVzV5QUY4Y0MwZ3d4akdWWVR1dWtLYzBzeGp2QzVNM3l4cENtWEljVmpR0gFyQVVfeXFMTVIycnlhMXBjcnhIQnpFYXJTYjY1ZS0tSmZwOC1URzhHVWFmejFOVjJlaVg2VktwSENnWDkwZU1qSWM0SWpZWWJGbXE2MjVfcVpzVE5HdjVCUjUwUUF4TTVicDdxTVRDNGI5VVBRRWNQaEx3?oc=5",
+      "source": "팝콘뉴스"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "농촌인력중개센터",
+        "이용"
+      ],
+      "conf": "low",
+      "date": "2026-10-07",
+      "title": "화성시, 농촌인력중개센터 이용 농가 현장 점검",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE44NW5OM1ZVSUp2T25CSlk4bVRSa0E4ZWJ3TVBhSGpHcEQwbEF0MnJ6OF9aMWk4U2lOcFUwYnlGcnpQd2dTWDFXb2JTSU5mMllIS052bEJzYm92UFBZMFJ0MUM1QTZnZ1JraUsxQktB?oc=5",
+      "source": "OBS경인TV"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "경기",
+        "청약시장",
+        "입지"
+      ],
+      "date": "2026-10-07",
+      "title": "경기 청약시장 '입지 양극화' 뚜렷...성남·과천·동탄 흥행 지속",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE80OUUzZlZJLTBlWFQ4bWNvUXl0akZtM0dVejZmMHdGNXRhNXM3V0E3ajVLc0R3bURVSUxGYUFyX2pBekpPcGYyLXIzVG81cWxwdm1FeklyWVRPaXFoSGJPamZONDVUczAwUnVER2VUaW5mcmVKbHpuSmdyaXc?oc=5",
+      "source": "비욘드포스트"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성산업진흥원",
+        "소셜벤처기업",
+        "창업육성"
+      ],
+      "date": "2026-10-07",
+      "title": "화성산업진흥원, 소셜벤처기업 창업육성 프로그램 성료",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE92aGt2TTAxU2Z0amU0SUFkTVdwV2VTVnFld2FucDkwM0ExMFdLeHppOTdDRkpYd3RaUmtLWmtyWjBLd1VCYTBTbWxZd3ZtSE9BN1pQNU11TG9mRjE0S05hVVNldWRER09jRWhwQnE0RQ?oc=5",
+      "source": "인천일보"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "청약",
+        "불패",
+        "성남"
+      ],
+      "date": "2026-10-07",
+      "title": "‘청약 불패’ 성남·과천·동탄서 신규 분양 잇따라",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9JR2ZrWWlnaW1ILVAyR09sRWlqTnZta1V3S0M0c3ZfeFhuR1J3SlpYNFEyOUFwWjBzcWdIS0x4NGstRnFBYm5JVUpBeG9GRWFZaHBLUTliRVJwUQ?oc=5",
+      "source": "한국경제"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "성남",
+        "과천",
+        "동탄"
+      ],
+      "conf": "low",
+      "date": "2026-10-07",
+      "title": "성남·과천·동탄 두 자릿수 경쟁률, 외곽은 0.1도 못 채워",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVT25yN1lROW1STnV1S1lHYy1oQ21mamk3VkVXSW1IVE92RC11ZWg0em4wSWZiaVhiVzF6VnhMclZxSFVGcWRIVldsRy1ic09QSTN5RGZHMC1jdw?oc=5",
+      "source": "한국경제"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "인지심리학자",
+        "김경일"
+      ],
+      "conf": "low",
+      "date": "2026-10-07",
+      "title": "화성시, 인지심리학자 김경일 교수 초청 ‘인문학 특강’ 개최",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9wcHA3dGl6MHRweW4tbTBSclpISUVPOTJ1NnRDLU1ZcVh6a25TbmRxRjFkNTBfRzJuLWV3MHFVRWc2OVI3dmFESVpEZl9ZVm9GTV9naElaZ3Z1dVNnS2V4dEhn?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "전국체전",
+        "앞둔",
+        "화성"
+      ],
+      "date": "2026-10-07",
+      "title": "전국체전 앞둔 화성, 무엇 준비하나…시의회가 짚은 ‘시민 체감’ 과제",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5IV3BWNlhGRXlNOUxhM2tuM2M4YVAyMXBBa0F2RF8wbkZRYXFBZjdyLVp3NVczQUhNOHdLVHdaMTdkcEJ1WC02Y1d2Z1ZaNzZ3TzVGZE5SaDd6WW1zSnRKSGVqZDJoSE9WT0RYOVRMNkwtM3o50gF0QVVfeXFMTkhXcFY2WEZFeU05TGEza24zYzhhUDIxcEFrQXZEXzBuRlFhcUFmN3ItWnc1VzNBSE04d0tUd1oxN2RwQnVYLTZjV3ZnVlo3NndPNUZkTlJoN3pZbXNKdEpIZWpkMmhIT1ZPRFg5VEw2TC0zejk?oc=5",
+      "source": "주간한국"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "4개",
+        "권역"
+      ],
+      "date": "2026-10-07",
+      "title": "화성특례시, 4개 권역 순회 '기발한 모두의 대화' 토크콘서트 개막",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE53QWx4T2NxZ0RWMzdXQ3RjcGdLejNHSHhpU0otS0ViZ3FTZUQ1MUVKZ01XaEhyV2wtWE5TMERMS2tLWHdHeFpaYW04ZWpFLXlyY3c?oc=5",
+      "source": "AI경기방송"
     }
   ],
   "dropped": {
-    "count": 54,
+    "count": 56,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
       "\"한달에 1억씩 올랐다\"…사내 대출 5억에 '삼성맨' 몰린 동네 [주간이집]",
-      "[오늘의신상]\"치즈 한 장이 30g\"… 남양유업, '입안가득 체다치즈'",
       "[똑똑한신상] 일화, 남양유업, 올가홀푸드, 롯데칠성음료, JTI코리아, 부드바르, 배상면주가",
-      "남양유업, 한 장 중량 30g으로 늘린 '입안가득 체다치즈' 출시",
+      "[오늘의신상]\"치즈 한 장이 30g\"… 남양유업, '입안가득 체다치즈'",
       "\"체다 풍미 더 진하게\" 남양유업, '입안가득 체다치즈' 출시",
+      "남양유업, 한 장 중량 30g으로 늘린 '입안가득 체다치즈' 출시",
+      "슬라이스 치즈 한 장이 30g...남양유업, ‘입안가득 체다치즈’ 출시",
       "슬라이스 치즈 한 장을 더 두툼하게…남양유업, 30g 체다치즈 출시",
+      "[신상품] 롯데칠성 ‘아크룩스 베이’ 남양유업 ‘입안가득 체다치즈’ 외",
+      "남양유업, 슬라이스 치즈 한 장 30g으로 키웠다…‘입안가득 체다치즈’ 출시",
+      "남양유업, 신제품 ‘입안가득 체다치즈’ 출시…중량 76% 늘렸다",
       "KFC, '커넬 오리지널'·'트러플 치르르' 시즈닝→남양유업, '입안가득 체다치즈' 출시",
-      "남양유업, 우유 105만개에 안전 메시지 담는다…산재 예방 캠페인",
-      "서울 외곽·경기 남부 아파트값 강세…서울 매수심리는 '주춤' - 머니투데이",
-      "남양유업, 우유 포장에 안전 문구…105만 봉 유통",
-      "남양유업, '1등급 아침에 우유' 105만 봉에 일터 안전 슬로건 적용",
-      "화성특례시, 정조효문화제·정조대왕능행차 성료",
-      "남양유업 천안공장, 우유 105만 봉에 안전 문화 메시지 담는다",
-      "우유 105만개에 ‘일터 안전’ 새긴다…남양유업, 안전문화 캠페인",
       "【기획특별 2탄】 보상 끝내고도 착공은 2028년.. 담봉근린공원, 두 번 미룬 설계",
+      "남양유업, 우유 105만개에 안전 메시지 담는다…산재 예방 캠페인",
+      "괴산군청 여자씨름단, 안방서 모래판 호령…최다혜 매화장사 등극",
+      "남양유업, '1등급 아침에 우유' 105만 봉에 일터 안전 슬로건 적용",
+      "남양유업, 우유 포장에 안전 문구…105만 봉 유통",
+      "'펜싱 레전드' 김정환 피스트 떠난다…\"지도자로 '제2 어펜저스' 육성\"",
+      "우유 105만개에 ‘일터 안전’ 새긴다…남양유업, 안전문화 캠페인",
       "우유팩에 ‘안전’ 새긴 남양유업…105만 봉 전국 유통",
-      "남양유업, '1등급 아침에 우유' 패키지에 안전 슬로건… 안전문화 확산 동참",
-      "게임라운지 영양 해결책",
-      "남양유업 천안공장, 우유 105만 봉으로 ‘안전문화’",
-      "남양유업, 우유 패키지에 안전 메시지 담는다…천안공장 안전문화 확산"
+      "남양유업 천안공장, 우유 105만 봉에 안전 문화 메시지 담는다"
     ]
   },
-  "low_confidence": 27,
+  "low_confidence": 4,
   "briefs": {
     "all": "수집 기간 전체 [[w]]부정기사 380건(7%)[[/w]] 중 안전 분야가 187건으로 절반 가까이 차지하고 있으며, 행정 98건, 산업경제 45건으로 분산되어 있습니다. [[b]]2026-09-16에 22건이 집중[[/b]]되었으므로 해당 날짜의 안전 관련 이슈를 먼저 확인하시기 바랍니다.",
     "7": "최근 7일간 [[w]]부정기사는 37건(9%)[[/w]]으로, 안전 분야 32건이 대부분을 차지합니다. [[b]]9월 23일에만 21건이 모두 안전 분야[[/b]]로 집중되었으므로, 해당일 보도 내용을 우선 검토하실 필요가 있습니다.",
@@ -71870,7 +72098,7 @@
   },
   "briefs_updated": "2026-09-29 09:57",
   "issues": {
-    "updated": "2026-10-07 09:35",
+    "updated": "2026-10-07 11:13",
     "items": [
       {
         "label": "경기 화성시, 형도 폐기물 매립 의혹…화성시 굴착조사 ‘감감무소식’",
@@ -71988,7 +72216,7 @@
     ]
   },
   "today": {
-    "updated": "2026-10-07 09:35",
+    "updated": "2026-10-07 11:13",
     "items": [
       {
         "label": "경기 화성시, 형도 폐기물 매립 의혹…화성시 굴착조사 ‘감감무소식’",
