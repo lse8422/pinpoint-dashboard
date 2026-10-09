@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-09 10:09",
+  "updated": "2026-10-09 11:53",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 5409,
+  "count": 5420,
   "items": [
     {
       "date": "2026-08-02",
@@ -73313,6 +73313,34 @@
       "senti": "중립",
       "summary": "",
       "kw": [
+        "화성특례시",
+        "임산부의",
+        "맞아"
+      ],
+      "date": "2026-10-07",
+      "title": "화성특례시, 임산부의 날 맞아 다채로운 행사 > 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1yd09QeDZ0YUttM0NhUmRfdmd5SXNELUljWlFoQ0NBWWlIeUVTOWVIZWQ5YTlWSzd4blE1VGROWnB3Vmd0SEFXZXFKYk5IRmh4NW54R04wTG9sMVZOSVhfa2k5ajUyZHVUc0JGTW95N0M?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "성남",
+        "과천",
+        "동탄"
+      ],
+      "date": "2026-10-07",
+      "title": "성남·과천·동탄 2년 넘게 100% 흥행…신규 분양 단지 관심 ↑",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE91UlpDaDY1cXJvSGJfbXQxQWRFQ1JHYWJqRnhxRkJvbmktMGhjWTNSaTdJa2VxNE1hQS1ha01jTnJJbGtCYko1ZldKVk1SMU5xam5DWUJ3NmRTMTVIYTVQbmFQUFQ?oc=5",
+      "source": "매일일보"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
         "화성시",
         "100만",
         "성장"
@@ -75745,6 +75773,35 @@
       "source": "경기타임스 e"
     },
     {
+      "cat": "환경",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시환경재단",
+        "환경",
+        "청렴"
+      ],
+      "date": "2026-10-08",
+      "title": "화성시환경재단, ‘환경·청렴·안전·인권’ 인증 동시 획득",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBObGFvSjJDMjNFcFBGMjJFZjNBZmJxN0RGcDU1dHJNMFc3VzhsQnZhQWJvbTdXY2JGMlVvZmJWUnlhVEZGRjYwODhEZVdJbUxGa1NkdkVxb21vNHhEX0tfaXVsRGJRQ3o2LUFHctIBbEFVX3lxTFBObGFvSjJDMjNFcFBGMjJFZjNBZmJxN0RGcDU1dHJNMFc3VzhsQnZhQWJvbTdXY2JGMlVvZmJWUnlhVEZGRjYwODhEZVdJbUxGa1NkdkVxb21vNHhEX0tfaXVsRGJRQ3o2LUFHcg?oc=5",
+      "source": "정보통신신문"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "삼성맨",
+        "이현이",
+        "서울"
+      ],
+      "conf": "low",
+      "date": "2026-10-08",
+      "title": "'삼성맨♥' 이현이 \"서울 VS 동탄 어디에 있는 게 낫냐\" (홈즈)",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeGFGSUhLQzlvdklBajYxbnJjWnBiVTV6aXRrRVMwRlBUNFN4MktiZDNJOENCckQyVFAyOHFmTTBTLVpvT1ItOHZ0SWVlVXhlZV9zRVpuNmU1OVZqQ0tJbFdMSW1vNVhBa1A3enV1Tl9lRno2OWdrd2tfZi02djNIa3ExQ1FIV18tWWJNTHlFSQ?oc=5",
+      "source": "iMBC 연예"
+    },
+    {
       "cat": "문화관광",
       "senti": "중립",
       "summary": "",
@@ -76013,35 +76070,136 @@
       "title": "정명근의 5年…108만 화성특례시 ‘포용 복지’로 도약",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1rRlRMMi1TRGgzcFNYSEQ2cG9EWU5sVXhqYlpjNVpTX2o1TkoxREIxVTJNZUZPbWlDMmlBWTZ4bjlybUhUT3lHZTA5ZnNmYmc0b0RyLVhhNmTSAVRBVV95cUxQblFQeGUtWFlSanBubVJKZlpLakQtTnFSaFNhTi1xaVFDQkh6WG4wSDJaZVFsLVN4VFFoQUJiT3BVTDI3Mk5jTUkzY2JFRXctbU9EM18?oc=5",
       "source": "세계일보"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "패트롤",
+        "경기도",
+        "화성시"
+      ],
+      "conf": "low",
+      "date": "2026-10-09",
+      "title": "[패트롤] 경기도-화성시",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1YVDc0V1o3TnVWa0EwLVhkWG5PY1BuYUdzcEpwakFiQjZwRjVPWmFRQmtOYnU1V1F0NDRyenFVNjRUall6cFVHUVhJd0k4NkVmc1lUXzJRM1J6Q09JUjY4N2s2WQ?oc=5",
+      "source": "에너지경제신문"
+    },
+    {
+      "cat": "교통",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "31",
+        "55",
+        "동탄"
+      ],
+      "date": "2026-10-09",
+      "title": "31.55㎞ 동탄 트램 첫 삽 가시권…화성시, 10월 우선공사 착수",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1MMVZobGJrVHR0OElibEFncE1xRE1KdmxybVlBVDZDR1JsZk45aVVaLXhaeDFvcFgtQTNrclRfSVNQY0NWLVpNWkFPRmx0RkVSODhwa0d4UGRGbUIxc1Z2T1BB?oc=5",
+      "source": "에너지경제신문"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "KCC건설",
+        "향남역",
+        "그로브"
+      ],
+      "conf": "low",
+      "date": "2026-10-09",
+      "title": "KCC건설, '향남역 그로브 스위첸' 견본주택 개관",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vdkFRYk8wNTVDajB4YlhJSFluUVJqb1dLRTdtNUxaaDkyU1hncUh3OV9NU0dYWEwzbnFyVUdrblo4bWZyc0x5MXdhcHptM0ZZOFVfeVZn?oc=5",
+      "source": "뉴스1"
+    },
+    {
+      "cat": "교통",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "동탄트램",
+        "기술제안서"
+      ],
+      "date": "2026-10-09",
+      "title": "화성특례시, 동탄트램 기술제안서 심의 통과…우선시공분 이달 착공",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9EdUxHTmdYSE0xOEJKb3FuOEVuTFpiczJ5Vjlqbm9udUNHVG92VEp1akg5OVVobkdlRk9VZng5Q0ZXSUQyeEh6N3JkdVU3aUJvai14dG9YUFpLNEUzQnNyVXBMOWVDSU40eWUw?oc=5",
+      "source": "프레시안"
+    },
+    {
+      "cat": "교통",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "정명근",
+        "화성시",
+        "동탄"
+      ],
+      "date": "2026-10-09",
+      "title": "정명근“화성시 ‘동탄 트램’ 이달 우선시공분 착공”",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1WUU1GOTFkdjYxRDZ0NjBTand6LUhWNklHQVMyTFNQbUpUeGRWSkhwWmFsTlk0bF9kbzNDZU9wYU1WbjdvTnVKUWpnZUs1VWhXa3p5LTRRYVA?oc=5",
+      "source": "스포츠서울"
+    },
+    {
+      "cat": "복지",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "정신질환자",
+        "권익보호"
+      ],
+      "date": "2026-10-09",
+      "title": "화성특례시, 정신질환자 권익보호·인식개선 유공 ‘보건복지부 장관표창’ 수상",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE16empMM0l3ZkdqR1J2ck5JTngtRk9nVGNRSzhkMVJadlgzVEViRjVkOGV4Mzh6OEZ0MnZSbHY2ckhzamtRQTVlRkFqX2hhcF9JZlcyRFFfNG1tdUFjQkVNQ0MtUHlwUmliU21BS1hLTmM1MUk?oc=5",
+      "source": "동방일보"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성서",
+        "택시기사",
+        "살해한"
+      ],
+      "conf": "low",
+      "date": "2026-10-09",
+      "title": "화성서 택시기사 살해한 20대 남성, 징역 35년 확정 - 조선비즈",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUWxxTDVKUzEzYlp1blpfWGVfTDdzNnBVMlN3Z0daTi11UGV3ZDd4cU9Bd1RKaFpxUzRpOTQyMGM5M0Zkb0FQQjFUWHZub2RvZXBpeEkyRHlGMWNxNF9teTU2LUxFMzhkTHAzQXM3SjF4cmF2dGZyVzlONUNUVVNWTmM5Z9IBlwFBVV95cUxPbGx2VjBtOWxyQlAtejBxclBjMVFDVGFETk9uQlowRTFDd2I5S0dCNERwd1dveFJQZzcxUTMtd3d2ekpMREQ4NUdVcG9DcV94RHhDRWRlUjZrSjEzekxFeXJqaGgwM2N5UTBzUGxwb0lfaWhHeG4wRXhiZGFETGR5QU1venZNVVp0Y192OV9ydGxqSDVfX29j?oc=5",
+      "source": "Chosunbiz"
     }
   ],
   "dropped": {
-    "count": 80,
+    "count": 73,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
       "소통으로 하나 되고 자치로 성장",
       "남양유업, 임산부 응원 캠페인…취약계층 100명에도 ‘첫 100일 키트’ 지원",
       "남양유업, ‘임산부의 날’ 캠페인…출산가정 200곳 지원",
-      "남양유업, 한 장에 30g '입안가득 체다치즈' 출시",
       "[유아동브랜드 트렌드] ‘임신 축하∙출산 응원’…남양유업, ‘서프라이즈 베이비’ 캠페인 전개 外",
-      "\"엄마·아기 첫 100일 챙긴다\"⋯남양유업, 육아키트 지원",
-      "기본 규칙에서 보너스 규칙으로 넘어가는 오목천역",
-      "남양유업, 임산부의 날 맞아 '서프라이즈 베이비' 캠페인 진행",
-      "화성FC, 10월 수원 연전 맞이 ‘화성인 바이러스’ 이벤트 개최",
-      "수현중, 화해중재로 관계를 잇다",
-      "“100가정에 통 큰 선물”…남양유업, 임산부 나눔 캠페인",
       "임신 축하·출산 응원…남양유업, '서프라이즈 베이비' 캠페인",
+      "여러 기능이 함께 나올 때 읽는 카지노 딜러 감정노동 작동 순서",
       "한 장에 30g '두툼하게'…남양유업, 체다치즈 키운다",
+      "수도권 국평 분양가 평균 8억대…경기 남부권 5억대 알짜 단지 분양",
+      "남양유업, 한 장에 30g '입안가득 체다치즈' 출시",
+      "수현중, 화해중재로 관계를 잇다",
       "\"출산 앞둔 100가정에 첫 100일 키트\" 남양유업, 임산부 응원 캠페인",
-      "남양유업, 임산부 100가정에 ‘첫 100일 키트’ 지원",
-      "“임산부라면 무조건 신청하세요” 남양유업이 100가정에 공짜로 푼 역대급 출산 선물팩",
-      "'펜싱 레전드' 김정환 은퇴식…대학 교수로 새 출발",
-      "[현장] ‘새로운 시작, 더 안전한 우리 동네’",
+      "화성FC, 10월 수원 연전 맞이 ‘화성인 바이러스’ 이벤트 개최",
+      "기본 규칙에서 보너스 규칙으로 넘어가는 오목천역",
+      "“100가정에 통 큰 선물”…남양유업, 임산부 나눔 캠페인",
+      "남양유업, 임산부의 날 맞아 '서프라이즈 베이비' 캠페인 진행",
+      "\"엄마·아기 첫 100일 챙긴다\"⋯남양유업, 육아키트 지원",
       "[유통 브리핑] 롯데칠성음료, 빙그레, 남양유업",
-      "임산부의 날 앞두고 식품·제약업계 지원 활동 나서"
+      "'펜싱 레전드' 김정환 은퇴식…대학 교수로 새 출발",
+      "남양유업, ‘서프라이즈 베이비’ 캠페인... 출산 예정 100가정에 ‘첫 100일 키트’ 증정",
+      "[현장] ‘새로운 시작, 더 안전한 우리 동네’"
     ]
   },
-  "low_confidence": 42,
+  "low_confidence": 4,
   "briefs": {
     "all": "수집 기간 전체 [[w]]부정기사 380건(7%)[[/w]] 중 안전 분야가 187건으로 절반 가까이 차지하고 있으며, 행정 98건, 산업경제 45건으로 분산되어 있습니다. [[b]]2026-09-16에 22건이 집중[[/b]]되었으므로 해당 날짜의 안전 관련 이슈를 먼저 확인하시기 바랍니다.",
     "7": "최근 7일간 [[w]]부정기사는 37건(9%)[[/w]]으로, 안전 분야 32건이 대부분을 차지합니다. [[b]]9월 23일에만 21건이 모두 안전 분야[[/b]]로 집중되었으므로, 해당일 보도 내용을 우선 검토하실 필요가 있습니다.",
@@ -76049,7 +76207,7 @@
   },
   "briefs_updated": "2026-09-29 09:57",
   "issues": {
-    "updated": "2026-10-09 10:09",
+    "updated": "2026-10-09 11:53",
     "items": [
       {
         "label": "화성 캠핑카 공장 화재…3시간 만에 진화(종합)",
@@ -76165,7 +76323,7 @@
     ]
   },
   "today": {
-    "updated": "2026-10-09 10:09",
+    "updated": "2026-10-09 11:53",
     "items": [
       {
         "label": "화성 캠핑카 공장 화재…3시간 만에 진화(종합)",
