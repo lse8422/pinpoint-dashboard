@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-10 09:42",
+  "updated": "2026-10-10 11:14",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 5482,
+  "count": 5489,
   "items": [
     {
       "date": "2026-08-02",
@@ -75952,6 +75952,20 @@
       "senti": "중립",
       "summary": "",
       "kw": [
+        "송산초",
+        "국악과",
+        "서양음악이"
+      ],
+      "date": "2026-10-08",
+      "title": "송산초, 국악과 서양음악이 어우러진 공연 관람",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE8zMzdYUnVnX2dBQkg4WnBlLVFLTU5MX3A5a01Kby1tbkJaMXA0VTZaN29TdGpaVnluTXM2TjRCeVc3VnRY?oc=5",
+      "source": "화성 투데이"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
         "박물관",
         "탐방9",
         "화성시역사박물관"
@@ -76983,6 +76997,50 @@
       "source": "비욘드포스트"
     },
     {
+      "cat": "교통",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "동탄트램",
+        "기술제안서"
+      ],
+      "date": "2026-10-09",
+      "title": "화성특례시, 동탄트램 기술제안서 심의 적격, 계약절차 돌입...10월 우선시공분 착공 추진",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1MZ1JsdzNLU004Z3RwaTNVa1lUaHZxYVlIM2ZoaVJhLUU1amp3SXVfdG5WNnFua0tob0E2dE9BM211SW1IVWtkcjlxbVMySXRmcmhQRy04SWNrZGVqeEJBanFQbUdDTl9RaG1V0gFrQVVfeXFMTUxnUmx3M0tTTThndHBpM1VrWVRodnFhWUgzZmhpUmEtRTVqandJdV90blY2cW5rS2hvQTZ0T0EzbXVJbUhVa2RyOXFtUzJJdGZyaFBHLThJY2tkZWp4QkFqcVBtR0NOX1FobVU?oc=5",
+      "source": "뉴스잡"
+    },
+    {
+      "cat": "행정",
+      "senti": "부정",
+      "summary": "",
+      "kw": [
+        "화성",
+        "인재재단",
+        "선임안"
+      ],
+      "conf": "low",
+      "date": "2026-10-09",
+      "title": "화성 인재재단 선임안 4표…심사표 논란",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xUkNpTEZNY3drMXRkMHkxUHBlbEZOeXVoWEdBVnNlWHBiaHBMTHZsMkk2Q1JjV0pIcThsSmV3ekk4cElxV0VILTVaZ3BOcHRKdEE1QTA0YUJHNVNqS2NPRmctcjV4NXhPUFE?oc=5",
+      "source": "OBC 뉴스"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "케어안심주택",
+        "화성"
+      ],
+      "conf": "low",
+      "date": "2026-10-09",
+      "title": "화성시, 케어안심주택 '화성 온(溫) 이음채' 내부 모습.",
+      "url": "https://news.google.com/rss/articles/CBMi5AVBVV95cUxOblNTdGxXdy13SVIwWENSX293SjNGSnc1TzlFRWVQZUVwbXJxU2RlVUk4S2Q5MzlLdjk5dTJCb2s1eTFKMzZIeVBLLWRmaE1fUm9TUV9mSlNTU0g5Q0JCd0E1OEo2ZnFDSGV4X05CREpkRkNONjBIOENpQkVqcnlQMUFwTjVRbWt5SElJOFNrSEpiamFOVEFPU3A0aEZYMFJsemV2ZUM5RVYwdGRwTHNNMG1lU1c5dHYxbkloLXpjVlgtTnRfcVlmSkxHTk1JNmc0UkVRVWZwSVhWNzgyYXZJa0E5RHlQdGZJRlNnbm1QOHhScG40Vk5jUnQ3Z3RmRG1BNmphcnoyYWI3dmR3MVl1ZlptVVp0c3k0YlBDR2E5cm1GSGx6SFJnRHlicGtGLUNpbXA0aDV0NWtXLXRfUHR2aHo0Zy1yRlluX2JGTmpKcnF1aXFpUVJ4dzBna1ppZzh6NTFSOW1RUEtWWTBiZnVNOXVGMXBRWDJZOURNS1pOSldIOU9IUmpQZ0V1VElVMkVWeEtma2RJWnp4eHRNLTBiVFUyWE5ERUlKLVJKVnZ6UmliR3I3R1VEWUIzVFE3cF9iSTNZbUlsRG9uaE5JRklkTjd5eEJUcVZfZU53Wjl4V0hBdm4wRWxZcHlkUk5OYkRleHJhM2lZRmJsWDA4V1Y4REFPai0zQmExZGpsSWhSMmRPaDNLOW5YVjVyTFowMjUxckEzVDFaNmtGNFFiMEJySTJpanBiSllBVnhCZjlKaVphRkpyMUQ3a1B2UkxfZURQa28zbjV0WHdPeW1NVTFpSGU0TTFGTXYxVjB1a18xNm9KbWNFQmNCeGJpaWFOX1BEVlE4U0pGUW1nWTQ2VXJ0SnI0NjhVLXRjTFE4bG51YjVySGJGcTR4TF9wREtyZ2pkQTJzRG8weHM3R0taOFRVMzF4N29tempYQmQxSjJhd29XUkpuWHBJWGhDbUZiOWUxRnNmVg?oc=5",
+      "source": "전자신문"
+    },
+    {
       "cat": "산업경제",
       "senti": "중립",
       "summary": "",
@@ -77053,10 +77111,53 @@
       "title": "108만 시민과 함께 만든 민선9기 100일 ‘모두의 행복, 더 큰 화성’을 그리다",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1IQ0NvTFpYN0E2MFdJUjk5Z3Fnb1Y4Ymk4Q3paSUVFdTVoMVluelM3bEoxcExuNFRpYjRnMGd1YUtKanhyZWRvZlh3MHI1c01HMElrTzQzYTZ0Q0dTbGs0bGxKX29sVUFCWUFqVtIBbEFVX3lxTE1IQ0NvTFpYN0E2MFdJUjk5Z3Fnb1Y4Ymk4Q3paSUVFdTVoMVluelM3bEoxcExuNFRpYjRnMGd1YUtKanhyZWRvZlh3MHI1c01HMElrTzQzYTZ0Q0dTbGs0bGxKX29sVUFCWUFqVg?oc=5",
       "source": "광교신문"
+    },
+    {
+      "cat": "교통",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "지하철역과",
+        "단지",
+        "직접"
+      ],
+      "date": "2026-10-10",
+      "title": "지하철역과 단지 직접 연결되는 ‘직결 역세권’ 주목…‘아크메르 동탄’ 10월 분양",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE80TUJIdmoyWUctUUQxZUQtMDEyXzNha2hrdHQ3MTNxR2pYM3YyZGRjRy1WUDNvc1EzUUhoVDZZVkpsLVJ5dEFERGFNb1g4THhRcUstMWJ3RGk?oc=5",
+      "source": "뷰어스"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "다음주",
+        "향남역",
+        "그로브"
+      ],
+      "date": "2026-10-10",
+      "title": "다음주, 향남역 그로브 스위첸 등 1829가구 분양",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9CSmlwcE5ubmpMZkI3WUM0bWNTbk9zMHREUlNVX2tPZTN6WWhDb3NaUTlHRENIOHBteHRQMXkzVjRKVTNaeHFRQ3N4RFJOS0lXSmU3Y3h4ZlFDNllfLWRvUERoWS1JM1VianpMMjlaN1jSAXBBVV95cUxPQkppcHBObm5qTGZCN1lDNG1jU25PczB0RFJTVV9rT2UzelloQ29zWlE5R0RDSDhwbXh0UDF5M1Y0SlUzWnhxUUNzeERSTktJV0plN2N4eGZRQzZZXy1kb1BEaFktSTNVYmp6TDI5WjdY?oc=5",
+      "source": "글로벌경제신문"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "KCC건설",
+        "향남역",
+        "그로브"
+      ],
+      "conf": "low",
+      "date": "2026-10-10",
+      "title": "KCC건설 ‘향남역 그로브 스위첸’ 933가구 청약…전용 84㎡ 5억원대",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9HRV9ra1BZRHdrcjdWRlFoT3VPZTBTRUpzXzNRaVJaWWxadWFySHJBTG4zTXJ3YjZvejlNZjN4Vkt3YU1qUWVXelBNMlNFT0xRVXpfU1NmaXVteGZPSE9fRWJGaUphTG1oZVdiNnNvZG9OajjSAXdBVV95cUxQQjBnN3BiSVp2MnZPRDd4SXlpc0ZlaWpLY01kVEN2Z2k5ZEV3Vk1GcXViczZHYlhVRXZhd09NR3lsRGJ1VnBtVFBjVGplYm1CandSc19rWUdiQ0YzaHR4QkhmdUVidFpES0NXM2lfYmdKdUx3cm9DOA?oc=5",
+      "source": "핀포인트뉴스"
     }
   ],
   "dropped": {
-    "count": 57,
+    "count": 55,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
       "남양유업 ‘서프라이즈 베이비’ 캠페인…임신 축하·출산 응원",
@@ -77067,21 +77168,21 @@
       "화성FC, 10월 수원 연전 맞이 ‘화성인 바이러스’ 이벤트 개최",
       "이계철 의장 주민 곁에서 듣고 해결하는 것이 주민자치의 힘",
       "남양유업, 한 장에 30g '입안가득 체다치즈' 출시",
-      "남양유업, 임산부의 날 맞아 '서프라이즈 베이비' 캠페인 진행",
       "소통으로 하나 되고 자치로 성장",
-      "남양유업, 임산부 100가정에 ‘첫 100일 키트’ 지원",
+      "남양유업, 임산부의 날 맞아 '서프라이즈 베이비' 캠페인 진행",
       "남양유업, 임산부 응원 캠페인…취약계층 100명에도 ‘첫 100일 키트’ 지원",
-      "남양유업, 임산부 지원 나서..‘서프라이즈 베이비’ 캠페인 전개",
+      "남양유업, 임산부 100가정에 ‘첫 100일 키트’ 지원",
       "[유아동브랜드 트렌드] ‘임신 축하∙출산 응원’…남양유업, ‘서프라이즈 베이비’ 캠페인 전개 外",
-      "\"임신 축하∙출산 응원\"…남양유업, '서프라이즈 베이비' 캠페인 전개",
-      "수원특례시청 임재민, 추석장사 대회서 통산 두 번째 태백장사",
-      "남양유업, 임산부의 날 맞아 출산 가정 지원 나서",
+      "수도권 집값 상승세 외곽으로 번지나…비규제지역도 ‘꿈틀’",
       "임산부의 날 맞아 출산 응원 나선 유업계…남양유업·일동후디스, 예비 부모 지원",
       "“100가정에 통 큰 선물”…남양유업, 임산부 나눔 캠페인",
-      "“임산부라면 무조건 신청하세요” 남양유업이 100가정에 공짜로 푼 역대급 출산 선물팩"
+      "[부동산 포커스] 서울 집값 피해 갔더니…경기마저 ‘10억 장벽’",
+      "“임산부라면 무조건 신청하세요” 남양유업이 100가정에 공짜로 푼 역대급 출산 선물팩",
+      "수원특례시청 임재민, 추석장사 대회서 통산 두 번째 태백장사",
+      "테마와 시스템을 함께 이해하는 영화 룰렛"
     ]
   },
-  "low_confidence": 14,
+  "low_confidence": 3,
   "briefs": {
     "all": "수집 기간 전체 [[w]]부정기사 380건(7%)[[/w]] 중 안전 분야가 187건으로 절반 가까이 차지하고 있으며, 행정 98건, 산업경제 45건으로 분산되어 있습니다. [[b]]2026-09-16에 22건이 집중[[/b]]되었으므로 해당 날짜의 안전 관련 이슈를 먼저 확인하시기 바랍니다.",
     "7": "최근 7일간 [[w]]부정기사는 37건(9%)[[/w]]으로, 안전 분야 32건이 대부분을 차지합니다. [[b]]9월 23일에만 21건이 모두 안전 분야[[/b]]로 집중되었으므로, 해당일 보도 내용을 우선 검토하실 필요가 있습니다.",
@@ -77089,7 +77190,7 @@
   },
   "briefs_updated": "2026-09-29 09:57",
   "issues": {
-    "updated": "2026-10-10 09:42",
+    "updated": "2026-10-10 11:14",
     "items": [
       {
         "label": "화성 캠핑카 공장 화재…3시간 만에 진화(종합)",
@@ -77205,7 +77306,7 @@
     ]
   },
   "today": {
-    "updated": "2026-10-10 09:42",
+    "updated": "2026-10-10 11:14",
     "items": [
       {
         "label": "화성 캠핑카 공장 화재…3시간 만에 진화(종합)",
@@ -77235,18 +77336,17 @@
         "state": "신규"
       },
       {
-        "label": "경기 화성시, 형도 폐기물 매립 의혹…화성시 굴착조사 ‘감감무소식’",
-        "count": 2,
-        "sources": 2,
-        "first": "2026-10-05",
-        "last": "2026-10-06",
-        "cat": "환경",
+        "label": "화성 인재재단 선임안 4표…심사표 논란",
+        "count": 1,
+        "sources": 1,
+        "first": "2026-10-09",
+        "last": "2026-10-09",
+        "cat": "행정",
         "titles": [
-          "“폐기물 걷어낸다고 끝 아니다”…송산그린시티 형도 “지하 매립 의혹”!",
-          "경기 화성시, 형도 폐기물 매립 의혹…화성시 굴착조사 ‘감감무소식’"
+          "화성 인재재단 선임안 4표…심사표 논란"
         ],
-        "score": 47,
-        "state": "종결"
+        "score": 53,
+        "state": "신규"
       }
     ],
     "surge": []
