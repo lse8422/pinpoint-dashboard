@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-11 09:11",
+  "updated": "2026-10-11 10:46",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 5526,
+  "count": 5538,
   "items": [
     {
       "date": "2026-08-02",
@@ -77676,35 +77676,206 @@
       "title": "화성특례시, 일본 반도체 기업 투자유치 확대…동경정밀과 협약",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wSE5rZ2Q1eVI1bzd6bERfRE40M0J3clFDcGg0XzloeUVCaU4zN3VmV0ZnUzZCdUo2YkhJLThLcUROLTFWcFlSREFqRUQ0a2ZrTHZnTGR1b0hOZw?oc=5",
       "source": "데일리엔뉴스"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "공룡알화석지에",
+        "공룡과학센터"
+      ],
+      "conf": "low",
+      "date": "2026-10-11",
+      "title": "화성시, 공룡알화석지에 '공룡과학센터' 건립…2029년 개관 목표",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9oMklqMURrNndnR0Z2UkExQUNFWlVHVFpyYkJqN3ZEVnlwcnpaTHB1NklhSkY2dDJpUl85OUpCTU5xNVdVZ05SdWZQZ3MzTDAtU0E?oc=5",
+      "source": "매일경제 마켓"
+    },
+    {
+      "cat": "복지",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "장애인",
+        "편의시설"
+      ],
+      "date": "2026-10-11",
+      "title": "화성시 장애인 편의시설 총괄관리는 어디에.. 여러 번 청구해도 ‘깜깜’",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1feTdvZjJ3THdXeV9rQ2pLUTZLX2xWOVV5eks3SzJGNDRYVDBsUENuWFF2eXhPUmdNR3AtRlp6THlGLXJX?oc=5",
+      "source": "화성 투데이"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "부동산",
+        "AD",
+        "KCC건설"
+      ],
+      "date": "2026-10-11",
+      "title": "[부동산 AD] KCC건설, ‘향남역 그로브 스위첸’ 견본주택 개관… 본격 분양 시작",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HaWh1SGhUWVdBeDRiQkE1b3RXam5XSk1UcmpPaTV5OWF6RDF4UEJlT0g3bUE3bVFJaGZlVExBSUEtNFFsQ1BpTVIzUWx5Y0drVUpQbFU0dU5TTTAydU9ucnd1bEFPSDFDaFE?oc=5",
+      "source": "인천일보"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "도쿄서",
+        "첨단기업"
+      ],
+      "date": "2026-10-11",
+      "title": "화성시, 도쿄서 첨단기업 투자유치…동경정밀과 상생협약",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9kWXJURWlLR3g5V05ZaGo1N0Vmd1lNQUM5S2tMX0V3UHBvOVVOWVFJZE5rWEZBOWktdjlqNVNLbU9EbHoxWGF5NTQ3OUJwbmVUQzdsa2doT2p5RGN5Y2RnWg?oc=5",
+      "source": "아시아경제"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "향남역",
+        "그로브",
+        "스위첸"
+      ],
+      "conf": "low",
+      "date": "2026-10-11",
+      "title": "‘향남역 그로브 스위첸’ 8일 견본주택 개관…933세대 공급",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ZSENLNkkzMGY1Rkl5VXhfdlNOeUNuY01FcjFvbVJUVVdwbDRNR0RaS2FaZ2otWGY2WmxNZGJKN2hCZEdSY0EyUXp6MlVMYU96QlNNNkxHa01hbWVQc1J1djlYczJjalFxa0NqT3k4S0Q?oc=5",
+      "source": "신아일보"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "기획특별",
+        "3탄",
+        "화성시"
+      ],
+      "conf": "low",
+      "date": "2026-10-11",
+      "title": "【기획특별 3탄】 화성시 “착공 4년 지연” 사업비만 129억 증가.. 옴뿌리산공원 책임 논란",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFA0YmJSdjVHR1Q1ZkR0b01DTjMtXzZYZnVSU2dXa1pHcl8wSjk1eHF1WnNHckd6Q1BvMXZWUmJUMmloRXRS?oc=5",
+      "source": "화성 투데이"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "아파트인가",
+        "공원인가",
+        "KCC건설"
+      ],
+      "date": "2026-10-11",
+      "title": "아파트인가 공원인가…KCC건설 '향남역 그로브 스위첸' 분양",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1tZlJlWVcxa1lsZHB0YmhZT0p1SjZwVWxMbjNxX3RUSHJfWmRMT28xeUp3ZnVhUG1fZ2k5aW1yMURkNUpsMTltR1RoU0tHZk15dlVGbmFQVEZreVpBODNvZi1qbTRwNTRIcHRaNmstenh3M1U?oc=5",
+      "source": "마켓인"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "만세구",
+        "권역별"
+      ],
+      "date": "2026-10-11",
+      "title": "화성특례시 만세구, 권역별 콘서트 성황리 개최 > 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5VSHVsZjJpc09HM3ZNTUU3NWQtQVVrbTVSbzhZaTNmXzBQZG5Ra1lEUkdJWlppSl9SZnpOUFlvU2doMVpaVEc4aDluOFZwUGF6V2hrNmVtbzgycE90Zk9PcTlOVDJJOVRZYmIxSUhfMWQ?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "도쿄서",
+        "첨단기업"
+      ],
+      "date": "2026-10-11",
+      "title": "화성시, 도쿄서 첨단기업 투자유치…반도체 협력망 확대",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBhREdLcTRYSUJWTHZzM1ZrYjRvX3AtRFQ1bmdMYzZMX1U4c3dYTFlnRUpKQzROVUNqcGJkQXpLUF9XVjdXVXBqT2NoNnNrR3lJY3JJem9sSW5wMzRZNm9EdWtWSmhGOEVuamlJMWFUb3NHZWJtM3QtakhlTms?oc=5",
+      "source": "비욘드포스트"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성특례시의회",
+        "의용소방대",
+        "소방기술경연대회"
+      ],
+      "date": "2026-10-11",
+      "title": "화성특례시의회, 의용소방대 소방기술경연대회 참관",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GOHA2X0dJWUUzT0lPSllCQ0FGelJrNGc5V05sbWotMUw2a1cwcnVjeHpGNGRTbmlFMkVKaE9zNmx6X29rbWlLVEN2TFFKZ3pJNHExWGkxMEs2S0phSkFYTlNqcGF5Y0NOOFE?oc=5",
+      "source": "인천일보"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "일본",
+        "첨단기업"
+      ],
+      "date": "2026-10-11",
+      "title": "화성특례시, 일본 첨단기업 투자유치 총력",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBYeGNpd2RVNkc1a2lQeDVjNHdkNFBvaXBPdHUwMzQzV1djYUYzMDVjLVdZelFMaFBYSTd0cmhweHJDYUVz?oc=5",
+      "source": "광역행정신문"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "일본",
+        "도쿄에서"
+      ],
+      "date": "2026-10-11",
+      "title": "화성특례시, 일본 도쿄에서 첨단산업 기업 투자유치 총력",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9zWlpBajhwcnMyR3Q2U0JDTkJpcFBJNC0yZkMzOWNYMnFoNkliXzh1QTVUcGFHUzdVLVhVT0JVX3BJbmgwM1RiYko0ZDZZLUk2WVBnMk5tWURZUXB2aDBTYTZpUEpLd1lf0gFrQVVfeXFMTzRMX255ekxBLXpZcXpQV3R0SzdZbWhFV1N4aEdBdlo3UDNaTEt4ZExuMjNGX1c3SVQyd0lDeVpoNzd2RDFLRXpXaTQ0NWNTZ0RreUN2SDhuREZRMXgzQmU3Vm5lT2lHM2dUbnc?oc=5",
+      "source": "뉴스잡"
     }
   ],
   "dropped": {
-    "count": 47,
+    "count": 51,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
       "[현장.동행] \"골목길 안전, 우리가 지킵니다!\" |",
+      "소통으로 하나 되고 자치로 성장",
       "남양유업 ‘서프라이즈 베이비’ 캠페인…임신 축하·출산 응원",
       "수원특례시청 김기수, 추석장사 대회서 통산 12번째 금강장사",
-      "소통으로 하나 되고 자치로 성장",
       "수도권 집값 상승세 외곽으로 번지나…비규제지역도 ‘꿈틀’",
-      "[신상잇슈] 롯데칠성 '순하리 청레몬진'·연세유업 '공주의밤 생크림빵'",
+      "[부동산 포커스] 서울 집값 피해 갔더니…경기마저 ‘10억 장벽’",
       "“열 달의 기다림을 응원합니다”…10월 10일 ‘임산부의 날’ 유래와 기업들의 따뜻한 동행",
-      "단계가 많은 게임인지 비교하는 메피장 도박 진행 구조",
-      "여러 슬롯 중 구조를 비교해 보고 싶은 텔레그램 룰렛",
-      "[분양 캘린더] 쌍용 더 플래티넘 한강 등 8곳서 1829가구 청약",
-      "[이문호 칼럼](247)20년 이상을 1인 통치 도지사 단층 특별자치 제주, 고려시대(918-1392년대)로 거꾸로 가는 제주의 눈물! 14위",
+      "[신상잇슈] 롯데칠성 '순하리 청레몬진'·연세유업 '공주의밤 생크림빵'",
       "같은 심벌이 모이면 어떻게 될까? 카지노 온라인 프로모션 판정 방식",
+      "여러 슬롯 중 구조를 비교해 보고 싶은 텔레그램 룰렛",
+      "[이문호 칼럼](247)20년 이상을 1인 통치 도지사 단층 특별자치 제주, 고려시대(918-1392년대)로 거꾸로 가는 제주의 눈물! 14위",
       "'아젤리아' 돌풍에 제네릭 봇물…약국은 판매가 책정 고심",
       "설탕 빼고 공주 밤 넣고…유통업계, 가을 신제품 경쟁",
-      "\"비대면 처방은 정산 불가\"…제약사들 CSO 수수료 빗장",
-      "대화제약 '리포락셀액', 중국서 유방암 치료제 추가 승인",
-      "기종에 따라 확인할 인터넷 필요 없는 무료 게임 표시 차이",
-      "전북도약, 마약류 중독예방 상담약국 교육 박차",
+      "정진욱 국회의원, “광주 남구 봉선시그니처휴튼 입주민으로부터 ‘고비마다 결정적 역할’ 감사패 받아”",
+      "[분양 캘린더] 쌍용 더 플래티넘 한강 등 8곳서 1829가구 청약",
       "부가 설명이 필요한 심벌을 모은 카지노 장사 참고 페이지",
-      "기형적 'CSO 수수료' 정조준…국회·정부, 후속 규제 예고"
+      "확률 설명과 배당표는 무엇이 다른가요? 사다리게임 토토 기가",
+      "대화제약 '리포락셀액', 중국서 유방암 치료제 추가 승인",
+      "송옥주 의원, 수인분당선 증편·신안산선 연장 등 철도망 확충 촉구",
+      "신속등재 공청회서 쏟아진 우려...\"경평생략·사후평가 불안\""
     ]
   },
-  "low_confidence": 4,
+  "low_confidence": 3,
   "briefs": {
     "all": "수집 기간 전체 [[w]]부정기사 380건(7%)[[/w]] 중 안전 분야가 187건으로 절반 가까이 차지하고 있으며, 행정 98건, 산업경제 45건으로 분산되어 있습니다. [[b]]2026-09-16에 22건이 집중[[/b]]되었으므로 해당 날짜의 안전 관련 이슈를 먼저 확인하시기 바랍니다.",
     "7": "최근 7일간 [[w]]부정기사는 37건(9%)[[/w]]으로, 안전 분야 32건이 대부분을 차지합니다. [[b]]9월 23일에만 21건이 모두 안전 분야[[/b]]로 집중되었으므로, 해당일 보도 내용을 우선 검토하실 필요가 있습니다.",
@@ -77712,7 +77883,7 @@
   },
   "briefs_updated": "2026-09-29 09:57",
   "issues": {
-    "updated": "2026-10-11 09:11",
+    "updated": "2026-10-11 10:46",
     "items": [
       {
         "label": "화성 캠핑카 공장 화재…3시간 만에 진화(종합)",
@@ -77828,7 +77999,7 @@
     ]
   },
   "today": {
-    "updated": "2026-10-11 09:11",
+    "updated": "2026-10-11 10:46",
     "items": [
       {
         "label": "화성 캠핑카 공장 화재…3시간 만에 진화(종합)",
