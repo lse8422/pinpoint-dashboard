@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-13 11:31",
+  "updated": "2026-10-13 12:28",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 5777,
+  "count": 5786,
   "items": [
     {
       "date": "2026-08-02",
@@ -80872,6 +80872,20 @@
       "source": "인천일보"
     },
     {
+      "cat": "복지",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "동정",
+        "동탄성심병원",
+        "이진화"
+      ],
+      "date": "2026-10-12",
+      "title": "[동정] 동탄성심병원 이진화 교수, 대한심부전학회 '젊은 연구자상' 수상",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1OS3A0SHFsTEt6MG1YNzNxOXZWeVBGYzRhV2hEX0c5cFh1QzRRR2M2WmZReUVPbmFCYXZ1Y3JJMWVIalAybWRUM1dyc2tsT0JBOHBuZk8xMFlRWHBwbzI5QkFpVkRlUjh0Y3Nv?oc=5",
+      "source": "메디칼업저버"
+    },
+    {
       "cat": "행정",
       "senti": "중립",
       "summary": "",
@@ -81250,35 +81264,148 @@
       "title": "화성특례시, 하반기 세외수입 직무교육 실시... 체납관리 실무 역량 강화",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBLSkM4NW00NFZLeThkRFZ5bS1fWWt0MU9HQVNSM2JLYjJWTDRDS18weWF6YXVtOEdJWDF6bnZwVk9IdGp5V25Hdmpvam1xQXZBYk5aQnNYWnJVTGh6Tld0MTU2cFBBUQ?oc=5",
       "source": "경기탑뉴스"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시의회",
+        "녹색어머니연합회와",
+        "어린이"
+      ],
+      "date": "2026-10-13",
+      "title": "화성시의회, 녹색어머니연합회와 어린이 통학로 개선 논의",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBLQWNsSFVEY3hNTTRkZDZjSGJTTjJVZXZBMDJXMFNpR2hCMi1sczd6NW0xbjRERUFPWTRFR3Utekdma3F2RWtwUzQtSEV1b1FybUc1MWx0OXUyOWQxZXdER1pRa1kydFNNbHc?oc=5",
+      "source": "인천일보"
+    },
+    {
+      "cat": "안전",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "김상균",
+        "최태양",
+        "화성시의원"
+      ],
+      "date": "2026-10-13",
+      "title": "김상균·최태양 화성시의원, 동탄 녹색어머니연합회와 어린이 통학안전 개선 논의",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBGcDBDXzdqbUJHa29XSVBjUnRnUWVLR3hZeTRtM0J4cFF5emFJMkRiT0tuU1FVM2R4Y0pfVndWa1QxU3ZCRl9JY0c5TUM5YkpZR1RhZHBOTDc3b3o1aWRjRHBB?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "화성형",
+        "기본사회위원회"
+      ],
+      "date": "2026-10-13",
+      "title": "화성시, ‘화성형 기본사회위원회’ 공식 출범… 포용적 복지 정책 본격화",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0xMGhhOXItWUljTkRkZGhEVzJwc24xN0lsNHRhdnFFQmxla3FremNOSmNybUZTMVJTWmtPNVNZYnVKOXBEM1BfeFZvdk5qVkNPT2tWLUdaVkozOTg0aWc2UVJ4cTR4REZnaDk4QXlIenFiNXc?oc=5",
+      "source": "대한경제"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성동탄중앙도서관",
+        "석우초와",
+        "독서마실"
+      ],
+      "date": "2026-10-13",
+      "title": "화성동탄중앙도서관, 석우초와 '독서마실' 운영",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9DbnEzRnZlb0o1OTJuS2I2c0NkSkF4SDhaM1VNUzdJSFFsMFNnc2N2WEJLQ2Zkay1DVFlJaWNBdDJKM191TEVIS0JFOE5pc3FRYXQ1N0RfUS13NUJHa2tQaWsxRUFrVVFjR1E?oc=5",
+      "source": "인천일보"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시문화관광재단",
+        "가족의",
+        "의미부터"
+      ],
+      "date": "2026-10-13",
+      "title": "화성시문화관광재단, 가족의 의미부터 AI시대의 삶까지…11월 연극 2편 선보여",
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5JdzIzekk5UGRRdW5TSS1uUjNVZFdxOF9KLWE3MjRwWTZubjF0RmFOT1R4ejBud0JSd1FHczJKXzRmQQ?oc=5",
+      "source": "화성인터넷신문"
+    },
+    {
+      "cat": "복지",
+      "senti": "부정",
+      "summary": "",
+      "kw": [
+        "위클리오늘",
+        "화성시",
+        "하반기"
+      ],
+      "date": "2026-10-13",
+      "title": "[위클리오늘] 화성시, 하반기 세외수입 직무교육 실시... 체납관리 실무 역량 강화",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5pMEpPWGFPS1F1d2NPdWw0TjRrcHU3SHpxU25QejFmdmZ3UmxrYTN0M0ZCeW9rbGdZRTFMU29yN0RscW9DWTlLQlFDY1FhbV91VTMtVTJ6dDFxa3o5cHpTZGJWRDVZbUpoa01BTWNn?oc=5",
+      "source": "위클리오늘"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "새솔동",
+        "주민들",
+        "송옥주에"
+      ],
+      "conf": "low",
+      "date": "2026-10-13",
+      "title": "【단독】새솔동 주민들, 송옥주에 분노..2만명 서명은 어디로 갔나?",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1YUy1YQW9obnRveWRlOVNvTng2RnNLVUZGUFByR0dxdkpGaDA5ZVk5eDFrc191SkpUdW1mNTBLRU1VaDRW?oc=5",
+      "source": "화성 투데이"
+    },
+    {
+      "cat": "행정",
+      "senti": "부정",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "하반기",
+        "세외수입"
+      ],
+      "date": "2026-10-13",
+      "title": "화성특례시, 하반기 세외수입 체납처분 직무교육",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA3RFI2cDRjUktiQkRZcDJyVlhCa0Vsd3dfLUV2Zmd3b29CTnNsNkMyS09UWnFlY2liMkRBckZyUDg2N1cyNGRaWHpRLWQxT3RrQUxoQnQ4NWJDWE1UQlZoM2JqaV9yNlQzMlNvV2tJMA?oc=5",
+      "source": "인천일보"
     }
   ],
   "dropped": {
-    "count": 88,
+    "count": 91,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
       "포토뉴스",
       "남양유업 테이크핏, 무신사 뷰티서 ‘익스트림’과 협업 진행",
       "운동인 잡아라…남양유업, 익스트림과 '운동 루틴' 공략",
-      "민선 9기 100일, 직원·어린이와 함께…김현기 강남구청장 현장 소통",
-      "남양유업 ‘테이크핏’, 익스트림과 협업",
       "남양유업 테이크핏, 익스트림과 협업…무신사서 기획상품 판매",
+      "민선 9기 100일, 직원·어린이와 함께…김현기 강남구청장 현장 소통",
       "[똑똑한한끼] 남양유업 테이크핏, 대상웰라이프, 웅진식품, 하림, 샘표, 풀무원, 하겐다즈",
-      "남양유업 '테이크핏', 김종국 모델 '익스트림'과 맞손…운동 영양 시장 공략",
+      "남양유업 ‘테이크핏’, 익스트림과 협업",
       "남양유업 '테이크핏', 편의점 넘어 무신사···\"헬스 소비층 겨냥\"",
+      "남양유업 '테이크핏', 김종국 모델 '익스트림'과 맞손…운동 영양 시장 공략",
       "이디야커피·남양유업 테이크핏, 오트커피-오트콜드브루 출시·익스트림 협업 상품 무신사 뷰티서 판매",
-      "게임 진행 중 설정을 바꿀 수 있나요? 룰렛 더블 제로",
       "남양유업 테이크핏, 김종국 모델 ‘익스트림’과 협업…무신사 뷰티서 만난다",
+      "게임 진행 중 설정을 바꿀 수 있나요? 룰렛 더블 제로",
       "부평구 ‘인천나비공원 가을 나들이 행사’ 개최",
       "남양유업 테이크핏, '익스트림'과 무신사 뷰티 협업…운동 맞춤 패키지 선봬",
       "오세훈 시장, 10일(토) 2026 진관사 가을음악회 참석",
-      "“집 살걸”…10·15 대책이 1년새 키운 집값·전세난",
       "남양유업 테이크핏, 익스트림과 협업…무신사 뷰티서 기획 상품 선봬",
-      "도봉구, 2027년도 주요업무계획 보고회 개최…민선 9기 '도봉대전환' 시동",
+      "“집 살걸”…10·15 대책이 1년새 키운 집값·전세난",
       "남양유업 천안공장, 우유 패키지 활용…안전문화 확산 나서",
-      "용산구, '이태원앤틱가구거리' 골목형상점가 지정…'경리단길'은 구역 확대"
+      "도봉구, 2027년도 주요업무계획 보고회 개최…민선 9기 '도봉대전환' 시동",
+      "\"운동할 때만 마셨는데\"... 남양유업부터 오리온까지, 시장 선점 불붙었다"
     ]
   },
-  "low_confidence": 26,
+  "low_confidence": 1,
   "briefs": {
     "all": "수집 기간 전체 [[w]]부정기사 380건(7%)[[/w]] 중 안전 분야가 187건으로 절반 가까이 차지하고 있으며, 행정 98건, 산업경제 45건으로 분산되어 있습니다. [[b]]2026-09-16에 22건이 집중[[/b]]되었으므로 해당 날짜의 안전 관련 이슈를 먼저 확인하시기 바랍니다.",
     "7": "최근 7일간 [[w]]부정기사는 37건(9%)[[/w]]으로, 안전 분야 32건이 대부분을 차지합니다. [[b]]9월 23일에만 21건이 모두 안전 분야[[/b]]로 집중되었으므로, 해당일 보도 내용을 우선 검토하실 필요가 있습니다.",
@@ -81286,18 +81413,19 @@
   },
   "briefs_updated": "2026-09-29 09:57",
   "issues": {
-    "updated": "2026-10-13 11:31",
+    "updated": "2026-10-13 12:28",
     "items": [
       {
-        "label": "화성특례시, 하반기 세외수입 직무교육 실시... 체납관리 실무 역량 강화",
-        "count": 2,
-        "sources": 2,
+        "label": "[위클리오늘] 화성시, 하반기 세외수입 직무교육 실시... 체납관리 실무 역량 강화",
+        "count": 3,
+        "sources": 3,
         "first": "2026-10-13",
         "last": "2026-10-13",
-        "cat": "행정",
+        "cat": "복지",
         "titles": [
           "화성시, 하반기 세외수입 직무교육 실시…체납관리 실무 역량 강화",
-          "화성특례시, 하반기 세외수입 직무교육 실시... 체납관리 실무 역량 강화"
+          "화성특례시, 하반기 세외수입 직무교육 실시... 체납관리 실무 역량 강화",
+          "[위클리오늘] 화성시, 하반기 세외수입 직무교육 실시... 체납관리 실무 역량 강화"
         ]
       },
       {
@@ -81357,8 +81485,23 @@
     ]
   },
   "today": {
-    "updated": "2026-10-13 11:31",
+    "updated": "2026-10-13 12:28",
     "items": [
+      {
+        "label": "[위클리오늘] 화성시, 하반기 세외수입 직무교육 실시... 체납관리 실무 역량 강화",
+        "count": 3,
+        "sources": 3,
+        "first": "2026-10-13",
+        "last": "2026-10-13",
+        "cat": "복지",
+        "titles": [
+          "화성시, 하반기 세외수입 직무교육 실시…체납관리 실무 역량 강화",
+          "화성특례시, 하반기 세외수입 직무교육 실시... 체납관리 실무 역량 강화",
+          "[위클리오늘] 화성시, 하반기 세외수입 직무교육 실시... 체납관리 실무 역량 강화"
+        ],
+        "score": 90,
+        "state": "확산 중"
+      },
       {
         "label": "화성시, AI 기술 활용해 고액 체납자 끝까지 추적한다",
         "count": 4,
@@ -81390,31 +81533,17 @@
         ],
         "score": 83,
         "state": "확산 중"
-      },
-      {
-        "label": "화성특례시, 하반기 세외수입 직무교육 실시... 체납관리 실무 역량 강화",
-        "count": 2,
-        "sources": 2,
-        "first": "2026-10-13",
-        "last": "2026-10-13",
-        "cat": "행정",
-        "titles": [
-          "화성시, 하반기 세외수입 직무교육 실시…체납관리 실무 역량 강화",
-          "화성특례시, 하반기 세외수입 직무교육 실시... 체납관리 실무 역량 강화"
-        ],
-        "score": 75,
-        "state": "확산 중"
       }
     ],
     "surge": [
       {
         "cat": "행정",
-        "recent": 16,
+        "recent": 17,
         "days": 3,
         "base": 17,
         "base_days": 12,
         "base_daily": 1.42,
-        "ratio": 3.8
+        "ratio": 4.0
       }
     ]
   },
