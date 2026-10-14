@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-14 09:15",
+  "updated": "2026-10-14 10:46",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 5896,
+  "count": 5921,
   "items": [
     {
       "date": "2026-08-02",
@@ -80932,6 +80932,35 @@
       "senti": "중립",
       "summary": "",
       "kw": [
+        "화성특례시의회",
+        "김상균",
+        "최태양"
+      ],
+      "date": "2026-10-12",
+      "title": "화성특례시의회 김상균·최태양 의원, 화성동탄 녹색어머니연합회와 간담회",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5faDduQkR3cWF2ZE9GeGtTWHJ2R3R5STU4TEhMamVqQ0JOSFhYcUViaXBLRlpVUWRLUU5uU0RfZGlTMTRETG9zR3ItOUstY3VkaVZnWUFXZVZxTE9Tc3Z2ZFFR?oc=5",
+      "source": "미담플러스"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "사용자",
+        "선택이",
+        "가능한"
+      ],
+      "conf": "low",
+      "date": "2026-10-12",
+      "title": "사용자 선택이 가능한 항목은? 동탄 카지노 옵션 문답",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNbHlIcnMyY0V4Y1VzTXpPcVE1MHNKaUM1aWJSeUp0MnYtRXBpcmh0bkd2RUtuQk1KSmNzZmxteHB3QTBpZUp0MEp4WU1SRy03bC13TGdWUjU2cS1tWXZ3R3RrYkc3cXZVUWpEMTBCMENtR05RZmtqaVY2SVR5MkZhc19UYkRFYkM5YlNfVy16Y3kwbEJVRFVmUzFheXZyUVJQVVJxWkM0THdGUUQ0UjRPYkhGZzgxdl9iVUctU3I2R0VKdVE0aHg5UFBTQQ?oc=5",
+      "source": "Calgary Roughnecks"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
         "화성시",
         "세외수입",
         "담당"
@@ -82511,6 +82540,20 @@
       "source": "경기탑뉴스"
     },
     {
+      "cat": "복지",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "동탄구보건소",
+        "장애인"
+      ],
+      "date": "2026-10-13",
+      "title": "화성특례시 동탄구보건소, 장애인 맞춤형 재활 지원 협력",
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1XUGFWTlNKcE1aSlFQMW04dkRwYVJ0NmZrc003RUR5dFFianlrRklVaFY3aHphT3JMSnhUVTdRQmgtZw?oc=5",
+      "source": "화성인터넷신문"
+    },
+    {
       "cat": "행정",
       "senti": "긍정",
       "summary": "",
@@ -82933,35 +82976,349 @@
       "title": "정명근 화성시장, 화성병 당정협의회서 지역 현안 해결 ‘속도’",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE50WDRjdk9EY1hnLW84QnY2ZWtGdFozdDZGMTZMd0JXckJRSENsc2oza1VaNjdsVmpsTTg3ejFpODhOV2prME15RG1ITnltbEFFNlZ0eXBGWGp1c1Fwdk5ZTTNsY2VYcGdWMFRXamFCRUZmVGllNXk3cHpFdlc?oc=5",
       "source": "비욘드포스트"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "대웅제약",
+        "향남에",
+        "마이크로니들"
+      ],
+      "conf": "low",
+      "date": "2026-10-14",
+      "title": "대웅제약, 향남에 마이크로니들 전용 무균 제조소 구축...2027년 상반기 GMP 승인 목표",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RdlNHVUhZbmRvVkFDN1EtRjNFQWNfVDJKdWZtTHlTSl9DUW9qSFZPdl9fQU5wQ3FBVFNtRHR4VGYxMDU3TGRPaGN1TXppWVR1X29XUmNKdUhsc2pyWW16R0ZnM1U1ZnYzQXRhNA?oc=5",
+      "source": "팜뉴스"
+    },
+    {
+      "cat": "교통",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시동탄아르딤복지관",
+        "경기고속도로",
+        "로부터"
+      ],
+      "date": "2026-10-14",
+      "title": "화성시동탄아르딤복지관, 경기고속도로㈜로부터 장애인 자립·재활을 위한 재활치료기기 후원",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rX2gzeHBhT2h2UFptazNnclkwUWFBajA2WW5Gb2g3OU5UOE1nRWFob3VQdmRzeldYTVhYWDcwUW1RZHI0WlBfQzFENW16VnlNUjV0eU5yNVBNNGhEeUEzeENweE40ZVE?oc=5",
+      "source": "경인신문"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성",
+        "병점",
+        "아파트"
+      ],
+      "date": "2026-10-14",
+      "title": "화성 병점 아파트 10억 돌파…9개월 만에 32.9% 올라 : 부동산",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5Pb0o5Qk44bUN2LVJiS2I3R1ZUX2JwZEpaYnlpSzBZSkZINkZ6TTlDNzlRU0d2MnpzMWNYUFRfbUVHZmYxYm52U2JfRQ?oc=5",
+      "source": "재경일보"
+    },
+    {
+      "cat": "환경",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "2026학년도",
+        "화성시"
+      ],
+      "date": "2026-10-14",
+      "title": "화성특례시, ‘2026학년도 화성시 그린농업기술대학(원) 졸업식’ 개최... 전문 농업인 88명 배출",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE10ZXVJTDhOX3o1TW1hTUVldWQ4UWl1aUY3Y2VKSFU5SGVCaUJnS0JaVjFiTXdaT0pDaHBTMTB1eGVUUlpFaHdaeWZFcWJHMUlpRUlCTzBHcHRYYUNvM0s0b3hSWXo3UVFm?oc=5",
+      "source": "뉴스피크"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "경기도",
+        "국평",
+        "올해만"
+      ],
+      "conf": "low",
+      "date": "2026-10-14",
+      "title": "경기도 국평 올해만 5천만원 상승…'광명·성남·동탄' 남부 주도",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1waWNadzlYa2NzWmo3NTRLcTg0Qm1QT0JqcENBUERRNk9VWU5IZnc1NkdtcmswdE5MZFlKVzYwcWIwWThsQXl0UXBkekEydnFmYTZGbVpGUGJOQkxUeTRkMNIBeEFVX3lxTFB1ZENjX2llajV4V3BIM1FWQk0yVGFjZHI4SjR6aFZsZnZKNTRMSzR1aktDeHZoTWs5UWsyUDBvR3VKbllvMVN5VjAyNEtuMFRraDdwNUJjaGlTcnYtaGFsb0szaHRSeEJzNi16YWhoSnZoZDUyOEJEdA?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "cat": "행정",
+      "senti": "부정",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "동탄구보건소",
+        "간접흡연"
+      ],
+      "date": "2026-10-14",
+      "title": "화성특례시 동탄구보건소, 간접흡연 피해 예방 위한 금연구역 합동 점검",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9WcHFnWEp2VjVmR2hHa21xMkh2QW9oS2I4SHJ4WTlxSHpaQ0JoZ1ZXa3dJWnpTT3lfWURnSUdVT3R5Tk9pNjhXeFBJR3pYdXJwcV92cENzTVRBV0w5T0JUY1BEbzV6Wlg3?oc=5",
+      "source": "경기시사투데이"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "동탄2동",
+        "통장단과"
+      ],
+      "date": "2026-10-14",
+      "title": "화성시 동탄2동, 통장단과 ‘찾아가는 민원 해결사’ 추진",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE81QzFxaDF3UldEUWFVMENXcThMbWh3SW4yYndtWTNwelJPUDRialhhczM5TWpKamhqXzFFall4WHI2dXFTR2M0WXVweUJlbU9zM1JhWm1KeUJmNWJzeWtaWjN3?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "바뀌는",
+        "우리동네",
+        "화성시"
+      ],
+      "date": "2026-10-14",
+      "title": "[바뀌는 우리동네] 화성시-화성병 지역위원회, ‘생활 인프라’ 건설 속도 낸다",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9TYmRwYWY5OTQ1RE1WSkxUSnpWQmJ1cWRkQVBOUFpVODc0TjFaNU95NkRnRjQ2YXY5RmhjbTZMNnRFeTV3RlBnZTg2T0RsRFZOSG5tVThPY25NazBxVTVZSw?oc=5",
+      "source": "NSP통신"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "제16회",
+        "화성시지회장기",
+        "그라운드골프"
+      ],
+      "conf": "low",
+      "date": "2026-10-14",
+      "title": "‘제16회 화성시지회장기 그라운드골프 대회’ 성료",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA2dkxta2kzQWVkZkpkNC1kRUZHLVZtQnlGaFFFNGpjY2VrT2J1ZHhzQlFBTm5VekxrcXVRbUd4a28tay1oMVdlMDBCNDE4V1hYR3F4UGpObERoeWxhbEd1X0FRdGZKMjBC?oc=5",
+      "source": "경기시사투데이"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "그린농업기술대학",
+        "졸업식"
+      ],
+      "conf": "low",
+      "date": "2026-10-14",
+      "title": "화성시, '그린농업기술대학' 졸업식…농업인 88명 나왔다",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8ySnlheFVzamVqZ3RfamZvTzFmejVsRUl0T2huR3RJZ3lnZnNEci1qSWxTMUo2T3BnRnFHU2c0VTB4M2R1cGdjd2lmajdDd2RaWUJiVEJWRXYyOTZJXzZEatIBeEFVX3lxTE9hTFBiVnAydjB3SWJkUWdiS0lzdC1ndE5odGFWQzlSUHRjelpINXlRdDhacEt0YkZHUURZXzQyUkY1Z2w0c1JuUlJrdDBadzdRMWRxYldYeTh5d3ZBcU16UHI2UUdldDZ3UXFBUmZwNHJ2bVMtTk9hRQ?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "cat": "복지",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "만성질환관리센터",
+        "웰다잉부터"
+      ],
+      "date": "2026-10-14",
+      "title": "화성시 만성질환관리센터, ‘웰다잉부터 비만치료까지’ 권역별 시민 건강 특강",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9YaGZKREFCdTNQY1d5SmJyT1c2R2ttcVlzMEhEZDBmY3FVZ21TM2k5YUwwTDVNS2lyWV9QV3hSVk9lZEVtMEpVZXcyNE8ta0ZNVTNtdkhKYl85YlFhRUpKc1VR?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "민선",
+        "9기",
+        "취임"
+      ],
+      "date": "2026-10-14",
+      "title": "[민선 9기 취임 100일] 정명근 화성특례시장 “107만 화성시, AI 미래도시 본격화”",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBPd1lDdXlUV0ZETlRPS0lIeVVVd1hleUlWNm5RWHhlajFBdGRxVGJta01iYmF2VnA1Vm9yS3g0bGw2ZTFjMEY5MDlUT0pIV1Z1VWJSUXJBR0dnMlhVOTFXeVF0S1pIZGo4eEtpQ2R3?oc=5",
+      "source": "중부일보"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "정조의",
+        "효심"
+      ],
+      "conf": "low",
+      "date": "2026-10-14",
+      "title": "화성시, 정조의 효심 담은 창작뮤지컬 ‘만천명월 격쟁을 허하라’ 선보여",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1oZG01Ykd0Z3ZJYmhMcHNfSVNMT0NMNjZYY0lhRkNhV0R4Mkl5YjhQUnUyLWgwZTFJd1Y3QWJjWEFleFp6ZGJGSUZQX0U3NE5WTjFZXzdxRldmbUJnNWVhVUxkdDF6NmtMTi0yRzBGbU9LUQ?oc=5",
+      "source": "www.reporternside.com"
+    },
+    {
+      "cat": "복지",
+      "senti": "부정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "동탄구보건소",
+        "간접흡연"
+      ],
+      "date": "2026-10-14",
+      "title": "화성시 동탄구보건소, 간접흡연 피해 예방 위한 금연구역 합동 점검",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE44WlRldDdrbldzNlE5VC1xUzRDT0lEZjBMWGgxcEtaMkd3aGxfenpoMS1KS2I5RTdiQVZCa2RsR1U4QUg0Skt3VEp0OEp5VnQ5ekphTThQVURrTngxZFJTTE5n?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "연말",
+        "만료"
+      ],
+      "conf": "low",
+      "date": "2026-10-14",
+      "title": "화성시, 연말 만료 공유재산 183필지 대부계약 갱신 추진",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9WMGhDcVpYd0piVU5MU3BZa3dISVVBOTlxYUU3YnR5SlZNOHlKZE81TGlremdRV3NEMnE5QV84bktHMDQtZlNyQkcxS1RxVkpqSlM4NGdWRFpRXzZQVFpJMUJn?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "민선",
+        "9기",
+        "취임"
+      ],
+      "date": "2026-10-14",
+      "title": "[민선 9기 취임 100일] 이계철 화성특례시의회 의장, “105만 화성시, 지역별 맞춤형 정책 필요”",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1mX1dta0g0M1BkUzYxcGNvQnJWbm4tX05ZZks1MHhtU2RnT001Nl9DaEZNQWtxWGFzb3VFTWdsb0ZNdTdpMFp2ZnlfMTE5TWxnRzVYWEhtM1hDNzA3NVVwUHY1cEcyVG9ramxkUy1n?oc=5",
+      "source": "중부일보"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "클라우드",
+        "시스템"
+      ],
+      "date": "2026-10-14",
+      "title": "화성특례시, 클라우드 시스템 특강 개최",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1VTjQxWXRLT2JLVXVSVVFVd0VIUXNSUzBNdVJmU0wydWRlOGJOdktzNlRKYl9aRno1V2NsOWpqY25CczlUOWNwS0J4QXRydzhyaVVLdnNQbHgxMjhERnFQWDUtNnNVQXIx?oc=5",
+      "source": "경기시사투데이"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "하반기",
+        "말라리아"
+      ],
+      "date": "2026-10-14",
+      "title": "화성특례시, 하반기 말라리아 퇴치사업단 회의 개최",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5EOF9sZlFOQTBfc29tUzVZdnlXQVlDeTlXMWIyMVc2ZmxlaFllQk1wTHVHOFUxX3BrYVlSRGdrRjFwRHFkX0p0dTg3eDNmbV9VUnVkZ3RXQXhpUkFsZmt2REVMVG1mWldX?oc=5",
+      "source": "경기시사투데이"
+    },
+    {
+      "cat": "안전",
+      "senti": "부정",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "2026",
+        "하반기"
+      ],
+      "date": "2026-10-14",
+      "title": "화성특례시, 2026 하반기 건축공사 관계자 대상 안전사고 예방교육 실시",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Ld0hlWS1KdjRvRnhDeFJlNWd2NUFya2lMajlydF9DRWVoRnh6XzJBLUdEOGgzUnU0TW5CcHlMMlZEb0ZwU2ZQUWU3WUlNand0M1N5TWE1LVhLcDdoV0lySW40TVVnYThv?oc=5",
+      "source": "경기시사투데이"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "연말",
+        "만료"
+      ],
+      "date": "2026-10-14",
+      "title": "화성특례시, 연말 만료 공유재산 183필지 대부계약 갱신 추진",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5USFF4Q3RkQkhmekFkR2xmTUZQNkZFR0FVYUE1MmdGdHRYYnlWZmJnZ3lqZG5NOXFmYVVTRzRXNmNBamdxNXBQOUpidW9SWFJjT0RIOE9mMWlMcTFnVVh0eWJsalpOTEoy?oc=5",
+      "source": "경기시사투데이"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "정조의",
+        "고뇌와",
+        "서사를"
+      ],
+      "date": "2026-10-14",
+      "title": "정조의 고뇌와 서사를 무대 위로… 화성예술의전당, ‘만천명월 격쟁을 허하라’ 오는 17일 선보여",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9qb09TY0JLMXVEazU4V3lIZVhTT3BzUUxYYm5YNGVBRzk0bVNmaTMyeFBqMmR4OVFRWUs1TjFGdzA2WHFzS2pRR0NhRVdpRnFkSEZ0RXJxTzdNNkNNclAwMUFJLTNGdDVudktB?oc=5",
+      "source": "컬처제주"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성예술의전당",
+        "만천명월",
+        "격쟁을"
+      ],
+      "date": "2026-10-14",
+      "title": "화성예술의전당, ‘만천명월 격쟁을 허하라’ 오는 17일 선보여",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE85S1AyN1JiMnMtNnRYOWhFWFg2Qlh3YXRZWmxOSmtTeWJqWkdTMU5UYVhMdF84Qk5HR1FXOUNRZ1F2d3VqNTNNeWUtTHM?oc=5",
+      "source": "시사일보"
     }
   ],
   "dropped": {
-    "count": 92,
+    "count": 76,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
       "삼성전자 나비효과에 집값 '들썩'…9개월 만에 '2억' 뛴 동네 [주간이집]",
+      "[똑똑한소비] 남양유업 테이크핏, CJ웰케어, 롯데칠성음료, 파리바게뜨, 할리스, 한우자조금",
+      "남양유업, 테이크핏 새 캠페인 '결국 체력이야'",
+      "남양유업, ‘테이크핏’ 일상 영양관리 시장 공략…신규 캠페인 전개",
       "남양유업, 테이크핏 새 캠페인 ‘운동편’ 공개",
-      "\"운동 넘어 일상 체력까지\" 남양유업, 테이크핏 새 캠페인 공개",
       "동구중독관리통합지원센터, 보건복지부 장관 표창",
-      "[똑똑한한끼] 남양유업 테이크핏, 대상웰라이프, 웅진식품, 하림, 샘표, 풀무원, 하겐다즈",
+      "남양유업 테이크핏, 일상 담은 캠페인 영상 공개",
+      "\"운동 넘어 일상 체력까지\" 남양유업, 테이크핏 새 캠페인 공개",
+      "\"경기남부광역철도는 국가전략산업 뒷받침할 대동맥\"",
+      "용인시장, 국토부 장관에 반도체클러스터 교통망 확충 요청",
       "풀무원·해태제과·hy·남양유업, 영양 성분 강화한 신제품 출시",
       "남양유업 테이크핏, 무신사 뷰티서 ‘익스트림’과 협업 진행",
-      "\"경기남부광역철도는 국가전략산업 뒷받침할 대동맥\"",
-      "운동인 잡아라…남양유업, 익스트림과 '운동 루틴' 공략",
-      "용인시장, 국토부 장관에 반도체클러스터 교통망 확충 요청",
-      "남양유업 테이크핏, 익스트림과 협업…무신사 뷰티서 기획 상품 선봬",
       "게임 진행 중 설정을 바꿀 수 있나요? 룰렛 더블 제로",
       "포토뉴스",
-      "\"운동할 때만 마셨는데\"... 남양유업부터 오리온까지, 시장 선점 불붙었다",
-      "“집 살걸”…10·15 대책이 1년새 키운 집값·전세난",
-      "남양유업 테이크핏, 김종국 모델 ‘익스트림’과 협업…무신사 뷰티서 만난다",
-      "민선 9기 100일, 직원·어린이와 함께…김현기 강남구청장 현장 소통",
-      "남양유업 ‘테이크핏’, 김종국 브랜드와 협업 프로모션 진행",
+      "운동인 잡아라…남양유업, 익스트림과 '운동 루틴' 공략",
       "부평구 ‘인천나비공원 가을 나들이 행사’ 개최",
-      "남양유업 '테이크핏', 편의점 넘어 무신사···\"헬스 소비층 겨냥\""
+      "경기남부 4개 시, 광역철도 국가계획 반영 촉구… 국회서 공동 기자회견",
+      "남양유업 테이크핏, 익스트림과 협업…무신사 뷰티서 기획 상품 선봬",
+      "강화군, 인천지역 군수·구청장 협의회 개최",
+      "남양유업 테이크핏, 김종국 모델 ‘익스트림’과 협업…무신사 뷰티서 만난다"
     ]
   },
-  "low_confidence": 16,
+  "low_confidence": 7,
   "briefs": {
     "all": "수집 기간 전체 [[w]]부정기사 380건(7%)[[/w]] 중 안전 분야가 187건으로 절반 가까이 차지하고 있으며, 행정 98건, 산업경제 45건으로 분산되어 있습니다. [[b]]2026-09-16에 22건이 집중[[/b]]되었으므로 해당 날짜의 안전 관련 이슈를 먼저 확인하시기 바랍니다.",
     "7": "최근 7일간 [[w]]부정기사는 37건(9%)[[/w]]으로, 안전 분야 32건이 대부분을 차지합니다. [[b]]9월 23일에만 21건이 모두 안전 분야[[/b]]로 집중되었으므로, 해당일 보도 내용을 우선 검토하실 필요가 있습니다.",
@@ -82969,18 +83326,32 @@
   },
   "briefs_updated": "2026-09-29 09:57",
   "issues": {
-    "updated": "2026-10-14 09:15",
+    "updated": "2026-10-14 10:46",
     "items": [
       {
-        "label": "화성시, 하반기 건축공사 관계자 대상 안전사고 예방교육 실시",
-        "count": 2,
-        "sources": 2,
+        "label": "화성시 동탄구보건소, 간접흡연 피해 예방 위한 금연구역 합동 점검",
+        "count": 3,
+        "sources": 3,
+        "first": "2026-10-14",
+        "last": "2026-10-14",
+        "cat": "행정",
+        "titles": [
+          "화성특례시 동탄구보건소, 간접흡연 피해 예방 위한 ‘금연구역 합동 점검 및 금연 캠페인’",
+          "화성특례시 동탄구보건소, 간접흡연 피해 예방 위한 금연구역 합동 점검",
+          "화성시 동탄구보건소, 간접흡연 피해 예방 위한 금연구역 합동 점검"
+        ]
+      },
+      {
+        "label": "화성특례시, 2026 하반기 건축공사 관계자 대상 안전사고 예방교육 실시",
+        "count": 3,
+        "sources": 3,
         "first": "2026-10-14",
         "last": "2026-10-14",
         "cat": "안전",
         "titles": [
           "화성시, 건축공사 관계자 150여 명 대상 안전사고 예방교육 실시",
-          "화성시, 하반기 건축공사 관계자 대상 안전사고 예방교육 실시"
+          "화성시, 하반기 건축공사 관계자 대상 안전사고 예방교육 실시",
+          "화성특례시, 2026 하반기 건축공사 관계자 대상 안전사고 예방교육 실시"
         ]
       },
       {
@@ -83023,24 +83394,42 @@
           "화성시 AI 시스템 도입으로 고액 체납자 추적 강화",
           "화성시, AI 활용 고액 체납자 추적 징수"
         ]
-      },
-      {
-        "label": "화성시 황금해안길 '그라인더 보수' 논란... 시 \"오일스텐\" vs 현장 \"녹물·들뜸 여전\"",
-        "count": 2,
-        "sources": 1,
-        "first": "2026-09-29",
-        "last": "2026-10-12",
-        "cat": "행정",
-        "titles": [
-          "화성시 황금해안길 '녹물 논란'... 시민 \"부식\" vs 시 \"오일스텐\"",
-          "화성시 황금해안길 '그라인더 보수' 논란... 시 \"오일스텐\" vs 현장 \"녹물·들뜸 여전\""
-        ]
       }
     ]
   },
   "today": {
-    "updated": "2026-10-14 09:15",
+    "updated": "2026-10-14 10:46",
     "items": [
+      {
+        "label": "화성시 동탄구보건소, 간접흡연 피해 예방 위한 금연구역 합동 점검",
+        "count": 3,
+        "sources": 3,
+        "first": "2026-10-14",
+        "last": "2026-10-14",
+        "cat": "행정",
+        "titles": [
+          "화성특례시 동탄구보건소, 간접흡연 피해 예방 위한 ‘금연구역 합동 점검 및 금연 캠페인’",
+          "화성특례시 동탄구보건소, 간접흡연 피해 예방 위한 금연구역 합동 점검",
+          "화성시 동탄구보건소, 간접흡연 피해 예방 위한 금연구역 합동 점검"
+        ],
+        "score": 90,
+        "state": "확산 중"
+      },
+      {
+        "label": "화성특례시, 2026 하반기 건축공사 관계자 대상 안전사고 예방교육 실시",
+        "count": 3,
+        "sources": 3,
+        "first": "2026-10-14",
+        "last": "2026-10-14",
+        "cat": "안전",
+        "titles": [
+          "화성시, 건축공사 관계자 150여 명 대상 안전사고 예방교육 실시",
+          "화성시, 하반기 건축공사 관계자 대상 안전사고 예방교육 실시",
+          "화성특례시, 2026 하반기 건축공사 관계자 대상 안전사고 예방교육 실시"
+        ],
+        "score": 90,
+        "state": "확산 중"
+      },
       {
         "label": "[위클리오늘] 화성시, 하반기 세외수입 직무교육 실시... 체납관리 실무 역량 강화",
         "count": 3,
@@ -83055,58 +83444,26 @@
         ],
         "score": 83,
         "state": "확산 중"
-      },
-      {
-        "label": "화성시, AI 기술 활용해 고액 체납자 끝까지 추적한다",
-        "count": 4,
-        "sources": 4,
-        "first": "2026-10-12",
-        "last": "2026-10-12",
-        "cat": "행정",
-        "titles": [
-          "화성특례시, 인공지능 기술 활용해 고액 체납자 끝까지 추적한다",
-          "화성특례시, 인공지능(AI) 기술 활용해 고액 체납자 끝까지 추적한다",
-          "화성특례시, 인공지능 활용해 지방세 체납자 현장 추적한다",
-          "화성시, AI 기술 활용해 고액 체납자 끝까지 추적한다"
-        ],
-        "score": 76,
-        "state": "진행 중"
-      },
-      {
-        "label": "화성시, AI 활용 고액 체납자 추적 징수",
-        "count": 4,
-        "sources": 4,
-        "first": "2026-10-12",
-        "last": "2026-10-12",
-        "cat": "행정",
-        "titles": [
-          "화성시, AI 활용 고액 체납자 현장 추적 징수 추진",
-          "화성시, AI로 고액 체납자 추적 징수",
-          "화성시 AI 시스템 도입으로 고액 체납자 추적 강화",
-          "화성시, AI 활용 고액 체납자 추적 징수"
-        ],
-        "score": 76,
-        "state": "진행 중"
       }
     ],
     "surge": [
       {
         "cat": "행정",
-        "recent": 18,
+        "recent": 19,
         "days": 3,
         "base": 13,
         "base_days": 12,
         "base_daily": 1.08,
-        "ratio": 5.5
+        "ratio": 5.8
       },
       {
         "cat": "안전",
-        "recent": 3,
+        "recent": 4,
         "days": 3,
         "base": 6,
         "base_days": 12,
         "base_daily": 0.5,
-        "ratio": 2.0
+        "ratio": 2.7
       }
     ]
   },
