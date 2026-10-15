@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-15 08:52",
+  "updated": "2026-10-15 10:22",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 6035,
+  "count": 6065,
   "items": [
     {
       "date": "2026-08-02",
@@ -84687,6 +84687,48 @@
       "senti": "중립",
       "summary": "",
       "kw": [
+        "화성특례시",
+        "만성질환관리센터",
+        "웰다잉부터"
+      ],
+      "date": "2026-10-14",
+      "title": "화성특례시 만성질환관리센터 `웰다잉부터 비만치료` 특강",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1uUl9wcVZVeDJlcnJRSFpuQ2lsME03czFXX2cwM2J3U0NfZnBiU1YtYktRS1B4cGJaSzdlOE9pMUFvWWQxdjA1dnVIWTNSR2c?oc=5",
+      "source": "화성인터넷신문"
+    },
+    {
+      "cat": "환경",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "공동주택",
+        "태양광"
+      ],
+      "date": "2026-10-14",
+      "title": "화성시, 공동주택 태양광 설치 시범사업 실시",
+      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxQX1JoS25QSGpCZDdVdHdzSGNuSms2M29WaWJBaW1DTThsdjlnejNGWUhyZVR0Z3VXU3ZFNGo2TXN4N0s4RmlaOXpuaU9peTg4dnVvY05LNDhXWTg4STJJcWs1QVk3MUNIUW9Pak93SkdxbGViODZDTFd2Q09uOGVYbTVmei0wX200S2RaZ2ZjNkxJVmFwTzQzOUEwU0RQSDVoaVFWYnFyVW1Qa25IdnpuZXBXd0Ytc1ZoMFBNN2dKZHd4eEtOY01fWFc1MG9NUmJUMVNMQTdqQ3NwLVRtZzdTa1N5MTJjdTREdUNtelFtRkNRaHpjNmJHRTVpdmNVLS03R2R2VzQ4WVYxMGlBMzZjUERvenpSOVJzMkRoRHlMNUZJZHFDRUR1VG9GRGh3LW9JWTVlb25n?oc=5",
+      "source": "중앙신문"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "정명근",
+        "화성시장",
+        "글로벌"
+      ],
+      "date": "2026-10-14",
+      "title": "정명근 화성시장, 글로벌 AI 엑스포에 사회학자 샘 리처드 초청…기술보다 ‘사람’",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1rR1hLTjFvbHQ3WHlNcXp5S0ViSy1qNW1tNWNBUjhTWEdsV2kxOXVBSVpPR0N0eDBqVFpFSi03bWJzZXAxSDRQaE1hYklUcXktLThscWZVYnNLNFltd1IxN0tkRnpTQW42eDFOQ9IBbEFVX3lxTE1rR1hLTjFvbHQ3WHlNcXp5S0ViSy1qNW1tNWNBUjhTWEdsV2kxOXVBSVpPR0N0eDBqVFpFSi03bWJzZXAxSDRQaE1hYklUcXktLThscWZVYnNLNFltd1IxN0tkRnpTQW42eDFOQw?oc=5",
+      "source": "필드뉴스"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
         "화성시",
         "시민",
         "행복"
@@ -84927,35 +84969,427 @@
       "title": "수원 군공항 갈등관리 용역에 화성시민 반발…“설문 편향 우려”",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5NZjB0a1dmY04welAwc2pWSGpmMXBTVHNKZjEwVXVyakpycWh0LXRxOVp0Y0hURVZhb2wwTzdfVUxhaklxUE9nMnI5VFNra3pSbDREZEY3dlYtaXJMQnRaSUo5VU92OTdtUGdhN2JnQWRrU2ZIZ2dkWktjckY?oc=5",
       "source": "비욘드포스트"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "관계기관과",
+        "해안방제"
+      ],
+      "conf": "low",
+      "date": "2026-10-15",
+      "title": "화성시, 관계기관과 해안방제 능력 '시험대'",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9GRnF3TnJLUVBLZHJDZnFkQl84VFVjTFMySU1JM1VqVEUwTlZOUmFnZWFZNGtKUTFDbkN5VkVyWHIyMDQ1X0xYbDEySzBUeThDMXhBa1hpR2ZmcTVrTEwtSWpLd01kd1RDeXdDQlIxZk4?oc=5",
+      "source": "인천일보"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "아크메르",
+        "동탄",
+        "독립"
+      ],
+      "conf": "low",
+      "date": "2026-10-15",
+      "title": "아크메르 동탄, 독립 브랜드 아크메르 적용 배경 공개",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE81a2hMMThGUUdFcEpXMnhhbmZPbmZhT0pBTlFlREs1c0k0OVRMVzZuaXN6OTRIcmFjNEZXSkN0RmplckxVRnZWMWFHdzhwZmp2aDBHRWkzNDJicWNx?oc=5",
+      "source": "뉴스핌"
+    },
+    {
+      "cat": "안전",
+      "senti": "부정",
+      "summary": "",
+      "kw": [
+        "향남역",
+        "그로브",
+        "스위첸"
+      ],
+      "date": "2026-10-15",
+      "title": "‘향남역 그로브 스위첸’ 모델하우스 불법 현수막 난립… 화성시 단속은 ‘뒷짐’",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4wOHNzcS1ucndEN1pDd3RVMjdJYjBfdDlmUjZmQlZ6eFp3V3E2S3luWnJ2RW42bUZOT28wQ1J2WkttX0VFVE1paHk1a1Z2TG82aXlyQlZtM1R5NjExYVkzRG84b096dw?oc=5",
+      "source": "뉴스뷰"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "전자부품",
+        "소공인"
+      ],
+      "conf": "low",
+      "date": "2026-10-15",
+      "title": "화성시 전자부품 소공인, 한국전자전 혁신상 수상…기술력 입증",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5NYUg0TFpWNGZna2Z6SzgyVGlURTE2MW1tbVBNZ3hrZEo4ZEhrVEZHSUt3S2E4a0pvVlJXREhsSHR3R0VjcEtUUHdINmVIcXhaenlsMmMyNGRPSFZuV21seg?oc=5",
+      "source": "아시아경제"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "정책의",
+        "잣대는"
+      ],
+      "date": "2026-10-15",
+      "title": "화성특례시 \"정책의 잣대는 시민의 행복\"… 공직자 350명 행복정책 특강",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9oU0ljdmxKWXpGYzZKNE9YTVBRQTdEYVpkbTJhQjBGQXNoSTRtQWhyTU5KTVRpWHZwRzlhV29Mb2JiWHBNX1J1UnVyUnI3ckh0Z1lJc21VYlIzR2lnaVdnazhDUmRPVDdYUUk3SQ?oc=5",
+      "source": "경기타임스 e"
+    },
+    {
+      "cat": "복지",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성오산교육지원청",
+        "교권",
+        "학생인권"
+      ],
+      "date": "2026-10-15",
+      "title": "화성오산교육지원청, 교권·학생인권 상호존중 릴레이 캠페인",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ORTdyU2c4WHdGcm1Nb05hZmZfeW50ajloaHZ3RzdOR1I2MXVpZk5LT21lbkhKZ05Za05WaFEtMGxVVzdqVEdiSXNRdkd3QWFXbWpLYTNPOWo0OVo5dXgzbWdoVjBQdw?oc=5",
+      "source": "화성저널"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시청소년놀터",
+        "10월",
+        "24일"
+      ],
+      "date": "2026-10-15",
+      "title": "화성시청소년놀터, 10월 24일 '가을축제' 놀토데이 운영",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1zdWtwVU53NnFweXV6Y0doY1FDcUwyQVEzWnNyaUcydTAxM3hHdnllVFBTVmpUZnAyRnRwVmhFV1lrSVFUeXZwOUkyUU1FOWJzUlZueTZ6RTV2eWVkUTY3T1pxc0RPODg?oc=5",
+      "source": "경인신문"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "아크메르",
+        "동탄",
+        "독일"
+      ],
+      "conf": "low",
+      "date": "2026-10-15",
+      "title": "'아크메르 동탄', 독일 프리미엄 욕실·주방 수전 '한스그로헤' 기본 적용",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5kMjNQYWtfVXQyY0RqZjh6VU1kREVMa2Jld0UtYUZBQjJ0TFJMMGNXNzNpSTV5ZlRzaVRYbkY5SHo2aFdiQ05zSUh6dDB2Wi0zOHlrbFlpOVBHVlUtYkttWnk3SWQ?oc=5",
+      "source": "www.ppss.kr"
+    },
+    {
+      "cat": "행정",
+      "senti": "부정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "수원",
+        "군공항"
+      ],
+      "conf": "low",
+      "date": "2026-10-15",
+      "title": "화성시, 수원 군공항 이전 갈등 연구용역에 반발",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE94c09ENXo4dmhpRDVIZ3Ywc09zQUk2Tk5qTGJuOFNrSlh6eFNuUUVMdGpCUjhXNGxMbmR0bHZVZjFQNmZjOUY2YWNDZV9VU29xR0hCcW9ucDJUcl9DMTB1VUpVWWxYa3BDZ0NwMmVRako?oc=5",
+      "source": "데일리경기신문"
+    },
+    {
+      "cat": "행정",
+      "senti": "부정",
+      "summary": "",
+      "kw": [
+        "군공항",
+        "이전을",
+        "누구"
+      ],
+      "conf": "low",
+      "date": "2026-10-15",
+      "title": "\"군공항 이전을 누구 맘대로\"…국방부 군공항 용역에 화성시 '집단 반발'",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNa2NubnktczR4SURUMllvWGR5QkF3Y3VvYWRCbWdTYkluZGpqejVUaGhleDU3ZFNNeXNXVVNtcVRmanUyRDRlVG8yVWdYejNCUHFwYnlTMVFCUQ?oc=5",
+      "source": "파이낸셜뉴스"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "하반기",
+        "적극행정"
+      ],
+      "date": "2026-10-15",
+      "title": "화성시, 하반기 적극행정 우수사례 경진대회 개최",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBwQlhDVWRMYzBaRG5JdmRnWWZuaEVSdEVsZG1wcHdkcklqOXBTdlM0eGczXzVqQ2tBUl8xNm80WFdvbjdlRUtVYVlHVWRRNVZ6RC16VWI2bG9ZZWpwZlNVRWZ3?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "cat": "행정",
+      "senti": "부정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "국방부",
+        "군공항"
+      ],
+      "conf": "low",
+      "date": "2026-10-15",
+      "title": "화성시, 국방부 군공항 이전 용역 ‘편향 설계’ 시민단체 반발",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9od0NHakVaNDFvUDhrWkRER2ZFOG5xSnBiRVFfYzg4VHJIdHR0U3d2YUttd1hEUzNXS0NCdVFJa0ZWTW4wMzN3M3ZWckVkR1pGODRjVTlVZHYzelhlZnJHcg?oc=5",
+      "source": "NSP통신"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "NH농협은행",
+        "화성시지부",
+        "신사옥"
+      ],
+      "conf": "low",
+      "date": "2026-10-15",
+      "title": "NH농협은행 화성시지부, 신사옥 준공",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9OV29TWW9oMFBhdkN0ajhxVmVHMFE4YlRZbkR5WnBDT25iR04td3hQMFp1d2w4bk96bFQtb1NEc2RBenJhcFhwdXp2NFVSYUE0T0xEZmFmUloxVXBKMkJ5SDV4UnIydUZsOUpXZTdqS0Q?oc=5",
+      "source": "인천일보"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "공직자",
+        "대상"
+      ],
+      "date": "2026-10-15",
+      "title": "화성특례시, 공직자 대상 지방정부 행복정책 특강 열어",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBuWDZqSGpzMWQ2N1BsMTBLdHlZRHlEMUl1WFBPUGpjeGVWNnVYZWhWbFFBbmZVWW56U3JBbWJKckhBX05xQmF3ckYyU2Q?oc=5",
+      "source": "모닝투데이"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "경기미",
+        "원산지"
+      ],
+      "conf": "low",
+      "date": "2026-10-15",
+      "title": "화성시, 경기미 원산지 표시 집중 점검",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBKSzlsS1VEcnZfeHJUa203bndkRFBKRW9zZ2pyYXBhLTBoYlNNUVpoWnVJeG45NzNTT3pveHJLTm1qM3h2QUFjRklpdWdvV25qazFUbEdBLVNjajUzRTI2MGJkTnNoRDNjbFBONVNKck4?oc=5",
+      "source": "데일리경기신문"
+    },
+    {
+      "cat": "환경",
+      "senti": "부정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "합동",
+        "해양방제"
+      ],
+      "date": "2026-10-15",
+      "title": "화성시, 민·관 합동 해양방제 훈련 실시…해양오염 대응 역량 강화",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8taU1PVWc5Sm9fZkhBcnp1S1FhLW5XRUxkOWQ5MktOZDVtbkZySm9SYUYzb0psR2JoeUZvS3BsT29aZkdqYVZFOWhsUnlDQjdjTnlEbXVHaUNYOFpOYUdrdk9R?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "경기미",
+        "원산지"
+      ],
+      "conf": "low",
+      "date": "2026-10-15",
+      "title": "화성시, 경기미 원산지 표시 지도점검…부정 유통 방지",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ENlYyNTJ6Um1Rc1ZnM1ozcjdOQndITXFXWnE3THlIcTZNdFlOd2tGTUMzdno0RVlXbFJqRDF3Ym5vQ3YtZjJmaEQtX3g3QXA4djcwRkRNMkx0UWYyMkxYWmhB?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "진안동",
+        "나눔터"
+      ],
+      "date": "2026-10-15",
+      "title": "화성시 진안동, ‘효 나눔터’ 행사 마련",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5YQmYwQVVIcmVSa3RTMXdEQ3pEbEFva0JoaUFIQVVpak1UeTJuQl9QWjVvQnRIRXFrYW84cWp5RHBTU1p0eGJSZFp2cWVXV3VYclhUV1BiWF9saU1GMm9uWkhn?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "cat": "행정",
+      "senti": "부정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "국방부",
+        "수원"
+      ],
+      "conf": "low",
+      "date": "2026-10-15",
+      "title": "화성시, 국방부 수원 군공항 이전 용역 설문조사 편파성에 강력 반발",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5Zb002YjJQSGMyYnpCTkxhSVhRR2VXTEttVTFhWGpXQ3gta2NuQzZvOTBEUThYNVpTcDFuZVJ1VDBkbDRvTWZsVXVvRDM?oc=5",
+      "source": "모닝투데이"
+    },
+    {
+      "cat": "복지",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "만세구보건소",
+        "국민건강영양조사"
+      ],
+      "date": "2026-10-15",
+      "title": "화성시 만세구보건소, 국민건강영양조사 주민 협조 당부",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE41RFRHX3NFN1N0cl9oc2hBV2ZZTmdzeURTWGcxQmJxeGE2V0MzRF9Vd0RxNkhvZl9McFN5UWJmak11b0lYdnVoc2lFa0c4aEUtZjkwTUpqMUNLeThCamhkdVN3?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시노사민정협의회",
+        "이주노동자",
+        "인식개선"
+      ],
+      "conf": "low",
+      "date": "2026-10-15",
+      "title": "화성시노사민정협의회, 이주노동자 인식개선 및 협력 방안 논의",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9PX2F1WEF2eEJyRzI4Y21PMGJJQWs4STMzaHJKMmo4ajVJcEdYdjdJaU1XMzU0Sm9tQW1vTjFIRkJWcldwOWxlZGlGSF9nRlJONVAyUmIyeVVfUzdMUC1Rd3RBUUNDanlXM1g4bEl4UDh1QQ?oc=5",
+      "source": "웹이코노미"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "피클볼",
+        "플래그풋볼",
+        "즐기는"
+      ],
+      "date": "2026-10-15",
+      "title": "'피클볼·플래그풋볼' 즐기는 생활체육인들 화성으로…11월 뉴스포츠 한판 승부",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5EOXcyOXhGMVI1NUZVc3NPdm5OSzBpNUhCa0VlMWtRU2RYY21id3E1elN1TXh2cFV0eVEydnVJS3Z3WXV3QXZkSDBXRlU1U04tdEdVdzc0enhleFnSAVZBVV95cUxQa0VOdzBhTGFZS1hwU0NXY3ZxS3M2dV92eVJZblpxTWloWkROTnhaR1VSZmQ3ZTFERkMzd2dVQkZyNEtySmlhaUxCMlhvdkE0OW9aVUJ6UQ?oc=5",
+      "source": "더팩트"
+    },
+    {
+      "cat": "복지",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "만세구보건소",
+        "국민건강영양조사"
+      ],
+      "date": "2026-10-15",
+      "title": "화성특례시 만세구보건소, 국민건강영양조사 협조 요청",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE40RnAxelhZVDBFV0xOcEhfNzcxRWYxLUU4YXlpTENoT3FveTJJVy1VSzJzcHlRQm9nYkF3UGxBSm5SQ1cwOGswRHBPOFpMOUR2QU9PTFBZT1pMVmdDdjRqQVlxTEZJYk54M0VaT1JJaVNyZw?oc=5",
+      "source": "웹이코노미"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성",
+        "람다이노비전",
+        "한국전자전"
+      ],
+      "conf": "low",
+      "date": "2026-10-15",
+      "title": "화성 ㈜람다이노비전, 한국전자전 KES 이노베이션 어워즈 수상",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1IWWhtVnB6WjNjTlNCMFowMkhlVzZsREptRFFlcXhuS0RraG1zNXprclhTUWxrVVRfUXp6X2FualVKcXFfSk9YLW0xUXExZlBjZVBiQWtidWhmQjlNekZzMGpJRXhBX2hwYWFsbF82Qlo?oc=5",
+      "source": "데일리경기신문"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "노사민정협의회",
+        "이주노동자는"
+      ],
+      "date": "2026-10-15",
+      "title": "화성특례시 노사민정협의회 \"이주노동자는 이웃\"… 인식개선 머리 맞대",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9UX2YteTQ0M3pMWWVzQmo1MS1TU21uTVdZdWJyNENmSUxsaXA4YUpRczJvMGlUSGhoeVYxb1JJODFoNXdsNnRxOHlLTWhfcGVLWEJ6WnM5TTVhQ3dteVRmWnFBa0t4TEdaZmJyTg?oc=5",
+      "source": "경기타임스 e"
+    },
+    {
+      "cat": "행정",
+      "senti": "부정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "수원",
+        "군공항"
+      ],
+      "conf": "low",
+      "date": "2026-10-15",
+      "title": "화성시, 수원 군공항 이전 국방부 용역 시민단체 반발",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9rbU02S0ctNWV6aXJORVpTOTRDMUg3TE1Ic1FkUGQzXzZuei1KRWprYlJJZnZ6WWpYWmRCLVBGQURFd0hRc0xPNFliM3djU1lUMnBmX1Z6dng?oc=5",
+      "source": "스포츠서울"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "수향미",
+        "수확"
+      ],
+      "date": "2026-10-15",
+      "title": "화성특례시 '수향미' 첫 수확… 햅쌀 300㎏은 이웃 밥상으로",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9tNUItcXBEVjJwX2U0Q0RCY3BmRGh1dVR0MERZNmZKc0o0V3U5NUh4clFkZFNMSEZieXpPLXZycURjSERSaWN4SGZVYnc2eGxNWnhNT00temRPRktSRldjbUJqMTZYeVVKeUdXRA?oc=5",
+      "source": "경기타임스 e"
     }
   ],
   "dropped": {
-    "count": 95,
+    "count": 99,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
+      "수원광명고속도서 SUV, 작업차 추돌…운전자 사망, 아내·자녀 부상",
       "‘잘 나가는’ 남양유업 단백질 음료, 새 캠페인으로 입지 굳힌다",
       "남양유업 '테이크핏' 76.1% 매출 증가..새 브랜드 캠페인 영상 공개",
-      "[유통家 단신] 오뚜기·서울우유·아모레퍼시픽·쿠팡·남양유업 등",
       "체납관리 공무원 역량 높여 지방재정 건전성 늘린다",
-      "운행 중인 버스서 기사 폭행한 60대, 불구속 송치",
+      "[유통家 단신] 오뚜기·서울우유·아모레퍼시픽·쿠팡·남양유업 등",
       "[유통가 오늘] 오뚜기ㆍ남양유업ㆍ농심ㆍ다이닝브랜즈그룹",
       "포토뉴스",
-      "버스 기사에 소화기 휘두른 60대 남성 불구속 송치",
+      "운행 중인 버스서 기사 폭행한 60대, 불구속 송치",
+      "남양유업 테이크핏, 캠페인 공개…'운동편' 시작으로 일상 속 체력 관리 조명",
+      "거래 증가에 집값도 상승…경기 남부 반도체 벨트 부동산 시장 활기",
       "[똑똑한소비] 남양유업 테이크핏, CJ웰케어, 롯데칠성음료, 파리바게뜨, 할리스, 한우자조금",
       "삼성전자 나비효과에 집값 '들썩'…9개월 만에 '2억' 뛴 동네 [주간이집]",
       "남양유업, 테이크핏 새 캠페인 '결국 체력이야'",
-      "“버스 흔들려 화나”…소화기로 운전기사 폭행한 60대 불구속 송치",
-      "남양유업 테이크핏, 캠페인 공개…'운동편' 시작으로 일상 속 체력 관리 조명",
-      "수원광명고속도로서 SUV가 도로공사 차량 추돌…4명 부상",
+      "버스 기사에 소화기 휘두른 60대 남성 불구속 송치",
       "남양유업 테이크핏, 캠페인 영상 공개...운동&일상 속 체력의 순간 조명",
-      "말라리아 사업 실적 점검",
+      "“버스 흔들려 화나”…소화기로 운전기사 폭행한 60대 불구속 송치",
+      "수원광명고속도서 SUV가 작업차 들이받아…40대 운전자 사망",
       "남양유업, ‘테이크핏’ 일상 영양관리 시장 공략…신규 캠페인 전개",
-      "남양유업 테이크핏, 일상 담은 캠페인 영상 공개",
-      "경기남부 4개 시, 광역철도 국가계획 반영 촉구… 국회서 공동 기자회견",
+      "수원광명고속도로서 SUV가 도로공사 차량 추돌…4명 부상",
       "\"운동 넘어 일상 체력까지\" 남양유업, 테이크핏 새 캠페인 공개"
     ]
   },
-  "low_confidence": 41,
+  "low_confidence": 14,
   "briefs": {
     "all": "수집 기간 전체 [[w]]부정기사 380건(7%)[[/w]] 중 안전 분야가 187건으로 절반 가까이 차지하고 있으며, 행정 98건, 산업경제 45건으로 분산되어 있습니다. [[b]]2026-09-16에 22건이 집중[[/b]]되었으므로 해당 날짜의 안전 관련 이슈를 먼저 확인하시기 바랍니다.",
     "7": "최근 7일간 [[w]]부정기사는 37건(9%)[[/w]]으로, 안전 분야 32건이 대부분을 차지합니다. [[b]]9월 23일에만 21건이 모두 안전 분야[[/b]]로 집중되었으므로, 해당일 보도 내용을 우선 검토하실 필요가 있습니다.",
@@ -84963,12 +85397,12 @@
   },
   "briefs_updated": "2026-09-29 09:57",
   "issues": {
-    "updated": "2026-10-15 08:52",
+    "updated": "2026-10-15 10:22",
     "items": [
       {
-        "label": "수원 군공항 갈등관리 용역에 화성시민 반발…“설문 편향 우려”",
-        "count": 5,
-        "sources": 5,
+        "label": "화성시, 수원 군공항 이전 국방부 용역 시민단체 반발",
+        "count": 9,
+        "sources": 9,
         "first": "2026-10-15",
         "last": "2026-10-15",
         "cat": "행정",
@@ -84977,7 +85411,11 @@
           "수원 군공항 이전 설문 '편향' 논란…화성시 “찬성 유도 우려”",
           "화성시민단체, 국방부 ‘수원 군공항 이전 갈등관리 용역’ 반발",
           "국방부 '수원 군공항 이전 갈등관리' 용역에 화성시민 '강력 반발'",
-          "수원 군공항 갈등관리 용역에 화성시민 반발…“설문 편향 우려”"
+          "수원 군공항 갈등관리 용역에 화성시민 반발…“설문 편향 우려”",
+          "화성시, 수원 군공항 이전 갈등 연구용역에 반발",
+          "화성시, 국방부 군공항 이전 용역 ‘편향 설계’ 시민단체 반발",
+          "화성시, 국방부 수원 군공항 이전 용역 설문조사 편파성에 강력 반발",
+          "화성시, 수원 군공항 이전 국방부 용역 시민단체 반발"
         ]
       },
       {
@@ -85037,12 +85475,12 @@
     ]
   },
   "today": {
-    "updated": "2026-10-15 08:52",
+    "updated": "2026-10-15 10:22",
     "items": [
       {
-        "label": "수원 군공항 갈등관리 용역에 화성시민 반발…“설문 편향 우려”",
-        "count": 5,
-        "sources": 5,
+        "label": "화성시, 수원 군공항 이전 국방부 용역 시민단체 반발",
+        "count": 9,
+        "sources": 9,
         "first": "2026-10-15",
         "last": "2026-10-15",
         "cat": "행정",
@@ -85051,7 +85489,11 @@
           "수원 군공항 이전 설문 '편향' 논란…화성시 “찬성 유도 우려”",
           "화성시민단체, 국방부 ‘수원 군공항 이전 갈등관리 용역’ 반발",
           "국방부 '수원 군공항 이전 갈등관리' 용역에 화성시민 '강력 반발'",
-          "수원 군공항 갈등관리 용역에 화성시민 반발…“설문 편향 우려”"
+          "수원 군공항 갈등관리 용역에 화성시민 반발…“설문 편향 우려”",
+          "화성시, 수원 군공항 이전 갈등 연구용역에 반발",
+          "화성시, 국방부 군공항 이전 용역 ‘편향 설계’ 시민단체 반발",
+          "화성시, 국방부 수원 군공항 이전 용역 설문조사 편파성에 강력 반발",
+          "화성시, 수원 군공항 이전 국방부 용역 시민단체 반발"
         ],
         "score": 90,
         "state": "확산 중"
@@ -85091,12 +85533,21 @@
     "surge": [
       {
         "cat": "안전",
-        "recent": 5,
+        "recent": 6,
         "days": 3,
         "base": 4,
         "base_days": 12,
         "base_daily": 0.33,
-        "ratio": 5.0
+        "ratio": 6.0
+      },
+      {
+        "cat": "행정",
+        "recent": 16,
+        "days": 3,
+        "base": 25,
+        "base_days": 12,
+        "base_daily": 2.08,
+        "ratio": 2.6
       }
     ]
   },
