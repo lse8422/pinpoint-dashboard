@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-16 08:38",
+  "updated": "2026-10-16 10:09",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 6215,
+  "count": 6226,
   "items": [
     {
       "date": "2026-08-02",
@@ -87315,6 +87315,20 @@
       "source": "저널25방송"
     },
     {
+      "cat": "산업경제",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "서울",
+        "아파트값",
+        "88주째"
+      ],
+      "date": "2026-10-15",
+      "title": "서울 아파트값 88주째↑…분당·영통·동탄, 반도체 머니로 ’들썩’",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBTUjZiemJlZlhLeHdnZndBUzVGckN6SllpTFM2bE9UNVZVRUN6SDdiLWdWOEwyVHY4WEM1Zi0tLUVYWGh4WXp5d3IxOEtyUjA5MDhub0lIVGxQUEdINGtDZkpaNzVvZHM?oc=5",
+      "source": "연합뉴스TV"
+    },
+    {
       "cat": "문화관광",
       "senti": "중립",
       "summary": "",
@@ -87511,35 +87525,176 @@
       "title": "화성특례시, 문화가 있는 날 전통연희극 ‘홍랑각시’ 공연",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5qOG5hNktDckxEUnE4S0IwYkNmRXhRZFlmLWY4QjBINVZZM3U5eHBkbjNaWTJYWVo2ZmF1RFFkQnVWWGZGRnhRbzlkd3dOX2EzWDNuY1dYWlJQeGlzZ1MxQWl5QlB1M2lzVHNWSWh2aEdrRFJE?oc=5",
       "source": "글로벌뉴스통신GNA"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "로컬푸드",
+        "직매장에"
+      ],
+      "date": "2026-10-16",
+      "title": "화성시 로컬푸드 직매장에 공정무역 제품 입점하나…23일 공청회",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE94VDhjUDZYTDV3WmhOY183VFgtUGlKTmxuWXM3ZG9mS1dfS3JUN1ZhRGJ6ZkVpbUdsbmtBbkp0aTZ4QUVNb2NYLS1MLUxLZ2YtQkM1Vm5aYmgzNzVleXE5Z1oyc2o?oc=5",
+      "source": "매일일보"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "역사박물관",
+        "호랑각시"
+      ],
+      "date": "2026-10-16",
+      "title": "화성시 역사박물관, 호랑각시 공연",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1MdTI4LUs2NUtDc0VScnpBX3kyTWNyaUNETVNxM3NTSEZLNlEyVmo2ZlhnQXZlODlMdFlNUkV3ZXVKNGR1V2paQ3lQYnoycTdEazMwanlIMFpFcjQyQlkxR1drQnM?oc=5",
+      "source": "경인뷰"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "역사박물관",
+        "지역"
+      ],
+      "date": "2026-10-16",
+      "title": "화성시 역사박물관, 지역 설화 담은 전통연희극 ‘홍랑각시’ 공연",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ZbGY2M1ZPLV95RERueEtqSWppeVgyYmFmNVZha1d2V0tSTVR3WTctMUdLazY3MV83OXlIbXk3SE1aYkUzN3o2di1yWGJVVV92eUVxVEdoSEZobHNwVmpOTWNkNzIzR1FUWUE?oc=5",
+      "source": "천지일보"
+    },
+    {
+      "cat": "환경",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "108만",
+        "녹지",
+        "반송역"
+      ],
+      "date": "2026-10-16",
+      "title": "“108만㎡ 녹지·반송역 직결 추진”…‘아크메르 동탄’ 16일 분양일정 돌입",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5xLUxhMHdqVGpIVnlWRWFhYllNazcyWEo1aW9OVDdWSFpYOFdTSVRtenZfMFNRN0g3SmlZby0wSWhsNmZ4M0Zyc3kwdS04MTMzYklVeWw1YjQ?oc=5",
+      "source": "매일경제"
+    },
+    {
+      "cat": "복지",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "한강식품",
+        "한국지체장애인협회",
+        "화성시지회에"
+      ],
+      "date": "2026-10-16",
+      "title": "한강식품, 한국지체장애인협회 화성시지회에 ‘The 미식’ 제품 기부",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1TUFp6UFFVYjg3R1RCSmNBTWsxaGp1aWpwQUZGc1pGUHhFQVR2SDNwUndVclVjRHNEVHFGZVBjMlpLNWlneVBOdzdUVzZqcEdreW9GODFyX2NWMG9jM2Z4TG9FenlySFVPQ2xkdw?oc=5",
+      "source": "농업인신문"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "우주항공산업",
+        "육성"
+      ],
+      "date": "2026-10-16",
+      "title": "화성시, 우주항공산업 육성 본격화…11월 추진단 출범",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzME84eGw2eDJvRDlEb1ppWkxoQ3RkU0E1dFpTU0thME1BNFo3a2xJdDlZanV1WlFON3pTOGk4ZzU0VkZVZjNyUGVTaUwyTW5nSmlCR1BQZnpJdWfSAVZBVV95cUxOcWl3UEh4Vk5HaEc4MEpnWUNsSDN5dW9IdFFvQmUwN0R1bmwtUTlrdkw4QzV3UGJQQjk4TXRhZ25kZ0xvQmlUaEI1WVdPVUVfNnE4WlBxQQ?oc=5",
+      "source": "더팩트"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성의",
+        "옛이야기",
+        "무대"
+      ],
+      "date": "2026-10-16",
+      "title": "화성의 옛이야기 무대 위로…전통연희극 '홍랑각시' 공연",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9kM0VIWERMaldfekdmLXp2Zmt5T1dhZ1hvQ1p2N1J4QUlVOTFHWENoOXpmMGJuanRXXzVIcWhDYUZ4R0J0RHEyYUpzdU5zREJMVGw5YU55aw?oc=5",
+      "source": "KPI뉴스"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시문화관광재단",
+        "화성",
+        "황금해안길"
+      ],
+      "date": "2026-10-16",
+      "title": "화성시문화관광재단, 화성 황금해안길 매력 알릴 2026 사진·숏폼 공모전 개최",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5FOVFEZ0VoQWxIX3VqR3hObUhQRzQtT0djbkJUMWRkX2RJSDJrWDJMYk5GR3E3TWtudjNfVWYydkxhM3U4T1dPOS04ZXZIRUh0QmhSYklaSVJRS0J3ODVWb0c5clc2WmJYeVJSdElGN1hSZw?oc=5",
+      "source": "웹이코노미"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성",
+        "황금해안길",
+        "사진"
+      ],
+      "conf": "low",
+      "date": "2026-10-16",
+      "title": "화성 황금해안길 사진·숏폼 공모전, 총상금 1140만원…11월 24일까지",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBWLTdOMzljTDczTGFoTzZBdXVkZkVCSU5pOTF4cDhZeS0xMmdpeHROYlM5Y0xlUjlLWlVkRmRTMEFVZHFJZWh4cktyTGVDcm5zRDNXbFdBTmJZRHVveV9UbnFqcFJCNzFEOFlLMHExN0Z3dw?oc=5",
+      "source": "스페셜타임스"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "전통연희극",
+        "홍랑각시"
+      ],
+      "date": "2026-10-16",
+      "title": "화성특례시, 전통연희극 홍랑각시 공연",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5SanZYR0lpYkFKZzlMX2RZZlNxQTJMY0hQNGtsTkdYaGhIUXdBemNUWUx4eEplYnBteFh2Y3pCV3k1ckxpZVZhSFhVMENZLThoNXNKbzZLRG1rSlVaOWpvcnpaU2FrTGhYQ2c?oc=5",
+      "source": "국민투데이"
     }
   ],
   "dropped": {
-    "count": 84,
+    "count": 68,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
-      "수원광명고속도서 SUV, 작업차 추돌…운전자 사망, 아내·자녀 부상",
-      "커피는 작게·치즈는 두툼하게…남양유업, 제품 규격·성분 세분화",
       "'비규제' 수원 권선·군포 집값 급등…규제지역 확대하나",
-      "남양유업 테이크핏, “결국 체력이야!”…새 브랜드 캠페인 영상 공개",
-      "KB부동산 \"서울 아파트값 상승세 둔화 이어져…경기 남부 강세 주도\" |",
       "수원광명고속도서 SUV가 작업차 들이받아…40대 운전자 사망",
-      "[똑똑한소비] 남양유업 테이크핏, CJ웰케어, 롯데칠성음료, 파리바게뜨, 할리스, 한우자조금",
+      "남양유업, 커피는 소용량·치즈는 대용량…제품 세분화",
       "수원광명고속도로서 SUV가 도로공사 차량 추돌…4명 부상",
-      "남양유업, 테이크핏 새 캠페인 '결국 체력이야'",
-      "남양유업 '테이크핏' 76.1% 매출 증가..새 브랜드 캠페인 영상 공개",
-      "5조 경기남부철도, 국가계획 문턱",
-      "남양유업, ‘테이크핏’ 일상 영양관리 시장 공략…신규 캠페인 전개",
+      "남양유업, 소비자 수요 맞춰 커피·치즈·분유 제품군 다변화",
+      "KB부동산 \"서울 아파트값 상승세 둔화 이어져…경기 남부 강세 주도\" |",
+      "수원광명고속도서 SUV, 작업차 추돌…운전자 사망, 아내·자녀 부상",
+      "[똑똑한소비] CJ제일제당, 풀무원, 농심, 롯데칠성음료, 남양유업, 일동후디스, 면사랑, 이롬, 제주삼다수",
+      "커피는 작게, 치즈는 두껍게…남양유업, 소비 방식 따라 제품 세분화",
+      "수원광명고속도서 일가족 탑승 SUV, 작업차 추돌…운전자 사망",
+      "\"작게 마시고 크게 먹고\" 남양유업, 용량·영양 선택지 넓힌다",
+      "커피는 작게·치즈는 두툼하게…남양유업, 제품 규격·성분 세분화",
       "한국 쇼트트랙은 경기도 군단이 이끈다",
-      "주월동 지주택 입주 마쳤지만, 분담금 폭탄?",
-      "\"운동 넘어 일상 체력까지\" 남양유업, 테이크핏 새 캠페인 공개",
-      "포토뉴스",
-      "강남3구 약세 지속에도…경기 남부 반도체 벨트는 ‘불장’[집슐랭]",
-      "남양유업, 테이크핏 새 캠페인 ‘운동편’ 공개",
+      "수원광명고속도로서 SUV 추돌사고…1명 심정지·3명 부상",
+      "남양유업, 커피 소용량·치즈 대용량 등 규격별 제품 구성 확대",
+      "5조 경기남부철도, 국가계획 문턱",
+      "남양유업, 커피·치즈부터 단백질까지…“소비자 맞춤형 제품 세분화”",
+      "충주 신나는어린이집, 그림책으로 피어난 아이들의 자연 이야기",
       "브런슨 주한미군사령관 “전작권 전환조건 변했다”",
-      "[유통家 단신] 오뚜기·서울우유·아모레퍼시픽·쿠팡·남양유업 등"
+      "'5년 적자' 끊은 남양유업의 반전…수출 130% 뛰고 국가대표 식품기업으로 '우뚝'"
     ]
   },
-  "low_confidence": 51,
+  "low_confidence": 1,
   "briefs": {
     "all": "수집 기간 전체 [[w]]부정기사 380건(7%)[[/w]] 중 안전 분야가 187건으로 절반 가까이 차지하고 있으며, 행정 98건, 산업경제 45건으로 분산되어 있습니다. [[b]]2026-09-16에 22건이 집중[[/b]]되었으므로 해당 날짜의 안전 관련 이슈를 먼저 확인하시기 바랍니다.",
     "7": "최근 7일간 [[w]]부정기사는 37건(9%)[[/w]]으로, 안전 분야 32건이 대부분을 차지합니다. [[b]]9월 23일에만 21건이 모두 안전 분야[[/b]]로 집중되었으므로, 해당일 보도 내용을 우선 검토하실 필요가 있습니다.",
@@ -87547,7 +87702,7 @@
   },
   "briefs_updated": "2026-09-29 09:57",
   "issues": {
-    "updated": "2026-10-16 08:38",
+    "updated": "2026-10-16 10:09",
     "items": [
       {
         "label": "화성특례시·시민단체, 국방부 군공항 이전 갈등관리 용역 반발",
@@ -87635,7 +87790,7 @@
     ]
   },
   "today": {
-    "updated": "2026-10-16 08:38",
+    "updated": "2026-10-16 10:09",
     "items": [
       {
         "label": "화성특례시·시민단체, 국방부 군공항 이전 갈등관리 용역 반발",
