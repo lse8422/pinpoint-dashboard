@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-17 08:27",
+  "updated": "2026-10-17 10:14",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 6366,
+  "count": 6379,
   "items": [
     {
       "date": "2026-08-02",
@@ -87413,6 +87413,20 @@
       "source": "프레시안"
     },
     {
+      "cat": "환경",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "봉담고",
+        "융건릉",
+        "생태"
+      ],
+      "date": "2026-10-15",
+      "title": "봉담고, ‘융건릉 생태 역사 탐방’ 세계시민 역량 강화 앞장",
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFB5Tmg0b3dibHZZczVQbmpKaG12QUQ5em9KTGZGYUlIeWQ5M0w4SkdyMkpoLVRSbU9WeUJmbjRnaF9JQQ?oc=5",
+      "source": "화성신문"
+    },
+    {
       "cat": "문화관광",
       "senti": "중립",
       "summary": "",
@@ -89517,6 +89531,48 @@
       "source": "뉴스클레임"
     },
     {
+      "cat": "산업경제",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "반도체",
+        "상승장에",
+        "비규제"
+      ],
+      "date": "2026-10-16",
+      "title": "반도체發 상승장에…‘비규제’ 군포·병점이 떴다",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeUl1dXZRX1l0c1pZdV8wR0lrdE15ZnJrei1HV1FnOHVnTW92MGZjVHkycXY0d2x4cm5QQ2NfeXN6TUlpUVpCbVNZRGpzUGtLMkJsdS1heHFPV1pXT2FkR2xoTWt0aTIxcDdETmpYcnhLMFVBUElSTXhYSF80Zm1ubA?oc=5",
+      "source": "이데일리"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "2026년",
+        "하반기"
+      ],
+      "date": "2026-10-16",
+      "title": "화성특례시, 2026년 하반기 적극행정 우수사례 경진대회 개최",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iY2NId2NfUi1scklpdzhHdy1wQURaU3BJai0wWDVrX1JJVDdERnZub2NIUkY3bjBwTGhLcThpb3FsRm8zYnNfbk8zTmwtU0JobFdldTFkWWFvMnNTbldiaUdUZUtRZEswMEtzV2p0MWM1UdIBckFVX3lxTE9iY2NId2NfUi1scklpdzhHdy1wQURaU3BJai0wWDVrX1JJVDdERnZub2NIUkY3bjBwTGhLcThpb3FsRm8zYnNfbk8zTmwtU0JobFdldTFkWWFvMnNTbldiaUdUZUtRZEswMEtzV2p0MWM1UQ?oc=5",
+      "source": "엔디엔뉴스"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시의회",
+        "수원",
+        "군공항"
+      ],
+      "date": "2026-10-16",
+      "title": "화성시의회, 수원 군공항 이전 반대 규탄 결의…“특별법 철회하라”",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9VNW1YV3Exb25Iay1iYk43bUVVOFJFekNMNk0tZnU0QXN6X3VUQXh4LUoxRExHdldaSlZiN0wtYm1qOG1iTDJyS3d3dl82WmE3bWlpNU9LRmw4a3l1VUlfc3FQTURiYjRzc28wSFRYQWxKX1JIZUg0Unl30gF_QVVfeXFMTnRHYVJrZHd3TFlyTUVJNExHLW4zSlNkUWJpYWpGdG1iY1R4czQyZ1VzSkliT2FZVkpEOXVWUHZkc2xadjRWelZjcmtReE56X0ZNTDI3alRxd0hqRG9oaWNtSmlaVm05SXRnckZmTmFPeldSU3hwUXhzYmNXaG9tYw?oc=5",
+      "source": "뉴데일리 경기"
+    },
+    {
       "cat": "복지",
       "senti": "긍정",
       "summary": "",
@@ -89659,35 +89715,165 @@
       "title": "드디어 베일 벗는 동탄 첫 하이퍼엔드 ‘아크메르 동탄’, 16일 견본주택 개관",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9yS0ZyMzZtel81aWRVUXhaQjB6YVBZS3Z3YlhWeGRJR20tZGlTWmNsd1NPRm9hTTRKd0VMVkJPWlZtZ2p2RTZQRjNad3hKSlQyR3JpT25NQjczb2tJUkVncmluSFRhM21hME5IQ2N4V29VQdIBckFVX3lxTE9yS0ZyMzZtel81aWRVUXhaQjB6YVBZS3Z3YlhWeGRJR20tZGlTWmNsd1NPRm9hTTRKd0VMVkJPWlZtZ2p2RTZQRjNad3hKSlQyR3JpT25NQjczb2tJUkVncmluSFRhM21hME5IQ2N4V29VQQ?oc=5",
       "source": "경인종합일보"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "동탄",
+        "영통",
+        "넘어"
+      ],
+      "date": "2026-10-17",
+      "title": "동탄·영통 넘어 분당까지 아파트 매수↑…‘반도체 벨트’ 확대",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9kQlQ1aGk3ZnpBUHVNdmNzQzl5b2hzd2R3cTQyX08tXzYyV0JONUdrNUZCVkZCSnM4NkNXQ1dHbWYxaDZ5UXNLMWtDazM4MFNl?oc=5",
+      "source": "문화일보"
+    },
+    {
+      "cat": "행정",
+      "senti": "부정",
+      "summary": "",
+      "kw": [
+        "김정주",
+        "화성시의원",
+        "농지개량"
+      ],
+      "conf": "low",
+      "date": "2026-10-17",
+      "title": "김정주 화성시의원, 농지개량 성토 불법 80건…\"사후점검 강화\"",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBjZzJDNnhlWmJmV3NEcUxyVmhMUkZFMW5IRk1Cbi1MTlBmR2lLVlB3Sy1pcnlBaUNxSDh4VkR1U014Rm9JQ191NjExa3EtYlczOVRyeHFVbnplUFgybTdPdzN3?oc=5",
+      "source": "경인미래신문"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "삼성전자",
+        "1800가구",
+        "단지"
+      ],
+      "conf": "low",
+      "date": "2026-10-17",
+      "title": "삼성전자 옆 1800가구 단지 '아크메르 동탄'…국평 17억에도 관심",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Ba2JWRkFFYkttTk9Sa0wyaS1FUWRXZDFyaGRpU25qd2FPWUtsX2FTaGFGUGpwenZDb3RJb3RWTXZKcndyaDVRbjdIMGFzMFhieWdzaldLSlVoaG8?oc=5",
+      "source": "뉴스1"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "4개",
+        "보건소"
+      ],
+      "date": "2026-10-17",
+      "title": "화성특례시 4개 구 보건소, 세계 손씻기의 날 맞아 감염병 예방 캠페인 실시 > 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5VVWJVRmltS0ZDQWlNcWlkSThwYUU2c3NtYUlRQmpiMm5ZUnlyM3kxb0ljeEl1ZGVScU9CTnJmM3lKZFRvLW5HTEZ2NDRIQWg0TFFTMXRMMGJ1MVNMTmJRQTB6XzRIaWp1NHVZaTdzMGI?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "베일",
+        "벗은",
+        "아크메르"
+      ],
+      "conf": "low",
+      "date": "2026-10-17",
+      "title": "베일 벗은 '아크메르 동탄' 16일 견본주택 오픈",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBwajZmSExIVXY0aG81cDc2b3ZBZk00SUVSbkVRdk5jUXpFb1V4ZEd4d3V2ejh2Ni1pNGVyRTVIOWVFOTB2TExiYWVqX3I3UHhiWndXb1NPMWtBcHZRNjc1TkFueWRXZ1l5Wk4wWV81OA?oc=5",
+      "source": "기호일보"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "경기",
+        "남부",
+        "집값"
+      ],
+      "conf": "low",
+      "date": "2026-10-17",
+      "title": "경기 남부 집값 강세…분당 0.79%·동탄 누적 20% 돌파",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBtTm9ydkQzckV2SFRmYlJ0eURjTlR4RkZFY1pHa3J3RTFYUFdBaVFPTHdpVHh1TnR3SjNndWtfVExtb25DY3BXWXFvYktLa1k3OVlkakVqcElBT08tNWE3WExVbGRjam9xVXc?oc=5",
+      "source": "컨슈머타임스"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "29조",
+        "반도체",
+        "머니"
+      ],
+      "date": "2026-10-17",
+      "title": "“29조 반도체 머니” 동탄 집값 철벽 방어하는 ‘실리콘 실드’ 뜬다",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1pbm9IbXJMMzNUaXQ1azQ2QThJbXpzVUt0OWMzbnhmeW9fcnFYSmpfeVpWOG14VmJZQjc1TUNudlp3czJkZ1VaemYyZGhPT2ljdVhYOWZydHZGU3NRU2fSAWNBVV95cUxQMWlrbjdKV0NkSDZocEs3MS1sYUZwWTdza3YxbWhYSVVBQTVQU0xCTkJhdlozVm4wam9zS2tPY1VTeUVhblEyMU02UUFIWF9lNXF1LTRSVHFnOGxQWU0zV2diUnc?oc=5",
+      "source": "스포츠경향"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "동탄7동",
+        "주민"
+      ],
+      "date": "2026-10-17",
+      "title": "화성특례시 동탄7동, 주민 생활정보 담은 마을 안내서 제작 > 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUbkV6bGFiYmdVX21ubzd5Z3lXM0NhS2RlN0d3UXYyZTdmOFVGU1NzcXF3WG1uVXZwVlpqWlhDdUkwd1NSMXhheFppQnB4Q21RQlBQdzk3aGdhaWNCOG9QeW53Q3pMV2UzRFJtNHQ2Zmg?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "동탄",
+        "영통",
+        "넘어"
+      ],
+      "date": "2026-10-17",
+      "title": "동탄·영통 넘어 분당까지…'북진'하는 반도체 머니",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ORmJDNkxSODVQTHNpMTVZWWoxWFVDb2s5dWVUWEJpekFwNXJFbEZBOTh0cngwLTZTSDhIUS1qMW0xTGN6Nm1WX1JscVByal9OcnAxal9PMXNKdTlYY3pTTdIBeEFVX3lxTE5XMTVGS2ZJdGpVSnE0ek1RWFNoeS00LUtNaTdfVFFtNmNnU25DczZZSWx6OTlOeFZZUVM4TGtBZGVZN184SGhmWUJCTFNKdWszcWtoaHN5ZnE2bXdGU2FDbzhRbkNYZUVqNkpDbl9ybzNkN19fZ1NqOQ?oc=5",
+      "source": "뉴시스"
     }
   ],
   "dropped": {
-    "count": 59,
+    "count": 52,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
       "남양유업, 소비자 수요 따라 제품 전략 다변화",
-      "\"삼성맨 들이닥치니 답 없다\"…옆동네 3억대 아파트 '발칵'",
       "포토뉴스",
       "남양유업, 소비자 수요 맞춰 제품 전략 다변화",
-      "수원광명고속도서 SUV, 작업차 추돌…운전자 사망, 아내·자녀 부상",
-      "“커피는 가볍게, 치즈는 두툼하게”… 남양유업, ‘소비 목적별 세분화’ 승부수",
-      "5조 경기남부철도, 국가계획 문턱",
       "남양유업, 커피는 소용량·치즈는 두툼…소비 목적별로 선택지 확대",
+      "5조 경기남부철도, 국가계획 문턱",
+      "여야의원·장재훈 현대차 부회장, 미래차 전환 머리 맞댄다",
+      "“커피는 가볍게, 치즈는 두툼하게”… 남양유업, ‘소비 목적별 세분화’ 승부수",
       "KB부동산 \"서울 아파트값 상승세 둔화 이어져…경기 남부 강세 주도\" |",
-      "수원광명고속도로서 일가족 탄 SUV, 작업차에 '쾅'…운전자 사망",
       "남양유업, 커피·치즈부터 단백질까지…“소비자 맞춤형 제품 세분화”",
       "남양유업, 소용량 커피부터 고단백 음료까지…맞춤형 제품군 확대",
       "남양유업, 커피는 소용량·치즈는 대용량…제품 세분화",
+      "'비규제' 수원 권선·군포 집값 급등…규제지역 확대하나",
+      "\"작게 마시고 크게 먹고\" 남양유업, 용량·영양 선택지 넓힌다",
       "[단독] 군포·부천·권선 우후죽순 집값 뜀박질 … 경기 남부 전역 토허제 묶일 판",
       "[유통레이더] 이마트, 남양유업, 에이블리, 농심, 제주삼다수, 이랜드파크 사이판 外",
-      "'비규제' 수원 권선·군포 집값 급등…규제지역 확대하나",
+      "브런슨 주한미군사령관 “전작권 전환조건 변했다”",
       "[똑똑한소비] CJ제일제당, 풀무원, 농심, 롯데칠성음료, 남양유업, 일동후디스, 면사랑, 이롬, 제주삼다수",
-      "경기남부 ‘반도체 벨트’ 부동산 시장 기지개...실수요 중심 거래량 ‘가속화’",
-      "컵커피는 작게 치즈는 크게... 남양유업, 컵커피·치즈·단백질 규격 재편",
-      "브런슨 주한미군사령관 “전작권 전환조건 변했다”"
+      "용량 줄이고 성분 쪼개고...남양유업, ‘핀셋 맞춤’ 제품 전략 속도",
+      "지방정부의 행복 정책 왜 필요한가?",
+      "남양유업, \"용량 줄이고 두께 늘리고\"… 제품 전략 다각화"
     ]
   },
-  "low_confidence": 33,
+  "low_confidence": 4,
   "briefs": {
     "all": "수집 기간 전체 [[w]]부정기사 380건(7%)[[/w]] 중 안전 분야가 187건으로 절반 가까이 차지하고 있으며, 행정 98건, 산업경제 45건으로 분산되어 있습니다. [[b]]2026-09-16에 22건이 집중[[/b]]되었으므로 해당 날짜의 안전 관련 이슈를 먼저 확인하시기 바랍니다.",
     "7": "최근 7일간 [[w]]부정기사는 37건(9%)[[/w]]으로, 안전 분야 32건이 대부분을 차지합니다. [[b]]9월 23일에만 21건이 모두 안전 분야[[/b]]로 집중되었으므로, 해당일 보도 내용을 우선 검토하실 필요가 있습니다.",
@@ -89695,7 +89881,7 @@
   },
   "briefs_updated": "2026-09-29 09:57",
   "issues": {
-    "updated": "2026-10-17 08:27",
+    "updated": "2026-10-17 10:14",
     "items": [
       {
         "label": "화성시의회, “군공항 이전 추진 즉각 중단하라”…원점 재검토 촉구",
@@ -89792,7 +89978,7 @@
     ]
   },
   "today": {
-    "updated": "2026-10-17 08:27",
+    "updated": "2026-10-17 10:14",
     "items": [
       {
         "label": "화성시의회, “군공항 이전 추진 즉각 중단하라”…원점 재검토 촉구",
@@ -89865,12 +90051,12 @@
     "surge": [
       {
         "cat": "행정",
-        "recent": 37,
+        "recent": 38,
         "days": 3,
         "base": 27,
         "base_days": 12,
         "base_daily": 2.25,
-        "ratio": 5.5
+        "ratio": 5.6
       }
     ]
   },
