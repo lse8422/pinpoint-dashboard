@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-17 10:14",
+  "updated": "2026-10-18 08:02",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 6379,
+  "count": 6427,
   "items": [
     {
       "date": "2026-08-02",
@@ -89573,6 +89573,104 @@
       "source": "뉴데일리 경기"
     },
     {
+      "date": "2026-10-16",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "[의정포토] 최은희 의원, 향남캠핑장 폐쇄에 대체시설 요구",
+      "summary": "최은희 의원이 향남캠핑장 폐쇄에 따른 대체시설 건설을 요구했다.",
+      "kw": [
+        "향남캠핑장",
+        "대체시설",
+        "의정활동"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB1d3EydG12UExhYjNBWkY0eGtjR0tWd0F1UzhySzlTYjNKVFMyRU1ETnZhZk16Rll2WHMwcENGbTNkaXVqZklxcmwxdzMwcGgydzVfZlVDQ3JSaFRrRS1CNW9QWEFwMDAtVHlKXzdHd3U1TUpVZ0Jj0gF3QVVfeXFMUHV3cTJ0bXZQTGFiM0FaRjR4a2NHS1Z3QXVTOHJLOVNiM0pUUzJFTUROdmFmTXpGWXZYczBwQ0ZtM2RpdWpmSXFybDF3MzBwaDJ3NV9mVUNDclJoVGtFLUI1b1BYQXAwMC1UeUpfN0d3dTVNSlVnQmM?oc=5",
+      "source": "뉴스프리존"
+    },
+    {
+      "date": "2026-10-16",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성특례시 보건소, '세계 손씻기의 날' 맞아 감염병 예방 캠페인",
+      "summary": "화성특례시 보건소가 세계 손씻기의 날을 맞아 감염병 예방 캠페인을 진행함.",
+      "kw": [
+        "손씻기",
+        "감염병",
+        "예방캠페인"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5OZEg4YTJMc0I3a0h6TEVqUENDbXN0U1V5dFZKdF9uSkVZNzJkMHRwODlqejJJaXB3Z1p0OFhZWmpSdEZhRnE0MjY2aEdSNzBIZUZSbUUxR0RNT1czdDd0eg?oc=5",
+      "source": "메트로신문"
+    },
+    {
+      "date": "2026-10-16",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "[기자수첩] 화성특례시의회 제255회 임시회 개회",
+      "summary": "화성특례시의회 제255회 임시회가 개회됨.",
+      "kw": [
+        "화성특례시의회",
+        "임시회",
+        "의회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9WZjdQcDVpV0lRN2dONlcwbmhGYzRpZTh6bUlVY19FMUJadGZGR1g5aHNqVG5yc2theFRSN283ajJ3ZVN5aUI5RzZJRmpQWEh4YkxLVi1EU1BBemVtZW56TEZsNk5pNEVLV1Q2RWpJTEU0QdIBckFVX3lxTE9WZjdQcDVpV0lRN2dONlcwbmhGYzRpZTh6bUlVY19FMUJadGZGR1g5aHNqVG5yc2theFRSN283ajJ3ZVN5aUI5RzZJRmpQWEh4YkxLVi1EU1BBemVtZW56TEZsNk5pNEVLV1Q2RWpJTEU0QQ?oc=5",
+      "source": "뉴스 따옴"
+    },
+    {
+      "date": "2026-10-16",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "'아크메르 동탄' 분양가 84㎡ 17억원부터… 글로벌 하이엔드사양 기본 포함",
+      "summary": "아크메르 동탄의 84㎡ 평형이 17억원부터 책정되며 글로벌 하이엔드 사양을 기본으로 제공함.",
+      "kw": [
+        "아크메르동탄",
+        "분양가",
+        "하이엔드"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1yRnJaUTFPeW85c0U0VEh4ZTNFVFZHWjhBT1ZrTkhoUUpxa2hQY0R1RXhTUzQzamp3WmlncnJJa2dxSzV6QmFrWVhPVTlFdENHTW5KTzZFekJXRGhrNm5wMjVVdw?oc=5",
+      "source": "국토일보"
+    },
+    {
+      "date": "2026-10-16",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "현대차 남양연구소 국감 시찰, 자율주행·수소 지원 입법 논의 촉발 주목",
+      "summary": "현대차 남양연구소 국감 시찰에서 자율주행과 수소 지원 입법이 논의됨.",
+      "kw": [
+        "남양연구소",
+        "자율주행",
+        "수소"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNc2xQZE10czQxRUtHc3d4QzBITHdfdG1aM2xjMU5fVjdLU25LSVFaTVJmYjc2Xy1QYlpvV1M1NDFaVnBMVHhkRmxGNW9VSGR0eGN2S0hXRkVPWE5ILXRaYnZITFJFWk5kcVNYQnFiMk1Za3YtaDljcS1zRUdHLUJSRTRVT1poSUVZYUhFTHNMRzNwZGxNczFpUUlGUEVGaXpITjA3dVJOUE1ncEU?oc=5",
+      "source": "Traders Union"
+    },
+    {
+      "date": "2026-10-16",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성 홍법사 창건설화 '홍랑각시' 전통연희극으로",
+      "summary": "화성 홍법사 창건설화 홍랑각시가 전통연희극으로 공연된다.",
+      "kw": [
+        "홍법사",
+        "창건설화",
+        "연희극"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBqelRSRjRCeDk5bUxndVFNSWYtN2xlZ05xU25TQmhqa3d5cXZvNmhvcVBSTDdTTmFfTlM5aDJJWlZQYkVqYUlaaTgtcVVhdFRXRkNFcjFkU19tNWI2ZVZVTXlMalZrbzdKOGdsNTM0ci0wSVd2OXBsRNIBeEFVX3lxTFBqelRSRjRCeDk5bUxndVFNSWYtN2xlZ05xU25TQmhqa3d5cXZvNmhvcVBSTDdTTmFfTlM5aDJJWlZQYkVqYUlaaTgtcVVhdFRXRkNFcjFkU19tNWI2ZVZVTXlMalZrbzdKOGdsNTM0ci0wSVd2OXBsRA?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-10-16",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "푸디앤코, ‘2026 화성별별상점’서 소비자 발길…롯데백화점 동탄점서 18일까지 판매",
+      "summary": "푸디앤코가 화성별별상점에서 상품을 판매하며 롯데백화점 동탄점에서 18일까지 운영한다.",
+      "kw": [
+        "화성별별상점",
+        "동탄",
+        "판매"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB5R2M4LU1HNFdZSFllYUVzUUpQUlk1TC10YlpzRlhKeVUwdmoySG5tU1FEcmJENllPUDZNdUk5WlR5UHNvUm1wa3BqSTR4U3pGd2paWDRNUTMzYUtDQWc?oc=5",
+      "source": "피앤피뉴스"
+    },
+    {
       "cat": "복지",
       "senti": "긍정",
       "summary": "",
@@ -89845,43 +89943,616 @@
       "title": "동탄·영통 넘어 분당까지…'북진'하는 반도체 머니",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ORmJDNkxSODVQTHNpMTVZWWoxWFVDb2s5dWVUWEJpekFwNXJFbEZBOTh0cngwLTZTSDhIUS1qMW0xTGN6Nm1WX1JscVByal9OcnAxal9PMXNKdTlYY3pTTdIBeEFVX3lxTE5XMTVGS2ZJdGpVSnE0ek1RWFNoeS00LUtNaTdfVFFtNmNnU25DczZZSWx6OTlOeFZZUVM4TGtBZGVZN184SGhmWUJCTFNKdWszcWtoaHN5ZnE2bXdGU2FDbzhRbkNYZUVqNkpDbl9ybzNkN19fZ1NqOQ?oc=5",
       "source": "뉴시스"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "농협 화성시지부·농가주부모임, 고구마 수확해 이웃에 전달",
+      "summary": "농협 화성시지부와 농가주부모임이 수확한 고구마를 이웃에 전달했다.",
+      "kw": [
+        "농협",
+        "고구마",
+        "나눔"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBvZDVLUXQwOVhEdFhvWGNDLTlabE5DdDRyZl9BWmVQLTc4WUNVa0laMXpnSE95dmdPTzBkUkN4czJlVmJqckdlQVBOQ3JzYklsbTRDZUdILWFIUQ?oc=5",
+      "source": "농민신문"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성특례시, 경기도 지방세 세무조사 운영평가 ‘우수상’ 수상",
+      "summary": "화성특례시가 경기도 지방세 세무조사 운영평가에서 우수상을 수상했다.",
+      "kw": [
+        "세무조사",
+        "운영평가",
+        "우수상"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1qUzRTcDM4NTEyYk1ESjFzeHd0MVFxVDU0dVYwenNoMTMzLWlCU29yeTRZWkpYVTgxLUhxM0NLTktoV1NYenpibW5iTjZjNVc5cmhGYzN2OGNVOFIwa2lXRUlPYkJaRUhH?oc=5",
+      "source": "중앙신문"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "최은희 의원, 향남오토캠핑장 폐쇄 후 양감면 대체 캠핑장 제안",
+      "summary": "최은희 의원이 향남오토캠핑장 폐쇄 후 양감면에 대체 캠핑장 조성을 제안했다.",
+      "kw": [
+        "캠핑장",
+        "향남",
+        "대체시설"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HVjRzNmM3NExmeWJjUGdDcFJhS2FOZG5SMDhUMWVJSUpHeS1hU0JrR1k4RTBuYm9qb1hZcGdYZUMzWGN1amRqb3RTNTN4S0Z0NFh3ektvbWhTWWNNcHdpQXBNREE?oc=5",
+      "source": "매일일보"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시 만성질환관리센터, 권역별 시민 건강 특강 개최 > 뉴스",
+      "summary": "화성시 만성질환관리센터가 권역별 시민 건강 특강을 개최했다.",
+      "kw": [
+        "만성질환",
+        "건강",
+        "특강"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9sUDhENUk4dThvYWtOV2xtQ0wzbHVvVDIxQktmb3lxb3F5VWpMOTFSU1ptUEludFdTNG5xZVgzSGppLVBaODl5SmlyU1ZBbGE4d1hpVjFDcndvRWFnaUZQd1BwMkVDVWxwNFNPQVdIMnU?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시 동탄구보건소, 근력강화 운동교실 3기 운영 > 뉴스",
+      "summary": "화성시 동탄구보건소가 근력강화 운동교실 3기를 운영했다.",
+      "kw": [
+        "보건소",
+        "운동교실",
+        "근력"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE13cUpqUVVmaUU2X1dERTB6eTBYdmRRVWVsT0piel83QThPNWFMS1F3d01OZldfOTlBSUdXazFRYWpHb2FHWEZ5cllCN2JEdzBCSzdTN1Z1S08zSDRYOFVUN0RQRHItRmg2cV84aHQycVk?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성 전국체전 추진단, 제주 전국체전 찾아 현장 점검...“제주체전 벤치마킹해 더 성공적인 대회로”",
+      "summary": "화성 전국체전 추진단이 제주 전국체전을 현장 점검하며 벤치마킹했다.",
+      "kw": [
+        "전국체전",
+        "제주",
+        "현장점검"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4wMEhsUjk1elE4S0pIQkJsRTNFSHpzbEQyRTY3VzNfdFpTRlROM0x4ZkVSVU1SYWdWb1hwelo0ZlBWWXI0S2hySHA2d0FkLW5pYTl5NE5WSnQwV1BsVDhpTjNTSjFUWGl3ZFhJaVU1RQ?oc=5",
+      "source": "중부일보"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시의회, 최은희 의원,“향남오토캠핑장 폐쇄, 대체 캠핑장 조성으로 책임 있게 메워야”",
+      "summary": "최은희 의원이 향남오토캠핑장 폐쇄에 대한 책임 있는 대체 조성을 강조했다.",
+      "kw": [
+        "캠핑장",
+        "폐쇄",
+        "의회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1fTGhDcFhRLTR1cXJoRERXTkJwMDdwRWJrMzNxeEp3MkpCTUFMc0ljN3NiYjd6OFlkVk9sQjZsSHNYcVBHdE9DbXRhRUxoZXFLVEJCX2RqTXFxdlhNVzRLV1hTOXN2NTI5ZUM40gFrQVVfeXFMTV9MaENwWFEtNHVxcmhERFdOQnAwN3BFYmszM3F4SncySkJNQUxzSWM3c2JiN3o4WWRWT2xCNmxIc1hxUEd0T0NtdGFFTGhlcUtUQkJfZGpNcXF2WE1XNEtXWFM5c3Y1MjllQzg?oc=5",
+      "source": "뉴스잡"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시의회, 제255회 임시회 개회",
+      "summary": "화성시의회가 제255회 임시회를 개회했다.",
+      "kw": [
+        "의회",
+        "임시회",
+        "개회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE81cFhXZl92NVZXc0ZRaVRraEF3Qmh2cTB2S3N4Y3ZJY2lGSHNxQkVjN0JlU213U3pmUTNPRi16VWtyYVpERTFKQzUyUWhnV0FxMFNsdU9Tby1NMFdUb2dmUV9CUFlqUU92?oc=5",
+      "source": "환경일보"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "동탄1신도시 19년 만의 새 아파트 '아크메르 동탄' 견본주택 북적[르포]",
+      "summary": "동탄1신도시에 19년 만의 신규 아파트 '아크메르 동탄' 견본주택이 개설되었다.",
+      "kw": [
+        "동탄",
+        "아파트",
+        "견본주택"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9tNVVIUWpTSERRSWRiRHlNNk42Y2M0blRueG83ZjZrMm51WktvdUpmX3BIOTYzU3dPVk1PSzl6VWJUUm1nQkJfQmg0VVpFc3piaTFKc1FvaTNNdjZhWkdTWdIBeEFVX3lxTE96RGVrOUU1R01OQ3BWVzNnM003OUZ2b3BDMTNOdlRWaW9TRGVIV2JMdXczVzVfMVdodjZRMGF4d1Y1cVp5c1FkbDRyMEFpYkJueVNCbkhMRE5ONWVzNjlvVEwxWU1qdlRubGgtOWE0dzRxdFN2aDB2Mg?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "병점2동, 주민 화합의 장 ‘제9회 꿈틀축제’ 성황리 개최",
+      "summary": "병점2동이 주민 화합의 장인 제9회 꿈틀축제를 성황리에 개최했다.",
+      "kw": [
+        "축제",
+        "병점",
+        "주민"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBkU1ZpTFF1X0RYZVFCSWVqNk5JNFZDUmQyM3l2OUF2bDZhanZYQXk0bkJmeWQ0WWhrc2libTJvV0lEakl6VjhTaV9CNEpCYVJhMDNiSHdRLVBOV19KQWVybW4wUTdMbGtUNHk4WmpR0gFyQVVfeXFMTWxCMm9MNUl5OWg2SXJkSVE3ODZrQ080RFBjaXVOcnVkTGtvRUdjVmFNZXN5bFU1cXcxamQweXhaNUg0UnhoSEM4T1R0UFFsX2JtVktkWjlFWF9LeXI0ZjJMRDhtVG1DLVZDUWthbWJKbm53?oc=5",
+      "source": "뉴스 따옴"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시, 클라우드 시스템 특강 개최 > 뉴스",
+      "summary": "화성시가 클라우드 시스템 특강을 개최했다.",
+      "kw": [
+        "클라우드",
+        "시스템",
+        "특강"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1VUzY2dGNaQ01lODlNYlN2Sms5ZlJJV09VaG1OWVY1N09mS1BpVl9ycGdGcGs4Ql9IY0U2amYzWERPTU41a2NaOFJQU3lvT1ZWX2w0NWxFemlhZ1dYZ1JfUjh3dlp2RURCeS1sbWt5MXE?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시, 공직자 대상 행복정책 특강 개최 > 뉴스",
+      "summary": "화성시가 공직자 대상 행복정책 특강을 개최했다.",
+      "kw": [
+        "공직자",
+        "행복정책",
+        "특강"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5tMWZZYVdSVTZDNzJQeF9jMFV0eXU5emhXd1VTSEFyaU0yRWRpMkZLZEh0Zjdwd1plWlBHUkRxUjAwQklSOXZ2Yk9TbldwMnd4bkI0Y290SkxVR0RuRlRoSHhYdlZkTFZUZ2JQaUszQ1I?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "‘이제 화성(Mars)으로’, 화성시 핵심공약 ‘우주항공산업’ 본격 추진",
+      "summary": "화성시가 핵심공약인 우주항공산업을 본격 추진했다.",
+      "kw": [
+        "우주항공",
+        "산업",
+        "공약"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5EYTRHUThQcVktZUhmOUdBRWRybWlhQ1FVcnhDbWNUVkY3bk9zTTc2dkI0cnJFVTdBb3N6aW1jN3c4X1hUMlZ2dHE1dFc3MVJYQVVZMFpFS2FYZ0dXakd2WEoteEtqOTBJ?oc=5",
+      "source": "환경일보"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성특례시 동탄2동, 제10회 탄요축제 개최",
+      "summary": "화성특례시 동탄2동이 제10회 탄요축제를 개최했다.",
+      "kw": [
+        "축제",
+        "동탄",
+        "탄요"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4tWWZYTEVXZmhhSVNrQXdkLTNqMWVsYThNZ3lmYXVaYmU3U3FVcU1mbXlIaS1iVlVKeUFUeUtMMnl6UWxRQU9NWGpXaFBXOVRTd0p3MDVuTXU5dl8xVHluVzRkSXdZb0gxUjRmc0l30gFyQVVfeXFMUC1wZ1dDWkxwTUR4VU9fN01SY0tUdDYzeUI4clQ5WlVsQng1OVVBSDdabWdjV09SZHdvdUVMQ1U0ai1qaFBFS05SQmhBUGU5ZlYzX1ZpYTV0ekk4RHQ4aE5fcG1oZ3dfTG5MQXJ1QndOS2p3?oc=5",
+      "source": "뉴스 따옴"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "화성시, 신규 의료급여수급자 대상 찾아가는 교육 실시 > 뉴스",
+      "summary": "화성시가 신규 의료급여수급자를 대상으로 찾아가는 교육을 실시했다.",
+      "kw": [
+        "의료급여",
+        "수급자",
+        "교육"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE03T05lRHd5Z1BYZWlpZ3NJeVJyVjZQTHlzTXJvYUYtWThkWUFabXUzRExUdHlSR3VVTUx1ajN3dGl1RWNNZk54cm1EdjFrUkV3dm8yOEdGc0EzdkhwaEEyUWpxTGNoaDY0U1ZIZXFSOUM?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시나래울종합사회복지관, 한림대동탄성심병원·노작홍사용문학관과 함께 ‘제4회 건강·환경·문화를 잇는 함께 걷기 DAY’ 성황리 개최",
+      "summary": "화성시 나래울종합사회복지관이 보건·환경·문화를 주제로 함께 걷기 행사를 개최했다.",
+      "kw": [
+        "함께걷기",
+        "건강",
+        "환경"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Qc2dUM0xwSzBpVHhjeS00aVdhclhUQ3RRR013VWdVejRQU2pGaG8yOFhKQUFQX29feXRqWVNYNkhad2U2eHFaN21UeXNCaFNwX3htUUNVbnA1RVM1ckVZV0xYZ2l3QQ?oc=5",
+      "source": "화성저널"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시, 제16회 지회장기 그라운드골프 대회 성황리 개최 > 뉴스",
+      "summary": "화성시가 제16회 지회장기 그라운드골프 대회를 성황리에 개최했다.",
+      "kw": [
+        "그라운드골프",
+        "대회",
+        "스포츠"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QSXlqeXhkUzhjUWRpVVJidUlPQlpXT0NBclhmcVlLMlZ1LUVUNmoxSlNnd3NySER5cjNqNndDbVlmVGdZYkJxNWpBaDZPcU9zRlR0c2ZGRDFTMmpfeExabmV2U3RDWVdVdFVGaVZwZzk?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시, 그린농업기술대학 졸업식 개최 > 뉴스",
+      "summary": "화성시 그린농업기술대학의 졸업식이 개최되었다.",
+      "kw": [
+        "그린농업기술대학",
+        "졸업식",
+        "농업"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5IX21BZWIzRkdPMnpKc0hVMkJzZTZUMmVkTGRxVVhKNWZLdXg3MXV6YU9faHdQVHRTQjJMVnZ2Q0RVZUlFa0t4b2ZyQTBjNGIwb3VPX1doRnpST01abWowS21aT3NRYzRIaXVubDVfTjE?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "한국여성경제인협회 경기지회, 화성서 공공구매 상담회·우수제품 전시회 개최",
+      "summary": "한국여성경제인협회가 화성에서 공공구매 상담회와 우수제품 전시회를 개최했다.",
+      "kw": [
+        "여성경제인",
+        "공공구매",
+        "전시회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9hMW95S05IWFRCdWhoV2NpanpaTFlpSzlRWFdpdXBuQTAwUUhfSVdNQWd2SU1fNEFJLUVPcXFKbDY0dEdHM1ZBeUM4eVQweFdrYkJuVTZyVFRZUk56aUZvRHlLdw?oc=5",
+      "source": "시사미래신문"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시, 더불어민주당 화성병 지역위원회와 당정협의회 개최 > 뉴스",
+      "summary": "화성시와 더불어민주당 화성병 지역위원회가 당정협의회를 개최했다.",
+      "kw": [
+        "당정협의",
+        "화성병",
+        "민주당"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE03TVFDNHNNdnJBa2xIQmQxTFE1aDdtRUloUENqUjBZNDB6MWx4NF81VjV4UlhlcndwRzNmS1R2akZ0bzFxd0h6LThnZ3NQcFBHdWE0Vk1sc21ZZnFBVG5ld3JLX0RwVU9SbnJ0eV9NekM?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "[기고] 민원에서 변화까지, 시민의 목소리에 빠르게 응답한 병점구청",
+      "summary": "병점구청이 민원 해결에 신속하게 대응하여 시민 만족도를 높였다.",
+      "kw": [
+        "민원",
+        "병점구청",
+        "행정"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBjTElQSjVBbVBxVHZpd0tVUzc1b3RoLUxSeUVBcXB3RWc5UklTcUxMQndWR2pGX3pVRnhUZDZaY09aU0MtdUd2N1VJdkxsMHBGN3JNY3ZuWW9uQXEtNU9HQzB5cDM1eUZacFJMeWItQktKZ9IBckFVX3lxTFBjTElQSjVBbVBxVHZpd0tVUzc1b3RoLUxSeUVBcXB3RWc5UklTcUxMQndWR2pGX3pVRnhUZDZaY09aU0MtdUd2N1VJdkxsMHBGN3JNY3ZuWW9uQXEtNU9HQzB5cDM1eUZacFJMeWItQktKZw?oc=5",
+      "source": "뉴스 따옴"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시, 2026년 하반기 적극행정 우수사레 경진대회 개최 > 뉴스",
+      "summary": "화성시가 2026년 하반기 적극행정 우수사례 경진대회를 개최했다.",
+      "kw": [
+        "적극행정",
+        "우수사례",
+        "경진대회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1HNF9KbmlDbFI5REtQdktKU1R6M3lzZmxiSWFxRHIzWktiQXdEcUVFTHViT3ZvSE9wbGx1cUxvVnJ3dUNNNlZKTFBKSjIwaFlNVUZYR0I3Mnk3amxvbFJ3TEg1UHlhNDJkQVJrUGFoQnQ?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시 전자부품 소공인, 한국전자전 어워즈 수상 > 뉴스",
+      "summary": "화성시 전자부품 소공인이 한국전자전 어워즈를 수상했다.",
+      "kw": [
+        "전자부품",
+        "소공인",
+        "어워즈"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2WldXZGxHbXdFSHRsSk5HMFEza3VxZUtOR2RhWXZLekdSMi1qMFFscEEteFZjX2J2U1hKOGR0MkYyLWdOUlVneXVDOS1kYjlYdWRWNFRaMHVFa0FDb04yeXZyaFBvcEJ5bXRFcGRiSWY?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "환경",
+      "senti": "긍정",
+      "title": "화성시 왕배푸른숲도서관, 제로에너지 ‘1등급’ 획득",
+      "summary": "화성시 왕배푸른숲도서관이 제로에너지 건물 1등급을 획득했다.",
+      "kw": [
+        "제로에너지",
+        "도서관",
+        "환경"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxPR3BQUXp3ZGc4WmtkNzJmLWx0TUlNVk9ZUF8xSWJMbVRReTZtc1NCbzU1TDh4eWR5VW1YeFdUTjZ3a1VsaktzQ0k2MGlaOHFmR0pWRGRJdU1yQi1KQTBrTUIxbkl4T0ZQMHo0dkxuMVRuS1plNlVOZ1Jtekt0U1Baam4wdDAwT2x3WjgyYkZrQnhrVVVNX1lCQ1ZibDZGcldyQzhKWkJscm9ZNVVFV1F0S2NSQXRfVG40anFRb2dnNUVibGg1a1VXTHk3Q2ZhNEp4ZXNjUmlkRGo1aGdrbDVVSnd3VUZfRDJ1MlBRTDZrY3R2bFBsdEJTRGgyMy1mby1JbUFDejA5a3IxalhRZlNZU0VnRDY4Mlc1aFZ4Mzl0cEpsUDVPeXd3bE9EVUZjS2t1RHkyUnB1c25DTHE2MTByR3JYeV9TbnJna0RCUjln?oc=5",
+      "source": "중앙신문"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "화성시, 건축공사 관계자 대상 안전사고 예방교육 실시 > 뉴스",
+      "summary": "화성시가 건축공사 관계자 대상 안전사고 예방교육을 실시했다.",
+      "kw": [
+        "안전사고",
+        "건축공사",
+        "예방교육"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4xVE5rRExLYS1LeUR2bUZ0cU9PQjdPOWxzWU9fSjFiSXBkOThObXV3eHF0VFUxeS1VTlcxRE1VRlhMbzZfSUt3anJvN1ppTUswRG1uX3ppdWRIbjk5c184TTVYaHI3elhpV1Y5TXV6dXA?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시 동탄2동, 통장단과 함께 찾아가는 민원 해결사 추진 > 뉴스",
+      "summary": "화성시 동탄2동이 통장단과 협력하여 찾아가는 민원 해결 서비스를 추진했다.",
+      "kw": [
+        "민원해결",
+        "동탄2동",
+        "통장"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0zVXI2REhxQjZqaFByQnp2SGRELU4xbE5oOHkwRnJqUVVhcFJhU3dvUHRUalkwRmlqZm1NOHczeGNPQU5wSzRXaEhUR2dPSEJDZkVjcmNtb0xuNEVHeXRPMlVWOWZBSTRRZkF5X29hMEk?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "동탄 아크메르 84㎡ 최고 17억…삼성전자 직원들 견본주택 몰린 이유",
+      "summary": "동탄 아크메르 84㎡ 평형이 최고 17억원대로 책정되며 삼성전자 직원들의 관심이 집중됨.",
+      "kw": [
+        "아크메르",
+        "동탄",
+        "분양가"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBDSkJlOTV0T1FadmpqV0J1cHl5Snk1SUZrcVl3X3M1cnNtUVlSMmpwckxkc3h1SUQwaFl0WUNEQWptdnlKc1p2TGNnb1BuTnBmS3lkcTJ2clR4Y1BDeVNrb1Zn?oc=5",
+      "source": "CWN"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시, 하반기 말라리아 퇴치사업단 회의 개최 > 뉴스",
+      "summary": "화성시가 하반기 말라리아 퇴치사업을 위한 협력 회의를 개최함.",
+      "kw": [
+        "화성시",
+        "말라리아",
+        "퇴치사업"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9RWEVSVWctT290R1dTV0xLMEpkRmROSjMyckYyQVdSLTRLSGJRb2RRazVyTDNhQWtDbVQ1U3VyaFB5SG5MOWZYUWxEZHkzNDZpaV9WenZKUlMtOTZLQjZKVThpcUo4Ni1ZZHFJMWgwelQ?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "화성시 동탄구보건소, 간접흡연 피해 예방 금연구역 합동 점검 > 뉴스",
+      "summary": "동탄구보건소가 간접흡연 피해 예방을 위해 금연구역 합동 점검을 실시함.",
+      "kw": [
+        "금연",
+        "간접흡연",
+        "보건소"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5BaS01bUxZbU9qd1o4amhobUctS2NuMUtyLUFoeThsbzlCYXoxWUJhQjRJX256YXZQS184ZmdVbDFoNkF2NmhCSWVRTk4xYWZWcFdRNGhzYlBBUjFNNDgxM1VRTkRMN1habU1sZzlGZU0?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시노사민정협의회, 이주노동자 인식개선 토론회 개최 > 뉴스",
+      "summary": "화성시노사민정협의회가 이주노동자 인식개선을 위한 토론회를 개최함.",
+      "kw": [
+        "이주노동자",
+        "인식개선",
+        "노사민정"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE42c3hRejJ5S05vRmFoLXREemVpWXc4cWk1Nkt5X2dEQ1ptNHM1WTVTMHk2R29kaGNfTkpEaEQ5SmtCaDctS2R6all5WmhLQmhDalpySUlCWko0S3RZb1dibXBvSVhfcHFCeTBKeGFjdTM?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성시 용주사, 국행 무차회 봉행과 라오스 방문단 맞이 > 뉴스",
+      "summary": "화성시 용주사가 국행 무차회를 봉행하고 라오스 방문단을 맞이함.",
+      "kw": [
+        "용주사",
+        "무차회",
+        "라오스"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1tV1k5RDM0dGVfcy1FMC13Z2FGZ3VMRGhXSzlSc1hWU2pFcGE1bW10NXcxbkowVHFBWXJmeEVJSzZOb0hHM1RXa2pLOWQ5c2VXaXVyZU1yMlc3dnBWT0R3aXNzNVVuSzZmRWUwTUdLRHc?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "화성 서신면 화학공장서 화재…10명 대피, 31분 만에 초진",
+      "summary": "화성 서신면 화학공장에서 화재가 발생해 10명이 대피하고 31분 만에 진화됨.",
+      "kw": [
+        "화학공장",
+        "화재",
+        "서신면"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxOcmo0dVg0c0plOWNBbkZZdFZUOWNtNVlueV9ZT0R1Ni1DWkJmdHJKd2RqSzJKcHRUOWQyTnlsR0JHUUpwSVJLakFFLUdhd05CZHpxSExCdDRtSnNVRUM3cm1xN0tHYWE2dHRSUEJXdXMzMVhnUk1fOU8tbjUxVEZWSVNVTlE2cXVreDdLTFByUUdudlNMZWNvNlFuQXVrWUtsVFp0R1QxdmtpclEyU2M1Qk1ZYzhuaGxhNVAta09oZnhpbUN4S3YtbnIwR0RQZl9QYVJjeVd0dUxYWlNDUk42TVo0ckR6YnZBMjI4YXQ3VzBLNTM1UUlHWmJTTy1QZ1JLNlhYY0YyYjc2YXRIOTVyNC00eHE5cjJPa3FDOEZWQmhaMFNpck9iNHd6cGlON0lKNjBkQ2x5dmFUYnZkSDJQUmdvSDlpTkJSQnpsYjFXQXltaTFMakwzTw?oc=5",
+      "source": "중앙신문"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시의회 문복위, 오는 20일까지 9일간 2024년도 행정사무감사 돌입",
+      "summary": "화성시의회 문화복지위가 9일간 2024년도 행정사무감사를 실시함.",
+      "kw": [
+        "행정사무감사",
+        "문화복지위",
+        "시의회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxNOUpoZnJfNFREZC1QUG9aM3Q0RmZBTURWb3pxdWIwMnJTa1ZKNC1QZjl2TDYtc09HUEFxYVRKakhXbzBqaTVDTFhDRUxjVjV1akU4QjU3a1RfWjRiN1o0dnBJUHFfMWo2YkxRX3dOZVRVWXRiYktINS15TDBxNmkyS0ZRa1IyN21mSjEySUtfVjBBZHg5VkRNRG9EUFVscmNmTnBVQktPR2l6cjA2RGMtNWo0ZEZfWHUxa1c2MmpJaHljYW9la2NZeFF4YWNvMzljRl9KdTh2dUhlenp4ODNFUXNLYWZaVm9xdmdWR2ZsUl9fUkhSZlJDdW5jbEZINVhpMWVSai1Mbl9nTVNYa2Q3SkNfT2VDY01ib3hQbzN3WVlDMEZyMlN4YjZvMFNocTgxc2pkZVFzZ1dYZ1h1TzRvLTZmUjBaQnVvSkJXajdWZXMtNkozZDNHWkRHbE5xVmRtb0Zna0NxTkxPR3hZY244NG9wWmNPN1hpb1FZSnNB?oc=5",
+      "source": "중앙신문"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시, 제16회 지회장기 그라운드골프 대회 성황리 개최 > 뉴스 | 코리아저널",
+      "summary": "화성시에서 제16회 지회장기 그라운드골프 대회를 성황리에 개최함.",
+      "kw": [
+        "그라운드골프",
+        "지회장기",
+        "대회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE14Ny11U0ZBZEg4aXNtVU9BTmVNZXBzU0lfM2lVaGJSQl9vaXNYbmxXeXJrMFpTZnZac1Vpb2VyTU1ER3E2YVpBa0thTmZZOVNETDg5ZkpTbHlIbzYyQW5nSU1lSkNzN2YzSG5NNG13MThpZUQ2?oc=5",
+      "source": "koreajournal.co.kr"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시 역사박물관, 10월 문화가 있는 날 전통연희극 개최 > 뉴스",
+      "summary": "화성시 역사박물관에서 10월 문화가 있는 날 전통연희극을 개최한다.",
+      "kw": [
+        "역사박물관",
+        "전통연희극",
+        "문화"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1rYUUzQTlNNzdyQ1NaU2JsMENiS0lqNE9RRWlmdU5sWlphZ0h4ZENyRmRGTDRYdU5vZ2JHT1J3ajJLNk5iWlFyV2RtVk9jdHBYYnNQT0Z1VkhmLWd3djUtZjVkc0t2dVZta3FZQVVpLU4?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "화성특례시의회, 김상수 의원,“청소년 규모에 걸맞는 청소년수련관 확충 촉구”",
+      "summary": "화성특례시의회 김상수 의원이 청소년 규모에 맞는 청소년수련관 확충을 촉구했다.",
+      "kw": [
+        "청소년수련관",
+        "확충",
+        "의회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1EemlrMmpWeVlkOWE0X2pNNno0OVZrVDNCUUx6NHVDUTdJRnRPa3hITGxkTU5KWTFVN0Y2ZHQ3dzV6djUxc09OVFM5UHNzSGM2WmxFX3FiU0hDVExvQjgyaDVheVAxMldseWp30gFrQVVfeXFMTUR6aWsyalZ5WWQ5YTRfak02ejQ5VmtUM0JRTHo0dUNRN0lGdE9reEhMbGRNTkpZMVU3RjZkdDd3NXp2NTFzT05UUzlQc3NIYzZabEVfcWJTSENUTG9CODJoNWF5UDEyV2x5anc?oc=5",
+      "source": "뉴스잡"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "정명근 화성특례시장, 철도사업 점검회의 주재 “행정절차 준비 철저, 원활한 사업 추진 만전”",
+      "summary": "정명근 화성특례시장이 철도사업 점검회의를 주재하고 원활한 사업 추진을 지시했다.",
+      "kw": [
+        "철도사업",
+        "행정절차",
+        "시장"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiiwRBVV95cUxPM2lCaG5GSEtSRzdqNFFWZkNFTlNQU25hc3J6UUluU2U5Y2Q3bGxEVjhuMFBETnhYV29NNHFFb21tXzdmcUh0LVZWM2R2ZHdUUUt2N0dwSDBsRHl3YVhIQkRPTU8yaWYzZmRLZ2xnMG9lR3ZSSVNLS2lqV3JxVllDZmlabUdfaTlqU0Q0WGNsdnhRS1NBVS1rVlhHYm1rS0xUbWZ1Z3M1V1FVdE9ZSmNySHdBbGVCX2NOZ0xxWVpTTFQyV0JFbjJxRkdVZ3I5aUJVWDBMMlhET2F3SFNwa1NYVmY2aHc3eHhORlhMS1ZxVUhlTE9rNF9YOEp1SWt0c1FYVzVEcnR2ZnhlSi1tQ1BGR3pXSVYxeHUwVkQ5cjhxano5TW9NdlMyNWJHLWt2Ql80d1UzSzJoZk93WDJYR2pfTzZPTF9xWDF2clpzOTU2cXA4M2g2YVB4LUlvbmNfRGI4Q2NDWGtoNExqVWhzaGRfUGIwMlJwYVg2dkp5TlItaTgybDVCXzM2T1RNejc1VXo2N1c5NHRic3VsYmVkQXU4cWZGcGxwdWlyOTU5UEVZaU9JRW1zUDl1eHhESFVpUk5nZzR3cEU1NjNIdHI3TkJjX0JSWGNweldhbXNLRnVwczZjN2Z2VGFUVzRBaHM1TEh2NTNmOG5LR1NWWHBoREJDM0h4cVBGWVdYUzhR?oc=5",
+      "source": "중앙신문"
+    },
+    {
+      "date": "2026-10-17",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "[영상]“성과급 모아 살래요” 동탄 국평 17억에 삼성맨 줄섰다[부동산360]",
+      "summary": "동탄 국평에서 17억 규모 아파트에 삼성 직원들이 몰린다.",
+      "kw": [
+        "아파트",
+        "동탄",
+        "부동산"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5uMlBoRmx5UWF5TldUb0VZdUJWaUlUTEJtZjJqVFBlZ3NaSTBkbWUwcGlsNzczaEJ5UkJtTVcyRzNKUDh4TWltZFhycXZ5S0xLV0ZzQ2hR?oc=5",
+      "source": "헤럴드경제"
+    },
+    {
+      "date": "2026-10-18",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "정명근 화성특례시장, 제주 전국체전 참관… 2027년 대회 준비 점검",
+      "summary": "정명근 화성특례시장이 제주 전국체전을 참관하며 2027년 대회 준비를 점검했다.",
+      "kw": [
+        "전국체전",
+        "시장",
+        "준비"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0Uk9INlhvSmxHNFVBOGFzRlZFNk5EN0FJTy1vZWtEOC1oeFAyazZJTnFKRFR6cXRVMHUtNUg3bElGOFFBbnUzeFE4VElXVlozWUFxYktqR1JvTWFaWFlyYWpPRWd6ZGZvdGc?oc=5",
+      "source": "천지일보"
+    },
+    {
+      "date": "2026-10-18",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "정명근 화성특례시장, 2027년 대회 준비 본격화",
+      "summary": "정명근 화성특례시장이 2027년 대회 준비를 본격 추진함.",
+      "kw": [
+        "2027년대회",
+        "정명근시장",
+        "준비"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBkY2dUOTN6OWlKd2tjd3RLVU9xcU9mNG1WZVVFU09tbHF4UnNkSWI0UHJrcjN5alFUT3JYdnpqQWFqQQ?oc=5",
+      "source": "브레이크뉴스"
+    },
+    {
+      "date": "2026-10-18",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "정명근 화성시장, 제주 전국체전서 ‘2027 화성 대회’ 준비 본격 시동",
+      "summary": "정명근 화성시장이 제주 전국체전에서 2027 화성 대회 준비를 시동함.",
+      "kw": [
+        "2027화성대회",
+        "정명근",
+        "전국체전"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE02b2R0M3V2V0VUYTZPUGdZNFdqUF80MjQxNHY1U2pUYTFJTkRNSFR4aWppZmQ4LXdaRHg0U3FQRHBZQUxLU2tDSlRnYTlHS2RCZUFmeEFXelE0MjNmb2NiLWdzeTA0T1N0dHdna0huSGRMel9keVA2ZVZuYw?oc=5",
+      "source": "비욘드포스트"
     }
   ],
   "dropped": {
-    "count": 52,
+    "count": 50,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
-      "남양유업, 소비자 수요 따라 제품 전략 다변화",
+      "[토허구역 확대 1년] 강남 잡았지만 다른 지역 오르는 '디커플링' 커져",
+      "“커피는 가볍게, 치즈는 두툼하게”… 남양유업, ‘소비 목적별 세분화’ 승부수",
+      "\"매물 많지만 안 팔려요\"…강남 아파트값 9주 연속 하락 - 머니투데이",
       "포토뉴스",
       "남양유업, 소비자 수요 맞춰 제품 전략 다변화",
-      "남양유업, 커피는 소용량·치즈는 두툼…소비 목적별로 선택지 확대",
-      "5조 경기남부철도, 국가계획 문턱",
-      "여야의원·장재훈 현대차 부회장, 미래차 전환 머리 맞댄다",
-      "“커피는 가볍게, 치즈는 두툼하게”… 남양유업, ‘소비 목적별 세분화’ 승부수",
-      "KB부동산 \"서울 아파트값 상승세 둔화 이어져…경기 남부 강세 주도\" |",
       "남양유업, 커피·치즈부터 단백질까지…“소비자 맞춤형 제품 세분화”",
-      "남양유업, 소용량 커피부터 고단백 음료까지…맞춤형 제품군 확대",
+      "무료 포커 슬롯 온라인 게임 결과 창에 표시되는 상세 내역",
       "남양유업, 커피는 소용량·치즈는 대용량…제품 세분화",
-      "'비규제' 수원 권선·군포 집값 급등…규제지역 확대하나",
+      "[제107회 전국체전] 경기도, 금 39·은 37·동 32…종합점수 6050점 기록",
+      "의왕IC 인근 차량 화재로 전소...인명피해는 없어",
       "\"작게 마시고 크게 먹고\" 남양유업, 용량·영양 선택지 넓힌다",
-      "[단독] 군포·부천·권선 우후죽순 집값 뜀박질 … 경기 남부 전역 토허제 묶일 판",
-      "[유통레이더] 이마트, 남양유업, 에이블리, 농심, 제주삼다수, 이랜드파크 사이판 外",
-      "브런슨 주한미군사령관 “전작권 전환조건 변했다”",
+      "남양유업, 소비자 수요 따라 제품 전략 다변화",
       "[똑똑한소비] CJ제일제당, 풀무원, 농심, 롯데칠성음료, 남양유업, 일동후디스, 면사랑, 이롬, 제주삼다수",
-      "용량 줄이고 성분 쪼개고...남양유업, ‘핀셋 맞춤’ 제품 전략 속도",
       "지방정부의 행복 정책 왜 필요한가?",
-      "남양유업, \"용량 줄이고 두께 늘리고\"… 제품 전략 다각화"
+      "비주얼 중심으로 둘러보는 레데리2 도박사 9 게임 디자인",
+      "남양유업, \"용량 줄이고 두께 늘리고\"… 제품 전략 다각화",
+      "[단독] 군포·부천·권선 우후죽순 집값 뜀박질 … 경기 남부 전역 토허제 묶일 판",
+      "컵커피는 작게 치즈는 크게... 남양유업, 컵커피·치즈·단백질 규격 재편",
+      "남양유업, 커피는 소용량·치즈는 두툼…소비 목적별로 선택지 확대",
+      "남양유업, 소용량 커피부터 고단백 음료까지…맞춤형 제품군 확대"
     ]
   },
-  "low_confidence": 4,
   "briefs": {
-    "all": "수집 기간 전체 [[w]]부정기사 380건(7%)[[/w]] 중 안전 분야가 187건으로 절반 가까이 차지하고 있으며, 행정 98건, 산업경제 45건으로 분산되어 있습니다. [[b]]2026-09-16에 22건이 집중[[/b]]되었으므로 해당 날짜의 안전 관련 이슈를 먼저 확인하시기 바랍니다.",
-    "7": "최근 7일간 [[w]]부정기사는 37건(9%)[[/w]]으로, 안전 분야 32건이 대부분을 차지합니다. [[b]]9월 23일에만 21건이 모두 안전 분야[[/b]]로 집중되었으므로, 해당일 보도 내용을 우선 검토하실 필요가 있습니다.",
-    "30": "최근 30일 [[w]]부정기사 205건(7%)[[/w]] 중 안전이 108건으로 절대 다수이며, 행정 52건이 뒤따릅니다. 부정 보도가 특정 분야에 매우 집중된 양상이므로 [[b]]안전 분야 이슈에 대한 집중적인 대응[[/b]]이 필요합니다."
+    "all": "수집 기간 전체 [[w]]7,453건 중 491건(7%)[[/w]]이 부정 보도입니다. 안전 분야([[w]]200건[[/w]])에 부정 기사가 집중되었으며, 행정([[w]]173건[[/w]]) 분야와는 [[b]]상당한 격차[[/b]]가 있어 안전 이슈 관리가 우선입니다.",
+    "7": "최근 7일간 [[w]]부정비율이 10%[[/w]]로 높아진 상태입니다. [[b]]행정 분야([[w]]59건[[/w]])에 부정 기사가 압도적으로 몰려[[/b]] 있으며, 10월 15일 하루에만 [[w]]32건[[/w]]이 집중되어 해당 일자 행정 이슈를 먼저 검토해야 합니다.",
+    "30": "최근 30일 [[w]]부정기사 176건(6%)[[/w]] 중 행정([[w]]87건[[/w]])과 안전([[w]]54건[[/w]]) 두 분야가 [[b]]전체의 80% 이상을 차지[[/b]]하고 있습니다. 10월 15일의 행정 관련 대량 보도([[w]]28건[[/w]])를 확인하면 최근 이슈 흐름을 파악할 수 있습니다."
   },
-  "briefs_updated": "2026-09-29 09:57",
+  "briefs_updated": "2026-10-18 08:02",
   "issues": {
-    "updated": "2026-10-17 10:14",
+    "updated": "2026-10-18 08:02",
     "items": [
       {
         "label": "화성시의회, “군공항 이전 추진 즉각 중단하라”…원점 재검토 촉구",
@@ -89978,7 +90649,7 @@
     ]
   },
   "today": {
-    "updated": "2026-10-17 10:14",
+    "updated": "2026-10-18 08:02",
     "items": [
       {
         "label": "화성시의회, “군공항 이전 추진 즉각 중단하라”…원점 재검토 촉구",
@@ -90013,8 +90684,8 @@
           "화성시의회, 군공항 이전 용역·특별법에 반발… “일방 추진 중단하라”",
           "화성시의회, “군공항 이전 추진 즉각 중단하라”…원점 재검토 촉구"
         ],
-        "score": 83,
-        "state": "확산 중"
+        "score": 76,
+        "state": "진행 중"
       },
       {
         "label": "화성특례시의회 최은희 의원, 향남오토캠핑장 폐쇄 지적…대체 시설 조성 촉구",
@@ -90028,8 +90699,8 @@
           "최은희 화성시의원 “향남오토캠핑장 폐쇄, 대체 시설 대책부터 마련해야”",
           "화성특례시의회 최은희 의원, 향남오토캠핑장 폐쇄 지적…대체 시설 조성 촉구"
         ],
-        "score": 83,
-        "state": "확산 중"
+        "score": 76,
+        "state": "진행 중"
       },
       {
         "label": "화성특례시 동탄구보건소, 간접흡연 피해 예방 위한 금연구역 합동 점검:시대일보",
@@ -90044,27 +90715,17 @@
           "화성시 동탄구보건소, 간접흡연 피해 예방 위한 금연구역 합동 점검",
           "화성특례시 동탄구보건소, 간접흡연 피해 예방 위한 금연구역 합동 점검:시대일보"
         ],
-        "score": 69,
-        "state": "진행 중"
+        "score": 62,
+        "state": "종결"
       }
     ],
-    "surge": [
-      {
-        "cat": "행정",
-        "recent": 38,
-        "days": 3,
-        "base": 27,
-        "base_days": 12,
-        "base_daily": 2.25,
-        "ratio": 5.6
-      }
-    ]
+    "surge": []
   },
   "ops": {
     "runs": 100,
     "days": 34,
-    "since": "2026-09-14",
-    "last": "2026-10-17",
+    "since": "2026-09-15",
+    "last": "2026-10-18",
     "failures": 1,
     "span": 34,
     "skipped": 0
@@ -90082,19 +90743,19 @@
     "note": "팀원 다섯 명이 기사 100건을 나눠 검수한 결과. 겹친 구간에서 한 사람이라도 「틀림」이라 했으면 틀린 것으로 셌다. 너그럽게 세면 분야 95%·긍부정 87%가 된다."
   },
   "keyword_notes": {
-    "updated": "2026-09-29 09:58",
+    "updated": "2026-10-18 08:02",
     "window": "최근 30일",
     "items": {
-      "동탄": "325건으로 가장 많은 언론 노출을 기록했으며 긍정 기사(146건)가 대다수이나, [[w]]부정 기사 11건[[/w]]에서 공공임대, 규제, 물가 문제 등이 지적되고 있습니다.",
-      "추석": "109건 중 [[b]]부정 기사가 0건[[/b]]으로 순수 긍정적 보도만 이루어졌으며, 복지 분야 중심의 추석 관련 정책 홍보가 효과적으로 진행된 것으로 보입니다.",
-      "분양": "73건 모두 산업경제 분야이며 [[b]]부정 기사가 없는[[/b]] 가운데 긍정 기사는 29건으로, 분양 관련 중립적 보도가 대부분인 것으로 파악됩니다.",
-      "복지": "72건 중 [[b]]부정 기사 0건, 긍정 기사 61건[[/b]]으로 복지 정책 홍보의 언론 호응도가 매우 높은 상태입니다.",
-      "화성시": "67건의 기사 중 [[w]]부정 5건[[/w]]에서 옹벽 붕괴, 경찰서 부족 등 인프라 관련 민원이 제기되고 있어 관심이 필요합니다.",
-      "부동산": "66건 중 대부분 산업경제 분야이나 [[w]]부정 2건[[/w]]에서 동탄 집값 변동성과 관련 지역 냉각 현상이 보도되고 있습니다.",
-      "화재": "57건 중 [[w]]46건이 부정 기사[[/w]]로 시설 화재 사건이 반복 보도되면서 안전 관리에 대한 시민 관심이 높은 상태입니다.",
-      "문화행사": "56건 중 [[b]]부정 기사 0건, 긍정 기사 48건[[/b]]으로 문화관광 분야의 홍보 성과가 가장 우수한 것으로 평가됩니다.",
-      "향남": "53건 중 [[w]]부정 4건[[/w]]에서 동 전환 갈등, 옹벽 안전, 행정 투명성 문제 등이 누적되고 있어 지역 민원 관리가 중요합니다.",
-      "의회": "52건 중 [[w]]부정 2건[[/w]]에서 의회 절차 준수 및 예산 집행 투명성과 관련된 지적이 있으며 개선이 필요해 보입니다."
+      "화성시": "지난 한 달간 433건의 기사 중 [[b]]긍정 152건(35%)에 비해 부정 35건(8%)[[/b]]으로 양호한 평가를 받았으나, 녹물 논란, 화재, 불법 행위 적발 등 [[w]]민원성 부정 사안[[/w]]에 대한 신속한 대응이 필요합니다.",
+      "화성특례시": "259건 기사 중 [[b]]긍정 108건(42%)으로 긍정 비율이 높고 부정은 12건(5%) 수준[[/b]]으로, 특례시 지위의 긍정적 이미지가 언론에 반영되고 있습니다.",
+      "동탄": "218건 중 부정 기사가 단 1건으로 [[b]]가장 낮은 부정률(0.5%)[[/b]]을 기록했으며, 오산 인접 갈등도 일단락되어 도시 이미지가 안정적입니다.",
+      "화성": "160건 기사의 [[w]]부정 12건(7.5%)이 대부분 화재·안전 사건으로 집중[[/w]]되어 있으므로, 화성시 전체 이미지와 구분하여 해당 지역의 안전 관리 강화를 전략적으로 홍보할 필요가 있습니다.",
+      "화성시의회": "74건 중 [[w]]부정 5건(7%)[[/w]]의 핵심이 해외출장 기록 부존재, 의정 운영의 투명성 논란인 만큼, 의회 행정공개 및 투명성 강화로 신뢰도를 제고해야 합니다.",
+      "정명근": "72건 기사 중 [[b]]부정이 0건이고 긍정 24건(33%)[[/b]]으로, 시장 개인에 대한 언론 평가가 매우 긍정적인 상황입니다.",
+      "삼성전자": "67건 기사 중 [[b]]부정이 0건이고 긍정 45건(67%)[[/b]]으로 높은 평가를 받아, 산업경제 분야(44건)에서 화성시의 경제 활력을 대표하는 브랜드로 기능하고 있습니다.",
+      "추석": "64건 기사 중 [[b]]부정이 없고 긍정 49건(77%)[[/b]]으로 복지 분야에서 가장 호의적인 반응을 보였으며, 연중 긍정 마케팅 기간으로 활용 가능합니다.",
+      "화성특례시의회": "61건 모두 행정 분야 기사로, [[w]]부정 4건(7%)이 향남오토캠핑장 폐쇄 및 수원군공항 이전 관련[[/w]]으로 시정과의 이견이 부각되고 있습니다.",
+      "향남역": "59건 중 [[w]]부정 1건이 불법 현수막으로 개발 질서 관리 미흡을 지적[[/w]]하고 있으므로, 향남역 일대 개발사업의 투명하고 질서 있는 진행을 강조할 필요가 있습니다."
     }
   }
 }
