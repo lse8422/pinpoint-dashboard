@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-23 10:23",
+  "updated": "2026-10-24 08:51",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 7148,
+  "count": 7290,
   "items": [
     {
       "date": "2026-08-02",
@@ -100081,6 +100081,34 @@
       "source": "더페어"
     },
     {
+      "date": "2026-10-22",
+      "cat": "환경",
+      "senti": "부정",
+      "title": "화성시 능동지구 공원 75% 사라졌다…시행사 안 짓고 市는 '독려'만",
+      "summary": "화성시 능동지구 공원 75%가 사라졌으나 시행사는 미조성하고 시는 독려만 하고 있다.",
+      "kw": [
+        "능동지구",
+        "공원",
+        "개발"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1NRjVMeVRCT2ZTN1JwRFY3YlhaS2lRREVGVmFuU1ViekFHcHJyNlNpanBkQkNWQXdkUkZydDV4MHhZZzhMd2c1eGhjQ0lFdGNBT0xiM3YtcVlVVWNQSUNaanJfeHlnMlczbW5V?oc=5",
+      "source": "투데이경제"
+    },
+    {
+      "date": "2026-10-22",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "집값 떠받치는 ‘반도체 머니’…동탄 거래 30%가 삼성 대출",
+      "summary": "삼성 성과급과 사내대출의 영향으로 동탄 부동산 거래의 30%가 삼성 관련이다.",
+      "kw": [
+        "동탄",
+        "부동산",
+        "삼성"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80LU9ZMElqaGVNTTNIVVk5cUtZdGdGeVlMZGZEQ1dIcjVNcW54TDVPQ08ybk9UMWNNeVJibjRpWmdxWlc0ZTV5ZHRocTlJN0x2aWZNZGUzc0k1XzBadUVncndlZ0dzQlRLV3hOcG5ua2M?oc=5",
+      "source": "산경일보"
+    },
+    {
       "date": "2026-10-23",
       "cat": "문화관광",
       "senti": "긍정",
@@ -100611,42 +100639,2002 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5SdUdKSHRIbVBqVzN6Sm9fNjAwSEZzZXRxV0R6dVA2ODBNY3JMTndUS0JUd1J1VUdxT2JLU2w2NGpQU3VMTFFrdFBzNE9Gdw?oc=5",
       "source": "인사이트"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "[카드] \"향남이 기다린 프리미엄 라이프\" 롯데캐슬 시그니처 출격",
+      "summary": "롯데캐슬이 향남에서 프리미엄 아파트를 분양한다.",
+      "kw": [
+        "롯데캐슬",
+        "향남",
+        "분양"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1pMW5wcjB0aFNnMzctcVN1RXdBcGJ4RjJhLWpqWEpmcUowbm9RdkYxQjY2cVZvM0xwMjZuMEVoRzRrQ2Y2YTNVVFJUZUhEQ2FWLTY4WUtROWdrVl9NTFNGNA?oc=5",
+      "source": "프라임경제"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "교통",
+      "senti": "중립",
+      "title": "화성특례시의회 최청환 의원 5분 발언, \"광역버스 봉담 전에 만차… 버스 감회 재검토해야\"",
+      "summary": "화성특례시의회에서 광역버스 운행 관련 발언이 제기되었다.",
+      "kw": [
+        "광역버스",
+        "봉담",
+        "버스감회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVb3RzUU8tY1M4N255MlBTNEVfdkRQSm5hcXotWk5qdmh5Y1lRSzNadWl5N241M1BnMTJjVTBJTGRSVE9WbEZXRnRZa3dUcGdvblYwbnNMOVJEWmIxWVhhb3V1MG9FV3RfeUdHMw?oc=5",
+      "source": "경기타임스 e"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시의회, 제255회 임시회 폐회…45개 안건 원안 가결",
+      "summary": "화성시의회 제255회 임시회가 폐회하고 45개 안건이 원안 가결됐다.",
+      "kw": [
+        "시의회",
+        "임시회",
+        "안건가결"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5QekN6SXhiLVVBYmxHZTZKeVJuZFNsbkNLQUh5UEdEbjNLbzJrVUFDQmhOUXNGbHBkZTFFdkRZOXkwZDVWdXdtYk5rdmoyZGc3VEljVjdpLWFndVdTVm9RRk1B?oc=5",
+      "source": "경인미래신문"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "환경",
+      "senti": "긍정",
+      "title": "화성시, 농산물품질관리원 '품종 검정기관'으로 지정",
+      "summary": "화성시의 농산물품질관리원이 쌀 품종 검정기관으로 지정됐다.",
+      "kw": [
+        "농산물품질",
+        "품종검정",
+        "지정"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBpamZhVFBBd1l0SU44VFlGREs1bXZya3FCTzBJa3JCcnZBUVRkV3J2Vm4zalhxRXk1UDRpU3BYQmFMVXphbjdaSUJzRHJnUFhDZW50YjVtcmdDcDJWSURQeXdHekRKWU1mdHlxcF9uVDFCM2pUcWxwcdIBeEFVX3lxTFBpamZhVFBBd1l0SU44VFlGREs1bXZya3FCTzBJa3JCcnZBUVRkV3J2Vm4zalhxRXk1UDRpU3BYQmFMVXphbjdaSUJzRHJnUFhDZW50YjVtcmdDcDJWSURQeXdHekRKWU1mdHlxcF9uVDFCM2pUcWxwcQ?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "‘향남의 새로운 중심’ 롯데건설, 화성 향남 롯데캐슬 시그니처 견본주택 전격 개관",
+      "summary": "롯데건설이 화성 향남 롯데캐슬 시그니처 견본주택을 개관했다.",
+      "kw": [
+        "롯데캐슬",
+        "향남",
+        "견본주택"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE10dVJrNF93aktlU3hvQkZ1NnpWSk96eE1FRHZGVnB6M1ZNTng5Q0dqWVNMcGNrLTZrRDZtdlVFenZxWHFUODRieWN1WGRncFB5MmZJX3lMZzdrY0ZEV0R1dzFqUUllSjjSAWdBVV95cUxNdHVSazRfd2pLZVN4b0JGdTZ6VkpPenhNRUR2RlZwejNWTU54OUNHallTTHBjay02a0Q2bXZVRXp2cVhxVDg0YnljdVhkZ3BQeTJmSV95TGc3a2NGRFdEdXcxalFJZUo4?oc=5",
+      "source": "리버티코리아포스트"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "환경",
+      "senti": "중립",
+      "title": "화성시, 쌀 품종 혼입 여부 과학적으로 확인한다",
+      "summary": "화성시에서 쌀의 품종 혼입 여부를 과학적으로 검사한다.",
+      "kw": [
+        "쌀품종",
+        "품종검사",
+        "검증"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE15aTNiSGhCcmJXNlUzOGdYREhDZ3FVTWd0eUoyNm9vYjVvN3YwMW5UWW03VmZDV0EwbTNrbUpsMWhkSGRibWFvWVZFY1E1Wkw0Mlh3UWJYNDBBV1V4ZXpFQlBBZWY?oc=5",
+      "source": "서울경제TV"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "교통",
+      "senti": "부정",
+      "title": "동인선 동탄역 수요 2만 8000명 제시한 철도공단, “오류 된 숫자”",
+      "summary": "철도공단이 제시한 동인선 동탄역 수요 예측 수치에 오류가 있었다.",
+      "kw": [
+        "동인선",
+        "동탄역",
+        "수요예측"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9mU05aWDZKdUcxTTJ6MkZVeWNNQ19EZDRNVnRmLVJ3YzRkVmJGS0d5ZXFUNkkzNFNxS0luQ3VDZ3E2eXQ4Vk9KNS1RQS1CeUdGNnd2WHlWOWYtN1JqLTlJV2pn?oc=5",
+      "source": "경기신문"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "‘화성 향남 롯데캐슬 시그니처’, 23일 견본주택 개관…유주택자도 1순위 청약",
+      "summary": "화성 향남 롯데캐슬 시그니처가 23일 견본주택을 개관하며 유주택자도 1순위 청약 가능하다.",
+      "kw": [
+        "롯데캐슬",
+        "향남",
+        "청약"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9TaURjT05maGZVYTdGbEtoM0ZmSnJxUG91SDBXZ2R0dnZ0TG9zdjg5S0RJNTBid2R1aURXaUxyQ3dkak5XTHYzU29hT0pQczdrS1EtVUFVZ01SZWZtUFhUUG9OVTU?oc=5",
+      "source": "서울경제TV"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "교통",
+      "senti": "중립",
+      "title": "화성특례시의회, 최청환 의원 5분 자유발언, “대중교통은 수지타산 아닌 시민의 이동권 중심으로 접근해야”",
+      "summary": "화성특례시의회에서 대중교통 정책의 시민 이동권 중심 접근을 요구했다.",
+      "kw": [
+        "대중교통",
+        "이동권",
+        "정책"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1lWkpKVmw5aHNoR2ZLU0tpVFYydFQ4TTVYbDdJRWFubzQ0N1NnUnNjMWhxWDZhRHZUQTh3UHdiSEF2eWNXQzBycUpZZGdvMmNqUzBoSmlUazEzU2w3VXc?oc=5",
+      "source": "이런뉴스"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시, 장민우·이평찬·나경화 홍보대사 위촉…화성 매력 알린다",
+      "summary": "화성시가 장민우, 이평찬, 나경화를 홍보대사로 위촉했다.",
+      "kw": [
+        "홍보대사",
+        "위촉",
+        "화성홍보"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE92dGRpellqTHk0RTEyTlZJRkhOTURtVk5GOW12MDFVcnU5WnlzRWNIcEROS3lsZlI4QkFtek1VTEFvbVBRaXNtWE5IaGdkclotekRaSWd3OURDUnhIV0htZg?oc=5",
+      "source": "아시아경제"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "교통",
+      "senti": "긍정",
+      "title": "2032년까지 용인 남사-화성 동탄 잇는 도로 생긴다",
+      "summary": "2032년까지 용인 남사에서 화성 동탄을 잇는 도로가 완성된다.",
+      "kw": [
+        "도로",
+        "동탄",
+        "인프라"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1xRDZGX2JRUTByVWYyVnJHUkFDa2w4SEFiRlFfSmdRNjVaM0VWalFxSjU0SFNQSndzVEE5YzF0eWlHdlh2djRNQVgtMmVHaVg3WTFibVZ3YlRqYmZxVTdsYl9fRjhWOEhmVlFkLQ?oc=5",
+      "source": "용인시민신문"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "롯데건설, 경기 '화성 향남 롯데캐슬 시그니처' 견본주택 개관[부동산AtoZ]",
+      "summary": "롯데건설이 화성 향남에 롯데캐슬 시그니처 견본주택을 개관했다.",
+      "kw": [
+        "롯데캐슬",
+        "향남",
+        "견본주택"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1PX2RSVWtNUTVyaWtvMVFiZEF5ekc0TGVwRkx0SmQySkQ5MVhTOGxNaXpKaVFyNy1kM3psR2JDZFJoSTBOZEI1Rm5feERoNl8xUF9QVTZjOEJfT0QzTlVYWg?oc=5",
+      "source": "아시아경제"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시, 신규 홍보대사 장민우·이평찬·나경화 3인 위촉",
+      "summary": "화성특례시가 신규 홍보대사 3인을 위촉했다.",
+      "kw": [
+        "화성특례시",
+        "홍보대사",
+        "위촉"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RamNrMGNrb1dGTnVUS01jQy1JbTQwMEQ5dlZLMXZFeFNreG9aNTEzcVMtak1fY25wR0ljN0pxaTlsY2o1ZEp3MzBfY013RnB3MDc0S2lOQVd4aUVVbUpEclNDOC1hWjBoZWlmNw?oc=5",
+      "source": "파이낸스투데이"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "롯데건설 ‘화성 향남 롯데캐슬 시그니처’ 견본주택 개관",
+      "summary": "롯데건설이 화성 향남 롯데캐슬 시그니처 견본주택을 개관했다.",
+      "kw": [
+        "롯데캐슬",
+        "향남",
+        "견본주택"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9qZzg1MEQtdFcyT0tyZlpfR0oxeE9MYlltbXR2YUtUU19JeWhMR25VRTBTYTcxdHRVUF94b09pOF95VjQ4TTduMmQwdzJGejNTWVhVMmZ2Zmd5bEZGeTJ1YXM4WTVYd1NfOVE?oc=5",
+      "source": "천지일보"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "MARS 2026 코엑스 개최…화성시 5대 AI 생태계 공개",
+      "summary": "화성시가 코엑스에서 개최하는 MARS 2026에서 AI 생태계를 공개한다.",
+      "kw": [
+        "MARS2026",
+        "AI",
+        "화성시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE05UnppQV9TSnF1UVh2OVNNa3lKUG9fSncyQ1hRSXZxQ203RXJha0VzUlFPdVotRF9yazNzcENzX2Y2WUw0MkZnMlpIdm9wNm5TcWZtVzhuaEhCZERVLTdRcVln?oc=5",
+      "source": "경인미래신문"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "1542가구 '화성 향남 롯데캐슬' 분양…내달 3일 1순위 청약",
+      "summary": "롯데건설의 화성 향남 롯데캐슬 1542가구가 분양을 추진한다.",
+      "kw": [
+        "롯데캐슬",
+        "향남",
+        "분양"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFByRlhCQ1pQSW1ldWdvWEdkUE5ZSVVteE0wMFdveGFzRVhmZU80ZnZHZ1BBMGhTeV9XaHZqNTJpOV95VERHcUFrWklBMUVXS2V2NVN1WV9yM0p5eXR3cjFqcUlkV0lkSU9lNDRYQjBHbWVXQ1HSAXNBVV95cUxQckZYQkNaUEltZXVnb1hHZFBOWUlVbXhNMDBXb3hhc0VYZmVPNGZ2R2dQQTBoU3lfV2h2ajUyaTlfeVRER3FBa1pJQTFFV0tldjVTdVlfcjNKeXl0d3IxanFJZFdJZElPZTQ0WEIwR21lV0NR?oc=5",
+      "source": "땅집고"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "화성시의회 “원격검침 0%·광역버스 난립·소각장 진통”",
+      "summary": "화성시의회가 원격검침 미흡, 광역버스 난립, 소각장 진통을 지적했다.",
+      "kw": [
+        "화성시의회",
+        "원격검침",
+        "소각장"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5Ua3A2eVZEOHNmZTQ4enFoWVNkbXFZMkp1VldvcUJSenRtc3N0dnBJNU8waU1aM3dPYzNYMnJ3NXJuQnRaUW1fczNuZnJ2cFQwOWc?oc=5",
+      "source": "경인일보"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "교통",
+      "senti": "부정",
+      "title": "동탄역 수요 예측 11만 명→2.8만 명 잘못 계산…철도공단 인정 [2026국감]",
+      "summary": "동탄역 수요 예측이 11만 명에서 2.8만 명으로 과대 계산되었다.",
+      "kw": [
+        "동탄역",
+        "수요예측",
+        "철도공단"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9fbU56SFFQVE54XzdpZXkyWTRYMTFFUXNSMk5SQ1IxLURwZ3NfeC0xNUt5bWFDZktRTG90ejEtNGdhTFRiZUlqV0R3UzRHVmpKYkRjTUNsTGJmUnZ6TXA3MHpfcWtGNml1X0Rz?oc=5",
+      "source": "철도경제신문"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시, 글로벌 AI 엑스포 ‘MARS 2026’ 내달 3일 개막",
+      "summary": "화성시가 글로벌 AI 엑스포 MARS 2026을 내달 3일 개최한다.",
+      "kw": [
+        "MARS2026",
+        "AI",
+        "화성시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ZZk1CTzZYXzhPY0RjZDFfbWFNZEdlS0ctMllodFVGWm9WaEhydkhOWU1lVHI5YlN3TkhMVzJabnRMcEg1RndUVjdpNDBCMkFCcURYNTNyMFZkQzNmNWl1ck85cmZIb3RsMERTQ1p30gFyQVVfeXFMT1hqTl9SOG5fa3NTU0NLcTlxNHY1OXJCaFJsYW9PQmlDemhDMlV2U191ZGFJNzM1UWZlODl3QnRadXRYWlEycWhkMVJDYjdLaTVxc3NnWlR0SEtsNWZyaDd3LVNfM21KRDdZT3dDQ1ZLOUN3?oc=5",
+      "source": "경인종합일보"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "롯데건설, '화성 향남 롯데캐슬' 견본주택 개관…1542가구 대단지 공급",
+      "summary": "롯데건설이 화성 향남에 1542가구 롯데캐슬을 공급한다.",
+      "kw": [
+        "롯데캐슬",
+        "향남",
+        "대단지"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBCcWgxWkxwdWhiT2Q4RF84c3AwVHFZcG5SdHhOd2YtY0tzSGhlYkNGcGF0OTJSaFVuU0IxZnRqbG1aenBsZXpxdmRVdjBId2NtaElyQXpKUy1EM2tXcU43aVp2aVBMeHVPamNoaGlxenBGRFRB?oc=5",
+      "source": "글로벌이코노믹"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성특례시, 서울 코엑스서 3일간 「MARS 2026」 개최",
+      "summary": "화성특례시가 서울 코엑스에서 3일간 MARS 2026을 개최한다.",
+      "kw": [
+        "MARS2026",
+        "AI",
+        "코엑스"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9FQmprRlpJM0hGSDFzTTZYdzVoMkRvNGtuVGtjdVZZQ01MdlN4a0p5b1VPVUlhV09yMU9CX0tQTVV6b2o1TDRWbzVUZHd4cEljeGszdnoyODVwcWZLcXVUTU5nb3RtTzl2ZVV4TA?oc=5",
+      "source": "저널25방송"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "롯데건설, 화성 향남에 1,542가구 롯데캐슬 공급.. 실내수영장·게스트하우스 갖춰",
+      "summary": "롯데건설이 화성 향남에 1542가구 롯데캐슬을 공급한다.",
+      "kw": [
+        "롯데캐슬",
+        "향남",
+        "공급"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1DVGVGbzNrVFpHbnJ0Yy04OFVMdllqTnZRY3c1cENUY01FRHAzeW5fd2F2Z1kwdmEtNXBzSE8ycE56LVkwb1ZiQ01QS0tOQlhuZklNRUNIdExEZnpZYXc?oc=5",
+      "source": "한국재난안전뉴스"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "화성특례시 동탄8동, 민·관·경 합동순찰 실시... ‘주민 중심 안전한 골목길’ 조성",
+      "summary": "화성시 동탄8동에서 민·관·경이 합동으로 골목길 순찰을 실시해 주민 안전을 강화한다.",
+      "kw": [
+        "동탄8동",
+        "합동순찰",
+        "안전"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBobHYtTHhZOWh2Znl1MkI0ZzZ3VWV1VF9wVkh1dkhnNmZleEVnMUhCSUNfSWdiWkNYQnVXWHJIRG5NSmplZUg0bURn?oc=5",
+      "source": "경기평화신문"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "장애인과 비장애인이 예술로 하나 되다…DPI 화성지회 ‘아라리요’ 공연",
+      "summary": "DPI 화성지회가 장애인과 비장애인이 함께하는 예술공연 '아라리요'를 개최한다.",
+      "kw": [
+        "장애인",
+        "예술공연",
+        "통합"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE4yc1l5d2hidFhBdzltTEUxQnozQUdiNmgwYm5oenJ3R01wQzhyRXpiMnQ0dU5jTEw0U0NxQXZ4YU1HQQ?oc=5",
+      "source": "화성인터넷신문"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "[분양] 롯데건설, '화성 향남 롯데캐슬 시그니처' 외",
+      "summary": "롯데건설이 화성 향남에서 롯데캐슬 시그니처 등의 분양을 진행한다.",
+      "kw": [
+        "분양",
+        "롯데건설",
+        "향남"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9PcDJlU1A5OEZPZE1oSHFJZGJaWC16SkU4QjRVbURVQW9NanFwVmVod0RYaU1RUTlCOXlxdnBvdUdDbkdmRnFQVENBd09OY1QwQmFYMVE1eEctSEtZWGxta1dSbXAySDg1V2c?oc=5",
+      "source": "서울파이낸스"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "환경",
+      "senti": "긍정",
+      "title": "화성시, '지질공원 경진대회'서 2개 부문 기후환경부장관상 수상",
+      "summary": "화성시가 지질공원 경진대회에서 2개 부문 기후환경부장관상을 수상했다.",
+      "kw": [
+        "지질공원",
+        "경진대회",
+        "환경"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBWUmE4SmY5dGF3eTNNaTFoSDNKMjNoRldxTmNwdDRuT2l3am4wWVBqdEMwcy1Sa1p0Z21lTlRoQ0RSX0FZekoxWUx1WEZ4VUJodngwcTVsX2FYaWdf?oc=5",
+      "source": "뉴스핌"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성특례시, 내달 3~5일 글로벌 AI 엑스포 'MARS 2026' 개최",
+      "summary": "화성시에서 내달 3~5일 글로벌 AI 엑스포 'MARS 2026'을 개최한다.",
+      "kw": [
+        "AI엑스포",
+        "MARS2026",
+        "행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1FZ21mbUNqTUViR0hrMnZmZm1DWTdNcEk0b0g5QTdPMW44Vkhwd1JZNDBFSk5HLXBUZVU1Y1VDeDBaZ3VpWWUwM1c0RUY3dWxXNE9sd3o5SlFwOVZyU2tKenhSMmdZalQwMzYw?oc=5",
+      "source": "프레시안"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "환경",
+      "senti": "부정",
+      "title": "삼성전자 화성사업장, 유해화학물질 78종 취급... 독성 누출 땐 수원·용인까지 영향",
+      "summary": "삼성전자 화성사업장이 78종의 유해화학물질을 취급해 누출 시 광범위한 영향이 우려된다.",
+      "kw": [
+        "삼성전자",
+        "유해화학물질",
+        "환경오염"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBZSVY0N1FMUmVBVm1kaDQzRVptc3JydEh2LUJVb0RGdzZudGJRWjQzV2dTQ19DTHFLWGs3dGhzOHBCWmpXaXgtZkFza29NQUUzMmlLV1YtUzBqMzFrQlZKRkVGVmJhNU9VSFN3?oc=5",
+      "source": "투데이경제"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "‘멤버는 적었지만’ 오산동탄 더 모스트 U12가 보여준 위기 극복 능력",
+      "summary": "오산동탄 더 모스트 U12팀이 적은 인원으로도 위기를 극복하는 능력을 보여줬다.",
+      "kw": [
+        "동탄",
+        "스포츠",
+        "청소년"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGWF8wbzRFWWZxVjZVX3ptdlBjT1VQdWNIdHBvaU9DUHNScDdiSTJWeDFjZjJJSm5lRmFZbmxRZDF2R3J0RG1VeDhhQ1BGeXV6amdIY0pndmJqY2J6WEhqdUhiR2JMVlZiTnU5MjBEYl8?oc=5",
+      "source": "점프볼"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시의회, 제255회 임시회 폐회…안건 45건 원안 가결",
+      "summary": "화성시의회가 제255회 임시회를 폐회하며 45건의 안건을 원안 가결했다.",
+      "kw": [
+        "시의회",
+        "임시회",
+        "의결"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE90QWNZc3ZYVWVuNEh5VWV2NXVmbzJ0UTZ3UWFYQlA4eTlfZ2QxaFhIZGx0elJsZ2V3dWtRR3E2WjRMTk40azlPMkNPTjJnS1M0TDRLTHE1LVdKM1c3dnp0eEduWXhGVDNIUHVuTVVKLUZQNHRiZGViWjV1QWw?oc=5",
+      "source": "비욘드포스트"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "동탄역 신축만 오르는 게 아니었다…3년간 63.7% 뛴 1동탄 아파트",
+      "summary": "3년간 동탄역 신축만 아니라 1동탄 아파트 가격도 63.7% 상승했다.",
+      "kw": [
+        "동탄",
+        "아파트가격",
+        "부동산"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4zcXpTbTFYVjZLOE0wYWxla3RQd0tQS0txQ29MWExSUmpmN09VMFZEU0dOekRBZG95QjJRU09Dbk1lb1p1ZjFfVW94TkNLQ0tkVVJEUUJTbXdtN1JuMHRuX2JzWHA0UQ?oc=5",
+      "source": "https://www.kgdm.kr/"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "롯데건설, 화성 향남 첫 롯데캐슬 분양…중대형 1542가구 공급 - 머니투데이",
+      "summary": "롯데건설이 화성 향남 첫 롯데캐슬을 분양하며 중대형 1542가구를 공급한다.",
+      "kw": [
+        "롯데캐슬",
+        "분양",
+        "향남"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5PempQT3FfS1AyQUE4RUFOZjVtZnY5Rmp5aHdaZHJmWjVaUVlhcEdNZkZVWldOZmdQcE5pS1d3WXl2U0Z3YlA1cHIzWUxTMVRpUHpNSG1KbGIyS2VTYmpYZ1lzMzVJUVZwSnluY0Qtd9IBb0FVX3lxTE5PempQT3FfS1AyQUE4RUFOZjVtZnY5Rmp5aHdaZHJmWjVaUVlhcEdNZkZVWldOZmdQcE5pS1d3WXl2U0Z3YlA1cHIzWUxTMVRpUHpNSG1KbGIyS2VTYmpYZ1lzMzVJUVZwSnluY0Qtdw?oc=5",
+      "source": "머니투데이"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시의회, 집만 늘어나는 신도시 막는다…자족기능 강화 추진",
+      "summary": "화성시의회가 집만 늘어나는 신도시를 막기 위해 자족기능 강화를 추진한다.",
+      "kw": [
+        "신도시",
+        "도시계획",
+        "자족기능"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zSXFtRGRoX29hRFpOMEFWcWxOM21lUnFiR0Y3Z2IwR2VKMC1MR0hXVlJUQzFWWVdPckpyTkZsWkxLUmlLald2RlI3N3hVWDdsdFY4S19JMkdVMHVSWXdoSWlSN0Q?oc=5",
+      "source": "서울경제TV"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "롯데건설, '화성 향남 롯데캐슬 시그니처' 23일 모델하우스 개관",
+      "summary": "롯데건설이 화성 향남의 롯데캐슬 시그니처 모델하우스를 23일 개관한다.",
+      "kw": [
+        "롯데건설",
+        "향남",
+        "롯데캐슬"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAzd2VGSXZzM2F5bGlXNTN2d2IzcHpNM3BXUzFlbnlOcmFiRFZkQncwYU94UkFGUnFCdFpidG4zUHdDaGFVRlZiNERJT3JpeWFRa201M2ZkQ1NuLTY0cFY1OTR0ZS11VGtUclpnYV9ZQU5Hc1VRblFJ0gF3QVVfeXFMUDN3ZUZJdnMzYXlsaVc1M3Z3YjNwek0zcFdTMWVueU5yYWJEVmRCdzBhT3hSQUZScUJ0WmJ0bjNQd0NoYVVGVmI0RElPcml5YVFrbTUzZmRDU24tNjRwVjU5NHRlLXVUa1RyWmdhX1lBTkdzVVFuUUk?oc=5",
+      "source": "핀포인트뉴스"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시동탄치동천종합사회복지관, 동탄농업협동조합이 함께하는 ‘제 9회 어르신 팔순 축하 잔치’ 진행",
+      "summary": "동탄치동천종합사회복지관과 동탄농협이 어르신 팔순 축하 잔치를 개최한다.",
+      "kw": [
+        "사회복지관",
+        "동탄",
+        "어르신"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ja2ZtUDdkMVh4dWplM1FwdzBhM0RaUnRZQXdySjRRaDRFVW5qcndsTU5GNTlnUnAyYnp2NVMtVkFKV0Nnekw4TVR2T3l0TS02S3ptam1XMzVhVXFXZ1NCY0hmaTQ5dnc?oc=5",
+      "source": "경인신문"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "시청서 책 빌리고 작가 만나고 독서모임까지…화성시 ‘독서경영 우수직장’ 2년 연속 인증",
+      "summary": "화성시가 독서경영 우수직장으로 2년 연속 인증되며 도서관 활용 프로그램을 운영 중이다.",
+      "kw": [
+        "독서경영",
+        "화성시",
+        "도서관"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaYW8zLUp3dmdpakh6dGllaDBIM1NYSndoRDBjdnlDWFk1WkZnN0xiRnMzTVlZcFc3M1B3YUN2aXZkU1plLXd2NEZiS0RhUXA1RHJCOV90eVdPVk51azVROEh4ZC1sOXM?oc=5",
+      "source": "뉴스21 통신"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "서울 89주 최장 상승 속 ‘경기 남부 훈풍’…동탄 넘어 병점까지",
+      "summary": "서울 주택가격 최장 상승 속 경기 남부 지역의 부동산 시장이 활황을 보이고 있다.",
+      "kw": [
+        "부동산",
+        "동탄",
+        "병점"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBPdDJVYTZGSzZnYWVxQk51R25WTXpuZjI4RjFVX01UbUh6c0FXT3pXMXJMQnlzVUtNQkxvQVQtOTR2SzhWVkF3T1ZrLVJheC1YVVHSAVNBVV95cUxNTG5VTk43ZlJhd1ZxTlRCQllSaXBMTlRTdHVmbjN5NnlxZGEtSEhCQ0c5VU4zUnZWYTRuaUh6MG5pZm0xZXhFU25SOXNyNENSZEs1MA?oc=5",
+      "source": "서울경제"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "롯데건설, 경기 화성 향남 첫 롯데캐슬 1542가구 분양 돌입",
+      "summary": "롯데건설이 화성 향남에 1542가구 규모의 롯데캐슬 분양을 시작한다.",
+      "kw": [
+        "롯데건설",
+        "향남",
+        "아파트"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1kTy1SZWJFUGx2c1ZBSWEta0lyZUhzMlhuRzNhUmFFTXdpVkc2VzdEZnJfS01sdG5pdUIwVnJUemIzSHJ3NlF3NFROWmhkRUU5MXc3TUdzYS1mVmpnUl9RT3I3T1c4ZERX?oc=5",
+      "source": "FETV"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "동탄 국평 22억 시대…‘16~17억’대 아크메르 동탄, 5년 뒤 몸값은",
+      "summary": "동탄 국평가 22억 대로 상승하며 아크메르 동탄의 향후 가치가 주목된다.",
+      "kw": [
+        "동탄",
+        "부동산",
+        "가격"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1QdTYtOEFfRjBzNk13ZE9hcW52ZTNMRmtpX0cxa2pjeXJrNzNxMG9CR1doMWEwb1RraXJvM2gxM1M5RkhGdmFHVG9PV2F5UHZtYlI1dWo5NjZuMGFzbFUyRjV6aFRtRVFM0gFsQVVfeXFMTUUzSXlzeHloMFRiS3lHc19FQXpJY29UOHlzS3QyLURwTEVaSEtBWi1nbTU1Y04tdUpIQzJKS3BfdmFmSXNPWTdySnVxTkpSai03bXRUalE0RGpac0JqUUhLTVFEcW55SHEwcWxY?oc=5",
+      "source": "리얼캐스트"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "롯데건설, ‘향남 롯데캐슬 시그니처’ 23일 견본주택 개관",
+      "summary": "롯데건설의 향남 롯데캐슬 시그니처 견본주택이 23일 개관하며 분양에 돌입한다.",
+      "kw": [
+        "롯데캐슬",
+        "향남",
+        "분양"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1QcldMeVVRQUJvMHBFWnNlX21uRHE4a0FuU3pIeDN2ZjRFdGg2dWRWaTgwVkdSTWFUZWRzVWpieTJEMUhSQlRjNlJUaGlrYUZ0RXV1WmpvOXotMUU0LXRKVVhn?oc=5",
+      "source": "이코노미스트"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "장민우·이평찬·나경화, 배우 염정아 등과 화성시 매력 알린다",
+      "summary": "유명 배우들이 화성시의 매력을 알리는 홍보 활동을 펼친다.",
+      "kw": [
+        "화성시",
+        "홍보",
+        "배우"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5XcFRMUGs1cVFnNTBlRUxxaUJJMTcxbVZVNThKU1F0ZERCdVBOMF85TUkySmg5MEJJRFlRb2JIVjdFQlA1WHkzZUpSUHVTd042MmxJ?oc=5",
+      "source": "KPI뉴스"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "‘생방송투데이’ 매운맛 맛불 작전, 화성 향남읍 대왕해물전골 vs 가평 설악면 솥뚜껑닭매운탕 맛집 위치는?",
+      "summary": "생방송투데이에서 화성 향남읍의 대왕해물전골 맛집을 소개한다.",
+      "kw": [
+        "향남읍",
+        "맛집",
+        "해물전골"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9GSURqOWN3RTRFZGt3Vmg1X0xzOWFTNU9Gd3p3UGhpZDYyZi1HMFBoRE5KcWFZMFk4N1ByVlVGeEloUmFCTDY1Vm5LbUJDcS1qNnRmRXZOTFhPbUY2REZYZ3lILXgxY2ptR1hZZ2dFVnhxQQ?oc=5",
+      "source": "TopStarNews"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시, 새 홍보대사 3명 위촉",
+      "summary": "화성시가 새로운 홍보대사 3명을 위촉한다.",
+      "kw": [
+        "화성시",
+        "홍보대사",
+        "위촉"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1jQ0RnM3IzZUVscExRM3ZDeHJobk1ZZGdDeXZDUHpCc0Nyd0twSUhjYmZPZHNSQlNGcnNmcnBrd0t6STZHNTZLNzVfUDgxUkRETXfSAVNBVV95cUxNM2FkZ0xEU1ktUlF2STc5bi1SOFlWZ1IxcjI5UDg2OGlEbU5LSElWalg4Yk1lbzloSmVpRU15NkJLUS13YXZzRDlSVXFFWHdOSzY1bw?oc=5",
+      "source": "서울경제"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "‘아크메르 동탄’ 견본주택 사흘간 2만7000명 몰려…26일 특별공급",
+      "summary": "아크메르 동탄 견본주택이 사흘간 2만7000명을 유입하며 높은 관심을 보인다.",
+      "kw": [
+        "아크메르동탄",
+        "분양",
+        "견본주택"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE15TDBLLXhNdU8tODZYQmo0Q3ZzbXRmSGo2Ym9FZmRTYUVJWUcwSUxqX1M5NFZiRmFlWGtzUFpUMlhfazM2T3NoaGJNTVF1QUJ6YU1MdERtN0pYdjRTUW1hUHZrUGM?oc=5",
+      "source": "디지털데일리"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "롯데건설, ′화성 향남 롯데캐슬 시그니처′ 견본주택 개관…분양 돌입",
+      "summary": "롯데건설의 화성 향남 롯데캐슬 시그니처 견본주택이 개관하며 분양을 시작한다.",
+      "kw": [
+        "롯데캐슬",
+        "향남",
+        "분양"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5EVnJwM3FBVHV4ZGREQ05jalJLN1o0d25KZnZrZFVwWkU2WkhDdWNvdE9VTTJsZHc2T3B5UTM3S3Z5N1hjV3RTVlpzVnRRTk9oQlpGOWdIeWFYbkZfbDNkZ0tRd9IBbEFVX3lxTE5FbkxTR01EcU9UQkh3a0hDNUpCdlVPdXJ3NVFjSnRLZURSMkpDN3k5US1odi15NzNfTTVEbVlKLXU3dEpselVlMm4wSEU2QVJ3eGE5ZDFPd2Q4Zm9lVFdGS2NGTDhIOTBtUUpOZw?oc=5",
+      "source": "소셜밸류"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시의회, 제255회 임시회 제2차 본회의 개의",
+      "summary": "화성시의회가 제255회 임시회 제2차 본회의를 개의한다.",
+      "kw": [
+        "시의회",
+        "본회의",
+        "임시회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQel9lUVRKVk5tQmhKZjVsZkNxZHlucmQzZjBXTWVabzZCVjYwcy0yd29XckZyZVY0bTJpTnVEYXB6dHVnanhQX0tQdEt2bEpod0FOalB1QkFIaFpZY0FuVldFVFA5R004cnpOamNGLW8ybEZ1bkhldFhUZmo3WlRjc2docTdWODhSS1ZHb2lMQW90M3h4eWF5NjBtbFVqZTNEVENqQUpLTXZZcVgzMEs2Y24wNGxEeGIyT0l6ZzVHdU5LWlRhLUdsOU5uX3d3NW1CUWlBRXN6Z0JpWDR5VXZqaHZUMTg2NXM1SnFyMmF6Nm9XOGJEM2Vr?oc=5",
+      "source": "데일리안"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "동탄역 롯데캐슬 22억2500만원 신고가…아크메르 동탄 분양가 주목",
+      "summary": "동탄역 롯데캐슬이 신고가를 기록하며 아크메르 동탄 분양가에 주목이 집중된다.",
+      "kw": [
+        "동탄",
+        "롯데캐슬",
+        "신고가"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBIOW9PaGtmbFMxQmxpTEVQbzA1a2Z4anhqejgybW9YMlRCVlB5dkd4eU84WEFqV0U1d2dXUWNPYzJsNXdWd1NqMHpiV1o2N0dMX3NpZHk1dHVrd0N6NzRZc2hVdDQyZw?oc=5",
+      "source": "https://www.kgdm.kr/"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성특례시, 세계를 잇고 시민과 공감하는 새 얼굴... 장민우·이평찬·나경화 홍보대사 위촉",
+      "summary": "화성시가 장민우·이평찬·나경화를 홍보대사로 위촉해 국제교류와 문화홍보를 강화한다.",
+      "kw": [
+        "홍보대사",
+        "국제교류",
+        "문화홍보"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1nSXBkbTdxVUZxRDg3NU41YjE0MEhQME9mOTNDeEhwYTcxQkZXLUNRMUdoQm5FaU9JSGxmYi1WX1dRdw?oc=5",
+      "source": "화성인터넷신문"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "롯데건설, 화성 향남에 롯데캐슬 첫 공급…1542가구 분양",
+      "summary": "롯데건설이 화성 향남에 롯데캐슬 1542가구를 첫 공급한다.",
+      "kw": [
+        "롯데캐슬",
+        "향남",
+        "아파트분양"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBUSmp0UkhuRGJ2XzdNVWpOTnVuRkNXMGhycV9ST3F2cUkyeGJJVmg1em1Ia3hXRG9YamtjWTBndVlPUDlqSFBEUlNvNU9RSVp2a0FPeUwwY3ZaY0gzalRZTnRYc0xOWmszbW1R?oc=5",
+      "source": "서울타임즈뉴스"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시문화관광재단, 24일 궁평항서 「2026 화성 서해안 선셋 콘서트&바다빛 불꽃쇼」 마지막 회차 개최",
+      "summary": "화성시문화관광재단이 24일 궁평항에서 2026 화성 서해안 선셋 콘서트&바다빛 불꽃쇼를 개최한다.",
+      "kw": [
+        "선셋콘서트",
+        "불꽃쇼",
+        "궁평항"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9sWjNwd3l4UHBVOEIwODRrX2ZUMjNNT1I1dTZTRHJxdWVPV1ZCcmxCcXB4aUI2OWlfenhFeXhPbUhOdHd3VXAyZERFRU9MUlFNTlNfVjI1c05RcWFzZG10ZmY2eE05Zw?oc=5",
+      "source": "화성저널"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "정명근 화성시장, 장민우·이평찬·나경화 홍보대사 위촉...국제교류·문화홍보 강화",
+      "summary": "정명근 화성시장이 홍보대사 위촉으로 국제교류와 문화홍보를 강화한다.",
+      "kw": [
+        "시장",
+        "홍보대사",
+        "문화홍보"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA5YXdMZHBmdHRpVldPOWhwSHVLRlRnamMyNFB6WGN4ZHlsM0hESlpCc1NxbnREMXNNblprZktUQWpINVNDbGtLX09uaURqVl9mbEpmVlRUM0jSAVhBVV95cUxQOWF3TGRwZnR0aVZXTzlocEh1S0ZUZ2pjMjRQelhjeGR5bDNIREpaQnNTcW50RDFzTW5aa2ZLVEFqSDVTQ2xrS19PbmlEalZfZmxKZlZUVDNI?oc=5",
+      "source": "아주경제"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "롯데건설, 23일 ‘화성 향남 롯데캐슬 시그니처’ 견본주택 개관",
+      "summary": "롯데건설이 23일 화성 향남 롯데캐슬 시그니처 견본주택을 개관한다.",
+      "kw": [
+        "롯데캐슬",
+        "견본주택",
+        "향남"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1aNGdha242Z1gtbXRGdGNXQkRZODNvMkNld3BlNGhkSV9xR2dST1ZsYWZFeWJYUlJYRmc2SVVZSC1Wd0diUDdiajMzWXh1TG1MRnhTN05yRkhPLVhuRXpxOGxkcjM4VlV3cW5kSEtB0gFyQVVfeXFMUG13QTNvVFYyU0NOaV83VmxNa2t5eEpWRzM3VzluOXFfZlZDamV0dUdXLXlNdFhGNjNVLXkxcXRZVVgweW9WNGttcEdxV0U0TEl2ZGd4dUVwLXU1ODBJZmY4OWVOTnhxUG9abXNjWWpRNF93?oc=5",
+      "source": "팝콘뉴스"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시의회, 제255회 임시회 마무리",
+      "summary": "화성시의회가 제255회 임시회를 마무리했다.",
+      "kw": [
+        "시의회",
+        "임시회",
+        "의회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBLWmZxMDk0YUZMbGVocmdsUEVGOUpQRnpNUXlrVzJFU004aUgzZ3J1ZDBXM1l2UFM1STBzMW5TakctcEJla0E3SHNZd19iTl9UZ3hYTjZvTW9BckRQbEdNUEJsOER0U3BhelNqRVpDMG1EOEpUVEQ1TGt0ZS1zZ2_SAX9BVV95cUxQS1pmcTA5NGFGTGxlaHJnbFBFRjlKUEZ6TVF5a1cyRVNNOGlIM2dydWQwVzNZdlBTNUkwczFuU2pHLXBCZWtBN0hzWXdfYk5fVGd4WE42b01vQXJEUGxHTVBCbDhEdFNwYXpTakVaQzBtRDhKVFRENUxrdGUtc2dv?oc=5",
+      "source": "뉴데일리 경기"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "정명근 화성시장, ‘AI CITY 화성’ 세계에 알린다…MARS 2026 글로벌 무대 출격",
+      "summary": "정명근 화성시장이 MARS 2026 글로벌 무대에서 'AI CITY 화성'을 세계에 알린다.",
+      "kw": [
+        "AI도시",
+        "MARS2026",
+        "글로벌"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA4YnJ2dzM0RkIwNFhZRUVzWEl3elVyemZ3YmF4UDBkVjBQd2RSWU9admpMN3l1TE4teHpxa2hheFJiLWlfNU40R1J6NngxMlVjVm5DcmdCR3BGODN3X3VUZ1JtbllVOXgzR3ktb09NYUk3ZUNETFMwYVhaQ28?oc=5",
+      "source": "비욘드포스트"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "화성시장애인누릴인권센터, 11월 8일 일일 후원 행사 개최",
+      "summary": "화성시장애인누릴인권센터가 11월 8일 일일 후원 행사를 개최한다.",
+      "kw": [
+        "장애인",
+        "인권센터",
+        "후원행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBoeU5LWk4zak5aRTNOVVZ0SnNyNHdfTEFSLWRmSExvQXhrQ0F4M3A1ZjFUWnpBbHlKTjVkVEw2ZnRhd0U?oc=5",
+      "source": "화성신문"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "[금주의 화성시] 화성특례시, 11월 코엑스서 AI 엑스포 ‘MARS 2026’ 개최外",
+      "summary": "화성특례시가 11월 코엑스에서 AI 엑스포 'MARS 2026'을 개최한다.",
+      "kw": [
+        "AI엑스포",
+        "MARS2026",
+        "코엑스"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE80YS1lQk9FVFBhWWdtRXpQQXNqU0hmejNkZl9YUGFvTi1LVmdEMDYtUHlFVkVhWXJDNWkyaUE0ckZuak5SZlRlS0hqN19UNWRyMmc0ZGVvbURQaFBDREhuNkZXWFRlZ0dDNTFEaEJ2VQ?oc=5",
+      "source": "중부일보"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "롯데건설, ‘화성 향남 롯데캐슬 시그니처’ 견본주택 열어… 본격 분양",
+      "summary": "롯데건설이 화성 향남의 롯데캐슬 시그니처 견본주택을 개관하고 분양을 시작한다.",
+      "kw": [
+        "롯데건설",
+        "향남",
+        "아파트"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5aRDg2VWM2dUhMQzVoc2N3LVlCN2NFZjFlRXpZUl9tX0oxOW95blgyemp4dXFOYkdBaWV0czVVc2VZNWN4ZUM1d2ZmYXUzV1g5QzVia0g5TFBNdw?oc=5",
+      "source": "브릿지경제"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시 민간외교·연예계 인사 3명 홍보대사 위촉",
+      "summary": "화성시가 민간외교·연예계 인사 3명을 홍보대사로 위촉했다.",
+      "kw": [
+        "화성시",
+        "홍보대사",
+        "위촉"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9WU2I1TXBZcEZfWFBXOEEyOWFVRDdrdElKcVdrekJLY3pBbjBiZ1NxN2o4clpWOFlUbFM4TnlRRzVFRlljaFJ6RWh3a3RKV2k4cXp2LTRHS0p6MThaR1ZUcdIBeEFVX3lxTE5VRFZIUjdud0J5UHVpQzBsM0RNX0dOUFlzb0Vva0RxSm9YR3ZPVU9YcXVRWmZCSi1oMGd0WV9KNjE1M1IzS2hmc1lVeWRqMXpjczhDWjlVZ1dXRmFDNGJfM1Z4cDNnb2pCWGlGV3dJaENTZlJZamNJWg?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "화성 동탄8동 민관경 합동순찰로 골목길 안전 점검",
+      "summary": "화성 동탄8동에서 민관경 합동순찰로 골목길 안전을 점검했다.",
+      "kw": [
+        "동탄8동",
+        "합동순찰",
+        "안전"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5FaS16dXFDUldvTjdlTGFVVGQ2N0FTZlRoM3hkajZtcGZpNjhLcmhOYmR3RE9rRExnUEpEQzhJZ09PS1NTQk5TTjZDamZLWXJsQVdidU5HSzcxa3JyYUhoSGhWcEozZDZRSjN3a1pkRmzSAXRBVV95cUxNX2hnaVIwc1Q2Y1dnei1QOXpUZEJvM0tqd3hickxDSjBZcDkwU0VlYnFzVEgzTkw0Tk1kMTVnUjdqU0Y4UTZ5R0FMb19xU1VmT3FoWFRwRFFMeC1WaVJiZlNiMDFFSEs2NlBEdTBmVExaMkJzTw?oc=5",
+      "source": "뉴스클레임"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성오산교육지원청, 미래형 과학실 구축교 현장 모니터링 및 과학교구관리 연수 성료",
+      "summary": "화성오산교육지원청이 미래형 과학실 구축 모니터링과 교구관리 연수를 완료했다.",
+      "kw": [
+        "과학실",
+        "교육",
+        "연수"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5kMTRfR2pDRnNsZldPX3luMGNqVjFmcFpTSmpBZXpQSy1uQTA4OG1ZdVhIaWthSl9WV0ctSzRRNjZ5ZXFzeGJ4bGVoclhzQ0piZ3NPTXB0cmhBZHoyRkxMbHpZdEFnc2FlYUFBVHFmd9IBckFVX3lxTE4wams1WXFQa0NYSXZDcllVaXNtc1hlWDIxLWFFcmVIR1RCZXQtTVBoYjhLUzlrWGNsZGRpSWhya1JiQXpXdXRKQVpXemJCZW1ERWE0V3N6MGtlUTVKbVJyeW5oYzMxM3Z6SnJSOEdCa1Bfdw?oc=5",
+      "source": "뉴스 따옴"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "“시간도 경쟁력”…‘시간 주권’ 높이는 교육 특화 아파트 ‘향남역 그로브 스위첸’ 분양",
+      "summary": "향남역 근처에서 교육 특화 아파트 '향남역 그로브 스위첸'이 분양을 시작한다.",
+      "kw": [
+        "향남역",
+        "아파트",
+        "분양"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9WQ2kzN19IQXlkd3RrTmg5dXZNSzhWWXNkMVBaZkI2bWhwcDZ3a18xQ3ZKSWQ1WWVGQmxKNHJnNDhhVy1YMkFuRl9OOW9LRDVubW9VOG5hZk5RTktSRGZOM0NrNkVSaGRweFNlazkyX2Qzdw?oc=5",
+      "source": "골프타임즈"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시의회, 임시회 폐회 안건 45건 처리",
+      "summary": "화성시의회 임시회에서 45건의 안건을 처리했다.",
+      "kw": [
+        "화성시의회",
+        "임시회",
+        "안건"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9jMzNHeHdlbW9OeUFiVXFOQTQyUnhmeUFDYzFWVGpwZlUxa0dJa3pDWW1ybUxmblVNVE5zS29jNGNRNEVUS0xR?oc=5",
+      "source": "브레이크뉴스"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "남동탄 복합문화시설 주민추진위, GH 균형발전기획처와 간담회",
+      "summary": "남동탄 복합문화시설 주민추진위가 GH와 균형발전에 대해 간담회를 가졌다.",
+      "kw": [
+        "남동탄",
+        "복합문화시설",
+        "간담회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1JWmJ3TlpJS2lMd281aWYxNE5OSEY5UVlNZGtmSzUwQ0xUU1NUYXF0QjhXbXZSZzJqajJ6UEFsTmJQWVhuSDYyMWVnV21VNGtvZXJJZFZVdnRrNmVsUUhvUlZB?oc=5",
+      "source": "미담플러스"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "﻿롯데건설, ‘화성 향남 롯데캐슬 시그니처’ 분양 돌입",
+      "summary": "롯데건설의 화성 향남 롯데캐슬 시그니처 분양이 본격적으로 시작된다.",
+      "kw": [
+        "롯데건설",
+        "향남",
+        "분양"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4teEhQOHVzYmVVTVUxRm10LWZhQ3dvc0pRMW1ZMTZYNHQ2U280Vk1aRlhsY0RkUHM5RHh4QjhzMk42YWQ4M2ZSYjlFSjY3ZWVTLVVzMTVyZEpLeGxqNWEySnVBMC1NdmpzSk1kUTlNQUI?oc=5",
+      "source": "비즈니스리포트"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시 지질공원한마당서 해설과 교구재 부문 모두 대상",
+      "summary": "화성시 지질공원한마당에서 해설과 교구재 부문 모두 대상을 수상했다.",
+      "kw": [
+        "지질공원",
+        "해설",
+        "교구재"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1VRWphTk9aRkJPVDk2RFJZQi15RkV1UHg3Qy15UU9WbWdIX0UwNWVkTTJDTlhsZjdMMUpWYTN2aTV6UWFkYml4azI3cWhkbXZyZi1yenp0YjNxQk1kOEVNRUMyckE0RHRGMHhidkZDTXDSAXRBVV95cUxPdUEtampTVXk0UXAzeVhGWmlyZHE2MnNRQ2ppMVlUa01JeS01VmY3UV9sd25WWHMyUm52QUhUUWRBY2theGgyZHhRSVlfalVNQmpWa2pxLXBROWFiNXBTNnVMalZ2anZneXJrYmdaaFd6VEtYSA?oc=5",
+      "source": "뉴스클레임"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "월남전참전자회 화성시지회 해외파병용사의 날 기념식",
+      "summary": "월남전참전자회 화성시지회가 해외파병용사의 날 기념식을 개최했다.",
+      "kw": [
+        "월남전참전자",
+        "화성시",
+        "기념식"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1xcmJXVFV4bW1lWGI2Mmw3SXA4WV9nc25NTHhFNnFiNzk0NGIwWHp1OFp5TXc0SDZadFhDeDJEVl9yVHgyM2hoam5pUVM2ZlppYWVOZjg4blRzcVJPb0xOTWFEZnhFRGtBOTNZWnJ6VzPSAXRBVV95cUxQTGh5NHcyamp3X2ZoUjJsS0s4YjJBTWh2LXUxRXlXX1BHamlGd0tRTTY2cDNxR0tpZXJGcTRJdU90LXRYUWtjZndrTnZ6dW9Ga0xvTm9qb2pQb3FYa2M4aUlyVkp5VVlVN052emgwSVRuYVB4SQ?oc=5",
+      "source": "뉴스클레임"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "아크메르 동탄, 견본주택 개관… 1808가구 하이엔드 주거단지 공급",
+      "summary": "아크메르 동탄이 견본주택을 개관하고 1808가구의 하이엔드 주거단지를 공급한다.",
+      "kw": [
+        "아크메르",
+        "동탄",
+        "주거단지"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcG0xQjZBMTVGRl83LVZwTTBuNnRUZTJvMU1Pc25JaHBibVJhblR3S1U4NlJLRW4xcEN1ZzUxME5iYVdKcFB5cXBoeUtEczRzaEVlUVVZakdsMjZiRXZFaFZtUXJXd3BObnpLeXBYSFlEUWxlc1d6TVBfS1NLdUdxeA?oc=5",
+      "source": "이데일리"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "부정",
+      "title": "[분양공고 톺아보기] 향남 롯데캐슬 시그니처, 산단 악취·군용기 소음 영향권",
+      "summary": "향남 롯데캐슬 시그니처가 산단 악취와 군용기 소음 영향권에 위치",
+      "kw": [
+        "향남",
+        "롯데캐슬",
+        "환경영향"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1saEZEbERoUkJwYTJzelBtdnlSVC1KMHJsaEhBNGR6R1RlbHFjWVZ5R1RKREpMQmxmeVhXNXE4RU5HcHUwTGxINzIyRW1Hblp3b01jV2MwYnpvTXhMYmVmTTZvY0Jud9IBakFVX3lxTE9mbVNNZUNzTXYwenNyWGEycnpzcU90dmxiNlg1U3AyQmV6YndNR0dKR3J0XzlJTFNzbDFsUV9WX08zaHh6N0RJWTZCY21zTFJmdVNyV2xzanhJdTVBTWpJWnBXanFkQlZab1E?oc=5",
+      "source": "센트럴경제"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시의회, 제255회 임시회 성황리 폐막…조례안 등 45건 처리",
+      "summary": "화성시의회 제255회 임시회에서 조례안 등 45건 처리 완료",
+      "kw": [
+        "시의회",
+        "임시회",
+        "조례"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Ta2lHMjI3dGRxbGJBVWdQQlVDd3g1c3NGa0pNd1Y1dkM4WGtGTDYzdnVQLXRfVVNrckhDcHdCXzRtUjN0eFVpWHM5alNyc2MtZHFXWmVPcnpqYTdpLW9NWVJB?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "롯데건설, 화성 향남 첫 롯데캐슬 ‘화성 향남 롯데캐슬 시그니처’ 분양",
+      "summary": "롯데건설이 화성 향남에서 첫 롯데캐슬 시그니처 분양",
+      "kw": [
+        "롯데건설",
+        "향남",
+        "분양"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBwWkNlNXZyM2tRT2Q1bEdOWlhBUjdYQi1SX0RxTEcwcGJ1N1k4aXl0R2s0S2djU2M5MDNIdXpzOE9zeUdPOUxFc1AteHdzQzB6WDFTYXhpRkR6Q2ZrTGtfdXJicXZkVlgxSjRUWDVGUW04WG8wSmoxaGxR?oc=5",
+      "source": "로이슈"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시, 지질유산 활용 교육·해설 우수성 빛나",
+      "summary": "화성시의 지질유산을 활용한 교육·해설 프로그램이 우수성을 인정받음",
+      "kw": [
+        "지질유산",
+        "교육",
+        "해설"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9tSlBlbDBYWS1ucHcxUjB0YzRzdkF1c1FLeVcxbHRjcDBfRHZsY1RjMzZUOTl4ZjA1dmRia2xrVXB6NVc0VjhwdExyTHRHdEpVYmpjYzdnNFlUSnQySXRZWE5yNXIyREt6RklEcTdR?oc=5",
+      "source": "현대일보"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "환경",
+      "senti": "부정",
+      "title": "화성시 소각시설 잇단 무산… 이민희 \"주민 상생방안 마련해 조속 추진해야\"",
+      "summary": "화성시 소각시설 사업이 잇따라 무산되고 있음",
+      "kw": [
+        "소각시설",
+        "무산",
+        "상생방안"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1zSlNYeWg3WGJuMGx2V05wVWM5YWY3VktHSm9RZ0huaEZiYVdObXkwaGVOZ1NTRTJMT2VIVjV6aXdfSWRzdkVtYW5FUkdZVHNsTGVVVlZqcDNUaTFWcHUxZnF5WjYxdHM4OXc?oc=5",
+      "source": "미디어와이"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "롯데건설, '화성 향남 롯데캐슬' 분양...차별화 방향은?",
+      "summary": "롯데건설의 화성 향남 롯데캐슬 분양 사업 진행",
+      "kw": [
+        "롯데건설",
+        "롯데캐슬",
+        "분양"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8yQzNqNlRZTzh6S1R2VnUwNGZoUmxsaWlPeHo0dE1waFBSQzQ4LUNsUDZuSFlLS05reXVTbkI3TVNZMW4wbWJ1S0ZkbEdHdDU0cjMwYW85c21BOGxrcDlkSW14eHRpU3F5TURrbWNRanAzbTjSAXNBVV95cUxPMkMzajZUWU84ektUdlZ1MDRmaFJsbGlpT3h6NHRNcGhQUkM0OC1DbFA2bkhZS0tOa3l1U25CN01TWTFuMG1idUtGZGxHR3Q1NHIzMGFvOXNtQThsa3A5ZElteHh0aVNxeU1Ea21jUWpwM204?oc=5",
+      "source": "초이스경제"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "갤러리티 동탄점, 김영진 개인전 ‘누구보다 다정한 당신에게’ 개최",
+      "summary": "갤러리티 동탄점에서 김영진 개인전 개최",
+      "kw": [
+        "동탄",
+        "갤러리",
+        "개인전"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1MdENnaHVnam53X2lDclRmQlZqUFZVTjhRTzNXLTVTNk1TLVV1RVlUZWF2alU5Q0kxa3VoUzlWZnEwOTBDeG5XcTZ3YU1JaWJNR3lOR2w0MFF6ZS11RDN4TkpLaGl2WHpHaXY0?oc=5",
+      "source": "한국사회복지저널"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시, 장민우·이평찬·나경화 신규 홍보대상 위촉",
+      "summary": "화성시가 장민우·이평찬·나경화를 신규 홍보대상으로 위촉",
+      "kw": [
+        "홍보대상",
+        "위촉",
+        "화성시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOZWtxVDVaTGlyQ28xOWItMWNlWTk3R09iRFRaZ1NNNFhoWW1uUkQ1M21nZk9HUU9aR2h3ZWlpREdXVXFrWkdibzRCa2lsc2VRSTBSNW5oSkZ3bnJIOU5fd1NMeHZxSmM1dmYxbEpYX0RLX0c2NXEtb3dCWTJENHVYbG5Jdkprai1LNHVpbVdCM2Q2VWpXbU8xS2NuOFREeG8waEV6LWh0VFpvcERRMTlGcWdLb3BYcDFvNmlxZmx0ZWZ3MEwyNzBuY3JjdkRmS1oxblpXWkpzaG03YWQyc2k3azIwbWpIOW0zTFloeWQwc2xTelUzZmtvQUFTR2dFNU9IRkRVQVFMQnJQajNWN3JPLTB4ek1vdk5rX3VLWk51aHU1WlRmMVAzdlVZQ3BZQQ?oc=5",
+      "source": "데일리안"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "동탄 국민평형 22억 돌파…아크메르 동탄, 입주 때 20억 넘을까",
+      "summary": "동탄 국민평형 아파트 가격이 22억 원을 돌파했으며 입주 시점에 20억 원대로 형성될 것으로 예상된다.",
+      "kw": [
+        "동탄",
+        "아파트가격",
+        "국민평형"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5pWXFoWHN1S3czQUQ0OU10TmpFcUVmVUJKcXU3QkllSGlXd0lDaU9XWThONk9CUHRBS0hBeHBkaWJSaFVUMjJyajFlUUZ4eTJISmhaR1dFd1hfQ2lXWEU1NUR3?oc=5",
+      "source": "CWN"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "롯데건설, '화성 향남 롯데캐슬 시그니처' 견본주택 오픈…1542가구",
+      "summary": "롯데건설이 향남에 1542가구 규모의 롯데캐슬 시그니처 견본주택을 개최한다.",
+      "kw": [
+        "롯데캐슬",
+        "향남",
+        "분양"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9WRkVEUy1SMkozREU1a1V2V2dLTzk4TUJ3OEdXZ0tfcDBQN01GM2x5RURPLXhtel9Eb3c2QnN1Ynk5TElUbVFfUDNJVGRGMTF6YWxPNTBDX2wyc0E?oc=5",
+      "source": "뉴스1"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시, 장민우·이평찬·나경화 홍보대사 위촉",
+      "summary": "화성시가 장민우, 이평찬, 나경화를 홍보대사로 위촉했다.",
+      "kw": [
+        "화성시",
+        "홍보대사",
+        "위촉"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5LMHNXMXJhYmJIMlJoZy1HbDZkNHkwb0R3UDJlcE81cHJUYTRUclVKeGpPeWt6UElkNDBpNnJtUm5vSXk5Z3JMNnlwTDB2OVZRbV9Rck5kUFB3TGZFYkJtMUE3WS1yUzk2cDM1aXVTaURvaGJYaTJvNFBvMTh6NTDSAX9BVV95cUxOSzBzVzFyYWJiSDJSaGctR2w2ZDR5MG9Ed1AyZXBPNXByVGE0VHJVSnhqT3lrelBJZDQwaTZybVJub0l5OWdyTDZ5cEwwdjlWUW1fUXJOZFBQd0xmRWJCbTFBN1ktclM5NnAzNWl1U2lEb2hiWGkybzRQbzE4ejUw?oc=5",
+      "source": "뉴데일리 경기"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시 동탄구보건소, 아빠도 함께하는 육아교육…영아 발달·부부 출산교실 마련",
+      "summary": "동탄구보건소가 부자 동반 육아교육과 부부 출산교실을 운영한다.",
+      "kw": [
+        "육아교육",
+        "동탄구보건소",
+        "부모교실"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBKem5MMkNIVU51R2loVzRtOWwyakl1RHpNd3F1bHJ1RDAxa3ppQ2lkTXZjR3pPOVI4LW5CVTNvQllMRmFVaUF1OHdOT3RGeWF1X29RVWFWS212UWx0SXVxMzdWUEY2RnNMVlHSAWxBVV95cUxQenRfbV9aM0JZaXdkdHdYOXphX1VrRm55SkNnZUR4Q3N0TENfNi1IeVV1RlNfVkNYcklSV3NadEJOQllIaVNPb2FmS0wwV2EybWhpbFFBN0xPQnQ2UlZtVlhMRlZLVEhNZGVPd1Y?oc=5",
+      "source": "필드뉴스"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "롯데건설, 1542세대 ‘화성 향남 롯데캐슬 시그니처’ 23일 견본주택 개관",
+      "summary": "롯데건설이 화성 향남에서 1542세대 규모의 롯데캐슬 시그니처 견본주택을 23일 개관한다.",
+      "kw": [
+        "롯데캐슬",
+        "향남",
+        "분양"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBSN0w1ZTI0c2pnWGxjOV9ub2d1N2YyXzJvT0s5cGZQQVNZNjlaS0Q5Wm9IOWVRQ1QtNGJSWnc2WkY0MjJ6eHJ6b2Q1V0Y5UUN2X2FudFYwS2s2SDJLNGx4U1NLc1h5MVJmZWRUUjJadnlBRW8?oc=5",
+      "source": "소비자가 만드는 신문"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "[진단] 화성시의회, 첫 예결위 부터 감시·견제 기능 상실 논란...'청사 인테리어 추경' 6억 8,000만 원 원안 통과",
+      "summary": "화성시의회 예결위가 청사 인테리어 추경 6억 8000만 원을 감시 없이 통과시켜 논란이다.",
+      "kw": [
+        "화성시의회",
+        "예산",
+        "감시기능"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5pT2NuMV96NFVZN2RMZXN6b1E2MUVPVmR6Z0lWWWtDSkJqM2R4M0JXNlBsSWZDWUx6NUxqOUxXajF6cmFqdzlUWUU4cWplcHY1V29mc3N4VDNvelJVRTNwTkZESFFqR00?oc=5",
+      "source": "새한일보"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "화성 향남 최초의 롯데캐슬 분양...1,542가구 규모",
+      "summary": "향남 최초의 롯데캐슬이 1542가구 규모로 분양된다.",
+      "kw": [
+        "롯데캐슬",
+        "향남",
+        "분양"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tV2dkRUFJM0FzV3JfY1Z6TERES1F5dHJNRWNlWW12TTFheWZzcjhPMU9PRkRLY2g2MkRhbWlaamlUYl9mNTRWcHN1NkprMGVZQUhmN3Y3WFRfQXNBZzJaZ2c5YmJTb1E4ZmszZg?oc=5",
+      "source": "뉴스브라이트"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시, 공룡알 화석산지 지질교육·해설 역량 재입증",
+      "summary": "화성시의 공룡알 화석산지가 지질교육 및 해설 역량을 재입증했다.",
+      "kw": [
+        "공룡알화석",
+        "지질교육",
+        "관광자원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5SZ3VucHJCdnhTWDY5QWtYcFQxME02ZF9nckV4LXc3UDh3bzdlcFJoOWFsWXg4a08zcXFtZlVLVWc3UTZCRkg3NmVkSnJ6ei16MHZ4WUhxcUU2YlNRYmZIeHdiMURMQQ?oc=5",
+      "source": "수원일보"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "화성특례시 동탄8동, 민·관·경 합동순찰로 안전한 골목길 조성",
+      "summary": "동탄8동에서 민·관·경이 합동순찰을 통해 안전한 골목길을 조성한다.",
+      "kw": [
+        "안전",
+        "합동순찰",
+        "동탄8동"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5WZG1jWEx2d0lhMzhFcy1XLVd6RGY2M2o4TTZYUTdlYXNBZ0NmZFdlMTdncFctakxlUlJBSFd0ekFUS3JxN2J4OUJHNmlIYXpVcXBYRUlabGFES2E3eDVid0IwY1d0bWYyMGs0bHBlSGRKQQ?oc=5",
+      "source": "웹이코노미"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "추미애 경기국제공항 추진에 화성 반발… 군공항 이전 연계 우려",
+      "summary": "경기국제공항 추진에 화성시가 반발하며 군공항 이전 연계를 우려한다.",
+      "kw": [
+        "경기국제공항",
+        "화성시",
+        "반발"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9kTTZVQU1ueXRzVjZ4YjdkendFUWFEN2xydVotY2dQa2VhVnV2aWJLUkJnaHdQUHJRY1plQnc1U1NSaS1QYmRpUzlTTnFvZS1DTlBYa19iblBfbXdTYTRWN0pReTV2WjJRMHJPT2NLZjhTVGfSAXNBVV95cUxPZE02VUFNbnl0c1Y2eGI3ZHp3RVFhRDdscnVaLWNnUGtlYVZ1dmliS1JCZ2h3UFByUWNaZUJ3NVNTUmktUGJkaVM5U05xb2UtQ05QWGtfYm5QX213U2E0VjdKUXk1dloyUTByT09jS2Y4U1Rn?oc=5",
+      "source": "한국일보"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "월남전참전자회 화성시지회, 제4회 해외파병용사의날 기념식 개최",
+      "summary": "월남전참전자회 화성시지회가 제4회 해외파병용사의날 기념식을 개최했다.",
+      "kw": [
+        "월남전참전자",
+        "기념식",
+        "화성시지회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1rT3A0Z1lSYUtPOTVLZjdKdFVsUUF5MlJHek12Ti1sYmd3eUJCT2Z6bmw0eGpBZTZIWnhhdmN6azFvZFV3RXlzZlNJTzFrQ2J3Z21KdUVuMnRPRzNOZnRoN2lnTQ?oc=5",
+      "source": "시사미래신문"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "김상균 화성시의회 도시건설위원장, ‘화성시 투자유치촉진 조례 일부개정조례안’ 대표발의",
+      "summary": "화성시의회 도시건설위원장이 투자유치촉진 조례 개정안을 발의했다.",
+      "kw": [
+        "조례개정",
+        "투자유치",
+        "도시건설"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9JOUhKRzdodmRkNnZjZy0yWU8zbXVrZHVib0U3MFRjWFFtbEtxTkYyZ1dsQjQzS09uYUNIanBJSmoxY1IwdUQtbC13Xy1CUFVQcUFLakJZdWIwUnpleTkwNURMM1VFMTgzQUpZ?oc=5",
+      "source": "서울뉴스통신"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "김상균 화성시의회 도시건설위원장, 학교·아파트 인근 공사장 안전대책 조례 대표발의",
+      "summary": "김상균 의원, 학교·아파트 인근 공사장 안전대책 조례 대표발의",
+      "kw": [
+        "안전대책",
+        "공사장",
+        "조례"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5TN1pIRGtTdl9YN3o5azBtY1FJcWJTcXpiMDVhMjlWTFJvamg2b05JR3J3b2hwemhnM3RuMGNBbmt2MUJCQW9xQlhSNS14TGt5OGlVVkh4VmFGMS1QWHY1OVN3?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "교통",
+      "senti": "중립",
+      "title": "최청환 화성시의원, 5분 자유발언 “대중교통은 수지타산 아닌 시민 이동권 중심으로 접근해야”",
+      "summary": "최청환 의원, 대중교통을 시민 이동권 중심으로 운영할 것을 주장",
+      "kw": [
+        "대중교통",
+        "이동권",
+        "시민"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE10bktpbkVZTkkzWHJFMXN6R3BZT3RfeF9fZEo0d0wxVFd1WTZoa2ZzVy1EaVBFRk5xV05vOHZsaFRTYUYycVBiS2hLTmNnemxKd3ItWG5xVjV3V2hES1VPT1hrZ3NCcDZMNl9F?oc=5",
+      "source": "서울뉴스통신"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "롯데건설, 화성 향남 첫 롯데캐슬 1,542가구 분양 돌입",
+      "summary": "롯데건설, 화성 향남 첫 롯데캐슬 1,542가구 분양 시작",
+      "kw": [
+        "롯데캐슬",
+        "분양",
+        "향남"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9lbS15NkhBSndEWFIwUFdDRXdaRlJoa1NqcEc1Z0ZaUFpNTWIwWVJSSWpGMi1lOExKN2ZKc0pPQXZycF9tVnc3MG95Ri02b2NMYnNNakdIM2s2X3FWeTd0OU1ieW1DOWpjRkstTnZ2LUREdUhMUUg2Zg?oc=5",
+      "source": "일요주간"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "롯데건설, 향남 롯데캐슬 시그니처 분양… '엘리스' 주거 플랫폼 도입",
+      "summary": "롯데건설, 향남 롯데캐슬에 새로운 주거 플랫폼 '엘리스' 도입",
+      "kw": [
+        "롯데캐슬",
+        "주거플랫폼",
+        "분양"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9USzdvRmF6bTgwbHNfZEE4cEZfY21qRVhrbk9MSS1sclFMbGg0c1Bzd21DdmNuS1FwQmVMVE9kcExfNEJ2RXZ3V2t0NTdnLWZJR0g3VTNkX0hMOVdUemdCeklEZmhKdGNuak0xakRn0gFuQVVfeXFMT1RLN29GYXptODBsc19kQThwRl9jbWpFWGtuT0xJLWxyUUxsaDRzUHN3bUN2Y25LUXBCZUxUT2RwTF80QnZFdndXa3Q1N2ctZklHSDdVM2RfSEw5V1R6Z0J6SURmaEp0Y25qTTFqRGc?oc=5",
+      "source": "뉴스드림"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시, 벼·쌀·현미 '품종 검정기관' 지정…브랜드 쌀 경쟁력 강화",
+      "summary": "화성시, 벼·쌀·현미 품종 검정기관 지정으로 브랜드 쌀 경쟁력 강화",
+      "kw": [
+        "품종검정",
+        "브랜드쌀",
+        "농산물"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1PdllnMXlSeXZXc2RsU2MyYVN6WTZ1bGF6V0Ztcm40QWw1X0Q1djJ4anoxS3Z0Qkg3Q0VpbmlUQ1RHemdHdDBLU1FpSWVNMS1WTE5BQXM4aEQ?oc=5",
+      "source": "충청뉴스큐"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "대출 규제에도 동탄·영통 집값 강세…삼성전자 사내대출 변수 부상",
+      "summary": "대출 규제에도 동탄·영통 집값이 강세를 유지하고 있음",
+      "kw": [
+        "집값",
+        "동탄",
+        "대출규제"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0xbGZrOS0zNzN1c3VqS3FtRVIwNUI3QmV3NV9ZbTdiS0w0T1FQb21lcXA4cVdHT1lnV1BPS29zWVdkTmZpT2ZlejRjNkZ6TVRuNkQ5V1dxajhiZ180ZUhRMkNLUEFJMlBKOUJpVQ?oc=5",
+      "source": "센머니"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "롯데건설, ‘향남 롯데캐슬 시그니처’ 분양…1542가구",
+      "summary": "롯데건설, 향남 롯데캐슬 시그니처 1,542가구 분양",
+      "kw": [
+        "롯데캐슬",
+        "분양",
+        "향남"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBOSjM0MGN5TFBBOXQ4dDhlN0YzSmlrem1ud29FSzd6MHJVNW5yaEp1OHRpblRtSEctOFVmQU1LdkFSbjl4QkhZeTJwSndhcl9jRlpxRW5qNVNqbWVjWFFiM0ZzT2xrNGFJUWlJLWpmUnZ3ZFRhaTFv0gF3QVVfeXFMUE5KMzQwY3lMUEE5dDh0OGU3RjNKaWt6bW53b0VLN3owclU1bnJoSnU4dGluVG1IRy04VWZBTUt2QVJuOXhCSFl5MnBKd2FyX2NGWnFFbmo1U2ptZWNYUWIzRnNPbGs0YUlRaUktamZSdndkVGFpMW8?oc=5",
+      "source": "인사이트코리아"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시, 지질공원한마당 2개 부문 대상 석권",
+      "summary": "화성시, 지질공원한마당에서 2개 부문 대상 수상",
+      "kw": [
+        "지질공원",
+        "한마당",
+        "수상"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qN0g0bF9ESHhqWUJYT0NtTjNybnVOZml3VEJRV3VZenF1M2xucVU0cVpQS1pMcWNKMFJ0T2RKYVBoY1FkSUNhaUUza1ZNZ0JyWk1jMDlZT2FsWDNrN2Y3b1pEbG5HbmNHcjE5RC1IcEljMHlUMUJmaS1GQTBtTUnSAX9BVV95cUxPajdINGxfREh4allCWE9DbU4zcm51TmZpd1RCUVd1WXpxdTNsbnFVNHFaUEtaTHFjSjBSdE9kSmFQaGNRZElDYWlFM2tWTWdCclpNYzA5WU9hbFgzazdmN29aRGxuR25jR3IxOUQtSHBJYzB5VDFCZmktRkEwbU1J?oc=5",
+      "source": "뉴데일리 경기"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "갤러리티 동탄점 김영진 개인전 ‘To my dearest 누구보다 다정한 당신에게’ 개최",
+      "summary": "갤러리티 동탄점에서 김영진 개인전 개최",
+      "kw": [
+        "갤러리",
+        "개인전",
+        "문화"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBpNGhtQlRpR2F6SEJ0c1I1RE9DSnJaNzZqMGVjWmV2YXBhclRMWi1uNVVPWVhUemxPbFhPSFFxY0dwaEhIdlZ6N0VXTExYMEhsUlhKdWREa3dsSkYtQWFZNnViaEo4MjQzV1RMVGJJMy1XY1U?oc=5",
+      "source": "스페셜타임스"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "롯데건설 화성 향남 롯데캐슬 시그니처 분양",
+      "summary": "롯데건설, 화성 향남 롯데캐슬 시그니처 1,542가구 분양",
+      "kw": [
+        "롯데캐슬",
+        "분양",
+        "향남"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4xektIbTlSa09idVpSTDlvNWo2aWFMS21VNndRQzktY19USEFGV0xJTHRMN0JvT3o0OEtodHNIb3c5eW9rNzNvbmpjT251S1lXSURiN0JpTmJjN3dCc3l1c3Rob3ltdVp0eUJnUVNwUmdnRFhf0gF0QVVfeXFMTjF6S0htOVJrT2J1WlJMOW81ajZpYUxLbVU2d1FDOS1jX1RIQUZXTElMdEw3Qm9PejQ4S2h0c0hvdzl5b2s3M29uamNPbnVLWVdJRGI3QmlOYmM3d0JzeXVzdGhveW11WnR5QmdRU3BSZ2dEWF8?oc=5",
+      "source": "뉴스클레임"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "’아크메르 동탄' 수요자 관심 이어져…마감재 직접 보니 달랐다",
+      "summary": "아크메르 동탄의 마감재 품질에 대한 수요자 관심 지속",
+      "kw": [
+        "아크메르동탄",
+        "마감재",
+        "주택"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8zZnpmVWdfYU5VbXZPYVFBWi1RMWhhZjhSZDVYSktDd0VMYVdWQy1sUHNRRENWbERjakhfLXd3a3kydjBCaXlJZmVVWmVsMlA3M0hab21TWHJNdEdQY1pTUGFuUzEtVGR2Ym16aVFIWHJjUdIBckFVX3lxTE8zZnpmVWdfYU5VbXZPYVFBWi1RMWhhZjhSZDVYSktDd0VMYVdWQy1sUHNRRENWbERjakhfLXd3a3kydjBCaXlJZmVVWmVsMlA3M0hab21TWHJNdEdQY1pTUGFuUzEtVGR2Ym16aVFIWHJjUQ?oc=5",
+      "source": "딜라이트닷넷"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "화성시, 시 소속 근로자 대상 안전보건교육 실시",
+      "summary": "화성시, 시 소속 근로자 대상 안전보건교육 실시",
+      "kw": [
+        "안전보건교육",
+        "근로자",
+        "교육"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9pTFp1MTJ3cDRldmJYQk5aTEdraEhBdmlLQkd2V19MWHlvZHVreXNwM0kwWDhpcnc5ZjAzNlo1QURpdk9JeWxTem5KSE1HZUFGZ3hRbEVxaDRwZ0k2c2VKR09R?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "롯데건설, ‘화성 향남 롯데캐슬 시그니처’ 1542가구 견본주택 개관 본격 분양",
+      "summary": "롯데건설, 향남 롯데캐슬 시그니처 1,542가구 견본주택 개관 분양",
+      "kw": [
+        "롯데캐슬",
+        "분양",
+        "향남"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HWTl1YmhYYmt3QnNwR3BrNHV6Uy1mclJjSGVzOUd0UHJsN0xpWUVCejhUMThQUnFpWlRhbXBPb25MTVhUeXRyTWVlVDQ0UzQ2ZzJyVHRIWExsMTZxbGVZNjB3Nk4?oc=5",
+      "source": "베타뉴스"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시의회, 제255회 임시회 폐회",
+      "summary": "화성특례시의회, 제255회 임시회 폐회",
+      "kw": [
+        "의회",
+        "임시회",
+        "행정"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8yRDFiS2ZxNVZvX1EybG1mZkYtRWFWRVdwQUhSQ2FTQV9jYlotSTdtdUR1QThxMVJFdE52QmpCX3p3N2lMR21KTzJjM2RDb1hfUV94UEprcnBBUU04SzVXVHg5ZlV5SWxNS1hEajZn?oc=5",
+      "source": "서프라이즈뉴스"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "화성시, 학교·아파트 주변 공사장 안전관리 강화 조례안 발의",
+      "summary": "화성시, 학교·아파트 주변 공사장 안전관리 강화 조례안 발의",
+      "kw": [
+        "안전관리",
+        "공사장",
+        "조례"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBuQzhCWFBtd0J0Sk41dnhqZE9RVmR3UVZSV1NjNWN5ckwxT1Q0QTd1d1JYVFlYV1NwMi1BT2RtaXE1Yzk4T3B2MXctTnpYUXdqMlhiQkRsQWk?oc=5",
+      "source": "충청뉴스큐"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "향남 첫 ‘롯데캐슬’ 들어선다…롯데건설, ‘화성 향남 롯데캐슬 시그니처’ 견본주택 개관",
+      "summary": "롯데건설이 화성 향남에 첫 롯데캐슬 1542가구 대단지를 공급하며 23일 견본주택을 개관한다.",
+      "kw": [
+        "롯데캐슬",
+        "향남",
+        "주거"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4yeXpJaVNNcllTSjZ1ZFM1cEJhMlp5Um9EbWd5elk5T3ZvZlRwUElYOWdzZWJqLVY4dXRmcTNNTXB3czlRaktTTHM2aWNSTkxwejRfdEpwR2hfZXE4WnFRVC1fV1REVXAzcHNLSnFveU9Gd9IBckFVX3lxTE4yeXpJaVNNcllTSjZ1ZFM1cEJhMlp5Um9EbWd5elk5T3ZvZlRwUElYOWdzZWJqLVY4dXRmcTNNTXB3czlRaktTTHM2aWNSTkxwejRfdEpwR2hfZXE4WnFRVC1fV1REVXAzcHNLSnFveU9Gdw?oc=5",
+      "source": "메가경제"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "롯데건설, 화성 향남에 1542가구 대단지 공급…23일 견본주택 개관",
+      "summary": "롯데건설이 화성 향남에 1542가구 규모의 대단지를 공급하며 견본주택을 개관한다.",
+      "kw": [
+        "롯데건설",
+        "주택분양",
+        "향남"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBmdnByeWVBN3dJUjNMbVV1cUNBSUFKMDJaUXB0R19TbDhfakJoYzQwRldoaS00SmpJYmdINWI1ZGpFdEU4UTBMX0x5SnF5aXdWVGdvY0pJekprVHJYb29TMVB5UXJzeFlfNHRIS3ZBZw?oc=5",
+      "source": "이코노미사이언스"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "롯데건설, ‘화성 향남 롯데캐슬 시그니처’ 1542가구 분양...23일 견본주택 개관",
+      "summary": "롯데건설이 화성 향남 롯데캐슬 시그니처 1542가구를 분양하며 견본주택을 개관한다.",
+      "kw": [
+        "롯데캐슬",
+        "분양",
+        "향남"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8xSHNLbGFva2NPLXVFZ1FxU2VFRnJiNjNPbFBHc0JzY3pEVVRKRm53ZGxEUFlabzRNT001cWRFTzNIR3FRaGNoU0ZKTGpWZzJxMi02OE52SnJsTEVPdDNEOTlsOXZpRzF4WUVidVVn?oc=5",
+      "source": "일요경제"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시, 글로벌 AI 엑스포 'MARS 2026' 개최",
+      "summary": "화성시가 글로벌 AI 엑스포 'MARS 2026'을 개최한다.",
+      "kw": [
+        "AI",
+        "엑스포",
+        "화성시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPSmJfc1JkRFZxVkVZWlNRaEdQb1M3WmNKWUlhMF9VeXYwVmJubDFNbGtzTHYzakp3UGJ2N215VThQcmtaaEVHYmo1cFhXbWZBcmdndkdRV3dtTGl1RW9aQzJnNmRjdVhoazVLbWVmRjZ3QXVDaVNyM0JlUXdKQzdKYWhnYjJJTWwxZ1Qzck1TZEVJbDNiYUlod21hOWxZMzlSZXRGeV96Y0toZUxRVE5CS2lZazBfZ2pDazdKSjZlVFVWc2t5eGNYelAycTB4aE1QNEpINDZtbw?oc=5",
+      "source": "데일리안"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "향남 첫 롯데캐슬…'화성 향남 롯데캐슬 시그니처' 견본주택 개관",
+      "summary": "향남 첫 롯데캐슬인 화성 향남 롯데캐슬 시그니처의 견본주택이 개관한다.",
+      "kw": [
+        "롯데캐슬",
+        "향남",
+        "주택"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBNeVd2Vlk4Ui1UUlZZWG51Ty1nNDVSZUcyTjFyNzJpMVhwbTBiV0VoeFh0UDl2M3haWEwzQnhDY2NZV0xKQjBkcE9VWDhKMGVzbjBXZGUtaEI?oc=5",
+      "source": "아시아타임즈"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "정명근 화성시장, 국제교류부터 시민 문화행사까지…도시 브랜드 홍보 다각화",
+      "summary": "정명근 화성시장이 국제교류와 시민 문화행사를 통해 도시 브랜드를 홍보한다.",
+      "kw": [
+        "화성시장",
+        "도시브랜드",
+        "국제교류"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xT2NYWlo5WVdhejg0aURQdllGLVRtS2xnN2RJbVFaZVROanF6T01sc25fWk02ZzVET0hCTWRUSFA3alhvQWVxVk1VMnV0Y3JZMXU1RnpncHg2MF9qRk00cm1jRnFwM095X29LUNIBbEFVX3lxTE9xT2NYWlo5WVdhejg0aURQdllGLVRtS2xnN2RJbVFaZVROanF6T01sc25fWk02ZzVET0hCTWRUSFA3alhvQWVxVk1VMnV0Y3JZMXU1RnpncHg2MF9qRk00cm1jRnFwM095X29LUA?oc=5",
+      "source": "필드뉴스"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "롯데건설, '화성 향남 롯데캐슬 시그니처' 본격 분양",
+      "summary": "롯데건설이 화성 향남 롯데캐슬 시그니처 분양을 본격 추진한다.",
+      "kw": [
+        "롯데건설",
+        "분양",
+        "향남"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBjUWh5bjU2eGI4bVZKcWU0aXZDLTNaX05iMnRobGE3ZHVmeHNadHVrQzJiSDBoSjJrTGRLTWpoQVpPUllfQktmWng1VUo0UmRRQXBtYUdRT0FhZkVQRURMZWZxblhaZWJ2cGxYNdIBcEFVX3lxTE9CYTBINURGQjFENnV0SXBpemJhcFM0ekJRaEM0TGRfM0dtZDFnOTFobTByZ0lUYkplZlY5U3FEYThWU0JGcjZ5OGdQOGlhZVd2ZEhWODBjeUlObFpSWFY0VXJiWHJ0YUlrN0Z4dVhrN1g?oc=5",
+      "source": "뉴스케이프"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "화성시, ‘멘토링제 성과공유회’ 개최",
+      "summary": "화성시가 멘토링제 성과공유회를 개최한다.",
+      "kw": [
+        "화성시",
+        "멘토링",
+        "성과공유"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5BdVllcDk3RmM5QjB0Z3cyWVFwdnozTzNycEl2V2RvOFVhRW1xeVMyS2E4T216MXVkeDhLWWFuTDJ0U2x5R3BiZmUySlNsallkTVBOanNHSEN5YzV1bjVNNjNn?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "향남에서 누리는 리조트 라이프 ‘화성 향남 롯데캐슬 시그니처’, 23일 견본주택 개관",
+      "summary": "화성 향남 롯데캐슬 시그니처가 리조트 라이프를 제공하며 견본주택을 개관한다.",
+      "kw": [
+        "롯데캐슬",
+        "향남",
+        "주거"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fVmZrYkxuTE1nVnBKWHRiVWZwelZXck9sWFpaTnFfMkkwZlZqeXQtdUlZQ1RNS09rNHZxaThzZWhkNGwtLWRNSEZEQm1lLXpnVTJCaVlFdVN1Rmt4aDlhUE5CdVk3ZEp3R1ozSUlCSjYzUdIBckFVX3lxTE9fVmZrYkxuTE1nVnBKWHRiVWZwelZXck9sWFpaTnFfMkkwZlZqeXQtdUlZQ1RNS09rNHZxaThzZWhkNGwtLWRNSEZEQm1lLXpnVTJCaVlFdVN1Rmt4aDlhUE5CdVk3ZEp3R1ozSUlCSjYzUQ?oc=5",
+      "source": "한국목재신문"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "[바뀌는 우리 동네] 화성시, 사람 잡는 응급실 뺑뺑이 끝낸다",
+      "summary": "화성시가 응급실 뺑뺑이 해결을 위한 대책을 추진한다.",
+      "kw": [
+        "응급실",
+        "뺑뺑이",
+        "의료"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1yZFVTbi1hckl5UUd3azZjYzc1MXNaN2xSVXZpV0o5N0FCZk5qeFZOanlnLUhIV2NldUstdEdTT1c4Z1NsWDdVdmNUS2d5ei1GQmJsM2NHb2dCdzF4Ukw3eQ?oc=5",
+      "source": "NSP통신"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "롯데건설, 향남에 첫 롯대캐슬 공급… 1542가구 규모",
+      "summary": "롯데건설이 향남에 첫 롯데캐슬 1542가구 규모를 공급한다.",
+      "kw": [
+        "롯데캐슬",
+        "주택",
+        "향남"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9MNDNlNVZxM2dPMHFKN2c1eVVfY1RLOXpZTndkOEluNXdFSFdJbUwtM2tWYmpzZ3VIZzFjMmNOd1ZvbzJiejlhWDhaUXJVRWxBMTFselU4QjU?oc=5",
+      "source": "국민일보"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성시 동탄아트스퀘어서 한수민 작가 ‘연(蓮)의 시간’ 전시",
+      "summary": "화성시 동탄아트스퀘어에서 한수민 작가의 '연의 시간' 전시가 개최된다.",
+      "kw": [
+        "문화",
+        "전시",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBvakY1YzQ0YXBHaDFfNWpLd1pKSk9nUFBRVEJUQ3E2WFc1eHo1UzZPOXIxeVlZMDNud1dTelRyYTFqOWxFNDJtV2piTkFjSGgtVjJhWnhYcjh4M0ViUFRnaHYwWW5HVHc3Q1hN?oc=5",
+      "source": "한국사회복지저널"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시, 글로벌 AI 엑스포 'MARS 2026' 개최…56개 기업·기관 참여",
+      "summary": "화성시가 글로벌 AI 엑스포 'MARS 2026'을 56개 기업·기관과 함께 개최한다.",
+      "kw": [
+        "AI",
+        "엑스포",
+        "화성시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBEZUxsZU9QeG5MOWpRU2RnaWxoRlJUcU55UEFiLTR1R1FzMWtsc1JzUmhPMFVGbGZyLXlYb2k3eXQ0eU00SWFGZ25jZDRFWERNdlE?oc=5",
+      "source": "노컷뉴스"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "\"산업단지 배후 주거지로 주목\"…'화성 향남 롯데캐슬 시그니처' 분양 돌입 |",
+      "summary": "화성 향남 롯데캐슬 시그니처가 산업단지 배후 주거지로 주목되며 분양을 본격화한다.",
+      "kw": [
+        "롯데캐슬",
+        "주거",
+        "향남"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0ydVlUZElCQ1dhRlRNRnlacjBEMjdPSFVBVk5CSTM0SFhNMzBFOFBXMC00SUthXzdOaUF6ZFluQTZ0bFFUb2ZGNFJJX0ZoR2kzZFpZRXdLcVRHai02ZnljT2RiQjFrcWpONVl3TDU0dEkydWI4?oc=5",
+      "source": "www.thefairnews.co.kr"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시, 문화체육관광부 ‘독서경영 우수직장’ 2년 연속 인증",
+      "summary": "화성시가 문화체육관광부 '독서경영 우수직장'에 2년 연속으로 인증받는다.",
+      "kw": [
+        "독서경영",
+        "문화체육관광부",
+        "우수"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4yekExY2E1M0tyTEh3SnhVQlJIcXF2TWM5dnBORUhYSHVVRC1zNXNkVy1kcnY0OHRQUXlyZzlZZXcteklBU0F6UlpCWHgzQ0tQTUxKZC1rTVRoV3ZUUEZpc1dR?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성특례시 동탄구보건소, 임신부터 육아까지 11월 맞춤형 모자보건교육",
+      "summary": "화성특례시 동탄구보건소가 임신부터 육아까지 11월 맞춤형 모자보건교육을 운영한다.",
+      "kw": [
+        "모자보건",
+        "교육",
+        "동탄구보건소"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE81YWxDX0lOS2NJR0M5Z0l2Nms4MHppa1JIWmFVN2RLbHd6cDBDWXVCQmc0MEdkOHZhaWE1VjVoS255ZVczUVlGWDBXVVdWdFJzenM4NE1iaXdpNUtqZWpEeHF1VG0yaXJMMGIteQ?oc=5",
+      "source": "경기타임스 e"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "롯데건설, ‘화성 향남 롯데캐슬 시그니처’ 견본주택 개관…본격 분양 시작",
+      "summary": "롯데건설이 화성 향남 롯데캐슬 시그니처 견본주택을 개관해 본격 분양을 시작한다.",
+      "kw": [
+        "향남",
+        "롯데캐슬",
+        "분양"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ISURXdWR3aHMtaXd4SmRTRFJteGlQUFRLZlIwVm1HM2VWbHQtWGRYQlgyY1psek1MT1RlbldrVnZpLWZyZUlJcEZRU3dHMEtkOG9EZnRxSW9TREN6MkVuUVBvbDdZZw?oc=5",
+      "source": "이슈투데이"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시, 어린이 대상 '벼 추수 체험' 개최... 도심 속 생태 교육 '신호탄'",
+      "summary": "화성시가 어린이 대상 벼 추수 체험을 개최해 도심 속 생태 교육을 추진한다.",
+      "kw": [
+        "추수체험",
+        "생태교육",
+        "어린이"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE00MDE2dFE5QnRVVmVpSDEybWFoQWFEU2NUZHNhUTMxV2tMTGhoRUFMS1NIWW5jbVlsVTMzWkxkbjlYNmN4YWhnTmRneEFkSmZmdklmeGdDVnY?oc=5",
+      "source": "충청뉴스큐"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시의회, 최청환 의원 “대중교통은 수지타산 아닌 시민의 이동권 중심으로 접근해야”",
+      "summary": "화성특례시의회 최청환 의원이 대중교통의 수지타산보다 시민 이동권 중심 접근을 주장했다.",
+      "kw": [
+        "대중교통",
+        "이동권",
+        "의회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ydG5jSkR3d3ZVUGR6UjRlaVJhRlMwd1dRazZDcXNlNGMxdTdQMU5mOENZRjcycHhfYlZ6V0x1RDNqbDJDVnFFb3B4UXZKb1dtbWx1QTRrY1l5UVZVUTRkZFRtYWFxZw?oc=5",
+      "source": "화성저널"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "화성시, 지역완결형 응급의료 위한 의료기관 간담회 개최",
+      "summary": "화성시가 지역완결형 응급의료 추진을 위해 의료기관 간담회를 개최했다.",
+      "kw": [
+        "응급의료",
+        "의료기관",
+        "간담회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9IOHhhdGJHMTBla3YtZ0RQV09Jclh0M3dmOTdqekdvZGZZRDVyeFdlblB6dFBmZzFGTEpVSUZfbjV1Nk9BRUx2NGFxV1h1LWpLWWVSbU1MZDRESmhkRW5DQ1dR?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시 동탄구보건소, 임신부터 육아까지 맞춤형 모자보건교육 운영",
+      "summary": "화성시 동탄구보건소가 임신부터 육아까지 맞춤형 모자보건교육을 운영한다.",
+      "kw": [
+        "모자보건",
+        "교육",
+        "동탄구보건소"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8wRjd2R1VWTW1Na0NMOE1vd2lvRHotLU5lbXgwTUFCSUkyRGJrMGJuaFJnX3JFU042TDZvOUlHVF9Xd2N1SFV3bFFRaFAtUU5zZ0d6ejNqVVAxZzNGMncwN2R3?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "기업·기술·투자 잇는 미래도시 화성의 ‘승부수’",
+      "summary": "화성시가 기업·기술·투자를 연계한 미래도시 발전 전략을 추진한다.",
+      "kw": [
+        "기업",
+        "투자",
+        "미래도시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBpMTlreWh0VGhoUmYyS1JCSEFGQ1dwc0VzME9Uaks1NkVoVzhrM2VkZHBzSXY0LVV1dUE3aVZOQWxpanF2M0Iyc1JSYjg3LXZ0cEtSYTM0Wk02bklycHdoN0VPZmJIdFZpa0dQcC1R?oc=5",
+      "source": "현대일보"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시, 내달 3일 글로벌 AI 엑스포 ‘MARS 2026’ 개최⋯ ‘AI 도시’ 비전 선포",
+      "summary": "화성시가 11월 3일 글로벌 AI 엑스포 'MARS 2026'을 개최해 AI 도시 비전을 선포한다.",
+      "kw": [
+        "AI엑스포",
+        "MARS2026",
+        "AI도시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1HLURIRXJJUU00aEFjMzRkeFJaNUVHel9zOFNna2luQy03RFMxM1E3ZklTRjQzNHVPcVRSVU9IWGl4MjYxdGVwRVpMTWQ1cUFMLUtHaEVMUWJXbE43VWc?oc=5",
+      "source": "아시아타임즈"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성시, 서울 코엑스서 글로벌 AI 엑스포 ‘MARS 2026’ 개최…‘AI 도시’ 비전 선포",
+      "summary": "화성시가 서울 코엑스에서 글로벌 AI 엑스포 'MARS 2026'을 개최해 AI 도시 비전을 선포한다.",
+      "kw": [
+        "AI엑스포",
+        "MARS2026",
+        "AI도시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE90WEhqQS1aU0VGcnBaeUdjVlRZc0otODhKWmhTN0xoZ1VVT0dhQTZ5bGYxWTVFVUZTT2J6RTdBb3k0UThxcHJ1Z05zX0EwcTZ0VDVtaFFKcGszZHBYUmN2X093?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성시문화관광재단, 회화에서 영상으로, 스퀘어 SQUARE 시리즈Ⅲ `연(蓮)의 시간`",
+      "summary": "화성시문화관광재단이 회화에서 영상으로 전환한 스퀘어 시리즈Ⅲ '연의 시간'을 개최한다.",
+      "kw": [
+        "스퀘어",
+        "영상전",
+        "문화관광"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9kN0FXN0piOVdPREh0cjVyWkhmV1o2SUhJQTF2cGQ3anIyMEtoSVVjczloQXIyRFI4YlJPUkEtS1lCU2RmMXM2aDBVU2M0S1U?oc=5",
+      "source": "화성인터넷신문"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시의회, 제255회 임시회 폐회… 안건 45건 원안 가결",
+      "summary": "화성특례시의회가 제255회 임시회를 폐회하며 45건의 안건을 원안 가결했다.",
+      "kw": [
+        "임시회",
+        "의회",
+        "안건"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9Iek1RS2VRQXduNk1EUjNiUDB5YVZxakIzaFcyR3kxYTlyQldYOTJEbEFmT2pQNUdJN3FCcExJeE5ZbllmczFSOWRfOU9ESkJlei1CS2tud2dQeDJtTlN0b3dWYUs2Z0dQeTJEMQ?oc=5",
+      "source": "경기타임스 e"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "[위클리오늘] 화성시, 글로벌 AI 엑스포 ‘MARS 2026’ 11월 3일 개막",
+      "summary": "화성시가 11월 3일 글로벌 AI 엑스포 'MARS 2026'을 개막한다.",
+      "kw": [
+        "AI엑스포",
+        "MARS2026",
+        "개막"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE84QThZTENkR1dOdmJRMUl3N1RJVXhyWi1zUXpneWJwNlJlSzhaOWp5MGhQX0xGMGhMYVBGNnB1VUdnUTdhQ29aSGYwcjlVcjZYdUNNNXlYX28ySVRTSEg5akVmUEh2SHhpbk5QbG85dw?oc=5",
+      "source": "위클리오늘"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "[인터뷰] 정순영 화성시의회 의회운영위원장 “충분히 논의하고 책임 있게 판단하게 뒷받침하겠다”",
+      "summary": "정순영 의회운영위원장이 충분한 논의와 책임 있는 판단을 위한 뒷받침을 약속했다.",
+      "kw": [
+        "의회운영위원장",
+        "의정활동",
+        "화성시의회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiuARBVV95cUxPbHlHR2FSVzhTTk1OOEJMZTBfdTlJVkRhbUpVY2c5VlEtTldWQm5JeHRESzl3RmdneGVTXzY3X1l2R1RNVU9oMHplU3lNbVotbnd3QWUtOEd6RXJPbDN1QWpzWE9ubkwyVWN1LWhIemtnc1pxN3VfNXVWV0lMemJPS2UyQnBxTjcyQ2tmNUI0eWV2Y2lmQ1F5WnRQbWdhTmo2Q3AtNnNGREZRb3FRVnI4bGpfbk1DLWd5OVRVeUNDWUFzUE1tWWhVOGZ1bktFS1J1TmUtREVLcDlmM0RUeDRNQkJfbGRGVW1CNGlXSkdRbG5UZ25fNENsblF5aHVsclFiN2dTVWFndVVPYU5ibDJGT2VhQmJ1NUtwbUFpM3ZWenZuSnNreGU4Yk1tcGhrSHF3MGZXQld0bTVENDB3Y2Zyd3JPUmZMSXRhN2FtT1plYWhIN0JFWnMxaXE0WWd3LWI3THI4TUZfcFNOX1JzNk5Xdjh3QU1TWHRwQzNPY2IwSGk2clVpWTJiNzl5SnVQZXFzSzUtamctTkVKenBCaGtrREVoVU00akktNWtQdHVnR0NPOFlJYWdIaDl4NjVWbTFEbXRCUTlaV0pEdDh3NUtLaVRuR1JxUDNUajhuX3RpRHI1Vi1NcGFkVGozRHBmMG9Hc21yOHQtR09FNUJ3NkNCRkRfbDc2X2NrVW4zajNZSW5KVFhCY2Vwc0ZzNW03aUljNEhVa1BaSkRlbnRPYWdrQmVNaXFSeDRq?oc=5",
+      "source": "중앙신문"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "화성특례시의회 김상균 위원장, 공공주택지구 기업유치 조례 개정안 발의",
+      "summary": "김상균 위원장이 공공주택지구 기업유치 활성화를 위한 조례 개정안을 발의했다.",
+      "kw": [
+        "공공주택지구",
+        "기업유치",
+        "조례개정"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9ORW9jQThOcU00TXdFdHYxNThvSlpZVXBFQnpJRHNPS1REMFAzNFJ4WklUeUZfY3hpR0Y2Wm1pQjBFMEt5MTlRc0t5eVYxWU0xazZSVVFHZnFOQzQ0eFp4RFZLTDRnblQyVUI0?oc=5",
+      "source": "경기타임스 e"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "오문섭 화성시의회 의원, ‘제8회 (사)경기언론인협회 의정대상’ 수상 영예",
+      "summary": "오문섭 의원이 경기언론인협회 의정대상을 수상하는 영예를 얻었다.",
+      "kw": [
+        "의정활동",
+        "의정대상",
+        "의원표창"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9BdXlaWXlCeG1BczVpb09UTHQ5b0NJcE1fSVNlOXFuQW5YRy1hNGd5T0tMMk9nSWo3ODg1UzdKamZqSVB2Vk1FT1A1LTF4WmhxOXVhdmJFbzBiUE42YjFDbw?oc=5",
+      "source": "경기경제신문"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "화성특례시의회 김상균 위원장, 학교·아파트 주변 공사장 관리 조례안 발의",
+      "summary": "김상균 위원장이 학교·아파트 주변 공사장 관리 강화를 위한 조례안을 발의했다.",
+      "kw": [
+        "공사장관리",
+        "주거환경",
+        "조례안"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pYlprdmZITVVjSUI0cUh4d2c4eGJpdF9NS1c5U3JFeFBZVGg3M3VvejliR04tbGtUVGNOa1ZmZEhoMF9lTU5GdXNKWjMyTnRncnhYcmNLNlJTTmxNdjdWZzBtTkt2SXdnZ1J6dA?oc=5",
+      "source": "경기타임스 e"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성특례시, 장민우·이평찬·나경화 홍보대사 위촉",
+      "summary": "화성시가 장민우, 이평찬, 나경화를 홍보대사로 위촉했다.",
+      "kw": [
+        "홍보대사",
+        "시정홍보",
+        "위촉식"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5tanNDZl9vOTVjMkNOUHRMVzlhWVRKY2YyT1h2Nk40b0hYdnFiRVJqV0tjU3I0LTd2c2xDZEZDQVVDNE9Ua2M2NE14aFNhN2gwdUE2cnQ3LTcyYkFVMWNQVUt6ZXpvNTFaRy1N?oc=5",
+      "source": "프레시안"
+    },
+    {
+      "date": "2026-10-23",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "화성특례시의회 이은진 의원 5분 자유발언, \"상수도 원격검침 도입률 0%, 경기도 최하위\"",
+      "summary": "이은진 의원이 화성시의 상수도 원격검침 도입률이 0%로 경기도 최하위라고 지적했다.",
+      "kw": [
+        "상수도",
+        "원격검침",
+        "인프라개선"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8wYkZpTS0tZGFMYlJOaU5TNUZYa19XYV9tQzFLWkMwWXg4dmdSbWNlbS1iNlA4STVxMmRyVXJZVEs2b0xaUkJySE1Vb1N2Rk84UjZHSjE3VXE2dFhNblpMaEZxT0hEQm5mZU5UOA?oc=5",
+      "source": "경기타임스 e"
+    },
+    {
+      "date": "2026-10-24",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "화성시 외국인 '불법 콜뛰기' 기승…막아서던 택시기사 폭행까지",
+      "summary": "화성시에서 외국인의 불법 콜뛰기가 증가하고 있으며 택시기사 폭행 사건까지 발생했다.",
+      "kw": [
+        "불법콜뛰기",
+        "외국인",
+        "택시기사폭행"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9FSlA5dXFQZE5OUG9tZVBlUk1OWFNISzZTNHY0MElIbURqZ2NCMGtCSW9RY1BMRFVEc3JhWHBvVjF3dVRwX3RVazNsU0RJZTJzVkZ4eVAxZDRTS2kyWGFhStIBYEFVX3lxTE9FSlA5dXFQZE5OUG9tZVBlUk1OWFNISzZTNHY0MElIbURqZ2NCMGtCSW9RY1BMRFVEc3JhWHBvVjF3dVRwX3RVazNsU0RJZTJzVkZ4eVAxZDRTS2kyWGFhSg?oc=5",
+      "source": "연합뉴스"
+    },
+    {
+      "date": "2026-10-24",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "'반도체 머니' 타고 동탄·영통 석달새 2억 껑충...신고가 행진 언제까지",
+      "summary": "반도체 수혜로 동탄과 영통의 부동산 가격이 석달새 2억원 상승했다.",
+      "kw": [
+        "반도체",
+        "동탄",
+        "부동산가격"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBNMnQ1UGdFRTBDdjE3MDdMZ2Z2am95cFRxa2ZsYjdHRWtHTjZ2TkJBQktNdzRyb2EtQ09JWVFjZGgyZDlIcTgwZ2dTeGVxNlJYN0tfblRqVmJSNkdO?oc=5",
+      "source": "뉴스핌"
+    },
+    {
+      "date": "2026-10-24",
+      "cat": "교통",
+      "senti": "긍정",
+      "title": "'반도체 메가 벨트' 용인·화성, 연계 교통망 구축",
+      "summary": "용인·화성 반도체 산업단지 간 연계 교통망 구축을 추진한다.",
+      "kw": [
+        "교통망",
+        "반도체",
+        "용인·화성"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ydUxyNVBqUnpSWVJSMDVnaElWM3JrRzdGTmpVc0pRTUxrUmdRUjc5Sl9fOEFTNUxCcjB6SnVlbm5LZVRDZm5VMHZKMWN4empMR0pJeVhIcnhMRFZfaVE?oc=5",
+      "source": "YTN"
+    },
+    {
+      "date": "2026-10-24",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "[분양캘린더] 10월 다섯째 주 '아크메르 동탄' 등 5555가구 공급",
+      "summary": "아크메르 동탄 등 5555가구가 10월 5주차에 분양 공급된다.",
+      "kw": [
+        "아크메르동탄",
+        "분양",
+        "주택공급"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ZOElSSEY2MXhxU1JTSG9WZi1ST2p2SVlxVzM1QzlHb3llUmtENEpPNzV2MXhycDZnTHBVN3ZveEdfajNYMGtBT09yOFZkRnZ3Yl9mUXBtRGFkeW5SWUhEamJON3lweHBUYnZoWFl4OTdRSXVU?oc=5",
+      "source": "이투데이"
+    },
+    {
+      "date": "2026-10-24",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "롯데건설, ‘화성 향남 롯데캐슬 시그니처’ 23일 견본주택 오픈",
+      "summary": "롯데건설의 화성 향남 롯데캐슬 시그니처 견본주택이 23일 오픈한다.",
+      "kw": [
+        "롯데캐슬",
+        "견본주택",
+        "향남"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1BemZSVmEyc0NvMEpPVjlxRGt3OTBKaHgzUHFEZWQzU2puWXluY09BSDFZUk13NWpkSkMyRl90SldpMU1HWEV0WldUV2hPUzlWUm96QnQ2cnlCVVpCS3hGcEVHWXoxOVo5OG9KSFlxMVDSAXBBVV95cUxNQXpmUlZhMnNDbzBKT1Y5cURrdzkwSmh4M1BxRGVkM1Nqbll5bmNPQUgxWVJNdzVqZEpDMkZfdEpXaTFNR1hFdFpXVFdoT1M5VlJvekJ0NnJ5QlVaQkt4RnBFR1l6MTlaOThvSkhZcTFQ?oc=5",
+      "source": "내외뉴스통신"
     }
   ],
   "dropped": {
-    "count": 93,
+    "count": 83,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
-      "남양유업, B2B 고객사 대상 유제품 활용 레시피 시연회",
+      "경기남부 비규제지역 집값도 꿈틀...\"삼중규제 확대 신중\"",
+      "[포토스케치] 손열음의 피아니스트 사전",
+      "남양유업, 프리미엄 버터 활용 레시피 시연…B2B 고객 지원 강화",
+      "남양유업, 美 프리미엄 버터 수입 확대…B2B 고객사 메뉴 개발 지원",
+      "윤석열 정부 때 급감한 MBC광고, 이재명 정부에서 복구?",
       "수원 ‘병’ 국힘 ‘경기남부광역철도’ 역사에 수원시청역 추가 주장",
-      "남양유업, 버터 활용 시연회 개최…기업 고객 메뉴 개발 지원",
-      "포토뉴스",
-      "[똑똑한한끼] 농심, 삼양식품, 풀무원헬스케어, 남양유업, 웅진식품, 하림, 롯데웰푸드, 삼립",
-      "화성시, 청소년이 기획한 ‘화성학생동아리축제’ 24일 동탄서 열린다",
-      "효행구 아장아장길 WAY 연합 운동회 개최",
-      "남양유업, B2B 고객사 대상 버터 활용법·레시피 시연",
-      "최민정의 국가대표 마지막 시즌이 시작된다…2026-2027 쇼트트랙 월드투어 24일 개막",
-      "남양유업, B2B 고객사 대상 유제품 활용 시연회 개최",
-      "쇼트트랙 시즌 24일 막 올린다… 최민정의 라스트 댄스",
-      "버터만 팔지 않는다…남양유업, 레시피까지 B2B 공략",
-      "경기도, 전국체전 종합우승 ‘5연패’ 금자탑",
-      "[쇼트트랙] 최민정의 국가대표 라스트 댄스… 2026-2027 월드투어 24일 개막",
+      "남양유업, 프리미엄 버터 앞세워 외식업계 메뉴 개발 지원",
+      "남양유업, B2B 고객사 대상 유제품 활용 레시피 시연회",
+      "원료 공급 넘어 메뉴 개발까지…남양유업, FS 사업 강화",
+      "남양유업, 미국산 ‘하이 데저트 밀크 버터’ 시연...현장 활용법 소개",
+      "남양유업, 미국산 버터로 외식시장 공략···시연회 열어",
       "서울 아파트값 0.13%↑···성북·서대문 뛰고 강남·서초 내렸다",
-      "'단백질 60g' 승부수 통했다…남양유업 테이크핏, 매출 76% 뛰며 시장 주도",
+      "남양유업, 미국산 프리미엄 버터 선봬...외식업체 메뉴 개발 지원 강화",
+      "서울 아파트값 상승폭 축소…강남3구 하락 지속",
+      "남양유업, 미국산 프리미엄 버터로 B2B 메뉴 개발 지원",
       "[따옴나눔] \"함께하는 마음, 존중받는 세상\"",
-      "남양유업 前오너 일가, 기부금까지 '회삿돈' 의혹…국감서 도마",
-      "경기 펜싱, 전국체전 남자 플러레 단체전 정상…사브르 준우승까지 값진 성과",
-      "전국체전, 경기도 펜싱 ‘금빛 찌르기’ [포토뉴스]"
+      "[2026 공파공투] 경기지역지부 결의대회, 원청교섭 쟁취 위한 공동투쟁으로 확대",
+      "서울 아파트값 89주째 상승…'반도체 머니' 경기 남부 급등",
+      "남양유업, 버터 활용 시연회 개최…기업 고객 메뉴 개발 지원",
+      "[영광의얼굴] 경기도 펜싱, 남일부 플러레 단체전 ‘2연패’"
     ]
   },
   "briefs": {
-    "all": "전체 기간 [[w]]부정 기사 526건(6%)[[/w]] 중 안전과 행정 분야에 집중되어 있으며, 특히 10월 15일에 [[b]]32건이 한 날에 몰렸습니다[[/b]]. 행정 분야 부정 보도부터 우선 확인하시기 바랍니다.",
-    "7": "최근 7일간 [[w]]부정 기사 36건(5%)[[/w]]이 행정에 편중되어 있으며, 10월 21일 12건 중 7건이 행정 관련입니다. 행정 분야 동향을 집중 모니터링하시기 바랍니다.",
-    "30": "최근 30일 동안 [[w]]부정 기사 162건(5%)[[/w]] 중 [[b]]행정이 59%를 차지하고 있습니다[[/b]]. 특정 날짜 집중도는 낮으나 행정 분야의 지속적인 부정 보도에 주의가 필요합니다."
+    "all": "전체 기간 [[w]]부정 기사 537건(6%)[[/w]] 중 안전과 행정에 집중되어 있으며, 특히 2026-10-15에 [[b]]32건이 한날에 몰렸는데 대부분 행정 분야[[/b]]입니다. 분야별 편중도가 높으므로 안전과 행정 관련 주요 이슈부터 점검이 필요합니다.",
+    "7": "최근 7일간 [[w]]부정 기사는 45건(5%)[[/w]]으로 대부분 행정에 집중되어 있고, 2026-10-21에 [[b]]12건이 발생했으며 이 중 7건이 행정 분야[[/b]]입니다. 행정 관련 최근 보도 동향을 먼저 확인하시기 바랍니다.",
+    "30": "지난 30일간 [[w]]부정 기사 167건(5%)[[/w]] 중 행정이 100건으로 [[b]]압도적 비중을 차지[[/b]]하고 있으며, 2026-10-15의 대량 발생(32건)이 전체 분포에 영향을 미쳤습니다. 행정 분야 부정 보도의 내용과 배경을 우선 검토해야 합니다."
   },
-  "briefs_updated": "2026-10-23 10:23",
+  "briefs_updated": "2026-10-24 08:51",
   "issues": {
-    "updated": "2026-10-23 10:23",
+    "updated": "2026-10-24 08:51",
     "items": [
       {
         "label": "[시선]‘수원 군공항 특별법 추진’ 화성시민 전면 반대 ‘총력전’… “시민 뜻 거스르는 일방적 강행 규탄”",
@@ -100747,8 +102735,21 @@
     ]
   },
   "today": {
-    "updated": "2026-10-23 10:23",
+    "updated": "2026-10-24 08:51",
     "items": [
+      {
+        "label": "화성시 외국인 '불법 콜뛰기' 기승…막아서던 택시기사 폭행까지",
+        "count": 1,
+        "sources": 1,
+        "first": "2026-10-24",
+        "last": "2026-10-24",
+        "cat": "안전",
+        "titles": [
+          "화성시 외국인 '불법 콜뛰기' 기승…막아서던 택시기사 폭행까지"
+        ],
+        "score": 60,
+        "state": "신규"
+      },
       {
         "label": "화성시의회, 수원 군공항 이전 특별법 반발…사업 원점 재검토 촉구",
         "count": 28,
@@ -100786,7 +102787,7 @@
           "국방부 수원 군공항 이전 용역에 화성시민 반발 > 뉴스",
           "화성시의회, 수원 군공항 이전 특별법 반발…사업 원점 재검토 촉구"
         ],
-        "score": 62,
+        "score": 55,
         "state": "종결"
       },
       {
@@ -100800,30 +102801,27 @@
           "‘수원 군공항 특별법 추진’ 화성시민 전면 반대 ‘총력전’… “시민 뜻 거스르는 일방적 강행 규탄”",
           "[시선]‘수원 군공항 특별법 추진’ 화성시민 전면 반대 ‘총력전’… “시민 뜻 거스르는 일방적 강행 규탄”"
         ],
-        "score": 61,
+        "score": 54,
         "state": "진행 중"
-      },
-      {
-        "label": "추미애 경기국제공항 재추진에 도의회·화성시 반발 : 정치",
-        "count": 1,
-        "sources": 1,
-        "first": "2026-10-23",
-        "last": "2026-10-23",
-        "cat": "행정",
-        "titles": [
-          "추미애 경기국제공항 재추진에 도의회·화성시 반발 : 정치"
-        ],
-        "score": 60,
-        "state": "신규"
       }
     ],
-    "surge": []
+    "surge": [
+      {
+        "cat": "환경",
+        "recent": 3,
+        "days": 3,
+        "base": 5,
+        "base_days": 12,
+        "base_daily": 0.42,
+        "ratio": 2.4
+      }
+    ]
   },
   "ops": {
     "runs": 100,
     "days": 34,
-    "since": "2026-09-20",
-    "last": "2026-10-23",
+    "since": "2026-09-21",
+    "last": "2026-10-24",
     "failures": 0,
     "span": 34,
     "skipped": 0
@@ -100841,19 +102839,19 @@
     "note": "팀원 다섯 명이 기사 100건을 나눠 검수한 결과. 겹친 구간에서 한 사람이라도 「틀림」이라 했으면 틀린 것으로 셌다. 너그럽게 세면 분야 95%·긍부정 87%가 된다."
   },
   "keyword_notes": {
-    "updated": "2026-10-23 10:23",
+    "updated": "2026-10-24 08:51",
     "window": "최근 30일",
     "items": {
-      "화성시": "지난 한 달간 443건의 기사가 보도되었으며 긍정 기사(159건)가 부정 기사([[w]]39건[[/w]])보다 많으나, 녹물 논란, 화재, 불법 행위 등 [[b]]시민 안전 및 관리 이슈[[/b]]에 대한 개선이 필요합니다.",
-      "화성특례시": "262건 보도 중 긍정 기사(112건)의 비중이 높고 [[w]]부정 기사는 12건[[/w]]으로 적은 편이며, 하천 악취 해결, 고액 체납자 추적 등 [[b]]민관 협업과 AI 기술 활용 사례[[/b]]가 긍정적으로 평가받고 있습니다.",
-      "동탄": "260건 중 산업경제 관련 보도(114건)가 대부분이고 [[w]]부정 기사는 3건[[/w]]으로 매우 적으나, 물류센터 갈등, 회삿돈 규제 이슈 등 [[b]]개발사업의 투명성 강화[[/b]]가 요구됩니다.",
-      "화성": "163건 보도 중 [[w]]부정 기사(13건)[[/w]]이 상당 부분을 차지하고 있으며, 마사지업소·공장 화재 등 [[b]]산업시설 안전관리[[/b]]에 대한 언론의 집중 보도가 이루어지고 있습니다.",
-      "화성시의회": "74건 보도 중 [[w]]부정 기사(6건)[[/w]]이 있으며, 의정 운영의 투명성(해외출장 기록 부존재, 군공항 이전 반발) 관련 지적이 있어 [[b]]행정 공개 및 소통 개선[[/b]]이 필요합니다.",
-      "정명근": "71건 중 [[b]]부정 기사가 0건[[/b]]으로, 시장 관련 보도가 대부분 중립적이거나 긍정적(24건)이며 행정(54건) 분야에서의 주요 활동이 주로 다루어지고 있습니다.",
-      "삼songretech": "67건 모두 긍정 기사([[b]]45건[[/b]])와 중립 보도로 구성되어 있으며 부정 기사가 없어, 산업경제 뉴스로서 화성시의 [[b]]경제 성장과 투자 유입[[/b]]을 긍정적으로 보도하는 추세입니다.",
-      "향남역": "63건 중 대부분이 중립적 산업경제 보도이나 [[w]]부정 기사(1건)[[/w]]에서 불법 현수막 난립과 시 단속 미흡이 지적되었으므로 [[b]]개발 사업지 질서 유지[[/b]]에 주의가 필요합니다.",
-      "화성특례시의회": "61건 모두 행정 분야 보도이며 [[w]]부정 기사(4건)[[/w]]에서 향남오토캠핑장 폐쇄, 수원군공항 이전 문제 등이 언급되어, [[b]]의회와 시민 간 갈등 사안[[/b]]에 대한 소통 강화가 요청됩니다.",
-      "분양": "60건 보도 중 부정 기사가 없고 긍정 기사(20건)가 주를 이루며, 산업경제(58건) 중심의 [[b]]아파트·주택 분양 뉴스[[/b]]로 화성시의 부동산 개발 관심도가 높은 상태입니다."
+      "화성시": "지난 한 달간 456건의 기사 중 긍정 166건으로 긍정 평가가 우세하나, [[w]]부정 기사 40건[[/w]]에서 녹물 논란, 화재, 불법행위 등 시민 안전과 관리 문제가 반복되고 있어 주의가 필요합니다.",
+      "동탄": "272건 기사 중 산업경제 분야(122건)에서 긍정 평가(79건)가 주도적이나, [[w]]부정 기사 3건[[/w]]에서 규제 회피 논란 등이 제기되고 있습니다.",
+      "화성특례시": "특례시 지정 이후 262건 기사 중 긍정 평가(111건)가 두드러지며, 행정 분야(200건)에서 하천 악취 해결, AI 활용 세정 등 성과가 언론에 집중 보도되고 있습니다.",
+      "화성": "161건 기사 중 [[b]]긍정 평가(49건)가 부정(11건)을 크게 상회[[/b]]하며, 특히 악취 문제 해결과 비용 절감 성과가 긍정적으로 평가받고 있습니다.",
+      "향남": "산업경제 중심(72건)의 84건 기사에서 읍-동 전환 논란이 [[b]]주민 반발과 경제 위기 우려[[/b]]로 이어지고 있어 지속적인 소통이 요구됩니다.",
+      "분양": "82건 기사 전수가 긍정 평가(34건)이며 [[b]]부정 기사 0건[[/b]]으로, 화성의 주택시장 뉴스가 전반적으로 호의적으로 보도되고 있습니다.",
+      "화성시의회": "78건 기사 중 부정 평가(8건)가 긍정(11건)에 거의 근접하며, 의정 투명성 논란과 주요 정책 반발 기사가 담론화되고 있습니다.",
+      "정명근": "69건 기사가 모두 중립 이상이며 [[b]]부정 기사 0건[[/b]]으로, 시장 활동이 언론에서 일관되게 긍정 또는 중립적으로 다루어지고 있습니다.",
+      "삼성전자": "67건 기사 중 긍정 평가(45건)가 압도적이나, [[w]]유해화학물질 취급 관련 부정 기사[[/w]]가 환경·안전 이슈로 부각되고 있습니다.",
+      "향남역": "63건 기사 중 [[w]]부정 기사 1건[[/w]]에서 모델하우스 불법 현수막과 시 단속 미흡 문제가 지적되고 있어 건설 인·허가 단계의 관리 강화가 요구됩니다."
     }
   }
 }
