@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-01 09:02",
+  "updated": "2026-11-01 11:04",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 8204,
+  "count": 8220,
   "items": [
     {
       "date": "2026-08-02",
@@ -114825,6 +114825,20 @@
       "source": "여행레저신문"
     },
     {
+      "date": "2026-10-30",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시문화관광재단 ‘시민미디어제작단’, '제8회 경기마을미디어 공모전' 4개 부문 수상:경인투데이뉴스",
+      "summary": "화성시문화관광재단 시민미디어제작단이 경기마을미디어 공모전 4개 부문에서 수상했다.",
+      "kw": [
+        "시민미디어",
+        "공모전",
+        "수상"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE02cDJDTXM5TzlXVVB6SkJFRlNQd1R3YVB6TjZqYnJQTWN1ZThyeWFfd1Q3N1VkdGdsWm8zQ1ljWExNMWw2aFotSUppdnRvRlAtWHVVWVpfYmxKclRTanB30gFfQVVfeXFMTTZwMkNNczlPOVdVUHpKQkVGU1B3VHdhUHpONmpiclBNY3VlOHJ5YV93VDc3VWR0Z2xabzNDWWNYTE0xbDZoWi1JSml2dG9GUC1YdVVZWl9ibEpyVFNqcHc?oc=5",
+      "source": "경인투데이뉴스"
+    },
+    {
       "date": "2026-10-31",
       "cat": "산업경제",
       "senti": "긍정",
@@ -115203,6 +115217,34 @@
       "source": "여행픽"
     },
     {
+      "date": "2026-10-31",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "화성특례시, 건설행정 역량 강화... ‘예정가격 작성요령 교육’ 개최 > 뉴스",
+      "summary": "화성특례시가 건설행정 역량 강화를 위해 예정가격 작성요령 교육을 개최했다.",
+      "kw": [
+        "건설행정",
+        "역량강화",
+        "교육"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE10c1VrU3d2QXE4ampzbDZWZ2tVQWhtZXgtM1Q3YXhEZC01RnJlUlFOdVhaRTM0VmtjdG8xVkN1VlNVQjRZSXRmQXpJSXNwVy1kWkJVVnMzc21Vd25aV05pbkFFLTEzaFVFOHpFUV83am1SUQ?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-10-31",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "시민 아이디어가 규제 개선으로... 화성특례시, 규제혁신 아이디어 공모전 성료 > 뉴스",
+      "summary": "화성특례시가 규제혁신 아이디어 공모전을 성황리에 마무리했다.",
+      "kw": [
+        "규제혁신",
+        "아이디어",
+        "공모전"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE8yYkpqblBGazlvUW5fcUlMWlNjakpNU0ExS3pTZEVseW9hdHdLRHJYSEVVMkoxVnk4bGZHZ3FHak5LV2VI?oc=5",
+      "source": "더코리아"
+    },
+    {
       "date": "2026-11-01",
       "cat": "문화관광",
       "senti": "긍정",
@@ -115411,42 +115453,224 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlSndBQ2otYWRzTGQwaXlSSVQtdG5GelltUTA5TkJUUVA1S3JUenhpX2lPaXVNNVNmUjIwckRDS3RfUTFUU3MwTDMxcnJCQVVxd1VUN2VDR202d25xQm9kU1hnd3lHMUHSAWtBVV95cUxOcG1XVExjd3Z5Y3ZoeXFJOTNncHhaQVJEQ1VRRklNeThKcXYzVWxKYVhHYlBTa0ZvUkl6QzFvQXJzV3h2TWNhUTFBSjJ2NjU2N29DVlV4dmdRN2ZOZmZrVEpXN09tNkNrRHBnUQ?oc=5",
       "source": "뉴스잡"
+    },
+    {
+      "date": "2026-11-01",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "화성시, 변화하는 가족 형태에 맞춘 정책 방향 모색",
+      "summary": "화성시가 비혼동거 등 변화하는 가족 형태에 대응하는 정책 방향을 모색하고 있다.",
+      "kw": [
+        "가족정책",
+        "비혼동거",
+        "정책개발"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1iNWdOaFB1Zm9QZ3RNWDYxUVBCZ1kyMXF5S1V0eXhlbm13NGFHeHZObG9McUNCT1o1SllWMk00dzhVWUM5N3B0T2thNTh3dXNtLUM3b3h5NnNwY0xXZ1BTNVRwSzE0SHpJbHI3N2ZnMDQ?oc=5",
+      "source": "인천일보"
+    },
+    {
+      "date": "2026-11-01",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "동탄호수공원 상공 수놓은 드론…5만여 명 찾았다",
+      "summary": "동탄호수공원 드론쇼에 5만여 명이 방문해 높은 인기를 얻었다.",
+      "kw": [
+        "드론쇼",
+        "동탄호수공원",
+        "관광객"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9PTjVKZlpqTW55NldxU095NERKeFNSYmJvR3VROFlSTEluaXI2aGlYWk5EaUtEWFRqUUtOeEtEUFJDZGhvSGJNNC1LOTNlSEJL?oc=5",
+      "source": "문화일보"
+    },
+    {
+      "date": "2026-11-01",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "비혼 동거 등 달라진 가족… 화성시, 맞춤형 정책 모색",
+      "summary": "화성시가 비혼동거 등 달라진 가족 형태에 맞춘 맞춤형 정책을 모색 중이다.",
+      "kw": [
+        "비혼동거",
+        "가족정책",
+        "제도개선"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFByczNPTEgtRVJJMkI4SnlDUHdqSm9LWlhVX2o3VWptdGVXOUxaZ2hUUm1wQ3ZlY3VnWDVDNE9GZlViVUFnTjFsTmxhSVphMHdDWk0zOFVNUmFTNHlZSUI4RQ?oc=5",
+      "source": "아시아경제"
+    },
+    {
+      "date": "2026-11-01",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "동탄호수공원 밤하늘 수놓은 드론 500대…‘화성 루나빛축제’ 5만명 발길",
+      "summary": "동탄호수공원의 드론쇼 '화성 루나빛축제'에 500대 드론과 5만 명이 참석했다.",
+      "kw": [
+        "루나빛축제",
+        "드론쇼",
+        "동탄호수공원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5famV1bHk4Q3BwOGtaSW1iM2NwNUhId0VoeXVuTjZFUk1NYkhzVEp2RXR6WUpfQ3NLR1hMZXZJU01FR2lPWGNiMEkyaEI2VnN4bU1wZXJuTnRKYmlBQzlyUg?oc=5",
+      "source": "아시아경제"
+    },
+    {
+      "date": "2026-11-01",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시의회, 화성 향남 다누리축제서 주민·외국인 이웃과 소통",
+      "summary": "화성시의회가 향남 다누리축제에서 주민과 외국인과 소통했다.",
+      "kw": [
+        "다누리축제",
+        "지역소통",
+        "향남"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1Oc01PMDBXbEJvVU0zejFvZnFnLUhZUmdLSTBMS1N3NnBtOWdGbmlVOWc3X2JoTTdrSmpVclROcDB0bGtNcU1ja0piUXhEVExuemhOTmx4cVV4cWh6cjJITFB3?oc=5",
+      "source": "경인미래신문"
+    },
+    {
+      "date": "2026-11-01",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성특례시 ‘2026 화성 루나빛축제’ 성황리 개최···동탄호수공원에 펼쳐진 빛과 음악의 향연",
+      "summary": "화성 루나빛축제가 동탄호수공원에서 성황리에 개최되었다.",
+      "kw": [
+        "루나빛축제",
+        "동탄호수공원",
+        "문화행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA5cU5yZmJqYnRxQjBxT0RDWEhZcmMxcm1SbFNIRzg4UjBFS0ViVmszNWZwZHMwMTJDNHhGMWg0d0lSeVh4TWdja05STHY5Nmg3UlVhN19rSmN5ZjRpZU8yaHZFeGp0UGRYTVVnVDVsaU0?oc=5",
+      "source": "산경일보"
+    },
+    {
+      "date": "2026-11-01",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "화성시, 비혼동거가구 등 가족실태와 제도 간극 검토",
+      "summary": "화성시가 비혼동거가구 등 가족실태와 제도 간극을 검토하고 있다.",
+      "kw": [
+        "비혼동거",
+        "가족실태",
+        "제도검토"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1lQUR6RFk3dFhzWUNQTUZFYlJMZjB0Z1M2YUdUR0ZYZFNsbENJcWM5ZUNqaUJFNGhDM3ZnT2hPYmFUUHdaV0hXVjJhYkpDYWg4aEZ3ZGdENG1adXA5MEM2MdIBeEFVX3lxTE9pMVkxOTYtNV9lVDlXRkZkMEUxMEJvYVR1SnNQaVFBd1dHSmlXWDg4b1FNd0ZlUnh5VlQyc1VTVFM2dnVtQXpTb3FDTnJfUWZmUXpoSU82OE02VjZWekZJcTJLMEdXMHVnTEk3dkJWODRKQnlHSF9UNw?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-11-01",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "이계철 화성시의회 의장, 발안초 동문 체육대회·다누리축제 참석",
+      "summary": "화성시의회 의장이 발안초 동문 체육대회와 다누리축제에 참석했다.",
+      "kw": [
+        "의회의장",
+        "발안초",
+        "지역행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1rSTBwd1NGNkNLV3FFamFja3ZzOW5SeDU3cjc1Q1pmTE0wVTYtb3FYMTNvZVJZcFNibFZ5eGZlX0ZUWC1oM1RDVHVOcjFNOXpRbEJpYjJtNHZxcUI3S3E2YVhtdVhIazdsVVNPU3czTDlYUDN1R01Rb2ZZYkE?oc=5",
+      "source": "비욘드포스트"
+    },
+    {
+      "date": "2026-11-01",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "정명근 \"행복이 뭐 별건가요\"…동탄 밤하늘에 뜬 아이들 그림",
+      "summary": "동탄 밤하늘의 드론쇼에서 아이들 그림이 펼쳐져 큰 감동을 주었다.",
+      "kw": [
+        "드론쇼",
+        "동탄",
+        "문화행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1GZUY2WWFLUmVlUl9vV2lpQnZlT0Y1WDJtT3JQcV9rei1TcVFwVHdmUzhLU2U0Mm92N0dZTGVEWGZUOGZlbzY4ZzdEalo1aW5GR29HUQ?oc=5",
+      "source": "이투데이"
+    },
+    {
+      "date": "2026-11-01",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시 ‘2026 화성 루나빛축제’ 성료",
+      "summary": "2026 화성 루나빛축제가 성료되었다.",
+      "kw": [
+        "루나빛축제",
+        "문화행사",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9QYnpvVkFpbEItVFoyWlhqY1p4S1FkTThrNGJzUk5fOXNDVnJaanFiVTVXZ0Y3dmFDUnZHWFk2YWxoZ3VXbndKdm4tVGFDU210OS1DWGlyRmpHU09rb1o5bk5WU3YtSGFMRnMyQkVueWo?oc=5",
+      "source": "인천일보"
+    },
+    {
+      "date": "2026-11-01",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "화성 가족정책포럼, 비혼 동거 가구 지원 방향 논의",
+      "summary": "화성 가족정책포럼에서 비혼동거가구 지원 방향을 논의했다.",
+      "kw": [
+        "비혼동거",
+        "가족정책",
+        "지원방안"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBoa1Y4RmJPNU1mb2pFRlJZclRseVF2VXR6MllsZjNZQkpJUnJ6RkM4bk5oaE1aSDdKNjhpUVV4VElWX3BXdGVuaG5jMGhrTXZQdnB5XzV3ekRjTmFjLTZMakhR?oc=5",
+      "source": "경인미래신문"
+    },
+    {
+      "date": "2026-11-01",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시의회 이계철 의장, 모교 운동장서 \"오늘은 발안초 43회 졸업생\"",
+      "summary": "화성특례시의회 의장이 모교 발안초 졸업생 행사에 참석했다.",
+      "kw": [
+        "의회의장",
+        "발안초",
+        "지역행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE45dzVnelRyLUlVRVJmWlNlR01pTjRKTVhaZzFYMTJ5bnJmNUVrTklJYmE2d3hCNHhsdm5YbUs5OWxLSVhGWlhVVmpNcmVNMFl1Z2lJQ0ozSzFtSHpfb0dfUHJsVW4xTkltYXBR?oc=5",
+      "source": "경기타임스 e"
+    },
+    {
+      "date": "2026-11-01",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "화성 효행구보건소, 치매 조기검진·실종 예방 홍보",
+      "summary": "화성 효행구보건소가 치매 조기검진과 실종 예방 홍보를 실시했다.",
+      "kw": [
+        "치매",
+        "조기검진",
+        "실종예방"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE94VmYyQ1JmUjdsSy1xZG1jSmdqUG1SYS1zUVd3dzNNSlFuWEhNOTVZNUtWaHFuamVleHhUZkZoaEdncTdwR21mN3NYQi1vY0EyeGZnaXRJRjBSaVlaVUF0Rldn?oc=5",
+      "source": "경인미래신문"
     }
   ],
   "dropped": {
-    "count": 48,
+    "count": 62,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
       "[똑똑한소비] 남양유업 식이섬유 더한 락토프리 멸균우유·스타벅스 쓱데이 한정 굿즈…하이트진로음료·배스킨라빈스",
       "최민정, 쇼트트랙 2차 월드투어 1,000ｍ 우승…3명 뚫고 역전극",
-      "남양유업, 식이섬유 더한 '슈퍼제로 락토프리 멸균우유' 출시",
       "식이섬유 1.4g 더한 무지방 우유… 남양유업, 소용량 락토프리 신제품 출시",
-      "'막판 역전극' 최민정, 쇼트트랙 2차 월드투어 1000m 금메달",
-      "남양유업, ‘슈퍼제로 락토프리 멸균우유’ 출시",
-      "최민정, 월드투어 2차 대회 1000m에서도 금메달…2주 연속 개인전 1위",
+      "쇼트트랙 최민정, 새 시즌 월드투어 두 대회 연속 여자 1000m 정상",
       "남양유업, 유당·지방 0g에 식이섬유 더한 ‘슈퍼제로’ 선보여",
-      "'GOAT의 라스트댄스' 최민정, 쇼트트랙 2차 월드투어 첫날 전 종목 조 1위 예선 통과 '기염'",
+      "‘마지막 코너의 마법’ 최민정, 월드투어 1000m 2연속 금메달",
+      "전셋값은 중저가가 더 뛰고, 아파트값은 경기 남부가 이끌었어요 (10월 4주 부동산)",
       "남양유업, 식이섬유 1.4g 더한 ‘슈퍼제로 락토프리 멸균우유’ 출시",
-      "「화성시청소년상담복지센터, 지역 축제 연계 찾아가는 아웃리치‘청와제, 화성학생동아리축제’ 성황리 성료」",
-      "유당·지방 0g…남양유업, '락토프리 멸균우유' 출시",
+      "최민정, 쇼트트랙 2차 월드투어 1,000ｍ 금메달…3명 뚫고 역전극",
       "[오늘의 신상품]남양유업, 식이섬유 더한 락토프리 우유출시 外 투썸플레이스·CJ CGV·맘스터치",
       "[신상품] 삼립 ‘프로틴 샐러드’ 남양유업 ‘슈퍼제로 락토프리 멸균우유 180mL’ 외",
-      "최민정, 쇼트트랙 2차 월드투어 첫날 전 종목 조 1위 예선 통과",
-      "남양유업, 락토프리 우유 6종으로 확대…180㎖ 멸균 신제품 출시",
-      "반찬 서비스 중복 점검, 건강 상태에 따른 식단 관리 필요",
+      "은퇴 앞둔 최민정, 쇼트트랙 2차 월드투어 1000m 우승 기염",
+      "「화성시청소년상담복지센터, 지역 축제 연계 찾아가는 아웃리치‘청와제, 화성학생동아리축제’ 성황리 성료」",
       "'소화 잘되고 휴대 편하게'...남양유업, 세분화된 소비자 입맛 정조준",
-      "‘은퇴 번복 안 되나요’ 최민정, 2차 월드투어 첫날 전 종목 조 1위로 예선 통과",
-      "남양유업, ‘슈퍼제로 락토프리 멸균우유’ 출시...식이섬유 더해 제품군 다변화"
+      "최민정, 월드투어 2차 대회 1000m에서도 금메달…2주 연속 개인전 1위",
+      "남양유업, 락토프리 우유 6종으로 확대…180㎖ 멸균 신제품 출시",
+      "'GOAT의 라스트댄스' 최민정, 쇼트트랙 2차 월드투어 첫날 전 종목 조 1위 예선 통과 '기염'",
+      "남양유업, ‘슈퍼제로 락토프리 멸균우유’ 선봬",
+      "남양유업, '슈퍼제로 락토프리 멸균우유' 180mL 선봬…식이섬유 1.4g 더해",
+      "[오늘의 언박싱] 남양유업 ‘슈퍼제로 락토프리’·투썸플레이스 ‘윈터 뱅쇼’ 外"
     ]
   },
   "briefs": {
-    "all": "전체 기간 [[w]]부정 기사 568건(6%)[[/w]] 중 안전(212건)과 행정(209건)에 집중되어 있으며, 두 분야가 전체 부정 보도의 약 75%를 차지합니다. [[b]]2026-10-15일에 32건이 몰렸던 점[[/b]]을 확인하고 해당 날짜 행정 관련 보도를 먼저 검토할 필요가 있습니다.",
-    "7": "최근 7일간 [[w]]부정 기사 30건(4%)[[/w]]은 대부분 행정 분야(15건)에서 발생했으며, 2위 산업경제(6건)와의 격차가 뚜렷합니다. [[b]]10월 27일에 10건이 집중[[/b]]되었으므로 해당 날짜 행정 이슈를 우선 확인하시기 바랍니다.",
-    "30": "최근 30일 [[w]]부정 기사 170건(5%)[[/w]]은 행정(101건)이 압도적으로 많고, 안전(20건)과 환경(14건)이 뒤따릅니다. [[b]]행정 분야가 부정 보도의 60% 이상을 차지[[/b]]하고 있으므로 이 분야의 구체적 이슈를 먼저 파악해야 합니다."
+    "all": "전체 기간 [[w]]부정 568건(6%)[[/w]] 중 안전(212건)과 행정(209건)에 집중되어 있으며, [[b]]2026-10-15에 32건이 몰렸고 이 중 행정이 28건[[/b]]을 차지했습니다. 행정 분야 보도를 우선 점검하시기 바랍니다.",
+    "7": "최근 7일간 [[w]]부정 30건(4%)[[/w]]의 대부분이 행정(15건)에 집중되어 있으며, [[b]]2026-10-27에 10건 중 7건이 행정 관련[[/b]]입니다. 행정 분야의 최근 이슈를 먼저 확인하세요.",
+    "30": "최근 30일 [[w]]부정 170건(5%)[[/w]] 중 행정이 101건으로 절대 다수를 차지하고 있으며, 2·3위 분야(안전 20건, 환경 14건)와 큰 편차를 보입니다. [[b]]행정 분야의 집중적인 점검이 필요[[/b]]합니다."
   },
-  "briefs_updated": "2026-11-01 09:02",
+  "briefs_updated": "2026-11-01 11:04",
   "issues": {
-    "updated": "2026-11-01 09:02",
+    "updated": "2026-11-01 11:04",
     "items": [
       {
         "label": "원익IPS, 동탄 연구소 확장 ‘헛돈’…3년간 빈 사무실 임대료만",
@@ -115551,7 +115775,7 @@
     ]
   },
   "today": {
-    "updated": "2026-11-01 09:02",
+    "updated": "2026-11-01 11:04",
     "items": [
       {
         "label": "수원군공항 화성시 이전 반대 특위 민관정 공동 대응 방안 논의",
@@ -115621,19 +115845,19 @@
     "note": "팀원 다섯 명이 기사 100건을 나눠 검수한 결과. 겹친 구간에서 한 사람이라도 「틀림」이라 했으면 틀린 것으로 셌다. 너그럽게 세면 분야 95%·긍부정 87%가 된다."
   },
   "keyword_notes": {
-    "updated": "2026-11-01 09:02",
+    "updated": "2026-11-01 11:04",
     "window": "최근 30일",
     "items": {
-      "화성시": "[[b]]393건의 기사 중 긍정 143건으로 양호한 평가를 받고 있으나[[/b]], [[w]]부정 기사 36건[[/w]]에서 폐기물 매립 의혹, 화재 사건 등이 보도되고 있어 안전 관리 및 투명성 강화가 필요합니다.",
-      "동탄": "산업경제 분야에서 338건의 높은 관심도를 보이며 긍정 평가(114건)가 대부분이나, [[w]]부정 기사 5건[[/w]]에서 물류센터 갈등과 사내대출 규제 논란이 제기되고 있습니다.",
-      "화성특례시": "[[b]]행정 분야 중심으로 229건이 보도되었으며 긍정 평가(97건)가 우세[[/b]]하나, 부정 기사 예시들이 실제로는 정책 성과를 다룬 내용으로 보여 긍정적 관심이 실질적으로 더 높을 것으로 판단됩니다.",
-      "화성": "121건의 소규모 보도에서 [[w]]부정 기사 9건[[/w]]이 악취 문제, 화재 사건 등으로 기록되어 있으며, 긍정 평가는 32건으로 상대적으로 제한적입니다.",
-      "향남": "106건의 보도 중 산업경제 분야(81건)가 주를 이루고 있으나, [[w]]부정 기사 6건[[/w]]에서 읍·동 전환에 대한 주민 우려와 인프라 부족 논란이 집중되어 있습니다.",
-      "분양": "[[b]]87건 모두 긍정적 기사로만 구성되어 있으며 산업경제 중심(86건)으로 분양 시장의 활황을 반영[[/b]]하고 있습니다.",
-      "아크메르동탄": "73건의 보도가 모두 긍정 평가로 진행 중이며, 산업경제 분야의 주요 개발 프로젝트로서 지속적인 관심을 받고 있습니다.",
-      "향남역": "67건 보도에서 [[w]]부정 기사 2건[[/w]]이 불법 현수막 단속 미흡과 '유령역' 방치 문제를 지적하고 있으며, 신안산선 준공 지연에 대한 비판이 제기되고 있습니다.",
-      "화성시의회": "행정 분야 중심(61건)으로 보도되고 있으나 [[w]]부정 기사 6건[[/w]]이 대부분으로, 군공항 이전 추진과 관련된 반발 입장이 주요 뉴스 쟁점입니다.",
-      "롯데캐슬": "64건의 분양 관련 기사에서 긍정 평가(29건)가 주도적이나, [[w]]부정 기사[[/w]]에서 산단 악취와 군용기 소음 영향에 대한 우려가 제기되고 있습니다."
+      "화성시": "지난달 393건의 기사 중 [[b]]긍정 기사가 143건(36%)으로 다수[[/b]]이나, [[w]]부정 기사 36건[[/w]]에서 폐기물 매립 의혹, 화재 등 민원성 사안이 지속 발생하고 있어 주의가 필요합니다.",
+      "동탄": "340건 기사의 대부분이 산업경제 분야(187건)이며 [[b]]긍정 기사가 116건으로 높은 편[[/b]]이나, [[w]]부정 기사 5건[[/w]]에서 물류센터 갈등과 사내대출 규제 우회 논란이 제기되었습니다.",
+      "화성특례시": "229건 기사 중 [[b]]긍정 기사 97건[[/b]]으로 전반적으로 우호적 보도가 주류이며, 하천 악취 민관협업과 AI 기술 활용 체납자 추적 등 긍정적 행정 사례가 주요 내용입니다.",
+      "화성": "121건 기사 중 [[w]]부정 기사 9건[[/w]]으로 화재, 악취 등 안전 관련 사안이 보도되었으나, [[b]]악취 문제 해결]]로 복개 비용 절감 효과[[/b]]도 함께 다루어졌습니다.",
+      "향남": "107건 기사 중 산업경제 분야(81건)가 대부분이며, [[w]]부정 기사 6건[[/w]]에서 읍 전환 관련 주민 갈등과 인프라 우려, 불법업소 단속 논란이 지적되고 있습니다.",
+      "분양": "87건 모두 긍정적 맥락으로 [[b]]부정 기사가 전무[[/b]]하며, 산업경제 분야(86건)에 집중되어 분양 공고 관련 소식이 주도적으로 보도되었습니다.",
+      "아크메르동탄": "73건 전체가 긍정적 틀에서 다루어져 [[b]]부정 기사 0건[[/b]]으로, 신규 프로젝트의 산업경제적 관심도가 높음을 보여줍니다.",
+      "향남역": "67건 기사 중 [[w]]부정 기사 2건[[/w]]에서 모델하우스 현수막 단속 공백과 신안산선 개통 연기, 유령역 방치 문제가 비판되고 있습니다.",
+      "화성시의회": "66건 기사 중 [[w]]부정 기사 6건[[/w]]으로 군공항 이전 추진에 대한 의회의 반발과 주민 의사 외면 논란이 반복 보도되고 있어 주요 갈등 사안입니다.",
+      "롯데캐슬": "64건 기사 중 [[b]]긍정 기사 29건[[/b]]으로 분양 관련 호재가 주류이나, [[w]]부정 기사 1건[[/w]]에서 산단 악취와 군용기 소음 영향권 우려가 제기되었습니다."
     }
   }
 }
