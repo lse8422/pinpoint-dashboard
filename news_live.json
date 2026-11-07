@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-07 09:51",
+  "updated": "2026-11-07 11:39",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 8958,
+  "count": 8965,
   "items": [
     {
       "date": "2026-08-02",
@@ -125941,6 +125941,76 @@
       "source": "뉴스로드"
     },
     {
+      "date": "2026-11-06",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "송옥주 국회의원, 기획예산처 장관 만나 화성 현안 국비 반영 요청",
+      "summary": "송옥주 의원이 기획예산처 장관을 만나 화성 현안에 대한 국비 반영을 요청했다.",
+      "kw": [
+        "송옥주",
+        "국비",
+        "현안"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5IcXY4MEZRZENkQ3BaVVdyLUtjajJibmNSRHY2bEp4ZktMenZaQ1JSSU1tcVluWWdIYmZsVmlidXA1YkxmNExNZVowTVhGbzBCOXlOX1oxR3pDTEVQZGVNZWN1UFpKUW5WNWVsT2hyeTliVjFrX1k2M21fTkNFU3PSAX9BVV95cUxOSHF2ODBGUWRDZENwWlVXci1LY2oyYm5jUkR2NmxKeGZLTHp2WkNSUklNbXFZbllnSGJmbFZpYnVwNWJMZjRMTWVaME1YRm8wQjl5Tl9aMUd6Q0xFUGRlTWVjdVBaSlFuVjVlbE9ocnk5YlYxa19ZNjNtX05DRVNz?oc=5",
+      "source": "뉴데일리 경기"
+    },
+    {
+      "date": "2026-11-06",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "송옥주 의원, 박홍근 기획예산처 장관 면담, 화성 주요 현안 국비 반영 협조 요청",
+      "summary": "송옥주 의원이 박홍근 기획예산처 장관과 면담해 화성 주요 현안의 국비 반영을 협조 요청했다.",
+      "kw": [
+        "송옥주",
+        "기획예산처",
+        "국비"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9wVjhGTnNmdXYxZm1GZ08zUndiNHI1TUx2Rkx3TWQ5R3gyVXJfWW9YUzJ4S3phYjh1N1BXY0F5eEt3N0YyS2duWEM1SFlkbE9xZklOR2FUNEpBdTZsMHJYVG1hb3NrYzZxZDJGeVA4RdIBckFVX3lxTFBqR1llNnFOM2dFVHhlNDdycDVLWV93V2UxeU1aa1FwSnBwRWVrdHlWcG9MM2MzTllsM0w5cF9ORkRwSEdaVzF3ZURRNldOUDFaQ1A1NnJCZ3V3U2hSMm9OYjI1YzE5MjNmRUxZMENQMWZGdw?oc=5",
+      "source": "뉴스 따옴"
+    },
+    {
+      "date": "2026-11-06",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "동탄5동, ‘화성형 그냥드림’ 나눔 확대",
+      "summary": "동탄5동에서 화성형 그냥드림 나눔 사업을 확대한다.",
+      "kw": [
+        "동탄5동",
+        "나눔",
+        "그냥드림"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBxZkE1UVhkWUp2QUJ3cEdGSThBQkE0QlE4ckZScVo2Rko5dnJwaGlnbWF0UFN1eU1ONHNxOXQ0M01SQQ?oc=5",
+      "source": "화성신문"
+    },
+    {
+      "date": "2026-11-06",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "송옥주 의원, 화성 현안 3건 국비 반영 요청",
+      "summary": "송옥주 의원이 화성 현안 3건에 대한 국비 반영을 요청했다.",
+      "kw": [
+        "송옥주",
+        "국비",
+        "현안"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB6NHhiYVBLdlVpYTM3dGhyR1g3MUhHRUt0aUhCM3JjUjRQREs2amJ2S1dicWRhZUNrZWRkNFo4XzRMT0J2T2tQM2NMQmhRRE1XUEE2aGEwOV9GVzhPa05iUWR2NEpJaW9VbFQtNFJKMNIBb0FVX3lxTFB6NHhiYVBLdlVpYTM3dGhyR1g3MUhHRUt0aUhCM3JjUjRQREs2amJ2S1dicWRhZUNrZWRkNFo4XzRMT0J2T2tQM2NMQmhRRE1XUEE2aGEwOV9GVzhPa05iUWR2NEpJaW9VbFQtNFJKMA?oc=5",
+      "source": "뉴스로드"
+    },
+    {
+      "date": "2026-11-06",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "[6일 화성시] 세외수입 미수납액 징수대책 보고회 개최 등",
+      "summary": "화성시가 세외수입 미수납액 징수대책 보고회를 개최했다.",
+      "kw": [
+        "세외수입",
+        "징수",
+        "보고회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA4SmppVmR4bjZSdDZrVXo3eHE2Q0xMOXo2TVpKd2o0LThpNE1LaDBSMmZzeHowYlFsalY2blFkamRqcExjQ3NrLWx1a1dDQWFyVVFocmk0bXpDSmpNbXc?oc=5",
+      "source": "아시아타임즈"
+    },
+    {
       "date": "2026-11-07",
       "cat": "산업경제",
       "senti": "중립",
@@ -125967,10 +126037,38 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Sd0dHSGVnVGZpeldMQVlsT3ZIUm9JRjNLNXROUWVjRkhnNkt1VmZQbGw5OGpxWklTa19vbjQzSUpzZ2drOWs5dkI0ZzJZdkFEdkRNaF9vblhqQVNNN1dvT3BkbkpsZw?oc=5",
       "source": "비건뉴스"
+    },
+    {
+      "date": "2026-11-07",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "향남 민간분양 브랜드…'향남역 그로브 스위첸', 7일 선착순 동·호 지정 계약",
+      "summary": "향남역 그로브 스위첸이 7일 선착순 동·호 지정 계약을 시작한다.",
+      "kw": [
+        "향남역",
+        "민간분양",
+        "그로브스위첸"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE43Umk0Vm0tU1RsR0dlTk5TbWJoV1dPU2h6X0pzQVJJVnB5VDB4bnFralhwZGE4dnlsMTNRR3JtQktsU1VjWHdMVzBESTB4QQ?oc=5",
+      "source": "전자신문"
+    },
+    {
+      "date": "2026-11-07",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "정명근 화성특례시장 “‘MARS 2026’, 대한민국 AI 수도 ‘화성특례시’ 전 세계에 확실히 증명”",
+      "summary": "정명근 화성특례시장이 'MARS 2026'으로 화성특례시를 AI 수도로 전 세계에 알리겠다고 밝혔다.",
+      "kw": [
+        "MARS2026",
+        "AI수도",
+        "정명근"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA4aFlYbGNpUEVqTkhqbTJVdTl2WTVfS1JkZzdub2NNVUltWXVzYWJMeEs2VHRBaG1OS2tscWFxNXp6cmdWNkR3ZEVaaEI0dlQtVGtiVkFMMWU?oc=5",
+      "source": "국민일보"
     }
   ],
   "dropped": {
-    "count": 38,
+    "count": 37,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
       "들불처럼 번지는 반도체 벨트 집값 상승세…'키 맞추기' 확산",
@@ -125984,25 +126082,25 @@
       "“악성민원인 1명이 2000여건 청구”… 경기 지자체 ‘정보공개 폭탄’ 몸살",
       "‘규제 옆 비규제’ 움직였다… 남양주 아파트 거래 78% 증가",
       "[똑똑한한끼] 농심, 하이트진로그룹, 올가홀푸드, 남양유업, 아워홈, 하림, 서울우유, 대상웰라이프, 롯데칠성음료",
-      "남양유업, 보디빌딩 대회 준비 학생들에 '테이크핏' 후원",
       "남양유업, 테이크핏으로 고교 헬스부 보디빌딩 도전 지원",
+      "포토뉴스",
       "미시시피 화학공장 폭발로 치솟는 연기",
-      "남양유업, 영남공고 헬스부에 단백질 제품 후원...보디빌딩 대회 도전 지원",
+      "남양유업, 보디빌딩 대회 준비 학생들에 '테이크핏' 후원",
       "남양유업, 보디빌딩 도전 영남공고 헬스부 '테이크핏' 후원",
       "남양유업, 영남공고 헬스부에 '테이크핏' 지원",
+      "흰우유 소비 줄어도 버티는 남양유업...제품 다변화로 활로 찾는다",
       "남양유업 ‘테이크핏’, 고교생 보디빌딩 도전 지원…대회 1·2위 배출",
-      "남양유업, 영남공고 헬스부에 ‘테이크핏’ 지원…보디빌딩 대회 출전 후원",
-      "흰우유 소비 줄어도 버티는 남양유업...제품 다변화로 활로 찾는다"
+      "남양유업, 영남공고 헬스부에 ‘테이크핏’ 지원…보디빌딩 대회 출전 후원"
     ]
   },
   "briefs": {
-    "all": "전체 수집 기간 동안 [[w]]부정기사 648건(6%)[[/w]]이 발생했으며, 행정 분야에 267건이 집중되어 있습니다. 행정 다음으로 안전 215건, 산업경제 66건 순으로 부정 보도가 분포하고 있으므로, [[b]]행정 분야의 부정 보도 원인을 먼저 파악[[/b]]하는 것이 필요합니다.",
-    "7": "최근 7일간 [[w]]부정기사는 80건(10%)[[/w]]으로 집계되었고, 행정 분야에 58건이 몰려 있습니다. 2위인 교통 분야 12건과의 차이가 크므로, [[b]]행정 관련 최근 이슈들을 우선적으로 검토[[/b]]해야 합니다.",
-    "30": "지난 30일간 [[w]]부정기사 237건(7%)[[/w]] 중 행정이 154건으로 대부분을 차지하며, 안전과 교통이 각각 22건, 21건으로 뒤따르고 있습니다. [[b]]행정 분야의 부정 보도가 압도적이므로 이에 대한 집중적인 모니터링[[/b]]이 필요합니다."
+    "all": "전체 수집 기간 동안 부정 보도 [[w]]648건(6%)[[/w]] 중 행정 분야가 [[b]]267건으로 절반 이상[[/b]]을 차지했으며, 2위 안전(215건)과의 격차가 뚜렷합니다. [[b]]2026-11-04 하루에 41건이 몰렸는데 대부분 행정 관련[[/b]]이므로 해당 날짜의 보도 배경을 먼저 확인하시기 바랍니다.",
+    "7": "최근 7일간 부정 보도 비율이 [[w]]10%[[/w]]로 높아졌으며, 행정 분야([[w]]58건[[/w]])에 집중되어 있습니다. 2위인 교통(12건)과의 차이가 매우 커서 [[b]]행정 분야 이슈 대응이 시급[[/b]]한 상황입니다.",
+    "30": "최근 30일 부정 보도 [[w]]237건(7%)[[/w]] 중 행정이 [[w]]154건[[/w]]으로 대다수를 차지하며, 안전과 교통이 각각 22건, 21건으로 뒤따르고 있습니다. [[b]]행정 분야의 부정 보도가 타 분야 합계보다 많으므로[[/b]] 해당 분야의 미디어 관계 개선에 집중할 필요가 있습니다."
   },
-  "briefs_updated": "2026-11-07 09:51",
+  "briefs_updated": "2026-11-07 11:39",
   "issues": {
-    "updated": "2026-11-07 09:51",
+    "updated": "2026-11-07 11:39",
     "items": [
       {
         "label": "화성시공무원 노조, 2,100여 건 민원 폭탄에 행정 마비! 괴롭힘 목적 정보공개 청구 즉각 중단하라!",
@@ -126088,7 +126186,7 @@
     ]
   },
   "today": {
-    "updated": "2026-11-07 09:51",
+    "updated": "2026-11-07 11:39",
     "items": [
       {
         "label": "화성시공무원 노조, 2,100여 건 민원 폭탄에 행정 마비! 괴롭힘 목적 정보공개 청구 즉각 중단하라!",
@@ -126196,19 +126294,19 @@
     "note": "팀원 다섯 명이 기사 100건을 나눠 검수한 결과. 겹친 구간에서 한 사람이라도 「틀림」이라 했으면 틀린 것으로 셌다. 너그럽게 세면 분야 95%·긍부정 87%가 된다."
   },
   "keyword_notes": {
-    "updated": "2026-11-07 09:51",
+    "updated": "2026-11-07 11:39",
     "window": "최근 30일",
     "items": {
-      "동탄": "341건의 보도 중 긍정 131건으로 우호적 평가가 많지만, [[w]]부정 9건[[/w]]은 물류센터 갈등과 부동산 투기 관련으로 지역 이슈 해결이 필요한 상황입니다.",
-      "화성시": "286건 중 행정 152건으로 주요 보도분야이나 [[w]]부정 34건[[/w]]이 상대적으로 많으며, AI 체납자 추적 등 행정 시책이 집중 보도되고 있습니다.",
-      "화성특례시": "특례시 지정 후 164건 보도로 [[b]]긍정 78건의 높은 호응[[/b]]을 얻고 있으며, AI 기술 활용 관련 행정 뉴스가 주요 콘텐츠입니다.",
-      "향남": "산업경제 분야 89건 중심으로 보도되고 있으나, [[w]]부정 6건[[/w]]에서 읍·동 전환과 인프라 문제가 지역 갈등 요소로 작용 중입니다.",
-      "AI": "91건 중 [[b]]긍정 79건으로 매우 높은 호응[[/b]]을 보이고 있으며, 체납자 추적 시스템 도입이 혁신 행정의 대표 사례로 평가받고 있습니다.",
-      "분양": "86건 전량 산업경제 분야이며 [[b]]부정 기사가 0건[[/b]]으로, 부동산 분양 뉴스가 중립적으로 보도되고 있습니다.",
-      "동탄트램": "85건 모두 교통 분야 보도이고 [[b]]긍정 67건의 높은 기대도[[/b]]를 나타내나, [[w]]1건의 부정 기사[[/w]]에서 입찰 무산 등 추진 과정의 어려움이 반영되어 있습니다.",
-      "화성": "74건의 광범위한 보도 중 행정 28건이 최다이나, [[w]]부정 5건[[/w]]에서 인사 논란과 군공항 갈등 등 현안 갈등이 드러나고 있습니다.",
-      "아크메르동탄": "73건 산업경제 보도 중 [[b]]부정 기사가 0건[[/b]]으로, 분양 프로젝트가 순긍정적으로만 보도되고 있습니다.",
-      "롯데캐슬": "71건 산업경제 중심 보도이나 [[w]]1건의 부정 기사[[/w]]에서 산업단지 악취와 군용기 소음 등 환경 민원이 제기되고 있습니다."
+      "동탄": "341건의 높은 기사량 중 긍정 131건으로 [[b]]우호적 여론이 지배적[[/b]]이나, [[w]]부정 9건[[/w]]에서 물류센터 갈등과 사내대출 규제 이슈가 부각되고 있어 주의 필요합니다.",
+      "화성시": "286건 중 긍정 110건으로 긍정 비율이 양호하지만 [[w]]부정 34건[[/w]]은 타 키워드 대비 높은 수준으로, AI 활용 체납자 징수 등 행정 정책 보도가 주를 이룹니다.",
+      "화성특례시": "164건 기사 중 [[b]]긍정 78건으로 좋은 비율[[/b]]을 유지하고 있으며, AI 기술 활용 체납자 추적 등 혁신적 행정 이미지가 강하게 형성되고 있습니다.",
+      "향남": "116건의 산업경제 관련 보도가 주류인 가운데 [[w]]부정 6건[[/w]]에서 읍·동 전환 논란과 지역경제 우려가 반복 제기되고 있습니다.",
+      "AI": "91건 중 [[b]]긍정 79건으로 매우 높은 호감도[[/b]]를 보이며, 화성시의 AI 기반 정책이 긍정적으로 평가받고 있는 주요 성과입니다.",
+      "분양": "[[b]]부정 기사가 0건[[/b]]인 86건의 순수 산업경제 보도로, 동탄 및 향남 지역 분양 관심도가 높게 유지되고 있습니다.",
+      "동탄트램": "85건의 교통 관련 기사 중 [[b]]긍정 67건으로 압도적 긍정 평가[[/b]]를 받고 있으며, 입찰 난항 후 계약 추진 소식이 신뢰도를 높이고 있습니다.",
+      "화성": "74건 중 긍정 23건으로 비율이 낮은 편이며, [[w]]부정 5건[[/w]]에서 인재재단 선임과 수원 군공항 이전 갈등 등 민감한 현안이 다루어지고 있습니다.",
+      "아크메르동탄": "73건 중 [[b]]부정 기사 0건[[/b]]으로 순순한 분양 소식만 보도되고 있으며, 지역 내 고가 아파트 프로젝트로서의 높은 관심도를 반영합니다.",
+      "롯데캐슬": "71건의 산업경제 보도 중 [[w]]부정 1건[[/w]]에서 산단 악취 및 군용기 소음 영향권 문제가 지적되었으므로, 분양 시 환경·소음 우려 대응이 필요합니다."
     }
   }
 }
