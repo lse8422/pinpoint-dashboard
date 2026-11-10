@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-10 12:27",
+  "updated": "2026-11-10 13:34",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 9210,
+  "count": 9223,
   "items": [
     {
       "date": "2026-08-02",
@@ -127579,6 +127579,20 @@
       "source": "매일일보"
     },
     {
+      "date": "2026-11-08",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "강남 대신 성북·동탄이 뛴다…수도권 집값 상승지도 바뀌었다",
+      "summary": "수도권 집값 상승지도에서 동탄의 위치 변화를 분석한다.",
+      "kw": [
+        "동탄",
+        "수도권",
+        "부동산"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1iSFROdWdodUtlNWQybk1Ja0ItR0p3LXRyN2ZGazl4Q2hXM2tpWmcyZkRPNHdpTkVYTDlTRDI0ZlRyVHoyVnVibmI1VzRhYVZhQzhQdWxuTkNoZ9IBWEFVX3lxTE5lUUJiWXpCSHZ5NDM5VGZxcXNBNkhTVFloOHZmMHhZSHhoeFNqSWxNaXlJdzM5SjY4YTk1YWs1NTFlLVh5d1ROVVBDbF9TOUJSSEg5aC1zOGo?oc=5",
+      "source": "아주경제"
+    },
+    {
       "date": "2026-11-09",
       "cat": "문화관광",
       "senti": "긍정",
@@ -129007,6 +129021,34 @@
       "source": "서울Pn"
     },
     {
+      "date": "2026-11-09",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "진보당 화성, '공무원노조 악성민원 피해호소' 1인시위 동참",
+      "summary": "진보당 화성이 공무원노조 악성민원 피해에 대한 1인시위에 동참했다.",
+      "kw": [
+        "진보당",
+        "공무원노조",
+        "악성민원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5HQWhLWFFXRW9kbHRwUWt6bThvWlZmOFlSREY4UlBLc2dLXzYzWXZPV2pkNUFVSFd0czJYdVpvM01FYkxBc0pZYkEtanFrUGN2bi03ZUpDLVpIRG9JNkRGUXNfaTZLV1U5Z09DQzRaLVQ5d9IBckFVX3lxTE5HQWhLWFFXRW9kbHRwUWt6bThvWlZmOFlSREY4UlBLc2dLXzYzWXZPV2pkNUFVSFd0czJYdVpvM01FYkxBc0pZYkEtanFrUGN2bi03ZUpDLVpIRG9JNkRGUXNfaTZLV1U5Z09DQzRaLVQ5dw?oc=5",
+      "source": "엔디엔뉴스"
+    },
+    {
+      "date": "2026-11-09",
+      "cat": "교통",
+      "senti": "부정",
+      "title": "‘오산 세교 교통 대란 우려’ 화성 물류센터 청원 1만명 달성…추미애 답변 기다린다",
+      "summary": "화성 물류센터로 인한 오산 세교 교통 대란 우려로 1만명 청원이 달성되었다.",
+      "kw": [
+        "물류센터",
+        "교통대란",
+        "민원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9pZGpfX2JuSW5zYVkxTE1EOW9BLWUyUEtOS2Q1WFlqZ29fUl9aWFRvR3VfZTRjdm9GVzlJanRHWXljN2Rvd21LX0g5LVUzaDFPTE9Kdl9NUndYZE0?oc=5",
+      "source": "경기일보"
+    },
+    {
       "date": "2026-11-10",
       "cat": "문화관광",
       "senti": "긍정",
@@ -129495,28 +129537,168 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ZdzdrSjk4bG9wN3lpc2llYUVvbGd0OGdHdDVNSlhISWZBYURGbnI1UVVINFphOUtzMW1VbjlJdEd0VlF2Ylp1WUxjVjBxV0t5NFdPVHM0Zk4wOVphNTFnV1Bn?oc=5",
       "source": "경기뉴스광장"
+    },
+    {
+      "date": "2026-11-10",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시의회, 향남읍 주민 간담회 갖고 주민 건의 청취",
+      "summary": "화성시의회가 향남읍 주민과 간담회를 개최하여 주민 건의사항을 청취했다.",
+      "kw": [
+        "화성시의회",
+        "향남읍",
+        "주민간담회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBCT1dacmtIMWhuQ2xuS2lZdEE2ODdVOEQ0Nno0VlExMkxCaWdqd0dlUlBqOTQ4Y0VFa194RlNOTnpTNU41S2JndXJCN19hTFU1bjVNbHVoeVZkbFFwWlpOUmRkcU1LN1Bn?oc=5",
+      "source": "환경일보"
+    },
+    {
+      "date": "2026-11-10",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "실거주 의무 없다…'봉담자이 프라이드시티' 분양가는?",
+      "summary": "봉담자이 프라이드시티 분양가 정보와 실거주 의무 조건을 다룬 기사다.",
+      "kw": [
+        "봉담자이프라이드시티",
+        "분양",
+        "실거주의무"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE51aUZDS0tXcjZ3N19lejJGSjVQQTF2U3hoZVkzU2NSNXpmb2NlRzNaYlpGaUVNd0xDeDNtMjlTU1MzbjJQaGdSMHo2SnhESURpQW5SaHF3?oc=5",
+      "source": "위키트리"
+    },
+    {
+      "date": "2026-11-10",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "이투스에듀, ‘이투스 학원 동탄’ 신규 오픈…셔틀버스 운영",
+      "summary": "이투스에듀가 동탄에 신규 학원을 오픈하고 셔틀버스를 운영한다.",
+      "kw": [
+        "이투스에듀",
+        "동탄",
+        "학원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qb1VIZHk5TFBNZjNVaktoQkJXeDdGZnVxREw4bGdNaXhVTFlFYmVSbVdkMmNYSHNDQUxjbElWeFVaR3k1VmY5a29Nakd2VWdLR0xBdXZ1eF9NeEpyNHRhUzdVZDJGZDhZZzlJeg?oc=5",
+      "source": "베이비타임즈"
+    },
+    {
+      "date": "2026-11-10",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "[기고] 낮 시간의 배움터, 품격있는 동탄에 더 필요하다",
+      "summary": "동탄 지역에 낮 시간 교육 시설의 필요성을 주장하는 기고문이다.",
+      "kw": [
+        "동탄",
+        "교육시설",
+        "지역발전"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE42UjRuaWZUbDZ1Q0hfNFdGN21uMzE5TGdhY2lRaUpiRmVVUzdoSzFaeC1jLVRhTmRyaHR0bVhDZ1Z2bHRUSHRaM3ZkOFJaWXFIamwzN1NveXZEOG_SAVZBVV95cUxONEg5YS1JSlJQajBVeWJNQmRLb203Q0JjQ2RQcFlLU1BJRFVFMXM4NHNtWDZSUFVpc05qSktrQjFxbDBoTXkzcWRRVzllNnhlYmlpREZKUQ?oc=5",
+      "source": "더팩트"
+    },
+    {
+      "date": "2026-11-10",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "서울만 바라볼 때 아니다? 수원·동탄 집값 흔들 2대 변수…2027년 부동산 승부처는",
+      "summary": "2027년 부동산 시장에서 수원과 동탄의 집값 변수를 분석한다.",
+      "kw": [
+        "동탄",
+        "부동산",
+        "집값"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5KTl9sRThHQVU4M0FmZi1FTzlRUTV5T2lwYnNKLTZkZGJ4LV9POHQtVE40a3g5aFFoRTZrS0VPQjV2Y2tHWDZ6cHowMlN0U0k?oc=5",
+      "source": "CCBS뉴스"
+    },
+    {
+      "date": "2026-11-10",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시의회 최은희 보건복지위원장, 자살예방정책 포럼 참석… \"지역 맞춤형 생명존중 정책 지원\"",
+      "summary": "화성시의회 보건복지위원장이 자살예방정책 포럼에 참석하여 지역 맞춤형 정책을 지원하겠다고 밝혔다.",
+      "kw": [
+        "자살예방",
+        "생명존중",
+        "복지정책"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jMi03aGU2LXFHZG5xMGxheW9BN1NBcmxaNk9vMHFzUUozSWItTXFpTXRsLVZZNHA4YnpDSEtQYl9iM2QyTmJjd3FxMmprTEU4Z2JoalRhX05kaE0?oc=5",
+      "source": "한국소통투데이"
+    },
+    {
+      "date": "2026-11-10",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "“AI 도시 현실로”…화성시 ‘MARS 2026’이 남긴 성과",
+      "summary": "화성시의 AI 도시 프로젝트 'MARS 2026'의 성과를 다룬다.",
+      "kw": [
+        "AI도시",
+        "MARS2026",
+        "화성시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9QNDZlWHk1anEtcVE4OUgyRy1jVjl4ZWFYVmtuQXhtR1VTLXI3cHZPZk9ldENQcTVPRHdsSzZNNTFZYjFhb1pVdUhrY3JBMDhFMkZYONIBVEFVX3lxTE9QNDZlWHk1anEtcVE4OUgyRy1jVjl4ZWFYVmtuQXhtR1VTLXI3cHZPZk9ldENQcTVPRHdsSzZNNTFZYjFhb1pVdUhrY3JBMDhFMkZYOA?oc=5",
+      "source": "세계일보"
+    },
+    {
+      "date": "2026-11-10",
+      "cat": "교통",
+      "senti": "긍정",
+      "title": "정명근 “자율주행 차량 시승… 화성시, 국내 최대 규모 자율주행 리빙랩 실증 추진”",
+      "summary": "화성시가 국내 최대 규모 자율주행 리빙랩 실증 사업을 추진한다.",
+      "kw": [
+        "자율주행",
+        "리빙랩",
+        "교통혁신"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1GNEp2aWM5ZEJYaGk0cVJGMkl2b2c4YndKTi0wbnFIVHZPSFZaV3E1S1JTWDhNWF82WlUxc2l3V3pSX3h5aDNUcWZKZ3Y0aU1HdE44UjR4YVdXS0FjQ3NjMDVQNWRmUGZqeUt3?oc=5",
+      "source": "서울뉴스통신"
+    },
+    {
+      "date": "2026-11-10",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성 백미·도리도항에 100억 투입…청년 찾는 어촌으로",
+      "summary": "화성 백미·도리도항에 100억을 투입하여 청년이 찾는 어촌으로 발전시킨다.",
+      "kw": [
+        "어촌개발",
+        "청년정책",
+        "투자"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA4bGdnLXQ0QWVZVkpWc25PQWo4Z2tKM1RMRkd4cmkwTkFvUi04LTl2V1ZkUnYxeUNsc0VDY3pRbVNtYWNzbERwMEVHb2pXMHBTYUZ4cFNsOFo1Ukk0ZHBPXzJ6MmZ0Zw?oc=5",
+      "source": "수원일보"
+    },
+    {
+      "date": "2026-11-10",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "화성서부경찰서 팔탄파출소, 주민과 함께 교통안전 지킨다… 현장에서 펼친 교통안전캠페인",
+      "summary": "화성서부경찰서 팔탄파출소가 주민과 함께 교통안전캠페인을 펼쳤다.",
+      "kw": [
+        "교통안전",
+        "경찰서",
+        "캠페인"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1QVG80dDJhLXBhN2tKZ0NGMFZNT3F1QUJaYVIxeEVxQ3ZWVGhLVjNEWFNpZTBPcllHNGg1WkpLNy1XWWo4akVkeFJ0NWk4bGJmeC14dkhFQmRqX2RvbXdGWVBpOA?oc=5",
+      "source": "경기탑뉴스"
     }
   ],
   "dropped": {
-    "count": 44,
+    "count": 43,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
       "50억 들인 신축건물 무더기 하자에 소송전",
+      "남양유업 소용량 ‘슈퍼제로 락토프리’ 180㎖ 출시 : Packnet",
       "[화보] 수능 D-10...간절한 합장",
       "【발행인논설】 정보공개가 귀찮은가, 공직의 의무가 무거운가",
       "세대 발생 화재 신속 진압한 관리직원들 표창 받아",
       "“속 편하게 영양 챙기자”···남양유업, ‘편안한 두유’ 2종 출시",
-      "전국 아파트값 상승률 상위 10곳, 경기남부가 싹쓸이",
+      "용인시, 3개 철도사업 국가철도망 반영…설문 참여 당부",
+      "경기 아파트값 상승률 8주째 서울 추월 … 남부·비규제지역 강세 확산",
       "콩 속 난소화성 성분 분해…남양유업, 단백질 13g 두유 2종 출시",
       "포토뉴스",
-      "경기 아파트값 상승률 8주째 서울 추월 … 남부·비규제지역 강세 확산",
-      "용인시, 3개 철도사업 국가철도망 반영…설문 참여 당부",
+      "경기 아파트값, 8주 연속 서울 제쳤다...수도권 시장 주도",
       "남양유업, '편안한 두유' 2종 출시…소화 편의성 증대",
       "남양유업, 소화 편의성 높인 ‘편안한 두유’ 2종 출시",
-      "경기 아파트값, 8주 연속 서울 제쳤다...수도권 시장 주도",
       "남양유업, 저당 검은콩 두유 10일 출시",
-      "남양유업, 소화 편의성 고려한 '편안한 두유' 2종 선보여",
       "위기의 분유시장 뚫어라…매일유업 ‘내수 공략’, 남양유업 ‘동남아 집중’",
+      "남양유업, 소화 편의성 고려한 '편안한 두유' 2종 선보여",
       "'국물은 덜 짜게, 두유는 덜 달게'…풀무원·남양유업, 웰니스 공략",
       "\"부담은 덜고 고소함은 살리고\" 남양유업, '편안한 두유' 2종 선봬",
       "남양유업, 소화 편의성 높인 '편안한 두유' 출시",
@@ -129524,13 +129706,13 @@
     ]
   },
   "briefs": {
-    "all": "전체 기간 [[w]]부정 677건(7%)[[/w]] 중 행정이 273건으로 40%를 차지하며 안전 232건과 함께 부정 보도가 두 분야에 집중되어 있습니다. [[b]]2026-11-04일에 41건이 몰려[[/b]] 해당 날짜의 보도 내용을 우선 검토할 필요가 있습니다.",
-    "7": "최근 7일간 [[w]]부정비율이 15%[[/w]]로 상승했으며, 행정 부정 보도 53건 중 대부분이 11월 4일에 집중된 상황입니다. 행정 분야를 중심으로 [[b]]긴급 대응이 필요[[/b]]한 상태입니다.",
-    "30": "지난 30일간 부정 보도의 분포를 보면 행정 159건이 압도적이며, 안전 39건, 산업경제 23건으로 [[b]]행정 분야의 이슈가 단일 분야에서 매우 두드러[[/b]]집니다. 특히 11월 4일의 집중된 부정 보도를 분석하면 이후 대응 방향을 수립할 수 있습니다."
+    "all": "수집 기간 전체 [[w]]679건(7%)[[/w]]의 부정 보도 중 행정 분야가 274건으로 압도적이며, 안전 232건이 뒤를 잇고 있습니다. [[b]]행정과 안전 두 분야에 부정 보도의 80% 이상이 집중[[/b]]되어 있어, 이 두 분야의 언론 동향 관리가 중요합니다.",
+    "7": "최근 7일간 [[w]]96건(15%)[[/w]]의 부정 보도가 발생했으며, 행정 54건이 절대 다수입니다. [[b]]행정 분야의 부정 보도 비중이 전체 기간 대비 눈에 띄게 높아[[/b]] 있으므로, 최근 행정 분야 이슈에 대한 집중적인 점검이 필요합니다.",
+    "30": "최근 30일간 [[w]]266건(7%)[[/w]]의 부정 보도 중 행정이 160건으로 주도하고 있으며, 안전 39건, 교통 24건 순입니다. 행정 분야에 부정 보도가 [[b]]현저히 편중[[/b]]되어 있어 해당 분야 세부 이슈 파악이 시급합니다."
   },
-  "briefs_updated": "2026-11-10 12:27",
+  "briefs_updated": "2026-11-10 13:34",
   "issues": {
-    "updated": "2026-11-10 12:27",
+    "updated": "2026-11-10 13:34",
     "items": [
       {
         "label": "[안전상황실·10일] 경부고속도로 동탄터널서 5중 추돌로 33명 '경상'",
@@ -129636,7 +129818,7 @@
     ]
   },
   "today": {
-    "updated": "2026-11-10 12:27",
+    "updated": "2026-11-10 13:34",
     "items": [
       {
         "label": "[안전상황실·10일] 경부고속도로 동탄터널서 5중 추돌로 33명 '경상'",
@@ -129746,19 +129928,19 @@
     "note": "팀원 다섯 명이 기사 100건을 나눠 검수한 결과. 겹친 구간에서 한 사람이라도 「틀림」이라 했으면 틀린 것으로 셌다. 너그럽게 세면 분야 95%·긍부정 87%가 된다."
   },
   "keyword_notes": {
-    "updated": "2026-11-10 12:27",
+    "updated": "2026-11-10 13:34",
     "window": "최근 30일",
     "items": {
-      "동탄": "341건의 기사 중 긍정 131건으로 우호적 평가가 우세하나, [[w]]부정 12건[[/w]]에서 물류센터 갈등과 사내대출 규제 이슈가 반복 노출되고 있어 주의 필요합니다.",
-      "화성시": "245건 중 행정 분야가 135건으로 지배적이나 [[w]]부정 34건[[/w]]이 상대적으로 많아, AI 체납자 추적 등 강제징수 관련 기사의 톤 관리가 요구됩니다.",
-      "화성특례시": "특례시 지정 후 124건 기사 중 [[b]]긍정 53건으로 긍정 비율이 높고[[/b]] [[w]]부정은 11건[[/w]]에 불과하며, AI 기술 도입 등 행정 혁신이 주요 보도 내용입니다.",
-      "향남": "123건 중 산업경제 95건으로 개발 소식이 주된데, [[w]]읍 전환 강행 논란과 지역경제 우려[[/w]]가 부정 기사로 나타나 주민 합의 과정의 투명한 소통이 필요합니다.",
-      "AI": "94건 중 [[b]]긍정 80건으로 매우 호의적[[/b]]이며, 고액 체납자 추적 시스템이 화성시의 혁신 이미지를 효과적으로 전달하고 있습니다.",
-      "분양": "87건 모두 산업경제 분야이고 [[b]]부정 기사가 전혀 없어[[/b]] 동탄과 향남의 신규 분양 프로젝트가 매우 긍정적으로 보도되고 있습니다.",
-      "롯데캐슬": "78건 중 산업경제 77건으로 분양 프로젝트 중심 보도인데, [[w]]산단 악취와 군용기 소음 우려[[/w]]가 단 1건이지만 제기되고 있습니다.",
-      "아크메르동탄": "73건 기사 중 [[b]]부정이 없고 산업경제 분야 68건[[/b]]으로 구성되어 있어, 동탄 신규 프로젝트의 가장 긍정적인 평가를 받고 있습니다.",
-      "동탄트램": "69건이 모두 교통 분야이고 [[b]]긍정 57건으로 높은 호응[[/b]]을 보이나, [[w]]입찰 무산 및 공사 지연[[/w]]으로 인한 신뢰도 관리가 중요합니다.",
-      "화성": "62건의 광범위한 보도 중 행정 24건이 다수이고 [[w]]부정 4건[[/w]]에서 여론조사 공정성 의문 등 정책 갈등이 노출되어 있습니다."
+      "동탄": "345건의 높은 기사량 중 긍정 132건으로 우호적 여론이 형성되었으나, [[w]]부정 12건[[/w]]에서 사내대출 남용과 물류센터 갈등 등 부동산 규제 이슈가 지속적으로 제기되고 있습니다.",
+      "화성시": "246건 중 행정 분야가 135건으로 절반 이상을 차지하며 긍정 93건이 주를 이루나, [[w]]부정 34건[[/w]]이 상대적으로 많아 AI 체납자 추적 등 강경 정책에 대한 논란이 있는 상황입니다.",
+      "화성특례시": "특례시 지정 관련 124건의 보도 중 [[b]]긍정 53건으로 우호적 평가가 주류[[/b]]이며, [[w]]부정 11건[[/w]]의 AI 정책 관련 기사들도 사실 기반의 보도에 그쳐 전반적으로 긍정적 여론을 유지하고 있습니다.",
+      "향남": "산업경제 분야 95건 중심으로 123건이 보도되었으나, [[w]]부정 6건[[/w]]에서 읍·동 전환 강행 논란과 인프라 부족 우려가 제기되어 지역 내 갈등 관리가 필요합니다.",
+      "AI": "94건 중 [[b]]긍정 80건으로 압도적 호응[[/b]]을 보이고 있으며, 고액 체납자 추적 등 행정 효율화 사례로 주로 긍정 보도되고 있습니다.",
+      "분양": "88건 전량이 산업경제 분야이며 [[b]]부정 기사가 0건[[/b]]으로 부동산 분양 프로젝트들이 중립적 또는 긍정적으로만 보도되고 있습니다.",
+      "롯데캐슬": "77건의 산업경제 보도 중 향남 프로젝트가 주 관심사이나, [[w]]부정 1건[[/w]]에서 산단 악취와 군용기 소음 영향 우려가 언급되어 환경 민감도 모니터링이 필요합니다.",
+      "아크메르동탄": "68건의 분양 관련 보도가 모두 산업경제 분야이며 [[b]]부정 기사 0건[[/b]]으로 프로젝트 진행 상황이 순조로운 것으로 평가받고 있습니다.",
+      "동탄트램": "교통 인프라 69건 전량 관련 보도 중 [[b]]긍정 57건으로 높은 기대도[[/b]]를 보이나, [[w]]부정 1건[[/w]]에서 입찰 무산 등 사업 진행의 어려움이 지적되고 있습니다.",
+      "MARS2026": "63건 중 [[b]]긍정 60건으로 거의 전량이 우호적 평가[[/b]]이며 [[b]]부정 기사 0건[[/b]]으로 신산업 프로젝트로서 시장과 언론의 극도의 긍정적 관심을 받고 있습니다."
     }
   }
 }
