@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-11 10:12",
+  "updated": "2026-11-11 11:41",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 9305,
+  "count": 9322,
   "items": [
     {
       "date": "2026-08-02",
@@ -129105,6 +129105,20 @@
       "source": "K뉴스통신"
     },
     {
+      "date": "2026-11-09",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "[속보] 경기 화성시 송산면 봉가리 화재… 연기 다량 발생 중",
+      "summary": "화성시 송산면 봉가리에서 화재가 발생해 연기가 다량 발생하고 있다.",
+      "kw": [
+        "화재",
+        "송산면",
+        "봉가리"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBId3Y5aFoybWsyRjFnQUxYeTY0V0E5VTVPSFVWNlY1RWJHd1RWaWRsUW5Uckh5U0t5RTh3eXFOYXBuN1NiMVZaSjhYekl2TXZ4cGVtTzdzTnZVMENpZVh1dFZpOE9xWTBnZXFMVmNB?oc=5",
+      "source": "국제뉴스"
+    },
+    {
       "date": "2026-11-10",
       "cat": "문화관광",
       "senti": "긍정",
@@ -130825,42 +130839,266 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA5dldqY3E5RUo0MWwxd1Fqd0VtcEczZnRaSU1YZTFSQW5mMXpxVi1tMENKUmFRdzNPSFpoemtrSmFpSExXTzZFSXgzVXRYRGVmRGQ1dmxjNmNDbkpFbU9DSUV3S0xnajMzelpwXw?oc=5",
       "source": "https://www.localm.kr/"
+    },
+    {
+      "date": "2026-11-11",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "대웅제약·동탄시티병원, AI가 환자 살피고 로봇이 돕는 ‘AI 스마트병원 전시’",
+      "summary": "대웅제약과 동탄시티병원이 AI 기술을 활용한 스마트병원 모델을 전시한다.",
+      "kw": [
+        "AI",
+        "스마트병원",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80b2NZckZjOHN5b0VlMlJtZUxnd0FveUhXTVllUWpVTllhaHJyMThoNEtDYTdacVNCSC1wd1lqM1dMcU5FUFpSMG5kQk5qcVd6TW5KTFA3ejk0UQ?oc=5",
+      "source": "이투데이"
+    },
+    {
+      "date": "2026-11-11",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시의회, '향남읍 洞 전환 반대 비상대책위원회'와 간담회",
+      "summary": "화성특례시의회가 향남읍 동 전환 반대 비상대책위와 간담회를 개최한다.",
+      "kw": [
+        "향남읍",
+        "동전환",
+        "화성시의회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA4M0pqRGtFS0k5R3M0ZTBEbHFlTTJoVzgweTFHVUJnZ05OY3NjYm9kT3BaZE5jQVl6Ti1EZ0RsUUxIN3ZWX1hCR0hoMDQ2NG1NLTBWSURTRXRCR0hSV3IzSG1TVm0?oc=5",
+      "source": "매일일보"
+    },
+    {
+      "date": "2026-11-11",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "대웅제약-동탄시티병원, 통합형 'AI 스마트 병원' 모델 제시",
+      "summary": "대웅제약과 동탄시티병원이 통합형 AI 스마트병원 모델을 제시한다.",
+      "kw": [
+        "AI",
+        "스마트병원",
+        "의료"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9NN2NjcGl2cThiLU5EZjk0VWxpYk1qWTRjekdqT21lTEdvcGN0dDkyQTlaWkVEbHFEZkVFSHpLNTF2V0NmTUV3RUlvUldFSVNfLVpIQ2JvTFZSQXlvejU2ZnY3QUhFVlRuOWloT2hlR2ZCakdsZm00?oc=5",
+      "source": "약업닷컴"
+    },
+    {
+      "date": "2026-11-11",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시청소년수련관, 세계를 배우고 꿈을 디자인하다!",
+      "summary": "화성시청소년수련관이 세계 문화 학습과 꿈 설계 프로그램을 운영한다.",
+      "kw": [
+        "청소년",
+        "수련관",
+        "교육"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5vYmUxR1UwWXZYeV9MV2g0dEsxNFBkRFVzX05XRU1FSE9EalN0ZkUxemVNVHc1S1hpU3RkMkx0eG9OV0t0Ym50R2E1ZThEZEo5UFoyN3Uta3o1bVJBcGhzYk1VYVNHY2c?oc=5",
+      "source": "경인신문"
+    },
+    {
+      "date": "2026-11-11",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시의회, 향남읍 동 전환 반대 주민 의견 청취… “신중한 검토 필요”",
+      "summary": "화성특례시의회가 향남읍 동 전환 반대 주민 의견을 청취하고 신중한 검토를 촉구한다.",
+      "kw": [
+        "향남읍",
+        "동전환",
+        "주민의견"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB5RHlXU1FHeWl3S3RyZUNHM2Q2NXZqU09wWUdtVW9xZVp6aWYya0x0dmVqa0VRZHNDODU3UF9SQ3I0MGQ3Sm9uRy1YYkxBMDJGeW1uRUZiWHMyaGhSX0c0Z0Rxdms4Y2RVenc?oc=5",
+      "source": "천지일보"
+    },
+    {
+      "date": "2026-11-11",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "화성시 팔레트 제조 공장서 화재...1시간여 만에 완진",
+      "summary": "화성시 팔레트 제조 공장에서 발생한 화재가 1시간여 만에 진화되었다.",
+      "kw": [
+        "화재",
+        "공장",
+        "안전"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1neG9TTWUzN1dvRlJ3QWxhYnk0TWljSEJIcEEzZks0SmNlaURqak5OQ3lPam9YOV9fQXhkZzVuNko4N1hDUTAzZ1pjYkMxdnd4VXU0U0Q4VEgzRnJN?oc=5",
+      "source": "뉴스핌"
+    },
+    {
+      "date": "2026-11-11",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "대웅제약·동탄시티병원, MARS 2026서 ‘AI 스마트 병원’ 공개",
+      "summary": "대웅제약과 동탄시티병원이 MARS 2026에서 AI 스마트병원을 공개한다.",
+      "kw": [
+        "AI",
+        "스마트병원",
+        "전시회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Na3FEd19ibnhJRlBBcEx1Tmh1bUtmckxGRmNocHlEXzR4WXlYWTB6X0MybW1pVFZxYTVTOXNZb28wcTJ4eTFxVFRXN2Q2ZmxDLWREY0RBOEVWRXpfeWk2ODVWRlo3aFp5VXc?oc=5",
+      "source": "의학신문"
+    },
+    {
+      "date": "2026-11-11",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "화성 향남읍 동 전환 반대…주민들 생활인프라 부족 지적",
+      "summary": "화성 향남읍 동 전환 반대 주민들이 생활인프라 부족을 지적한다.",
+      "kw": [
+        "향남읍",
+        "동전환",
+        "인프라"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1DT3c1dGpoR0ZDY3E1eXNpRFAyNVpEMFZjYUU3OVVDS3F5bnFzXzk3eDJCaEdDdWFtR1ZzTWRNdWNfcVUzU0tGU2s3OVMwaGlRSE1rUFlWa2t4NXI3YktVdmNn?oc=5",
+      "source": "경인미래신문"
+    },
+    {
+      "date": "2026-11-11",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "대웅제약·동탄시티병원, AI 스마트 병원 통합 모델 공개",
+      "summary": "대웅제약과 동탄시티병원이 AI 스마트병원 통합 모델을 공개한다.",
+      "kw": [
+        "AI",
+        "스마트병원",
+        "의료"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBIeWdmcjZtaHlETTI1OWNYb1V3Y0FTT0xiYldEQmlyQXl2em9YcjBRSndBWHdPUWRfb0hmc3VDbWRodGhzMEFaSUFHWUVORkgtZGQtWkVpZlFRNTh6YXBhNXY2dkVLUklkbU9PRG5ybXdCdw?oc=5",
+      "source": "메디코파마"
+    },
+    {
+      "date": "2026-11-11",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "8년 만에 실신 원인 찾은 환자, 동탄성심병원에 1000만원 기부",
+      "summary": "8년 만에 실신 원인을 찾은 환자가 동탄성심병원에 1000만원을 기부했다.",
+      "kw": [
+        "기부",
+        "동탄성심병원",
+        "의료서비스"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9LalZyYXo2WVlFSG14NFJMQ3htcFFTWXdXbGxDUDhxejVXM1pMODMxUFprUUJ2T2xVSWo3LWtfVUdEcE01Mkc4aENGOEZua3BpX2UybElZS252MXlXSEh5Z0R2YzluUEVXSjlmWGRoLTHSAXRBVV95cUxQMUlRZDEyUjhsVTJhTmszcnpvWnlIc3NPR3BaeVBQRXR1clFFdzlTUlNpcUtlMHIxMktKdnNmQVcwUEdINmtlNE0wbmcyamIwR3VNSFVuT2YtVFFzUmtBMFh1VUhJdFFBdkdoVHRNUlBoZTRBbQ?oc=5",
+      "source": "주간한국"
+    },
+    {
+      "date": "2026-11-11",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "대웅제약·동탄시티병원, MARS 2026서 현실이 된 'AI 스마트 병원' 공개",
+      "summary": "대웅제약과 동탄시티병원이 MARS 2026에서 AI 스마트 병원을 공개한다.",
+      "kw": [
+        "AI",
+        "스마트병원",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9aSDg4N2dQcFAtZ0ZnZFFfMHJrak9MZ1RVNjRHUnVqblltMTNpSXd4cEktTDZTN1dkR29RdEtabjVRNUVMWU5aZExVWUlxV1ZmTWJsMXlRWkZPTHBWQTR3NC12Yng?oc=5",
+      "source": "베타뉴스"
+    },
+    {
+      "date": "2026-11-11",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "이계철 의장 “동 전환 추진에 따른 주민 우려 청취 및 화성시에 의견 전달”",
+      "summary": "이계철 의장이 동 전환 추진에 따른 주민 우려를 청취하여 의견을 전달했다.",
+      "kw": [
+        "동전환",
+        "주민의견",
+        "의장"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1qUEZ0SnlkQzIyZjlkb2VQVkZkRV9ocFhGTXpxNFBSQVBXdkRkOTd4SDRjdEROQWRHTEdtRVllY0lZdktHbUJKX0tCM0dlR0ZpUk9RNVFXVndsRDlZeVV6MllhMVowUkFSWmtN?oc=5",
+      "source": "서울뉴스통신"
+    },
+    {
+      "date": "2026-11-11",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "화성시, '시립화성 실버드림센터' 입소자 모집",
+      "summary": "화성시가 시립화성 실버드림센터 입소자를 모집한다.",
+      "kw": [
+        "실버센터",
+        "입소자",
+        "복지시설"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNQlJVa1ZyaE5DMU42Z0VKNngxTy02SnRJaTRDdlpEb21HN2JwUEF3c1Zab1lLYWFFLVBSYXg4SG1mZFZENk1ZbUV2R2NucnpVLWNqWjFYc0IwUk9ReWQ2ZHVUWXFaOWZYX3gwRmZwbFRJVWd0VHBtRkgxV25nSThCM0lYTGVQMGpnQTB6UkNNVndjbDV4aDZBd1hTejBtZVpJTW1ZOFNTMUk0ZFVPYUpzNlhQaXN0VzFxeUM2TDBoMFdpbE5RRzZ1M2RkNTBGU05pVWpDQlRfdzBoVW9jVzI0SmFfMThlb0pVRlNhRFJ3Z2UzRm1lRHRXemdCU3BqSk5SNTJad0dCT3hWMl96TTRId2VpTkt6clRnODZoRkJORkNwdw?oc=5",
+      "source": "데일리안"
+    },
+    {
+      "date": "2026-11-11",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "대웅제약·동탄시티병원, MARS 2026서 AI 스마트 병원 모델 공개",
+      "summary": "대웅제약과 동탄시티병원이 MARS 2026에서 AI 스마트 병원 모델을 공개한다.",
+      "kw": [
+        "AI",
+        "병원",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQWGFwckotbi1rY3dEZnVQRUk5Vy03YmRNYnhOaTB3ck1DdVA4RWdtYkRZcTdnQ2w1bDc4eDJaWkFFX0tmTXpjVUlHSkpIU2lSTzN3am02eTFDdFBvYVhlZTd1eE9LdVo2Q0hHeWJWUnp1Zw?oc=5",
+      "source": "스페셜타임스"
+    },
+    {
+      "date": "2026-11-11",
+      "cat": "산업경제",
+      "senti": "부정",
+      "title": "[사설] 오산-화성 물류센터 갈등, 道가 제시할 해법은",
+      "summary": "오산-화성 물류센터 갈등에 대해 도가 해법을 제시해야 한다는 지적이 제기되었다.",
+      "kw": [
+        "물류센터",
+        "갈등",
+        "해법"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBiUTdub2ZXX1NkaGd2Mlh1d0hBM19Pb0NRS2ZLMlc2NDFtcUpybmE5cHVDRWdBVzZmbGM3WnA0SnY4dmstWHdfQXRZOVdFNXFvVV9TcnAza0gteTQ?oc=5",
+      "source": "경기일보"
+    },
+    {
+      "date": "2026-11-11",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "경기국제공항 사업, “국가계획 반영도 불투명한데 홍보비만 펑펑”…화성시민 우려 커져",
+      "summary": "경기국제공항 사업이 국가계획 반영이 불투명한데 홍보비만 지출된다는 화성시민 우려가 커지고 있다.",
+      "kw": [
+        "경기국제공항",
+        "투명성",
+        "시민우려"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9vcmZ6MFRZRW5mMUNpcm5FbXQ0dnktYkh0eURZNWpoWGY4R0w4eHdUYXo1UnRxQ3VqOGlHbmJVVWwtMG5EMUpRdGIxRXg1WDdFcDQ2N21kOE9TcFZlZ01paUZ3?oc=5",
+      "source": "경기뉴스광장"
     }
   ],
   "dropped": {
-    "count": 42,
+    "count": 39,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
       "남양유업 백미당, 대한항공 기내식 입성…한앤코 '코로나 우군' 인연 재조명",
       "용인시, 178㎞ 규모 3개 철도망 국가계획 반영 총력…시민 참여 독려",
-      "남양유업 소용량 ‘슈퍼제로 락토프리’ 180㎖ 출시 : Packnet",
+      "남양유업 백미당, 겨울 딸기 시즌 맞아 신제품 7종 출시",
       "이상일 용인시장 “철도 3개 노선 반영에 시민 힘 모아달라”",
+      "남양유업 소용량 ‘슈퍼제로 락토프리’ 180㎖ 출시 : Packnet",
       "용인시, 철도망 구축 설문조사 참여 독려...경강선 연장 등 3개 사업 추진",
       "이상일의 용인 철도 구상…수지는 잠실로, 두 반도체산단은 한 노선으로",
       "포토뉴스",
-      "화성시인재육성재단, ‘2027 다가치 화성탐사대’ 체험처 공개모집",
-      "\"미래 의료가 현실로\"… 대웅 얼라이언스 13개사 기술 결합한 AI 병원 선보여",
       "[현장] \"시민 안전이 최우선\" |",
       "[화보] 수능 D-10...간절한 합장",
       "콩 속 난소화성 성분 분해…남양유업, 단백질 13g 두유 2종 출시",
+      "화성시인재육성재단, ‘2027 다가치 화성탐사대’ 체험처 공개모집",
       "용인시, 3개 철도사업 국가철도망 반영…설문 참여 당부",
-      "'국물은 덜 짜게, 두유는 덜 달게'…풀무원·남양유업, 웰니스 공략",
-      "“AI로 환자 관리부터 재활까지”…대웅제약, MARS 2026서 AI 스마트 병원 선봬",
-      "남양유업, 소화 편의성 높인 '편안한 두유' 출시",
       "남양유업, '편안한 두유' 2종 출시…소화 편의성 증대",
+      "대웅제약, ‘AI 스마트 병원’ 공개…디지털 헬스케어 통합 모델 제시",
       "50억 들인 신축건물 무더기 하자에 소송전",
+      "“속 편하게 영양 챙기자”···남양유업, ‘편안한 두유’ 2종 출시",
+      "\"미래 의료가 현실로\"… 대웅 얼라이언스 13개사 기술 결합한 AI 병원 선보여",
       "가공두유 판매 5000억 돌파…고단백·저당 '2라운드' 열렸다",
-      "“속 편하게 영양 챙기자”···남양유업, ‘편안한 두유’ 2종 출시"
+      "“AI로 환자 관리부터 재활까지”…대웅제약, MARS 2026서 AI 스마트 병원 선봬"
     ]
   },
   "briefs": {
-    "all": "전체 기간 동안 부정 보도는 행정(280건)에 집중되었으며, 2위 안전(237건)과의 격차가 크습니다. [[b]]2026-11-04일에 41건이 몰렸는데 대부분 행정 관련[[/b]]이므로 해당 날짜의 주요 이슈를 먼저 검토하시기 바랍니다.",
-    "7": "[[b]]최근 7일 부정비율이 12%로 상승[[/b]]했으며, 안전(25건)이 행정(21건)을 앞지른 점이 눈에 띕니다. [[w]]11월 9일 23건(안전 16건)[[/w]]에 안전 관련 보도가 집중되었으니 먼저 확인하세요.",
-    "30": "최근 30일 부정 보도는 행정 분야에 크게 몰려 있으며(151건), 2·3위인 안전(44건), 교통(24건)과 비교하면 편중이 심합니다. [[b]]11월 4일의 행정 관련 이슈[[/b]]를 우선 검토하시기 바랍니다."
+    "all": "전체 기간 10,348건 중 [[w]]부정 기사 696건(7%)[[/w]]이 수집되었으며, 행정 분야에 부정 보도가 집중되어 있습니다. [[b]]11월 4일에 41건이 몰렸던 점[[/b]]을 먼저 확인해 보시기 바랍니다.",
+    "7": "지난 7일간 부정 보도가 [[w]]72건(13%)[[/w]]으로 급증했으며, 안전 분야 26건과 행정 23건으로 두 분야에 고르게 분산되어 있습니다. [[b]]11월 9일 24건 중 안전이 17건을 차지[[/b]]했으므로 해당 보도들을 먼저 검토하시기 바랍니다.",
+    "30": "최근 30일 동안 [[w]]266건(7%)[[/w]]의 부정 보도가 발생했는데, 행정 분야 153건으로 전체의 절반 이상을 차지하고 있습니다. [[b]]11월 4일의 41건 보도[[/b]]가 해당 기간 최대 규모이므로 우선 확인이 필요합니다."
   },
-  "briefs_updated": "2026-11-11 10:12",
+  "briefs_updated": "2026-11-11 11:40",
   "issues": {
-    "updated": "2026-11-11 10:12",
+    "updated": "2026-11-11 11:40",
     "items": [
       {
         "label": "화성 향남읍 동 전환 놓고 주민 반발…“생활 인프라부터 확충해야”",
@@ -130873,6 +131111,18 @@
           "화성 향남읍 ‘동 전환’ 시의회까지 반발",
           "화성특례시 향남읍, ‘동 전환’ 갈등 격화! 주민 등 반발 집회",
           "화성 향남읍 동 전환 놓고 주민 반발…“생활 인프라부터 확충해야”"
+        ]
+      },
+      {
+        "label": "화성 향남읍 동 전환 반대…주민들 생활인프라 부족 지적",
+        "count": 2,
+        "sources": 2,
+        "first": "2026-10-27",
+        "last": "2026-11-11",
+        "cat": "행정",
+        "titles": [
+          "화성시 향남읍 주민들 \"동 전환 반대, 인프라가 먼저\"",
+          "화성 향남읍 동 전환 반대…주민들 생활인프라 부족 지적"
         ]
       },
       {
@@ -130951,24 +131201,11 @@
           "공무원노조 화성시지부, 정보공개 청구 악용 규탄 기자회견",
           "화성시공무원 노조, 2,100여 건 민원 폭탄에 행정 마비! 괴롭힘 목적 정보공개 청구 즉각 중단하라!"
         ]
-      },
-      {
-        "label": "오산시의회, 화성시 정남면 덕절리 물류센터 관련 교통대책 마련 촉구",
-        "count": 3,
-        "sources": 3,
-        "first": "2026-11-05",
-        "last": "2026-11-05",
-        "cat": "교통",
-        "titles": [
-          "오산시의회, 화성 덕절리 물류센터 교통협의체 구성 촉구",
-          "오산시의회, 화성시 정남면 대형 물류센터 신축에 “선제적 교통대책 마련하라” 촉구",
-          "오산시의회, 화성시 정남면 덕절리 물류센터 관련 교통대책 마련 촉구"
-        ]
       }
     ]
   },
   "today": {
-    "updated": "2026-11-11 10:12",
+    "updated": "2026-11-11 11:41",
     "items": [
       {
         "label": "[안전상황실·10일] 경부고속도 동탄터널 5중 추돌 … 33명 '부상'",
@@ -131027,12 +131264,12 @@
     "surge": [
       {
         "cat": "안전",
-        "recent": 22,
+        "recent": 23,
         "days": 3,
         "base": 6,
         "base_days": 12,
         "base_daily": 0.5,
-        "ratio": 14.7
+        "ratio": 15.3
       }
     ]
   },
@@ -131058,19 +131295,19 @@
     "note": "팀원 다섯 명이 기사 100건을 나눠 검수한 결과. 겹친 구간에서 한 사람이라도 「틀림」이라 했으면 틀린 것으로 셌다. 너그럽게 세면 분야 95%·긍부정 87%가 된다."
   },
   "keyword_notes": {
-    "updated": "2026-11-11 10:12",
+    "updated": "2026-11-11 11:41",
     "window": "최근 30일",
     "items": {
-      "동탄": "351건의 압도적 기사량 중 [[b]]긍정 139건(39.6%)[[/b]]으로 호의적 보도가 주를 이루나, [[w]]부정 14건[[/w]]에서 물류센터 갈등과 부동산 투기 우려 등이 지적되고 있어 산업경제 분야의 부작용 관리가 필요합니다.",
-      "화성시": "행정 중심(106건)의 204건 보도 중 [[w]]부정 기사 25건[[/w]]이 부정 비율 12.3%로 비교적 높으며, 제시된 사례들이 실제로는 긍정적 행정 뉴스임을 고려하면 기사 분류 검토가 요구됩니다.",
-      "향남": "124건 중 [[b]]긍정 52건(41.9%)[[/b]]으로 호평이 많으나 [[w]]부정 5건[[/w]]에서 불법업소, 옹벽 안전, 분양단지 환경 이슈 등 생활밀착형 민원이 제기되고 있습니다.",
-      "화성특례시": "행정 분야 중심(76건)의 94건 보도에서 [[b]]긍정 47건(50%)[[/b]]으로 특례시 지위의 긍정적 평가가 이루어지고 있으며, [[w]]부정 7건(7.4%)[[/w]]은 미미한 수준입니다.",
-      "AI": "92건 전량이 긍정 보도(82건, 89.1%)로 [[b]]부정 기사가 전혀 없어[[/b]] 산업경제 분야에서 첨단기술 관련 뉴스 가치가 높게 평가되고 있습니다.",
-      "분양": "88건 전체가 산업경제 분야이며 [[b]]부정 기사 0건[[/b]]으로 분양 소식이 순수하게 긍정적으로만 보도되고 있는 특징을 보입니다.",
-      "롯데캐슬": "78건 중 [[b]]긍정 33건(42.3%)[[/b]]으로 분양 뉴스 주도이며, [[w]]부정은 단 1건[[/w]]에 불과하지만 산단 악취와 군용기 소음 영향권 지적이 구매자 관심사임을 주목할 필요가 있습니다.",
-      "아크메르동탄": "73건의 산업경제 분양 뉴스 중 [[b]]부정 기사가 0건[[/b]]으로, 신규 분양 프로젝트가 미디어에서 순긍정적으로 다루어지고 있습니다.",
-      "동탄트램": "교통 분야 66건 전량이 [[b]]긍정 56건(84.8%)[[/b]]으로 대중교통 인프라 사업이 극도로 호평받고 있으며, [[b]]부정 기사가 전무[[/b]]합니다.",
-      "MARS2026": "64건 중 [[b]]긍정 61건(95.3%)[[/b]]으로 거의 전량이 긍정 보도이며, [[b]]부정 기사가 0건[[/b]]으로 주요 전략사업이 언론에서 일관되게 우호적으로 평가받고 있습니다."
+      "동탄": "동탄은 354건의 기사 중 140건이 긍정적이며 산업경제 분야에서 압도적으로 다뤄지고 있으나, [[w]]부정 기사 14건[[/w]]에서 부동산 규제 회피와 물류시설 갈등 등이 지속적으로 제기되고 있어 주의 필요합니다.",
+      "화성시": "화성시 관련 204건 기사 중 [[w]]부정 25건[[/w]]이 적지 않은 수준이며, 제시된 부정 기사들이 실제로는 행정 역량 강화 내용임을 감안할 때 보도 표현의 객관성 검토가 필요합니다.",
+      "향남": "향남은 124건 기사 중 긍정 52건으로 호평받고 있으나, [[w]]부정 기사[[/w]]에서 불법업소, 안전시설, 환경·소음 문제 등이 반복 지적되고 있으므로 지역 현안 해결이 중요합니다.",
+      "AI": "[[b]]부정 기사가 전혀 없으며 86건의 긍정 기사[[/b]]로 98건 중 대부분이 호의적인데, 이는 화성시의 AI 산업경제 추진이 언론에서 긍정적으로 평가받고 있음을 의미합니다.",
+      "화성특례시": "특례시 지정 관련 94건 기사 중 47건이 긍정적으로 보도되고 있으나, [[w]]부정 7건[[/w]]의 대부분이 행정업무 관련으로 정책 소통 개선의 여지가 있습니다.",
+      "분양": "분양 관련 88건 기사 모두 부정 사례가 없으며 33건이 긍정적이라는 점에서 화성시의 주택공급 사업이 시장에서 긍정적 반응을 얻고 있음을 보여줍니다.",
+      "롯데캐슬": "78건 기사 중 33건이 긍정적이나 [[w]]1건의 부정 기사[[/w]]에서 산단 악취와 군용기 소음 영향을 언급하고 있으므로 입주자 환경 민원 대응이 필요합니다.",
+      "아크메르동탄": "아크메르동탄은 73건 모두 부정 사례가 없으며 24건이 긍정 보도되어, 신규 주택 프로젝트가 시장과 언론에서 호의적으로 주목받고 있습니다.",
+      "동탄트램": "[[b]]동탄트램은 66건 기사 전부가 교통 분야에만 집중되었고 부정 기사가 없으며 56건이 긍정[[/b]]이어서, 시의 대표적 교통 인프라 사업이 높은 관심과 지지를 받고 있습니다.",
+      "MARS2026": "[[b]]MARS2026은 64건 기사 중 61건이 긍정적이고 부정이 전혀 없는 상황[[/b]]으로, 화성시의 주요 산업 프로젝트가 매우 우호적인 언론 평가를 받고 있습니다."
     }
   }
 }
