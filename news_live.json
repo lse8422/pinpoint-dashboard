@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-13 10:45",
+  "updated": "2026-11-13 12:20",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 9625,
+  "count": 9644,
   "items": [
     {
       "date": "2026-08-02",
@@ -134798,6 +134798,63 @@
       "source": "한국사회복지저널"
     },
     {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "동탄",
+        "다음은",
+        "용인"
+      ],
+      "conf": "low",
+      "date": "2026-11-12",
+      "title": "“동탄 다음은 용인 처인구?”… ‘반세권’ 무게중심 옮겨가나",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBlc1hGSHBsWTFCZUxqT2paaTBuenphV1JzYm9EQVRFUU9fbTNFYWhYU004UVJzVjZaRjVxRlZLVzI1eE1MMzFZUjhKVlowUQ?oc=5",
+      "source": "www.dt.co.kr"
+    },
+    {
+      "cat": "복지",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "생체신호",
+        "데이터로",
+        "연결한"
+      ],
+      "date": "2026-11-12",
+      "title": "생체신호 데이터로 연결한 병동·검사·재활…대웅제약·동탄시티병원, 통합형 'AI 스마트 병원' 실증 모델 공개",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JXzNuOHlhZXp2Sl9RdE50ZWVSTWJWN2piZXFBTTgwNnpMWXVTZUU3TnRfZEpPcEF5Ynh0cWo3Y3VJRWpaa2U2SU1UcHlhQk1RQ1RUZ1lHMGdrWnM1MkJxWDdaX2xUbjRsMWdCRl9odl_SAXRBVV95cUxOeTJtQjU0VXdRbURMZWdmV3pod3NxNmtFd2ZUS25WdGJITUtOUXFPZkVoR2lma1dRX20zbmNnMEdHcGtZOTVxMTNmeDFIVGhxM0VLQWs1U0h5ZjdLdjFjRHNjMGZBdmZlVzR4YUdYNTgzb2trbQ?oc=5",
+      "source": "한국데이터경제신문"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "HLB",
+        "제약사업",
+        "허브"
+      ],
+      "date": "2026-11-12",
+      "title": "HLB 제약사업 허브 향남 신공장…10대 제약사 도약 '시동'",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9uSXh1X3FrYUdoMnd4NWdtSFRWX2ttTzA4bU83VWVCLTZkU0xNQVFWX3RLQmhxV0trdUp4cWhyemt4c2lKR3pmY3pkSzVpQ25FMGJhdGZORWhZWWlqaXF4YnNEN3R6OURK?oc=5",
+      "source": "www.ebn.co.kr"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시문화관광재단",
+        "가족뮤지컬",
+        "매직"
+      ],
+      "date": "2026-11-12",
+      "title": "화성시문화관광재단, 가족뮤지컬 매직 판타지아 도로시 리턴즈 성료",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAxWjJsLWFuWU9UYmNNNnZqN1FJd2xDcHBiWnF4cExiTUYzT2RRNk8zUkllcVhKemFsd1NHZXpUWVdRNmttU1c4dDZlb3Q?oc=5",
+      "source": "모닝투데이"
+    },
+    {
       "cat": "문화관광",
       "senti": "긍정",
       "summary": "",
@@ -135339,35 +135396,248 @@
       "title": "‘등굣길은 안전하게, 마스와는 달콤하게’ 화성FC, 교통안전 캠페인 진행",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1qSEotRHdkeTJOaXE3c0FlVzBDbW1GNXoyN1QwS1RndGdsMTF2UGo2TjVmZ1otYWctYmdaQXRlRUNuWTF0WG80TWQzVGxyQXdwTHJabWdLSWtWOHFqVDBmVndxRDMzd0FW?oc=5",
       "source": "경기시사투데이"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "착한가격업소",
+        "130개로"
+      ],
+      "conf": "low",
+      "date": "2026-11-13",
+      "title": "화성시, 착한가격업소 130개로 확대..1년여 만에 32곳 늘어",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAzSHd5MWlrYVJYVkpWN0ZnNERUWWlYNmJsUVhnZGJqYjdQYmI3RkR5eWlmTnlXYmh3cmdUWDlScE9HMXVKZG9lZlYxU1BUMjF0MThFdjl0Zl9uRWE4Vl9hdldUdFJxNnVQ?oc=5",
+      "source": "일간경기"
+    },
+    {
+      "cat": "복지",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "동탄구보건소",
+        "치매환자"
+      ],
+      "date": "2026-11-13",
+      "title": "화성시 동탄구보건소, 치매환자·가족 ‘힐링 나들이’ 운영",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE92WVM5X2kyT1BWRUtmRnl1b1FTMzBhWE5BZzRVVlFQNi1xbUlvY21IeF9oVnd4enZQRkZRR2tGUnFGcTJQSUdSM2JFalZLMklFMF9VNlpGNWM3UjF6dlBPZGZB?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시문화관광재단",
+        "서울옥션과",
+        "함께"
+      ],
+      "date": "2026-11-13",
+      "title": "화성시문화관광재단, 서울옥션과 함께 ‘제로베이스X화성’ 하반기 프로젝트 개최",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1JSWVXTW9CdDZQQWJKU3Z5QXNXNjk1ME4zajZaZHRyaVB1cEhmaVNjYjNpTjc0dk8wTWdLd04wUHV5YjFYREpYXzhBUlhweUhxX0I5aXV4aXFJYl8xTzQ5VkdFVWtWZw?oc=5",
+      "source": "화성저널"
+    },
+    {
+      "cat": "복지",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "우리",
+        "복지관은",
+        "지금"
+      ],
+      "date": "2026-11-13",
+      "title": "[우리 복지관은 지금] 21. 화성시정조효노인복지관",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5CalZZaVJZTzdMck9ZY2xNb3dFSXZrbVRhYmxmQlhtLWdYTGd5Q2dzV3g4YWs0MEtVU19NbENFbGNPb29hTnpNcmk1Y1phenIyc1Y0UDhVMUhmdnBjQTN4Sko5N3V2UVdhbXNnNEJvZw?oc=5",
+      "source": "현대불교"
+    },
+    {
+      "cat": "복지",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "만세구보건소",
+        "정신건강"
+      ],
+      "date": "2026-11-13",
+      "title": "화성시 만세구보건소, ‘정신건강 위기대응·지원에 관한 협의체’ 개최",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9uMjlBV1RuZDF0Y3ZoOGtTRExvM0ZzRHRiTUNXQjM2eVdqU1E4LXJQdjdHdVpSN19FN01tcGxFWmcwQ1pLaktTZUl1WTZxMnNJZmYxYzdwbDdMdTc0WGZVajB3?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성동탄중앙도서관",
+        "개관",
+        "1주년"
+      ],
+      "date": "2026-11-13",
+      "title": "화성동탄중앙도서관, 개관 1주년 문화공연 개최",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9uZmp3b0QwMHFOVUdaMUFZcE1jeDF5NjF4X3JpMXMySDFYZFIyWmNjMXM4N2xFbDhpUC1PQ1FpUHBreGdha0NsbXRmR2E3Vm1CUWtDWGZHSG9jWHZmNlBERnhB?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "2026년",
+        "제3회"
+      ],
+      "date": "2026-11-13",
+      "title": "화성시, ‘2026년 제3회 H-스타트업 창업경진대회’ 개최",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFByWHBHcmhGUFZ0ckxNelFJNUczWGloQlRaczRVTXZlQTY1Nnp1Y1BxNXhNWFo3QklGZVdUSjFKVk9oS2tfQXRxajRIcF9OS0VONnMwczc2YjFBTXNUS1REcHJB?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "김장김치",
+        "체험"
+      ],
+      "date": "2026-11-13",
+      "title": "화성시, ‘김장김치 체험·나눔행사’ 성료",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8xMzNpRVhvOWROYndqWS1hQ1FyTWtVd2JqU2Vjd1ZwSU5UYWFSclFoZGJOa2pScVFtZTlkd2s0UGhpRW5CVnNjaUtRUWFXRnZwb3FYeHlXOGJIbmtnZGkzTG9n?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "cat": "문화관광",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시문화관광재단",
+        "서울옥션",
+        "지역"
+      ],
+      "date": "2026-11-13",
+      "title": "화성시문화관광재단·서울옥션, 지역 시각예술인 작품 경매전 개최",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1IWjRHSlVuVWNDQXE0bDJnUFNwVmYyWExhMC1GNVNuT0o0LWFESVlLcEZOSUFuemVaQld0WUd5ZGRpTHQxeXVZT29OQQ?oc=5",
+      "source": "아이뉴스24"
+    },
+    {
+      "cat": "복지",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "만세구",
+        "긴급복지지원"
+      ],
+      "date": "2026-11-13",
+      "title": "화성시 만세구, ‘긴급복지지원 우수사례 공모전’ 장려상 수상",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1Qc1RqWE56a3l0dVVWaUdrcW0yOXRvVXBQUVRQOEJ0TTk2eGIzd1JOMTNrRkNuVGNNZkJ5aFJCbFNwSDI1X0JJSWV2bnFBaTkyUjUteDBrTjJXZWxiT2RKekRn?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "착한가격업소",
+        "증가율"
+      ],
+      "conf": "low",
+      "date": "2026-11-13",
+      "title": "화성시 착한가격업소 증가율 32.7%, 경기도 시군 중 1위…연말까지 5% 캐시백",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5MSC1haVhseHpGcDdoQ2pRTU5zc205TnNPOGNka1hReXFLM3BRRm9yR0ZYTHk3R1lUbDZhbm00cTY3cDFxMmRTcHA3OEUzT0JpVzJJ?oc=5",
+      "source": "서울신문"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "2026",
+        "제2회"
+      ],
+      "date": "2026-11-13",
+      "title": "화성시, '2026 제2회 화성특례시 공공디자인 공모전' 수상작 선정",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOLXpkMEdQc0dRWFlmazMzcy0zX2U4QmxzM0FUYzdRcmtuMlh2ZVUzR0MzY21BOU85X19wcWExVEh6RE1ocndXRWFYQVVuUGI0c2pVam5vdUJ2aHh4NFFScWU5T0FBQVR1cS1sbFQwVjVrWXlrX0hxZ3ROWmZRSnFGQlJnWTV5dzZDWWJiVjFrOHJmRl9SU2I2WWQxYU1kQktWdU9iMUcwUTZ1NVhkaVFBeTF3eHhCSDZMOEtUdmh1c2hQWmc4U042V0J5SnpuYV9jZ2dBdkJpb2ZLSnA5S3FWaEMtTWZfeTk1alBJUER3?oc=5",
+      "source": "데일리안"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "화성시",
+        "착한가격업소",
+        "130개소"
+      ],
+      "conf": "low",
+      "date": "2026-11-13",
+      "title": "화성시, 착한가격업소 130개소 확대·지역화폐 결제 시 5% 캐시백 제공",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1zNDJXWnYtSERJVzVyUE9KTUtuQkxyY01yLTItVEMxVWlJZmplMGVwUTdBc2xTNzZnSC0wenBJSm1iQXV1SWFYb1BINGpqaFZYaUZyYjFnZlh3bGJtNm54akVmSTJkdWdqYk5B?oc=5",
+      "source": "한국사회복지저널"
+    },
+    {
+      "cat": "환경",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성시의회",
+        "지역순환경제",
+        "연구회"
+      ],
+      "date": "2026-11-13",
+      "title": "화성시의회 '지역순환경제 연구회' 농가 소득 증진 용역보고",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1FMnlnN1pza0NSektWYzMyWFBYZkd2Z3Q1azBGZkwwcmZJVGItOG44NnYtZ2JmNDNKdGJnQm1kRXdfelpPVmRVUHBDOVZCSjZtV0tkTDl3cTFIblNYTDJtMDRQUFFSUmxkNk5uekJR?oc=5",
+      "source": "OBS경인TV"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "화성특례시",
+        "부천시",
+        "자매결연"
+      ],
+      "date": "2026-11-13",
+      "title": "화성특례시-부천시, 자매결연 30주년 핑퐁 교류… “함께 성장하는 동반자”",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE56cUZpbGFwcmxqT3FabFB4MThVZG83VFkwM0xsLXFNa3FHcHcxMThnMFdLbVFMd0V3MUFVTHc3QnlPYjI2XzdHbkJkdkRSNnEwWEtSTFJ6MDY5bEhfQnFqVWZleTBYV0Q3Z0g5MGdnVzdJSEZw?oc=5",
+      "source": "대한경제"
     }
   ],
   "dropped": {
-    "count": 51,
+    "count": 49,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
       "남양유업, 이번엔 '딸기'다…단백질 음료부터 디저트까지",
       "경기 비규제지역 12곳도 집값 동반 상승...물가 상승률의 1.3배",
+      "\"단백질 음료도 디저트도 딸기로 가득\" 남양유업, 겨울 제품군 확대",
+      "\"단백질부터 디저트까지\"…남양유업, 딸기로 겨울맛 공략",
+      "남양유업, 딸기 활용 단백질 음료·아이스크림 유통망 확대",
       "남양유업, 겨울 딸기 시장 공략…단백질 음료부터 아이스크림까지",
       "[똑똑한한끼] 농심, 하이트진로, 동아오츠카, 오뚜기, 올가홀푸드, 남양유업, 대상웰라이프, 롯데웰푸드",
-      "남양유업, 딸기 활용 단백질 음료·아이스크림 유통망 확대",
+      "남양유업, ‘테이크핏’ 딸기맛 판매 확대…백미당 겨울 신제품 7종 출시",
       "단백질 음료부터 디저트까지…남양유업 “딸기로 겨울 달군다”",
       "남양유업, 딸기 제품 확대…단백질 음료부터 디저트까지",
-      "남양유업, ‘테이크핏’ 딸기맛 판매 확대…백미당 겨울 신제품 7종 출시",
-      "\"단백질 음료도 디저트도 딸기로 가득\" 남양유업, 겨울 제품군 확대",
-      "남양유업, 테이크핏·백미당에 딸기 적용…단백질 음료부터 디저트까지 7종 선보여",
-      "\"단백질부터 디저트까지\"…남양유업, 딸기로 겨울맛 공략",
       "남양유업, 협력사 상생 노력 인정…동반성장지수 4년 연속 우수",
-      "[포토] 마지막까지 열공",
+      "겨울 대목은 역시 '딸기'... 남양유업, 헬시플레저·프리미엄 디저트 '쌍끌이'",
+      "남양유업, 테이크핏·백미당에 딸기 적용…단백질 음료부터 디저트까지 7종 선보여",
       "강남3구 외에도…KB부동산 \"서울 8개구 아파트값 상승폭 축소\" |",
       "남양유업, 단백질음료·디저트 등 '딸기'로 겨울 입맛 공략",
-      "[오늘의 유업] 매일유업·남양유업·연세유업",
       "남양유업, 동반성장지수 4년 연속 '우수' 등급 획득",
-      "남양유업, 동반성장지수 4년 연속 '우수'…청소년 체육활동 지원",
-      "“수능 중 진도 4 이상이면 시험 일시 중단”…정부, 1312곳 안전점검",
-      "남양유업, 동반성장지수 4년 연속 '우수'…공정거래 체계 강화"
+      "[포토] 마지막까지 열공",
+      "[오늘의 유업] 매일유업·남양유업·연세유업",
+      "[2026 동반성장평가] 남양유업, 동반성장지수 4년 연속 '우수'",
+      "남양유업, 동반성장지수 4년 연속 '우수'…청소년 체육활동 지원"
     ]
   },
-  "low_confidence": 34,
+  "low_confidence": 4,
   "briefs": {
     "all": "전체 기간 [[w]]부정기사 703건(7%)[[/w]] 중 행정이 285건으로 절대 다수를 차지하고 있으며, 안전 240건이 뒤를 따릅니다. [[b]]2026-11-04에 41건이 집중[[/b]]되었으므로 해당 날짜의 행정 관련 보도를 먼저 검토하시기 바랍니다.",
     "7": "최근 7일간 [[w]]부정기사 60건(10%)[[/w]]으로 기간별 비율이 가장 높으며, 특히 [[b]]안전 분야(28건)가 행정(20건)을 앞질렀습니다[[/b]]. 2026-11-09의 안전 관련 17건을 우선 확인이 필요합니다.",
@@ -135375,7 +135645,7 @@
   },
   "briefs_updated": "2026-11-12 12:44",
   "issues": {
-    "updated": "2026-11-13 10:45",
+    "updated": "2026-11-13 12:20",
     "items": [
       {
         "label": "화성 향남읍 동 전환 놓고 주민 반발…“생활 인프라부터 확충해야”",
@@ -135464,7 +135734,7 @@
     ]
   },
   "today": {
-    "updated": "2026-11-13 10:45",
+    "updated": "2026-11-13 12:20",
     "items": [
       {
         "label": "[안전상황실·10일] 경부고속도 동탄터널 5중 추돌 … 33명 '부상'",
