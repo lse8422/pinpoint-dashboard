@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-15 09:58",
+  "updated": "2026-11-15 11:31",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 9772,
+  "count": 9786,
   "items": [
     {
       "date": "2026-08-02",
@@ -136871,6 +136871,132 @@
       "source": "창업일보"
     },
     {
+      "date": "2026-11-13",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "화성시, 발안2파출소 신설 및 남양파출소 지구대 승격 확정",
+      "summary": "화성시가 발안2파출소 신설과 남양파출소 지구대 승격을 확정했다.",
+      "kw": [
+        "파출소신설",
+        "지구대승격",
+        "경찰인프라"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1YWWlUZm1vTnFHNFJZajRUTk4zQVJrZU0wdGhvWVoyVVRLZGpfS2dFdUFkWmJLeVBFQUFDQVhld2YxQkwxdlRLOVNXZnctWXpsTzluMExBZnAzSjE3?oc=5",
+      "source": "피디언뉴스"
+    },
+    {
+      "date": "2026-11-13",
+      "cat": "환경",
+      "senti": "긍정",
+      "title": "화성특례시, ‘2026 공공디자인 공모전’ 수상작 선정... 공사장 가림막 디자인에 활용",
+      "summary": "화성특례시가 2026 공공디자인 공모전 수상작을 선정하여 공사장 가림막에 활용할 예정이다.",
+      "kw": [
+        "공공디자인",
+        "공모전",
+        "가림막"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA2TG9ZU0RpUkRxV0VoODBYbUFEdXppeHV1b045M2Zxb1N4TVBUQVJNb3pkeFN2N3kzd0pNY0lTR0FPOFRuODRUV0RiQ3N4c0k5ejdYUUNJTzJLSWtKN0cxZ2hvV25Pd2U4SGJHaUQ3RdIBb0FVX3lxTFA2TG9ZU0RpUkRxV0VoODBYbUFEdXppeHV1b045M2Zxb1N4TVBUQVJNb3pkeFN2N3kzd0pNY0lTR0FPOFRuODRUV0RiQ3N4c0k5ejdYUUNJTzJLSWtKN0cxZ2hvV25Pd2U4SGJHaUQ3RQ?oc=5",
+      "source": "시민일보"
+    },
+    {
+      "date": "2026-11-13",
+      "cat": "환경",
+      "senti": "긍정",
+      "title": "시민과 손잡은 화성시, 폐전지 수거 전국 1등 장관상 수상",
+      "summary": "화성시가 폐전지 수거로 전국 1등에 올라 장관상을 수상했다.",
+      "kw": [
+        "폐전지",
+        "수거",
+        "장관상"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAwWmhhdk54V1VJT3Y0N0hpSW96RUFOYTJEMFhhWEgxUmI2WVQxb0tqb3hoelZteVRyaUFSMG5KRG4tNElyTERTRENvLVM3UTRBdUxNNmZmRHBrajA5Njl2Sg?oc=5",
+      "source": "NSP통신"
+    },
+    {
+      "date": "2026-11-13",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "농협, 화성 노후 농가 22곳 집수리에 강호동 회장도 참여",
+      "summary": "농협이 화성의 노후 농가 22곳 집수리에 강호동 회장이 참여했다.",
+      "kw": [
+        "농협",
+        "집수리",
+        "주거환경"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1rYkx6U0Rhb0s5SkREakhhZTdFdHJodmo3R2NRYUpBNjVEU0I3QVV3Xy1HLTE1cTg3aG82ck1YX3VPaTUxZkFrSXJ4a2M3RVNYbjV5YTNGc3M4bFg5dHUwVncwTXNGdUI2OF9vbDBnYW1WQQ?oc=5",
+      "source": "디스커버리뉴스(DISCOVERYNEWS)"
+    },
+    {
+      "date": "2026-11-13",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성 농가 22곳 새 보금자리로…농협, 올해 첫 ‘사랑의 집 고치기’",
+      "summary": "농협이 화성 노후 농가 22곳의 주거환경 개선을 위해 집고치기를 추진한다.",
+      "kw": [
+        "농협",
+        "농가",
+        "주거개선"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE43NzREZnFOZ0Q0MERCLU1nWllmQ2lxQ3NfaUtkNTZydTRRY3RSUklVcWR1SndQRDFJbUlLVmpKZUFORmVxNWVBWGFSNl9IZVcwN1RYbWI3VURZQU0?oc=5",
+      "source": "경기일보"
+    },
+    {
+      "date": "2026-11-13",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "강호동 농협 회장, 화성 농가 찾아 집고치기 봉사",
+      "summary": "강호동 농협 회장이 화성 농가를 방문해 집고치기 봉사활동을 펼쳤다.",
+      "kw": [
+        "농협",
+        "봉사",
+        "집고치기"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TdEk2YktHUC03dWwwbW5qd2JrQWRtT05YZFRuOFdvcDZCVmttbWFkcnJhbGU1UmY4cjFFTW9tN09tZkNPQ3VFNTZ5VmNYak1Md0ItMG5HUGhXZVJNRG9qVHJxWUl2b3JQX3Mwc1lvZi0xYjBO?oc=5",
+      "source": "파이낸셜포스트"
+    },
+    {
+      "date": "2026-11-13",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "정명근 화성시장, ‘먼저 찾고 끝까지 해결하는 민원행정’ 호평",
+      "summary": "정명근 화성시장의 먼저 찾고 끝까지 해결하는 민원행정이 호평을 받았다.",
+      "kw": [
+        "화성시장",
+        "민원행정",
+        "시정"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9aN3JQcVVpbkkzb3RuZnhGbGdHR2tCVU9pTkp6VzVoTXFEVkpFdVgxREpfVmtSbHhVSnpSc294LUhkWnJvWkxQcUhuS2NmZE1JX2xiVVNSYUsxRnQ0Sm9lTmE1TGVDNWFEbjdMU2JMY3dISEw2aTZxRjJXaGU?oc=5",
+      "source": "비욘드포스트"
+    },
+    {
+      "date": "2026-11-13",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "농협, 화성 노후 농가 22가구 주거환경 개선",
+      "summary": "농협이 화성의 노후 농가 22가구 주거환경 개선사업을 추진한다.",
+      "kw": [
+        "농협",
+        "농가",
+        "주거환경"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9uQWthLWdLLXJvdnRpdjRLX21ET0p5Ri13Q1dweWFoeUZ1cHNjV2szanhfa1VpeVdGY2JRb1B4Nm9EQ1dYU2pGekExSk9RVTBwSzlZeFVUNXA1aENrMFVVM1lpSXJ4bGFnWndURmVn?oc=5",
+      "source": "뉴스후플러스"
+    },
+    {
+      "date": "2026-11-13",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "농협중앙회, 화성 농가 22곳 주거환경 개선 … ‘사랑의 집고치기’ 봉사",
+      "summary": "농협중앙회가 화성 농가 22곳의 주거환경 개선을 위한 봉사사업을 실시한다.",
+      "kw": [
+        "농협",
+        "농가",
+        "주거환경"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA0dHVtcXN6OXo0QXNZMlRqMjNvREtqRk9OUkhfMDJTdnNVX2hfWDB1dVZRWnlCUUtKaHVxOFQ5Qjc0cmtrMjE0elpCdXZkNnEyNDFHUm5ET3ZjYmNjQmRseVNxaVpMRzVVWUgzbw?oc=5",
+      "source": "워크투데이"
+    },
+    {
       "date": "2026-11-14",
       "cat": "복지",
       "senti": "긍정",
@@ -137401,41 +137527,105 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5jdG9YQWdxUkZvT2dPeEVmdjJYZkk0TkFjTDNrV2FwVk95enF4bEVkSGpVbml6NWdBcnBuOWFSa0FoRGhhZk4wbW5LSjVjcUJqa0YxaXQ1TVJfVmR4YXJjUXFreGxiZXB2bllTUW13?oc=5",
       "source": "투어코리아"
+    },
+    {
+      "date": "2026-11-15",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "정명근 화성시장 도입한 교통민원·생활불편 신속 대응체계 학계 인정",
+      "summary": "정명근 화성시장의 교통민원·생활불편 신속 대응체계가 학계에서 인정받았다.",
+      "kw": [
+        "신속대응체계",
+        "교통민원",
+        "생활불편"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBwOXNUVlk1UVZIRGxHMnB0Q2MzRUN5c0NEU05fOHlCY1NJNUpzWkF2d1JKSFBfclRHZTdTVC1wLVFYczBWTTZpM3ZDVXFxNV82?oc=5",
+      "source": "문화일보"
+    },
+    {
+      "date": "2026-11-15",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시, 2027년 전국체전 앞두고 시민 참여 확산…동탄호수공원서 걷기대회",
+      "summary": "화성시가 2027년 전국체전 개최 앞두고 동탄호수공원에서 시민 참여 걷기대회를 개최했다.",
+      "kw": [
+        "전국체전",
+        "걷기대회",
+        "시민참여"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAxS21zUG1zS01nb1FIbTdtTjRsVWpDZlhxYlVtTk81SHcwRWlWYjhvZlV2UWMyckQ4Mm90QXViV3VnazBhT0RKZnlncjFudC1EYzROMmxJeXpPU2lMd2RFMXRvUmk?oc=5",
+      "source": "베타뉴스"
+    },
+    {
+      "date": "2026-11-15",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시, 대한민국소통어워즈 2개 부문서 대상",
+      "summary": "화성시가 대한민국소통어워즈에서 2개 부문 대상을 수상했다.",
+      "kw": [
+        "소통어워즈",
+        "대상수상",
+        "소통"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBIdzVpNE81d0NGWEVleDhWbnE3X2EtNXV5eXdSRUlaOEk1dWRmbUVWSGxKQnlxbThkRDhwRmVtdjhEYjJ1Tll6cEttWi13MmZNWU5VU2prTWZHblJ0enB3UtIBeEFVX3lxTE5hS0EwaVFEMk1XaVZseXJia3ZlV3V3V3JxeThKZjR6U1o5NV90NzNRNEFYdkhvSVEzbGVjbE9ZdHloMUFReF9RYWxETlF2VmhpZVFHbm5qSGtXTU1neXNKSEs3bXhYWVBCdGZnc0h3T0ZkSWNMZ1BKTw?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-11-15",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시, 대한민국소통어워즈 2개 부문 대상 수상",
+      "summary": "화성시가 대한민국소통어워즈 2개 부문에서 대상을 수상했다.",
+      "kw": [
+        "소통어워즈",
+        "대상",
+        "화성시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9SWTFzUy1JbDRTZGJ6RElLWWlwRXhNUmduWDNSRjlUbWxrS0VDWFlFWmdpck9acU9EbG14SWFKZDJCbWNjdG5YeENVUGRCRjkzdTJ1TVcxTWxfQm04N24xbEhn?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "date": "2026-11-15",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시, 2027 전국체전 성공개최 기원 걷기대회 개최",
+      "summary": "화성시가 2027 전국체전 성공개최를 기원하며 걷기대회를 개최했다.",
+      "kw": [
+        "전국체전",
+        "걷기대회",
+        "성공개최"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8yM1kxSkxqc0pHY2VfTG02MnJzRjFmTFBEdEZNWGJwZ29JR1ZreWkzRnVYdEhmS2cwRmRhX3Q5QVdNWkZBaGtreE5NM1pBRU82YUx3aEFrdFBFb3o0NE0wT9IBeEFVX3lxTE9wUHVkdk1aaWx1TVJ2SWR6RlJDSXJoQUpaUnhzVmF1WWhqTl9NemNQMGZuZVlUWllTSVFtVTNuNG82QW1nbmpHR2t2SDJxQ19EMk1nSU82RkhJOXpwVjQzcGktVWI2MEZKVUprMmxzQUpLbDhmUGxJRg?oc=5",
+      "source": "뉴시스"
     }
   ],
   "dropped": {
-    "count": 19,
+    "count": 13,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
-      "기후부, 집단에너지 공급 지역 신규·변경 공고",
-      "경기도 당뇨병 진료비 1조원 시대....당뇨 환자 느는데 치료율은 뒷걸음",
       "남양유업, 딸기 제품 앞세워 겨울 입맛 공략",
       "인사하기#인사받기",
-      "남양유업, ‘테이크핏’ 딸기맛 판매 확대…백미당 겨울 신제품 7종 출시",
+      "겨울 딸기 벌써 나왔다…단백질 음료부터 케이크까지 신제품 경쟁",
       "남양유업, 동반성장지수 4년 연속 ‘우수’ 등급",
-      "남양유업, 겨울 딸기로 단백질 음료부터 디저트까지 확대",
-      "[똑똑한한끼] 농심, 하이트진로, 동아오츠카, 오뚜기, 올가홀푸드, 남양유업, 대상웰라이프, 롯데웰푸드",
       "겨울 대목은 역시 '딸기'... 남양유업, 헬시플레저·프리미엄 디저트 '쌍끌이'",
       "“9000만 원 추가 이체 막아라”...태안농협 직원, 보이스피싱 피해 예방",
-      "\"단백질 음료부터 아이스크림까지\"…남양유업, 겨울 딸기 공략 확대 |",
-      "남양유업, 테이크핏 단백질 음료부터 백미당 디저트까지 '딸기' 정조준",
-      "\"교회가 반드시 해야 할 일은 제자교육과 성령세례\"",
-      "서울우유 딸기우유 원재료 논란…우유 살 때 확인할 3가지",
       "한국서 우유 덜 마시자…해외 나간 유업계, ‘이것’ 팔았다 [김연하의 킬링이슈]",
       "포토뉴스",
       "청년정책조정위 회의 개최",
       "생의 마지막 시기를 어디서, 어떻게 보낼것인가?",
-      "스포츠·공연 복합문화시설인 ‘K-MARS 돔’ 후보지 공모"
+      "공사장 가림막에도 디자인을",
+      "스포츠·공연 복합문화시설인 ‘K-MARS 돔’ 후보지 공모",
+      "수원교육지원청, 디지털 기반 힐링 워크숍으로 교사의 마음 건강 회복 지원"
     ]
   },
   "briefs": {
-    "all": "전체 기간 [[w]]부정 707건(7%)[[/w]] 중 행정이 287건으로 압도적이며, 안전 240건이 뒤를 따릅니다. [[b]]11월 4일에 41건이 몰렸고 이 중 39건이 행정 분야[[/b]]였으므로, 해당 날짜의 행정 이슈를 우선 점검하시기 바랍니다.",
-    "7": "최근 7일간 [[w]]부정 52건(7%)[[/w]]으로 전체 기간과 같은 수준이나, [[b]]안전 분야가 25건으로 최다[[/b]]를 기록했습니다. 11월 9일 24건 중 17건이 안전 관련이므로 해당 날짜 안전 이슈 확인이 시급합니다.",
-    "30": "최근 30일간 [[w]]부정 217건(6%)[[/w]]이 발생했으며, 행정 115건이 주축이지만 안전과 교통이 각각 40건, 25건으로 뒤따르고 있습니다. [[b]]11월 4일의 행정 관련 집중 보도(39건)가 전체 부정 추이를 좌우[[/b]]하는 만큼, 이 날짜의 구체적 사안 점검을 권장합니다."
+    "all": "수집 기간 전체 [[w]]부정기사 707건(7%)[[/w]] 중 행정이 287건으로 압도적이며, 안전 240건이 뒤를 잇고 있습니다. [[b]]2026-11-04에 41건이 집중[[/b]]되어 그날의 행정 보도를 먼저 검토할 필요가 있습니다.",
+    "7": "최근 7일간 [[w]]부정기사 52건(7%)[[/w]]은 안전 분야에 25건으로 집중되어 있으며, 행정 16건과 산업경제 5건이 뒤따릅니다. [[b]]2026-11-09의 24건 중 17건이 안전 관련[[/b]]이므로 해당일 안전 보도를 우선 확인하시기 바랍니다.",
+    "30": "최근 30일 [[w]]부정기사 217건(6%)[[/w]]은 행정(115건)에 집중되어 있고 안전(40건)과 교통(25건)이 분산되어 있습니다. [[b]]행정 분야 보도가 전체의 53%를 차지[[/b]]하고 있어 행정 관련 이슈 점검을 우선으로 진행하시기 바랍니다."
   },
-  "briefs_updated": "2026-11-15 09:58",
+  "briefs_updated": "2026-11-15 11:31",
   "issues": {
-    "updated": "2026-11-15 09:58",
+    "updated": "2026-11-15 11:31",
     "items": [
       {
         "label": "화성 향남읍 동 전환 놓고 주민 반발…“생활 인프라부터 확충해야”",
@@ -137524,7 +137714,7 @@
     ]
   },
   "today": {
-    "updated": "2026-11-15 09:58",
+    "updated": "2026-11-15 11:31",
     "items": [
       {
         "label": "[안전상황실·10일] 경부고속도 동탄터널 5중 추돌 … 33명 '부상'",
@@ -137604,19 +137794,19 @@
     "note": "팀원 다섯 명이 기사 100건을 나눠 검수한 결과. 겹친 구간에서 한 사람이라도 「틀림」이라 했으면 틀린 것으로 셌다. 너그럽게 세면 분야 95%·긍부정 87%가 된다."
   },
   "keyword_notes": {
-    "updated": "2026-11-15 09:58",
+    "updated": "2026-11-15 11:31",
     "window": "최근 30일",
     "items": {
-      "동탄": "310건의 기사 중 143건이 긍정적이나 [[w]]부정 기사 14건[[/w]]에서 사내대출 규제 회피, 기업 투자 부실 등의 문제가 제기되고 있어 산업경제 분야의 신뢰성 관리가 필요합니다.",
-      "향남": "149건 중 66건이 긍정적이지만 [[w]]부정 기사 5건[[/w]]에서 불법업소, 구조물 안전, 환경 영향 등 다층적 우려가 나타나고 있습니다.",
-      "화성시": "137건 중 78건이 긍정적이나 [[w]]부정 기사 5건[[/w]]에서 학생 안전 정책, 군공항 이전 문제 등 행정 신뢰도 관련 이슈가 집중되어 있습니다.",
-      "AI": "94건 중 85건이 긍정적으로 높은 호응을 보이며, [[w]]부정 기사 1건[[/w]]을 제외하고는 산업경제 분야에서 화성시의 미래 기술 이미지 구축에 유리한 상황입니다.",
-      "분양": "88건 모두 산업경제 분야이며 부정 기사가 없어 분양 프로젝트들이 언론에서 긍정적으로 다루어지고 있습니다.",
-      "롯데캐슬": "80건 중 33건이 긍정적이나 [[w]]부정 기사 1건[[/w]]에서 악취와 소음 피해 우려가 제기되어 인근 환경 영향 관리에 주목할 필요가 있습니다.",
-      "아크메르동탄": "72건 중 24건이 긍정적이며 부정 기사가 없어 산업경제 분야에서 [[b]]호중적인 언론 환경[[/b]]을 유지하고 있습니다.",
-      "동탄트램": "65건 모두 교통 분야이고 [[b]]부정 기사가 없으며 55건이 긍정적[[/b]]으로 시의 주요 교통 인프라 사업이 언론과 시민의 기대를 반영하고 있습니다.",
-      "MARS2026": "64건 중 61건이 긍정적이며 부정 기사가 없어 [[b]]산업경제 행사로서 가장 호의적인 언론 평가[[/b]]를 받고 있습니다.",
-      "복지": "63건이 모두 긍정적(부정 0건)이며 복지 분야에서 [[b]]화성시의 정책 수행도가 일관되게 호평[[/b]]을 얻고 있습니다."
+      "동탄": "동탄은 산업경제 분야 중심으로 310건의 기사가 보도되었으며 긍정 평가(143건)가 대부분이나, [[w]]부정 기사 14건[[/w]]에서 사내대출 규제 우회 및 기업 투자 공실 문제 등이 지적되고 있어 주의깊은 모니터링이 필요합니다.",
+      "향남": "향남 지역은 149건 기사 중 산업경제(119건) 비중이 압도적이며 긍정 평가(66건)가 우세하나, [[w]]부정 기사 5건[[/w]]에서 불법업소, 옹벽 안전, 단지 입지 환경 문제 등 개선이 필요한 사항들이 노출되고 있습니다.",
+      "화성시": "화성시 관련 138건 기사는 주로 행정 분야(71건)에서 다루어지고 있으며, [[w]]부정 기사 5건[[/w]]이 학생 안전 정책 미흡과 군공항 이전 이슈 등 시정의 핵심 현안을 중심으로 제기되고 있습니다.",
+      "AI": "AI는 94건 기사 중 긍정 평가(85건)의 비중이 [[b]]압도적[[/b]]으로 높아 이미지가 우호적이나, 부정 기사에서 공공 체계 기반 필요성이 언급된 만큼 정책 차원의 보완을 고려할 시점입니다.",
+      "분양": "분양 관련 88건의 기사가 모두 산업경제 분야에서 보도되었으며 [[w]]부정 기사가 없어[[/w]] 해당 주제에 대한 시장의 중립적 또는 긍정적 태도를 반영하고 있습니다.",
+      "롯데캐슬": "롯데캐슬은 80건 기사 대부분이 산업경제(78건)에서 다루어졌으며 긍정 평가(33건)가 우세하나, [[w]]부정 기사 1건[[/w]]에서 산단 악취 및 군용기 소음 등 입지 환경 문제가 제기되고 있습니다.",
+      "아크메르동탄": "아크메르동탄은 72건 기사가 모두 산업경제(67건) 분야 중심으로 보도되었으며, [[w]]부정 기사 없이[[/w]] 긍정 평가(24건)를 중심으로 호의적인 언론 환경을 유지하고 있습니다.",
+      "동탄트램": "동탄트램은 교통 분야 65건 기사 전부에서 다루어졌으며, [[w]]부정 기사가 전혀 없이[[/w]] 긍정 평가(55건)로 [[b]]압도적인 여론 지지[[/b]]를 받고 있는 프로젝트입니다.",
+      "MARS2026": "MARS2026은 64건 기사 중 [[w]]부정 기사 없이[[/w]] 긍정 평가(61건)가 95% 이상의 높은 비율을 차지하며, 산업경제(47건) 중심으로 매우 우호적인 언론 평가를 받고 있습니다.",
+      "복지": "복지 관련 63건 기사가 모두 복지 분야(60건)에 집중되었으며, [[w]]부정 기사 없이[[/b]] 긍정 평가(58건)가 절대 다수를 차지하여 시 정책에 대한 긍정적 평가가 이루어지고 있습니다."
     }
   }
 }
