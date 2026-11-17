@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-16 11:40",
+  "updated": "2026-11-17 12:43",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 9886,
+  "count": 10007,
   "items": [
     {
       "date": "2026-08-02",
@@ -138997,47 +138997,1741 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE13dDlVVERjZUw0M29weUFTZnpQSDdUVVdiV1QzMFhzRUZEdnBibzJFeFNldVhPekxBc0VDSDFSQVA2b2Q5QXk3LXFPZlF2S0R5R1E?oc=5",
       "source": "경인일보"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성 민·정·관 \"수원군공항 이전 반대\" 한목소리",
+      "summary": "화성 민·정·관이 수원군공항 이전 반대를 한목소리로 표명했다.",
+      "kw": [
+        "수원군공항",
+        "이전반대",
+        "민정관"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBSTXNkSU9Zb29wR2Fya2V4bUp1WVFVaVpYRXlpalZycURYb3hCRWZyV1FtVGV3TmRwWkpZQjAzcEVDMm4zdGhlM2NMRzI2eGRLVWgwTjhHMGY5ZHZ2dEFUOGRxeXg?oc=5",
+      "source": "서울경제TV"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "조용호 오산시장, 정명근 화성시장 만나 덕절리 물류창고 교통대책 공동대응 방안 협의",
+      "summary": "오산시장과 화성시장이 덕절리 물류창고 교통대책을 공동대응하기로 협의했다.",
+      "kw": [
+        "물류창고",
+        "교통대책",
+        "공동협의"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1FNTBxVV9ZWFdPM2o1V1JBTTVKSHhLX3Q5M2VlcEhVdDcwd3ZPblV6cVI4Mm5aLWRlTTBtREUweHdJMXlWRWZvWlVNay1mcjZrMUZpaFI1TGktdnJwbXZwMjVzdEJnRW1T?oc=5",
+      "source": "경인경제"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성 향남 롯데캐슬 시그니처, 삶의 질 대폭 높이는 주거 서비스",
+      "summary": "향남 롯데캐슬 시그니처가 주거 서비스 품질을 높이고 있다.",
+      "kw": [
+        "향남",
+        "롯데캐슬",
+        "주거"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1vTGNGMnE3bFd6Y3l3TVJPN1ZobTJLYkxjVkZIWExHclhWSkZGX0pyWHpBcmpwaEwzZnBxU0NNc0Y3UlNUUHR4M0d2Q2plOTBEaUFDRy1OSnNRTmlSQVAwejFBQU13ejJSUFJrNV9fUE3SAXBBVV95cUxNb0xjRjJxN2xXemN5d01STzdWaG0yS2JMY1ZGSFhMR3JYVkpGRl9Kclh6QXJqcGhMM2ZwcVNDTXNGN1JTVFB0eDNHdkNqZTkwRGlBQ0ctTkpzUU5pUkFQMHoxQUFNd3oyUlBSazVfX1BN?oc=5",
+      "source": "글로벌경제신문"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시 유튜브 10만 구독자 이어 대한민국소통어워즈 대상 2관왕",
+      "summary": "화성시가 유튜브 10만 구독자 달성 후 대한민국소통어워즈 대상을 수상했다.",
+      "kw": [
+        "유튜브",
+        "소통어워즈",
+        "소통"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1CX0doLU5jWXVnQzZSUkt6VFQyRC1RMzVpYXVZa3FMMTNJMXc0ZlNaY3hieXJLTWMwU1dwRTBwZ1p4b24yZUJFSEctTnA4UGozYkxEcWNrVXBiZkUxUXhjQ3RXaGFnZw?oc=5",
+      "source": "https://www.kgdm.kr/"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "GE헬스케어-동탄시티병원, 국내 1호 '영상의학 커맨드센터' 구축",
+      "summary": "GE헬스케어와 동탄시티병원이 국내 첫 영상의학 커맨드센터를 구축했다.",
+      "kw": [
+        "동탄시티병원",
+        "영상의학",
+        "커맨드센터"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CaTUtV1dTelkzN1d1QjFRb2x2ZWYxMEo2YjhqNTlXS1NOYWJOSmxrR1RiUW1NT2lYbXhtVm5Wa2tUYjBrRUVfNTlGSTg2ODZNeVo2SUxvT29qclFYUWlEWUVPWDkxRHV3Ync?oc=5",
+      "source": "의학신문"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "수원 영통·화성 동탄 ‘날았다’…경기도 집값 상승률, 서울 앞질렀다",
+      "summary": "화성 동탄 지역의 집값이 상승률 상승으로 서울을 앞질렀다.",
+      "kw": [
+        "동탄",
+        "집값",
+        "상승률"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBYVnRzYjR4eFM3SFBFYS05M3l0Vng2aDZFRnJ4YUUzcnhCZ3RSa3pONHVVWjhWX0E1M0Vib1d2a00wcWtlZklROHZWeWJKLWN5V01hNDVPdmxnQ2s?oc=5",
+      "source": "경기일보"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "교통",
+      "senti": "중립",
+      "title": "오산시, 화성 덕절리 물류창고 교통대책 ‘특별협력체’ 구성 제안",
+      "summary": "오산시가 화성 덕절리 물류창고 교통대책 특별협력체 구성을 제안했다.",
+      "kw": [
+        "물류창고",
+        "교통대책",
+        "협력체"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1iS2h1Mk5VM1lnemF4TGRheU1FQUdEVFAzRTg2WVRQb29vZjBteGxDUjFOUUY1dlpkSWZSRnFOWFhhSHBrdTVHeEwtNXZxU1FTNlJxcGFLV1NzeXowWUdsZjlUdE02N2Rr?oc=5",
+      "source": "일간경기"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "교통",
+      "senti": "중립",
+      "title": "조용호 오산시장, 정명근 화성시장에 물류센터 교통대책 공동대응 제안",
+      "summary": "오산시장이 화성시장에 물류센터 교통대책 공동대응을 제안했다.",
+      "kw": [
+        "물류센터",
+        "교통대책",
+        "공동대응"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EVWJWU2xfaEpfeHNjc2FFSFktWTBpMkQ5NzdNaUF2Yy1nMDg3ZnY1SkdTd2MzZW1TaFBfR3o3eWM3R2dyd01oZEFiYXhKU2RuY0FhZmZiRGfSAVhBVV95cUxPRFViVlNsX2hKX3hzY3NhRUhZLVkwaTJEOTc3TWlBdmMtZzA4N2Z2NUpHU3djM2VtU2hQX0d6N3ljN0dncndNaGRBYmF4SlNkbmNBYWZmYkRn?oc=5",
+      "source": "아주경제"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "교통",
+      "senti": "중립",
+      "title": "덕절리 물류센터 해결책 찾나...조용호 오산시장·정명근 화성특례시장, 전격 회동",
+      "summary": "오산시장과 화성특례시장이 덕절리 물류센터 교통대책에 대해 회동했다.",
+      "kw": [
+        "물류센터",
+        "교통대책",
+        "회동"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1IR0htVkFPenljZm51em1VQjhaX25rZHhTSE8zRDQ0RGhfaHN2ZHd2U1dyY3NIWVZWQ25aN1c5WFJyaVFtczNkemwtTHhZZmF6YkI1TDh2LUpsNG8xUDMyeWtB?oc=5",
+      "source": "경기신문"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "정명근 화성특례시장, ‘시립화성 실버드림센터’ 개원 준비 상황 현장 점검",
+      "summary": "화성특례시장이 시립화성 실버드림센터 개원 준비 상황을 현장 점검했다.",
+      "kw": [
+        "실버드림센터",
+        "노인복지",
+        "점검"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBfNVFKWm94amhvNmtoRFB3d0pKQUEwMlFFRTM5NVdsbV9rVThicFlNRk43QXJjaWZzamc1azdncHVOTVlpenRpcTFNRkpXM2FXUWFIcy0yMXpUWWtQdUpmR0FGUEpoZTMt?oc=5",
+      "source": "뉴스피크"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시, 방학 중 무상급식 지원 확대",
+      "summary": "화성시가 방학 중 무상급식 지원을 확대했다.",
+      "kw": [
+        "무상급식",
+        "방학",
+        "복지"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1VcEJVMFNXTVVFR1M2YTNGaVpUcUtER1NObk5DaDUxMVpnTmhmWWNJaFBFczBlcnZuRWkwN056Y3pFLUh1aTk5aXhfLVBDNTAzSjdvRFFDN09vdnJIQUR0cDJjcURPcGdE?oc=5",
+      "source": "대한급식신문"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "동탄성심병원 “구급차에서 AI로 심근경색 발견”",
+      "summary": "동탄성심병원이 구급차에서 AI를 활용해 심근경색을 발견했다.",
+      "kw": [
+        "AI",
+        "심근경색",
+        "응급의료"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1KSFVmNnBCWVl6ODYyd2Y5X0llLWxLV2p2cGEtUVkwUEJrSC1pdjhzN2xwYkdMbld5c1ZTSHhPaklsdVo1d0lBa2tRZXdxSFRtRWlxQzEzZ2FxamlmbjVEeDVVeEt4ZnV1SjV3WQ?oc=5",
+      "source": "데일리메디"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "정명근 화성시장, 시립화성 실버드림센터 현장 점검...내년 1월 입소 추진",
+      "summary": "화성시장이 시립화성 실버드림센터 현장을 점검하며 내년 1월 입소를 추진 중이다.",
+      "kw": [
+        "실버드림센터",
+        "노인복지",
+        "입소"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBZazhpdHhiWW1PUjJlNm5kU1FVNmROdENQX01od05hQjBsLVRHV3pRYUVIdnNfMzJ3UkZWV01FMTNBWHJlZjVGbHhsZE5Oc0RSWkdtNm1IeDfSAVhBVV95cUxQWWs4aXR4YlltT1IyZTZuZFNRVTZkTnRDUF9NaHdOYUIwbC1UR1d6UWFFSHZzXzMyd1JGVldNRTEzQVhyZWY1Rmx4bGROTnNEUlpHbTZtSHg3?oc=5",
+      "source": "아주경제"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "한림대동탄성심병원, AI 심전도 시범사업 872건 활용",
+      "summary": "한림대동탄성심병원이 AI 심전도 시범사업으로 872건을 활용했다.",
+      "kw": [
+        "AI",
+        "심전도",
+        "의료"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1XMXJRY2dZM2wtdTlfT2tGN2FoQ3g4WGNxZWV4eDdjRGhTNFdQZHdtZmlTT2cweWh0STJtLUhabF9ISzQyOEFfMVdsWnY5cVVORWJPTFh0Z0hoVFhWUFgzX1JMSUV1UFVkWHVFRzhaMkdGWDJWSzlZcVZn?oc=5",
+      "source": "로이슈"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "한림대동탄성심병원, AI 심전도로 심근경색 골든타임 지킨다",
+      "summary": "한림대동탄성심병원이 AI 심전도로 심근경색 골든타임 대응을 강화했다.",
+      "kw": [
+        "AI",
+        "심근경색",
+        "응급치료"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA1WDJrbVdLWU8xNnNIWWkyZVVFanB3enFlTkdTTlNIZUlKci1QNmVGeDU4V0pmcXRnc3dNS3dUVVZCQXpQZ2JBTTVzMDdxSHRkZUVrdE43c3Z3dTZxc25kY093?oc=5",
+      "source": "경기신문"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "정명근 화성시장 “안심할 수 있는 공공요양시설”…실버드림센터 개원 준비 점검",
+      "summary": "정명근 화성시장이 실버드림센터 개원 준비 상황을 점검했다.",
+      "kw": [
+        "실버드림센터",
+        "공공요양시설",
+        "개원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5tNHU2eG8tV25tTmExUElnaG1CNUpYRlFtSDd1ZnUxN1Y5UXhtdzMxM2lVcENIdkFzUU1ud0xidVNuNGFtM0E1LWtxeS1BS2h6YU5INWFZTnV3OXZUWF9mWDgtX1JHak9YdURlNFQyem5XRW5mcHpDRDYwakU?oc=5",
+      "source": "비욘드포스트"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "환경",
+      "senti": "긍정",
+      "title": "LH 화성동탄2지구 내 '바랑골 느티공원' 국무총리상 수상",
+      "summary": "화성동탄2지구 내 바랑골 느티공원이 국무총리상을 수상했다.",
+      "kw": [
+        "바랑골느티공원",
+        "국무총리상",
+        "조경"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5KQS1rNXc2REtVdDlEY21ZcDFZM3FDOWFtZXByTHlnX25iN2FaZ2R4ZXhaQUQzUDZjWW5GVUVrVUpCUlRIbjQ3R2Q4RGhObEN1MXMzelNRZl9zTGp4?oc=5",
+      "source": "뉴스핌"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "환경",
+      "senti": "긍정",
+      "title": "‘LH 조성’ 화성동탄 바랑골 느티공원, 지역 역사 보존해 국무총리상 영예",
+      "summary": "화성동탄 바랑골 느티공원이 지역 역사 보존으로 국무총리상을 수상했다.",
+      "kw": [
+        "바랑골느티공원",
+        "국무총리상",
+        "역사보존"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBJUjY5OGdkYmV1MDhlbjlyTENqSUZBLVV6bFRjTHVNejRaNnFJaEREUFZ2Q2dHc0RNdFZuSzVPTF9ZQTk0cjhxNjZUX2pNYVNYV0dfaWFQVFhRdUhtV1JsbEJBUnBmalcyNzRFcl9xUQ?oc=5",
+      "source": "중부일보"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "GE헬스케어-동탄시티병원, 영상의학 특화형 '커맨드센터' 구축 협약",
+      "summary": "GE헬스케어와 동탄시티병원이 영상의학 특화형 커맨드센터 구축에 협약했다.",
+      "kw": [
+        "동탄시티병원",
+        "영상의학",
+        "커맨드센터"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBmd3dzSUR0MVRwNGZHRldpVHBaT0pCTmlsMDJrdDJYR09yd0FsMHQ2MWdGR3lTYW9GV0hPaGRYSXVCT3hadkZqbU1tOS16Zw?oc=5",
+      "source": "전자신문"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "환경",
+      "senti": "긍정",
+      "title": "주민들이 동탄호수공원 가꾼다",
+      "summary": "주민들이 동탄호수공원 조성 및 관리에 참여하고 있다.",
+      "kw": [
+        "동탄호수공원",
+        "주민참여",
+        "환경보존"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5GOUdnSndWSF9QNFVjdzRwS3ljRnVvV28wMjZCbU1jQm85ZUdJZTNWekJHd3R6NzhTcUtLNFI3MXFieDd2cjNVUkx2M3hjUS1JclpJXzB6MDE4MHFvcmt0OXBIUlF4NUNMQlVrUE5B?oc=5",
+      "source": "아시아투데이"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시의회, 고병태 의원 5분 자유발언 “동탄병원 조기 개원 및 건립 책임 강화 촉구”",
+      "summary": "고병태 의원이 동탄병원 조기 개원 및 건립 책임 강화를 촉구했다.",
+      "kw": [
+        "동탄병원",
+        "조기개원",
+        "의원발언"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1zMUhjV3VYRXJEU2x1aU9kVHFrU2V1eE9XNWwzenpCTjBsSFNuNmx4Wm55eTdXcVR2SlVrNUVMN2NRUQ?oc=5",
+      "source": "화성인터넷신문"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "환경",
+      "senti": "긍정",
+      "title": "LH ‘화성동탄2 바랑골 느티공원’, 대한민국 조경대상 국무총리상 수상",
+      "summary": "LH 화성동탄2 바랑골 느티공원이 대한민국 조경대상 국무총리상을 수상했다.",
+      "kw": [
+        "바랑골느티공원",
+        "조경대상",
+        "국무총리상"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0zUElBRW5VWU4tRFhsd2xYNXNlUFhVOEVIbXMwWjNXYW11Z0s2ZGUwOXhtRVp5MXlQWWk4c2gxVE1TVk5PanlDRVVVOGxybTZjS3JsRDA3cnM4LWc?oc=5",
+      "source": "경기일보"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시,수원군공항 화성시 이전 반대 특별위원회, 민·관·정 공동입장문 발표 통해 공동대응 의지 재확인",
+      "summary": "화성시, 수원군공항 화성시 이전 반대 특별위원회 구성해 민·관·정 공동대응 추진",
+      "kw": [
+        "수원군공항",
+        "이전반대",
+        "특별위원회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBfZWdOSmlNV3NjN1ZIUnFLd09kMmVENjVDUXAzTkdGbjVEb0NicFpQOVVnUVZkT3p5Z2VlallXT2FXNXFXY1RPaWgwM3c0U0VBZWJxejhZZTVCSEpsODBzRTdMNGtvMnBQZHfSAWpBVV95cUxQX2VnTkppTVdzYzdWSFJxS3dPZDJlRDY1Q1FwM05HRm41RG9DYnBaUDlVZ1FWZE96eWdlZWpZV09hVzVxV2NUT2loMDN3NFNFQWVicXo4WWU1QkhKbDgwc0U3TDRrbzJwUGR3?oc=5",
+      "source": "새한일보"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "LH, 250년 느티나무 품은 동탄 바랑골 공원… 대한민국 조경대상 국무총리상",
+      "summary": "LH가 조성한 동탄 바랑골 공원이 대한민국 조경대상 국무총리상 수상",
+      "kw": [
+        "동탄",
+        "바랑골공원",
+        "조경대상"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4wN0loMWhYUkgtTkk1UU1RTGh5UVhqTWNHSzNTZW5FM3djald1aEFGZUV5ai1vc29VdmJ0REM3REFzSzNCSk1GdHloTnhKa3hUZUZSQTV5RDM4Zi1yZDA0NFdUVkg3a080OHc?oc=5",
+      "source": "천지일보"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시의회, 2027년 예산안 6조 1625억 원 심사",
+      "summary": "화성시의회, 2027년도 예산안 6조 1625억 원 규모 심사 진행",
+      "kw": [
+        "예산안",
+        "2027년",
+        "6조1625억원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5oV0QwTlJkdlpOTllGbGlNOUZ6NU5pU3hIZDZfaUVMQTV6bzFUb1lJMlM5NDNfRjJOZlNvODlZLUI0dDc1dWN4ckwwMXNUNUtlZUFXZFlJenp3VlFIRjNEemN3?oc=5",
+      "source": "경인미래신문"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시동탄노인복지관과 다함께돌봄 신동2·신동5센터, 업무협약 체결 및 김장김치 나눔으로 지역사회 복지협력 본격화",
+      "summary": "화성시동탄노인복지관과 다함께돌봄센터, 업무협약 체결 및 김장김치 나눔 추진",
+      "kw": [
+        "노인복지",
+        "다함께돌봄",
+        "지역복지"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1pUEc1MVJPMGRjeG9vMnlvNTNLY0E2Vm00QVlwM0llLUlBNnZhS0IxMzB4M0pWRHVxZm51cS1zdVF4YW5kYTJVQUNhZVJfTmtvZWdjX0tCTmhMaTZMcWJrWFBudHlTNUU?oc=5",
+      "source": "경인신문"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "교통",
+      "senti": "중립",
+      "title": "[오산 24시] 오산시-화성시, ‘정남면 덕절리 물류창고 건립’ 대응 위해 손잡았다",
+      "summary": "오산시와 화성시, 정남면 덕절리 물류창고 건립 관련 교통문제 공동 대응",
+      "kw": [
+        "물류창고",
+        "교통문제",
+        "공동대응"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1feVFTMEFMcVpsVmVpSjZhUHRDRGFsSE0yRWdCQkllTG9qTjA2c3M3U25BYVpTNU1kYjd3YU5obV9qaWs5bHZSNW5rLVVrdWVnNUtBREE1cGs4UUJaMkxWT3hDcGRSVmIzb2ZzOVVuNERSc0nSAXNBVV95cUxNX3lRUzBBTHFabFZlaUo2YVB0Q0RhbEhNMkVnQkJJZUxvak4wNnNzN1NuQWFaUzVNZGI3d2FOaG1famlrOWx2UjVuay1Va3VlZzVLQURBNXBrOFFCWjJMVk94Q3BkUlZiM29mczlVbjREUnNJ?oc=5",
+      "source": "시사저널"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성시의회, ‘제8회 대통령배 전국바둑대회’ 참석",
+      "summary": "화성시의회 의원들이 제8회 대통령배 전국바둑대회에 참석",
+      "kw": [
+        "바둑대회",
+        "대통령배",
+        "의회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9RRkYxdVE3NlBXR0RRMFdjOC0zTXRGTVdUZWFRTGttUk13Zjh5VWdlNDRLUVVKRUhIZThBSEZwYUo5d01EYU8wX0ZHOGFDNTRFRVBiRU02Q1FMUjhQWl85NUNtMVdEa1VVcS1WSzdaZWNzYjQ?oc=5",
+      "source": "동방일보"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "[의정 포토] 화성 고병태 시의원 “동탄2 병원, 개발이익이 실제 건립으로 이어져야”",
+      "summary": "화성 고병태 시의원, 동탄2 병원 개발이익이 실제 건립으로 이어져야 한다고 주장",
+      "kw": [
+        "동탄2병원",
+        "개발이익",
+        "건립"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5QRWhNN2kwc2FNblV6UVJrcEQzczBiOGx5aVJHUlpkSU9RUUtpY2VuVmpuSlRSQ3dCNG5FMnloM1hIOXptNnZVLWltMnFFaC05RjhYQ05FSWItWDRBbXZEUHY0ZksyajJ1ODZiREpvQnJOaVHSAXdBVV95cUxNR2oyQlkzb2FKU0hYNW1SNmlIOFR6Q3F6Y0hwTHIyQmdWV0o2VWJMR29kMDBFMjVIMERRUW5LYlZiTVE4Q053dk13Y0dSbjRaS3dmOVBJRlloR05VNlZyc2dqYTM4VGpFcEgyZWd0UVpRMVZpNjk2RQ?oc=5",
+      "source": "뉴스프리존"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "화성시, 민·정·관 '수원군공항 이전 특별법' 철회 촉구",
+      "summary": "화성시 민·정·관, 수원군공항 이전 특별법 철회를 촉구하는 성명 발표",
+      "kw": [
+        "수원군공항",
+        "특별법철회",
+        "촉구"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9mdHgwUW9KUUFFc2w4OXZycFhYQmViMnE1Snl1bW5nVjZyYkhrZTFfdnBCY0V1NU1EdGFaNFJLU1pLN25YMXR2dGJONm5Ua05mODhRUDJ2TEsyRVNoUnpBVXVR?oc=5",
+      "source": "경인미래신문"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "한림대동탄성심병원 “119 이송 단계서 AI 심전도 872건 활용 성과”",
+      "summary": "한림대동탄성심병원, AI 심전도 활용해 119 이송 단계에서 성과 창출",
+      "kw": [
+        "AI심전도",
+        "응급의료",
+        "디지털의료"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA2WnB3UXI1cURGazg2R2VqWE1rM1V0ZnBtSUVFQXhDZElFeW9pVlRjalludE1GYWFQX2JYVUwyZk9ZZjJObjFiTlNqdDNOUQ?oc=5",
+      "source": "전자신문"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "화성시 민·정·관 한목소리…수원군공항 일방 추진 규탄 - 머니투데이",
+      "summary": "화성시 민·정·관, 수원군공항 일방 추진을 규탄하는 입장 표현",
+      "kw": [
+        "수원군공항",
+        "일방추진",
+        "규탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE92UFRHbGJtUVM0TjNSWU80aUFUWkUyRlMxd0Q4WmRmYXR4Y2VkR2kzeTZXRWlGZFh0MkRKVDVoZVk5dVpEYWRDeGZ1aG5INVJmZmNLNVhzZHZ0V2hZcXMwd3h1b3doVGRvSmJRWV9rZ9IBb0FVX3lxTE92UFRHbGJtUVM0TjNSWU80aUFUWkUyRlMxd0Q4WmRmYXR4Y2VkR2kzeTZXRWlGZFh0MkRKVDVoZVk5dVpEYWRDeGZ1aG5INVJmZmNLNVhzZHZ0V2hZcXMwd3h1b3doVGRvSmJRWV9rZw?oc=5",
+      "source": "머니투데이"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시의회, 6조1625억원 규모 화성시 예산안 심사한다",
+      "summary": "화성시의회, 6조 1625억 원 규모의 화성시 예산안 심사",
+      "kw": [
+        "예산안",
+        "심사",
+        "6조1625억원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBXVUNvUG1aMkYtc1RhcEZJYTRxbXNiTDlOV1F1YUc1TkFaRXN6S3JVa1FFQUlUYW9ycUhZOVN6UUVBNnZYYjREVEkyeElyTUo1QXJRdGxIQndtdGhMWUFBX2ZrUGNBcXBNd254MEJDN2M5NHNGN2dQetIBeEFVX3lxTFBXVUNvUG1aMkYtc1RhcEZJYTRxbXNiTDlOV1F1YUc1TkFaRXN6S3JVa1FFQUlUYW9ycUhZOVN6UUVBNnZYYjREVEkyeElyTUo1QXJRdGxIQndtdGhMWUFBX2ZrUGNBcXBNd254MEJDN2M5NHNGN2dQeg?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "교통",
+      "senti": "중립",
+      "title": "오산시, 화성시와 물류창고 교통문제 공동 대응 나선다",
+      "summary": "오산시와 화성시, 물류창고 교통문제 대응을 위한 공동 협력 추진",
+      "kw": [
+        "물류창고",
+        "교통",
+        "공동대응"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9TSDNCSklxOTQ2MFJqazZWcGJmWmcyWVR1N3BVV2pZMHdFYzhRWmtyRlJSMy1uX0VCRVJJSmNZVzR4emUyYnJRTWczRkhTX3JnLVZ0RUY4Y1JoOE5kYVB5R1lIdjB6ek1F?oc=5",
+      "source": "경인매일"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시동탄어울림종합사회복지관, 위드하모니오케스트라 제6회 정기연주회 성황리 개최",
+      "summary": "화성시동탄어울림종합사회복지관 위드하모니오케스트라, 제6회 정기연주회 성황리 개최",
+      "kw": [
+        "정기연주회",
+        "오케스트라",
+        "문화행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBodHNwdDVuSjFYeEo4QnpmN0ZWU081RXViSlVxUEtIeXNpNHEtblc4ZkkwWVdoOXdhbGYxWGRiNzBFMXNOTmVneFpoUzFpRlRpOEc2eGtqZDUzdEFSNjhoQzJLT0JBdw?oc=5",
+      "source": "화성저널"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "수원군공항 특별법 입법심사 돌입..화성시 “일방적 이전 반대”",
+      "summary": "수원군공항 특별법 입법심사 진행 중 화성시가 일방적 이전에 반대 입장 표시",
+      "kw": [
+        "수원군공항",
+        "특별법",
+        "이전반대"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE95Zm44cUlsU294c01kNm90MTRlTjRITlRQVEZNdnUwRGRUVmVVN3VDNVU2TXJyY3VubHlqVlZCbEtOb00zSlloUVhGLVdjV0dOYkw0OWJKb2xIVWxUUTFQdGFSMFVwSzhR?oc=5",
+      "source": "일간경기"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시의회 정례회 개회…6조1625억원 예산안 심사",
+      "summary": "화성시의회 정례회 개회, 6조1625억원 규모의 내년 예산안 심사 시작",
+      "kw": [
+        "정례회",
+        "예산안",
+        "의회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5YNGxCWFB5WkU5d0llZ1h4MWc4bVpxSzh5eFdNMUNUZ1VNZmhlNjl0NnZJLTA2UzlDU1BINWlMNk91RC1DSjAtRHJwQUJiR2R5WnltSHphVUFtVlV0VDBCN0VuNUNsYjAy?oc=5",
+      "source": "일간경기"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시의회, 32일간 정례회 돌입…6조1625억 내년 예산안 심사",
+      "summary": "화성시의회 32일간 정례회 개최, 6조1625억원 내년 예산안 심사 진행",
+      "kw": [
+        "정례회",
+        "예산안",
+        "의회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBlV05qRXVsM1hnREdWMndxMEdicXpEb3RPSEFMNm12bWZPOVNkYW9VWVl2UWktdDN0ZE1aelpuYlBFVlBYLXZwaUVqaFR6RnhUdzNqY1BaeGpOYjlTQ1VuLUQxQVI2cGVTSlhRV21TOFR6ekVIT1o3RklSUFo?oc=5",
+      "source": "비욘드포스트"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "부천시와 화성시 자매결연 30주년 맞아 공직자 교류 확대",
+      "summary": "부천시와 화성시 자매결연 30주년 기념해 공직자 교류 확대 추진",
+      "kw": [
+        "자매결연",
+        "교류",
+        "공직자"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1kMmNSc2VqWXZZQXZucUVNOV8wYjJrZk9RamdNNWM2YzZBS21ZVl84QkR3WTlmSUUtaUU1X1JTWmVjS0NQdGhsejBDUjhTNGdOTl9EcUpuOUtaN2ZOc1ZXZmdB?oc=5",
+      "source": "CWN"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "이계철 화성시의장 “수원군공항 이전, 시민 동의 없는 강행 안 돼”",
+      "summary": "이계철 화성시의장, 시민 동의 없는 수원군공항 이전 강행 불가 주장",
+      "kw": [
+        "수원군공항",
+        "이전반대",
+        "의장"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5qZTNfYjBMZ0J2dzM2MUFDS2k0ZHVxckp0ZEJaMk9wVVJNMkowRU5RN2IwdkNWcXR1SGkxQnUxZHRycVBpMXFTVER1THhiR25wTXZCX3RjeHNrUQ?oc=5",
+      "source": "데일리엔뉴스"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "“구급차서 AI로 심근경색 포착”⋯한림대동탄성심병원, AI 심전도로 치료시간 단축",
+      "summary": "한림대동탄성심병원이 AI 심전도로 심근경색 조기 포착 및 치료시간 단축 실현",
+      "kw": [
+        "AI심전도",
+        "동탄성심병원",
+        "심근경색"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFA0cGFZelFyZGxCUFl2YnBtczREVTl4bzhhMlc5LVQzeFl4Y1Z5QWthM1lJZmdEUEhBSFRBdl9MSk1UQQ?oc=5",
+      "source": "코메디닷컴"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "동탄호수공원 수놓은 시민 발걸음…화성특례시, 2027 전국체전 성공 개최",
+      "summary": "동탄호수공원 방문객 증가, 화성특례시 2027 전국체전 성공개최 준비 중",
+      "kw": [
+        "동탄호수공원",
+        "전국체전",
+        "2027"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9OcWt3eWhoWUsxU09ZVjJwMnc3UVJ0elV4NVJHd05HbmFRSmVOQ1hveXllUHB2Wjh6LTFnQVRQcWNUVGJGU2Y0Y1NCTTVkaVF3RmQ3T0JaR2t6aXJfLUJHc3hR?oc=5",
+      "source": "경기신문"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "화성시 민·정·관, 수원군공항 이전 반대 공동입장 발표",
+      "summary": "화성시 민·정·관이 수원군공항 이전에 대한 공동 반대 입장 발표",
+      "kw": [
+        "수원군공항",
+        "이전반대",
+        "민정관"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9uZzZJVzlJc1FPRHg1aTV6VWFLR3ZrNmUzWUFhZnZnZGtVYXV0QmhOY2pKRy1CTFVBNzNTd3dpTklOa0VlbGFwQ1BzWUFkN0ZKeGpmbnFRZFMwZ180cHZxSU9lQ0o?oc=5",
+      "source": "매일일보"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "GE헬스케어·동탄시티병원, 영상의학 특화형 커맨드센터 구축 추진",
+      "summary": "GE헬스케어와 동탄시티병원, 영상의학 특화 커맨드센터 구축 추진",
+      "kw": [
+        "동탄시티병원",
+        "영상의학",
+        "커맨드센터"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ndEpsbThhc3ozOEdTZHc0MnROQVVsZEFwNW11aW04Z29qMEZnLWZfck1ETHBoVGRfM2JzY29JckZUS0RLa0ZjSkxvQUEzcUR1T1dTOHh6bUtYSXNYbkVMdklVNnllNVRydXJaTnExa2g5Z0thaXlsbHFkd9IBe0FVX3lxTE5ndEpsbThhc3ozOEdTZHc0MnROQVVsZEFwNW11aW04Z29qMEZnLWZfck1ETHBoVGRfM2JzY29JckZUS0RLa0ZjSkxvQUEzcUR1T1dTOHh6bUtYSXNYbkVMdklVNnllNVRydXJaTnExa2g5Z0thaXlsbHFkdw?oc=5",
+      "source": "디지틀조선일보"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "화성시 민·정·관 \"수원군공항 이전 반대\"…국방부 용역 백지화 촉구",
+      "summary": "화성시 민·정·관, 수원군공항 이전 반대 및 국방부 용역 백지화 촉구",
+      "kw": [
+        "수원군공항",
+        "이전반대",
+        "국방부"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBTdndnRExnZGQ2NnFQelRLVXUxM3R5SmxiaG1kZ3p3ZDhwR2xlRWtaN1ozUFg1ZkRWTDNNSENBVHphakxudFBKUGVZa0tfS3kzM1BGV3REWFdBUVUxNFBNV1plR3V3RXdsZ1ZfVWd1QdIBc0FVX3lxTE9VQWI0Um80UnhpN1ZTZ2lOZThHS1dSNUdRSndqTlJzR2lRNmp3V1FsYnlWQ1N4Q3YwaFZhNXl5VzctYnBEc0RWYTJ5Wjc5STNmYjRZUFd0c2pnUmZBWGF5OEpldTJxQ3d3Qm1EVjJzTWJHd0U?oc=5",
+      "source": "뉴스웍스"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시의회, 제256회 제2차 정례회 개회…2027년도 예산안 6조1,625억 원 심사",
+      "summary": "화성시의회 제256회 제2차 정례회 개회, 2027년도 6조1625억원 예산안 심사",
+      "kw": [
+        "정례회",
+        "예산안",
+        "의회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0zWEhQNDh0a0dld1d3QnZ1ZUthaHk4SWE2Tm9ZSjVlUExrcmw4SVN1d2gyelo0cGhOdVBYcVdoREJhSWd1RW5Wdnk2LXIzUXNoS3FTczFLZ0ZGTXpBWHowVUdKZGZKTGJWaVZ5aXZR?oc=5",
+      "source": "현대일보"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "다시 불붙은 수원군공항 이전…화성시 \"결사 반대\"",
+      "summary": "화성시, 수원군공항 이전 계획에 대해 결사 반대 입장 표명",
+      "kw": [
+        "수원군공항",
+        "이전반대",
+        "화성시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40eTdDSU0teUlaQVdHSjVHTzg2WU9JN1JjMkVUX3NpdEFpWWp4VXQtc09xaml4ZUJkN2NvNzUtNVAwbkliTTBBV0xLeUFBeVk0RDh2b0ZMNHMweHdhUXRGOEhZUFpwcFh3UHh3NTJhWU8?oc=5",
+      "source": "SK브로드밴드 회사소개"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "화성시 민·정·관, 수원군공항 이전 공동 반대…특별법 철회 촉구",
+      "summary": "화성시 민·정·관, 수원군공항 이전 반대 및 특별법 철회 촉구",
+      "kw": [
+        "수원군공항",
+        "이전반대",
+        "특별법"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVSlBpOWktM19iWVhJV3pBNExUWWE5bzRFQk1jbzhFaTdoeURDb2JlWFpScHRjbXZkTGRQcG1ZeFNuNWE0TjZIWTB4Vzg5eEdVY2xsQTBvbGFOUQ?oc=5",
+      "source": "데일리엔뉴스"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시의회 고병태 의원, 동탄병원 조기 개원 및 건립 책임 강화 촉구",
+      "summary": "고병태 의원, 동탄병원 조기 개원과 건립 책임 강화 촉구",
+      "kw": [
+        "동탄병원",
+        "개원",
+        "의원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBxcm5pWVlIS2sycUdqdTJ5NU9ScUR5RUZBcXcydkM4eDJ2b2J2WmNTRG55S1R0bHlzQ1hNaEM1NW1fbk9VSTRtQTB4THZTNk1fN0dwOFhXZ3ZNTVE1VWFTcDhBWkFRaHVmbHpwT3Mzb2FGUQ?oc=5",
+      "source": "웹이코노미"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "화성시, 수원군공항 이전 특별법 반발…국방부 설문·주민 동의 절차 쟁점",
+      "summary": "화성시, 수원군공항 이전 특별법에 반발하며 국방부 설문과 주민 동의 절차를 쟁점으로 제기",
+      "kw": [
+        "수원군공항",
+        "이전",
+        "특별법"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE93V0ZVb3REMF9kWjg5T0pMc1Y4SUozUWc2V1M3blNFNEU0VGRoeHp4WWFZVnlyWHlLbEVkdmY3ZTNlR0tJRVdHd2lUTUN2QkxaVVRlWkYydS1sUjRTODVReTJ1WTViRU9C?oc=5",
+      "source": "광교신문"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "\"직장 가깝고 교통 편리한 곳\"…분당·동탄 등 청약 수요 집중",
+      "summary": "분당·동탄 등 직장과 교통이 편리한 지역의 청약 수요 집중",
+      "kw": [
+        "동탄",
+        "청약",
+        "교통"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9WajhHNklhRU9PSFphMGRLbkhkV1hkR1ZRU2NFVFlOZUcyNnBaaUZrZWRqZDBqODVZX1pmVFc5SFhZQlZsTEE?oc=5",
+      "source": "Daum"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "수원군공항 화성시 이전 반대 특별위원회, 민·관·정 공동입장문 발표",
+      "summary": "화성시 반대 특별위원회, 수원군공항 이전 반대 입장을 민·관·정 공동으로 발표",
+      "kw": [
+        "수원군공항",
+        "이전반대",
+        "입장문"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1xRkt2dGlVUDFUaWFfSWlnWDlXVFBTQnJ2LWd2OFJvVlBhelpzQ0xDNFdKbk5TMF9fSVl0cDdqd1FQejlDMXdOb0NVNkdIdDRveHRNYnRoY0lPUDNCMXIzaHBDb1IybGxuWnhPc0RIWXB4QQ?oc=5",
+      "source": "웹이코노미"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "교통",
+      "senti": "긍정",
+      "title": "전용기·민주당, GTX-A 삼성역 무정차 통과 동탄 주민들 교통 불편 해소에 조속한 시행 촉구",
+      "summary": "GTX-A 삼성역 무정차 통과 개선으로 동탄 주민 교통 불편 해소 촉구",
+      "kw": [
+        "GTX-A",
+        "동탄",
+        "교통"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1Zb1hveFE4NzVkeUdEZjVodVFDTXlJd25pOFR6RnR5WGNjUTVYN3FBNDNjQXZfeEo1UjMwNTBQWDRaS2RzNjZWSEZMb2JjdVBTUmRNZ3FOUGlwU3FselBhdWdDTlpOVmVNRDJQTktWMA?oc=5",
+      "source": "오토투데이"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "환경",
+      "senti": "긍정",
+      "title": "“유아용품 재사용으로 자원순환·나눔 실천”... 화성시여성단체협의회, 플리마켓 성료 > 뉴스",
+      "summary": "화성시여성단체협의회, 유아용품 재사용 플리마켓을 통해 자원순환 실천",
+      "kw": [
+        "재사용",
+        "자원순환",
+        "플리마켓"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5RZEpYanR4cWt6Rm9tVWV4OEtDQ0V0ZEJ1aFdZSnRBVmFDeGNrYnNGSEdfaHhSVkpVWkdlcmRFLWd2LTBMM2Q0TWtrRQ?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "군공항 이전에 혈압 터진 화성시, 연합전선 구축 전면백지화 촉구",
+      "summary": "화성시, 군공항 이전으로 인한 연합전선 구축을 전면 백지화 촉구",
+      "kw": [
+        "군공항이전",
+        "연합전선",
+        "백지화"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9yaTlxc2Vfak9COGxwYWgyN2pBbUdfTnUzcHpQNzBxYkVBSGJJRU96TkxRdWFNMFhTS01fMUpuVVhONmpFbWFBWjBkYlhWQ25zcUI3U2lJN2s2VjlGdmJpbw?oc=5",
+      "source": "NSP통신"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "LH, 화성동탄2 '바랑골 느티공원' 조경대상 국무총리상 수상",
+      "summary": "LH, 화성동탄2 바랑골 느티공원 조경으로 국무총리상 수상",
+      "kw": [
+        "동탄2",
+        "조경",
+        "느티공원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9YWWZ0MENUVlZWMFI3QmZTbXV1dEhvcldSVUJXZjRGX2oyQk94Tkw1M2tBTHI2aW5QbWhaVzZjb0pJRXFJWlIxdmEwSjFPREFZZ19Ma25vajNtSXk1d1liVTVzaDhYTDlaSmczTHFoRQ?oc=5",
+      "source": "비즈니스플러스"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시 첫 시립요양원 ‘실버드림센터’ 내년 1월 문 연다",
+      "summary": "화성시 첫 시립요양원 실버드림센터가 내년 1월 개원",
+      "kw": [
+        "시립요양원",
+        "실버드림센터",
+        "개원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5HODJyeXVGd1UteEgtNm0xT25zSGNLZnBwTmYxZjM2N3BMOGQteV9nUzN1ZGkzU192Z1ZVQUFhdU1Ec3BoYkppWllzNFUxQmdxZ2Vmd1UzUEtldmlYcTVWVmRvUmJuQmhsM0hRVzBB?oc=5",
+      "source": "아시아투데이"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시의회 고병태 의원, 동탄2 종합병원 조기 개원·건립 책임 강화 촉구",
+      "summary": "의원, 동탄2 종합병원 조기 개원과 건립 책임 강화 촉구",
+      "kw": [
+        "동탄2",
+        "종합병원",
+        "개원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE05dWdNSFVBNFEwdkY3OFpHTE9BWVRTUUZ4b3MtQncwUmgxc1ZnbEpqWXpUQ0h6Y2dZblBtUkpmOUNFWkpMME5NTjhoVkVGOTRKXy1qTUR1Z25YNXdvOU0yM3FVVVc2dlY1S04zMFBn?oc=5",
+      "source": "현대일보"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성시의회 유지혜 의원, 화성FC 유소년팀 지도자 징계 기준 마련 촉구",
+      "summary": "의원, 화성FC 유소년팀 지도자 징계 기준 마련 촉구",
+      "kw": [
+        "화성FC",
+        "유소년팀",
+        "징계"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1TbU9ITklwMThpMVc1d3dCTnYzTHVUUWZ4a0FORGlBZjhBd2hzZ1Jva2FwUThKeW5ZZVh5elhFSDR3Rzl4amZxUVZ6NGU5UnprTE83eWozU0JqaVhrRkt0UHNaNmU1aE8tenQzN2p3?oc=5",
+      "source": "현대일보"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "아이스크림에듀, 내달 동탄서 초·중등 고교 진학·입시 전략 설명회 개최",
+      "summary": "아이스크림에듀, 동탄서 초·중등 고교 진학·입시 설명회 개최",
+      "kw": [
+        "동탄",
+        "입시설명회",
+        "진학"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB4RXZGVUpDUkRnY2p4ZEdLRXhLbmVWVkh2eUNfd19Mek5QbHJVbFdpLXc4S0xnZ01IZGtxSzBSbkVjUWNFTUkxMFhTbE5Vd3MzNU1SbExYZ29wS2Zob2dzckJGUThMVEF6Tnc?oc=5",
+      "source": "컨슈머타임스"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "화성시, 수원군공항 이전 전면 거부…특별법에 숨은 ‘민간공항’ 쟁점",
+      "summary": "화성시, 수원군공항 이전 전면 거부하며 민간공항 쟁점 제기",
+      "kw": [
+        "수원군공항",
+        "민간공항",
+        "이전반대"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82M2p0NVpySXhuWlZuV1g4Wmt6Q2dBdmlaQnBuWVhyR2xXZzY2YlYyOEt0UWc2VjhjTERyWEJZbEZMVUU3VlZiYUlxZl9LTUJCdlEyS2JsUTU0YlRZb1d4MVdRNEZRMTk2Smc?oc=5",
+      "source": "OBC 뉴스"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "12차 농악 전승의 중심지, 남양에서 신명나는 한마당 ‘제17회 남양열두거리제’성황리에 개최",
+      "summary": "남양에서 제17회 남양열두거리제 성황리에 개최",
+      "kw": [
+        "남양열두거리제",
+        "농악",
+        "문화"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9MTm5zMWI3SkUwT2JrNlZwRHBqOXZXWEJMd2Q1UkpYRE1SY0JPWFZNSWhCOFNqSzFmUzFnMzc1Q2wtRmhfRmpoYjhnYXBCSmUwNmoxd3dJM29ObzVoMVVHSTZlZnhWdEJ6QmhMOW5QZw?oc=5",
+      "source": "뉴스파이어"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "화성시 민·정·관 \"시민 동의 없는 군공항 이전 절대 불가\"…강력 반발",
+      "summary": "화성시 민·정·관이 수원군공항 이전에 강력 반발하며 시민 동의 없는 추진을 절대 불가능하다고 선언했다.",
+      "kw": [
+        "군공항이전",
+        "수원군공항",
+        "반발"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0yWXJFTnZiNVNveHV2blY0NEpmWHJzbkVNWmhvSmpaV1MtRFVaRHo2N2xKRW5UTFJ5NFA4d1JTMTFpMHJEQXJWd09XMWpzaW1ZZFpEYURKOE9vcjY5YzY3T3F3SlptU29zdW0w?oc=5",
+      "source": "프레시안"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "[경기소식] 화성 민·정·관, 수원군공항 이전 반대 한목소리···특별법 철회 촉구 등",
+      "summary": "화성 민·정·관이 수원군공항 이전에 반대 입장을 모으고 특별법 철회를 촉구했다.",
+      "kw": [
+        "군공항이전",
+        "특별법철회",
+        "수원군공항"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE96MERaR002R0dJTXlNbWJtX29BZGVoa3JiQjFwWHpMbnNucVdtVDNqQ0hXRnN3REwyVHhYNll5dnRaZmxYR1NfanFoUXdJdzRFZVZMbVdSMHVqVTEyLUVXcFdzU1B6ZU5WTmc?oc=5",
+      "source": "서울파이낸스"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시, 전통연희음악극 ‘효자 최루백’",
+      "summary": "화성시가 전통연희음악극 '효자 최루백'을 개최한다.",
+      "kw": [
+        "전통연희음악극",
+        "효자최루백",
+        "문화행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE42SkIzbnRUb1NVZFBnT2FDZU8tQVBHdDBuVUZEem9Bc2hmVURSd0ZwUDd3OUo4eWJFX2ZOeVNEYU40dFRFN1lXTDNGRmJ5TGNEZ0dCTkFVemF0Vno3NHlNUEtUcnJKRzY3S1U5aWxB?oc=5",
+      "source": "현대일보"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "화성시 \"수원군공항 이전 반대\"…특별법 철회 촉구",
+      "summary": "화성시가 수원군공항 이전에 반대하며 특별법 철회를 촉구했다.",
+      "kw": [
+        "군공항이전",
+        "수원군공항",
+        "특별법"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAwOC0zMVpQd0RENVNUelFudmI5b3FoWmpqSzFhd1VSeGhkQlFSVzNsMDBLS3hnRkVObTliVEgyMUpRTjU1WTdoeE9xR2wwSUxZSzN4NFFB?oc=5",
+      "source": "뉴스1"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시의회 신동희 의원, 공동주택 장기수선충당금 적립 지원 촉구",
+      "summary": "화성시의회 신동희 의원이 공동주택 장기수선충당금 적립 지원을 촉구했다.",
+      "kw": [
+        "장기수선충당금",
+        "공동주택",
+        "의원발의"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9xbDN5VTBCT3pDcXZDYzhubzlWdWdqclVfMDMtU3NQTG1JaXZmejlTcnJzOTFiYjBJLXUzNlU0ajF4S0kxV2JlZmh0UWdSY2FqeFNxVTZBazlEVTlOOHNTSnlKUzJFTHNQMWEzQ1JR?oc=5",
+      "source": "현대일보"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시의회 송현미·이남근·이민희 의원, 비봉면·새솔동 상생 간담회 개최",
+      "summary": "화성시의회 의원들이 비봉면·새솔동 상생 간담회를 개최했다.",
+      "kw": [
+        "비봉면",
+        "새솔동",
+        "간담회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1RTmdMeGdJeDdjZ3VsT25QanM2dTVCaXNONzJ1cXNHQmRQLVdXSnQ4Z3hocmM1RERQQnBrX0Q0akNDbmVUaVNNYi1PMkNLaHF4THFtMmcyQjhaTnRJNnRCVmlpaERCUzdBY0JNZHp3?oc=5",
+      "source": "현대일보"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "환경",
+      "senti": "긍정",
+      "title": "화성 동탄호수공원, 주민 손길로 명소로 거듭나",
+      "summary": "화성 동탄호수공원이 주민 참여로 지역 명소로 거듭났다.",
+      "kw": [
+        "동탄호수공원",
+        "주민참여",
+        "환경개선"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5kU24xZll0UmRaa2xVQVk3SUcyMHdPQktsQTZoTXpOcUNYdkVrbkM0NWpUeGVoLTE3Zk1acmFSYjV4Q0xlc2o0WGNfZE1WZ01ndW15YktWejZNZTZDcjJWdHpYTVh3OGRlQnkyOWFWeHF1UQ?oc=5",
+      "source": "웹이코노미"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시, 촘촘한 초등돌봄 안전망 구축 위해 '다함께돌봄센터' 2곳 추가 개소",
+      "summary": "화성시가 초등돌봄 안전망 강화를 위해 다함께돌봄센터 2곳을 추가 개소했다.",
+      "kw": [
+        "돌봄센터",
+        "초등돌봄",
+        "복지"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBQOW9FVDhoTFBFaWNQTFBlVU45ajJPMUlERkZXTTZBTDNNelRjdlJVb0J5VV9keEJsdm56N1VHNkRwMXNNRWtQVHNEY091Q1lxMEl0Y3d1Y2c3M1Jy?oc=5",
+      "source": "뉴스핌"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "화성시 \"군공항 이전 일방 추진 규탄, 전면 백지화 촉구\"",
+      "summary": "화성시 민·관·정이 군공항 이전 일방 추진을 규탄하고 국방부 용역 백지화를 촉구했다.",
+      "kw": [
+        "군공항이전",
+        "용역백지화",
+        "규탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1qdmphQlg3Ny16anI3cmpnemx2b05mR1JpeWhXMVZGQS1TUFFHMjI4OXJfVm9yY2JMV3g1OHNEZXoxN3lDQUNDcEVUbzFfME54dXRCUy1xbGpvOVdBNWQtWEltb1FzcmNkcDd5aV93?oc=5",
+      "source": "OBS경인TV"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "화성시 민·관·정 “군공항 이전 절대 불가…국방부 용역 백지화해야”",
+      "summary": "화성시 민·관·정이 군공항 이전이 절대 불가능하며 국방부 용역을 백지화해야 한다고 주장했다.",
+      "kw": [
+        "군공항이전",
+        "용역백지화",
+        "민관정협력"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5GT0dkd0h6U2ltc1pOWG80QWpvckZMTzJoOG9rYXdEb2JISXdyQ2FIbWdwa3BGOVFQNHdEajhhd3M2VlZhN1FwZFRDaFZ6bHBlRzBQTnY5THlRcE9ReWc3MFpYUQ?oc=5",
+      "source": "쿠키뉴스"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "교통",
+      "senti": "중립",
+      "title": "조용호 오산시장, 화성시 물류센터 건립 공동대응 제안",
+      "summary": "오산시장이 화성시 물류센터 건립에 대한 공동대응을 제안했다.",
+      "kw": [
+        "물류센터",
+        "오산시",
+        "공동대응"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE43S3ZCUjFHYmV6Vm5DbTFPNHlTeFBYdVZZTEhqNWRqY0pKXzhfZVh3VHFkaVNxUnpuTGpDV1UxMThqODBsZEtlLVNaOG1aUWRVUm4wSG1VUkw4dGh2WGZkNg?oc=5",
+      "source": "NSP통신"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시의회, 제256회 제2차 정례회 제1차 본회의 개의",
+      "summary": "화성시의회 제256회 제2차 정례회 제1차 본회의를 개의했다.",
+      "kw": [
+        "화성시의회",
+        "정례회",
+        "본회의"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxON0t6Q0pnX2cybnJwcnQyQzQyeHZqaFJvbVRiQS1MLU92bERjNGZ2TUFoX0hoMHF6aGp6RC1FZmVDZm9qckdQVXpwLXBvOEtUcTF2STBxclE4NzFlQkJMZjhPUy1oR2Npemdlbi1IcWZkcGlpVDFoU0VCVHRKdU5oUUhjMGZMVHNhMThXS3lNRDdlcy1kNWpWYVVzaFZ5TWxhNmpoNUpfMmJrbkFDV0RtdFJSd0pnVTRKbmp6Q0pCSWUtbDZBdEg3R29iR1MySGlBTmE2YjBuNG13cTlUR2YwWVY1enh4MFc2NDBLV1pmYnROWkw1MWFF?oc=5",
+      "source": "데일리안"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "\"화성의 미래는 화성이 결정한다\"…화성시 민·정·관, 수원군공항 일방 추진 '강력 규탄'",
+      "summary": "화성시 민·정·관이 수원군공항 화성 이전 추진에 강력히 규탄했다.",
+      "kw": [
+        "수원군공항",
+        "규탄",
+        "민정관"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE01UUF5c1NKcVB3QjFnMHNFYWMwalFFUTZncEtabzJmX0lUUHc2VUVEOFRVZmxkZ0JfMDU1dEhwVGlLSkdmNHhtbVRSeExGVGdiNUliYVlVTXU5dw?oc=5",
+      "source": "파이낸셜뉴스"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "[경기] 화성시 민·관·정 \"수원 군공항 이전 반대\" 한목소리",
+      "summary": "화성시 민·관·정이 수원 군공항 이전에 반대 입장을 표현했다.",
+      "kw": [
+        "수원군공항",
+        "이전반대",
+        "민관정"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9pVkZxRjBERkgybWVaQUJxYjBHS2d3b1lCWkNZVFJUdVRSN2tVTzNDSG1sVzlzcFZjZ2tzUE5lb2Fzd2Y0TlRsOGNCb0xMNURLNFN1MWQtdHIzWGVuenc?oc=5",
+      "source": "YTN"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "화성시 민·정·관과 범대위, 수원군공항 화성 이전 규탄 공동입장 발표",
+      "summary": "화성시 민·정·관과 범대위가 수원군공항 이전을 규탄하는 공동입장을 발표했다.",
+      "kw": [
+        "수원군공항",
+        "규탄",
+        "공동입장"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5EMEQ5b3I2YmlyU2xtZWNuM2MtQWlYRXpiYWd5NHZzRkF0RnBHN1hmTTdYb1hlVGNLNzdqaVpZbEJCT3V4VWEtOGlOWHFRN1Nrc01pZFhQVUdKUDNx?oc=5",
+      "source": "뉴스핌"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "화성시 민·관·정 “수원 군공항 이전·특별법 철회하라”…공동입장문 발표",
+      "summary": "화성시 민·관·정이 수원 군공항 이전과 특별법 철회를 촉구했다.",
+      "kw": [
+        "수원군공항",
+        "특별법",
+        "철회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1MX29BbTNYM2I1RG5mX05OZlhOZENQSzZ3UC1JeUloMHZMYzd5eGl3SXpWcGV1b3pMdkdzbjZ2REFpQkVYTHUxeEVZSQ?oc=5",
+      "source": "뉴스체인지"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "교통",
+      "senti": "중립",
+      "title": "오산·화성시, 정남면 물류창고 교통·안전 문제 공동 대응",
+      "summary": "오산·화성시가 정남면 물류창고 교통·안전 문제에 공동 대응하기로 했다.",
+      "kw": [
+        "물류창고",
+        "교통",
+        "공동대응"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA2eF9DNHRKN29UN2pISkVBTnd2cFU2RWs2cnBUQWE1QWlabFBQZURHQTBvRjhydWhON0ZEMUVrQ3I2bnoyaTl3UEM2NDVEZk1JWURvcHdiUFJNQ3ZzNWdLTGdsWWRWLU1NSF9R?oc=5",
+      "source": "프레시안"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시, 시민 눈높이 맞춘 영상 콘텐츠 ‘으뜸’",
+      "summary": "화성시의 시민 눈높이에 맞춘 영상 콘텐츠가 우수하다는 평가를 받았다.",
+      "kw": [
+        "영상콘텐츠",
+        "화성시",
+        "시민소통"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9BWXp1cG5ha0I3OG1ZOEFuM3QwQnoxZUJSREZNazlody1vZHAwYVRSY0dGTkMzVENtNDBDbm1hUHByTVFUNFlIT1l6VlZzazczU3NScXBDeGQxRUlxeld1NVlTZExUQXRnbXkxdEZn?oc=5",
+      "source": "현대일보"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "화성시 민·정·관, 국방부 갈등관리용역 전면 백지화 등 촉구",
+      "summary": "화성시 민·정·관이 국방부 갈등관리용역 백지화를 촉구했다.",
+      "kw": [
+        "국방부",
+        "갈등관리",
+        "백지화"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNZzRFR1Z4T3RmRmRJME5MX1JHSHJJMGxPTzVtNW4wajBlZC1qeWFtZTVyc1ZnRWFXRjl3VGFBNTdSYXZMNTZkd3gyUjg2X2xjYllRbEhPU2tHSlpoVGhpYWRFZW9xbjAxVVkydjA4bVJSUURRZmNhVC1tZ3AyOVhWU0RuY0RHVTZnclEzOHI0V2lraHgtMFpiWl95bmRNLU56czA5dUFSUE9Eb1I2RmtkRjVXeVgzNmMyOUpxMGlsTjhQNVhqcGo3N194cnBFS2JTR3pFcjZzUUxRdy1YR3pwT1hHS2xMYU1MbjF3Y2ZSWlNTUmlrTUx0TGVTcnA4OU54TkFUcTcxZmFiRGFpSFpEQi02VjlEcTNuVTQ3WWt0QmtrN1k?oc=5",
+      "source": "데일리안"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "화성시의회 민·정·관, 수원 군공항 이전 반대 공동 대응 결집…“시민 뜻 배제한 추진 안 돼”",
+      "summary": "화성시의회 민·정·관이 수원 군공항 이전 반대에 결집했다.",
+      "kw": [
+        "수원군공항",
+        "이전반대",
+        "결집"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE11aXpYbW1JaWMycUJTMXB0eE5FVHRZNFZ5V081aF9KMi1ZY2FDNWVEZllmVTN2Vmd5WmxoV19ncnlxRjFtUlZkWXFySDFqNWdsUkFxNEpVbWwxS3VKaEd1bG03d0JTQVlxOHdjUENR?oc=5",
+      "source": "투어코리아"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "(사)화성시기업인협회 회원사 ‘다예랑’ 청년농업인 황용훈 대표, \"전초인삼 농업의 새로운 미래를 열다\"",
+      "summary": "화성시기업인협회 회원사 청년농업인이 전초인삼 농업의 새로운 미래를 열고 있다.",
+      "kw": [
+        "청년농업인",
+        "인삼",
+        "농업"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5mWDJma0NpUjFXQXZ1ZE9RSlZaMHZydjR2OGpYcEFrOXJLa3ktX0diUjR2S215Nm5RZDZseWkyU3ItQQ?oc=5",
+      "source": "화성인터넷신문"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "모차르트 '마술피리'의 변신…화성시문화관광재단·수원대, 현대적 무대 구현",
+      "summary": "화성시문화관광재단과 수원대가 모차르트 마술피리를 현대적으로 무대화했다.",
+      "kw": [
+        "마술피리",
+        "문화관광",
+        "공연"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1rZnBZU3VVdGNidjIyVmhzazlocnpuMWc1OFV3OUlkdTVVM0pVMXpIZDhJdWxjQUZPRkVBVUhJWHBUUHZhUTFqNk5MOFJXZ2U4RWZES2JfNFRzaW9UdWNIOGlPRGxuVHZ2N3Uw?oc=5",
+      "source": "내외경제TV"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "교통",
+      "senti": "중립",
+      "title": "오산·화성시, 덕절리 물류창고 교통대책 공동대응 ‘의기투합’",
+      "summary": "오산·화성시가 덕절리 물류창고 교통대책에 공동대응하기로 했다.",
+      "kw": [
+        "물류창고",
+        "교통대책",
+        "공동대응"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE94ZFpOaW5VUWJ4bU5ZNFZfRjBwVG8wMXBMQy1UMXVtb2M2NVZ4QzFPb1N2N0VURzFLN0E4N1ozV0ZmdTlzV0pVX3k0T0JWUEFRLUpUWmViRXktQ3pGbkQwcWdocE0wWGtmRlliV2d3?oc=5",
+      "source": "아시아투데이"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "\"시민 결정권 침해\" 화성시 민·관·정, 군 공항 이전 반대 한목소리",
+      "summary": "화성시 민·관·정이 군 공항 이전 계획에 반대 입장을 표명했다.",
+      "kw": [
+        "군공항이전",
+        "화성시",
+        "반대"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcFdzZ2w2TG5yYlRuenJ1LVY0OVhPUmdtMFRscThmV0d0ODhTa3NjMWdXbW9Nal9ScTFCZlhDMWFFeV9pN1pURXVRVGFuVjBxMTY5RWhtZkNWWEQ5QXBkc3ktOG5FZHZMcDc4dTZQZkZqZU5DWTA5clR6b2U2enNYMw?oc=5",
+      "source": "m.edaily.co.kr"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "교통",
+      "senti": "중립",
+      "title": "조용호 오산시장-정명근 화성특례시장, 화성시 정남면 ‘물류창고’ 교통대책 공동대응 방안 마련 협의",
+      "summary": "오산시장과 화성특례시장이 정남면 물류창고 교통대책에 대해 공동 대응 방안을 협의했다.",
+      "kw": [
+        "물류창고",
+        "교통대책",
+        "공동협의"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE54dlgtcVlQS2JPcXY4TVJKdzBJMHlSZzhKSlZYR3lZeGxWZ3U0TXdsQUg5b09md0pBX2sxSXhBek1RVU12RFFYLXN4SndZSUdaR09nUmtYMzBpYndYSmhtYjNGOUlGUUJRaGw2TWVFR1N0UQ?oc=5",
+      "source": "스포츠동아"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시 민·정·관, 16일 경기국제공항 반대 촉구 공동입장문 발표",
+      "summary": "화성시 민·정·관이 경기국제공항 반대 입장문을 공동 발표했다.",
+      "kw": [
+        "경기국제공항",
+        "반대",
+        "입장문"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1OalkwSkNxbElCTDRBbkk0bmR4TUFHOXRPX19QS2N2bHZFWjRHR3BwX2M1TG4tT0JYcjhkMUU3SG16MGZYb3NHc2lEQlZCdzNjckgxeWpZQU9sY3dDZEdYUC1NX0JieVQ1enFNMlBLUQ?oc=5",
+      "source": "기호일보"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "화성 동탄구보건소, 화성소방서와 산후조리원 8곳 소방·안전 합동점검",
+      "summary": "화성 동탄구보건소가 산후조리원 소방안전 합동점검을 실시했다.",
+      "kw": [
+        "산후조리원",
+        "소방안전",
+        "점검"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBud1U2OTJIQjBWNDhTUENnVlV0SWVoeF90T180cHh3OXBILXBDNXlROS00YWJ4TXJ0OHlOaVBTX0E0a2dXSXYyYWxQN0J3Mm40X3lVdTI2T3NudmFNbG9QSGQwbDc?oc=5",
+      "source": "매일일보"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시, 수원군공항 특별법안 철회·경기국제공항 반대 촉구 입장문 발표",
+      "summary": "화성시가 수원군공항 특별법안 철회와 경기국제공항 반대를 촉구했다.",
+      "kw": [
+        "수원군공항",
+        "경기국제공항",
+        "특별법안"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1mLUpzZ2tuU2IyMDZubk1vRXYxTEh3c0FNNEtucTJwSmhITzBSbGNIV1RWZVpzaWxnVlVZS1J5M296WU5IczRabEppSGRORVI3LWJPSlN1RGFtYjZGWjRWdXJvZG1YMW9l?oc=5",
+      "source": "환경일보"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "삼성전자, 평택·동탄 '연말 영화관' 통째로 빌린다…왜? - 머니투데이",
+      "summary": "삼성전자가 평택·동탄 영화관을 연말 사원 복지용으로 빌린다.",
+      "kw": [
+        "삼성전자",
+        "동탄",
+        "영화관"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9OMjB0Zjg5Vm9odWJ5RG5ZRjY4UGFZcXJlMjhVelpaZ2I0aTZCZG9rT1lQQ2h5dkxBQVdPRWRzNFF4STFXZE9EYzdoWUNxWVpfRmRBR1dXOTJyMVp6clNhcHdLSDg3aXNZeVZNbdIBckFVX3lxTFB4WmVXWEVnQWxfYmU0LVUxQTB3dDVxckRaLWtQSUdiZnZJVTQtRnZzamMzUWh4VmJoT2ExeTNwYVkweWMyeUxVUXA5NHhsbE9zZFBHcmh0TWRLSUlWMWhVMmhuUjM4b2wyNUltU29sYnVpUQ?oc=5",
+      "source": "머니투데이"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시의회 수원 군공항 이전 반대 특별위원회, 공동입장문 발표 동참",
+      "summary": "화성시의회가 수원군공항 이전 반대 특별위원회 공동입장문에 동참했다.",
+      "kw": [
+        "수원군공항",
+        "특별위원회",
+        "입장문"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA1VzU1NURKOGNySlprcGdWUHpqN3NHMEJadTRjTEpZN19WVk45VFZ2bGFHcGlnLVhVR0NyaDQwLVNXQmtjbUo5OWhycHJWYWczdGM0MmdkOEtiRFRpU1ZUdVlGZkg?oc=5",
+      "source": "매일일보"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "반도문화재단, 28일 동탄에서‘멜라니 아마로’초청 라이브 콘서트 개최",
+      "summary": "반도문화재단이 28일 동탄에서 멜라니 아마로 초청 콘서트를 개최한다.",
+      "kw": [
+        "멜라니아마로",
+        "콘서트",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAxeG1MSk10UHhvTG90aDJRVDRHNWVQSFptLVRfcHpkazg3cFh5b2h0OU1jeVVYWjdpcXNOeFV5eDdBby1PTkt4SWEzZ0l1RURrTENJQ202SHZ1T21teWNrVVNHeWc1N21VNjhYNzhoYw?oc=5",
+      "source": "이코리아"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "수원 군공항 이전 재시동에...화성시 총력 저지 선언",
+      "summary": "화성시가 수원군공항 이전 재추진에 총력으로 저지하겠다고 선언했다.",
+      "kw": [
+        "수원군공항",
+        "이전저지",
+        "화성시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE94ZlM3aHRqeG90SVJ3X2FLcVRQazNMbV9fMkg3UmhVNnlzOGs3SlhlbV9GZFhaWTIyLVZBQTRwTjhmMW9zX2lLM2UxV0lvT0lScUNiQ0E4ekdaTWdYRWNWZ0hMdk9QNTFTT09NUHFWMA?oc=5",
+      "source": "YTN"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "반도문화재단, 美 오디션 우승자 멜라니 아마로 동탄서 무료 콘서트",
+      "summary": "반도문화재단이 미국 오디션 우승자 멜라니 아마로의 무료 콘서트를 동탄에서 개최한다.",
+      "kw": [
+        "멜라니아마로",
+        "무료콘서트",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5rRE9SS2MxZVowV0NCRVp2Qmd4Rmx3YlNfbVBKOWdnSW1OV0ZnNXlUQjlyOXZtaTVTZ3MtUEhqdU05STZ4MmxNVzJ6UzFvbmZ2d1pVZ3RnUVlWTkZBLWNEbjNlRG5oWXB1dHRhOHpkUWxRaVVURXQxQUNKS1g?oc=5",
+      "source": "한국금융신문"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "시지바이오 화성 '노보팩토리', 미국 FDA 인체조직 현장 실사 '지적사항 0건'",
+      "summary": "시지바이오 화성 노보팩토리가 FDA 인체조직 실사에서 지적사항 0건을 기록했다.",
+      "kw": [
+        "노보팩토리",
+        "FDA",
+        "지적사항"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE16YS1uS1RON3RPMXZ3dndKb3ZhNi1QYjByUUhKdTBadk12LUZZXzRhUzFiSnotQzQ5ZUFJb01mYk50dE42cGk3bi1kbHlMVXV5dmQwR1F1VC1xaHJrdDRFY3U2dU9QR2ctVjJnWA?oc=5",
+      "source": "팜뉴스"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시청소년성문화센터, 느린학습자와 함께하는 체험형 성교육 운영",
+      "summary": "화성시청소년성문화센터가 느린학습자를 위한 체험형 성교육을 운영했다.",
+      "kw": [
+        "느린학습자",
+        "성교육",
+        "청소년"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9XTTNONlkxWk1JSGlMVWdyWmxxdlVzbWhCZ3hSem1SM2ZIVWtyQUlEMzA2Xzhhd0tZWjhNSVJkNHoxUVJCSWIxY0pFR19lanpVLVZ4TWxKOTU2UjFxSVVlUERUZ255Zw?oc=5",
+      "source": "화성저널"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "[심층분석] 반도건설, 동탄 지역 문화 인프라에 글로벌 팝 공연 접목…기업 문화재단의 사회공헌 역할 확대",
+      "summary": "반도건설이 동탄 지역에 글로벌 팝 공연을 접목해 문화 인프라를 확충하고 사회공헌을 확대하고 있다.",
+      "kw": [
+        "동탄",
+        "문화인프라",
+        "사회공헌"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBvX0cwZEd6SjJhMTFnM0puSlZSZTBKNk9McEdMeUFiZ2lwd3RGNFZxczlKSEE3Q2d3RHhBM1pfMEZRZ0pFdXRYTFRCMDM5N1FrMEdPX1RmS0FEZkpFeE5sUVd0eXJGTHA3Mnc?oc=5",
+      "source": "뉴스밸류"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시어린이문화센터, 19~22일 아동권리주간 운영",
+      "summary": "화성시어린이문화센터가 19~22일 아동권리주간을 운영한다.",
+      "kw": [
+        "어린이문화센터",
+        "아동권리주간",
+        "아동"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBSd29jUXFjYTZHSFpzdWU3QjZ3Z0JZSWdxODdjcGdwQzg0WWJhZGdxQms4WERoQll5a2wtVHhHblRSbjd0VWtkcDVnZDhWRWhEN1pQdzV1SGx2Nl9zVm5CY1dR?oc=5",
+      "source": "경인미래신문"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "동탄성심병원, 병원 전 AI 심전도로 심근경색 ‘골든타임’ 확보",
+      "summary": "동탄성심병원이 AI 심전도로 심근경색 환자의 골든타임 확보에 앞장서고 있다.",
+      "kw": [
+        "동탄성심병원",
+        "AI심전도",
+        "심근경색"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBWWWc1X2x5SmsybWVlMDFwMjIyQjZjQmFVYmRCUlI5NVp5aHBFU2lLRGhQQW1tNGR5ZnJJUDBBSXdvVTJrdzBBYmJJR2xMaVV3enV4bDJWLS0zVVZKUVlVdEgxMm5fWE5vTG91amNOaC0?oc=5",
+      "source": "medicalworldnews.co.kr"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "반도체초격차…경기도는 '큰 그림' 화성시는 '현장성과'",
+      "summary": "화성시가 반도체 초격차 추진에서 현장성과를 내고 있다.",
+      "kw": [
+        "반도체",
+        "초격차",
+        "산업"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5tOGFYQ2tzUElKdHM3RmFWYWZuSy1sSVVkNlc4Wnc1X2NFMEFsbXpJcTYzN19PdGJ6NGw4NU5DRTRVRjhYVk9XSkZnM3BUbVYta3VrR2gwcl9OaWVDRURhYtIBeEFVX3lxTE53Um83UjFQWFNLNmdHVUJSUnoteVhicThhajR2QjdrY3ZSYWl3aHFlbjF0SEh2SkFWWnZqWkRDX3dLeXdyU3A2Y2lqY0EzT2pZRDloYzB6SEZraXZqZVVWTk1kTlA1ZTBEc0JRR0ZleFpaNkpINWJwTA?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "화성 동탄구보건소, 산후조리원 8곳 소방·안전 합동점검 실시",
+      "summary": "동탄구보건소가 산후조리원 8곳에 대한 소방·안전 합동점검을 실시했다.",
+      "kw": [
+        "동탄구보건소",
+        "산후조리원",
+        "안전점검"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9peTd3dWRUaUh1WmZ2OFppdUxzYTNkM3ZSZEFaTEFKc3dvaFdzZWlsenRwaVJFcGpWeko2dXo1WWZTMko1SEo1dGhxbmw1ZXZkRFB3RU1XTmszRUYzTXlHWmR3?oc=5",
+      "source": "경인미래신문"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시 정치권·시민사회, 수원 군공항 이전 반대 한목소리…공동 대응 강화",
+      "summary": "화성시 정치권과 시민사회가 수원 군공항 이전에 반대 입장을 모으고 공동 대응을 강화하고 있다.",
+      "kw": [
+        "수원군공항",
+        "이전반대",
+        "공동대응"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5xZXZkWl9YM2hfZ2ZzamJUWmJjQ29GLURMOXdiUHVLTWx3YURpUmVjdnlkMmpUSzhDVkRpcG9VYk1UQWFCNlM0aHctaXFYRWZUSVNZaHN1elBrNU41eFBvbkx3?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "화성 동탄구보건소, 하반기 산후조리원 지도·점검",
+      "summary": "동탄구보건소가 하반기 산후조리원 지도·점검을 실시한다.",
+      "kw": [
+        "동탄구보건소",
+        "산후조리원",
+        "점검"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0td0JQV0VFYTR1aDFWenNkQ3NxazJ4QXBWTXJVT3VkU2d4NlhuMU53cHIzOXdKcU5uYndYOWV5UnVPU3B6LXhuLWV5MUM5RmtkMmpKQVVJTzNveS1xZXdnT0NpZVItUG9sWXc?oc=5",
+      "source": "경기도민일보 미디어"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "화성특례시 동탄구보건소, 화성소방서와 산후조리원 소방·안전 합동점검 실시",
+      "summary": "동탄구보건소와 화성소방서가 산후조리원에 대한 소방·안전 합동점검을 실시했다.",
+      "kw": [
+        "동탄구보건소",
+        "산후조리원",
+        "소방"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5TejhDd1JUN0tKTmNKcjFqWUcwb3B0X0N4dm5YNVRzQmJ1MzJpMzA4ZTdlU1Bza3lNdDkzYzZVS1VjQQ?oc=5",
+      "source": "화성인터넷신문"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시작은도서관연합회, '독서국가시대, 작은도서관의 역할' 독서진흥포럼 개최",
+      "summary": "화성시작은도서관연합회가 작은도서관의 역할을 주제로 독서진흥포럼을 개최했다.",
+      "kw": [
+        "작은도서관",
+        "독서진흥",
+        "포럼"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBTel9OMXVxSmxMXzZ6VGlnakgzV1IzMTJGb0lBNE5EdjdxLVNUUG5rWUZTY2RrTTZnUmVhSHFqanlnd2pGY3VlRXNLcURidzZFV0txTWN1XzNQLWNfU2FITS1Gdw?oc=5",
+      "source": "비전21뉴스"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "【기획】 배양동 조합 ‘힐스테이트’ 모집.. 화성시, 실효 이후 무엇을 확인했나",
+      "summary": "화성시 배양동에서 힐스테이트 모집이 진행되고 있다.",
+      "kw": [
+        "배양동",
+        "힐스테이트",
+        "조합"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE15aGZWNGdzZVBsdTN1OTA0U3hiZnJuOWR0b3hpNVhubzZPamMxaGNUOVc3NXVkMFVBZC1CMUF3NG5COVNw?oc=5",
+      "source": "화성 투데이"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "영화보고 책 읽으며 ′어린이권리′ 배운다...화성시의 특별한 나흘",
+      "summary": "화성시에서 영화와 책을 통해 어린이들이 아동권리를 배우는 행사를 개최했다.",
+      "kw": [
+        "어린이권리",
+        "영화",
+        "독서"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE00cHUzSXRiVmlIMl8tQUtUbzRPYWJpbWR0a2VzeDc1VWs4Y0JNRGFYWFgzUFlza3V5b2RTbXIzekdJT01fQUNGNlFSQ3A0bGZudng0NjdpY9IBU0FVX3lxTE11MXJ2Xy1SdnU4MzF3VEdKRGVvd2NDeWw0N2h1TzVaUmtXVERhV3NvUktkX0YxNnRUS1BfOUlYMkFqaklLYkhEOE9UdkNXVTZBc0Ew?oc=5",
+      "source": "KPI뉴스"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "화성특례시 동탄구보건소, 산후조리원 소방·안전 합동점검 실시",
+      "summary": "화성특례시 동탄구보건소가 산후조리원 소방·안전 합동점검을 실시했다.",
+      "kw": [
+        "산후조리원",
+        "소방점검",
+        "안전"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9pbk1tVGNSbHR5ZURTTWVWdU41STMzYnN4X0FucDFURTRhek5DRWdqaFNJdzN6ZUlkZUFuMXZfcU53ZWRjamFqQmhnV2s1WVlrOVgtODE3WHNLVXFVNDNNOHJuaWVXRlZOOS1Cam9SOGpIZw?oc=5",
+      "source": "웹이코노미"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시작은도서관연합회, 독서진흥포럼서 작은도서관 역할 논의",
+      "summary": "화성시작은도서관연합회가 독서진흥포럼에서 작은도서관의 역할을 논의했다.",
+      "kw": [
+        "작은도서관",
+        "독서진흥",
+        "역할"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ITzNqME5lRWZOR2EyemdiLWowYXhaTm40SEJ2eDFsLXRfMWhVT2pYM2N2bl9nX1ppUjZZanBSRzd6TmZoMkQ4LXVUcjN0QUlRU2htMldSRG5EMmtENHZRR05NQ18?oc=5",
+      "source": "매일일보"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성시, 관내 골프 동호인 화합의 장 ‘제17회 시장배·협회장배 골프대회’ 개최",
+      "summary": "화성시에서 제17회 시장배·협회장배 골프대회를 개최했다.",
+      "kw": [
+        "골프대회",
+        "시장배",
+        "동호인"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8yLWpfMWJxX1Q5S1dFYUlNQ3BuY2RzajJxM0luNXl4cmxOVy1BeU1FbU8zQU9VZ0hGdDAxYlJjd3FwQUVtNVkyREw4QTBQWWF2VFR1akVPY25qVkREM0VqeGhn?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성시어린이문화센터, '2026 아동권리주간' 나흘간 운영",
+      "summary": "화성시어린이문화센터가 2026 아동권리주간을 나흘간 운영한다.",
+      "kw": [
+        "아동권리주간",
+        "어린이문화센터",
+        "2026"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9KLW1KXzB6UnZHSkw2NWdEaTQ5RjJKcGhMM3ZZMDJHOHNiMHJWal9XbHVEdU1LRkVaYWxLamttdkJXQzZxTG53STl1MVN6UWlnSWJlTHNIR3gwWERxeDJqbmU0Qzk?oc=5",
+      "source": "매일일보"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시의회, 제256회 정례회 개회…32일간 행정사무감사·예산안 심사",
+      "summary": "화성시의회가 제256회 정례회를 개회해 32일간 행정사무감사를 진행한다.",
+      "kw": [
+        "정례회",
+        "행정사무감사",
+        "예산심사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBXLUxhU2laUWpGZkxuT0pJMUFpTmMzbmxlNXlQZExrdTNXV0owb1RBNkdqSE5MbExueFNMYkR0aXNWVkx4QjJBQ0VMdjZpeXJYUDlmV2N4Y0hhbDd2SHZ0czZn?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "교통",
+      "senti": "중립",
+      "title": "조용호 오산시장, 정명근 화성특례시장과 덕절리 물류창고 교통대책 논의",
+      "summary": "조용호 오산시장과 정명근 화성시장이 덕절리 물류창고 교통대책을 논의했다.",
+      "kw": [
+        "물류창고",
+        "교통대책",
+        "광역협력"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5IMTdMS0lFb1Q2d2hCNjJfQkdxS1RGcVlDa3dkOHRZNUszMFBtYTh4NEpwQ21LVDlDVEtoQXNKcWphSUpCNE9ZaHM3WmRsY050NFFsbzhKNl8zckhoX3JHVmFQaUw?oc=5",
+      "source": "매일일보"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시의회, 32일간 대장정 돌입…‘6조 1천억’ 내년도 예산 송곳 검증",
+      "summary": "화성특례시의회가 32일간 예산심사를 진행하며 내년도 6조 1천억 예산을 검증한다.",
+      "kw": [
+        "예산심사",
+        "예산안",
+        "행정사무감사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9NaUJBYW5tdTdyRjVmclhVLUl1UFU2LUFCdDBZSDFEQ2h6UTRmVXhZenVDSE92V21ROVhST0NyMHhQOWRNZnNOTHBJZkQ1OTh0cW5KdzdWb09tanVjSEdkejdn?oc=5",
+      "source": "경기신문"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "[화성시 농어촌민박 집중 취재 제1탄] '법정 기한 넘기고 '사전 통보'도 생략… 화성시, 정보공개 지연에 \"인사 발령 탓\"'",
+      "summary": "화성시 농어촌민박 정보공개가 법정 기한을 초과하며 지연되었다.",
+      "kw": [
+        "정보공개",
+        "농어촌민박",
+        "행정지연"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAyOXA0UFdBNE9Xb2ttaUY2UDZBU1NLQjNhQ0hrSUNGdjM2NHJZczJlNGotVlZtb1VJS2UwNHBsbzF1bTJmZERzbjVHYUVjVWxhWGNnTzZDYURfUHA5TS1LRDl5dTdRODF5U0NvUDhR?oc=5",
+      "source": "국제뉴스"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "[화성소식]화성시어린이문화센터, '2026 아동권리 주간' 운영",
+      "summary": "화성시어린이문화센터가 2026 아동권리 주간을 운영한다.",
+      "kw": [
+        "아동권리",
+        "어린이문화센터",
+        "문화행사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNazhLaTVRRW11TnZGYUhVcUtQS0lEVi1ZdzRTZGNzOGhhZTRTMVhlREdoZjFjSVlfUDJYNlhLR3RyWEJFN1hsM2oxb1BCbUR3UWo2WGM0Zjc4OHJra2s3OFZlSGU5NlNCcE4yOXloeURoQkRFbW5hY2JnRXpzWFpiNHRXSWRMTUtIVWRTZDNmdjhQNERUZXhJb3pTTFhhOEJoSjlOLW9LWXhyeVhCQUhqYjJPVEc0R0ZZLTRGY2JPZDgzNzllNUg5SHRNRkgxaXFzdEVnNmVuNDBQTEZMcmpOeW55SFhmczllY05ZQ2FMU2F3VVRjN19ZcnZGaHA2MHMwN0FCMGRaZ0N3bE5a?oc=5",
+      "source": "데일리안"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "영화와 책으로 어린이 권리 존중해요 화성시어린이문화센터, '2026 아동권리주간' 운영",
+      "summary": "화성시어린이문화센터에서 영화와 책으로 어린이 권리를 존중하는 행사를 운영한다.",
+      "kw": [
+        "아동권리",
+        "영화",
+        "도서"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1QVTQyb1BZSU02RU1uYTF5cmpMMGRZeV9Uc3REV3E2MnphSDJjWlpqLXRGWFEwaXBrTGhTQjQ1NUVScU1EZ3ZPSUJ0d3hfWEtlMHgtRUpoQmhaQVNlemx5RnZORUFqLXJjZ2M0TmpCcGlCUQ?oc=5",
+      "source": "웹이코노미"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "“청렴, 일상 속에서 즐겁게 실천해요”… 화성특례시, ‘찾아가는 청렴’ 홍보 행사 운영",
+      "summary": "화성특례시, 청렴 문화 확산을 위한 찾아가는 청렴 홍보 행사 운영",
+      "kw": [
+        "청렴",
+        "홍보행사",
+        "문화확산"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5pbTJZNlJLd3h1V20taHh5Z2haeXNPRXl0VXJQOGN3UHYyS0JIdFkxUXI2SkoxS3JzMXhKeVRvVllZV0I1dlNGdk1kYXZxbk1YdDF3UW5kS0E2bHhEc2h0by0tXzdxQU5IT2U4aVVn?oc=5",
+      "source": "서프라이즈뉴스"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "정명근 화성특례시장, 경기도 K-반도체 초격차 비전선포식 참석… 경기도와 함께 반도체 초격차 시대 열겠다",
+      "summary": "정명근 화성특례시장, 경기도 K-반도체 초격차 비전선포식 참석해 반도체 산업 협력 추진",
+      "kw": [
+        "반도체",
+        "초격차",
+        "산업협력"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5FVHVuRlFUSS1feWotdk9oZmh6Z1gwZ0tsUGpnemV1bTgxVFNIckUwQ0hzUWxGVlJ6bUZON3J0QXJLbWZhRFRnM3VZRFdUVVV3UWtKUXhKcUR2aW4zMVlDUFBVcWxQc0JseVpnUlRB?oc=5",
+      "source": "서프라이즈뉴스"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시장과 마주한 조용호 오산시장 “접경지역 추가 허가 자제해야”",
+      "summary": "조용호 오산시장이 화성시장과 접경지역 허가 자제 필요성 논의",
+      "kw": [
+        "접경지역",
+        "오산시",
+        "허가"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTF9sb0pZZ1hVSVpBQ1hBQWVFZzFrcUlFS3RYSWVlQTd6ZTFIQTVDV3hXdElhVXZUTS1GYVB1QkVkemlpbnZSS1liLTUtc2pMblFfblVuLVhMcERWeUg0aHByWFVPUmtTSmxWODNmWVE4aFN1eTVxLVFZZ1YwVGVCdQ?oc=5",
+      "source": "이데일리"
     }
   ],
   "dropped": {
-    "count": 48,
+    "count": 97,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
-      "남양유업, 베트남·인니 식품박람회 참가…수출 확대 추진",
-      "'생산 내재화' 나선 제약바이오…공장 신·증설 잇달아",
-      "남양유업, 베트남·인도네시아 식품박람회 참가… 동남아 수출 확대",
-      "경기도-경기관광공사, 말레이시아 기업 임직원 1,600명 방문 유치",
-      "남양유업, 베트남·인니 국제 식품박람회 잇단 출격…동남아 수출 영토 확장",
-      "남양유업, 동남아 수출 판로 넓힌다…베트남·인니 공략",
-      "남양유업, 동남아 시장 공략 속도…단백질 음료 앞세워 수출 다변화",
-      "범대위, 16일 민·정·관 공동입장문 발표... 국방부 용역 백지화·수원군공항 특별법안 철회·경기국제공항 반대 촉구",
-      "최원용 평택시장, 신안산선 안중 연장 타당성 검증 착수...서부권 교통망 확충 추진",
-      "[똑똑한한끼] 대상, 남양유업, 샘표 새미네부엌, 서울우유, 오뚜기, 삼성웰스토리, 동서식품, 하림, 빙그레",
+      "시지바이오 노보팩토리, FDA 현장 실사서 지적사항 ‘0건’",
+      "남양유업, 3분기 영업익 104% 증가…수출 확대·제품 다변화에 실적 개선",
+      "시지바이오, '노보팩토리' 美FDA 실사 지적 'Zero' - 머니투데이",
+      "삼진제약 오송공장, 주사제 생산실적 2배로 원료의약품 '추월'",
+      "매일유업은 수익성, 남양유업은 성장률…3분기 실적 동반 개선",
+      "남양유업, 3분기 영업익 전년比 104% 증가…분기별 이익 증가세 지속",
+      "남양유업, 3분기 실적 개선…영업이익 두 배 이상 증가",
+      "남양유업, 3분기 영업이익 104% 증가…매 분기 수익성 개선",
+      "경기도내 지자체·경찰 수능 앞두고 종합대책 시동",
+      "남양유업 3분기 영업이익 35억원, 1년 새 두 배로…매출 2576억원",
+      "남양유업, 3분기 영업익 104% 증가…3개 분기 연속 이익 확대",
+      "시지바이오 ‘노보팩토리’, 美 FDA 실사 ‘지적사항 0건’",
+      "남양유업, 3분기 영업익 104%↑…단백질·커피 등 성장 제품군 실적 견인",
+      "HLB제약 박재형 7년…매출 7배 눈앞·550억 투자 승부수",
+      "남양유업, 3분기 영업익 35억원...전년비 104%↑",
+      "남양유업, 3Q 영업익 35억원 '두 배'…\"성장 제품군, 실적 확대\"",
+      "남양유업, 3분기 영업익 35억원…전년比 104% 증가",
       "포토뉴스",
-      "남양유업, 'K-분유' 넘어 단백질·커피로…동남아 수출망 확대",
-      "남양유업, 베트남·인니 박람회 참가…동남아 수출 판로 확대",
-      "한신대, ‘2026 별빛페스타 꿈틀거리 ON’ 개최",
-      "'보신티' 특허도전 첫 심결서 각하…후발업체 3곳 제동",
-      "남양유업, 베트남•인니 식품박람회 참가…동남아 수출 판로 확대 추진",
-      "경기도교육청, 교육지원청과 함께 학교 공사현장 불법하도급 합동점검 실시",
-      "[주말뉴스 FULL] 한국금융연구원 \"반도체 호황에 내년 3.1% 성장…산업별 온도 차는 과제\" 外 10건",
-      "남양유업, '베트남·인도네시아' 박람회 참가… 해외 판로 확대",
-      "[어린이집·유치원 채용정보] 경기 민간어린이집 10곳, 보육교사·보조교사 채용 나서"
+      "남양유업, 3분기 영업이익 35억원…전년 대비 104% 증가",
+      "‘수출·단백질에 날개 달았다’ 남양유업, 3분기 영업이익 104% 급증"
     ]
   },
   "briefs": {
-    "all": "부정 보도 [[w]]715건(7%)[[/w]] 중 행정 분야가 [[b]]293건으로 압도적 다수[[/b]]를 차지하며, 2·3위 분야(안전 240건, 산업경제 72건)와의 격차가 큽니다. 11월 4일에 [[b]]41건이 집중[[/b]]되어 해당 날짜 보도를 우선 검토할 필요가 있습니다.",
-    "7": "최근 일주일간 부정 보도는 [[w]]36건(5%)[[/w]]으로, 행정 분야 19건 외에 안전과 교통이 각각 8건, 5건으로 비교적 분산된 양상입니다. 11월 11일에 [[b]]13건이 몰렸고 이 중 행정이 7건[[/b]]이므로 해당 날짜의 행정 관련 보도를 먼저 확인하시기 바랍니다.",
-    "30": "지난 한 달간 부정 보도 [[w]]223건(6%)[[/w]]의 70% 이상이 행정(119건)에 집중되어 있습니다. 안전(40건), 교통(27건)에 비해 현저히 높은 수치이므로, [[b]]행정 분야 보도의 구체적 내용을 중점적으로 검토[[/b]]할 필요가 있습니다."
+    "all": "전체 기간 [[w]]11,033건 중 741건(7%)[[/w]]이 부정 보도입니다. 행정 분야에 [[b]]319건[[/b]]이 집중되어 있으며, 안전 240건의 약 1.3배 규모로 압도적입니다. 2026-11-04에 [[b]]41건[[/b]]이 몰렸으므로 해당 날짜 행정 관련 이슈를 먼저 검토하시기 바랍니다.",
+    "7": "최근 7일간 [[w]]723건 중 52건(7%)[[/w]]이 부정 보도입니다. 행정 분야 [[b]]41건[[/b]]에 안전·교통이 각 4건으로 뒤따르면서, 부정 보도가 행정에 극도로 집중된 상황입니다. 2026-11-16의 [[b]]30건[[/b]] 급증분이 대부분 행정 이슈이므로 해당 날짜 보도를 우선 확인하시기 바랍니다.",
+    "30": "최근 30일 [[w]]244건(7%)[[/w]]의 부정 보도 중 행정이 [[b]]143건[[/b]]으로 절반 이상을 차지하며, 안전 38건·교통 27건과 비교할 때 행정 분야의 부정 보도가 현저히 많습니다. 월초 집중도가 높으므로 초반 행정 이슈 대응 현황을 점검하시기 바랍니다."
   },
-  "briefs_updated": "2026-11-16 11:40",
+  "briefs_updated": "2026-11-17 12:43",
   "issues": {
-    "updated": "2026-11-16 11:40",
+    "updated": "2026-11-17 12:43",
     "items": [
       {
-        "label": "화성시·시의회·시민단체, 수원 군공항 이전 반대 '공동입장문' 발표",
-        "count": 44,
-        "sources": 33,
+        "label": "화성시의회 민·정·관, 수원 군공항 이전 반대 공동 대응 결집…“시민 뜻 배제한 추진 안 돼”",
+        "count": 61,
+        "sources": 45,
         "first": "2026-06-22",
         "last": "2026-11-16",
         "cat": "행정",
@@ -139079,13 +140773,54 @@
           "화성특례시의회 수원 군공항 화성시 이전 반대 특별위원회, 국방부의 갈등관리 용역 추진과 수원 군공항 이전 관련 특별법안 발의에 대한 반대 규탄 결의문 발표",
           "국방부 수원 군공항 이전 용역에 화성시민 반발 > 뉴스",
           "화성시의회, 수원 군공항 이전 특별법 반발…사업 원점 재검토 촉구",
+          "“수원 군공항 화성시 이전, 절대 반대!”…화성지역 ‘뜻’ 모아 끝가지 함께한다.",
+          "수원군공항 시민협의회, 군공항 이전 특별법 서명운동…화성시는 \"반대\"",
           "화성시, 수원 군공항 특별법안 반대 공동 대응…국방부 설문 재검토 요구",
           "수원군공항 화성 이전 반대 '민관정 협의체 구성되나?'",
           "화성시의회-화성시-범대위, 수원 군공항 이전 반대 공동 대응 논의",
           "화성특례시의회, 수원 군공항 화성시 이전 반대 민관정 간담회 개최",
           "수원군공항 화성시 이전 반대 특별위원회, 민·관·정 간담회 통해 공동 대응 및 협력체계 강화",
           "수원군공항 화성시 이전 반대 특위 민관정 공동 대응 방안 논의",
-          "화성시·시의회·시민단체, 수원 군공항 이전 반대 '공동입장문' 발표"
+          "화성시 민·정·관 총집결…“수원군공항 화성 이전·특별법 즉각 철회하라”",
+          "화성시·시의회·시민단체, 수원 군공항 이전 반대 '공동입장문' 발표",
+          "화성시, 민·정·관 '수원군공항 이전 특별법' 철회 촉구",
+          "수원군공항 특별법 입법심사 돌입..화성시 “일방적 이전 반대”",
+          "화성시 민·정·관, 수원군공항 이전 반대 공동입장 발표",
+          "화성시 민·정·관 \"수원군공항 이전 반대\"…국방부 용역 백지화 촉구",
+          "다시 불붙은 수원군공항 이전…화성시 \"결사 반대\"",
+          "화성시 민·정·관, 수원군공항 이전 공동 반대…특별법 철회 촉구",
+          "수원군공항 화성시 이전 반대 특별위원회, 민·관·정 공동입장문 발표",
+          "[경기소식] 화성 민·정·관, 수원군공항 이전 반대 한목소리···특별법 철회 촉구 등",
+          "화성시 \"수원군공항 이전 반대\"…특별법 철회 촉구",
+          "화성시 민·관·정 “군공항 이전 절대 불가…국방부 용역 백지화해야”",
+          "[경기] 화성시 민·관·정 \"수원 군공항 이전 반대\" 한목소리",
+          "화성시 민·정·관과 범대위, 수원군공항 화성 이전 규탄 공동입장 발표",
+          "화성시 민·관·정 “수원 군공항 이전·특별법 철회하라”…공동입장문 발표",
+          "화성시의회 민·정·관, 수원 군공항 이전 반대 공동 대응 결집…“시민 뜻 배제한 추진 안 돼”"
+        ]
+      },
+      {
+        "label": "화성시, 수원군공항 이전 특별법 반발…국방부 설문·주민 동의 절차 쟁점",
+        "count": 2,
+        "sources": 2,
+        "first": "2026-10-15",
+        "last": "2026-11-16",
+        "cat": "행정",
+        "titles": [
+          "국방부 수원군공항 이전 여론조사 추진… 화성시 \"편파적 설문\" 반발 |",
+          "화성시, 수원군공항 이전 특별법 반발…국방부 설문·주민 동의 절차 쟁점"
+        ]
+      },
+      {
+        "label": "\"화성의 미래는 화성이 결정한다\"…화성시 민·정·관, 수원군공항 일방 추진 '강력 규탄'",
+        "count": 2,
+        "sources": 2,
+        "first": "2026-11-16",
+        "last": "2026-11-16",
+        "cat": "행정",
+        "titles": [
+          "화성시 민·정·관 한목소리…수원군공항 일방 추진 규탄 - 머니투데이",
+          "\"화성의 미래는 화성이 결정한다\"…화성시 민·정·관, 수원군공항 일방 추진 '강력 규탄'"
         ]
       },
       {
@@ -139113,36 +140848,52 @@
           "화성특례시 향남읍, ‘동 전환’ 갈등 격화! 주민 등 반발 집회",
           "화성 향남읍 동 전환 놓고 주민 반발…“생활 인프라부터 확충해야”"
         ]
-      },
-      {
-        "label": "화성 향남읍 동 전환 반대…주민들 생활인프라 부족 지적",
-        "count": 2,
-        "sources": 2,
-        "first": "2026-10-27",
-        "last": "2026-11-11",
-        "cat": "행정",
-        "titles": [
-          "화성시 향남읍 주민들 \"동 전환 반대, 인프라가 먼저\"",
-          "화성 향남읍 동 전환 반대…주민들 생활인프라 부족 지적"
-        ]
-      },
-      {
-        "label": "김용찬 경기도의원 “화성시 화재 안전지수 4등급 하락, 소방력 확충과 안전대책 시급”",
-        "count": 2,
-        "sources": 2,
-        "first": "2026-11-11",
-        "last": "2026-11-11",
-        "cat": "안전",
-        "titles": [
-          "경기도의회 김용찬 의원, “화성시 화재 안전지수 4등급 하락… 소방력 확충과 안전대책 시급”",
-          "김용찬 경기도의원 “화성시 화재 안전지수 4등급 하락, 소방력 확충과 안전대책 시급”"
-        ]
       }
     ]
   },
   "today": {
-    "updated": "2026-11-16 11:40",
+    "updated": "2026-11-17 12:43",
     "items": [
+      {
+        "label": "화성시 민·관·정 “수원 군공항 이전·특별법 철회하라”…공동입장문 발표",
+        "count": 14,
+        "sources": 14,
+        "first": "2026-11-16",
+        "last": "2026-11-16",
+        "cat": "행정",
+        "titles": [
+          "화성시 민·정·관 총집결…“수원군공항 화성 이전·특별법 즉각 철회하라”",
+          "화성시·시의회·시민단체, 수원 군공항 이전 반대 '공동입장문' 발표",
+          "화성시, 민·정·관 '수원군공항 이전 특별법' 철회 촉구",
+          "수원군공항 특별법 입법심사 돌입..화성시 “일방적 이전 반대”",
+          "화성시 민·정·관, 수원군공항 이전 반대 공동입장 발표",
+          "화성시 민·정·관 \"수원군공항 이전 반대\"…국방부 용역 백지화 촉구",
+          "다시 불붙은 수원군공항 이전…화성시 \"결사 반대\"",
+          "화성시 민·정·관, 수원군공항 이전 공동 반대…특별법 철회 촉구",
+          "수원군공항 화성시 이전 반대 특별위원회, 민·관·정 공동입장문 발표",
+          "[경기소식] 화성 민·정·관, 수원군공항 이전 반대 한목소리···특별법 철회 촉구 등",
+          "화성시 \"수원군공항 이전 반대\"…특별법 철회 촉구",
+          "[경기] 화성시 민·관·정 \"수원 군공항 이전 반대\" 한목소리",
+          "화성시 민·정·관과 범대위, 수원군공항 화성 이전 규탄 공동입장 발표",
+          "화성시 민·관·정 “수원 군공항 이전·특별법 철회하라”…공동입장문 발표"
+        ],
+        "score": 83,
+        "state": "확산 중"
+      },
+      {
+        "label": "\"화성의 미래는 화성이 결정한다\"…화성시 민·정·관, 수원군공항 일방 추진 '강력 규탄'",
+        "count": 2,
+        "sources": 2,
+        "first": "2026-11-16",
+        "last": "2026-11-16",
+        "cat": "행정",
+        "titles": [
+          "화성시 민·정·관 한목소리…수원군공항 일방 추진 규탄 - 머니투데이",
+          "\"화성의 미래는 화성이 결정한다\"…화성시 민·정·관, 수원군공항 일방 추진 '강력 규탄'"
+        ],
+        "score": 68,
+        "state": "확산 중"
+      },
       {
         "label": "균열 발견 1년 동탄숲 생태터널… 공사 방식 내년 2월에나 결정",
         "count": 3,
@@ -139155,34 +140906,8 @@
           "동탄숲 생태터널 균열 1년… 끝 안보이는 교통불편",
           "균열 발견 1년 동탄숲 생태터널… 공사 방식 내년 2월에나 결정"
         ],
-        "score": 73,
-        "state": "확산 중"
-      },
-      {
-        "label": "【단독】 의정활동에 외부 소득까지.. 화성시의원 5명, 이해충돌 검토해야",
-        "count": 1,
-        "sources": 1,
-        "first": "2026-11-16",
-        "last": "2026-11-16",
-        "cat": "행정",
-        "titles": [
-          "【단독】 의정활동에 외부 소득까지.. 화성시의원 5명, 이해충돌 검토해야"
-        ],
-        "score": 60,
-        "state": "신규"
-      },
-      {
-        "label": "화성시 민·정·관 총집결…“수원군공항 화성 이전·특별법 즉각 철회하라”",
-        "count": 1,
-        "sources": 1,
-        "first": "2026-11-16",
-        "last": "2026-11-16",
-        "cat": "행정",
-        "titles": [
-          "화성시 민·정·관 총집결…“수원군공항 화성 이전·특별법 즉각 철회하라”"
-        ],
-        "score": 60,
-        "state": "신규"
+        "score": 66,
+        "state": "진행 중"
       }
     ],
     "surge": []
@@ -139190,8 +140915,8 @@
   "ops": {
     "runs": 100,
     "days": 34,
-    "since": "2026-10-14",
-    "last": "2026-11-16",
+    "since": "2026-10-15",
+    "last": "2026-11-17",
     "failures": 0,
     "span": 34,
     "skipped": 0
@@ -139209,19 +140934,19 @@
     "note": "팀원 다섯 명이 기사 100건을 나눠 검수한 결과. 겹친 구간에서 한 사람이라도 「틀림」이라 했으면 틀린 것으로 셌다. 너그럽게 세면 분야 95%·긍부정 87%가 된다."
   },
   "keyword_notes": {
-    "updated": "2026-11-16 11:40",
+    "updated": "2026-11-17 12:43",
     "window": "최근 30일",
     "items": {
-      "동탄": "305건의 높은 기사량 중 [[b]]긍정 기사가 142건(47%)으로 대다수[[/b]]이나, [[w]]부정 기사 14건[[/w]]에서 사내대출 규제 회피 등 재정 투명성 문제가 지적되고 있어 주의 깊은 모니터링이 필요합니다.",
-      "향남": "150건 중 [[b]]긍정 기사가 67건(45%)으로 긍정적 평가가 우세[[/b]]하지만, [[w]]부정 기사 5건[[/w]]에서 산업단지 악취·소음 등 환경 관련 민원이 반복 제기되고 있습니다.",
-      "화성시": "136건 중 [[b]]긍정 기사 79건(58%)으로 호평이 우세[[/b]]하나, [[w]]부정 기사 5건[[/w]]에서 학생 안전과 수원군공항 이전 문제로 시 정책에 대한 비판이 제기되고 있습니다.",
-      "AI": "95건 중 [[b]]긍정 기사가 86건(91%)으로 압도적 호응[[/b]]을 보이며, 삼성생명 동탄 실증사업 등 산업경제 분야에서 화성시의 선도적 이미지가 형성되고 있습니다.",
-      "분양": "88건 모두 산업경제 분야이며 [[b]]부정 기사 0건으로 객관적인 정보 제공만 이루어지고 있어[[/b]], 분양 시장에 대한 중립적 언론 환경입니다.",
-      "롯데캐슬": "80건의 분양 관련 기사 중 [[w]]부정 기사 1건[[/w]]에서 산단 악취·군용기 소음이 지적되었으나, [[b]]전체적으로 부정 비율이 1% 이하로 매우 낮은 수준[[/b]]입니다.",
-      "아크메르동탄": "71건 중 [[b]]긍정 기사 23건으로 우호적 평가가 주를 이루며[[/b]], [[w]]부정 기사가 0건으로 분양 홍보에 우호적인 언론 환경[[/w]]을 보입니다.",
-      "복지": "66건 중 [[b]]긍정 기사가 61건(92%)으로 매우 높은 호응률[[/b]]을 기록하며, [[w]]부정 기사 0건으로[[/w]] 화성시 복지 정책이 대체로 긍정적으로 평가받고 있습니다.",
-      "동탄트램": "65건 모두 교통 분야 기사이며 [[b]]긍정 기사 55건(85%)으로 압도적 지지[[/b]]를 얻고 있어, 교통 인프라 사업의 언론 평가가 매우 우호적입니다.",
-      "MARS2026": "64건 중 [[b]]긍정 기사 61건(95%)으로 거의 모든 보도가 긍정적[[/b]]이며, [[w]]부정 기사 0건으로[[/w]] 화성시의 산업 행사에 대한 언론의 일관된 호평이 이루어지고 있습니다."
+      "동탄": "303건의 압도적 보도량 중 [[b]]산업경제 분야가 190건[[/b]]을 차지하며, 긍정 기사(142건)가 대부분이나 [[w]]부정 기사 14건[[/w]]에서 사내대출 규제 회피, 연구소 공실 임대료 등 기업 활동의 부실 문제가 제기되고 있습니다.",
+      "향남": "150건 보도 중 [[b]]산업경제 122건[[/w]]으로 집중되며, 긍정 기사 67건에도 불구하고 불법업소 단속, 위험 옹벽 철거, 악취·소음 영향 등 [[w]]부정 기사 5건[[/w]]이 주거 환경 문제를 지적하고 있습니다.",
+      "화성시": "137건 보도 중 [[b]]행정 분야 71건[[/b]]으로 주요 관심사이며, 긍정 기사 78건이 우세하나 학생 안전 대응, 수원군공항 이전 논란 등에서 [[w]]부정 기사 8건[[/w]]이 시 정책의 일관성 문제를 제기합니다.",
+      "AI": "98건 중 [[b]]긍정 기사 89건(90.8%)[[/b]]으로 매우 높은 호감도를 보이며, [[w]]부정 기사 1건[[/w]]에서만 AI 돌봄의 공공성 체계화 필요성을 언급하고 있습니다.",
+      "분양": "86건 모두 산업경제 분야 보도로 집중되며 [[b]]부정 기사가 0건[[/b]]으로 순수하게 긍정적(33건) 또는 중립적 분양 소식만 보도되고 있습니다.",
+      "롯데캐슬": "81건 중 79건이 산업경제 분야이며 [[b]]긍정 기사 34건[[/b]]이 대부분이지만, [[w]]부정 기사 1건[[/w]]에서 산단 악취와 군용기 소음 영향을 우려하고 있습니다.",
+      "복지": "67건이 [[b]]복지 분야 64건으로 거의 전부[[/b]]를 차지하며, [[b]]부정 기사 0건[[/b]]으로 순수 긍정 보도(62건)만 집중되는 가장 호의적인 키워드입니다.",
+      "아크메르동탄": "67건 보도 중 [[b]]산업경제 63건[[/b]]으로 대부분 부동산 개발 소식이며, [[b]]부정 기사 0건[[/b]]으로 순수하게 중립적 또는 긍정적 톤의 보도만 이루어지고 있습니다.",
+      "동탄트램": "65건이 [[b]]교통 분야로 100% 집중[[/b]]되며, [[b]]부정 기사 0건, 긍정 기사 55건(84.6%)[[/b]]으로 대중교통 사업에 대한 압도적 호감도를 보입니다.",
+      "MARS2026": "64건 중 [[b]]긍정 기사 61건(95.3%)[[/b]]으로 최고 수준의 호감도를 기록하며, [[b]]부정 기사 0건[[/b]]으로 산업경제 중심의 순수 긍정 보도만 이루어지고 있습니다."
     }
   }
 }
