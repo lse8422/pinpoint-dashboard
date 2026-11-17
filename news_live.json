@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-17 12:43",
+  "updated": "2026-11-17 14:01",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 10007,
+  "count": 10020,
   "items": [
     {
       "date": "2026-08-02",
@@ -138145,6 +138145,21 @@
       "source": "더퍼스트미디어"
     },
     {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "오산시",
+        "인덕원",
+        "동탄선"
+      ],
+      "conf": "low",
+      "date": "2026-11-15",
+      "title": "오산시, 인덕원~동탄선 '급전구분소' 타지역 이전 급물살",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5GOTNzR0VxclI0WklUWUJNMWl3eERJYWZYeXVGSTgyVDltRVlSYzd0RWhyVFc2YkF6NUVyRXN5X3ZCa2VMLW5zd1Y0V2NJNHd1cl90MUZqYjBpVjJPOFJPUUt3?oc=5",
+      "source": "경기신문"
+    },
+    {
       "date": "2026-11-16",
       "cat": "문화관광",
       "senti": "긍정",
@@ -140217,6 +140232,121 @@
       "source": "스포츠동아"
     },
     {
+      "cat": "안전",
+      "senti": "부정",
+      "summary": "",
+      "kw": [
+        "한림대동탄성심병원",
+        "경기소방",
+        "AI"
+      ],
+      "date": "2026-11-16",
+      "title": "한림대동탄성심병원·경기소방, AI 심전도 판독 보조 7개월간 872건 활용",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE14MGMyRi0xZlJXRXc4aTlCWGVodFg2NjVDT0tZVmluTG03V09IcC0tZnJMcFNEdkJlZjBib1dLZVlqMWhsZGVJNHdvdTN4WEZLNVhHVFVDbzBtSHRyRUl5MjZwUk1tWXZsdnY4Zi1BaXHSAXRBVV95cUxPbW1YbDlVaXVsWFFQMU5BV2dudDd0MU9ORXJ1d09lVzRXTGNiXzZoeEpVRHl0NnFqT3NfaEJwcVFPc2szY2pKMEVLakw2bXRTTTlIcnRJcEQzaFk3Wk5HdjZvWWMycFJGUVNpbVFleklVRmZsVw?oc=5",
+      "source": "주간한국"
+    },
+    {
+      "cat": "교통",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "의왕시",
+        "위례과천선",
+        "의왕"
+      ],
+      "date": "2026-11-16",
+      "title": "의왕시, 위례과천선 의왕 연장 주력…GTX·동탄선 연계철도망 구상",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBVOVBDWWFUWkNpRGlTWnR0NU0wcG5ERG0zWHJSQm0yeTBlN2tjb0xDTWg3bWVNX25CaUlMOVhNeGhUel9QWjdURWMyLS0wQUNG?oc=5",
+      "source": "문화일보"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "사천시",
+        "제17회",
+        "남양열두거리제"
+      ],
+      "conf": "low",
+      "date": "2026-11-16",
+      "title": "사천시, '제17회 남양열두거리제' 성황리에 개최",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hVjFwS3dSeTZyRmJuY3hZTXFBTjFpbEtMb3czZDhKOWtLLUlLUDZyNVdBb1NEQnZ2SHhuTnRtcWZwSXRad2dUTV9ja3NEck8zb29DNmJ0YmdFSURGdXFIdFAyWGRSTjFCRkN6cE9nVzNodw?oc=5",
+      "source": "경남뉴스투데이"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "왕숙",
+        "126대",
+        "동탄"
+      ],
+      "date": "2026-11-16",
+      "title": "왕숙 126대 1·동탄 100대 1···공공분양 열기 부천대장으로",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBkbk1zQURuRVRacEk1UFIxa3B4OGt4bTZrcVJRQktTQU9kNVdfRllySTgxQ01UUTZvcUx5a0FZSGRHaTZDQUdQZWxiWFJycmFjdVBDWXVPQWZfek1PV0tDUnZhWHdNX2dYZ3c?oc=5",
+      "source": "뉴스웨이"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "대형",
+        "쇼핑몰",
+        "몰세권"
+      ],
+      "date": "2026-11-16",
+      "title": "대형 쇼핑몰 옆 '몰세권' 아파트 강세…동탄역 롯데캐슬 22억원 돌파",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5hZVZHM000T0gwWXItZzBZRVpBYWxNbU9HdFZBUDlMVWdYblVpZzhSM1h2YklhTTBpVFM0V2Y4b3lvSE5NekNNaUZ1U09WSHdVMlFHa0Y0OGx2VGJQeDFMbHVDTlZLZC1GenfSAW5BVV95cUxPX0VzaW5tby0weW4zdGZGYmZxRGFJWmZ3aTYxU0JkSnZfdUdWZ21xdVBwS1VWam5ZbnFBeGxwWXF3bVZVU0hQdFlJbU9QVGd1ZG1vdEt5a19BMkVNb09GZFpFSUV3eDdndDFaOGkwZw?oc=5",
+      "source": "지피코리아"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "사천시",
+        "남양발전장학회",
+        "2026년도"
+      ],
+      "conf": "low",
+      "date": "2026-11-16",
+      "title": "사천시 남양발전장학회 2026년도 장학금 수여식 개최",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4xazVZNXZ1SDBWWUxBajlXNlI5NUFITG95YnF5bjJBLUwtYkNxejhjWEZnXzNQZWZsOEFpQXk2b0pjclBubUJ0aUhodkZ4TWFCd3hheUdWcHNVcUd5R2VYZzhfaDdfb053RHFlZHFmcDhnZw?oc=5",
+      "source": "경남뉴스투데이"
+    },
+    {
+      "cat": "산업경제",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "경기",
+        "아파트값",
+        "상승률"
+      ],
+      "date": "2026-11-16",
+      "title": "경기 아파트값 상승률 서울 추월…강남·서초 내리고 수원·동탄은 올랐다",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE54UnRGWU9fYkEwVm50eVQzSlFtWUZLQXdaWF9aMmdVN0Jac0dlRjhSTGxZamdCbU9WXzhEM1VCc1BZbkxTOUNaaFNiZ0dMbGthb2tYMDVIaHo4S1NpSl9VcXRXSFU?oc=5",
+      "source": "https://www.ppss.kr/"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "12차",
+        "농악",
+        "전승의"
+      ],
+      "conf": "low",
+      "date": "2026-11-16",
+      "title": "12차 농악 전승의 중심지, 사천시 남양에서 신명나는 한마당",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE55VHI5TG9FY3kycFE2MVZqa045WDktLW5oaURRcU1XcExQcjYyNDhYNzNxcXpVVkUtVmk1QU9sTVJHN3RNeXJLV0NIak9JYmJUenB4eVVLdmY3eFFPdktQbkpJVkxxNkM2b2JKbnl3?oc=5",
+      "source": "국제뉴스"
+    },
+    {
       "date": "2026-11-17",
       "cat": "행정",
       "senti": "중립",
@@ -140691,42 +140821,101 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTF9sb0pZZ1hVSVpBQ1hBQWVFZzFrcUlFS3RYSWVlQTd6ZTFIQTVDV3hXdElhVXZUTS1GYVB1QkVkemlpbnZSS1liLTUtc2pMblFfblVuLVhMcERWeUg0aHByWFVPUmtTSmxWODNmWVE4aFN1eTVxLVFZZ1YwVGVCdQ?oc=5",
       "source": "이데일리"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "남양은",
+        "회복",
+        "속도"
+      ],
+      "conf": "low",
+      "date": "2026-11-17",
+      "title": "남양은 '회복 속도', 매일은 '이익 체력'…엇갈린 유업계 라이벌 성적표",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9mdkdXWXFZaHN4NEo1WlduLTllekpUYXByUGROdzVpcWY4TXducFk3SU5UQVhDUDNjdTdOTThjdUpjbWJmRzREeC1TMlpIcGMzMFU3bGhENzNRdzhSOTBrSDg5blNOVjhZ?oc=5",
+      "source": "www.ebn.co.kr"
+    },
+    {
+      "cat": "행정",
+      "senti": "긍정",
+      "summary": "",
+      "kw": [
+        "사천시",
+        "남양발전장학회",
+        "장학금"
+      ],
+      "conf": "low",
+      "date": "2026-11-17",
+      "title": "사천시 남양발전장학회 장학금 수여식 열려",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBiNF9NWS1iMGZyU3hkaDJuS2dZTnJOLWRwQ0NIUFFsVExYcTlUUEhrMjRQYUhQdG90bm5hQVpIYUdRN0cxemJNU29vb1RhNXRPNkRUZnRIcHBhY3JYQ2V5X1ZLY0NoWS1waXc?oc=5",
+      "source": "경남도민일보"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "정명근",
+        "화성특례시장",
+        "개원"
+      ],
+      "date": "2026-11-17",
+      "title": "정명근 화성특례시장, 개원 앞둔 ‘시립화성 실버드림센터’ 현장 점검",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBBQWVZYXVSaDZWYkZCTVZQQTVXTnh5RDVLdS1vdnF3V1V4M1N2bTEzZmlBcVNZdXY4alAyd19JLWJhZWFZZ0lfSFhnSUF0QW1QSEFXdXYzd1c5RGVTSGV6eG1n?oc=5",
+      "source": "경기신문"
+    },
+    {
+      "cat": "행정",
+      "senti": "중립",
+      "summary": "",
+      "kw": [
+        "구리시",
+        "남양시장",
+        "봉사클럽"
+      ],
+      "date": "2026-11-17",
+      "title": "구리시 남양시장 봉사클럽, 수택2동 취약계층에 김장김치 50여 상자 기탁",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE82NGx2enNSNUlNWmJnVVQ0T3MzU0tpV2Rac3RtTmFBdkU4MjBFSzFnaV90TDZabGQtY0pQUzZodm1oVE04bTlMeGYydjRwZ0pERlJnUDR4dVg2V2dtOG0yT2lR?oc=5",
+      "source": "경기핫타임뉴스"
     }
   ],
   "dropped": {
-    "count": 97,
+    "count": 94,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
-      "시지바이오 노보팩토리, FDA 현장 실사서 지적사항 ‘0건’",
-      "남양유업, 3분기 영업익 104% 증가…수출 확대·제품 다변화에 실적 개선",
       "시지바이오, '노보팩토리' 美FDA 실사 지적 'Zero' - 머니투데이",
+      "남양유업, 3분기 영업익 104% 증가…수출 확대·제품 다변화에 실적 개선",
       "삼진제약 오송공장, 주사제 생산실적 2배로 원료의약품 '추월'",
       "매일유업은 수익성, 남양유업은 성장률…3분기 실적 동반 개선",
+      "시지바이오 노보팩토리, FDA 현장 실사서 지적사항 ‘0건’",
+      "시지바이오 ‘노보팩토리’, 美 FDA 실사 ‘지적사항 0건’",
+      "남양유업, 3분기 영업이익 104% 증가…매 분기 수익성 개선",
       "남양유업, 3분기 영업익 전년比 104% 증가…분기별 이익 증가세 지속",
       "남양유업, 3분기 실적 개선…영업이익 두 배 이상 증가",
-      "남양유업, 3분기 영업이익 104% 증가…매 분기 수익성 개선",
-      "경기도내 지자체·경찰 수능 앞두고 종합대책 시동",
       "남양유업 3분기 영업이익 35억원, 1년 새 두 배로…매출 2576억원",
       "남양유업, 3분기 영업익 104% 증가…3개 분기 연속 이익 확대",
-      "시지바이오 ‘노보팩토리’, 美 FDA 실사 ‘지적사항 0건’",
       "남양유업, 3분기 영업익 104%↑…단백질·커피 등 성장 제품군 실적 견인",
       "HLB제약 박재형 7년…매출 7배 눈앞·550억 투자 승부수",
       "남양유업, 3분기 영업익 35억원...전년비 104%↑",
       "남양유업, 3Q 영업익 35억원 '두 배'…\"성장 제품군, 실적 확대\"",
-      "남양유업, 3분기 영업익 35억원…전년比 104% 증가",
-      "포토뉴스",
       "남양유업, 3분기 영업이익 35억원…전년 대비 104% 증가",
-      "‘수출·단백질에 날개 달았다’ 남양유업, 3분기 영업이익 104% 급증"
+      "남양유업, 3분기 영업익 35억원…전년比 104% 증가",
+      "남양유업, 해외사업 호조…3분기 영업익 35억 달성",
+      "남양유업 3분기 실적 개선…해외 매출 확대",
+      "[1보] 남양유업, 3분기 영업익 35억원…전년比 104% ↑"
     ]
   },
+  "low_confidence": 6,
   "briefs": {
-    "all": "전체 기간 [[w]]11,033건 중 741건(7%)[[/w]]이 부정 보도입니다. 행정 분야에 [[b]]319건[[/b]]이 집중되어 있으며, 안전 240건의 약 1.3배 규모로 압도적입니다. 2026-11-04에 [[b]]41건[[/b]]이 몰렸으므로 해당 날짜 행정 관련 이슈를 먼저 검토하시기 바랍니다.",
-    "7": "최근 7일간 [[w]]723건 중 52건(7%)[[/w]]이 부정 보도입니다. 행정 분야 [[b]]41건[[/b]]에 안전·교통이 각 4건으로 뒤따르면서, 부정 보도가 행정에 극도로 집중된 상황입니다. 2026-11-16의 [[b]]30건[[/b]] 급증분이 대부분 행정 이슈이므로 해당 날짜 보도를 우선 확인하시기 바랍니다.",
-    "30": "최근 30일 [[w]]244건(7%)[[/w]]의 부정 보도 중 행정이 [[b]]143건[[/b]]으로 절반 이상을 차지하며, 안전 38건·교통 27건과 비교할 때 행정 분야의 부정 보도가 현저히 많습니다. 월초 집중도가 높으므로 초반 행정 이슈 대응 현황을 점검하시기 바랍니다."
+    "all": "수집 기간 전체 [[w]]부정기사 742건(7%)[[/w]] 중 행정 분야가 319건으로 압도적이며, 안전 241건이 뒤를 잇고 있습니다. [[b]]2026-11-04일에 41건이 집중[[/b]]되었으므로 해당 날짜의 행정 관련 보도부터 검토하시기 바랍니다.",
+    "7": "최근 7일간 [[w]]부정기사 53건(7%)[[/w]] 중 행정이 41건으로 대부분을 차지하며, 나머지 분야는 안전 5건, 교통 4건에 불과합니다. [[b]]11월 16일 31건이 하루 만에 발생[[/b]]했으므로 해당 날짜의 행정 보도를 먼저 확인하시기 바랍니다.",
+    "30": "최근 30일 동안 [[w]]부정기사 245건(7%)[[/w]]의 58%가 행정 분야(143건)에 집중되어 있으며, 안전 39건과 교통 27건이 그 뒤를 따릅니다. [[b]]행정 분야의 편중이 뚜렷[[/b]]하므로 이 분야의 주요 이슈들을 우선 점검하시기 바랍니다."
   },
-  "briefs_updated": "2026-11-17 12:43",
+  "briefs_updated": "2026-11-17 14:01",
   "issues": {
-    "updated": "2026-11-17 12:43",
+    "updated": "2026-11-17 14:01",
     "items": [
       {
         "label": "화성시의회 민·정·관, 수원 군공항 이전 반대 공동 대응 결집…“시민 뜻 배제한 추진 안 돼”",
@@ -140852,7 +141041,7 @@
     ]
   },
   "today": {
-    "updated": "2026-11-17 12:43",
+    "updated": "2026-11-17 14:01",
     "items": [
       {
         "label": "화성시 민·관·정 “수원 군공항 이전·특별법 철회하라”…공동입장문 발표",
@@ -140917,7 +141106,7 @@
     "days": 34,
     "since": "2026-10-15",
     "last": "2026-11-17",
-    "failures": 0,
+    "failures": 1,
     "span": 34,
     "skipped": 0
   },
@@ -140934,19 +141123,19 @@
     "note": "팀원 다섯 명이 기사 100건을 나눠 검수한 결과. 겹친 구간에서 한 사람이라도 「틀림」이라 했으면 틀린 것으로 셌다. 너그럽게 세면 분야 95%·긍부정 87%가 된다."
   },
   "keyword_notes": {
-    "updated": "2026-11-17 12:43",
+    "updated": "2026-11-17 14:01",
     "window": "최근 30일",
     "items": {
-      "동탄": "303건의 압도적 보도량 중 [[b]]산업경제 분야가 190건[[/b]]을 차지하며, 긍정 기사(142건)가 대부분이나 [[w]]부정 기사 14건[[/w]]에서 사내대출 규제 회피, 연구소 공실 임대료 등 기업 활동의 부실 문제가 제기되고 있습니다.",
-      "향남": "150건 보도 중 [[b]]산업경제 122건[[/w]]으로 집중되며, 긍정 기사 67건에도 불구하고 불법업소 단속, 위험 옹벽 철거, 악취·소음 영향 등 [[w]]부정 기사 5건[[/w]]이 주거 환경 문제를 지적하고 있습니다.",
-      "화성시": "137건 보도 중 [[b]]행정 분야 71건[[/b]]으로 주요 관심사이며, 긍정 기사 78건이 우세하나 학생 안전 대응, 수원군공항 이전 논란 등에서 [[w]]부정 기사 8건[[/w]]이 시 정책의 일관성 문제를 제기합니다.",
-      "AI": "98건 중 [[b]]긍정 기사 89건(90.8%)[[/b]]으로 매우 높은 호감도를 보이며, [[w]]부정 기사 1건[[/w]]에서만 AI 돌봄의 공공성 체계화 필요성을 언급하고 있습니다.",
-      "분양": "86건 모두 산업경제 분야 보도로 집중되며 [[b]]부정 기사가 0건[[/b]]으로 순수하게 긍정적(33건) 또는 중립적 분양 소식만 보도되고 있습니다.",
-      "롯데캐슬": "81건 중 79건이 산업경제 분야이며 [[b]]긍정 기사 34건[[/b]]이 대부분이지만, [[w]]부정 기사 1건[[/w]]에서 산단 악취와 군용기 소음 영향을 우려하고 있습니다.",
-      "복지": "67건이 [[b]]복지 분야 64건으로 거의 전부[[/b]]를 차지하며, [[b]]부정 기사 0건[[/b]]으로 순수 긍정 보도(62건)만 집중되는 가장 호의적인 키워드입니다.",
-      "아크메르동탄": "67건 보도 중 [[b]]산업경제 63건[[/b]]으로 대부분 부동산 개발 소식이며, [[b]]부정 기사 0건[[/b]]으로 순수하게 중립적 또는 긍정적 톤의 보도만 이루어지고 있습니다.",
-      "동탄트램": "65건이 [[b]]교통 분야로 100% 집중[[/b]]되며, [[b]]부정 기사 0건, 긍정 기사 55건(84.6%)[[/b]]으로 대중교통 사업에 대한 압도적 호감도를 보입니다.",
-      "MARS2026": "64건 중 [[b]]긍정 기사 61건(95.3%)[[/b]]으로 최고 수준의 호감도를 기록하며, [[b]]부정 기사 0건[[/b]]으로 산업경제 중심의 순수 긍정 보도만 이루어지고 있습니다."
+      "동탄": "동탄은 304건의 가장 많은 기사량을 기록했으며 긍정 평가(142건)가 우세하지만, [[w]]부정 기사 14건[[/w]]에서 사내대출 규제 회피, 기업의 유휴시설 임차 문제 등이 지적되고 있어 산업경제 분야의 투명성 강화가 필요합니다.",
+      "향남": "향남은 150건 중 긍정 평가가 67건으로 긍정적 추세를 보이나, [[w]]부정 기사 5건[[/w]]에서 불법업소, 위험 옹벽, 환경 악영향 우려 등이 제기되고 있으므로 지역 안전과 환경 개선에 대한 적극적 소통이 요구됩니다.",
+      "화성시": "[[b]]행정 분야 71건[[/b]]으로 주로 거론되는 화성시는 137건 중 긍정 평가 78건으로 우호적이나, [[w]]부정 기사 8건[[/w]]에서 학생 안전 대응 미흡과 군공항 이전 관련 논란이 있어 시민 안전과 주민 의견 수렴에 주의가 필요합니다.",
+      "AI": "AI 관련 기사 99건 중 [[b]]긍정 평가가 89건으로 압도적[[/b]]이며 산업경제 분야에서 주로 보도되는 호재이나, [[w]]부정 의견 2건[[/w]]에서 공공 체계 구축의 필요성이 지적되고 있습니다.",
+      "분양": "분양 키워드는 86건 모두 산업경제 분야이며 [[b]]부정 기사가 없어[[/b]] 시장에서 긍정적으로 평가받고 있는 상황입니다.",
+      "롯데캐슬": "81건의 분양 관련 기사 중 긍정 평가 34건으로 시장 관심이 높으나, [[w]]부정 기사 1건[[/w]]에서 산단 악취와 군용기 소음이 지적되어 환경 영향 최소화 방안 제시가 필요합니다.",
+      "복지": "복지 키워드는 64건 모두 복지 분야에 집중되어 있으며 [[b]]긍정 평가 62건으로 매우 우호적[[/b]]이고 부정 기사가 없어 시의 복지 정책이 긍정적 반응을 얻고 있습니다.",
+      "아크메르동탄": "아크메르동탄은 63건의 산업경제 기사를 기록했으며 [[b]]부정 기사 없이[[/b]] 긍정 평가 21건으로 개발 사업에 대한 기대감이 형성되어 있습니다.",
+      "동탄트램": "동탄트램은 교통 분야 65건이 모두 집계되었으며 [[b]]긍정 평가 55건으로 높은 호응도[[/b]]를 보이고 있고 [[b]]부정 기사가 없어[[/b]] 사업 추진에 긍정적 여론이 조성되어 있습니다.",
+      "MARS2026": "MARS2026은 64건 중 [[b]]긍정 평가 61건으로 거의 모든 보도가 호의적[[/b]]이며 부정 기사가 전무하여 산업 행사로서 높은 관심과 기대를 받고 있습니다."
     }
   }
 }
