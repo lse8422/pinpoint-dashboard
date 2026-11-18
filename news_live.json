@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-18 11:51",
+  "updated": "2026-11-18 13:08",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 10127,
+  "count": 10140,
   "items": [
     {
       "date": "2026-08-02",
@@ -140571,6 +140571,76 @@
       "source": "화성인터넷신문"
     },
     {
+      "date": "2026-11-16",
+      "cat": "교통",
+      "senti": "중립",
+      "title": "조용호 오산시장 \"덕절리 물류센터, 화성과 공동대응하자\"",
+      "summary": "오산시장이 화성시와 함께 덕절리 물류센터 교통대책에 공동대응하자고 제안한다.",
+      "kw": [
+        "물류센터",
+        "교통대책",
+        "공동대응"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE94c1AtVy1POFE1V3VsUEJCcmpLOThlMXFGOTZtWVh1R0JKMXZCTG9ZaDhCVkNqZURUM2Vqa3lzTnkzUVU1dXhCLUxnc2J2bno1YVl0T0JhX0pzSWdXbzZBcXpVRE45N0hZS0poNk45NWV1X184LU0wX9IBeEFVX3lxTE94c1AtVy1POFE1V3VsUEJCcmpLOThlMXFGOTZtWVh1R0JKMXZCTG9ZaDhCVkNqZURUM2Vqa3lzTnkzUVU1dXhCLUxnc2J2bno1YVl0T0JhX0pzSWdXbzZBcXpVRE45N0hZS0poNk45NWV1X184LU0wXw?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "교통",
+      "senti": "중립",
+      "title": "오산시 조용호 시장, 정명근 화성특레시장과 만나 화성 덕절리 물류창고 교통대책 공동대응 방안 마련 협의 [사통팔달 교통혁신 프로젝트]",
+      "summary": "오산시장과 화성특례시장이 덕절리 물류창고 교통대책 공동대응 방안을 협의한다.",
+      "kw": [
+        "물류창고",
+        "교통대책",
+        "협의"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE41QlVFUE1yM2t1bm4ycXV2VUdpTWdHcm5OTk9vZXR0eVVJVWxEUmNGa21oVGtpb1ZMTHhrdXlzUFBSVjZ5QUs0VTNJcEE5eGFLZGNMQmVJZWhUaGdTNGFZMngxeDRsd9IBakFVX3lxTFBleV94NGk1Vi1sT0hMWTRNajBUZ3VSN0lldzZjRi0wbW9qbGhjbEI0NDhEczJkS3RrZ054cUJWNGRIN2lKQU1tY2JiQ0dHWTR2V0hmWWEwSlJUUVg1RHlHMm1sSDVoV1JSSnc?oc=5",
+      "source": "새한일보"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "교통",
+      "senti": "부정",
+      "title": "조용호 오산시장, 화성 덕절리 물류센터 교통대책 공동 대응 요청",
+      "summary": "오산시장이 화성 덕절리 물류센터 교통문제 공동대응을 요청한다.",
+      "kw": [
+        "물류센터",
+        "교통문제",
+        "대응"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAtLW5FSXluS3hBeWdUdktZZEp2Y24zdTMxNGhGQlFxREZ0c25XWVNucTZodXdNY19ESG5SdWxtQnBOV25fdlBaMmdzMlpjUG9LVlpMcU5DaUtaNG5yWmc1ZVBKVmx1N3JrVm5iYUlna9IBb0FVX3lxTFAtLW5FSXluS3hBeWdUdktZZEp2Y24zdTMxNGhGQlFxREZ0c25XWVNucTZodXdNY19ESG5SdWxtQnBOV25fdlBaMmdzMlpjUG9LVlpMcU5DaUtaNG5yWmc1ZVBKVmx1N3JrVm5iYUlnaw?oc=5",
+      "source": "한스경제"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "교통",
+      "senti": "중립",
+      "title": "오산·화성시장 맞손…덕절리 물류센터 '교통대란' 공동 대응",
+      "summary": "오산·화성시장이 덕절리 물류센터 교통문제에 공동대응하기로 합의한다.",
+      "kw": [
+        "물류센터",
+        "교통대란",
+        "공동대응"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBlcTJuMU1iM3JLaVpZeDRtWW4zY0RLRTA3RVpnSHhVTThfdUxremJqS2ZKY3pOUUw3NDl4bGp6OExualJXTm9LbFhPMmZodDYzZEc4NFZFQl9CNmZrbnc?oc=5",
+      "source": "동행미디어 시대"
+    },
+    {
+      "date": "2026-11-16",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "경기 집값 상승률, 서울 첫 추월...강남은 '우수수', 수원·동탄은 신고가",
+      "summary": "경기 집값 상승률이 서울을 처음 추월하며 동탄이 신고가를 기록한다.",
+      "kw": [
+        "집값",
+        "동탄",
+        "신고가"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBkZlJEbmhYSER2alUzQTFzTnFOWXFoWWlQQzRDVmVwQXJ5RlNjbElZZlB6VFRWNmZmTFM5aGRrcjI2WWRvUlI3TE1jSUZXX0hZU25hQmlqZG9iLTd0b0FJNTEzZ9IBZ0FVX3lxTE1aaWRpak93YlVUaWV5QXRqc3gwUnBTZEJKQWdtdnpuWWZtMnNfSTVGakpYNTdYZUNFcmp4bWJfaW9RWXRaZHRfeVlsQ0hQaVA1NHJZc2FjbEI0RXFnNFBIX3p4ZUx4MVk?oc=5",
+      "source": "ABC뉴스"
+    },
+    {
       "date": "2026-11-17",
       "cat": "행정",
       "senti": "중립",
@@ -141917,6 +141987,76 @@
       "source": "노컷뉴스"
     },
     {
+      "date": "2026-11-17",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "경기도의회 김회철 의원, 봉담중 학생들과 소통... “학교의 변화를 위해 학생들의 목소리 중요”",
+      "summary": "경기도의회 김회철 의원이 봉담중 학생들과 소통하며 학교변화를 논의한다.",
+      "kw": [
+        "김회철의원",
+        "봉담중",
+        "소통"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5CS0tlMmRoakRRX2tnZkNFWS1LemlnV1J2WEtubUQzalBLaXJaOUtEOVA2YS1IYUVrckM0X2lsRGd2VjQ3UlpCckhSemRLcDQxLTVUVFlDOEVlU3AtVDE0MF9tQXJkWG_SAWdBVV95cUxOQktLZTJkaGpEUV9rZ2ZDRVktS3ppZ1dSdlhLbm1EM2pQS2lyWjlLRDlQNmEtSGFFa3JDNF9pbERndlY0N1JaQnJIUnpkS3A0MS01VFRZQzhFZVNwLVQxNDBfbUFyZFhv?oc=5",
+      "source": "경기연합뉴스"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "서울 집값 조정 속 비규제 지역 풍선효과 … 권선·병점·군포, 줄줄이 뜀박질",
+      "summary": "서울 집값 조정 속 비규제 지역인 병점 등에서 집값 상승이 계속된다.",
+      "kw": [
+        "비규제지역",
+        "병점",
+        "집값"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9RMXpyQk5Pb1Zub1o3N3NiMEZjMkRrSzFveWozS1Y5TlBrT3M4M1FrRHd1ck9jTVFsd3B5ei1tVFIwN19uRVRWWTJNTUVTYWM3eWozMkstbGMxdlNPS2lIZHoybVFEb1FzT0RQdTVGYWRSZmhUd1NtUE13d9IBgAFBVV95cUxQVW91SHdaSFpnbEpVTjFkRDhfOXZWQVBRblJOM2tiYVkyODVOdEVnSEI5RGpmSWllSWV4QktDXzJOWVY3Tk9tbTNqNjk5QXRWUW44WnFoRnNVUENidVdBLTVrd08wUjBYa2xFbDdpOE9LUXRXSFZ4M0RnWkdKLVQzWg?oc=5",
+      "source": "뉴데일리 경제"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "김경민 교수 “도쿄 넘어 ‘G2 서울’로”… 강남·판교·동탄 잇는 ‘대서울 역삼각권’ 제안",
+      "summary": "교수가 강남·판교·동탄을 잇는 '대서울 역삼각권' 개념을 제안한다.",
+      "kw": [
+        "대서울역삼각권",
+        "동탄",
+        "광역개발"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5fbjItdERPRmhmVDh6ejRvclNUMFE1R1VUOHRTa0NNQ1pETTkxdHgtMjNvd09lM1FrRUY2TmdMcno2em1rRkFOYzF4QkhpRzNoYzhfdDRFQVdyZXdfUU5LMDVMcHVXa2x4Wnc?oc=5",
+      "source": "천지일보"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성특례시, 경기도시장군수협의회서 정보공개·농지제도 개선 건의",
+      "summary": "화성특례시가 경기도시장군수협의회에서 정보공개와 농지제도 개선을 건의한다.",
+      "kw": [
+        "정보공개",
+        "농지제도",
+        "건의"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1RTGVEODFsN3B4TlVFVGxMQW1Kd01jcWpMejI2VjkzcFh5a0RRallBcGhwMmVOem52dnJxOW1iTkkyTEp1VmFFRHdQblNkeDc1Ykh0Ujc0cHVBWnlmc3kzSEJxN3VteEFQNWpRQw?oc=5",
+      "source": "파이낸스투데이"
+    },
+    {
+      "date": "2026-11-17",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "동탄 칼수학학원, 예비고1 대입 전략 설명회 진행...미적분Ⅱ, 기하는 선택이 아닌 필수",
+      "summary": "동탄 칼수학학원이 예비고1 대입 전략 설명회를 개최한다.",
+      "kw": [
+        "칼수학학원",
+        "입시설명회",
+        "대입전략"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1vVllPN09PWklqb0F2aEtjNldaNTZLSWJKRTUzYmROd2R1aWNjVUFzZ19EZUlLV3pJSEVjY2dNZ3NpZXp5NmVoVEk4M0NCakZtY2N3S293?oc=5",
+      "source": "피앤피뉴스"
+    },
+    {
       "date": "2026-11-18",
       "cat": "산업경제",
       "senti": "긍정",
@@ -142377,6 +142517,48 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBCRVRkZUpyR0RVOGhtOUxUdWIxcjh5ZFFNX0ZuM0RiU1RaN3JOaEcwUjJPTGVaSVJKSFpRZVZ1aHUxbkZ2ZWdObm5sM1czZk9udlVvR1RnU2I5cUtNM01hYlBEOGtCUQ?oc=5",
       "source": "화성저널"
+    },
+    {
+      "date": "2026-11-18",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "문밖으로 나온 복지…화성시 ‘그냥드림’ 확대",
+      "summary": "화성시가 '그냥드림' 복지사업을 확대하여 주민 편의를 증진한다.",
+      "kw": [
+        "그냥드림",
+        "복지",
+        "확대"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0waDBSYndDbER0QzVlNVZ1V3oybkg5VU5wdWhNVmJRUkpyazAwc2o1MGtsSVNuekpSV3hvRDRkX1ZHWlNSU25oRXp3aXdGQm4wMVh6Wkhnb3duZw?oc=5",
+      "source": "브릿지경제"
+    },
+    {
+      "date": "2026-11-18",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "GTX 따라 달라지는 수도권 집값...동탄·청량리·상봉역 일대 강세",
+      "summary": "GTX 개통으로 동탄 일대 집값이 강세를 보인다.",
+      "kw": [
+        "GTX",
+        "동탄",
+        "집값"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBTVURtNXgxUlQyei1LSWxZYmF1NjVoR1JmR3ZxSmVzcEwwYXB5QWhpNnExeEVqU0p4Nk5KU01HLWtnLWNqMkFSV2g1Ml9Kb2ktNUtiSEM1c0IxQXBudWlXdE53QWtjbHhZS1c3cjJpNjhGcHd3MUZrLWRDYXk?oc=5",
+      "source": "비욘드포스트"
+    },
+    {
+      "date": "2026-11-18",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성특례시, 어린이 AI 인재 키운다… 대학생 멘토와 함께 감염병 예방 앱 개발",
+      "summary": "화성특례시가 어린이 AI 인재 양성을 위해 감염병 예방 앱 개발을 추진한다.",
+      "kw": [
+        "AI인재",
+        "앱개발",
+        "어린이"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9GV1B2VXpSQXhDYnlaXzI2cEF5QXVRZWdJZmdCdTAtSWR1VDNacC1TWm5WMHBXWlphSzVMWlNLeTJodlJfMWFKOUx0dHJhbEdqWG9sQXNHdmY1ZlNJUzN4NXJFV3ZRZTB4WHBKeDdB?oc=5",
+      "source": "투어코리아"
     }
   ],
   "dropped": {
@@ -142384,35 +142566,35 @@
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
       "남양유업, 수능 앞둔 대리점주·임직원 자녀 86명에 응원 선물 전달",
+      "남양유업, 수능 앞둔 대리점주·임직원 자녀 86명 응원…상생경영 지속",
       "포토뉴스",
-      "남양유업, 수능 앞둔 대리점주·임직원 자녀 86명 응원",
-      "남양유업, 수능 앞둔 대리점·임직원 자녀 86명에 응원 선물",
-      "\"반도체 머니 효과\"…사장님 증가 전국1위 '이곳'",
-      "[BIO톡]시지바이오, ‘노보팩토리’, 美 FDA 실사 무결점 통과 外 티앤알바이오팹·셀트릭스",
       "남양유업, 수능 앞둔 대리점∙임직원 자녀 86명에 응원 선물 전달",
+      "\"반도체 머니 효과\"…사장님 증가 전국1위 '이곳'",
+      "남양유업, 수능 앞둔 대리점주·임직원 자녀 86명 응원",
       "선박 충돌·침수 대비 해상 구조훈련…평택해양경찰서, 유관기관 협력체계 점검",
-      "남양유업, 수능 앞둔 대리점·임직원 자녀에 응원 선물 전달",
-      "시지바이오, '노보팩토리' 美FDA 실사 지적 'Zero' - 머니투데이",
-      "\"수험생 가족 응원합니다\" 남양유업, 대리점·임직원 자녀 86명 선물",
-      "삼진제약 오송공장, 주사제 생산실적 2배로 원료의약품 '추월'",
-      "경기도교육청, 학교 공사 불법하도급 차단…8개 현장 합동점검",
-      "남양유업, 수험생 자녀 둔 대리점주·임직원에게 응원 선물",
-      "더존하우징, 포브스코리아 프리미엄 주택건축 부문 대상",
-      "\"가족 동반성장 이어간다\"...남양유업, 대리점 자녀 장학금 전달",
+      "[BIO톡]시지바이오, ‘노보팩토리’, 美 FDA 실사 무결점 통과 外 티앤알바이오팹·셀트릭스",
+      "남양유업, 수능 앞둔 대리점·임직원 자녀 86명에 응원 선물",
       "경기도내 지자체·경찰 수능 앞두고 종합대책 시동",
-      "남양유업, 3분기 영업이익 2배 증가…수익성 개선 지속",
+      "시지바이오, '노보팩토리' 美FDA 실사 지적 'Zero' - 머니투데이",
+      "남양유업, 수능 앞둔 대리점·임직원 자녀에 응원 선물 전달",
+      "삼진제약 오송공장, 주사제 생산실적 2배로 원료의약품 '추월'",
+      "\"수험생 가족 응원합니다\" 남양유업, 대리점·임직원 자녀 86명 선물",
+      "경기도교육청, 학교 공사 불법하도급 차단…8개 현장 합동점검",
+      "더존하우징, 포브스코리아 프리미엄 주택건축 부문 대상",
+      "남양유업, 수험생 자녀 둔 대리점주·임직원에게 응원 선물",
+      "\"가족 동반성장 이어간다\"...남양유업, 대리점 자녀 장학금 전달",
       "[저PBR 점검] 환인제약, 이익 반등에도 PBR 0.44배…“ROE 목표 빠졌다”",
-      "남양유업, 3Q 영업익 전년比 104%↑…단백질·커피·수출 '삼박자'"
+      "남양유업, 3분기 영업이익 2배 증가…수익성 개선 지속"
     ]
   },
   "briefs": {
-    "all": "전체 기간 [[w]]부정 기사 752건(7%)[[/w]] 중 행정 분야가 327건으로 압도적이며, 안전 242건, 산업경제 73건으로 행정 분야에 [[b]]집중도가 높습니다[[/b]]. 2026-11-04에 [[w]]41건[[/w]]이 몰렸으므로 해당 날짜의 행정 관련 보도부터 확인이 필요합니다.",
-    "7": "최근 7일간 [[w]]부정 기사 50건(7%)[[/w]]의 [[b]]88%가 행정 분야(42건)에 집중[[/b]]되어 있으며, 교통 4건, 산업경제 2건으로 단일 분야 의존도가 매우 높습니다. 2026-11-16에 [[w]]32건[[/w]]이 발생했으므로 최근 행정 분야 보도 동향을 우선 점검하십시오.",
-    "30": "최근 30일 부정 기사 [[w]]251건(7%)[[/w]] 중 행정이 [[b]]149건(59%)으로 대부분을 차지[[/b]]하고, 안전 39건, 교통 27건으로 비중이 훨씬 작습니다. 행정 분야의 집중도가 지속적이므로 해당 분야에 대한 집중 모니터링이 필요합니다."
+    "all": "전체 기간 11,166건 중 [[w]]부정기사 753건(7%)[[/w]]의 [[b]]82%가 행정과 안전 두 분야에 집중[[/b]]되어 있습니다. 11월 4일에 [[w]]41건[[/w]]이 한 날 집중되었으므로, 해당 날짜의 행정 관련 부정 보도부터 우선 검토하시기 바랍니다.",
+    "7": "최근 7일간 [[w]]부정기사 51건(7%)[[/w]] 중 행정이 [[b]]82%를 차지[[/b]]하고 있으며, 11월 16일 하루에만 [[w]]33건[[/w]]이 집중되어 있습니다. 행정 분야의 집중된 보도 내용을 우선적으로 확인하시기 바랍니다.",
+    "30": "최근 30일간 [[w]]부정기사 252건(7%)[[/w]]은 행정(149건)에 절대적으로 쏠려 있고, 2·3위 분야(안전 39건, 교통 28건)와의 격차가 [[b]]큰 상황[[/b]]입니다. 11월 4일의 [[w]]41건 사건[[/b]]이 보도의 주요 원인으로 보이므로, 해당 사안의 최신 진전 상황부터 점검하시기 바랍니다."
   },
-  "briefs_updated": "2026-11-18 11:51",
+  "briefs_updated": "2026-11-18 13:08",
   "issues": {
-    "updated": "2026-11-18 11:51",
+    "updated": "2026-11-18 13:08",
     "items": [
       {
         "label": "화성시의회 특위, 수원 군공항 이전 반대 공동입장문 발표",
@@ -142532,6 +142714,18 @@
         ]
       },
       {
+        "label": "조용호 오산시장, 화성 덕절리 물류센터 교통대책 공동 대응 요청",
+        "count": 2,
+        "sources": 2,
+        "first": "2026-11-05",
+        "last": "2026-11-16",
+        "cat": "교통",
+        "titles": [
+          "조용호 오산시장 “화성 덕절리 물류센터 교통영향 재검토해야”",
+          "조용호 오산시장, 화성 덕절리 물류센터 교통대책 공동 대응 요청"
+        ]
+      },
+      {
         "label": "\"화성의 미래는 화성이 결정한다\"…화성시 민·정·관, 수원군공항 일방 추진 '강력 규탄'",
         "count": 2,
         "sources": 2,
@@ -142542,24 +142736,11 @@
           "화성시 민·정·관 한목소리…수원군공항 일방 추진 규탄 - 머니투데이",
           "\"화성의 미래는 화성이 결정한다\"…화성시 민·정·관, 수원군공항 일방 추진 '강력 규탄'"
         ]
-      },
-      {
-        "label": "균열 발견 1년 동탄숲 생태터널… 공사 방식 내년 2월에나 결정",
-        "count": 3,
-        "sources": 2,
-        "first": "2026-11-14",
-        "last": "2026-11-15",
-        "cat": "교통",
-        "titles": [
-          "균열 생기고 1년… ‘동탄숲 생태터널’ 공사 내년초에나 결정",
-          "동탄숲 생태터널 균열 1년… 끝 안보이는 교통불편",
-          "균열 발견 1년 동탄숲 생태터널… 공사 방식 내년 2월에나 결정"
-        ]
       }
     ]
   },
   "today": {
-    "updated": "2026-11-18 11:51",
+    "updated": "2026-11-18 13:08",
     "items": [
       {
         "label": "화성시의회 특위, 수원 군공항 이전 반대 공동입장문 발표",
@@ -142592,6 +142773,20 @@
         "state": "확산 중"
       },
       {
+        "label": "조용호 오산시장, 화성 덕절리 물류센터 교통대책 공동 대응 요청",
+        "count": 2,
+        "sources": 2,
+        "first": "2026-11-05",
+        "last": "2026-11-16",
+        "cat": "교통",
+        "titles": [
+          "조용호 오산시장 “화성 덕절리 물류센터 교통영향 재검토해야”",
+          "조용호 오산시장, 화성 덕절리 물류센터 교통대책 공동 대응 요청"
+        ],
+        "score": 71,
+        "state": "진행 중"
+      },
+      {
         "label": "\"화성의 미래는 화성이 결정한다\"…화성시 민·정·관, 수원군공항 일방 추진 '강력 규탄'",
         "count": 2,
         "sources": 2,
@@ -142604,19 +142799,6 @@
         ],
         "score": 61,
         "state": "진행 중"
-      },
-      {
-        "label": "대형공사 만 쏟아낸 정명근 시장, 운영비는 시민에게 넘길 셈인가",
-        "count": 1,
-        "sources": 1,
-        "first": "2026-11-18",
-        "last": "2026-11-18",
-        "cat": "행정",
-        "titles": [
-          "대형공사 만 쏟아낸 정명근 시장, 운영비는 시민에게 넘길 셈인가"
-        ],
-        "score": 60,
-        "state": "신규"
       }
     ],
     "surge": [
@@ -142653,19 +142835,19 @@
     "note": "팀원 다섯 명이 기사 100건을 나눠 검수한 결과. 겹친 구간에서 한 사람이라도 「틀림」이라 했으면 틀린 것으로 셌다. 너그럽게 세면 분야 95%·긍부정 87%가 된다."
   },
   "keyword_notes": {
-    "updated": "2026-11-18 11:51",
+    "updated": "2026-11-18 13:08",
     "window": "최근 30일",
     "items": {
-      "동탄": "287건의 높은 보도량 중 산업경제 분야가 178건으로 압도적이며, [[b]]부동산 규제 회피와 기업 유휴시설 문제[[/b]]가 [[w]]15건의 부정 기사[[/w]]로 나타나고 있어 주의가 필요합니다.",
-      "향남": "149건 중 산업경제가 121건으로 대부분을 차지하지만, [[b]]불법업소, 안전 시설 문제, 주거 환경 악조건[[/b]] 등이 [[w]]5건의 부정 기사[[/w]]로 보도되고 있습니다.",
-      "화성시": "133건의 행정 관련 보도 중 [[b]]학생 안전 정책과 수원군공항 이전 논의[[/b]]가 [[w]]8건의 부정 기사[[/w]]로 집중되어 있으며, 정책 투명성 강화가 요구됩니다.",
-      "롯데캐슬": "82건 중 80건이 산업경제 분야로 분양 소식이 긍정적으로 보도되는 가운데, [[w]]산단 악취와 군용기 소음 영향[[/w]]에 대한 우려가 제기되고 있습니다.",
-      "AI": "80건 중 70건이 긍정적으로 보도되며 AI 돌봄과 의료 보조 등 [[b]]첨단 기술 도입 사례가 주요 내용[[/b]]이지만, [[w]]공공성 논의[[/w]]도 함께 다루어지고 있습니다.",
-      "분양": "69건 모두 산업경제 분야 보도이며 부정 기사가 없어 [[b]]화성시 개발 사업에 대한 긍정적 시장 평가[[/b]]가 유지되고 있습니다.",
-      "동탄트램": "65건이 모두 교통 분야 보도이며 부정 기사 없이 [[b]]신규 교통 인프라에 대한 집중적인 긍정 보도[[/b]]로 시민 관심이 높습니다.",
-      "MARS2026": "64건 중 61건이 긍정적으로 보도되며 부정 사례가 없어 [[b]]전시회 성공과 산업 활성화 메시지[[/b]]가 효과적으로 전달되고 있습니다.",
-      "문화행사": "57건이 모두 문화관광 분야이며 부정 기사가 전무해 [[b]]화성시 문화 콘텐츠가 언론과 시민 모두에게 긍정적으로 평가[[/b]]되고 있습니다.",
-      "복지": "55건 중 51건이 긍정적으로 보도되고 부정 기사가 없어 [[b]]복지 정책이 성공적으로 추진되고 있다는 메시지[[/b]]가 강하게 전달되고 있습니다."
+      "동탄": "290건의 보도 중 [[b]]긍정 138건(48%)[[/b]]으로 주도적이나, [[w]]부정 15건[[/w]]에서 사내대출 규제 회피와 기업의 유휴시설 문제가 지적되고 있어 산업경제 분야의 투명성 강화가 필요합니다.",
+      "향남": "149건 중 [[b]]긍정 68건(46%)[[/b]]으로 긍정 평가가 우세하지만, [[w]]부정 기사[[/w]]에서 불법업소, 안전 문제, 환경 악영향 등이 반복 제기되어 주거 환경 개선에 대한 시민 우려 해소가 과제입니다.",
+      "화성시": "133건 보도 중 [[b]]긍정 74건(56%)[[/b]]이지만 행정 분야에서 [[w]]학생 안전 대응, 수원군공항 이전 논란 등 8건의 부정 보도[[/w]]가 발생하고 있어 정책 투명성과 소통 강화가 중요합니다.",
+      "롯데캐슬": "82건 중 [[b]]긍정 35건으로 긍정 평가가 압도적[[/b]]이며, 부정 기사는 1건에 불과하나 환경 영향에 대한 우려가 제기되고 있습니다.",
+      "AI": "80건 중 [[b]]긍정 70건(88%)[[/b]]으로 매우 호의적인 반응이며, 의료 현장의 실질적 활용 사례들이 보도되고 있어 첨단산업 분야의 긍정적 이미지 강화 기회입니다.",
+      "분양": "69건 모두 산업경제 분야 보도이며 [[b]]부정 사례가 없어[[/b]] 화성시 부동산 시장에 대한 호의적 관심이 지속되고 있습니다.",
+      "동탄트램": "65건 보도가 모두 긍정적([[b]]55건 긍정[[/b]])이고 부정 사례가 없어, 교통 인프라 구축 사업에 대한 높은 시민 기대감이 반영되어 있습니다.",
+      "MARS2026": "64건 중 [[b]]61건이 긍정 보도[[/b]]로 부정 사례가 없으며, 산업경제 중심의 호의적 언론 보도가 화성시의 주요 성장 동력으로 인식되고 있습니다.",
+      "문화행사": "57건 모두 문화관광 분야이며 [[b]]43건이 긍정 보도[[/b]]로 부정 사례가 없어, 화성시 문화행사에 대한 일관된 긍정 평가가 이루어지고 있습니다.",
+      "복지": "56건 중 [[b]]52건이 긍정 보도(93%)[[/b]]로 가장 높은 긍정률을 기록했으며 부정 사례가 없어 복지 정책이 효과적으로 평가받고 있습니다."
     }
   }
 }
