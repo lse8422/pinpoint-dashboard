@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-24 15:54",
+  "updated": "2026-11-25 13:05",
   "source": "구글 뉴스 RSS",
   "method": "AI 분류",
-  "count": 10708,
+  "count": 10785,
   "items": [
     {
       "date": "2026-08-02",
@@ -149435,6 +149435,48 @@
       "source": "뉴스 따옴"
     },
     {
+      "date": "2026-11-23",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성특례시, ‘사랑의 김장나눔’ 행사 개최…취약계층에 김장김치 400박스 전달",
+      "summary": "화성특례시가 사랑의 김장나눔 행사로 취약계층에 김장김치 400박스를 전달한다.",
+      "kw": [
+        "김장",
+        "나눔",
+        "취약계층"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iMFE4Uno0dWtLMzhMN19hV1A5YmIyR3F1T1hIOVZsUXc0UGxpZEg1OVB4UElyLWtJM0pseWh1SkxWcFVkX2ZyQVZnRnQ3VWxiSnN5MVQwbGpyNTkxdFZKbXlNSVR3M1g5X2YzWg?oc=5",
+      "source": "파이낸스투데이"
+    },
+    {
+      "date": "2026-11-23",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성FC, K리그2 플레이오프 진출 확정",
+      "summary": "화성FC가 K리그2 플레이오프 진출을 확정한다.",
+      "kw": [
+        "화성FC",
+        "K리그2",
+        "플레이오프"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kbFR5am5Wa1hvdWVnTUhMTTE3MlUtVGhDcnhncy1idWFQRllOcTBaZTNzdjBNbmJJcFJlWWh5cHhNWFBld3g4LTg1RjRZZG9YY2J5VVJnMC1KVUhYYUZ5Tk1aUld1dXFvdkUxWlVXTnZUaVFW?oc=5",
+      "source": "글로벌뉴스통신GNA"
+    },
+    {
+      "date": "2026-11-23",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "한림대동탄성심병원 김재호 교수, 대한치료초음파학회 '젊은 연구자상'",
+      "summary": "한림대동탄성심병원 김재호 교수가 대한치료초음파학회 젊은 연구자상을 수상했다.",
+      "kw": [
+        "의료",
+        "학술상",
+        "연구"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1vRktNQnFCNVNGM3RIcGtZWXhyRWF2X1RKUHZEUTFVZzhjSkdJdzVPa1R6SzlIQldEZnY3ZTh6RWZvbGVCb0Q5aVl4cExiSzQxeHVnZHJXbXhJb3V3SGxFbzFwUGNNM1ha?oc=5",
+      "source": "헬스이슈앤뉴스"
+    },
+    {
       "date": "2026-11-24",
       "cat": "문화관광",
       "senti": "긍정",
@@ -150511,43 +150553,1091 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5XWHdaWlctWmlKNUVHYUNXUUdHcGMzdnRHZlZqX2FJeTZCNWRFenpaZFRFaFRwRDg2VTNPZFp1RW5sc2E3T2JPSTh2VWpBdExGdDVpVHZ0bVpvMFRaQi1PbENwcw?oc=5",
       "source": "경기탑뉴스"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성 향남 오음공원 시립테니스장 개장",
+      "summary": "화성 향남 오음공원 시립테니스장이 개장했다.",
+      "kw": [
+        "향남",
+        "테니스장",
+        "공원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBhZ3B4NGRJZTcwYzZ5TTBFY0ttZkp3dXEzWDFmbmdkVks3WVJHQTcyN2VySXlsZFNIcFpjXzNQQkpyQUFzNFNJU2lSZHZRWWttRVBLVW5iOHFoQV91aF9hTU9B?oc=5",
+      "source": "경기신문"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "잔여 물량 소진 속도 내는 수도권 부동산 시장... ‘향남역 그로브 스위첸’ 공급",
+      "summary": "향남역 그로브 스위첸이 수도권 부동산 시장에 공급된다.",
+      "kw": [
+        "향남역",
+        "그로브스위첸",
+        "부동산"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBcGJMdV9CTHRIa3ZkSjlXQVp0U3RPeUs5eWZRUDUyeF9NWmFwZFdZN3IyeXBJbFkzeFJrZlY4eGJjQ0tBZW1jTmtkZzR1RHNaSUUzN2FUQXdoekdkQTNoQlZDVjlMckE0X3JBb0hIX3jSAXBBVV95cUxQQXBiTHVfQkx0SGt2ZEo5V0FadFN0T3lLOXlmUVA1MnhfTVphcGRXWTdyMnlwSWxZM3hSa2ZWOHhiY0NLQWVtY05rZGc0dURzWklFMzdhVEF3aHpHZEEzaEJWQ1Y5THJBNF9yQW9ISF94?oc=5",
+      "source": "글로벌경제신문"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "향남읍 동 전환, 행정구역 변경보다 주민의 삶이 먼저다",
+      "summary": "향남읍 동 전환 논의에서 주민의 삶을 우선으로 추진해야 한다는 의견이 제시된다.",
+      "kw": [
+        "향남읍",
+        "행정구역",
+        "주민"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8zelZOUDdteEJXOTB3R201bDBFdl9uYVkxXzdneVVRZkJ2MXNtbGpYaDRTNnZLTV9LWE90SGQwbFZ6OTJvcTlUclp0SmNJYU1oQWV1OWF3RnRYMXpMeVZndFZR?oc=5",
+      "source": "미담플러스"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "공공택지 협조장려금 최대 30%…서리풀1·의왕군포안산·봉담3 적용권",
+      "summary": "화성시 봉담3 등 공공택지에 협조장려금 최대 30%가 적용된다.",
+      "kw": [
+        "공공택지",
+        "협조장려금",
+        "봉담"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1VcTVNYTNta1hqR1hZNGd5cG1HbTBUTnYyNDdwWjYtc0JObU5VR0RWdzhhOUpSUmFuWjAzTFZJS1lkSUtRaEJ1ZnNkX2YteTJuNTBZV0Y5YVFJT09mSkhLXzJ6a3BTRVFKamktVA?oc=5",
+      "source": "굿모닝경제"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성특례시, 제2차 스마트도시계획안 의결…AI 기반 스마트도시 구축 본격화",
+      "summary": "화성특례시가 제2차 스마트도시계획안을 의결하고 AI 기반 스마트도시 구축을 본격화한다.",
+      "kw": [
+        "스마트도시",
+        "AI",
+        "도시계획"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJb2xNRVU3cGxmWWIzQThlRmlqVG5wOWNsd2JpYjIySkpuRVdxdGhGeWFzR2FwR2ZqTXNOLUJjQ0F2NFA3RUlRbHBWbW9rUktBaE9hRU83NC1vUnpqdEtsdGg4bnB2eVdncEd6bg?oc=5",
+      "source": "파이낸스투데이"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "남양난파라이온스클럽, 화성시서부노인복지관에 취약계층 어르신 겨울나기 위해 100만 원 후원",
+      "summary": "남양난파라이온스클럽이 화성시서부노인복지관에 겨울나기 성금 100만 원을 후원했다.",
+      "kw": [
+        "라이온스클럽",
+        "노인복지",
+        "후원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9FMWlwZmlJaFhjUkJaSHVYd09NSXZ5OHhjR1VPYTNJQ3hVR2hBSXF2dEIyRUNEbldNN2hvZlYzaGM4eEpvMTZkdE1JQ1RxVHduRmNaRlh2bVR5cFFBbkpQOXl6Q0NQUQ?oc=5",
+      "source": "화성저널"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성 동탄농협, 사랑의 김장김치·쌀 나눔",
+      "summary": "화성 동탄농협이 취약계층을 위해 김장김치와 쌀을 나누었다.",
+      "kw": [
+        "동탄농협",
+        "김장",
+        "나눔"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBEMVQ5YUlvOGQ3Q3pseTNXdy1OZkZVRlVkc3ZBeC01Z0JNTkZyMmVnMkRMcVFiX0szZGczTVFJV3AzU3QtbkduUXhMclBPQXdTekJmd3dYd3RuUQ?oc=5",
+      "source": "농민신문"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "'사이즈 열세도 우릴 막을 수 없어!' 오산동탄 더 모스트 U13, 인천 추계 대회 정상 올라",
+      "summary": "오산동탄 더 모스트 U13팀이 인천 추계 대회에서 우승했다.",
+      "kw": [
+        "동탄",
+        "스포츠",
+        "대회"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5WSFN1WXNqR0s0TUdETzBISGUxNzBLaU5YaTl4R0QzamJvb1FyNnBpUlZER1RiZWZHTU5iejRQS2x0ck5uMkpYQVZxQ09GTy1yNmlMLUlOT09jNWFHV25mcnpCQUFoMGNlVkdHcnA2SHM?oc=5",
+      "source": "점프볼"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "‘병원 밖으로 번진 따뜻한 한 끼’…한림대동탄성심병원 김준영·이시연 팀장 [나눔으로 밝히는 희망]",
+      "summary": "한림대동탄성심병원 직원들이 나눔 활동을 통해 사회 기여를 실천하고 있다.",
+      "kw": [
+        "의료기관",
+        "나눔활동",
+        "사회공헌"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE51VzFMbjBDMUhua3gtQzJiM1FGeTd5RWc4N0RzY2NpeTl1RW5SbHo1cEJzdmw3RlBja195TnVCNEtIdmh4TXFhbDhCWVJ6ZG1UQWFDZWRUaWtZa2M?oc=5",
+      "source": "경기일보"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "대방산업개발, 베이커리 카페 ‘대방[ ]장’ 동탄 테크노밸리점 오픈",
+      "summary": "대방산업개발이 동탄 테크노밸리에 베이커리 카페를 오픈했다.",
+      "kw": [
+        "카페",
+        "상업시설",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE03T3RCMHJMOGtpSW5JaWYwR1Y3dl9fWE9RUHp5NTZDeDVjNXFMY0FrYnMzeXZjU2ZrTk5fOUlZUDUtRjhUcTZvdUZqTHp1b3R5aWhxNnZwdThFVVVaeHJnT3VB?oc=5",
+      "source": "이코노미스트"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "한림대동탄성심병원, 로봇 인공관절수술 후 염증 반응 비교 연구 발표",
+      "summary": "한림대동탄성심병원이 로봇 인공관절수술 관련 연구 결과를 발표했다.",
+      "kw": [
+        "의료기술",
+        "인공관절",
+        "로봇수술"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5zNUNYeGd1Sko2b3VWNjZENXBjeXJHVWwtcXY2TlNXN2pydFVmcmxfUGd3T0dYWG1ieGNDNlpUZU1yTC15MlVDcGd1U2Q3dUxlUUZtM0pzS0xrT19QbEphZkxQc1pwMFNjVlJGZVM0a0FuNzRISFdQYXdR?oc=5",
+      "source": "로이슈"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "화성특례시, 송산그린시티 국가산단 미래차·바이오 용지 우선 분양 공모 및 ‘2026 올해의 SNS’ 4관왕 달성",
+      "summary": "화성특례시가 송산그린시티 용지 분양 공모와 SNS 평가에서 우수 성과를 거두었다.",
+      "kw": [
+        "산업단지",
+        "미래차",
+        "바이오"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5sZGliZUN3a092QUY3MnNqajM2UjdLWndMWDlyMmZwRGlxZ2RDWGVtUWRONFNWSXdLOWlXSE9nODNGM05MNTQ4SkUtdmpNWUJZQkE5dGhmeWdtX1NFZWJxOVo4aFg0Z0l2Z1BNbGZkTHgzVzA?oc=5",
+      "source": "대한경제"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "문화관광",
+      "senti": "중립",
+      "title": "화성시, 양궁 실업팀 창단 긍정 검토…“용역 거쳐 내년 하반기 내로 최종 결정”",
+      "summary": "화성시가 양궁 실업팀 창단을 긍정 검토하여 내년 하반기 최종 결정 예정이다.",
+      "kw": [
+        "양궁",
+        "실업팀",
+        "스포츠"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9waFFKZUotaFBHTFM5eFdTM1BTOHdsNEl4anpPQ3dFV3pRQmpqLVZOWWo3UnhlU2VNSkQ4eDlDUlFxZjJFdURZU0RWVG5rbURkZ1JnYmdJNXBKazRNaDB1M2ZrU1NpdXNvQXFxNkRlUQ?oc=5",
+      "source": "중부일보"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "한림대동탄성심병원, 로봇 인공관절수술 염증 반응 감소 확인",
+      "summary": "한림대동탄성심병원이 로봇 인공관절수술 후 염증 반응 감소를 확인했다.",
+      "kw": [
+        "의료기술",
+        "인공관절",
+        "로봇수술"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9TdjByMmtXT19CN2l2bEJiYm1LWGpCclhBbU03MjJPTmJjOWg4WnFVd1RQbzRPeWZYMWZFS2tQV2VnUHV3enE3SGVKb0VJV0RsM21QYS1Gd05NVG1SeVE?oc=5",
+      "source": "뉴스투데이"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성특례시, 교통·안전·복지 스마트서비스 추진…동탄·송산 도시개발 연계",
+      "summary": "화성특례시가 스마트서비스 추진으로 교통·안전·복지 개선과 도시개발을 연계한다.",
+      "kw": [
+        "스마트서비스",
+        "도시개발",
+        "동탄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9tM0hZRlV0cy1lWmUwODctdWRDT1pLWjBtTXdURUd3dUxDUGllMGFhcmlxSjFjcHhNMWJOV2JYM2dFUnhFS3VEcFRoR2V2VDhBWC1xcDZvX2Nic3MwSEN5ZHZnV2U1U1dFU2lZ?oc=5",
+      "source": "한스경제"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "김정주 화성시의원, 대한민국소비자대상 ‘수상’ 소비자친화 의정활동 `인정`",
+      "summary": "김정주 화성시의원이 대한민국소비자대상을 수상하며 소비자친화 의정활동을 인정받는다.",
+      "kw": [
+        "의원",
+        "소비자대상",
+        "의정활동"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBMVXJHamVMaDJfZkdEYkZLR0U0bldSZURwRnI2UEZPUmdzNHhFeVh5eFFqZ1dkU1lUamJ1NFBIcXFYdw?oc=5",
+      "source": "화성인터넷신문"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시, 스마트도시계획안 의결…교통·안전·복지 22개 서비스 추진",
+      "summary": "화성시가 교통·안전·복지 등 22개 스마트도시 서비스 계획을 의결했다.",
+      "kw": [
+        "스마트도시",
+        "도시계획",
+        "서비스"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBMdHFQWE5WdEZmaklaYU9CdHd4UVdPNG5uTnBiNHY3amZKanlETFV5T2ZfelA5dXJVbmktUHhaUm1WUW1rLVphMzlsN2NGX2pUNTV2NFo1WmhNbGVYeGRsYQ?oc=5",
+      "source": "아시아경제"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시, 시민 체감 스마트도시 서비스 구축 논의",
+      "summary": "화성시가 시민 체감형 스마트도시 서비스 구축을 논의했다.",
+      "kw": [
+        "스마트도시",
+        "시민서비스",
+        "도시혁신"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBHVlg1Qjk5YmJ5ak1NZGxIemtNUEczbWhsM1NCZHFobEFGV1JBSElZQWhmWk9DTll3T0VrUXhWc1ozSWFwQ19pZ0VkVXJqVEowMWVUWEVURlRyNFpfaTdhZmcxaTlqc19Wb19qZGln?oc=5",
+      "source": "현대일보"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "한림대동탄성심병원 “로봇 무릎 인공관절수술, 수술 후 염증 반응 적어”",
+      "summary": "한림대동탄성심병원이 로봇 무릎 인공관절수술의 염증 반응 감소 효과를 발표했다.",
+      "kw": [
+        "의료기술",
+        "인공관절",
+        "로봇수술"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAtVHB6RFlvTzVaOXhWY3JlbUxvMXpJUXFucW9NLVVoaGF6UkkzVHAyWDRHTWZYWFN2MHl5SGFkbmkxUkpmXzlFc2EtWFBETTFRaHNjTzRGWkhRT1kxcFc2U042RUo0Sko1Q0RMRGEzNmfSAXRBVV95cUxPTlZpXzhZUTdsMWxXdWpJS1U4SjRycXk4S09XZjF1ZXdhdGJLYTBSX0pwdFdNSEFLMEVNV1FGd1hHNHM3aHcxNFZwTERVZENkUDVUcVFCalZBS2czWGRQcXhxeEtTazhTeEl6Y0lIODNiT3lrOA?oc=5",
+      "source": "주간한국"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "[경기] 화성시 영재교육원 1기 115명 교육 마쳐...2기생도 선발",
+      "summary": "화성시 영재교육원이 1기 115명 교육을 완료하고 2기생을 선발한다.",
+      "kw": [
+        "영재교육",
+        "인재양성",
+        "교육"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBBbERFT3N4V2lSWGtjNXJJWGxYc2xMclE5RU42ZFFYQ1dXU2ozUjc0MVBMZHZuS181SXpfdWx2MEt1MHladzJPZWRSNUJMZFJUbzFfVWZDOUtQNk1JeHc?oc=5",
+      "source": "YTN"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "[인터뷰] 권칠승 “화성시법원 2032년 개원 차질 없도록…경기도 최우선 현안은 교통문제”",
+      "summary": "권칠승 도지사가 화성시법원 2032년 개원과 경기도 교통문제 해결을 강조했다.",
+      "kw": [
+        "시법원",
+        "교통",
+        "행정"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE03UzEyNEJ4UDZocW5GSGgzd0JYOWprN21MenE1VXBwUzBfSU9DV0Yyd3lnemgwM3VydHpLbzZsaFJqdEpSM0Z0dEZ0eVZkb0F4enZ2TFMzQS1vcGNGUXo1RU5FZW9EY2IwWFhtUEtfWQ?oc=5",
+      "source": "중부일보"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "덕성여대, 화성시인재육성재단과 손잡고 청년 취업 지원 확대",
+      "summary": "덕성여대와 화성시인재육성재단이 청년 취업 지원을 확대하기로 협력했다.",
+      "kw": [
+        "청년취업",
+        "인재육성",
+        "고용"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE92ZFY2ak1rT1ZtMEx3cndRVDU4M1B6Q0duS1FKcW45ZHl4ZWlESTV2Vk80dER2X2E3RzN5eS01LUtYXzdfUG5uVUIxMDM5dFExNENKckVsaDZaQQ?oc=5",
+      "source": "파이낸셜뉴스"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "제우스, 화성시 ‘그냥드림’ 사업에 1000만원 기탁",
+      "summary": "제우스가 화성시 그냥드림 사업에 1000만원을 기탁했다.",
+      "kw": [
+        "기부",
+        "복지",
+        "나눔"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAwLW9ILUhaODFjck95Y1BQczRRVklqNXdNb2pDd2xXdlNXZ3B5RUo4Y2pxcVhoQUxpWHJkZlh3T0tBcUplZWZGVDZDcnlMTnpLVWRkSDNVMXVaMHpBcUlWNHNxR2JBUTUybkRDNHdIUjM?oc=5",
+      "source": "신아일보"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "[패트롤] 수원시의회-화성시",
+      "summary": "수원시의회와 화성시 의회 간 행정사항을 비교 점검했다.",
+      "kw": [
+        "의회",
+        "행정",
+        "감시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaMkN4SVZqeEdXaFEwVzIzNjNUaWVPcFk0SE9pOUhfMGFsdkRXTHQyS2xvb1YyWGZ6UEJQWV9UN2xHYnBvWlBUNU1sOEJxanRtOF9QbmV1XzlmUXM?oc=5",
+      "source": "에너지경제신문"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시복지재단, ㈜제우스, 화성특례시 ‘그냥드림’에 현금 1,000만 원 기탁",
+      "summary": "화성시복지재단과 제우스가 그냥드림 사업에 1000만원을 기탁했다.",
+      "kw": [
+        "기부",
+        "복지",
+        "협력"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1FVFVpMnpzV1A0NDRLb1R0NTVBb3BZZUJYclY1M2JVUDRGamZGTDhSZHRkQlNIY0taYW9mc1JZWHVtOU81ZFQwMXhWNmFDRHlPRDZRQmxoMi1lYWRIZEVBUTR4Uk9YbDNySFM4RVB2d9IBckFVX3lxTE9pcHBfTTlMdURYeXhiMTdfVDVwWllvbl9sTXNEUGE3OFRYRGdrbERUT0NtWEpMOTE3cFFFVEw4elAxVHROT1JmbkxWbDE3dmtMcER0SVFHaUpORkx0Qm9VeWthQ3BJS0Ric3RNNkdadFpRQQ?oc=5",
+      "source": "뉴스 따옴"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "한림대동탄성심병원, 로봇 무릎 인공관절수술 후 염증 반응 적어…환자 60명 비교",
+      "summary": "한림대동탄성심병원이 로봇 무릎 인공관절수술 후 염증 반응 감소를 60명 사례로 입증했다.",
+      "kw": [
+        "의료기술",
+        "임상연구",
+        "수술"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1rTWxYdXNaSV93eXBzR2ltdzBYdFgxWmFfdEpjSmNGLWM1SG5ZbDJyU1ZKUGdxQzdKRjU3WlZEdzR1VnIyOExzcXNzalBUN09aa240aGhlNmdNbFR5UjhGeUtJZkZ4VGs3SGfSAW5BVV95cUxNRG5TT2dkaTdRWmFqR01xVFFXS0JZZkdPV1EzWGVTSnRLMFFJOHBpc2Z5UG5kanJvQzQyZjdheEpCU25BMUFJNU5UdGFCNEpnend5RllGeWhocEZkM2s0Ui1RZ05DbWJCRlViQnBPZw?oc=5",
+      "source": "더임팩트"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "안전",
+      "senti": "부정",
+      "title": "장동희 화성시의원, 도시공사 안전관리 부실 질타…체육·추모시설 전수점검 촉구",
+      "summary": "장동희 의원이 도시공사의 체육·추모시설 안전관리 부실을 지적하고 전수점검을 촉구했다.",
+      "kw": [
+        "안전관리",
+        "감시",
+        "부실"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBWUHJiOXF1VUhiUFdycEI3Vl9zeVVrTFNQcTBuV3ZzRWVJNTF3Y2wxc3R4WVhWeElrUVZsb2IxNVNZaHVwbzZHM2NNSFZKRnBIQnVpS2dxdDdkZw?oc=5",
+      "source": "데일리엔뉴스"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시, 제2차 스마트도시계획안 의결…22개 서비스 추진",
+      "summary": "화성시가 제2차 스마트도시계획안을 의결하고 22개 서비스 추진을 확정했다.",
+      "kw": [
+        "스마트도시",
+        "계획안",
+        "서비스"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PSWtLY0FCckpvUXJ5ajUtelFSb04yNXBLODFna1d3b1p4WUliQnM3UFZnZ1F6NlN5Y3M5dWoxSEx3WXdPNVpfcWJ5LXhHaXJuNV8wRGxEejAtdDNaSHczTUdOM3oyT3hsaTlLMjVTb0M?oc=5",
+      "source": "신아일보"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "화성서부署, 외국인 범죄예방 위한 ‘民·警·다국적 외국인 합동 캠페인’ 전개",
+      "summary": "화성서부서가 외국인 범죄예방을 위해 민·경·다국적 외국인이 함께하는 캠페인을 전개했다.",
+      "kw": [
+        "외국인",
+        "범죄예방",
+        "캠페인"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5sTTF4YmQ4c3dTY2w1MFFqalpVa0lwLTIwdWV2VzNDTkdxYm9DQ0tuS3d5SXdWa2RNTGdKQkJCQ2RjbWY1OFZFYTZPZFlWRjJFWEExN1I2UmxFdzgzVkFFXzRzMVExc0xtN0R1M3hmb2hQQQ?oc=5",
+      "source": "스포츠동아"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시, 제2차 스마트도시계획안 '교통·안전·복지' 22개 서비스 의결",
+      "summary": "화성시 제2차 스마트도시계획안에서 교통·안전·복지 분야 22개 서비스 의결했다.",
+      "kw": [
+        "스마트도시",
+        "교통안전복지",
+        "서비스"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB5andJbXpkYzgxTWgxLTFEbkxUYUVtanpFYkVjN1NwWkE3R2c2cDl6NHN2aDQ4NGdGV2xKLUtCaDY0d2ktYjIzX1RPM1pWX0RDdUJVTUZOX1o3cVFHd1dEMnBySDJKT29iVWhJ?oc=5",
+      "source": "프레시안"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시 역말문화회관 문화가 있는 날, ‘매마수’ 올해 성료… 내년에도 지역 주민 곁으로",
+      "summary": "화성시 역말문화회관의 문화가 있는 날 행사 '매마수'가 올해를 성료했다.",
+      "kw": [
+        "문화회관",
+        "문화행사",
+        "주민"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE95ZjJlaGpsZURnMUJrWEU1N2RaOGpkTXp3MHhOYTJUNnEyOGJRRno4LWlVUk50ZXZCUGRRNXZTNjJ2a01mSDMwRV9HSjk0S09sRjlIMzQtWkg5OS1tcVFDRE5WVm1adw?oc=5",
+      "source": "화성저널"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "화성특례시, 송산그린시티 국가산업단지 산업시설용지 우선 분양 추천 대상자 공모 > 뉴스",
+      "summary": "화성특례시가 송산그린시티 국가산업단지 산업시설용지 우선 분양 추천 대상자를 공모한다.",
+      "kw": [
+        "송산그린시티",
+        "산업단지",
+        "분양"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1QZURrOE9Pb0pwd2dORDBjX3Q3UWtVQ00wVFpCaFQzRi1SUHlCd1JnQmpKOEoxSlNlbUZuaDJjdnB1RU9INXl4a3NNdw?oc=5",
+      "source": "더코리아"
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "산업경제",
+      "senti": "긍정",
+      "title": "수원대 '2026 화성시 계약학과 산업안전/재난 AI 심포지엄' 성료",
+      "summary": "수원대가 화성시 계약학과 산업안전/재난 AI 심포지엄을 성공적으로 개최했다.",
+      "kw": [
+        "산업안전",
+        "AI",
+        "심포지엄"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1NeGJ4cDg5QnNhSTAtVG0zMm9hZkE0UkFXNmY0X1c3YUw1Z3prM0ZnbXRuS2t5MTFXaVc2aGg5N25NMER5b0pXRkFVTXdTZXA4Wk5BSk12YXhwSDdPMDd2SmhIYk9TUnJsc3pObw?oc=5",
+      "source": "베리타스알파"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시 동탄3동, 취약계층 의료복지 지원",
+      "summary": "화성시 동탄3동이 취약계층을 대상으로 의료복지 지원을 실시한다.",
+      "kw": [
+        "취약계층",
+        "의료복지",
+        "동탄3동"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1LVENmZWxUazM1NUVUa2g1SjMxNjd0UWltNWNYZEQtSUViXzBXTFRELVdYTFdLU29HU0x0QW9PRHVjZ0hDbHJ5TkVFR013WGlrbE1sTkNBOGVmbGZYeWRsT0l2aW9XV1Q3RHNpYUlrNUQ?oc=5",
+      "source": "인천일보"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "내 건강상태 직접 확인한다…화성 서신보건지소서 건강체험 행사",
+      "summary": "화성 서신보건지소에서 주민 대상 건강체험 행사를 개최한다.",
+      "kw": [
+        "건강체험",
+        "보건지소",
+        "주민건강"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5MeE1XbVo3SzVkMzVnLUxwMHJXVUNVVENIb25BclpRczBOc0xpd2JjQ2tUaUQtRmFaNnBzMU1HYzlldDd1ZXMxNVhZc1BrWFJ6X2Q4WFViMTlET3BXMk5ESjJzbUVWQQ?oc=5",
+      "source": "www.kgdm.kr"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "교통",
+      "senti": "중립",
+      "title": "[뉴테크 포커스]오뚜기ㆍSB아치 신안산선 향남 연장운행 거더 낙점",
+      "summary": "신안산선 향남 연장운행 거더 낙점이 결정되었다.",
+      "kw": [
+        "신안산선",
+        "향남연장",
+        "거더"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9Ta3NFWjV0dVR6cUtBaWRlVFVUd3lQdG8xU1JfM0Z2eklnRWpMZmNCMzZGX1hxaXVVTTRfMG1QeTN0RFdBSDdFTnIya013cF9qZzJYbjdkZENZbFBnNDl3OEVHeUVXaF9mek1oM2lDZFl4LWM?oc=5",
+      "source": "대한경제"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시, 징수행정 강화하고 스마트도시·자활 지원 확대",
+      "summary": "화성시가 징수행정을 강화하고 스마트도시, 자활 지원을 확대한다.",
+      "kw": [
+        "징수행정",
+        "스마트도시",
+        "자활지원"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOS1dGX3BuSXF3dllEVnMwOWs0YzNIdUNOeWxtNFA3NTRST2hFMThEWjNaaGh6ZXNSenhZWTEzOFpjVl95SlVha3lYWERzV0UxVl9URE5FWnJLMjJWWUVmYjZGamxISTZjOW85REhUQTRWMElLUDd3VWtmVWE5LXIzVXFvRXJVQUJ6Y0Y4?oc=5",
+      "source": "글로벌이코노믹"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "직영 매장으로 상권 채운다 '동탄역 대방 디엠시티 더센텀' 26일 대방장 오픈",
+      "summary": "동탄역 대방 디엠시티 더센텀이 26일 직영매장으로 개장한다.",
+      "kw": [
+        "동탄역",
+        "대방디엠시티",
+        "상권"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA0d1FuUG5xQXlSMWdEZmZUWTBjZWI0Qmc2VXpKUmNvMmFSeU5Qc1RRdWs4QlhGX0h1bWtZenNOWmxzZ3hoamhGUldUbkE3dw?oc=5",
+      "source": "전자신문"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시청소년수련관, 전통문화와 역사 담은 주말체험 성료",
+      "summary": "화성시청소년수련관에서 전통문화와 역사 주제의 주말체험 프로그램을 성료했다.",
+      "kw": [
+        "청소년수련관",
+        "전통문화",
+        "주말체험"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9pUFptcHZWS202MHA3d1dfbkJmR3Bqc3JhRnNvUWpOOEp4WDRHQkV3TXk2Z2tQWUlid2UxNmNuaVppcTd0V194MXg1VXl2Tkw5TG1xOTU0QXdKaU1vMkpMV2dfX28tLTRybHpj?oc=5",
+      "source": "한국사회복지저널"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "안전",
+      "senti": "긍정",
+      "title": "동탄시티병원, 대한적십자사 경기도지사와 업무협약 체결",
+      "summary": "동탄시티병원이 대한적십자사 경기도지사와 업무협약을 체결했다.",
+      "kw": [
+        "동탄시티병원",
+        "적십자",
+        "협약"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBSWDZRSHB4UFJfZnh4WF8tekREdVRsZGlVcUlyYUVqRldNcTBKSG5Bc1JqSlB0cDhaNW9DVktRSEtYdC1NZTJ5WlBOTTV3UkN3RVlac0FlN2Vsa21WaFh2bVlBdzF3SkZpZXM1aQ?oc=5",
+      "source": "바이오타임즈"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시, 경기도 고액체납자 징수활동 평가 우수 시·군 선정",
+      "summary": "화성시가 경기도 고액체납자 징수활동 평가에서 우수 시군으로 선정되었다.",
+      "kw": [
+        "징수활동",
+        "평가",
+        "우수"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5rNHM1T3ZnZnZXcVdrbElFWWNMenFYV21zNm8tbkQ2a0swRldxcVNPUDFuZWs3NTVZdmpNWmkzYVF5TUdYbmJ2ZkFrbHMtS2JIYllRcm0wSmZxdVVCUy1SeGlQdnJGSi1Z?oc=5",
+      "source": "일간경기"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "전세난 심화되는 동탄…3억대 전세 ‘힐스테이트 동탄 르센텀’ 주거 대안으로 부상",
+      "summary": "전세난 속 3억대 전세 힐스테이트 동탄 르센텀이 주거대안으로 부상한다.",
+      "kw": [
+        "동탄",
+        "전세",
+        "힐스테이트"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE50RFVzVnh6Mjk4Zm1wRGhOTUtodDE3ZU9ibnJ3MHVXLW9yRGNKRmNSamNoUTRhLUpYY1FndXVPRkltLWcyMmV6bURNQUxuc3RzeFlLV25rM090SjVwSTVscg?oc=5",
+      "source": "아시아경제"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시 ‘그냥드림’ 무료급식소까지 먹거리 지원 확대",
+      "summary": "화성시가 그냥드림 무료급식소를 포함한 먹거리 지원을 확대한다.",
+      "kw": [
+        "급식소",
+        "먹거리지원",
+        "취약계층"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA4Q210ZV9OT19mbk5nOFI3bGJwQnF2N1dicEV1TVEtX3lpTzFzVDJyMnR2Z0NGOEJKRGVKc0xCWGRqUVBBZk9VMnNBcDNzd0pIdWc?oc=5",
+      "source": "경인일보"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시 동탄3동, 어르신 30명 대상 따뜻한 장수사진 선물",
+      "summary": "화성시 동탄3동이 어르신 30명을 대상으로 장수사진을 선물한다.",
+      "kw": [
+        "동탄3동",
+        "어르신",
+        "장수사진"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE13aWFsZFlUa3dIRDV0OEJYT2RDcDB0WlZRdlhpT0h1SE9lQ202a21lMUFSdHJZVnlGcmFhSTV4Tk5kZEF0OGphRDBuVjRCWmIzTGEtSDNacFl5MjliU1NpRW9n?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성시 만세구보건소, 운동·영양 맞춤 지원 성과…건강관리 만족도 99% 이상",
+      "summary": "화성시 만세구보건소의 맞춤형 운동·영양 지원 프로그램이 건강관리 만족도 99% 이상을 달성했다.",
+      "kw": [
+        "보건소",
+        "건강관리",
+        "만족도"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAybl9oVWR4aHQ2MUNGb1ZKZ2FoUHVHX1VnZ3ZsMlVPWjRHNW42UENtTjZWVHdiRGMtWmNPdG1PdzltdXJFb05qWnJnQ01ZTWdnUlB6MHpqV1VCMUlVX1hXYTlfbDhITENKT2fSAWxBVV95cUxOR2lnUTA3UmR2MXVzYkhaODhUaHRtcEtpOFNubFJLSnFWVHZnM29nUFFNcnluSFFhT1JJTVJHMmU5SzNnYTdPcXJSTkhxdFZFYnVuRUlva2RDSDBrdmFEMXhzZnotZG9FUHBuUHc?oc=5",
+      "source": "필드뉴스"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성특례시 동탄3동, 어르신 30명 장수사진 촬영·의료봉사 진행",
+      "summary": "화성특례시 동탄3동에서 어르신 30명을 위한 장수사진 촬영과 의료봉사를 진행했다.",
+      "kw": [
+        "동탄3동",
+        "어르신",
+        "의료봉사"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE92bUpOTjZqc0g0NVhIRHgzLXREZWhiVUt3dmV0SFpLVkwzbGtmQXlSXzlBY2RIdUZlQ1FzRWx2U1M1SDZacld0Vms3YTFYaGFCaENjV21EZW5JUDNqeXFJM0tYRmU5dw?oc=5",
+      "source": "https://www.kgdm.kr/"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시, 고액체납자 징수 ‘우수’…부동산 공매 578건 의뢰",
+      "summary": "화성시가 고액체납자 징수에서 우수 성과를 거두어 부동산 공매 578건을 의뢰했다.",
+      "kw": [
+        "체납징수",
+        "부동산공매",
+        "재정회수"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Wc1NuNzFpb2RQVkNZRUtETEhhTlZmaTlQYnVUZVVjb18tUjU0cU5pdjM1Y0ZqME9VQndvT1BCX3ZRS0xDRTFWRWx0OEFWckkyTDNkU3o1NndRd05ZRjJRRQ?oc=5",
+      "source": "아시아경제"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "[11/25, 매경부동산 추천매물] 동탄2신도시 10%대 본사 직영 편의점 급매가 5억8000만원 등",
+      "summary": "동탄2신도시 편의점 급매물이 소개되었다.",
+      "kw": [
+        "동탄2신도시",
+        "편의점",
+        "부동산"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1RMGhkZF9aekxpSklWNGI0Y2VoRzhkOTFfUGtMejBoR3NXeEUzaEVrRFY5OXlTenI5azV3b1JWUUEzYkpBV1E?oc=5",
+      "source": "매일경제"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "【행감】 5탄 ▶ 화성시인재육성재단, 가처분 신청 후 확인된 배정수 사퇴서..",
+      "summary": "화성시인재육성재단 배정수 이사의 가처분 신청 후 사퇴서 제출이 확인되었다.",
+      "kw": [
+        "인재육성재단",
+        "가처분",
+        "사퇴"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPY0xUM28taEVOR1N5ejI0NnNsQlcyZGxjZUZOQjRfQVRvT3hOMHBCRmRCZWdTeUlKVjAwU3ozQUFuZjZBejF1dHNBQUprNENOSDlBWEZuTjR5bTIzSnZFLTZyUkRUTEFiQnBwaGdqOW0wRlBWLUw4NENNdzAzcjd4UnREa3Y?oc=5",
+      "source": "화성 투데이"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "병점역 아이파크캐슬 분양가 상승 뒤에 숨겨진 입지 가치와 주의점",
+      "summary": "병점역 아이파크캐슬의 분양가 상승 배경과 입지 가치에 대해 분석했다.",
+      "kw": [
+        "병점역",
+        "아이파크캐슬",
+        "분양가"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNWWstTVc1Z2FFOXd2dl9UZV9OeHZ5MUdkTUVGd2Yyd3ZyeERmSVpFS0dFUnA5R2JoUUJ1bzFuam1sN2otNllvX0lRcjFWM0U3Ym5oZU4yVGhXUQ?oc=5",
+      "source": "블로그차트"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시문화관광재단 소식지 , 「2026 대한민국 커뮤니케이션대상」 특별상 수상",
+      "summary": "화성시문화관광재단 소식지가 2026 대한민국 커뮤니케이션대상 특별상을 수상했다.",
+      "kw": [
+        "문화관광재단",
+        "커뮤니케이션",
+        "수상"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFByWWN3bnhoQXNqc0RGNkFPaUd0ZFJHOXI0WGVDVGxHOGdwZ1ZEMl9KSWxud21VbHh4Ty1LbXJmSlRDSEViODBwOUtsZmZVTWRRU1FFd1BZbi1kLWVXenNHTlpZcHdHb2ZMSnJzTWxPRVV6eElY?oc=5",
+      "source": "경기종합뉴스"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "행정",
+      "senti": "중립",
+      "title": "화성시 행정 성과, 징수 실적 넘어 재정 회수율로…독감 대응은 접종 사각지대 해소",
+      "summary": "화성시의 징수 성과와 독감 접종 사각지대 해소 현황을 보도했다.",
+      "kw": [
+        "징수실적",
+        "독감접종",
+        "재정회수"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9keUh4bVlMQTZOTmVsM1d6T01fMjdOcnFmTzUtSTlIckhQT2pHd0FIQzU0ejRSVUtLcGtOdFU1VEJPdWV4eUEwc3NWaWVMaHJIbFhwZUl4czVhN0VReE5JeHAtMlk?oc=5",
+      "source": "중도일보"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "독감 환자 4주 연속 증가…화성시, 무료 예방접종 독려",
+      "summary": "화성시에서 독감 환자 증가에 따라 무료 예방접종을 독려하고 있다.",
+      "kw": [
+        "독감",
+        "예방접종",
+        "감염병"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XcGtvaUJXWlhvUXpPRElhZEdMX211anNMY1VvTHlFbHR6aFU1bGJjVWc1c2w3ckd4cTdITjlSc2RtOVBTS1ctVm1RS25ZS3FqN1hzT1ZyQVpsdw?oc=5",
+      "source": "데일리엔뉴스"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시, 2026년 고액체납 징수평가 우수…부동산 공매 578건 진행",
+      "summary": "화성시가 고액체납 징수평가에서 우수기관으로 선정되어 578건의 부동산 공매를 진행했다.",
+      "kw": [
+        "체납징수",
+        "공매",
+        "행정평가"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9LTGN6YUoyaEZ0bWtHMFlZNUN6Um5hT3ZMcXZlU3pQNTNRNXlNV0dvekVlUXVxS0tmTGY1SElIeFhQV2RkNkNzeVdYd1I4MGdLVjF6TVFlX2MzY3RSUnpPRVd3?oc=5",
+      "source": "경인미래신문"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성특례시 동탄3동, 어르신 30명에 장수사진 선물",
+      "summary": "화성특례시 동탄3동에서 어르신 30명을 대상으로 장수사진을 선물했다.",
+      "kw": [
+        "어르신",
+        "장수사진",
+        "복지"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBqU2lZQjRWUm9xRWtOcklSSmRsTXFodUNfUTRiV3lMenlrZkVOdGp5QVNsYnMwcFIybEhJRjZRcnExWlE0RFljRVJPbXhwNWdWWUZTQ0lHVXRmU3FMRmJNWVRoVVBGSkdzdEtkbkdLSUMyUQ?oc=5",
+      "source": "웹이코노미"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시, 경기도 고액체납자 징수활동 평가서 우수기관 선정",
+      "summary": "화성시가 경기도 고액체납자 징수활동 평가에서 우수기관으로 선정되었다.",
+      "kw": [
+        "체납징수",
+        "행정평가",
+        "경기도"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ra0VCUVRkbUZWaC1XUkNYalQ1Vkp6VmFHeHNTUVo2QmpnVTVjdGk3TlFlMVNia0hTOGsya2dFVF92VVhIRU1yUjc2cl90WGNDaEdHVzE3U2R2Zk95bWt3T1ZR?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "문화관광",
+      "senti": "긍정",
+      "title": "화성시문화관광재단 소식지 ‘화분’, 대한민국 커뮤니케이션대상 특별상 영예",
+      "summary": "화성시문화관광재단 소식지 '화분'이 커뮤니케이션대상 특별상을 수상했다.",
+      "kw": [
+        "문화재단",
+        "소식지",
+        "수상"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40amZ6akdocGhJUG1MMjUtRU4xWjBlUWtfb2VobFpGVF9KZFZOc0xLRFgxU3lZZjcwNUJRbVp6TVd6MUswWE5QeXZpS0FfT1daTVdmREN5SEtXVlp2aVRNQ1RIaWVKM2RvLWpVNHlyM3fSAXRBVV95cUxQdE9fLWRZUHpmc1o0ZUhmeGZUdzAyU1l4a1hSUTBPbVpidGI0cnNwNDdZYmExVmdhbTZ2QUs0dlI1QjhpVGFXcGViRmJNb2JYOEJKc2dydFB4OTdRSW9sRTA2NFVvSl81SlNpTTNtRFZvS3lidA?oc=5",
+      "source": "이뉴스투데이"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "화성시 , 독감 의심환자 4주째 증가…“무료접종 서두르세요”",
+      "summary": "화성시에서 독감 의심환자가 4주 연속 증가하여 무료접종을 독려하고 있다.",
+      "kw": [
+        "독감",
+        "예방접종",
+        "감염병"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA3SUJ4REVVMnY1enlSS21TcTB4UUN3Y2VoZGtuOWpYUWRySnl5MkVYNkt2cXhSZGNIRTdCeW1SQUpmOWRWZjAydVNTUUpxUXY1bWlnQWN1SGZMYXpBaklQTA?oc=5",
+      "source": "아시아경제"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "화성시, 독감 무료접종…어린이·임신부·65세 이상",
+      "summary": "화성시가 어린이, 임신부, 65세 이상을 대상으로 독감 무료접종을 시행한다.",
+      "kw": [
+        "독감",
+        "예방접종",
+        "보건"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1yMmR1X0JZUTU4eDQ0TWxiWUJFVmdQSzJBSG9KQjRaNHJ2NWhFaVZycFZMMWhveHBaTTVocVlON2hnTDlPNVNMckFhQlBNT3ZMa1VBbm9MNUo1Z25ydjNnNE1n?oc=5",
+      "source": "경인미래신문"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "화성시, 중장년 행복캠퍼스 하반기 수료식 개최",
+      "summary": "화성시가 중장년 행복캠퍼스 하반기 수료식을 개최했다.",
+      "kw": [
+        "행복캠퍼스",
+        "중장년",
+        "교육"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFByMElxUmVaMnkwVlJYbWpmcG5BcFZUWEVxT29XaEdqWlRqdDZBbE9XWlhiVjBCMFlsOEQzMVMydEk5VkVVTEFUckpmcFBhY1I2T1FsS3VpcnlXNkZCclYtdE9n?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "화성시, ‘중대시민재해 담당자 역량 강화 교육’ 실시",
+      "summary": "화성시가 중대시민재해 담당자 대상 역량 강화 교육을 실시한다.",
+      "kw": [
+        "중대재해",
+        "담당자",
+        "교육"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE56WEZIYkZiZ3R2ejkzM295WU5nb29wWlpveUhLamlaTE9wbWJqQlVSbmtxN3lxYlZkS0pJOFdITXVwUFVxM2M1OWRGVHpVa3lnd0RJelJzc1dod0RuXzRQNmVR?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "[화성소식]독감 무료 예방접종 안내 등",
+      "summary": "화성시에서 독감 무료 예방접종을 안내한다.",
+      "kw": [
+        "독감",
+        "예방접종",
+        "무료"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9fNzFWNFBZSUZHTm9qdWZma0tINnRrcTZRVzNmRHI0TjFKV1JGSmZPZWZpd3pfT1BjbUtlSjVnT2xFdFVrM1ZPZ05EOEIzX21zWHFRbnhYeV9VaDJxaThHZNIBeEFVX3lxTE8wU2RFdEhXb1ZNbHNLQ2VScWM1cWNOemh3bTMzRkVudlk3Yk9CQ3ZrYm9zUVJxLXowQ0lNOUNXazBXU2t5QmRrZk9CRHlNdkxCbmFzNjhQRllRbEpZZkRjdTFTeEt3TzVLSWtkZ2N0M25Dbzg2UU9wVg?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시, 제2차 스마트도시계획안 의결…시민 체감형 서비스 구현 추진",
+      "summary": "화성시가 제2차 스마트도시계획안을 의결하여 시민 체감형 서비스 구현을 추진한다.",
+      "kw": [
+        "스마트도시",
+        "계획",
+        "서비스"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8xY3p4OGZBOFE3S3owaFFMaExNTmk1Ui15SDN4bWk0LTktUFowYk5LQVY2MUhPQ0NTeFFqVXRTeUphMm5xMlQ2TGVNc3M5NTJ2REYzZ3ozQWF3TXI5WlpuZktn?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "화성시 만세구보건소, 30일 ‘2026 THE 웰빙 평가회’ 개최",
+      "summary": "화성시 만세구보건소가 2026 웰빙 평가회를 개최한다.",
+      "kw": [
+        "보건소",
+        "웰빙",
+        "평가"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5aWC1oSkd3ejBYYU05aXNEdC1JSDI0VjQybU9zTlpVejJ4bnRvdTJIeHZ3Sk9rOTRxS2xLZjk5MGNwR09QanQzNmNYeWpRUkpLUlhOVlU3c2t3U3c3VGk3c1NB?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "안전",
+      "senti": "중립",
+      "title": "화성시, 초등생 대상 식생활 안전교육 실시",
+      "summary": "화성시가 초등생 대상 식생활 안전교육을 실시한다.",
+      "kw": [
+        "식생활",
+        "안전교육",
+        "초등학생"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9YbU0yR1RIcmhuQWRTem1TbmNsVVdoNmhIZFgyUEhFbjN5V2xidmUwU0xHbUI3SzJ0V3U5QkZ3dGdMUG1iV0dLRGx1RDFZd2FNOU9vR05MX2ljMmIyaHVaRm1n?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성시,'끝까지 추적' 고강도 징수행정 빛나…경기도 고액체납 평가 우수기관 선정",
+      "summary": "화성시가 고강도 징수행정으로 경기도 고액체납 평가에서 우수기관으로 선정된다.",
+      "kw": [
+        "징수행정",
+        "체납",
+        "우수기관"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAwWjl5cGctY0oxeEtVeUEwa3J1NDA3aXpBRER4czhmdTA4aTlCVEFwZWcwNWR0NlNkUUEyTmFfTDNpdWx6ZVB6bDZobGVrWnlsUXd0aDF3MVMtREludGJ6U0NsWHZLeGlzcFVPd1VadFNuUQ?oc=5",
+      "source": "중앙이코노미뉴스"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "산업경제",
+      "senti": "중립",
+      "title": "화성특례시-홍콩 입법회, 경제·산업 교류 확대 방안 논의",
+      "summary": "화성특례시와 홍콩 입법회가 경제·산업 교류 확대 방안을 논의한다.",
+      "kw": [
+        "홍콩",
+        "교류",
+        "경제"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB1c3gwTWl3Z3IxV0hDQmFQMWZCSGRwdnFuaFJzWUVndjdKYUR2R09vaVNNMFNvN0xkOXJ1Y1FhY0pDV0IzLWhDdDREWFdaY25ubDQwbEs1b2hBOW41RjhFVC1kMVV3NF9HT3FWZFFZQQ?oc=5",
+      "source": "기호일보"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "【행감】 4탄 ▶ 팔탄면, 1억 3,800만원 사업 수의계약, 본공사 계약액은 못 밝혔다",
+      "summary": "팔탄면의 1억 3800만원 사업이 수의계약으로 진행되며 본공사 계약액 미공개 논란이다.",
+      "kw": [
+        "수의계약",
+        "투명성",
+        "감시"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaTdYTng4eXo5eW5ubFIwUjFoSTd4R1BHNmdhSFozeHZLQnNKRWVzSWtfbUhZeE9VajFvQ3FXQXd0MjZDT2FvMFNKTVZ5ZXRTYTFSU2NtV2V0b0pGckV1YkstMTV4U21VZFl5eExkTGRkZld2SE5WNnB2M2EwNnhmMGlpTnpsZE1yUVM2bjV6d1lfQQ?oc=5",
+      "source": "화성 투데이"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "행정",
+      "senti": "부정",
+      "title": "【행감】 6탄 ▶ 우정읍.. 방범차 정비비 52만 3,000원, 무엇을 고쳤는지도 답 못 했다",
+      "summary": "화성시 우정읍 방범차 정비비 사용 내역이 불명확한 것으로 행감에서 지적됐다.",
+      "kw": [
+        "방범차",
+        "정비비",
+        "투명성"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBVTUNKMl9uQVF3dWlULTVnb0t5MF9kR2NNWHpTYmx0X2ttX2xfdkZCRW1iM1RBTVZ5ZzJsM1ZRUFY0a0Q0?oc=5",
+      "source": "화성 투데이"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성 관내 자활기업 ‘청소의여왕’ 보건복지부 우수자활기업 선정",
+      "summary": "화성 관내 자활기업 '청소의여왕'이 보건복지부 우수자활기업으로 선정됐다.",
+      "kw": [
+        "자활기업",
+        "우수",
+        "선정"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE12Z1Z1d0FwcExrbFJHdXp6R2pfb0xKc3V2YzlGTm1ydHI4SjkxeEVhNW9IQldUak9iU3QzTVl0M212MGlwbUtxZEFzUF9ydWZCWlprVFFUSjJ4RHM4cGZJRnBR?oc=5",
+      "source": "경기뉴스광장"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성새일센터, 한국할랄산업진흥원과 여성 전문 인력 양성 업무협약 체결",
+      "summary": "화성새일센터가 한국할랄산업진흥원과 여성 전문 인력 양성을 위한 업무협약을 체결했다.",
+      "kw": [
+        "여성인력",
+        "양성",
+        "협약"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4wQ3lCc25Hd0xZa0FEUG93ZlJCN0dNWC1sZzFjNmxlWU1KeGs0NG5tX2RKNWFzcWNnYjNBeWZIVlo2Tk1vMVE5WG42ZjRza1dxR0JGUDdtVjFfMWNvTHdrX2hwYWp5QQ?oc=5",
+      "source": "화성저널"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "행정",
+      "senti": "긍정",
+      "title": "화성특례시, 경기도 '2026년 고액체납자 징수활동 평가' 우수기관 선정",
+      "summary": "화성특례시가 경기도 고액체납자 징수활동 평가에서 우수기관으로 선정됐다.",
+      "kw": [
+        "체납징수",
+        "우수기관",
+        "평가"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ib2NhSnZObmNRWFBZYmljOE1jRE1wdjFHRTEtempXLU9rVWFZZlRJQmEyQUVmZmFpbjdya1ZKWUd5SGQyYThHSE81cVhEOHYzRXhrTmlKdEdoZkFPUGx3eGJNS3RyQQ?oc=5",
+      "source": "경기탑뉴스"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "복지",
+      "senti": "중립",
+      "title": "화성특례시, \"독감 유행 지속... 무료 예방접종 서둘러 주세요\"",
+      "summary": "화성특례시가 독감 유행 지속으로 주민들에게 무료 예방접종을 권장했다.",
+      "kw": [
+        "독감",
+        "예방접종",
+        "감염병"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5jN0Z1Z0UtWFE4VlVlSVBya1VFbVQ2dVQ2MjVFX0hMT3FwOWY2R2lyaGpHdURJOVdyMWtNLXotNlN3QXJSWG1UUEQ4amlpY0xjWFFfcWV1anVERUZvVGRBbkNR?oc=5",
+      "source": "경기탑뉴스"
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "복지",
+      "senti": "긍정",
+      "title": "화성특례시 동탄3동, '정조의 효(孝)' 실천... 어르신 30명에 따뜻한 장수사진 선물",
+      "summary": "화성특례시 동탄3동이 어르신 30명을 위해 장수사진을 선물하는 효 실천 행사를 개최했다.",
+      "kw": [
+        "동탄3동",
+        "어르신복지",
+        "장수사진"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAxWUNrbWFFVjJEYmNxM3U2WVV5eEZvdzZhUGxBRU9BQkc2cEhRckZ5d3N1Ym1OdGtzVG1MMHFYRDZqWlY1US05NUcxZm5xZTE5dW1BdGVhMTdsNXFPVDFzMkFmbHgwdw?oc=5",
+      "source": "경기탑뉴스"
     }
   ],
   "dropped": {
-    "count": 54,
+    "count": 64,
     "reason": "제목에 화성시 단서가 없거나 동음이의어로 판단",
     "samples": [
-      "남양유업, 내부통제 손질에 ESG 등급 반등…“경영 투명성 지속해서 높일 것”",
+      "남양유업, 지배구조 개선 인정받아… ESG 종합 도약",
+      "남양유업, 경영권 교체 후 지배구조 등급 C→B…ESG 성적표 '개선'",
+      "[경인 Pick] 떼까마귀 ‘퇴치 약’도 없다… 시민피해 방지 나선 경기도·지자체",
       "남양유업, 지배구조 개선에 ESG 평가 등급 상승",
-      "남양유업, ESG 종합등급 B+로 상승…지배구조 C→B 개선",
-      "김승언 남양유업 사장, 내부통제 정비 지속…지배구조 개선",
-      "서울 0.06%↓, 경기 0.24%↑…내 집 마련 부담은 여전 (11월 3주 부동산)",
-      "남양유업, ESG 종합등급 상승...지배구조·사회책임경영 개선",
+      "남양유업, 내부통제 손질에 ESG 등급 반등…“경영 투명성 지속해서 높일 것”",
       "강남권 주춤, 경기 남부 강세…반도체·정비사업 지역 두각",
-      "남양유업 김승언, 경영 쇄신 통했다…ESG 등급 상승",
+      "광교~호매실 공사 중인데 또 연장? 수원이 제안한 신분당선은 어디로",
       "[칼럼] 벽에 그은 한 줄이, 주차의 마음을 바꾸다",
-      "남양유업, ESG 평가 등급 개선…지배구조·준법경영 강화 성과",
-      "남양유업, ESG 종합등급 B+로 상승…지배구조 개선 성과",
+      "청약 경쟁률 총정리 | 2026 청약 일정·무순위(줍줍)·임대청약 한눈에",
+      "한국 쇼트트랙, 폭발적인 인기 실감한 ISU 회장 “월드투어 한국에서 매년 열겠다!…최민정 더 오래 탔으면” [오!쎈 목동] - 머니투데이",
+      "한국오츠카, '무코스타정' 수출용 허가…일본에 CMO 역수출",
+      "부영그룹, 겨울철 앞두고 5개 사업장 안전·보건 점검",
       "생활환경 개선·미래산업 육성…과천시, 내년 예산안 5677억 편성 - 머니투데이",
-      "남양유업, 준법·윤리경영 강화 결실…ESG 종합등급 상승",
-      "과천, 지식정보타운 ‘과천대로12가길’ 임시 개통",
-      "부영그룹, 하반기 안전·보건 확보의무 이행 점검 실시",
-      "남양유업, ESG 평가서 KCGS B+·서스틴베스트 A...김승언 사장 \"준법경영·내부통제 고도화해 경영 투명성 높일 것\"",
-      "과천시, 2027년 예산 5천677억 원 편성 시의회에 제출",
-      "남양유업, ESG 평가 종합등급 개선…지배구조 B등급으로 상승",
+      "남양유업, 지배구조 개선·상생 성과로 한국ESG기준원 종합 ‘B+’ 도약",
+      "지장물 보상 협조장려금 최대 30% 지급…수용여부 관건은",
+      "경영권 변경 2년…남양유업, ESG 종합등급 평가 개선",
+      "\"겨울철 산재 선제 대응\"…부영그룹, 안전·보건 이행 실태 점검",
       "과천시, 내년 예산안 5677억 편성…올해보다 759억원↑",
-      "[ESG전략] 협력사와 책임경영 강화한 풀무원·남양유업, 카페 운영법 전수 파스쿠찌"
+      "남양유업, ESG 종합등급 B+로 상승…지배구조 C→B 개선",
+      "부영그룹, 전국 5개 현장 대상 안전·보건 확보의무 이행 점검"
     ]
   },
   "briefs": {
-    "all": "전체 기간 [[w]]부정 기사 785건(7%)[[/w]] 중 행정 분야가 347건으로 [[b]]압도적 비중[[/b]]을 차지하고 있으며, 2026-11-04에 [[w]]41건[[/w]]이 집중되어 그 날짜의 행정 보도를 먼저 검토할 필요가 있습니다.",
-    "7": "최근 7일간 [[w]]부정 기사 33건(5%)[[/w]]의 [[b]]63.6%가 행정 분야[[/b]]에 집중되어 있고, 나머지는 산업경제·안전 등 여러 분야에 분산되어 있습니다.",
-    "30": "지난 30일 [[w]]부정 기사 247건(7%)[[/w]] 중 행정 분야 153건이 주를 이루고 있으며, 특히 2026-11-04의 [[b]]41건 급증[[/b]]이 전체 추세를 주도하고 있으므로 해당 시점의 행정 관련 보도를 집중 검토해야 합니다."
+    "all": "전체 기간 11,811건 중 [[w]]부정 기사 789건(7%)[[/w]]이 수집되었으며, [[b]]행정 분야에 350건이 집중[[/b]]되어 있습니다. 안전(246건)과 산업경제(77건)에 비해 행정 관련 부정 보도가 압도적으로 많으므로, 행정 분야의 2026-11-04자 집중 사건(39건)부터 확인하시기 바랍니다.",
+    "7": "최근 7일간 [[w]]부정 기사는 35건(6%)[[/w]]으로 감소 추세를 보이고 있으나, [[b]]행정 분야가 23건으로 여전히 주요 이슈[[/b]]입니다. 2026-11-24자에 8건이 집중되어 있으니 해당 날짜의 행정 관련 보도(5건)를 먼저 검토하시기 바랍니다.",
+    "30": "최근 30일 [[w]]부정 기사 244건(8%)[[/w]] 중 행정이 150건으로 압도적이며, 안전(37건)과 교통(25건)은 큰 차이를 보입니다. [[b]]부정 보도의 대부분이 행정 분야에 몰려 있으므로[[/b]], 2026-11-04자의 행정 관련 집중 사건(39건)에 대한 대응이 우선입니다."
   },
-  "briefs_updated": "2026-11-24 15:54",
+  "briefs_updated": "2026-11-25 13:05",
   "issues": {
-    "updated": "2026-11-24 15:54",
+    "updated": "2026-11-25 13:05",
     "items": [
+      {
+        "label": "장동희 화성시의원, 도시공사 안전관리 부실 질타…체육·추모시설 전수점검 촉구",
+        "count": 2,
+        "sources": 2,
+        "first": "2026-11-24",
+        "last": "2026-11-24",
+        "cat": "안전",
+        "titles": [
+          "장동희 화성시의원, 화성도시공사 안전관리 부실 질타…“시설 전반 전수조사해야”",
+          "장동희 화성시의원, 도시공사 안전관리 부실 질타…체육·추모시설 전수점검 촉구"
+        ]
+      },
       {
         "label": "화성특례시 민·정·관, 수원군공항 화성 이전 반대 공동입장문 발표 > 뉴스",
         "count": 66,
@@ -150678,24 +151768,26 @@
           "국방부 수원군공항 이전 여론조사 추진… 화성시 \"편파적 설문\" 반발 |",
           "화성시, 수원군공항 이전 특별법 반발…국방부 설문·주민 동의 절차 쟁점"
         ]
-      },
-      {
-        "label": "조용호 오산시장, 화성 덕절리 물류센터 교통대책 공동 대응 요청",
-        "count": 2,
-        "sources": 2,
-        "first": "2026-11-05",
-        "last": "2026-11-16",
-        "cat": "교통",
-        "titles": [
-          "조용호 오산시장 “화성 덕절리 물류센터 교통영향 재검토해야”",
-          "조용호 오산시장, 화성 덕절리 물류센터 교통대책 공동 대응 요청"
-        ]
       }
     ]
   },
   "today": {
-    "updated": "2026-11-24 15:54",
+    "updated": "2026-11-25 13:05",
     "items": [
+      {
+        "label": "장동희 화성시의원, 도시공사 안전관리 부실 질타…체육·추모시설 전수점검 촉구",
+        "count": 2,
+        "sources": 2,
+        "first": "2026-11-24",
+        "last": "2026-11-24",
+        "cat": "안전",
+        "titles": [
+          "장동희 화성시의원, 화성도시공사 안전관리 부실 질타…“시설 전반 전수조사해야”",
+          "장동희 화성시의원, 도시공사 안전관리 부실 질타…체육·추모시설 전수점검 촉구"
+        ],
+        "score": 68,
+        "state": "확산 중"
+      },
       {
         "label": "화성특례시 민·정·관, 수원군공항 화성 이전 반대 공동입장문 발표 > 뉴스",
         "count": 19,
@@ -150724,31 +151816,18 @@
           "화성시의회 특위, 수원 군공항 이전 반대 공동입장문 발표",
           "화성특례시 민·정·관, 수원군공항 화성 이전 반대 공동입장문 발표 > 뉴스"
         ],
-        "score": 69,
-        "state": "진행 중"
+        "score": 62,
+        "state": "종결"
       },
       {
-        "label": "장동희 화성시의원, 화성도시공사 안전관리 부실 질타…“시설 전반 전수조사해야”",
+        "label": "【행감】 5탄 ▶ 화성시인재육성재단, 가처분 신청 후 확인된 배정수 사퇴서..",
         "count": 1,
         "sources": 1,
-        "first": "2026-11-24",
-        "last": "2026-11-24",
-        "cat": "안전",
+        "first": "2026-11-25",
+        "last": "2026-11-25",
+        "cat": "행정",
         "titles": [
-          "장동희 화성시의원, 화성도시공사 안전관리 부실 질타…“시설 전반 전수조사해야”"
-        ],
-        "score": 60,
-        "state": "신규"
-      },
-      {
-        "label": "화성 팔탄사용종료매립장 공법선정 공정성 논란",
-        "count": 1,
-        "sources": 1,
-        "first": "2026-11-24",
-        "last": "2026-11-24",
-        "cat": "환경",
-        "titles": [
-          "화성 팔탄사용종료매립장 공법선정 공정성 논란"
+          "【행감】 5탄 ▶ 화성시인재육성재단, 가처분 신청 후 확인된 배정수 사퇴서.."
         ],
         "score": 60,
         "state": "신규"
@@ -150759,8 +151838,8 @@
   "ops": {
     "runs": 100,
     "days": 34,
-    "since": "2026-10-22",
-    "last": "2026-11-24",
+    "since": "2026-10-23",
+    "last": "2026-11-25",
     "failures": 1,
     "span": 34,
     "skipped": 0
@@ -150778,19 +151857,19 @@
     "note": "팀원 다섯 명이 기사 100건을 나눠 검수한 결과. 겹친 구간에서 한 사람이라도 「틀림」이라 했으면 틀린 것으로 셌다. 너그럽게 세면 분야 95%·긍부정 87%가 된다."
   },
   "keyword_notes": {
-    "updated": "2026-11-24 15:54",
+    "updated": "2026-11-25 13:05",
     "window": "최근 30일",
     "items": {
-      "동탄": "230건의 높은 보도량 중 긍정 기사가 120건으로 대다수를 차지하나, [[w]]부정 기사 15건[[/w]]에서는 기업의 투자 실패와 지역 간 격차 심화 등이 지적되고 있어 산업경제 분야의 실질적 성과 관리가 필요합니다.",
-      "화성시": "행정 분야 69건 보도 중 긍정 기사 62건으로 호평받고 있으나, [[w]]부정 기사 4건[[/w]]은 모두 수원군공항 이전 반대 관련으로 시 차원의 일관된 입장이 뚜렷하게 보도되고 있습니다.",
-      "향남": "산업경제 분야에서 94건 보도되었으나 [[w]]부정 기사 4건[[/w]]에서 인프라 부족에 따른 주민 우려와 행정 구역 개편 추진 과정의 순차성 문제가 제기되고 있습니다.",
-      "AI": "긍정 기사 60건으로 [[b]]높은 호감도[[/b]]를 보이고 있으며, 의료·돌봄 분야의 실제 활용 사례들이 산업경제 분야 중심으로 보도되고 있습니다.",
-      "동탄트램": "교통 분야 66건 보도 중 긍정 기사 56건으로 [[b]]대체로 긍정적[[/b]] 반응이나, [[w]]부정 기사에서 사업 지연[[/w]]이 거론되어 추진 일정 관리가 중요합니다.",
-      "아크메르동탄": "부정 기사 없이 순수하게 산업경제 프로젝트로만 61건 보도되어, 화성시의 [[b]]산업 발전 뉴스로 꾸준히 보도[[/b]]되고 있는 상황입니다.",
-      "복지": "59건 전체가 복지 분야 뉴스로 부정 기사 없이 긍정 기사 55건으로 집계되어, [[b]]시의 복지 정책이 긍정적으로 평가[[/b]]받고 있습니다.",
-      "HLB제약": "52건의 산업경제 보도가 모두 긍정 기사로만 구성되어 있으며, [[b]]화성시의 바이오 산업 육성 성과[[/b]]를 대표하고 있습니다.",
-      "문화행사": "51건 모두 문화관광 분야 긍정 보도로, [[b]]지역 문화 행사가 언론과 시민의 주목[[/b]]을 받고 있음을 보여줍니다.",
-      "MARS2026": "49건 중 거의 전량이 긍정 기사로 보도되어, [[b]]산업경제 중심 글로벌 행사로서 높은 관심도[[/b]]를 유지하고 있습니다."
+      "동탄": "동탄은 222건의 기사 중 긍정 117건(52.7%)으로 [[b]]산업경제 분야에서 압도적 관심[[/b]]을 받고 있으나, [[w]]부정 기사 15건[[/w]]에서 대기업의 투자 연기와 지역 불균형 문제가 지적되고 있습니다.",
+      "화성시": "화성시 전체 115건 기사 중 [[b]]행정 분야가 66건(57.4%)으로 주도[[/b]]하며 긍정 평가가 높으나, [[w]]부정 기사 4건[[/w]]은 모두 수원 군공항 이전 반대 관련으로 시정 입장을 적극 홍보 중입니다.",
+      "향남": "향남은 92건 기사 중 [[b]]산업경제(65건)와 도시개발 뉴스[[/b]]가 중심이지만, [[w]]부정 기사 4건[[/w]]에서 동 전환 추진 시 인프라 확충을 먼저 준비해야 한다는 주민 요구가 반복되고 있습니다.",
+      "AI": "AI는 72건 기사 중 [[b]]긍정 평가 62건(86.1%)으로 가장 우호적인 반응[[/b]]을 보이고 있으며, 의료·돌봄 실증 사례 중심으로 보도되고 있습니다.",
+      "동탄트램": "동탄트램은 68건 기사 중 [[b]]긍정 56건(82.4%)으로 높은 호감도[[/b]]를 유지하고 있으나, [[w]]부정 기사 2건[[/w]]에서 사업 지연 문제가 지적되어 진행 상황 투명한 공개가 필요합니다.",
+      "복지": "복지는 60건 기사 모두 긍정으로만 보도되며 [[b]]부정 기사가 없는 유일한 분야[[/b]]로, 화성시 복지 정책이 언론에서 긍정적으로 평가받고 있습니다.",
+      "HLB제약": "HLB제약은 54건 기사 중 [[b]]긍정 평가 39건(72.2%)으로 긍정적 산업경제 뉴스[[/b]]를 생성하고 있으며, 부정 기사가 없는 호조 기업입니다.",
+      "MARS2026": "MARS2026은 49건 중 긍정 47건(95.9%)으로 [[b]]가장 높은 긍정률[[/b]]을 기록하고 있으며, 산업경제 중심의 성공적인 행사 보도가 이루어지고 있습니다.",
+      "교육": "교육은 47건 기사 중 [[b]]부정 기사가 없으며 긍정 평가는 29건(61.7%)[[/b]]으로, 문화관광과 교육이 복합적으로 다루어지고 있습니다.",
+      "아크메르동탄": "아크메르동탄은 46건의 산업경제 뉴스가 모두 중립 또는 긍정으로 보도되고 있으나, [[b]]긍정은 14건(30.4%)에 불과[[/b]]해 시장 평가가 아직 성숙 단계입니다."
     }
   }
 }
